@@ -1,0 +1,10 @@
+{
+    "name": "Omega Metal",
+    "description": "this Alloy is used for advanced transportation and Various structures.",
+    "cost": 7,
+    "hardness": 8,
+    "charge": 0.3,
+    "type": "material",
+    "color": "5DCBF3FF",
+    "research": "surge-alloy"
+}

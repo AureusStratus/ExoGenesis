@@ -1,0 +1,10 @@
+{    
+    "type": "material",
+    "Name": "Jupiteium",
+    "hardness": 6,
+    "radioactivity": 1,
+    "explosivness": 0.2,
+    "cost": 5,
+    "color": "51689CFF",
+    "research": "thorium"
+}

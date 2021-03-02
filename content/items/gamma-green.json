@@ -1,0 +1,10 @@
+{
+    "name": "Gamma Alloy",
+    "description": "used in Advanced repairing structures And and Special defenses",
+    "hardness": 8,
+    "cost": 7,
+    "radioactivity": 1.8,
+    "type": "material",
+    "color": "35B06EFF",
+    "research": "surge-alloy"
+}

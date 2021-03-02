@@ -1,0 +1,11 @@
+{
+    "name": "Sigma Iron",
+    "description": "a Highly Durable material that is Used in explosive and Piercing ammunition and Defensive structures",
+    "cost": 7,
+    "hardness": 8,
+    "flammability": 0.4,
+    "explosiveness": 0.6,
+    "type": "material",
+    "color": "E04031FF",
+    "research": "surge-alloy"
+}
