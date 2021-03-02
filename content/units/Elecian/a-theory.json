@@ -1,0 +1,51 @@
+{
+        "name": "theory",
+        "research": "MultiFactory",
+        "speed": 3,
+        "accel": 0.04,
+        "drag": 0.01,
+        "flying": true,
+        "health": 170,
+        "armor": 1,
+        "engineOffset": 5.5,
+        "range": 140,
+        "targetAir": false,
+        "commandLimit": 5,
+        "circleTarget": true,
+	    "weapons": [
+		{
+    "name": "surge-missile",
+    "shootCone": 15,
+    "mirror": false,
+    "top": true,
+    "x": 0,
+    "y": -1,
+    "reload": 18,
+    "shootSound": "missile",
+	"hitSound": "energyExplosion",
+    "recoil": 0.5,
+    "bullet": {
+    "type": "MissileBulletType",
+    "shootEffect": "shootHealYellow",
+    "damage": 25,
+    "speed": 3,
+	"frontColor": "F3E979FF",
+    "backColor": "ECD36FFF",
+    "trailColor": "ECD36FFF",
+    "lifetime": 45,
+    "unitDamageMultiplier": 0.01,
+  	"homingPower": 1,
+	"homingRange": 80,
+	"weaveScale": 5,			
+	"weaveMag": 2,
+	"splashDamageRadius": 10,
+	"splashDamage": 18,			
+    "lightning": 3,
+    "lightningDamage": 8,
+    "lightningLength": 5,
+    "lightningCone": 360,
+    "lightningLengthRand": 8
+			}
+		}
+	]
+}
