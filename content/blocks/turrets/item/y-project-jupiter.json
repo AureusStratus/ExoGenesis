@@ -1,0 +1,86 @@
+{
+    "type": "ItemTurret",
+    "name": "Project Jupiter",
+    "description": "[yellow]A large and powerful magnetically Accelerator railgun it launches projectiles with extreme force",
+    "health": 2500,
+    "size": 8,
+    "reload": 8660,
+	"cooldown": 10,
+    "range": 600,
+    "recoil": 7,
+    "shootShake": 5,
+    "ammoUseEffect": "none",
+    "inaccuracy": 0,
+    "shots": 1,
+    "spread": 0,
+    "rotatespeed": 0.89,
+    "shootSound": "explosionbig",
+	"ammoTypes": {
+        "thorium": {
+            "speed": 20,
+            "type":"BasicBulletType",
+            "damage": 360,
+            "width": 25,
+            "height": 30,
+            "shootEffect": "explosion",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosionBig",
+            "knockback": 8,
+            "ammoMultiplier": 3,
+            "pierce": false,
+            "hitSize": 8
+        },
+        "alpha-yellow": {
+            "type":"BasicBulletType",
+            "speed": 22,
+            "damage": 400,
+            "width": 25,
+            "height": 30,
+            "drag": 0.016,
+            "shootEffect": "explosion",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosionBig",
+            "knockback": 14,
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierceBuilding": true,
+            "pierceCap": 8,
+            "pierce": false,
+            "lightning": 10,
+            "lightningDamage": 10,
+            "lightningCone": 360,
+            "lightningLengthRand": 13,
+            "lightningLength": 18,
+            "collidesAir": true
+            }
+    },
+    "requirements": [
+        {
+            "item": "jupiteium",
+            "amount": 650
+        },
+        {
+            "item": "graphite",
+            "amount": 500
+        },
+        {
+            "item": "thorium",
+            "amount": 400
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 550
+        },
+        {
+            "item": "plastanium",
+            "amount": 450
+        },
+        {
+            "item": "alpha-yellow",
+            "amount": 725
+        }
+    ],
+    "category": "turret",
+    "research": "y-pulsaar"
+
+}

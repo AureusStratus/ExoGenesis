@@ -1,0 +1,13 @@
+{	
+	"type": "Wall",
+    "name": "Large Sigma wall",
+    "description": "an immensely dense wall that has a lot of health but takes a lot more materials to build",
+    "health": 12000,
+    "size": 2,
+    "requirements": [
+		{"item": "primal-red", "amount": 700},
+        {"item": "jupiteium", "amount": 650}
+    ],
+    "category": "defense",
+    "research": "o-large-primal-wall"
+}

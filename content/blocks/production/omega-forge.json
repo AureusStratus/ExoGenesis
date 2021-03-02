@@ -1,0 +1,38 @@
+{	
+    "name": "Atomic kiln",
+	"type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 150,
+	"flameColor": "79F2EEFF",
+	"craftEffect": "lightningShoot",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 10},
+				{"item": "plastanium", "amount": 10},
+				{"item": "surge-alloy", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "titanium", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "plastanium", "amount": 160},
+		{"item": "graphite", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "omega-blue",
+		"amount": 5
+	}
+}

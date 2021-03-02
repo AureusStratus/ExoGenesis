@@ -1,0 +1,37 @@
+{
+	"type": "Reconstructor",
+	"name": "Hyperius recontructor",
+	"description": "what did it cost?...",
+	"size": 9,
+	"constructTime": 2000,
+	"consumes": {
+		"power": 600,
+		"items": {
+			"items": [
+				{"item": "omega-blue", "amount": 1200},
+				{"item": "alpha-yellow", "amount":1200},
+				{"item": "primal-red", "amount": 1200},
+				{"item": "gamma-green", "amount": 1200},
+				{"item": "surge-alloy", "amount": 2520},
+				{"item": "phase-fabric", "amount": 2620},
+				{"item": "silicon", "amount": 3920},
+				{"item": "plastanium", "amount": 4780}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "phase-fabric", "amount": 850},
+		{"item": "plastanium", "amount": 680},
+	    {"item": "titanium", "amount": 750},
+		{"item": "silicon", "amount": 1200},
+		{"item": "surge-alloy", "amount": 1280}
+	],
+	"upgrades": [
+		["b-oort", "b-sirius"],
+		["radiative", "core"],
+		["4-helios", "5-prime"],
+		["d-enlightenment", "f-apotheosis"]
+	],
+	"category": "units",
+	"research": "mass-reconstructor"
+}

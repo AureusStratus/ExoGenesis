@@ -1,0 +1,30 @@
+{
+	"type": "Reconstructor",
+	"name": "Helixian Reconstructor",
+	"size": 3,
+	"constructTime": 600,
+	"consumes": {
+		"power": 210,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 80},
+				{"item": "graphite", "amount": 120},
+				{"item": "plastanium", "amount": 80}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "graphite", "amount": 150},
+		{"item": "silicon", "amount": 240},
+		{"item": "plastanium", "amount": 180},
+		{"item": "surge-alloy", "amount": 160}
+	],
+	"upgrades": [
+		["a-orion", "b-galileo"],
+		["sol", "corona"],
+		["1-arco", "2-falx"],
+		["a-theory", "b-hypothesis"]
+	],
+	"category": "units",
+	"research": "additive-reconstructor"
+}

@@ -1,0 +1,18 @@
+{ 
+    "type": "Wall",
+    "name": "Huge Nexus wall",
+    "description": "a very resistant wall that can deflect bullets back at the enemy",
+    "deflect": true,
+    "deflectSound": "sap",
+    "chanceDeflect": 30.0,
+    "flashHit": true,
+    "flashColor": "79F2EEFF",
+    "health": 8400,
+    "size": 3,
+    "requirements": [
+        {"item": "omega-blue", "amount": 358},
+        {"item": "phase-fabric", "amount": 98}
+    ],
+    "category": "defense",
+    "research": "b-large-nexus-wall"
+}

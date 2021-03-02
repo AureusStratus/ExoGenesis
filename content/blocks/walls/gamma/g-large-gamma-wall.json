@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "description": "a tough wall that has abortion properties",
+    "name": "Large gamma wall",
+    "health": 6800,
+    "size": 2,
+    "insulated": true,
+    "absorbLaser": true,
+    "requirements": [
+		    {"item": "gamma-green", "amount": 198},
+            {"item": "plastanium", "amount": 36}
+    ],
+    "category": "defense",
+    "research": "g-gamma-wall"
+}

@@ -1,0 +1,55 @@
+{
+"type": "UnitFactory",
+"description": "can create different unit types",
+"name": "Multi factory",
+"size": 3,
+"consumes": {
+"power": 60
+},
+"plans": [
+  {
+    "unit": "a-orion",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 50},
+		{"item": "omega-blue", "amount": 10}
+       ],
+    "time": 400
+  },
+ {
+    "unit": "sol",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "thorium", "amount": 50},
+		{"item": "primal-red", "amount": 10}
+       ],
+    "time": 580
+  },
+ {
+    "unit": "1-arco",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "metaglass", "amount": 50},
+		{"item": "gamma-green", "amount": 10}
+       ],
+    "time": 540
+  },
+  {
+    "unit": "a-theory",
+    	"requirements": [
+		{"item": "lead", "amount": 30},
+		{"item": "silicon", "amount": 25},
+		{"item": "alpha-yellow", "amount": 10}
+    ],
+    "time": 480
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "jupiteium", "amount": 380},
+	{"item": "plastanium", "amount": 180},
+	{"item": "surge-alloy", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}

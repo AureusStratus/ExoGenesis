@@ -1,0 +1,48 @@
+{
+	"type": "ImpactReactor",
+	"name": "Atomic Collapser",
+	"description": "uses extreme amounts of gravitational energy to collapse jupiteium and alpha Chunks in to a singularity to generate power [red] warning keep far away from cores or important defenses",
+	"health": 1200,
+	"itemCapacity": 200,
+	"size": 5,
+	"lightColor": "EBFFFEFF",
+	"baseExplosiveness": 900000,
+    "explosionRadius": 400,
+    "explosionDamage": 100000,
+	"hasLiquids": true,
+	"powerProduction": 270,
+	"warmupSpeed": 0.001,
+	"itemDuration": 380,
+	"generateEffect": "absorb",
+	"plasma0": "EC905AFF",
+	"plasma1": "D99F6BFF",
+	"plasma2": "EC905AFF",
+	"plasma3": "D99F6BFF",
+	"consumes": {
+		"power": 80.0,
+		"items": {
+			"items": [
+				{"item": "jupiteium", "amount": 15},
+				{"item": "alpha-yellow", "amount": 15}
+			]
+	},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 1000 },
+		{ "item": "omega-blue", "amount": 300 },
+		{ "item": "silicon", "amount": 1290 },
+		{ "item": "metaglass", "amount": 470 },
+		{ "item": "titanium", "amount": 780 },
+		{ "item": "alpha-yellow", "amount": 600 }
+	],
+	"category": "power",
+    "activeSound": "laserCharge",
+    "activeSoundVolume": 1.0,
+	"research": "impact-reactor",
+	"idleSound": "pulse",
+	"idleSoundVolume": 2.85
+}

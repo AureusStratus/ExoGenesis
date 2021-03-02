@@ -1,0 +1,19 @@
+{ 
+    "type": "Wall",
+    "description": "a very resistant wall that can deflect bullets back at the enemy",
+    "name": "Nexus wall",
+    "deflectSound": "sap",
+    "deflect": true,
+    "chanceDeflect": 30.0,
+    "flashHit": true,
+    "flashColor": "79F2EEFF",
+    "health": 2800,
+    "size": 1,
+    "requirements": [
+        {"item": "omega-blue", "amount": 146},
+        {"item": "phase-fabric", "amount": 78}
+         
+    ],
+    "category": "defense",
+    "research": "surge-wall"
+}

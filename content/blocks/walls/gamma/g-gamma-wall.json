@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "description": "a tough wall that has abortion properties",
+    "name": "Gamma wall",
+    "health": 2900,
+    "size": 1,
+    "insulated": true,
+    "absorbLaser": true,
+    "requirements": [
+		    {"item": "gamma-green", "amount": 108},
+            {"item": "plastanium", "amount": 26}
+    ],
+    "category": "defense",
+    "research": "surge-wall"
+}

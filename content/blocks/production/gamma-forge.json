@@ -1,0 +1,38 @@
+{	
+    "name": "Gamma radiation forge",
+	"type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 150,
+	"flameColor": "DBFFBDFF",
+	"craftEffect": "healWave",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "plastanium", "amount": 10},
+				{"item": "surge-alloy", "amount": 10},
+				{"item": "thorium", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "plastanium", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "titanium", "amount": 160},
+		{"item": "graphite", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "gamma-green",
+		"amount": 5
+	}
+}

@@ -1,0 +1,38 @@
+{	
+    "name": "Nuclear fusion furnace",
+    "type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 150,
+	"flameColor": "F66332FF",
+	"craftEffect": "massiveExplosion",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "blast-compound", "amount": 10},
+				{"item": "surge-alloy", "amount": 10},
+				{"item": "graphite", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "titanium", "amount": 160},
+		{"item": "plastanium", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "primal-red",
+		"amount": 5
+	}
+}

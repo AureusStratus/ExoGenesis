@@ -1,0 +1,62 @@
+{
+    "name": "Polaris",
+    "description": "[blue]a magnetically accelerated railgun that primarily uses omega alloy and shot it at devastating speeds at enemies",
+	"type": "ItemTurret",
+	"size": 4,
+	"health": 850,
+	"maxAmmo": 150,
+	"ammoPerShot" : 50,
+	"reloadTime": 250,
+	"range": 700,
+	"lifetime": 5,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"recoilAmount" : 15,
+	"shootShake" : 12,
+	"inaccuracy": 0,
+	"restitution" : 0.1,
+	"rotatespeed": 0.6,
+	"shootSound" : "railgun",
+
+	"ammoTypes":	{
+		"omega-blue": {
+			"type" : "pointBulletType",
+			"damage": 2150,
+			"length" : 5000,
+			"width" : 15,
+			"ammoMultiplier": 3,
+			"pierce": true,
+			"collidesTiles" : false,
+			"hitTiles" : false,
+			"tileDamageMultiplier": 0.4,
+			"pierceEffect" : "railHit",
+			"updateEffect" : "railTrail",
+			"hitEffect" : "instHit",
+            "trailEffect": "instTrail",
+            "trailSpacing": 15,
+			"pierceDamageFactor" : 20.0,
+			"fragBullets": 10,
+			"fragBullet": {
+				"type": "BasicBulletType",
+				"status" : "melting",
+				"lifetime": 120,
+				"speed": 0.5,
+				"damage" : 1500,
+				"frontColor": "75F9F9FF",
+				"backColor": "4887CDFF"
+			}
+		}
+	},
+	"consumes" : {
+		"power": 60
+			},
+	"requirements": [
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "omega-blue", "amount": 300 },
+		{ "item": "silicon", "amount": 1000 },
+		{ "item": "surge-alloy", "amount": 290 },
+		{ "item": "metaglass", "amount": 500 }
+	],
+	"category": "turret",
+	"research": "foreshadow"
+}
