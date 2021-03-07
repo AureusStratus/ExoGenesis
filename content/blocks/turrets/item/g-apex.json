@@ -120,7 +120,7 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 1250 },
-		{ "item": "graphite", "amount": 400},
+		{ "item": "osmium", "amount": 400},
 		{ "item": "silicon", "amount": 700},
 		{ "item": "plastanium", "amount": 400},
 		{ "item": "surge-alloy", "amount": 600},
