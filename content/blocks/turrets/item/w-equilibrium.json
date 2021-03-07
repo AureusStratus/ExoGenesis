@@ -159,7 +159,7 @@
 		{ "item": "gamma-green", "amount": 1200},
 		{ "item": "phase-fabric", "amount": 4000},
 		{ "item": "titanium", "amount": 5000},
-		{ "item": "graphite", "amount": 4300}
+		{ "item": "osmium", "amount": 4300}
 	],
 	"category": "turret",
 	"research": "foreshadow"
