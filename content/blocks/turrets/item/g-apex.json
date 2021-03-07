@@ -121,9 +121,9 @@
 	"requirements": [
 		{ "item": "lead", "amount": 1250 },
 		{ "item": "osmium", "amount": 400},
+		{ "item": "xanium", "amount": 600},
 		{ "item": "silicon", "amount": 700},
 		{ "item": "plastanium", "amount": 400},
-		{ "item": "surge-alloy", "amount": 600},
 		{ "item": "gamma-green", "amount": 650}
 	],
 	"category": "turret",
