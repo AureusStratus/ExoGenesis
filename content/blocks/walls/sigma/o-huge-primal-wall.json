@@ -6,7 +6,7 @@
     "size": 3,
     "requirements": [
 		{"item": "primal-red", "amount": 900},
-        {"item": "jupiteium", "amount": 800}
+        {"item": "osmium", "amount": 800}
     ],
     "category": "defense",
     "research": "o-large-primal-wall"
