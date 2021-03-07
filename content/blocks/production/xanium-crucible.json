@@ -1,0 +1,37 @@
+{	
+    "name": "Xanium crucible",
+    "type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 170,
+	"flameColor": "DEFFCFFF",
+	"craftEffect": "heal",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "surge-alloy", "amount": 8},
+				{"item": "plastanium", "amount": 12}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 360},
+		{"item": "lead", "amount": 380},
+		{"item": "metaglass", "amount": 140},
+		{"item": "phase-fabric", "amount": 160},
+		{"item": "plastanium", "amount": 300}
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "xanium",
+		"amount": 2
+	}
+}

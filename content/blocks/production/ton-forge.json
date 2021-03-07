@@ -1,0 +1,38 @@
+{	
+    "name": "Ton forge",
+    "description": "metals together materials under tons of pressure to create a really dense metal",
+	"type": "GenericSmelter",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 250,
+	"flameColor": "E3EFF2FF",
+	"craftEffect": "shockwave",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 15},
+				{"item": "titanium", "amount": 8},
+				{"item": "lead", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "titanium", "amount": 260},
+		{"item": "thorium", "amount": 140},
+		{"item": "graphite", "amount": 230}
+	],
+	"category": "crafting",
+	"research": "silicon-crucible",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "osmium",
+		"amount": 6
+	}
+}

@@ -1,0 +1,37 @@
+{	
+    "name": "Fission furnace",
+    "description": "uses the odd property of phase fabric to cause a fission reaction between the phase fabric and titanium to create a very strange metalic material",
+	"type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 120,
+	"flameColor": "E9C9FFFF",
+	"craftEffect": "sapExplosion",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{"item": "phase-fabric", "amount": 10},
+				{"item": "titanium", "amount": 8}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "plastanium", "amount": 190},
+		{"item": "metaglass", "amount": 140},
+		{"item": "titanium", "amount": 270}
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"idleSound": "smelter",
+	"idleSoundVolume": 0.5,
+	"outputItem": {
+		"item": "quantux",
+		"amount": 3
+	}
+}
