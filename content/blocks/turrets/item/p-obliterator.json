@@ -69,7 +69,7 @@
 			}
 		},
 		
-		"jupiteium": {
+		"azuid-azide": {
 			"type": "BombBulletType",
 			"speed": 0,
 			"bulletWidth": 0,
