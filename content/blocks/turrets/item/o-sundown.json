@@ -98,7 +98,7 @@
         },
 	"requirements": [
 		{ "item": "silicon", "amount": 720 },
-		{ "item": "thorium", "amount": 380 },
+		{ "item": "osmium", "amount": 480 },
 		{ "item": "jupiteium", "amount": 290},
 		{ "item": "titanium", "amount": 670 },
 		{ "item": "surge-alloy", "amount": 670 },
