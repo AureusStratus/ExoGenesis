@@ -4,7 +4,7 @@
     "description": "[yellow]A large and powerful magnetically Accelerator railgun it launches projectiles with extreme force",
     "health": 2500,
     "size": 8,
-    "reload": 8660,
+    "reloadTime": 50,
 	"cooldown": 10,
     "range": 600,
     "recoil": 7,
