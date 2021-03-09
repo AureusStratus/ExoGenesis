@@ -3,7 +3,7 @@
     "description": "[blue]the Sirius is final upgrade to the orion line is posses a much more powerful and longer laser beam and it has 2 lancer laser and 2  laser bolt guns and ay larger shield",
     "research": "b-oort",
     "type": "legs",
-	"speed": 0.35,
+	"speed": 0.30,
 	"hitSize": 48,
 	"health": 21000,
 	"armor": 20,
@@ -77,7 +77,7 @@
     "bullet": {
     "type": "ContinuousLaserBulletType",
     "damage": 260,
-    "length": 220,
+    "length": 240,
     "hitEffect": "lancerLaserCharge",
     "drawSize": 420,
     "lifetime": 200,
@@ -137,8 +137,8 @@
         {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
             "radius": 90,
-            "regen": 16,
-            "max": 6800,
+            "regenmax": 8,
+            "max": 4800,
             "cooldown": 160
             }
         ]
