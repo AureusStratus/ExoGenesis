@@ -144,8 +144,8 @@
             "status": {
               "name": "quantum",
               "effect": "sapped",
-              "speedMultiplier": 0.1,
-              "reloadMultiplier": 0.1,
+              "speedMultiplier": 0.58,
+              "reloadMultiplier": 0.34,
               "damageMultiplier": 0.75
             }
          }
