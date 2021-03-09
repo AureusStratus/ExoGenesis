@@ -1,0 +1,28 @@
+{
+"type": "DecayGenerator",
+"name": "Mass decay plant",
+"description": "ay larger version of the rtg generator capable of generator as much power as four rtgs",
+"health": 400,
+"size": 4,
+"powerProduction": 18.5,
+"hasItems": true,
+"itemCapacity": 10,
+"itemDuration": 440,
+"randomlyExplode": false,
+"generateEffect": "smelt",
+"heatColor": "FF7141FF",
+"minItemEfficiency": 0.1,
+	"requirements": [
+		{ "item": "thorium", "amount": 500 },
+		{ "item": "silicon", "amount": 690 },
+		{ "item": "phase-fabric", "amount": 670 },
+		{ "item": "osmium", "amount": 780 },
+		{ "item": "plastanium", "amount": 600 }
+],
+"category": "power",
+"research": "rtg-generator",
+"loopSound": "hum",
+"loopSoundVolume": 1.95,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.25
+}
