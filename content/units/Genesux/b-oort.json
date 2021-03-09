@@ -137,8 +137,8 @@
         {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
             "radius": 60,
-            "regen": 15,
-            "max": 3500,
+            "regen": 5,
+            "max": 2500,
             "cooldown": 220
             }
     ]
