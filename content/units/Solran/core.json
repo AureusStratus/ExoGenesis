@@ -14,7 +14,7 @@
 "singleTarget": true,
 "speed": 0.28,
 "health": 26400,
-"range": 180,
+"range": 120,
 "immunities": [
 		"burning",
 		"melting"
