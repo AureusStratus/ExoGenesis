@@ -5,7 +5,7 @@
     "health": 2900,
     "size": 1,
     "insulated": true,
-    "absorbLaser": true,
+    "absorbLasers": true,
     "requirements": [
 		    {"item": "gamma-green", "amount": 108},
             {"item": "plastanium", "amount": 26}
