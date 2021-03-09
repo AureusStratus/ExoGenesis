@@ -3,7 +3,7 @@
     "description": "[blue] the oort is a walking meltdown with it having a built in weapon just like the vela but although there both share some similar the oort has two extra lancer laser guns and ay shield also whenever it fires its main weapon the extreme heat and energy makes its fuel cells glow brightly",
     "research": "b-kuiper",
     "type": "legs",
-	"speed": 0.40,
+	"speed": 0.37,
 	"hitSize": 23,
 	"health": 12000,
 	"faceTarget": true,
