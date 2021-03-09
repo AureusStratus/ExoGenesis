@@ -8,14 +8,14 @@
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 440},
-				{"item": "metaglass", "amount": 140},
+				{"item": "osmium", "amount": 140},
 				{"item": "plastanium", "amount": 380},
 				{"item": "thorium", "amount": 250}
 			]
 		}
 	},
 	"requirements": [
-		{"item": "lead", "amount": 350},
+		{"item": "osmium", "amount": 350},
 		{"item": "silicon", "amount": 180},
 		{"item": "metaglass", "amount": 280},
 		{"item": "surge-alloy", "amount": 100}
