@@ -33,7 +33,7 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 1000 },
-		{ "item": "omega-blue", "amount": 300 },
+		{ "item": "osmium", "amount": 700 },
 		{ "item": "silicon", "amount": 1290 },
 		{ "item": "metaglass", "amount": 470 },
 		{ "item": "titanium", "amount": 780 },
