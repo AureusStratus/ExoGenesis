@@ -13,13 +13,13 @@
     "inaccuracy": 0,
     "shots": 1,
     "spread": 0,
-    "rotatespeed": 0.89,
+    "rotateSpeed": 0.89,
     "shootSound": "explosionbig",
 	"ammoTypes": {
         "thorium": {
             "speed": 20,
             "type":"BasicBulletType",
-            "damage": 360,
+            "damage": 660,
             "width": 25,
             "height": 30,
             "shootEffect": "explosion",
@@ -33,7 +33,7 @@
         "alpha-yellow": {
             "type":"BasicBulletType",
             "speed": 22,
-            "damage": 400,
+            "damage": 970,
             "width": 25,
             "height": 30,
             "drag": 0.016,
