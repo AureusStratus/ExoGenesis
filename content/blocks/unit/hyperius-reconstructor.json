@@ -15,14 +15,14 @@
 				{"item": "surge-alloy", "amount": 2520},
 				{"item": "phase-fabric", "amount": 2620},
 				{"item": "silicon", "amount": 3920},
-				{"item": "plastanium", "amount": 4780}
+				{"item": "xanium", "amount": 4780}
 			]
 		}
 	},
 	"requirements": [
 		{"item": "phase-fabric", "amount": 850},
 		{"item": "plastanium", "amount": 680},
-	    {"item": "titanium", "amount": 750},
+	        {"item": "osmium", "amount": 750},
 		{"item": "silicon", "amount": 1200},
 		{"item": "surge-alloy", "amount": 1280}
 	],
