@@ -16,7 +16,7 @@
     "inaccuracy": 0,
     "shots": 1,
     "spread": 0,
-    "rotatespeed": 0.69,
+    "rotateSpeed": 1.4,
     "shootSound": "explosionbig",
 	"ammoTypes": {
         "jupiteium": {
