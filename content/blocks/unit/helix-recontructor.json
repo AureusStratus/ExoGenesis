@@ -14,7 +14,7 @@
 		}
 	},
 	"requirements": [
-		{"item": "graphite", "amount": 150},
+		{"item": "osmium", "amount": 150},
 		{"item": "silicon", "amount": 240},
 		{"item": "plastanium", "amount": 180},
 		{"item": "surge-alloy", "amount": 160}
