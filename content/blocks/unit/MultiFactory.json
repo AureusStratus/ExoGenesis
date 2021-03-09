@@ -20,7 +20,7 @@
     "unit": "sol",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "thorium", "amount": 50},
+		{"item": "osmium", "amount": 50},
 		{"item": "primal-red", "amount": 10}
        ],
     "time": 580
@@ -46,7 +46,7 @@
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "jupiteium", "amount": 380},
+	{"item": "osmium", "amount": 380},
 	{"item": "plastanium", "amount": 180},
 	{"item": "surge-alloy", "amount": 160}
 ],
