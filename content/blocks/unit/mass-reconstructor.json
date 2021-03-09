@@ -9,7 +9,7 @@
 			"items": [
 				{"item": "silicon", "amount": 1380},
 				{"item": "surge-alloy", "amount": 1890},
-                {"item": "phase-fabric", "amount": 1300},
+                                {"item": "phase-fabric", "amount": 1300},
 				{"item": "plastanium", "amount": 1820},
 				{"item": "titanium", "amount": 1580}
 			]
@@ -18,7 +18,7 @@
 	"requirements": [
 		{"item": "lead", "amount": 850},
 		{"item": "plastanium", "amount": 580},
-	    {"item": "graphite", "amount": 650},
+	        {"item": "osmium", "amount": 650},
 		{"item": "silicon", "amount": 480},
 		{"item": "surge-alloy", "amount": 380}
 	],
