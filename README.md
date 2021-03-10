@@ -1,9 +1,9 @@
 # Exogenesis
-A mod that adds a lot more content to the game
-<br>I just hope you guys Enjoy my mod
+A mod that adds a lot more content to the game.
+<br>I just hope you guys enjoy my mod.
 
 
-## The mod add: 
+## The mod adds: 
 `Items`: 9
 <br>`Blocks`: 51
 <br>`Turrets`: 20
