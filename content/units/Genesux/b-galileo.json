@@ -9,7 +9,7 @@
 	"armor": 7,
 	"drag": 0.4,
 	"faceTarget": true,
-	"range": 480,
+	"range": 180,
 	"flying": false,
 	"targetAir": true,
 	"rotatespeed": 0.06,
