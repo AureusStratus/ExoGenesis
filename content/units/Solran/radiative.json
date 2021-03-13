@@ -13,7 +13,7 @@
 "singleTarget": true,
 "speed": 0.30,
 "health": 17000,
-"range": 120,
+"range": 155,
 "immunities": [
 		"burning"
 		],
