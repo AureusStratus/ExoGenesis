@@ -7,7 +7,7 @@
 "speed": 0.5,
 "flying": false,
 "health": 590,
-"range": 120,
+"range": 50,
 "immunities": [
 		"burning"
 		],
