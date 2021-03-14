@@ -1,0 +1,37 @@
+{
+	"type": "Reconstructor",
+	"name": "Ravthian recontructor",
+	"description": "what did it cost?...",
+	"size": 11,
+	"constructTime": 3000,
+	"consumes": {
+		"power": 800,
+		"items": {
+			"items": [
+				{"item": "omega-blue", "amount": 1200},
+				{"item": "alpha-yellow", "amount":1200},
+				{"item": "primal-red", "amount": 1200},
+				{"item": "gamma-green", "amount": 1200},
+				{"item": "osmium", "amount": 1290},
+				{"item": "xanium", "amount": 1450},
+				{"item": "surge-alloy", "amount": 2520},
+				{"item": "phase-fabric", "amount": 2620},
+				{"item": "silicon", "amount": 3920},
+				{"item": "plastanium", "amount": 4780}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "phase-fabric", "amount": 1250},
+		{"item": "osmium", "amount": 1167},
+		{"item": "plastanium", "amount": 1280},
+	    {"item": "titanium", "amount": 950},
+		{"item": "silicon", "amount": 1200},
+		{"item": "surge-alloy", "amount": 1280}
+	],
+	"upgrades": [
+		["b-sirius", "b-rigel"]
+	],
+	"category": "units",
+	"research": "hyperius-reconstructor"
+}
