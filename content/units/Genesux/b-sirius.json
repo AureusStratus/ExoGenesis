@@ -1,0 +1,161 @@
+{
+    "name": "Sirius",
+    "description": "[blue]the Sirius is final upgrade to the orion line is posses a much more powerful and longer laser beam and it has 2 lancer laser and 2  laser bolt guns and ay larger shield",
+    "research": "b-oort",
+    "type": "legs",
+	"speed": 0.35,
+	"hitSize": 29,
+	"health": 18000,
+	"armor": 20,
+	"drag": 0.2,
+	"range": 220,
+	"flying": false,
+	"targetAir": true,
+	"rotatespeed": 1.5,
+	"legCount": 4,
+    "legMoveSpace": 1.3,
+    "legLength": 16,
+    "legBaseOffset": 11,
+    "legTrns": 0.62,
+    "landShake": 2.0,
+    "legSpeed": 0.2,
+    "rippleScale": 2.8,
+    "legSplashDamage": 56,
+    "legSplashRange": 30,
+	"visualElevation": 0.75,
+	"allowLegStep": true,
+	"hovering": true,
+	"immunities": [
+		"burning", 
+		"melting",
+		"freezing"
+	],
+	"weapons": [
+	 {
+    "name": "bolter",
+    "shootCone": 15,
+    "mirror": true,
+    "x": 12.5,
+    "y": -2,
+    "reload": 10,
+    "shootSound": "sap",
+    "recoil": 0.5,
+    "bullet": {
+    "type": "LaserBoltBulletType",
+    "shootEffect": "lightningShoot",
+    "damage": 23,
+    "speed": 6,
+    "frontColor": "79F2EEFF",
+    "backColor": "74C2E8FF",
+    "lifetime": 45
+    }
+	},
+  {
+    "name": "laserbolt",
+    "reload": 50,
+    "mirror": true,
+    "x": 7,
+    "y": -2,
+    "shootY": 3,
+    "recoil": 1.5,
+    "shake": 1,
+    "rotate": true,
+    "shootSound": "laser",
+    "rotateSpeed": 10,
+    "shootCone": 45,
+			"bullet": {
+              "type": "LaserBulletType",
+              "length": 180,
+              "width": 10,
+              "damage": 130,
+              "hitColor": "79F2EEFF",
+              "shootEffect": "lightningShoot",
+              "hitEffect": "lightningShoot",
+              "colors":["74C2E8FF", "79F2EEFF", "FFFFFF"],
+              "sideAngle": 25,
+              "sideLength": 32,
+              "sideWidth": 1
+	       }
+	    },
+{
+ "name": "b-sirius-weapon",
+  "x": 0,
+  "y": 0,
+  "mirror": false,
+  "top": false,
+  "shake": 1,
+  "shootY": 11,
+  "reload": 240,
+  "recoil": 0,
+  "chargeSound": "lasercharge2",
+    "shootSound": "beam",
+    "continuous": true,
+    "cooldownTime": 250,
+    "firstShotDelay": 39,
+    "bullet": {
+    "type": "ContinuousLaserBulletType",
+    "damage": 260,
+    "length": 220,
+    "hitEffect": "lancerLaserCharge",
+    "drawSize": 420,
+    "lifetime": 200,
+    "shake": 4,
+    "despawnEffect": "smokeCloud",
+    "smokeEffect": "none",
+    "incendChance": 0.18,
+    "incendSpread": 5,
+    "incendAmount": 1,
+    "colors":["74C2E8FF", "79F2EEFF", "FFFFFF"],
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "rotation": 2.5,
+    "sides": 0,
+    "sizeFrom": 0,
+    "sizeTo": 60,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "79F2EEFF",
+    "colorTo": "FFFFFF"
+    },
+    {
+  "type": "ParticleEffect",
+        "particles": 65,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "length": 60,
+        "lifetime": 28,
+        "colorFrom": "79F2EEFF",
+        "colorTo": "FFFFFF",
+        "cone": 360
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "rotation": 2.5,
+    "sides": 0,
+    "sizeFrom": 0,
+    "sizeTo": 80,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "79F2EEFF",
+    "colorTo": "FFFFFF"
+          }
+        ]
+      }
+    }
+  }
+     ],
+    "abilities": [
+        {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 90,
+            "regen": 16,
+            "max": 6800,
+            "cooldown": 160
+            }
+        ]
+}
