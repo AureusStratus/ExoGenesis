@@ -1,0 +1,58 @@
+{
+"name": "Affliction",
+"type": "ItemTurret",
+"size": 7,
+"health": 1400,
+"range": 380,
+"reloadTime": 30,
+"shootSound": "laser",
+"rotateSpeed": 1,
+"shootCone": 20,
+"shootShake": 1.5,
+"cooldown": 0.03,
+"shots": 3,
+"targetAir": true,
+"targetGround": true,
+"heatColor": "5B4CB0FF",
+"recoilAmount": 4,
+"buildVisibility": "shown",
+"ammoTypes": {
+    "quantux": {
+  "type": "LaserBulletType",
+  "colors": ["BF92F9FF", "665C9FFF", "000000FF"],
+  "length": 390,
+  "width": 23,
+  "damage": 458,
+  "lightColor": "BF92F9FF",
+  "lightRadius": 10,
+  "shootEffect": "sapExplosion",
+  "smokeEffect": "smokeCloud",
+  "sideAngle": 25,
+  "sideWidth": 0,
+  "sideLength": 0,
+  "lightning": 3,
+  "lightningColor": "BF92F9FF",
+  "lightningDamage": 16,
+  "lightningLength": 29,
+  "lightningCone": 20,
+  "lightningLengthRand": 13,
+  "status": {
+              "name": "quantux-burn",
+              "damage": 15,
+              "effect": "sapped",
+              "speedMultiplier": 0.52,
+              "reloadMultiplier": 0.30,
+              "damageMultiplier": 0.70
+    }
+  }
+},
+    "requirements": [
+        { "item": "surge-alloy", "amount": 580 },
+        { "item": "thorium", "amount": 460 },
+		{ "item": "osmium", "amount": 850 },
+		{ "item": "silicon", "amount": 600 },
+		{ "item": "quantux", "amount": 430 }
+    ],
+    "category": "turret",
+    "research": "o-breakthrough"
+}
