@@ -69,7 +69,7 @@
   "shots": 3,
   "shotDelay": 5,
   "inaccuracy": 5,
-  "shootStatus": "slowed",
+  "shootStatus": "slow",
   "shootStatusDuration": 130,
   "firstShotDelay": 20,
   "chargeTime": 60,
