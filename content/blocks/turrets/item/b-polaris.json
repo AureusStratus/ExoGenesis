@@ -20,7 +20,7 @@
 
 	"ammoTypes":	{
 		"omega-blue": {
-			"type" : "pointBulletType",
+			"type" : "railBulletType",
 			"damage": 2150,
 			"length" : 5000,
 			"width" : 15,
