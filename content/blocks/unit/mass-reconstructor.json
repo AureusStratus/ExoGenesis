@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name": "mass recontructor",
+	"name": "Mass Recontructor",
 	"size": 7,
 	"constructTime": 1500,
 	"consumes": {
