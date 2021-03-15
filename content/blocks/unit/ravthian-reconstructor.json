@@ -30,7 +30,8 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
-		["b-sirius", "b-rigel"]
+		["b-sirius", "b-rigel"],
+		["core", "proxima"]
 	],
 	"category": "units",
 	"research": "hyperius-reconstructor"
