@@ -1,5 +1,5 @@
 {
-    "name": "Weld",
+    "localizedName": "Weld",
     "type": "ItemTurret",
     "description": "[orange]an upgraded fuse it shoost one extra blast and uses much powerful ammunition",
 	"reloadTime": 35,
@@ -13,13 +13,13 @@
 	"shots": 4,
 	"shootSound": "shotgun",
 	"ammoPerShot": 4,
-    "shootShake": 4,
     "recoilAmount": 2,
 	"ammoTypes": {
         "surge-alloy": {
             "speed": 0.01,
             "status": "shocked",	
 			"statusDuration": "1200",
+            "shootShake": 4,
             "damage": 300,
             "width": 18,
             "pierce": "true",
@@ -43,6 +43,7 @@
             "damage": 250,
 			"status": "burning",
 			"statusDuration": "1200",
+            "shootShake": 4,
             "width": 18,
             "pierce": "true",
             "type": "ShrapnelBulletType",

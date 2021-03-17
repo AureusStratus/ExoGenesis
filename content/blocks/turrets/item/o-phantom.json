@@ -1,5 +1,5 @@
 {
-	"name": "Phantom",
+	"localizedName": "Phantom",
 	"type": "itemTurret",
 	"description": "[orange]shoots powerfull bullets that can shock, burn, and slow enemy targets",
 	"health": 1900,

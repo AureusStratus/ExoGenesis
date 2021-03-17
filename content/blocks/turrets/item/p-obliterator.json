@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Obliterator",
+	"localizedName": "Obliterator",
 	"description": "[purple]a turret that will obliterate any groups of enemys and push back the bigger ones",
 	"health": 400,
 	"size": 4,

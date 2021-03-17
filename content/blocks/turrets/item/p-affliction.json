@@ -1,5 +1,5 @@
 {
-"name": "Affliction",
+"localizedName": "Affliction",
 "type": "ItemTurret",
 "size": 7,
 "health": 1400,

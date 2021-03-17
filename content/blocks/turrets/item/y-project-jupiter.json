@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "name": "Project Jupiter",
+    "localizedName": "Project Jupiter",
     "description": "[yellow]A large and powerful magnetically Accelerator railgun it launches projectiles with extreme force",
     "health": 2500,
     "size": 8,

@@ -1,0 +1,38 @@
+{
+    "type": "PowerTurret",
+    "localizedName": "Discharge",
+    "description": "[green]discharges green lightning that corrodes The enemy.",
+    "targetAir": true,
+    "targetGround": true,
+    "hasPower": true,
+	"powerUse": 20,
+    "health": 2500,
+    "size": 3,
+    "inaccuracy": 0,
+    "reloadTime": 15,
+	"shots": 6,
+    "recoilAmount": 4,
+    "shootCone": 2,
+    "rotateSpeed": 5,
+    "range": 120,
+    "shootEffect": "hitMeltHeal",
+    
+	"shootType": {
+		"type": "LightningBulletType",
+		"status": "corroded",
+		"lightningColor": "82FF93FF",
+		"lightningCone": 1,
+		"damage": 48,
+        "lightningLength": 30,
+        "collidesAir": true
+	},
+    "requirements": [
+        { "item": "lead", "amount": 650 },
+        { "item": "silicon", "amount": 240},
+        { "item": "plastanium", "amount": 340},
+        { "item": "gamma-green", "amount": 100}
+    ],
+    "category": "turret",
+    "shootSound": "spark",
+	"research": "arc"
+}

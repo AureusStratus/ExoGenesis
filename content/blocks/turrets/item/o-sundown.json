@@ -1,7 +1,7 @@
  {
 	"type": "ItemTurret",
 	"description": "[red]a massive laser cannon that super chargers its ammunition to the point of fusion and then realses it in the form of a devastating laser",
-	"name": "Aftershock",
+	"localizedName": "Aftershock",
 	"size": 8,
 	"health": 8660,
 	"range": 410,

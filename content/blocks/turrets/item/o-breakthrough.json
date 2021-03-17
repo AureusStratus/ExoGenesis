@@ -1,0 +1,49 @@
+{
+	"type": "LaserTurret",
+	"localizedName": "BreakThrough",
+	"description": "[orange]a much more powerful upgrade to the meltdown",
+	"size": 5,
+	"health": 180,
+	"reloadTime": 180,
+	"range": 260,
+	"shots" : 1,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 40,
+	"spread" : 4,
+	"powerUse": 23,
+    "coolantMultiplier": 1.6,
+    "update": true,
+    "hasPower": true,
+    "shootEffect": "shootBigSmoke2",
+    "shootShake": 4,
+    "firingMoveFract": 0.5,
+    "shootDuration": 390,
+    "shootSound": "laserbig",
+	"recoilAmount" : 1.5,
+	"restitution" : 0.04, 
+	"rotateSpeed": 8,
+	
+	"shootType" : {
+      "type": "ContinuousLaserBulletType",
+      "colors": ["E04031FF", "B7FF7CFF", "FF8E38FF", "ffffff"],
+      "damage": 290,
+      "length": 260,
+      "hitEffect": "hitMeltdown",
+      "continuous": true,
+      "drawSize": 180,
+      "incendChance": 10,
+      "incendSpread": 7,
+      "incendAmount": 4
+	},
+
+	"requirements": [
+		{ "item": "titanium", "amount": 400},
+		{ "item": "surge-alloy", "amount": 600},
+		{ "item": "graphite", "amount": 400},
+		{ "item": "silicon", "amount": 780},
+		{ "item": "thorium", "amount": 640}
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Horde",
+	"localizedName": "Horde",
 	"description": "[green]I Like to see them survive this!",
 	"health": 1200,
 	"size": 3,

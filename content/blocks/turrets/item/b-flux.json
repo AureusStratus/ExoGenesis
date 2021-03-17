@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Flux",
+	"localizedName": "Flux",
 	"size": 5,
 	"health": 1500,
 	"maxAmmo": 50,

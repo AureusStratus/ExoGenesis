@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Havoc",
+	"localizedName": "Havoc",
 	"description": "[purple]a small turret uses large amounts of explosives to produce explosions that can cause some havoc",
 	"health": 200,
 	"size": 2,

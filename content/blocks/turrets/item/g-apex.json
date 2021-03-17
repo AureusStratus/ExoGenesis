@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"name": "Apec",
+	"localizedName": "Apec",
 	"description": "[green]a.p.e.c, atomic partical energizer cannon it super chargers atoms with gamma radiation and then uses magnetic forces to fire it out in to a energy pulse that Breaks in to orbs that corrode the enemy",
 	"size": 8,
 	"health": 8660,
