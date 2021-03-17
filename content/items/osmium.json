@@ -2,7 +2,6 @@
     "name": "Osmium",
     "description": "a dense and durable metal used in advanced structure construction",
     "cost": 2,
-    "type": "material",
     "color": "C9DDE3FF",
     "research": "titanium"
 }
