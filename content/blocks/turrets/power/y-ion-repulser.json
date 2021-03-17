@@ -9,7 +9,6 @@
 	"inaccuracy": 0,
 	"shots" : 1,
 	"heatColor": "FFF47AFF",
-	"shotEffect": "overdriveWave",
 	
 	"targetAir" : false, 
 	"targetGround" : true,
@@ -30,6 +29,7 @@
 		"damage": 180,
 		"height" : 6,
 		"width" : 4,
+		"shootEffect": "hitYellowLaser",
 		"hitEffect": "hitYellowLaser",
 		"despawnEffect" : "hitYellowLaser",
 		"pierce": true,
