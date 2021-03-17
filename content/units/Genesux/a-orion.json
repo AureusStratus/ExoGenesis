@@ -13,7 +13,7 @@
 	"range": 180,
 	"flying": false,
 	"targetAir": false,
-	"rotatespeed": 0.06,
+	"rotateSpeed": 0.06,
     "legTrns": 0.6,
 	"legCount": 4,
 	"legMoveSpace": 1.4,
