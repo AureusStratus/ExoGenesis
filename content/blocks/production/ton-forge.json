@@ -29,8 +29,6 @@
 	],
 	"category": "crafting",
 	"research": "silicon-crucible",
-	"idleSound": "smelter",
-	"idleSoundVolume": 0.5,
 	"outputItem": {
 		"item": "osmium",
 		"amount": 6

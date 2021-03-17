@@ -28,8 +28,6 @@
 	],
 	"category": "crafting",
 	"research": "plastanium-compressor",
-	"idleSound": "smelter",
-	"idleSoundVolume": 0.5,
 	"outputItem": {
 		"item": "quantux",
 		"amount": 3

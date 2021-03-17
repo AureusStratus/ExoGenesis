@@ -29,8 +29,6 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5,
 	"outputItem": {
 		"item": "gamma-green",
 		"amount": 5

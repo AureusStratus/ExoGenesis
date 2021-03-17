@@ -29,8 +29,6 @@
 	],
 	"category": "crafting",
 	"research": "blast-mixer",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5,
 	"outputItem": {
 		"item": "azuid-azide",
 		"amount": 4

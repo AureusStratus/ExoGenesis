@@ -28,8 +28,6 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"idleSound": "smelter",
-	"idleSoundVolume": 0.5,
 	"outputItem": {
 		"item": "xanium",
 		"amount": 2
