@@ -2,9 +2,6 @@
     "name": "Xanium",
     "description": "An alloy with energy absorbing property",
     "cost": 3,
-    "lightningColor": "B7FF7CFF",
-    "charge": 0.1,
-    "type": "material",
     "color": "B7FF7CFF",
     "research": "plastanium"
 }

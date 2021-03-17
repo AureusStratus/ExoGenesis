@@ -5,7 +5,6 @@
     "hardness": 8,
     "flammability": 0.4,
     "explosiveness": 0.6,
-    "type": "material",
     "color": "E04031FF",
     "research": "surge-alloy"
 }

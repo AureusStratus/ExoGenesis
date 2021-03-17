@@ -3,7 +3,6 @@
     "description": "a very strange Metalic materials that when given energy wraps quantum space.",
     "cost": 3,
     "radioactivity": 0.1,
-    "type": "material",
     "color": "BA52FFFF",
     "research": "phase-fabric"
 }
