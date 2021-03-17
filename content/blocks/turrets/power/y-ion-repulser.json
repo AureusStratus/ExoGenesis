@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"description": "[yellow]an ion based ground turret it ionizes particles uses magnetic pulses to accelerate ion bullets at enemies",
-	"name": "Ion Repulser",
+	"localizedName": "Ion Repulser",
 	"size": 4,
 	"health": 3180,
 	"reloadTime": 6,
@@ -29,7 +29,7 @@
 		"damage": 180,
 		"height" : 6,
 		"width" : 4,
-		"shootEffect": "hitYellowLaser",
+	    "shootEffect": "hitYellowLaser",
 		"hitEffect": "hitYellowLaser",
 		"despawnEffect" : "hitYellowLaser",
 		"pierce": true,

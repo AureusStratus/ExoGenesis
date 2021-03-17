@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"name": "Quarker",
+	"localizedName": "Quarker",
 	"description": "[green]shoots a spread of energy pulses that pierce through the enemy and also corrode the enemy ",
 	"size": 5,
 	"health": 880,

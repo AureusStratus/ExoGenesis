@@ -1,6 +1,6 @@
 {
 	"type": "LaserTurret",
-	"name": "BreakThrough",
+	"localizedName": "BreakThrough",
 	"description": "[orange]a much more powerful upgrade to the meltdown",
 	"size": 5,
 	"health": 180,

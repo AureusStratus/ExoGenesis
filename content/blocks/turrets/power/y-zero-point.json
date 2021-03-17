@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"description": "[yellow]an AA energy turret that shots out large energy bullets that homes in on air units dealing massive aof damage",
-	"name": "Zero Point",
+	"localizedName": "Zero Point",
 	
 	"size": 4,
 	"health": 4360,
