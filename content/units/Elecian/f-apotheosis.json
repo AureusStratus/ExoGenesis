@@ -109,8 +109,6 @@
     "incendSpread": 5,
     "incendAmount": 1,
     "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
-    "shootStatus": "slow",
-    "shootStatusDuration": 210,
     "shootEffect": {
     "type": "WaveEffect",
     "lifetime": 25,
