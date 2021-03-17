@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "description": "a tough wall that absorbs hits from enemies and then releases it in large lighting arcs",
-    "name": "Large alpha wall",
+    "localizedName": "Large alpha wall",
     "lightningSound": "spark",
     "lightningChance": 0.60,
     "lightningColor": "F3E979FF",
