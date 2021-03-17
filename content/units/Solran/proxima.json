@@ -2,8 +2,8 @@
 "name": "Proxima",
 "description": "[red] a titan class unit that is able go tank through normal defenses and it specializes in taking down defense it is equipped with powerful shotgun weapons, large cannons and missiles launchers",
 "type": "mech",
-"armor": 34,
-"rotateSpeed": 2.0,
+"armor": 44,
+"rotateSpeed": 1.0,
 "canDrown": false,
 "hitSize": 53,
 "mechFrontSway": 1.6,
@@ -34,6 +34,7 @@
   "shootCone": 38,
   "shots": 2,
   "shake": 2,
+  "spread": 5,
   "shootSound": "shotgun",
   "ejectEffect": "casing1",
   "bullet": {
