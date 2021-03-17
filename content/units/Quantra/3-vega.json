@@ -1,6 +1,6 @@
 {
-    "name": "Vega",
-    "Description": "[acid] instead of just 2 artillery guns it now has 4 which makes it great at taking out thing at a distance",
+    "localizedName": "Vega",
+    "description": "[acid] instead of just 2 artillery guns it now has 4 which makes it great at taking out thing at a distance",
     "research": "2-falx",
     "type": "naval",
     "speed": 0.85,

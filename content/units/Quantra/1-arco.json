@@ -1,6 +1,6 @@
 {
-    "name": "Arco",
-    "Description": "[acid] a small and fast naval unit created by the quantra foundation this unit is equipped with a gamma arc gun that uses quantum physics to destroy the atom of enemy or structures making them corroded quickly",
+    "localizedName": "Arco",
+    "description": "[acid] a small and fast naval unit created by the quantra foundation this unit is equipped with a gamma arc gun that uses quantum physics to destroy the atom of enemy or structures making them corroded quickly",
     "research": "MultiFactory",
     "type": "naval",
     "speed": 1.1,

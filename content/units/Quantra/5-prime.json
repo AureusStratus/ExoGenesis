@@ -1,6 +1,6 @@
 {
-    "name": "Prime",
-    "Description": "[acid] the prime is a monster of a naval unit it is equipped with powerful guns that shoot 3 bullets that are capable of piercing through structures along with a giga laser that fires out gamma lighting when it hits something it also has the ability to heal friendly units",
+    "localizedName": "Prime",
+    "description": "[acid] the prime is a monster of a naval unit it is equipped with powerful guns that shoot 3 bullets that are capable of piercing through structures along with a giga laser that fires out gamma lighting when it hits something it also has the ability to heal friendly units",
     "research": "4-helios",
     "type": "naval",
     "armor": 18,
