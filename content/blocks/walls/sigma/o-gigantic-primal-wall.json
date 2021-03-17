@@ -1,6 +1,6 @@
 {    
     "type": "Wall",
-    "name": "Gigantic Sigma wall",
+    "localizedName": "Gigantic Sigma wall",
     "description": "an immensely dense wall that has a lot of health but takes a lot more materials to build",
     "health": 42000,
     "size": 4,
