@@ -1,5 +1,5 @@
 {	
-    "name": "Atomic kiln",
+    "localizedName": "Atomic kiln",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

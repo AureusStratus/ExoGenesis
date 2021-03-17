@@ -1,5 +1,5 @@
 {	
-    "name": "Gamma radiation forge",
+    "localizedName": "Gamma radiation forge",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

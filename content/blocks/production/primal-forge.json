@@ -1,5 +1,5 @@
 {	
-    "name": "Nuclear fusion furnace",
+    "localizedName": "Nuclear fusion furnace",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

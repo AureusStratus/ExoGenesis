@@ -1,5 +1,5 @@
 {	
-    "name": "Electro arc forge",
+    "localizedName": "Electro arc forge",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

@@ -1,5 +1,5 @@
 {	
-    "name": "Xanium crucible",
+    "localizedName": "Xanium crucible",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
