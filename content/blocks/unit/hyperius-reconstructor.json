@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name": "Hyperius recontructor",
+	"localizedName": "Hyperius recontructor",
 	"size": 9,
 	"constructTime": 2000,
 	"consumes": {

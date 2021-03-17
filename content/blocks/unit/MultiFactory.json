@@ -1,7 +1,7 @@
 {
 "type": "UnitFactory",
 "description": "can create different unit types",
-"name": "Multi factory",
+"localizedName": "Multi factory",
 "size": 3,
 "consumes": {
 "power": 60

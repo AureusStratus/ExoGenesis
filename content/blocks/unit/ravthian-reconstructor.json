@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name": "Ravthian recontructor",
+	"localizedName": "Ravthian recontructor",
 	"description": "what did it cost?...",
 	"size": 11,
 	"constructTime": 3000,
@@ -31,8 +31,8 @@
 	],
 	"upgrades": [
 		["b-sirius", "b-rigel"],
-		["f-apotheosis", "g-transcendence"],
-		["core", "proxima"]
+		["core", "proxima"],
+		["f-apotheosis", "g-transcendence"]
 	],
 	"category": "units",
 	"research": "hyperius-reconstructor"

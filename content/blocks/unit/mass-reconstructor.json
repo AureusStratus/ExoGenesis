@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name": "Mass Recontructor",
+	"localizedName": "Mass Recontructor",
 	"size": 7,
 	"constructTime": 1500,
 	"consumes": {
@@ -9,7 +9,7 @@
 			"items": [
 				{"item": "silicon", "amount": 1380},
 				{"item": "surge-alloy", "amount": 1890},
-                                {"item": "phase-fabric", "amount": 1300},
+                {"item": "phase-fabric", "amount": 1300},
 				{"item": "plastanium", "amount": 1820},
 				{"item": "titanium", "amount": 1580}
 			]

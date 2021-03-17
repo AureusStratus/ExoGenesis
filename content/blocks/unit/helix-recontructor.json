@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name": "Helixian Reconstructor",
+	"localizedName": "Helixian Reconstructor",
 	"size": 3,
 	"constructTime": 600,
 	"consumes": {

@@ -1,6 +1,6 @@
 {
 	"type": "Reconstructor",
-	"name":"Multi Reconstructor",
+	"localizedName":"Multi Reconstructor",
 	"size": 5,
 	"constructTime": 800,
 	"consumes": {
