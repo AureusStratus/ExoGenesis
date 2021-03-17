@@ -15,7 +15,7 @@
         "armor": 30,
         "engineOffset": 47,
         
-        "engineSize": 7.8,
+        "engineSize": 8.2,
         "lowAltitude": true,
         "targetAir": true,
         "commandLimit": 10,
