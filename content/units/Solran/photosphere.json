@@ -22,8 +22,7 @@
   "alternate": true,
   "top": false,
   "recoil": 4,
-  "shootCone": 18,
-  "shots": 2,
+  "shots": 1,
   "shootSound": "shotgun",
   "ejectEffect": "casing1",
   "bullet": {
