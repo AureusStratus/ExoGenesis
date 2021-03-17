@@ -46,7 +46,7 @@
              "collides": true,
              "collidesAir": true,
              "collidesTiles": true,
-             "homingRadius": 200,
+             "homingRange": 200,
              "homingPower": 1,
              "splashDamageRadius": 34,
              "splashDamage": 65,

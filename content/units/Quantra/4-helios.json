@@ -80,7 +80,7 @@
              "collides": true,
              "collidesAir": true,
              "collidesTiles": true,
-             "homingRadius": 500,
+             "homingRange": 500,
              "homingPower": 1,
              "splashDamageRadius": 100,
              "splashDamage": 85,
@@ -111,7 +111,6 @@
       "sideLength": 80,
       "width": 26,
       "buildingDamageMultiplier": 0.1,
-      "pierceDamageFactor": 1.5,
       "colors":["9FEB61FF", "F3E979FF", "FFFFFF"],
       "length": 280,
         "shootEffect": {
