@@ -34,7 +34,7 @@
   "shootY": 16,
   "shots": 2,
   "shake": 2,
-  "spacing": 14,
+  "spacing": 8,
   "shootSound": "shotgun",
   "ejectEffect": "casing1",
   "bullet": {
