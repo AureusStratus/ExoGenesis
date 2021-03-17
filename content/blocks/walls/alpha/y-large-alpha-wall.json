@@ -6,7 +6,7 @@
     "lightningChance": 0.60,
     "lightningColor": "F3E979FF",
     "lightningDamage": 48,
-    "lightningLenght":28,
+    "lightningLength":28,
     "health": 5920,
     "size": 2,
     "requirements": [
