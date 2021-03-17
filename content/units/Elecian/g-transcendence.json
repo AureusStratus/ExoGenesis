@@ -1,5 +1,5 @@
 {
-        "name": "Transcendence",
+        "localizedName": "Transcendence",
         "description": "[gold] a titan class assault unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
         "details": "this unit was made for war",
         "research": "f-apotheosis",
@@ -57,7 +57,7 @@
     "width": 8,
 	"splashDamageRadius": 30,
 	"splashDamage": 30,			
-    "lightning": 10,
+    "lightning": 5,
     "lightningDamage": 14,
     "lightningLength": 10,
     "lightningCone": 360,
@@ -109,9 +109,7 @@
   "recoil": 6,
   "soundPitchMin": 0.95,
   "soundPitchMax": 2.05,
-  "chargeSound": "pulse",
   "hitSound": "shockBoom",
-  "chargetime": 180,
     "shootSound": "ascends",
     "bullet": {
     "type": "basicBulletType",
@@ -145,7 +143,7 @@
       "homingPower": 0.0925,
       "homingRange": 180,
       "homingDelay": 55,
-            "fragBullets": 6,
+            "fragBullets": 10,
 			"fragBullet": {
                 "type": "laserBulletType",
                 "damage": 460,

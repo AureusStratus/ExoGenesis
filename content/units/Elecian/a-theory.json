@@ -1,5 +1,5 @@
 {
-        "name": "theory",
+        "localizedName": "theory",
         "research": "MultiFactory",
         "speed": 3,
         "accel": 0.04,
@@ -33,7 +33,6 @@
     "backColor": "ECD36FFF",
     "trailColor": "ECD36FFF",
     "lifetime": 45,
-    "unitDamageMultiplier": 0.01,
   	"homingPower": 1,
 	"homingRange": 80,
 	"weaveScale": 5,			

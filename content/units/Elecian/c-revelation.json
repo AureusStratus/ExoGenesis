@@ -1,5 +1,5 @@
 {
-        "name": "Revelation",
+        "localizedName": "Revelation",
         "description": "[gold] this unit is equipped with upgraded surge launchers and is much more durable then the Hypothesis and its also equipped with small and low health shields",
         "research": "b-hypothesis",
         "speed": 2.0,
