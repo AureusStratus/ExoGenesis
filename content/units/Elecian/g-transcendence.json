@@ -7,6 +7,7 @@
         "speed": 0.7,
         "accel": 0.02,
         "drag": 0.018,
+        
         "faceTarget": true,
         "flying": true,
         "health": 38400,
@@ -18,7 +19,7 @@
         "lowAltitude": true,
         "targetAir": true,
         "commandLimit": 10,
-        "weapons": [
+	    "weapons": [
 	   {
   "name": "alpha-rocket",
     "shootCone": 25,
@@ -140,15 +141,6 @@
       "hittable": false,
       "reflectable": false,
       "absorbable": true,
-      "status": {
-              "name": "division",
-              "damage": 0,
-              "effect": "absorb",
-              "permanent": true,
-              "color": "F3E979FF",
-              "effectChange": 0.005,
-              "healthMultiplier": 0.5
-      },
       "sprite": "exogenesis-plasma",
       "homingPower": 0.0925,
       "homingRange": 180,
@@ -157,22 +149,22 @@
 			"fragBullet": {
                 "type": "laserBulletType",
                 "damage": 460,
+                "sideAngle": 20,
+                "sideWidth": 1.5,
+                "sideLength": 80,
+                "width": 10,
+                "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
+                "length": 180,
                 "status": {
               "name": "division",
               "damage": 0,
               "effect": "absorb",
               "permanent": true,
               "color": "F3E979FF",
-              "effectChange": 0.001,
+              "effectChance": 0.0001,
               "healthMultiplier": 0.5
-                     },
-                "sideAngle": 20,
-                "sideWidth": 1.5,
-                "sideLength": 80,
-                "width": 10,
-                "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
-                "length": 180
-			        }
+                     }
+			      }
              }
         }
     ],
