@@ -18,12 +18,7 @@
         "lowAltitude": true,
         "targetAir": true,
         "commandLimit": 10,
-        "immunities": [
-		"burning",
-		"wet",
-		"unmoving"
-		],
-	    "weapons": [
+        "weapons": [
 	   {
   "name": "alpha-rocket",
     "shootCone": 25,
