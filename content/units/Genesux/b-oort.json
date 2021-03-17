@@ -88,8 +88,6 @@
     "incendSpread": 5,
     "incendAmount": 1,
     "colors":["74C2E8FF", "79F2EEFF", "FFFFFF"],
-    "shootStatus": "slow",
-    "shootStatusDuration": 199,
     "shootEffect": {
     "type": "multiEffect",
     "effects": [
