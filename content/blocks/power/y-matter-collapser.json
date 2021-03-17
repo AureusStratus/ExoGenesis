@@ -14,10 +14,10 @@
 	"warmupSpeed": 0.001,
 	"itemDuration": 380,
 	"generateEffect": "absorb",
-	"plasma0": "EC905AFF",
-	"plasma1": "D99F6BFF",
-	"plasma2": "EC905AFF",
-	"plasma3": "D99F6BFF",
+	"plasma1": "EC905AFF",
+	"plasma2": "D99F6BFF",
+	"plasma3": "EC905AFF",
+	"plasma4": "D99F6BFF",
 	"consumes": {
 		"power": 80.0,
 		"items": {
@@ -40,9 +40,9 @@
 		{ "item": "alpha-yellow", "amount": 600 }
 	],
 	"category": "power",
-    "activeSound": "laserCharge",
-    "activeSoundVolume": 1.0,
+    "loopSound": "pulse",
+    "loopSoundVolume": 1.0,
 	"research": "impact-reactor",
-	"idleSound": "pulse",
-	"idleSoundVolume": 2.85
+	"ambientSound": "hum",
+	"ambientSoundVolume": 0.85
 }
