@@ -95,8 +95,6 @@
     "status": "corroded",
     "statusDuration": 100,
     "colors":["8AD44EFF", "CEFF73FF", "FFFFFF"],
-    "shootStatus": "slow",
-    "shootStatusDuration": 210,
     "shootEffect": {
     "type": "WaveEffect",
     "lifetime": 35,
