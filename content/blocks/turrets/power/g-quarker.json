@@ -13,7 +13,7 @@
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 60,
-	"Spread" : 15,
+	"spread" : 15,
 	"recoilAmount" : 1.5,
 	"restitution" : 0.04, 
 	"rotateSpeed": 5,
