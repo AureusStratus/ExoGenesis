@@ -1,6 +1,6 @@
 {
 	"type": "ImpactReactor",
-	"name": "Atomic Collapser",
+	"localizedName": "Atomic Collapser",
 	"description": "uses extreme amounts of gravitational energy to collapse jupiteium and alpha Chunks in to a singularity to generate power [red] warning keep far away from cores or important defenses",
 	"health": 1200,
 	"itemCapacity": 200,
