@@ -4,7 +4,6 @@
     "hardness": 8,
     "cost": 7,
     "charge": 0.9,
-    "type": "item",
     "color": "FFF861FF",
     "research": "surge-alloy"
 }
