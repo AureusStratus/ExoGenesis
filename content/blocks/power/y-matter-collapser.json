@@ -13,7 +13,6 @@
 	"powerProduction": 270,
 	"warmupSpeed": 0.001,
 	"itemDuration": 380,
-	"generateEffect": "absorb",
 	"plasma1": "EC905AFF",
 	"plasma2": "D99F6BFF",
 	"plasma3": "EC905AFF",
