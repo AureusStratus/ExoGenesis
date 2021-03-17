@@ -1,9 +1,8 @@
 { 
     "type": "Wall",
     "description": "a very resistant wall that can deflect bullets back at the enemy",
-    "name": "Nexus wall",
+    "localizedName": "Nexus wall",
     "deflectSound": "sap",
-    "deflect": true,
     "chanceDeflect": 30.0,
     "flashHit": true,
     "flashColor": "79F2EEFF",

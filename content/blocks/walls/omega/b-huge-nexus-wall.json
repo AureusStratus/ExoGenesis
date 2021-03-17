@@ -1,8 +1,7 @@
 { 
     "type": "Wall",
-    "name": "Huge Nexus wall",
+    "localizedName": "Huge Nexus wall",
     "description": "a very resistant wall that can deflect bullets back at the enemy",
-    "deflect": true,
     "deflectSound": "sap",
     "chanceDeflect": 30.0,
     "flashHit": true,
