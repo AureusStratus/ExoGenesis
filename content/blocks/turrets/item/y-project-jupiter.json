@@ -7,7 +7,7 @@
     "reloadTime": 50,
 	"cooldown": 10,
     "range": 600,
-    "recoil": 7,
+    "recoilAmount": 7,
     "shootShake": 5,
     "ammoUseEffect": "none",
     "inaccuracy": 0,

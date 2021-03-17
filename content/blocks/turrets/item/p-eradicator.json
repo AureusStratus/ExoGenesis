@@ -10,7 +10,7 @@
     "coolantMultiplier": 0.3,
 	"restitution" : 0.08, 
     "range": 520,
-    "recoil": 7,
+    "recoilAmount": 7,
     "shootShake": 6,
     "ammoUseEffect": "none",
     "inaccuracy": 0,

@@ -14,11 +14,10 @@
 	"shootCone" : 1,
 	"spread" : 2,
 	"heatColor": "82FF93FF",
-	"recoil" : 6,
+	"recoilAmount" : 6,
 	"restitution" : 0.08, 
 	"rotateSpeed": 1.0,
 	"shootShake" : 10,
-	"hitShake" : 10,
 
 	"shootSound": "matter",
 	"chargeSound": "grinding",
@@ -28,8 +27,6 @@
 	"chargeEffect" : "greenLaserChargeSmall",
 	"chargeBeginEffect" : "healWave",
 
-  	"powerUse": 600,
-	"hasPower" : true,
 	"ammoTypes": {
         "gamma-green": {
 		"type" : "BasicBulletType",
@@ -41,6 +38,7 @@
 		"explodeRange" : 64,
 		"height" : 46,
 		"width" : 46,
+	    "hitShake" : 10,
 		"hitSize": 35,
 		"speed": 6,
 		"lifetime" : 800,
@@ -83,7 +81,8 @@
 		"splashDamageRadius" : 96,	
 		"explodeRange" : 64,
 		"height" : 50,
-		"width" : 50,			
+		"width" : 50,
+	    "hitShake" : 10,
 		"speed": 4,
 		"hitSize": 40,
 		"lifetime" : 1800,

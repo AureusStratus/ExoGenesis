@@ -15,12 +15,11 @@
 	"shootCone" : 38,
 	"spread" : 6,
 	
-	"recoil" : 4,
+	"recoilAmount" : 4,
 	"heatColor": "CB1D1DFF",
 	"restitution" : 0.08, 
 	"rotateSpeed": 1.0,
 	"shootShake" : 6,
-	"hitShake" : 1,
 
 	"shootSound" : "red",
 	"chargeTime" : 70,
@@ -29,8 +28,6 @@
 	"chargeEffect" : "hitMeltdown",
 	"chargeBeginEffect" : "coreLand",
 
-    "powerUse" : 180,
-	"hasPower" : true,
 	"ammoTypes": {
     "primal-red": {
 	"type": "LaserBulletType",
@@ -38,6 +35,7 @@
 	"despawnEffect": "none",
 	"status": "melting",
 	"statusDuration": 1000,
+	"hitShake" : 1,
 	"hitSize": 55,
     "width": 60,
 	"lifetime": 30,
@@ -69,6 +67,7 @@
 	"despawnEffect": "none",
 	"status": "melting",
 	"statusDuration": 1000,
+	"hitShake" : 1,
 	"hitSize": 55,
     "width": 60,
 	"lifetime": 30,

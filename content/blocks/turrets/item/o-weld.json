@@ -8,13 +8,13 @@
 	"restitution": 0.2,
 	"shootCone": 20,
 	"size": 5,
-	"itemCapicity": "64",
+	"maxAmmo": "64",
 	"health": 2650,
 	"shots": 4,
 	"shootSound": "shotgun",
 	"ammoPerShot": 4,
     "shootShake": 4,
-    "recoil": 5,
+    "recoilAmount": 2,
 	"ammoTypes": {
         "surge-alloy": {
             "speed": 0.01,

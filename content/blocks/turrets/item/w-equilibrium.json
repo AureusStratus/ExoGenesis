@@ -6,7 +6,6 @@
 	"size": 14,
 	"health": 14360,
 	"range": 1000,
-    "BuildVisibility": "shown",
 	"reloadTime" : 380,
 	"inaccuracy": 0,
 	"shots" : 1,
@@ -16,15 +15,12 @@
 	"shootCone" : 1,
 	"spread" : 2,
 	
-	"recoil" : 7,
+	"recoilAmount" : 7,
 	"restitution" : 0.08, 
 	"rotateSpeed": 0.96,
 	"shootShake" : 20,
-	"hitShake" : 25,
 	"shootSound" : "realse",
 
-  	"powerUse": 60000,
-	"hasPower" : true,
 	"ammoTypes": {
         "gamma-green": {
 		"type" : "BasicBulletType",
@@ -33,6 +29,7 @@
 		"splashDamage" : 800,
 		"splashDamageRadius" : 400,	
 		"explodeRange" : 400,
+	    "hitShake" : 25,
 		"height" : 100,
 		"width" : 100,			
 		"speed": 8,
