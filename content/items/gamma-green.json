@@ -4,7 +4,6 @@
     "hardness": 8,
     "cost": 7,
     "radioactivity": 1.8,
-    "type": "material",
     "color": "35B06EFF",
     "research": "surge-alloy"
 }
