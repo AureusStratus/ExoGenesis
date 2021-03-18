@@ -1,6 +1,7 @@
 {
     "localizedName": "Gamma Alloy",
-    "description": "used in Advanced repairing structures And and Special defenses",
+    "description": "an alloy used in Advanced Weaponry, repairing structures And and Special defenses",
+    "details": "an alloy that was used by the quantranians to create usefull support structures and units and also powerful turrets",
     "hardness": 8,
     "cost": 7,
     "radioactivity": 1.8,
