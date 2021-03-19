@@ -128,5 +128,5 @@
 		{ "item": "silicon", "amount": 260 }
     ],
     "category": "turret",
-    "research": "comet"
+    "research": "w-comet"
 }
