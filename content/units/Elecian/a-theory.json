@@ -26,6 +26,7 @@
     "recoil": 0.5,
     "bullet": {
     "type": "MissileBulletType",
+    "buildingDamageMultiplier": -0.06,
     "shootEffect": "shootHealYellow",
     "damage": 25,
     "speed": 3,

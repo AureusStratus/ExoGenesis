@@ -28,6 +28,7 @@
     "recoil": 0.5,
     "shootSound": "sap",
     "bullet": {
+    "buildingDamageMultiplier": -0.03,
     "type": "LaserBoltBulletType",
     "shootEffect": "shootHealYellow",
     "damage": 6,
@@ -51,6 +52,7 @@
     "recoil": 0.5,
     "bullet": {
     "type": "MissileBulletType",
+    "buildingDamageMultiplier": -0.1,
     "shootEffect": "shootHealYellow",
     "shots": 2,
     "keepVelocity": false,

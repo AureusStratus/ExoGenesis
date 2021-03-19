@@ -15,7 +15,7 @@
         "armor": 30,
         "engineOffset": 47,
         
-        "engineSize": 8.2,
+        "engineSize": 7.8,
         "lowAltitude": true,
         "targetAir": true,
         "commandLimit": 10,
@@ -41,6 +41,7 @@
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
+    "buildingDamageMultiplier": -0.25,
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",
     "damage": 45,
@@ -113,6 +114,7 @@
     "shootSound": "ascends",
     "bullet": {
     "type": "basicBulletType",
+    "buildingDamageMultiplier": -0.03,
       "lifetime": 270,
       "damage": 2820,
       "width": 35,
@@ -159,7 +161,7 @@
               "effect": "absorb",
               "permanent": true,
               "color": "F3E979FF",
-              "effectChance": 0.0001,
+              "effectChance": 0.0003,
               "healthMultiplier": 0.5
                      }
 			      }
