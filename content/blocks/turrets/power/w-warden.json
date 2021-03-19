@@ -66,5 +66,5 @@
 		{ "item": "silicon", "amount": 265 }
     ],
     "category": "turret",
-    "research": "guard"
+    "research": "w-guard"
 }
