@@ -28,7 +28,7 @@
 		{"item": "graphite", "amount": 230}
 	],
 	"category": "crafting",
-	"research": "silicon-crucible",
+	"research": "silicon-smelter",
 	"outputItem": {
 		"item": "osmium",
 		"amount": 6
