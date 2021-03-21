@@ -81,7 +81,7 @@
     "type": "LaserBulletType",
     "length": 380,
     "damage": 880,
-    "width": 60,
+    "width": 40,
     "lifetime": 60,
     "lightningColor": "79F2EEFF",
     "lightningSpacing": 25,
