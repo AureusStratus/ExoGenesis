@@ -21,6 +21,7 @@
 		{"item": "surge-alloy", "amount": 100}
 	],
 	"upgrades": [
+        ["century", "millennia"],
 		["b-galileo", "b-kuiper"],
 		["corona", "photosphere"],
 		["2-falx", "3-vega"],

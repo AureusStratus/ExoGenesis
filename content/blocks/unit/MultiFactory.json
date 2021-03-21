@@ -7,6 +7,15 @@
 "power": 60
 },
 "plans": [
+{
+    "unit": "decade",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 20},
+		{"item": "quantux", "amount": 25}
+       ],
+    "time": 460
+  },
   {
     "unit": "a-orion",
     	"requirements": [

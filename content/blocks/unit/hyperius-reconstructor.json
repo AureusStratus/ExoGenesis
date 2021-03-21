@@ -24,6 +24,7 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
+		["eon", "era"],
 		["b-oort", "b-sirius"],
 		["radiative", "core"],
 		["4-helios", "5-prime"],

@@ -20,6 +20,7 @@
 		{"item": "surge-alloy", "amount": 160}
 	],
 	"upgrades": [
+        ["decade", "century"],
 		["a-orion", "b-galileo"],
 		["sol", "corona"],
 		["1-arco", "2-falx"],

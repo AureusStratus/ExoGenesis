@@ -30,7 +30,9 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
+		["era", "epoch"],
 		["b-sirius", "b-rigel"],
+		["5-prime", "6-apex"],
 		["core", "proxima"],
 		["f-apotheosis", "g-transcendence"]
 	],

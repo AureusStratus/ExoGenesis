@@ -23,6 +23,7 @@
 		{"item": "surge-alloy", "amount": 380}
 	],
 	"upgrades": [
+		["millennia", "eon"],
 		["b-kuiper", "b-oort"],
 		["photosphere", "radiative"],
 		["3-vega", "4-helios"],
