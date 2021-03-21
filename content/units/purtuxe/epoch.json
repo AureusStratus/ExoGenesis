@@ -1,0 +1,165 @@
+{
+            "localizedName": "Epoch",
+            "description": "[purple] the final upgrade in the decade line this unit is long ranged Sentinel type titan it is equipped with two railguns this titan can create a long ranged focused beam of quantux energy that can cut unprotected defenses and it can inflict quantux burn",
+            "details": "a weapon of long ranged war",
+            "research": "era",
+            "type": "legs",
+            "speed": 0.27,
+            "range": 650,
+            "hitSize": 64,
+            "rotateSpeed": 1.0,
+            "health": 25800,
+            "buildSpeed": 5,
+            "mineTier": 6,
+            "mineSpeed": 7.6,
+            "armor": 38,
+            "commandLimit": 9,
+            "legCount": 6,
+            "legMoveSpace": 2,
+            "legPairOffset": 3,
+            "legTrns": 0.56,
+            "legLength": 35,
+            "legExtension": -15,
+            "legBaseOffset": 24,
+            "landShake": 2.5,
+            "legLengthScl": 0.96,
+            "rippleScale": 4,
+            "legSpeed": 0.6,
+
+            "legSplashDamage": 82,
+            "legSplashRange": 40,
+            
+            "hovering": true,
+            "allowLegStep": true,
+            "visualElevation": 0.95,
+
+          "weapons": [
+                    {
+                    "name": "point-gun",
+                    "shootCone": 15,
+                     "mirror": true,
+                     "alternate": false,
+                     "shots": 1,
+                     "inaccuracy": 0,
+                     "x": 17,
+                     "y": -11,
+                     "reload": 45,
+                     "recoil": 0.5,
+                     "shootY": 4,
+                     "rotateSpeed": 1.6,
+                      "shootSound": "railgun",
+                      "firstShotDelay": 19,
+                      "bullet": {
+			          "type" : "RailBulletType",
+			          "damage": 450,
+			          "length" : 800,
+			          "ammoMultiplier": 3,
+			          "pierce": true,
+			          "pierceBuilding": true,
+			          "pierceDamageFactor": 0.4,
+			          "collidesAir": true,
+			          "collidesGround": true,
+			          "collidesTiles" : true,
+			          "updateEffectSeg": 40,
+			          "updateEffect": "railTrail",
+			          "shootEffect": "sapExplosion",
+			          "pierceEffect" : "railHit",
+			          "hitEffect" : "massiveExplosion"
+                     }
+                  },
+                  {
+                    "name": "epoch-weapon",
+                    "shootCone": 0,
+                     "mirror": false,
+                     "x": 0,
+                     "y": 0,
+                     "reload": 785,
+                     "shootY": 6.5,
+                     "recoil": 0,
+                     "shotDelay": 28,
+                     "heatColor": "665C9FFF",
+                     "shootSound": "pulse",
+                     "cooldownTime": 34,
+                     "continuous": true,
+                     "bullet": {
+                     "type": "ContinuousLaserBulletType",
+                     "colors":["665C9FFF", "BF92F9FF", "665C9FFF", "000000FF"],
+                     "damage": 100,
+                     "length": 700,
+                     "width": 6,
+                     "hitColor": "665C9FFF",
+                     "oscScl":3,
+                     "oscMag":2,
+                     "drawSize": 320,
+                     "lifetime": 400,
+                     "shake": 1,
+                     "despawnEffect": "smokeCloud",
+                     "smokeEffect": "smokeCloud",
+                     "status": {
+                     "name": "quantux-burn",
+                     "damage": 7,
+                     "effect": "sapped",
+                     "speedMultiplier": 0.7
+                     },
+    "shootEffect": {
+    "type": "multiEffect",
+    "lifetime": 70,
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 70,
+    "rotation": 2.5,
+    "sides": 0,
+    "sizeFrom": 0,
+    "sizeTo": 60,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "000000FF",
+    "colorTo": "665C9FFF"
+    },
+    {
+  "type": "ParticleEffect",
+        "particles": 65,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "lenFrom": 0,
+        "lenTo": 5,
+        "length": -60,
+        "baseLength": 0,
+        "lifetime": 70,
+        "colorFrom": "000000FF",
+        "colorTo": "665C9FFF",
+        "cone": 360
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 70,
+    "rotation": 2.5,
+    "sides": 0,
+    "sizeFrom": 0,
+    "sizeTo": 80,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "000000FF",
+    "colorTo": "665C9FFF"
+          }
+        ]
+      }
+    }
+ }
+     ],
+    "abilities": [
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "range" : 206,
+            "reload" : 540,
+            "duration" : 165,
+            "effect": {
+                "name": "quantux-charged",
+                "speedMultiplier": 1.4,
+                "reloadMultiplier": 1.8,
+                "effect": "sapped"
+            }
+        }
+    ]
+}

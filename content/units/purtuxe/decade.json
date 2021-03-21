@@ -1,0 +1,52 @@
+{
+            "localizedName": "Decade",
+            "description": "[purple] a unit created by the purtuxian it is equipped with a quantux energy shotgun that shoots out orbs that can home in on the enemy slightly the unit can also build and mine",
+            "type": "mech",
+            "flying": false,
+            "speed": 0.55,
+            "hitSize": 8,
+            "health": 276,
+            "buildSpeed": 0.8,
+            "armor": 4,
+            "commandLimit": 8,
+
+            "weapons": [
+                    {
+                "name": "purp-smoll",
+                "top": false,
+                "shootY": 2,
+                "shots": 3,
+                "shootCone": 10,
+                "inaccuracy": 7,
+                "reload": 64,
+                "x": 4.5,
+                "alternate": true,
+                "ejectEffect": "none",
+                "recoil": 2,
+                "shootSound": "sap",
+                  "bullet": { 
+                    "type": "basicBulletType",
+                    "sprite": "exogenesis-plasma",
+                    "damage": 20,
+                    "weaveMag": 2,
+                    "weaveScale": 2,
+                    "speed": 5,
+                    "width": 8,
+                     "shootSound": "sap",
+                    "trailChance": 0.5,
+                    "trailColor": "665C9FFF",
+                    "height": 8,
+                    "lifetime": 37,
+                    "homingRange": 46,
+                    "homingDelay": 8,
+                    "homingPower": 0.0678,
+                    "shootEffect": "none",
+                    "despawnEffect": "none",
+                    "hitEffect": "none",
+                    "backColor": "665C9FFF",
+                    "frontColor": "BF92F9FF"
+     },
+"research": "MultiFactory"
+  }
+]
+}

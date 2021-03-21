@@ -1,0 +1,80 @@
+{
+            "localizedName": "Century",
+            "description": "[purple] the upgrade to the century this unit is equipped with upgraded quantux blasters and it has a built in laser blaster",
+            "type": "mech",
+            "flying": false,
+            "speed": 0.53,
+            "hitSize": 10,
+            "health": 756,
+            "buildSpeed": 0.9,
+            "mineTier": 3,
+            "mineSpeed": 5.8,
+            "armor": 9,
+            "commandLimit": 8,
+
+            "weapons": [
+                    {
+                "name": "orb-blaster",
+                "top": false,
+                "shootY": 2,
+                "shots": 4,
+                "shootCone": 10,
+                "inaccuracy": 10,
+                "reload": 68,
+                "x": 5,
+                "y": 0.5,
+                "alternate": true,
+                "ejectEffect": "none",
+                "recoil": 2,
+                "shootSound": "sap",
+                  "bullet": { 
+                    "type": "basicBulletType",
+                    "sprite": "exogenesis-plasma",
+                    "damage": 45,
+                    "weaveMag": 3,
+                    "weaveScale": 4,
+                    "speed": 5,
+                    "width": 13,
+                    "trailChance": 0.5,
+                    "trailColor": "665C9FFF",
+                    "height": 13,
+                    "lifetime": 37,
+                    "shootSound": "sap",
+                    "homingRange": 46,
+                    "homingDelay": 8,
+                    "homingPower": 0.0678,
+                    "shootEffect": "none",
+                    "despawnEffect": "none",
+                    "hitColor": "BF92F9FF",
+                    "backColor": "665C9FFF",
+                    "frontColor": "BF92F9FF"
+                  }
+                  },
+                  {
+                    "name": "sapper",
+                    "shootCone": 15,
+                     "mirror": true,
+                     "alternate": true,
+                     "x": 4.5,
+                     "y": -3,
+                     "reload": 45,
+                     "recoil": 0.5,
+                     "shootSound": "sap",
+                     "bullet": {
+                     "type": "SapBulletType",
+                     "sapStrength": 0.8,
+                     "length": 90,
+                     "damage": 28,
+                     "shootEffect": "sapped",
+                     "hitColor": "BF92F9FF",
+                     "color": "BF92F9FF",
+                     "despawnEffect": "none",
+                     "width":0.5,
+                     "lifetime": 20,
+                     "knockback": -0.65
+
+     },
+"research": "decade"
+  }
+]
+}
