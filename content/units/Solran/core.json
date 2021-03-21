@@ -102,7 +102,7 @@
 		"hitSize": 10,
 		"speed": 5,
 		"lifetime" : 45,
-		"peirceCap": 7,
+		"pierceCap": 7,
 		"hitEffect" : "blastExplosion",
 		"despawnEffect": "blastExplosion",
 		"shootEffect": "hitMeltHeal",
