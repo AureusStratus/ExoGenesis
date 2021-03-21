@@ -85,7 +85,7 @@
       "width": 32,
       "height": 46,
       "sprite": "exogenesis-spear",
-      "peirce": true,
+      "pierce": true,
       "status": "shocked",
       "reflectable": false,
       "absorbable": true,
@@ -161,7 +161,7 @@
               "effect": "absorb",
               "permanent": true,
               "color": "F3E979FF",
-              "effectChance": 0.0003,
+              "effectChance": 1,
               "healthMultiplier": 0.5
                      }
 			      }
