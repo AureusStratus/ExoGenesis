@@ -3,7 +3,7 @@
 "type": "ItemTurret",
 "size": 7,
 "health": 1400,
-"range": 380,
+"range": 280,
 "reloadTime": 30,
 "shootSound": "laser",
 "rotateSpeed": 1,
