@@ -10,7 +10,7 @@
         
         "faceTarget": true,
         "flying": true,
-        "health": 38400,
+        "health": 184000,
         "hitSize": 80,
         "armor": 30,
         "engineOffset": 47,
