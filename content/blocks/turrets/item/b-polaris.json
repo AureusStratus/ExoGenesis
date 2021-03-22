@@ -6,8 +6,8 @@
 	"health": 850,
 	"maxAmmo": 150,
 	"ammoPerShot" : 50,
-	"reloadTime": 250,
-	"range": 700,
+	"reloadTime": 450,
+	"range": 800,
 	"targetAir" : true, 
 	"targetGround" : true, 
 	"recoilAmount" : 15,
@@ -36,7 +36,7 @@
 				"status" : "melting",
 				"lifetime": 120,
 				"speed": 0.5,
-				"damage" : 500,
+				"damage" : 200,
 				"frontColor": "75F9F9FF",
 				"backColor": "4887CDFF"
 			}
