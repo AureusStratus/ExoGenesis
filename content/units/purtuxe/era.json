@@ -51,7 +51,6 @@
                     "weaveScale": 2,
                     "speed": 5,
                     "width": 18,
-                    "shootSound": "shotgun",
                     "trailChance": 0.5,
                     "trailColor": "665C9FFF",
                     "height": 18,
@@ -175,7 +174,7 @@
             "smokeEffect": "none",
             "incendChance": 0,
               "status": {
-              "name": "quantux-burn",
+              "name": "quanux-burn",
               "damage": 7,
               "effect": "sapped",
               "speedMultiplier": 0.7
@@ -184,19 +183,5 @@
 "research": "eon"
        }
       }
-     ],
-    "abilities": [
-        {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "range" : 66,
-            "reload" : 540,
-            "duration" : 365,
-            "effect": {
-                "name": "quantux-charged",
-                "speedMultiplier": 1.4,
-                "reloadMultiplier": 1.8,
-                "effect": "sapped"
-            }
-        }
-    ]
-}
+     ]
+    }
