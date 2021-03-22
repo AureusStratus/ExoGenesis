@@ -13,7 +13,7 @@
     "targetGround": true,
     "shootCone": 10,
     "spread": 1,
-    "recoilamount": 3,
+    "recoilAmount": 3,
     "restitution": 0.5,
     "rotateSpeed": 5,
     "shootSound": "shotgun",
