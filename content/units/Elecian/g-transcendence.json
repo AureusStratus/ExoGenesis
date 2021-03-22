@@ -12,7 +12,7 @@
         "flying": true,
         "health": 184000,
         "hitSize": 80,
-        "armor": 30,
+        "armor": 40,
         "engineOffset": 47,
         
         "engineSize": 7.8,
