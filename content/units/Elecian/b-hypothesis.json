@@ -45,7 +45,6 @@
     "reload": 18,
     "recoil": 0.5,
     "keepVelocity": false,
-    "hitSound": "energyExplosion",
     "shootSound": "missile",
     "bullet": {
     "type": "MissileBulletType",
