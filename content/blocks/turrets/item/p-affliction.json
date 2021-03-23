@@ -37,7 +37,7 @@
   "lightningCone": 20,
   "lightningLengthRand": 13,
   "status": {
-              "name": "quantux-burn",
+              "name": "qantux-burn",
               "damage": 15,
               "effect": "sapped",
               "speedMultiplier": 0.52,
