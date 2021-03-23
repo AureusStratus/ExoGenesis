@@ -30,7 +30,6 @@
       "damage": 290,
       "length": 260,
       "hitEffect": "hitMeltdown",
-      "continuous": true,
       "drawSize": 180,
       "incendChance": 10,
       "incendSpread": 7,
