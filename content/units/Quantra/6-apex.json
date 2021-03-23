@@ -1,7 +1,8 @@
 {
     "localizedName": "Apex",
     "description": "[acid] a support/base breaker titan class unit the apex is equipped with almost every weapon in its Line its able to build like the prime it can also hold large amounts of resources",
-    "research": "ravthian-recontructor",
+    "details": "stand above all and make them pay",
+    "research": "ravthian-reconstructor",
     "type": "naval",
     "armor": 46,
     "drag": 0.17,
