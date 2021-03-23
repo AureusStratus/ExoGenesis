@@ -22,6 +22,7 @@
     "buildSpeed": 6.8,
     "buildBeamOffset": 56,
             
+    "ItemCapacity": 500,
     "ammoCapacity": 3000,
     "ammoResupplyAmount": 30,
 	"weapons": [
