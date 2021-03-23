@@ -56,7 +56,6 @@
     "shots": 3,
     "reload": 18,
     "shootSound": "missile",
-	"hitSound": "energyExplosion",
     "recoil": 0.5,
     "bullet": {
     "type": "MissileBulletType",
