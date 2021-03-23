@@ -73,7 +73,7 @@
 			"speed": 0,
 			"width": 0,
 			"height": 0,
-			"shooteffect": "massiveExplosion",
+			"shootEffect": "massiveExplosion",
 			"despawnEffect": "nuclearShockwave",
 			"hitEffect": "nuclearShockwave",
 			"frontColor": "C28590FF",
