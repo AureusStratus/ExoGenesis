@@ -133,7 +133,6 @@
     "y": -8.5,
     "reload": 48,
     "recoil": 0.5,
-	"hitSound": "energyExplosion",
     "shots": 8,
     "shootY": 2,
     "spacing": 10,
