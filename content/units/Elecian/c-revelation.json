@@ -29,7 +29,8 @@
     "shootSound": "sap",
     "bullet": {
     "buildingDamageMultiplier": -0.03,
-    "type": "LaserBoltBulletType",
+    "type": "LaserBoltBulletType",    
+    "despawnEffect": "shootHealYellow",
     "shootEffect": "shootHealYellow",
     "damage": 6,
     "speed": 6,
