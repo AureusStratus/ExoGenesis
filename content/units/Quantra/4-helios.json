@@ -69,7 +69,6 @@
              "shootEffect": "hitMeltHeal",
              "despawnEffect": "healWave",
              "buildingDamageMultiplier": 0.06,
-             "inaccuracy": 7,
              "lifetime": 180,
              "damage": 70,
              "status": "corroded",
