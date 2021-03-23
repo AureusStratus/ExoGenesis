@@ -99,7 +99,6 @@
     "y": -6.5,
     "reload": 48,
     "recoil": 0.5,
-	"hitSound": "energyExplosion",
     "shots": 4,
     "shootY": 2,
     "spacing": 10,
