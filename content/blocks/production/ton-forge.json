@@ -24,7 +24,7 @@
 	"requirements": [
 		{"item": "silicon", "amount": 160},
 		{"item": "titanium", "amount": 260},
-		{"item": "thorium", "amount": 140},
+		{"item": "lead", "amount": 140},
 		{"item": "graphite", "amount": 230}
 	],
 	"category": "crafting",
