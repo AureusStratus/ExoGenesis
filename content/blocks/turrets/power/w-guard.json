@@ -23,7 +23,7 @@
 	"chargeEffect": "lancerLaserCharge",
 	"chargeBeginEffect": "lancerLaserChargeBegin",
 	
-    "powerUse": 8,
+    "powerUse": 2,
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
