@@ -60,7 +60,7 @@
 	"requirements": [
 		{ "item": "titanium", "amount": 300},
 		{ "item": "plastanium", "amount": 250},
-		{ "item": "surge-alloy", "amount": 150},
+		{ "item": "osmium", "amount": 150},
 		{ "item": "thorium", "amount": 200}
 	],
 	"category": "turret",
