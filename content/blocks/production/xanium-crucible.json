@@ -14,7 +14,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{"item": "surge-alloy", "amount": 8},
+				{"item": "osmium", "amount": 8},
 				{"item": "plastanium", "amount": 12}
 			]
 		}
@@ -23,13 +23,13 @@
 		{"item": "silicon", "amount": 360},
 		{"item": "lead", "amount": 380},
 		{"item": "metaglass", "amount": 140},
-		{"item": "phase-fabric", "amount": 160},
+		{"item": "osmium", "amount": 160},
 		{"item": "plastanium", "amount": 300}
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
 	"outputItem": {
 		"item": "xanium",
-		"amount": 2
+		"amount": 3
 	}
 }
