@@ -37,7 +37,7 @@
 		{"item": "silicon", "amount": 160},
 		{"item": "titanium", "amount": 160},
 		{"item": "thorium", "amount": 140},
-		{"item": "surge-alloy", "amount": 160}
+		{"item": "osmium", "amount": 160}
 	],
 	"category": "crafting",
 	"research": "silicon-smelter"
