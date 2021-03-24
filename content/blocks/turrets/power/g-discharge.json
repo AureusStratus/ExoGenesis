@@ -22,7 +22,7 @@
 		"status": "corroded",
 		"lightningColor": "82FF93FF",
 		"lightningCone": 1,
-		"damage": 48,
+		"damage": 38,
         "lightningLength": 30,
         "collidesAir": true
 	},
@@ -30,7 +30,7 @@
         { "item": "lead", "amount": 650 },
         { "item": "silicon", "amount": 240},
         { "item": "plastanium", "amount": 340},
-        { "item": "gamma-green", "amount": 100}
+        { "item": "osmium", "amount": 100}
     ],
     "category": "turret",
     "shootSound": "spark",
