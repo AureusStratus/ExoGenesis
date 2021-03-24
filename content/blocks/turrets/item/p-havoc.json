@@ -95,5 +95,5 @@
 		{ "item": "metaglass", "amount": 370 }
 	],
 	"category": "turret",
-	"research": "fuse"
+	"research": "duo"
 }
