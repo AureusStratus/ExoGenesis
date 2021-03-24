@@ -26,9 +26,9 @@
 		"type" : "laserBoltBulletType",
 		"speed": 6.0,
 		"lifetime" : 50,
-		"damage": 180,
+		"damage": 50,
 		"height" : 6,
-		"width" : 4,
+		"width" : 2,
 	    "shootEffect": "hitYellowLaser",
 		"hitEffect": "hitYellowLaser",
 		"despawnEffect" : "hitYellowLaser",
@@ -39,9 +39,9 @@
 
 	"requirements": [
 		{ "item": "copper", "amount": 700},
-		{ "item": "graphite", "amount": 558},
-		{ "item": "alpha-yellow", "amount": 460},
-		{ "item": "surge-alloy", "amount": 340},
+		{ "item": "osmium", "amount": 558},
+		{ "item": "xanium", "amount": 460},
+		{ "item": "plastanium", "amount": 340},
 		{ "item": "silicon", "amount": 890}
 	],
 	"category": "turret",
