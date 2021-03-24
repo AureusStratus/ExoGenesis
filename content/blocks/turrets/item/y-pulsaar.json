@@ -8,7 +8,7 @@
 	"range": 170,
 	"maxAmmo": 180,
 	"inaccuracy": 5,
-	"shots" : 30,
+	"shots" : 25,
 
 	"targetAir" : false, 
 	"targetGround" : true,
@@ -18,9 +18,8 @@
 	"restitution" : 0.6, 
 	"rotateSpeed": 4,
 	"shootSound" : "shotgun",
-	"buildCostMultiplier" : 0.4,
 	"xRand" : 1,
-	"ammoPerShot" : 15,
+	"ammoPerShot" : 3,
 
 	"ammoTypes": {
 		"titanium": {
@@ -106,7 +105,7 @@
 		{ "item": "silicon", "amount": 350 },
 		{ "item": "thorium", "amount": 240},
 		{ "item": "plastanium", "amount": 150},
-		{ "item": "alpha-yellow", "amount": 225}
+		{ "item": "osmium", "amount": 525}
 	],
 	"category": "turret",
 	"research": "fuse"
