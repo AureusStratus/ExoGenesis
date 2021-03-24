@@ -79,7 +79,7 @@
 		{ "item": "silicon", "amount": 790 },
 		{ "item": "thorium", "amount": 470 },
 		{ "item": "titanium", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 600 }
+		{ "item": "osmium", "amount": 600 }
 	],
 	"category": "turret",
 	"research": "spectre"
