@@ -5,7 +5,7 @@
 	"health": 1500,
 	"maxAmmo": 50,
 	"ammoPerShot" : 1,
-	"reloadTime": 8,
+	"reloadTime": 18,
 	"range": 250,
 	"targetAir" : true, 
 	"targetGround" : true, 
@@ -23,7 +23,7 @@
             "speed": 8,
             "height": 16,
             "width": 10,
-            "damage": 67,
+            "damage": 57,
             "knockback": 4.8,
             "hitSize": 12,
             "frontColor": "FFBACEFF",
@@ -37,7 +37,7 @@
             "speed": 10,
             "height": 16,
             "width": 10,
-            "damage": 76,
+            "damage": 66,
             "knockback": 0.8,
             "hitSize": 12,
             "frontColor": "E66F57FF",
@@ -56,7 +56,7 @@
             "speed": 9,
             "height": 16,
             "width": 10,
-            "damage": 95,
+            "damage": 85,
             "knockback": 0.5,
             "hitSize": 12,
             "frontColor": "F3E979FF",
@@ -76,9 +76,9 @@
 		{ "item": "lead", "amount": 800 },
 		{ "item": "silicon", "amount": 520 },
 		{ "item": "thorium", "amount": 570 },
-		{ "item": "omega-blue", "amount": 220 },
+		{ "item": "osmium", "amount": 220 },
 		{ "item": "titanium", "amount": 800 }
 	],
 	"category": "turret",
-	"research": "cyclone"
+	"research": "spectre"
 }
