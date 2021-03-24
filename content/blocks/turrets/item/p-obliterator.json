@@ -91,7 +91,7 @@
 		{ "item": "titanium", "amount": 250 },
         { "item": "thorium", "amount": 360 },
 		{ "item": "plastanium", "amount": 300 },
-		{ "item": "graphite", "amount": 450 },
+		{ "item": "osmium", "amount": 450 },
 		{ "item": "silicon", "amount": 540 },
 		{ "item": "metaglass", "amount": 430 }
 	],
