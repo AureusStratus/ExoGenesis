@@ -81,8 +81,9 @@
 				"status": "sapped",
 			    "statusDuration": "1120",
 				"lifetime": 50,
-				"frontColor": "fffac6",
-				"backColor": "d8d97f"
+				"frontColor": "D0D0E0FF",
+				"backColor": "EBEEF5FF"
+		
 			}
 		}
 
