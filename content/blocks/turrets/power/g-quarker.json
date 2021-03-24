@@ -43,9 +43,9 @@
 	},
 
 	"requirements": [
-		{ "item": "lead", "amount": 700},
+		{ "item": "thorium", "amount": 700},
 		{ "item": "plastanium", "amount": 250},
-		{ "item": "gamma-green", "amount": 120},
+		{ "item": "xanium", "amount": 120},
 		{ "item": "titanium", "amount": 400},
 		{ "item": "silicon", "amount": 240}
 	],
