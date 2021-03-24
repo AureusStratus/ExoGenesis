@@ -75,7 +75,6 @@
 		{ "item": "plastanium", "amount": 400 },
 		{ "item": "lead", "amount": 800 },
 		{ "item": "silicon", "amount": 520 },
-		{ "item": "thorium", "amount": 570 },
 		{ "item": "osmium", "amount": 220 },
 		{ "item": "titanium", "amount": 800 }
 	],
