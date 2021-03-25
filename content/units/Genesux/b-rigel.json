@@ -2,6 +2,7 @@
     "localizedName": "Rigel-A",
     "description": "a titan class unit it specializes in taking down large groups of enemies and unprotected defenses it is equipped with two odin weapons that help it at close combat and it can fire 3 lases",
     "research": "ravthian-reconstructor",
+    "details": "show them what the power of a far away star can do",
 	"lightRadius": 200,
     "type": "legs",
 	"speed": 0.30,
