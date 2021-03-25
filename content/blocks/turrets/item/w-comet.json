@@ -73,8 +73,7 @@
     "requirements": [
 		{ "item": "copper", "amount": 160 },
 		{ "item": "lead", "amount": 97 },
-		{ "item": "graphite", "amount": 63 },
-		{ "item": "silicon", "amount": 100 }
+		{ "item": "graphite", "amount": 163 }
     ],
     "category": "turret",
     "research": "duo"
