@@ -57,7 +57,7 @@
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 380},
 	{"item": "plastanium", "amount": 180},
-	{"item": "surge-alloy", "amount": 160}
+	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
 "research": "ground-factory"
