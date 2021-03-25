@@ -1,7 +1,7 @@
 {
         "localizedName": "Transcendence",
         "description": "[gold] a titan class assault unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
-        "details": "this unit was made for war",
+        "details": "and in a thunderous bang all gone",
         "research": "ravthian-reconstructor",
         "lightRadius": 200,
         "speed": 0.7,
@@ -147,7 +147,7 @@
             "fragBullets": 10,
 			"fragBullet": {
                 "type": "laserBulletType",
-                "damage": 460,
+                "damage": 760,
                 "sideAngle": 20,
                 "sideWidth": 1.5,
                 "sideLength": 80,
