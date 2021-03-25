@@ -52,7 +52,7 @@
 			"blast-compound": {
 			"type" : "BasicBulletType",
 			"status" : "blasted",			
-			"damage": 32,	
+			"damage": 40,	
 			"speed": 5,				
 			"splashDamage" : 15,
 			"splashDamageRadius" : 28,							
