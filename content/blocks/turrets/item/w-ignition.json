@@ -30,7 +30,7 @@
             "width": 10,
             "hitEffect": "blastExplosion",
             "shootEffect": "blastExplosion",
-            "pierce": false,
+            "pierce": true,
             "smokeEffect": "hitBulletBig"
         }
     },
