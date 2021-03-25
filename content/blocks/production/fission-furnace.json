@@ -15,7 +15,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{"item": "phase-fabric", "amount": 10},
+				{"item": "thorium", "amount": 10},
 				{"item": "xanium", "amount": 8}
 			]
 		}
