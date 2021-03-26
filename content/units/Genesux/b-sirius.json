@@ -96,8 +96,9 @@
     "type": "ContinuousLaserBulletType",
     "damage": 260,
     "length": 220,
+	
     "hitEffect": "lancerLaserCharge",
-    "drawSize": 420,
+    "drawSize": 220,
     "lifetime": 200,
     "shake": 4,
     "despawnEffect": "smokeCloud",
