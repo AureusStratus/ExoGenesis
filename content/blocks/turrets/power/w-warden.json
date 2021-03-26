@@ -39,8 +39,8 @@
         "pierce": false,
         "frontColor": "bbdefb",
         "backColor": "90caf9",
-			"fragBullets": 5,
-			"fragBullet": {
+	"fragBullets": 5,
+	"fragBullet": {
         "type": "BasicBulletType",
         "sprite": "exogenesis-spear",
         "absorbable": true,
