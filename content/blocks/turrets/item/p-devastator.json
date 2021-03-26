@@ -82,7 +82,6 @@
 				"status": "slow",
 			    "statusDuration": "720",
 				"lifetime": 50,
-				"bulletShrink": 1,
 				"frontColor": "F9A3C7FF",
 				"backColor": "CB8EBFFF"
 			}
