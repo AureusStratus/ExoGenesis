@@ -1,7 +1,7 @@
 {
     "localizedName": "Alpha Steel",
-    "description": "an Highly energetic material that is used in advanced weaponry and Eletrical structures",
-    "details": "a metal that was used by the Elecians to create powerful energy units and turrets",
+    "description": "An Highly energetic material that is used in advanced weaponry and Eletrical structures",
+    "details": "A metal that was used by the elecians to create powerful energy units and turrets",
     "hardness": 8,
     "cost": 7,
     "charge": 0.9,
