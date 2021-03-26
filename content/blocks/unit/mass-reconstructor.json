@@ -7,11 +7,11 @@
 		"power": 470,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 1380},
-				{"item": "surge-alloy", "amount": 1890},
-                {"item": "phase-fabric", "amount": 1300},
-				{"item": "plastanium", "amount": 1820},
-				{"item": "titanium", "amount": 1580}
+				{"item": "silicon", "amount": 980},
+				{"item": "surge-alloy", "amount": 890},
+                                {"item": "osmium", "amount": 700},
+				{"item": "plastanium", "amount": 820},
+				{"item": "titanium", "amount": 780}
 			]
 		}
 	},
