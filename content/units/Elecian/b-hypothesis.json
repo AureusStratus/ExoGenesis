@@ -23,12 +23,12 @@
     "y": 1.8,
     "reload": 5,
     "recoil": 0.5,
+    "shootSound": "sap",
     "bullet": {
     "buildingDamageMultiplier": -0.03,
     "shootEffect": "shootHealYellow",
     "despawnEffect": "shootHealYellow",
     "type": "LaserBoltBulletType",
-    "shootSound": "sap",
     "damage": 6,
     "speed": 6,
     "frontColor": "F3E979FF",
