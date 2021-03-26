@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"localizedName": "Devastator",
-	"description": "[purple]like the havoc this turret can produce powerful explosion that knockback the enemy and at the same causing some devastation",
+	"description": "[purple]Like the havoc this turret can produce powerful explosion that knockback the enemy and at the same causing some devastation",
 	"health": 300,
 	"size": 3,
 	"reloadTime": 70,
