@@ -1,8 +1,8 @@
  {
 	"type": "ItemTurret",
-	"description": "[red]a massive laser cannon that super chargers its ammunition to the point of fusion and then realses it in the form of a devastating laser",
+	"description": "[red]A massive laser cannon that super chargers its ammunition to the point of fusion and then realses it in the form of a devastating laser",
 	"localizedName": "Aftershock",
-	 "details": "melt your foes",
+	 "details": "Melt your foes",
 	"size": 8,
 	"health": 8660,
 	"range": 410,
