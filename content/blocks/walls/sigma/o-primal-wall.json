@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "localizedName": "Sigma wall",
-    "description": "an immensely dense wall that has a lot of health but takes a lot more materials to build",
+    "description": "An immensely dense wall that has a lot of health but takes a lot more materials to build",
     "health": 9400,
     "size": 1,
     "requirements": [
