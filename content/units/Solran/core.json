@@ -32,6 +32,8 @@
   "shake": 2,
   "shootSound": "shotgun",
   "ejectEffect": "casing1",
+  "heatColor": "FF5845FF",
+  "cooldownTime": 40,
   "bullet": {
             "speed": 0.01,
             "damage": 365,
@@ -48,7 +50,6 @@
             "shootEffect": "hitMeltdown",
             "hitEffect": "blastExplosion",
             "incendChance": 140,
-            "heatColor": "FF5845FF",
             "incendSpread": 18,
             "incendAmount": 4,
             "lightning": 4,
