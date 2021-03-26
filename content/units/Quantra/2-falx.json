@@ -1,6 +1,6 @@
 {
-    "localizedName": "Falx",
-    "description": "[acid] this unit is equipped with two powerful gamma artillery that homes in on targets the bullet moves slowly tho",
+    "localizedName": "Rank",
+    "description": "[acid] This unit is equipped with two powerful gamma artillery that homes in on targets the bullet moves slowly tho",
     "research": "1-arco",
     "type": "naval",
     "speed": 0.9,
