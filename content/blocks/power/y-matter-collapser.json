@@ -15,8 +15,6 @@
 	"itemDuration": 380,
 	"plasma1": "EC905AFF",
 	"plasma2": "D99F6BFF",
-	"plasma3": "EC905AFF",
-	"plasma4": "D99F6BFF",
 	"consumes": {
 		"power": 80.0,
 		"items": {
