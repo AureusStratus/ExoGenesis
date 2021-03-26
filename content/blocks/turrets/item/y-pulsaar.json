@@ -75,7 +75,7 @@
 				"damage" : 10
 			}
 		},
-		"alpha-yellow": {
+		"surge-alloy": {
 			"type" : "BasicBulletType",
 			"status" : "shocked",			
 			"damage": 32,	
