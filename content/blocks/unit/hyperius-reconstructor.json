@@ -10,9 +10,9 @@
 				{"item": "osmium", "amount": 890},
 				{"item": "xanium", "amount": 850},
 				{"item": "surge-alloy", "amount": 920},
-				{"item": "phase-fabric", "amount": 620},
+				{"item": "phase-fabric", "amount": 1220},
 				{"item": "silicon", "amount": 1920},
-				{"item": "plastanium", "amount": 780}
+				{"item": "plastanium", "amount": 1380}
 			]
 		}
 	},
