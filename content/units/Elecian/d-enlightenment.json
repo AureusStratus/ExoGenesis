@@ -1,6 +1,6 @@
 {
         "localizedName": "Enlightenment",
-        "description": "[gold] a giant flying assault unit that has one big rocket launcher and 4 shock artillery cannons and it also has smalls low health shield and it's quite fast",
+        "description": "[gold] A giant flying assault unit that has one big rocket launcher and 4 shock artillery cannons and it also has smalls low health shield and it's quite fast",
         "research": "c-revelation",
         "speed": 1.6,
         "accel": 0.02,
