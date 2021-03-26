@@ -74,8 +74,6 @@
   "shootStatus": "slow",
   "shootStatusDuration": 130,
   "firstShotDelay": 20,
-  "chargeTime": 60,
-  "chargeSound": "lasercharge",
   "shootSound": "corexplode",
   "mirror": false,
   "bullet": {
