@@ -13,11 +13,10 @@
 				{"item": "primal-red", "amount": 1200},
 				{"item": "gamma-green", "amount": 1200},
 				{"item": "osmium", "amount": 1290},
-				{"item": "xanium", "amount": 1450},
-				{"item": "surge-alloy", "amount": 2520},
+				{"item": "quantux", "amount": 1520},
 				{"item": "phase-fabric", "amount": 2620},
-				{"item": "silicon", "amount": 3920},
-				{"item": "plastanium", "amount": 4780}
+				{"item": "silicon", "amount": 1920},
+				{"item": "plastanium", "amount": 2780}
 			]
 		}
 	},
