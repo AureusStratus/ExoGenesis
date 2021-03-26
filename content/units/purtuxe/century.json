@@ -39,7 +39,6 @@
                     "trailColor": "665C9FFF",
                     "height": 13,
                     "lifetime": 37,
-                    "shootSound": "sap",
                     "homingRange": 46,
                     "homingDelay": 8,
                     "homingPower": 0.0678,
