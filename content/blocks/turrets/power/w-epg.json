@@ -1,6 +1,6 @@
 {
 "localizedName": "Electron Pulse Emitter",
-"description":"an aoe turret Built to weaken other units with pulses of charged electrons it uses alot of power tho",
+"description":"An aoe turret Built to weaken other units with pulses of charged electrons it uses alot of power tho",
 "type": "powerTurret",
 "reloadTime": 240,
 "recoilAmount": 0,
