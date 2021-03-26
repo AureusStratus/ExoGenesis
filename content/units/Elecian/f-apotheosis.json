@@ -137,12 +137,12 @@
     "shootY": 2,
     "spacing": 10,
     "inaccuracy": 7,
-    "keepVelocity": false,
     "xRand": 8,
     "shotDelay": 1,
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
+    "keepVelocity": false,
     "buildingDamageMultiplier": -0.25,
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",
