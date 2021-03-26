@@ -1,6 +1,6 @@
 {	
     "localizedName": "Fission furnace",
-    "description": "uses the odd property of phase fabric to cause a fission reaction between the phase fabric and titanium to create a very strange metalic material",
+    "description": "Uses the odd property of phase fabric to cause a fission reaction between the phase fabric and titanium to create a very strange metalic material",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
