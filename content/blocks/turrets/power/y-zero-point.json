@@ -25,7 +25,7 @@
 	"chargeEffect" : "shockwave",
 	"chargeBeginEffect" : "coreLand",
 
-    "powerUse" : 30,
+        "powerUse" : 30,
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "BasicBulletType",
@@ -33,7 +33,7 @@
 		"damage": 800,	
 		"splashDamage" : 600,
 		"splashDamageRadius" : 96,	
-	    "hitShake" : 10,
+	        "hitShake" : 10,
 		"height" : 50,
 		"width" : 50,			
 		"speed": 4,
