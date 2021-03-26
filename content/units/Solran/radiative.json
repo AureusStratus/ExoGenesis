@@ -1,6 +1,6 @@
 {
 "name": "Radiative",
-"description":"[red] this unit is equipped with powerful fusion shotguns and pulse guns it  also has an oil sprayer that sprayer oil on targets to further ignite them and the area it also has status field that make units around it stronger",
+"description":"[red]This unit is equipped with powerful fusion shotguns and pulse guns it also has a oil sprayer that sprayer oil on targets to further ignite them and the area it also has status field that make units around it stronger",
 "type": "mech",
 "armor": 19,
 "rotateSpeed": 2.8,
