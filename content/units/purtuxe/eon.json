@@ -101,7 +101,6 @@
                      "reload": 485,
                      "recoil": 0.5,
                      "shootSound": "laser",
-                     "chargeTime": 60,
                      "bullet": {
                      "type": "laserBulletType",
                      "damage": 280,
