@@ -19,7 +19,7 @@
         "surge-alloy": {
             "speed": 0.01,
             "status": "shocked",	
-			"statusDuration": "1200",
+	"statusDuration": "1200",
             "damage": 300,
             "width": 18,
             "pierce": "true",
@@ -41,8 +41,8 @@
         "thorium": {
             "speed": 0.01,
             "damage": 250,
-			"status": "burning",
-			"statusDuration": "1200",
+	"status": "burning",
+	"statusDuration": "1200",
             "width": 18,
             "pierce": "true",
             "type": "ShrapnelBulletType",
