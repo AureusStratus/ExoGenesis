@@ -1,6 +1,6 @@
 {
     "type": "itemTurret",
-    "description": "hurls powerful projectiles at enemies",
+    "description": "Hurls powerful projectiles at enemies",
     "localizedName": "Comet",
     "size": 2,
     "health": 180,
