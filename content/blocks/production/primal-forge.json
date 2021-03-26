@@ -1,5 +1,6 @@
 {	
     "localizedName": "Nuclear fusion furnace",
+    "description": "Super heats materials to the point of fusion to create Sigma iron",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
