@@ -1,7 +1,7 @@
 {
 "type": "DecayGenerator",
 "localizedName": "Mass decay plant",
-"description": "ay larger version of the rtg generator capable of generator as much power as four rtgs",
+"description": "A larger version of the rtg generator capable of generator as much power as four rtgs",
 "health": 400,
 "size": 4,
 "powerProduction": 18.5,
