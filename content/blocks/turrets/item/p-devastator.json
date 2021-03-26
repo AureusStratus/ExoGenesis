@@ -54,7 +54,7 @@
 			"splashDamageRadius": 200,
 			"splashDamage": 100,
 			"ammoMultiplier": 2,
-            "instantDisappear": true
+                        "instantDisappear": true
 		},
 		
 		"thorium": {
@@ -71,16 +71,16 @@
 			"knockback": 20,
 			"splashDamageRadius": 200,
 			"splashDamage": 180,
-            "instantDisappear": true,	
+                        "instantDisappear": true,	
 			"ammoMultiplier": 3,
-            "fragBullets": 6,
+                        "fragBullets": 6,
 			"fragBullet": {
 				"damage": 40,
 				"speed": 4,
 				"width": 10,
 				"height": 12,
 				"status": "slow",
-			    "statusDuration": "720",
+			        "statusDuration": "720",
 				"lifetime": 50,
 				"frontColor": "F9A3C7FF",
 				"backColor": "CB8EBFFF"
