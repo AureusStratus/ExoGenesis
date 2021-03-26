@@ -49,10 +49,10 @@
     "y": -6.5,
     "reload": 18,
     "shootSound": "missile",
-    "keepVelocity": false,
     "recoil": 0.5,
     "shots": 2, 
     "bullet": {
+    "keepVelocity": false, 
     "type": "MissileBulletType",
     "buildingDamageMultiplier": -0.1,
     "shootEffect": "shootHealYellow",
