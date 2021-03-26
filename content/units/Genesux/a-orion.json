@@ -1,7 +1,7 @@
 {
     "localizedName": "Orion",
     "description": "[blue]a small and fast unit created by the genesux corporation it uses energy in its fuel cells to power a lancer like laser that pierces energy it doesn't do well against plastanium walls",
-    "research": "MultiFactory",
+    "research": "dagger",
     "commandLimit": 5,
     "type": "legs",
 	"speed": 0.52,
