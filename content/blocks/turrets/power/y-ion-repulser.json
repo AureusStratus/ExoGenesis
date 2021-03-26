@@ -21,15 +21,15 @@
 	"shootSound" : "lasershoot",
 
     "powerUse" : 18,
-	"hasPower" : true,
-	"shootType" : {
+    "hasPower" : true,
+    "shootType" : {
 		"type" : "laserBoltBulletType",
 		"speed": 6.0,
 		"lifetime" : 50,
 		"damage": 50,
 		"height" : 6,
 		"width" : 2,
-	    "shootEffect": "hitYellowLaser",
+	        "shootEffect": "hitYellowLaser",
 		"hitEffect": "hitYellowLaser",
 		"despawnEffect" : "hitYellowLaser",
 		"pierce": true,
