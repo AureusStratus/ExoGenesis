@@ -79,7 +79,7 @@
     "damage": 169,
     "length": 180,
     "hitEffect": "lancerLaserCharge",
-    "drawSize": 420,
+    "drawSize": 180,
     "lifetime": 180,
     "shake": 2,
     "despawnEffect": "smokeCloud",
