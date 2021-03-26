@@ -1,5 +1,6 @@
 {
 	"type": "ItemTurret",
+	"description": "A single barreled turret that can shoot rapidly",
 	"localizedName": "Flux",
 	"size": 5,
 	"health": 1500,
@@ -46,7 +47,7 @@
             "hitEffect": "massiveExplosion",
 			"splashDamageRadius": 80,
 			"splashDamage": 10,
-            "incendAmount": 8,
+                        "incendAmount": 8,
 			"incendSpread": 4,
 			"incendChance": 10
         },
