@@ -8,8 +8,8 @@
 		"items": {
 			"items": [
 				{"item": "osmium", "amount": 890},
-				{"item": "xanium", "amount": 750},
-				{"item": "surge-alloy", "amount": 520},
+				{"item": "xanium", "amount": 850},
+				{"item": "surge-alloy", "amount": 920},
 				{"item": "phase-fabric", "amount": 620},
 				{"item": "silicon", "amount": 1920},
 				{"item": "plastanium", "amount": 780}
