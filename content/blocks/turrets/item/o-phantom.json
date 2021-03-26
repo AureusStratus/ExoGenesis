@@ -20,7 +20,7 @@
     "ammoTypes": {
           "blast-compound": {
             "status": "burning",
-			"statusDuration": "800",
+	"statusDuration": "800",
             "speed": 7,
              "height": 18,
             "width": 15,
@@ -54,7 +54,7 @@
         },
         "surge-alloy": {
             "status": "shocked",
-			"statusDuration": "700",
+	"statusDuration": "700",
             "speed": 10,
             "height": 18,
             "width": 15,
