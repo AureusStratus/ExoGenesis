@@ -53,15 +53,15 @@
 			"splashDamageRadius": 260,
 			"splashDamage": 160,
 			"ammoMultiplier": 2,
-            "instantDisappear": true,			
-            "fragBullets": 6,
+                        "instantDisappear": true,			
+                        "fragBullets": 6,
 			"fragBullet": {
 				"damage": 50,
 				"speed": 4,
 				"width": 10,
 				"height": 12,
 				"status": "slow",
-			    "statusDuration": "720",
+			        "statusDuration": "720",
 				"lifetime": 50,
 				"frontColor": "F9A3C7FF",
 				"backColor": "CB8EBFFF"
@@ -83,13 +83,13 @@
 			"knockback": 22,
 			"splashDamageRadius": 260,
 			"splashDamage": 240,
-            "instantDisappear": true,	
+                        "instantDisappear": true,	
 			"ammoMultiplier": 3
 			}
 	},
 	"requirements": [
 		{ "item": "titanium", "amount": 250 },
-        { "item": "thorium", "amount": 360 },
+                { "item": "thorium", "amount": 360 },
 		{ "item": "plastanium", "amount": 300 },
 		{ "item": "osmium", "amount": 450 },
 		{ "item": "silicon", "amount": 540 },
