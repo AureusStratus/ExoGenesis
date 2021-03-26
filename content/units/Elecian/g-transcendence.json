@@ -109,9 +109,9 @@
   "recoil": 6,
   "soundPitchMin": 0.95,
   "soundPitchMax": 2.05,
-  "hitSound": "shockBoom",
     "shootSound": "ascends",
     "bullet": {
+    "hitSound": "shockBoom",
     "type": "basicBulletType",
     "buildingDamageMultiplier": -0.03,
       "lifetime": 270,
