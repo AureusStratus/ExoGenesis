@@ -1,6 +1,6 @@
 {
     "localizedName": "Polaris",
-    "description": "[blue]a magnetically accelerated railgun that primarily uses omega alloy and shot it at devastating speeds at enemies",
+    "description": "[blue]A magnetically accelerated railgun that primarily uses omega alloy and shot it at devastating speeds at enemies",
 	"type": "ItemTurret",
 	"size": 4,
 	"health": 850,
