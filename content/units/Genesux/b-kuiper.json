@@ -1,6 +1,6 @@
 {
     "localizedName": "Kuiper",
-    "description": "[blue] the Kuiper unit uses two lancer lasers and one lighting gun amount at the center back which it uses its fuel cells to power its also much more durable than the galileo",
+    "description": "[blue] The kuiper unit is equipped with two lancer lasers and one lighting gun amount at the center back which it uses its fuel cells to power its also much more durable than the galileo",
     "type": "legs",
     "research": "b-galileo",
 	"speed": 0.5,
