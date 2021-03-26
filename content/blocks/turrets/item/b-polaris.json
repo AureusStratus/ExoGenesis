@@ -29,7 +29,7 @@
 			"pierceEffect" : "railHit",
 			"updateEffect" : "railTrail",
 			"hitEffect" : "instHit",
-            "trailEffect": "instTrail",
+                        "trailEffect": "instTrail",
 			"fragBullets": 10,
 			"fragBullet": {
 				"type": "BasicBulletType",
