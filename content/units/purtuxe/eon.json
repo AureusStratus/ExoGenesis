@@ -51,7 +51,6 @@
                     "weaveScale": 2,
                     "speed": 5,
                     "width": 18,
-                    "shootSound": "shotgun",
                     "trailChance": 0.5,
                     "trailColor": "665C9FFF",
                     "height": 18,
