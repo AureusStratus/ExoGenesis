@@ -54,7 +54,7 @@
 			"splashDamageRadius": 100,
 			"splashDamage": 80,
 			"ammoMultiplier": 2,
-            "instantDisappear": true
+                        "instantDisappear": true
 		},
 		
 		"metaglass": {
@@ -72,14 +72,14 @@
 			"splashDamageRadius": 100,
 			"splashDamage": 100,
 			"ammoMultiplier": 3,
-            "fragBullets": 20,
+                        "fragBullets": 20,
 			"fragBullet": {
 				"damage": 40,
 				"speed": 4,
 				"width": 10,
 				"height": 12,
 				"status": "sapped",
-			    "statusDuration": "1120",
+			        "statusDuration": "1120",
 				"lifetime": 50,
 				"frontColor": "D0D0E0FF",
 				"backColor": "EBEEF5FF"
