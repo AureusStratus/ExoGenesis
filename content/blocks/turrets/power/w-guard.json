@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "a strong turret with peircing energy bullets",
+    "description": "A strong turret with peircing energy bullets",
     "localizedName": "Guard",
     "size": 2,
     "health": 180,
