@@ -33,7 +33,6 @@
 		"damage": 800,	
 		"splashDamage" : 600,
 		"splashDamageRadius" : 96,	
-		"explodeRange" : 64,
 	    "hitShake" : 10,
 		"height" : 50,
 		"width" : 50,			
