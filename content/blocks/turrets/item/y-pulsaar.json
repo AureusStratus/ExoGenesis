@@ -91,13 +91,13 @@
 			"hitEffect": "shockwave",
 			"shootEffect": "shootBig2",
 			"smokeEffect": "hitBulletBig",
-            "lightning": 4,
-            "lightningDamage": 10,
-            "lightningCone": 360,
-            "lightningLengthRand": 13,
-            "lightningColor": "D99F6BFF",
-            "lightningLength": 10,
-            "collidesAir": false
+                        "lightning": 4,
+                        "lightningDamage": 10,
+                        "lightningCone": 360,
+                        "lightningLengthRand": 13,
+                        "lightningColor": "D99F6BFF",
+                        "lightningLength": 10,
+                        "collidesAir": false
 		}
 	},
 	"requirements": [
