@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "description": "ay smaller version of the fuse and is pretty Cheap to build",
+    "description": "A smaller version of the fuse and is pretty Cheap to build",
     "localizedName": "Ignition",
     "size": 1,
     "health": 140,
