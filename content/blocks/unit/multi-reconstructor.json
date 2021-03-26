@@ -7,10 +7,10 @@
 		"power": 380,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 440},
-				{"item": "osmium", "amount": 140},
-				{"item": "plastanium", "amount": 380},
-				{"item": "thorium", "amount": 250}
+				{"item": "silicon", "amount": 640},
+				{"item": "osmium", "amount": 540},
+				{"item": "plastanium", "amount": 480},
+				{"item": "thorium", "amount": 550}
 			]
 		}
 	},
