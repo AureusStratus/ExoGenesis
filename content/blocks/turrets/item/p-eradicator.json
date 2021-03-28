@@ -152,8 +152,8 @@
          }
     },
     "requirements": [
-        { "item": "titanium", "amount": 980 },
-        { "item": "thorium", "amount": 660 },
+                { "item": "titanium", "amount": 980 },
+                { "item": "thorium", "amount": 660 },
 		{ "item": "plastanium", "amount": 590 },
 		{ "item": "osmium", "amount": 850 },
 		{ "item": "silicon", "amount": 1000 },
