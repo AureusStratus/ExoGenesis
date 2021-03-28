@@ -31,7 +31,7 @@
         "absorbable": true,
         "speed": 6,
         "lifetime": 40,
-        "damage": 38,
+        "damage": 58,
         "height": 20,
         "width": 13,
         "hitEffect": "hitLaser",
