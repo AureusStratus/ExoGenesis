@@ -9,5 +9,5 @@
         {"item": "osmium", "amount": 650}
     ],
     "category": "defense",
-    "research": "o-large-primal-wall"
+    "research": "o-primal-wall"
 }
