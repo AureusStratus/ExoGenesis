@@ -74,12 +74,12 @@
         }
     },  
 	"requirements": [
-		{ "item": "jupiteium", "amount": 600 },
+		{ "item": "jupiteium", "amount": 680 },
 		{ "item": "lead", "amount": 1000 },
-		{ "item": "silicon", "amount": 790 },
-		{ "item": "osmium", "amount": 570 },
-		{ "item": "titanium", "amount": 800 },
-		{ "item": "omega-blue", "amount": 800 }
+		{ "item": "silicon", "amount": 890 },
+		{ "item": "osmium", "amount": 770 },
+		{ "item": "titanium", "amount": 860 },
+		{ "item": "omega-blue", "amount": 870 }
 	],
 	"category": "turret",
 	"research": "b-flux"
