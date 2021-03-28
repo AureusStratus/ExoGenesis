@@ -4,7 +4,7 @@
 	"localizedName": "Equilibrium",
 	"details": "Equalize the battlefield",
 	"size": 14,
-	"health": 14360,
+	"health": 143600,
 	"range": 800,
 	"reloadTime" : 380,
 	"inaccuracy": 0,
