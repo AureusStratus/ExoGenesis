@@ -2,7 +2,7 @@
     "type": "Wall",
     "description": "A tough wall that has abortion properties",
     "localizedName": "Large gamma wall",
-    "health": 6800,
+    "health": 3800,
     "size": 2,
     "insulated": true,
     "absorbLasers": true,
