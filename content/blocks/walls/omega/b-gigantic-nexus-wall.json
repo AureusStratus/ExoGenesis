@@ -6,7 +6,7 @@
     "chanceDeflect": 30.0,
     "flashHit": true,
     "flashColor": "79F2EEFF",
-    "health": 11000,
+    "health": 44800,
     "size": 4,
     "requirements": [
         {"item": "omega-blue", "amount": 445},
