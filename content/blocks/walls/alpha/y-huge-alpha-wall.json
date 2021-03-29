@@ -7,7 +7,7 @@
     "lightningColor": "F3E979FF",
     "lightningDamage": 48,
     "lightningLength":28,
-    "health": 9720,
+    "health": 22680,
     "size": 3,
     "requirements": [
         {"item": "alpha-yellow", "amount": 345},
