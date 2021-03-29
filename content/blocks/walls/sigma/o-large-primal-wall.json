@@ -2,7 +2,7 @@
 	"type": "Wall",
     "localizedName": "Large Sigma wall",
     "description": "An immensely dense wall that has a lot of health but takes a lot more materials to build",
-    "health": 21600,
+    "health": 26000,
     "size": 2,
     "requirements": [
 		{"item": "primal-red", "amount": 700},
