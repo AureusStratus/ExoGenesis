@@ -1,6 +1,6 @@
 {
         "localizedName": "Theory",
-	"descriptions": "[gold] A small and fast flying unit created by the elecians this units is equipped with a shock rocket launcher that helps at dealing with groups of enemies",
+	"description": "[gold] A small and fast flying unit created by the elecians this units is equipped with a shock rocket launcher that helps at dealing with groups of enemies",
         "research": "dagger",
         "speed": 3,
         "accel": 0.04,
