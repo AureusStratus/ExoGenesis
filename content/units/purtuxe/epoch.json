@@ -1,7 +1,7 @@
 {
             "localizedName": "Epoch",
             "description": "[purple] The final upgrade in the decade line this unit is long ranged Sentinel type titan it is equipped with two railguns this titan can create a long ranged focused beam of quantux energy that can cut through unprotected defenses and it can inflict quantux burn",
-            "details": "The power of a dark energy technology at you finger tips",
+            "details": "The power of dark energy technology at you finger tips",
             "research": "ravthian-reconstructor",
             "type": "legs",
             "speed": 0.27,
@@ -94,11 +94,7 @@
                      "shake": 1,
                      "despawnEffect": "smokeCloud",
                      "smokeEffect": "smokeCloud",
-                     "status": {
-                     "name": "quantux-burn",
-                     "damage": 7,
-                     "effect": "sapped",
-                     "speedMultiplier": 0.7
+                     "status": "melting"
                      },
     "shootEffect": {
     "type": "multiEffect",
@@ -145,15 +141,16 @@
         ]
       }
     }
- }
      ],
     "abilities": [
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "range" : 206,
             "reload" : 540,
-            "duration" : 165,
+            "duration" : 865,
             "effect": {
+                "localizedName": "Quantux Charged",
+                "description": "You are super charged",
                 "name": "quantux-charged",
                 "speedMultiplier": 1.4,
                 "reloadMultiplier": 1.8,

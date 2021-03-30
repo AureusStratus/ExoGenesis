@@ -173,15 +173,11 @@
             "shootEffect": "none",
             "smokeEffect": "none",
             "incendChance": 0,
-              "status": {
-              "name": "quanux-burn",
-              "damage": 7,
-              "effect": "sapped",
-              "speedMultiplier": 0.7
+            "statusDuration": 600,
+            "status": "sapped"
             }
     },
 "research": "eon"
        }
-      }
      ]
     }
