@@ -111,7 +111,6 @@
   "soundPitchMax": 2.05,
     "shootSound": "ascends",
     "bullet": {
-    "hitSound": "shockBoom",
     "type": "basicBulletType",
     "buildingDamageMultiplier": -0.03,
       "lifetime": 270,
@@ -137,6 +136,17 @@
       "hitSound": "shockBoom",
       "frontColor": "F3E979FF",
       "backColor": "FFFFFF",
+                "status": {
+              "localizedName": "Divine Division",
+              "description": "you have been weakened",
+              "name": "division",
+              "effect": "absorb",
+              "permanent": true,
+              "color": "F3E979FF",
+              "effectChance": 1,
+              "healthMultiplier": 0.5
+                }
+    },
       "hittable": false,
       "reflectable": false,
       "absorbable": true,
@@ -153,19 +163,9 @@
                 "sideLength": 80,
                 "width": 10,
                 "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
-                "length": 180,
-                "status": {
-              "name": "division",
-              "damage": 0,
-              "effect": "absorb",
-              "permanent": true,
-              "color": "F3E979FF",
-              "effectChance": 1,
-              "healthMultiplier": 0.5
+                "length": 180
                      }
 			      }
-             }
-        }
     ],
     "abilities": [
         {
