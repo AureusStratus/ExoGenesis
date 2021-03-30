@@ -111,13 +111,15 @@
     "abilities": [
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "range" : 46,
-            "reload" : 240,
-            "duration" : 85,
+            "range" : 86,
+            "reload" : 340,
+            "duration" : 285,
             "effect": {
-                "name": "Overclock",
-                "speedMultiplier": 1.0,
-                "damageMultiplier": 1.8,
+                "localizedName": "Inraged",
+                "description": "You are out of control",
+                "name": "rage",
+                "speedMultiplier": 1.5,
+                "damageMultiplier": 2.0,
                 "reloadMultiplier": 1.0,
                 "effect": "overdriven"
             }
