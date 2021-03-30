@@ -39,8 +39,10 @@
   "lightningCone": 20,
   "lightningLengthRand": 13,
   "status": {
-              "name": "qantux-burn",
-              "damage": 15,
+              "localizedName": "Quantux Burn",
+              "name": "quantux-burn",
+              "description": "Burns away atoms",
+              "damage": 5,
               "effect": "sapped",
               "speedMultiplier": 0.52,
               "reloadMultiplier": 0.30,

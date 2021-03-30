@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-        "description": "[white]Equalize the battle field with this massive turret it shoots a different projectile depending on its ammo, it needs a lot of power to fire and it take a large amount a resource to build this weapon was created to fight off power units",
+    "description": "[white]Equalize the battle field with this massive turret it shoots a different projectile depending on its ammo, it needs a lot of power to fire and it take a large amount a resource to build this weapon was created to fight off power units",
 	"localizedName": "Equilibrium",
 	"details": "Equalize the battlefield",
 	"size": 14,
@@ -47,13 +47,16 @@
 		"backColor": "DBFFBDFF",
                 "statusDuration": 1300,
                 "status": {
+              "localizedName": "Gamma Burn",
+              "description": "gamma energy is melting you",
               "name": "gamma-burn",
               "damage": 1.8,
               "effect": "hitMeltHeal",
               "permanent": false,
               "color": "F3E979FF",
-              "effectChance": 0.0001
-		     }
+              "effectChance": 1		     
+                    
+                }
         },
         "alpha-yellow": {
             "type":"BasicBulletType",
@@ -83,6 +86,8 @@
             "collidesAir": true,
             "statusDuration": 1300,
             "status": {
+              "localizedName": "Armor Break",
+              "description": "Your armor has been broken",
               "name": "armor-break",
               "damage": 0,
               "effect": "blastsmoke",
@@ -111,7 +116,8 @@
             "shootEffect": "sapExplosion",
             "statusDuration": 1300,
             "status": {
-              "name": "quantum-slowdown",
+              "localizedName": "Quantux Slowdown",
+              "name": "quantux-slowdown",
               "damage": 0,
               "effect": "sapped",
               "permanent": true,
@@ -123,9 +129,9 @@
 		"fragBullet": {
 			"type": "MissileBulletType",
 			"sprite" : "exogenesis-spear",
-                        "homingPower": 0.0995,
-                        "homingRange": 580,
-                        "homingDelay": 55,
+            "homingPower": 0.0995,
+            "homingRange": 580,
+            "homingDelay": 55,
 			"status" : "corroded",
 			"height" : 25,
 			"width" : 25,
@@ -135,7 +141,7 @@
 			"speed": 5.5,
 			"pierce": true,
 			"damage" : 1000,
-		        "trailColor": "665C9FFF",
+		    "trailColor": "665C9FFF",
 			"hitEffect" : "sapExplosion",
 			"despawnEffect": "sapExplosion",
 			"frontColor": "665C9FFF",
@@ -143,20 +149,20 @@
 		    }
         },
         "primal-red": {
-	   "type": "LaserBulletType",
-	   "hitEffect": "hitMeltdown",
-	   "hitSize": 68,
+	       "type": "LaserBulletType",
+	       "hitEffect": "hitMeltdown",
+	       "hitSize": 68,
            "width": 70,
-	   "lifetime": 30,
-	   "drawSize": 430,
-	   "collidesAir": true,
-	   "length": 1000,
+	       "lifetime": 30,
+	       "drawSize": 430,
+	       "collidesAir": true,
+	       "length": 1000,
            "sideAngle": 90,
            "sideLength": 90,
            "sideWidth": 1,
            "statusDuration": 1300,
-	   "damage": 4960,
-	   "lightning": 2,
+	       "damage": 4960,
+	       "lightning": 2,
            "lightningCone": 20,
            "lightningSpacing": 18,
            "lightningLength": 10,
@@ -170,6 +176,8 @@
            "shootEffect": "massiveExplosion",
            "colors": ["CB1D1DFF", "FF4040FF", "a17dcd"],
            "status": {
+              "localizedName": "Blazing",
+              "description": "The heat is to much",
               "name": "blazing",
               "damage": 1,
               "effect": "burning",
@@ -218,8 +226,9 @@
                 "length": 280,
                 "statusDuration": 1300,
                 "status": {
+              "localizedName": "Omni Blasted",
+              "description": "You have been hit with potent energy",
               "name": "omni-blast",
-              "damage": 0,
               "effect": "lightningCharge",
               "permanent": false,
               "color": "79F2EEFF",
