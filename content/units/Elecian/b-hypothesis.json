@@ -1,6 +1,6 @@
 {
         "localizedName": "Hypothesis",
-	"descriptions": "[gold] The upgrade to the theory this unit is equipped with two bolters that shoot rapidly but do low damage",
+	"description": "[gold] The upgrade to the theory this unit is equipped with two bolters that shoot rapidly but do low damage",
         "research": "a-theory",
         "speed": 2.9,
         "accel": 0.03,
