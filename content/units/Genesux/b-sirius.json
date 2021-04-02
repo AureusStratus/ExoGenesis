@@ -93,7 +93,7 @@
   "shootSound": "plasmaboom",
            "bullet": { 
              "type": "basicBulletType",
-             "sprite": "testers-plasma",
+             "sprite": "exogenesis-plasma",
              "hitEffect": "shockwave",
              "hitColor": "79F2EEFF",
              "despawnEffect": "shockwave",
