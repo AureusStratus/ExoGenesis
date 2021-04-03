@@ -1,5 +1,6 @@
 {
             "localizedName": "Century",
+            "research": "decade",
             "description": "[purple] The upgrade to the century this unit is equipped with upgraded quantux blasters and it has a built in laser blaster",
             "type": "mech",
             "flying": false,
@@ -72,8 +73,7 @@
                      "lifetime": 20,
                      "knockback": -0.65
 
-     },
-"research": "decade"
+     }
   }
 ]
 }
