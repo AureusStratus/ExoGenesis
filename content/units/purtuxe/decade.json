@@ -2,6 +2,7 @@
             "localizedName": "Decade",
             "description": "[purple] A unit created by the purtuxian it is equipped with a quantux energy shotgun that shoots out orbs that can home in on the enemy slightly the unit can also build and mine",
             "type": "mech",
+            "research": "dagger",
             "flying": false,
             "speed": 0.55,
             "hitSize": 8,
@@ -44,8 +45,7 @@
                     "hitEffect": "none",
                     "backColor": "665C9FFF",
                     "frontColor": "BF92F9FF"
-     },
-"research": "dagger"
+     }
   }
 ]
 }
