@@ -1,5 +1,6 @@
 {
             "localizedName": "Millennia",
+            "research": "century",
             "description": "[purple] The upgrade to the century this unit is equipped with upgraded quantux blasters and it has a built in laser blaster",
             "type": "mech",
             "flying": false,
@@ -66,8 +67,7 @@
                      "length": 180,
                      "shootEffect": "sapped"
 
-     },
-"research": "century"
+     }
   }
 ]
 }
