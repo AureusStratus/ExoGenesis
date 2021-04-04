@@ -1,7 +1,7 @@
 {	
 	"type": "Wall",
     "localizedName": "Large Sigma wall",
-    "buildCostMultiplier": 1,
+    "buildCostMultiplier": 0.2,
     "description": "An immensely dense wall that has a lot of health but takes a lot more materials to build",
     "health": 26000,
     "size": 2,
