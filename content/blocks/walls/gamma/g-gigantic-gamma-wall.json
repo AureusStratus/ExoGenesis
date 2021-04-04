@@ -1,5 +1,6 @@
 {   
     "type": "Wall",
+    "buildCostMultiplier": 0.1,
     "description": "A tough wall that has abortion properties",
     "localizedName": "Gigantic gamma wall",
     "health": 46500,
