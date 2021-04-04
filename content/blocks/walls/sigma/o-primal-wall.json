@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "localizedName": "Sigma wall",
-    "buildCostMultiplier": 15,
+    "buildCostMultiplier": 1,
     "description": "An immensely dense wall that has a lot of health but takes a lot more materials to build",
     "health": 6400,
     "size": 1,
