@@ -15,7 +15,7 @@
 "mechStepShake": 1,
 "singleTarget": true,
 "speed": 0.26,
-"health": 248000,
+"health": 748000,
 "range": 280,
 "immunities": [
 		"burning",
