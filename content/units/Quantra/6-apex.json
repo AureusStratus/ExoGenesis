@@ -10,7 +10,7 @@
     "targetAir": true,
     "range": 300,
     "hitSize": 76,
-    "health": 118200,
+    "health": 518200,
     "speed": 0.70,
     "accel": 0.11,
     "rotateSpeed": 0.8,
