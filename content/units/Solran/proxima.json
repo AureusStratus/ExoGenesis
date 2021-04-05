@@ -1,5 +1,6 @@
 {
 "name": "Proxima",
+"research": "ravthian-reconstructor",
 "description": "[red]A titan class unit that is able go tank through normal defenses and it specializes in taking down defense it is equipped with powerful shotgun weapons, large cannons and missiles launchers",
 "type": "mech",
 "details": "They will know what the power of nuclear fusion can do",
@@ -134,8 +135,8 @@
     "incendChance": 140,
     "incendSpread": 18,
     "incendAmount": 4
-    },
-"research": "ravthian-reconstructor"
+    }
+
             }
     ]
 }
