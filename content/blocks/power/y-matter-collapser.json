@@ -10,7 +10,7 @@
     "explosionRadius": 400,
     "explosionDamage": 100000,
 	"hasLiquids": true,
-	"powerProduction": 270,
+	"powerProduction": 570,
 	"warmupSpeed": 0.001,
 	"itemDuration": 380,
 	"plasma1": "EC905AFF",
