@@ -8,7 +8,7 @@
             "range": 700,
             "hitSize": 64,
             "rotateSpeed": 1.0,
-            "health": 105800,
+            "health": 405800,
             "buildSpeed": 5,
             "armor": 38,
             "commandLimit": 9,
@@ -149,7 +149,7 @@
                      "bullet": {
                      "type": "ContinuousLaserBulletType",
                      "colors":["D5B5FFFF","BF92F9FF", "665C9FFF", "000000FF"],
-                     "damage": 100,
+                     "damage": 180,
                      "length": 700,
                      "width": 7,
                      "hitColor": "665C9FFF",
