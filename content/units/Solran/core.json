@@ -1,5 +1,6 @@
 {
 "name": "Core",
+"research": "radiative",
 "description": "[red] The tier 5 of the solar units its is equipped with powerful fusion shotguns and powerful incendiary rocks and a oil sprayer set your enemies ablaze",
 "type": "mech",
 "armor": 23,
@@ -114,8 +115,7 @@
         "incendChance": 140,
         "incendSpread": 18,
         "incendAmount": 3
-    },
-"research": "radiative"
+    }
             }
     ]
 }
