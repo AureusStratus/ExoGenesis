@@ -18,8 +18,8 @@
 		"items": {
 			"items": [
 				{"item": "thorium", "amount": 10},
-				{"item": "titanium", "amount": 10},
-				{"item": "silicon", "amount": 10}
+				{"item": "titanium", "amount": 8},
+				{"item": "silicon", "amount": 6}
 			]
 	},
 		"liquid": {
