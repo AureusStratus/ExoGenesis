@@ -15,9 +15,9 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{"item": "titanium", "amount": 10},
-				{"item": "osmium", "amount": 10},
-				{"item": "surge-alloy", "amount": 10}
+				{"item": "titanium", "amount": 8},
+				{"item": "osmium", "amount": 12},
+				{"item": "surge-alloy", "amount": 5}
 			]
 		}
 	},
