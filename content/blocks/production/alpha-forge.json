@@ -15,9 +15,8 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{"item": "xanium", "amount": 10},
-				{"item": "surge-alloy", "amount": 10},
-				{"item": "titanium", "amount": 10}
+				{"item": "xanium", "amount": 15},
+				{"item": "surge-alloy", "amount": 5}
 			]
 		}
 	},
