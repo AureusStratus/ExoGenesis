@@ -15,8 +15,8 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{"item": "blast-compound", "amount": 10},
-				{"item": "surge-alloy", "amount": 10},
+				{"item": "blast-compound", "amount": 8},
+				{"item": "surge-alloy", "amount": 5},
 				{"item": "osmium", "amount": 10}
 			]
 		}
