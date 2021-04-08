@@ -6,8 +6,8 @@
     "health": 6400,
     "size": 1,
     "requirements": [
-		{"item": "primal-red", "amount": 500},
-        {"item": "osmium", "amount": 450}
+		{"item": "primal-red", "amount": 300},
+        {"item": "osmium", "amount": 150}
     ],
     "category": "defense",
     "research": "surge-wall"
