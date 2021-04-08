@@ -6,8 +6,8 @@
     "health": 104000,
     "size": 4,
     "requirements": [
-		{"item": "primal-red", "amount": 1000},
-        {"item": "osmium", "amount": 1000}
+		{"item": "primal-red", "amount": 900},
+        {"item": "osmium", "amount": 800}
     ],
     "category": "defense",
     "research": "o-huge-primal-wall"
