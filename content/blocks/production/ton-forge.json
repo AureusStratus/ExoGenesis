@@ -15,7 +15,7 @@
 		"power": 6,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 5},
+				{"item": "silicon", "amount": 3},
 				{"item": "titanium", "amount": 8},
 				{"item": "lead", "amount": 10}
 			]
