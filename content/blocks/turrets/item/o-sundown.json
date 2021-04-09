@@ -9,7 +9,7 @@
 	"reloadTime" : 580,
 	"inaccuracy": 2,
 	"shots" : 1,
-	"cooldown": "0.009",
+	"cooldown": "0.030",
 	
 	"targetAir" : false, 
 	"targetGround" : true,
@@ -26,11 +26,32 @@
 	"chargeTime" : 70,
 	"chargeMaxDelay" : 10,
 	"chargeEffects" : 10,
-	"chargeEffect" : "hitMeltdown",
-	"chargeBeginEffect" : "coreLand",
-
+	"chargeBeginEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 10,
+    "sizeTo": 1,
+    "length": 0,
+    "lifetime": 70,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FFC1BBFF",
+    "cone": 360
+},
+	"chargeEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 30,
+    "length": 45,
+    "baseLength": -45,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FFC1BBFF"
+	},
 	"ammoTypes": {
-        "primal-red": {
+    "primal-red": {
 	"type": "LaserBulletType",
 	"hitEffect": "hitMeltdown",
 	"despawnEffect": "none",
@@ -38,14 +59,14 @@
 	"statusDuration": 1000,
 	"hitShake" : 1,
 	"hitSize": 55,
-        "width": 60,
+    "width": 60,
 	"lifetime": 30,
 	"drawSize": 430,
 	"collidesAir": true,
 	"length": 410,
-        "sideAngle": 90,
-        "sideLength": 90,
-        "sideWidth": 1,
+    "sideAngle": 90,
+    "sideLength": 90,
+    "sideWidth": 1,
 	"damage": 1360,
 	"lightning": 15,
         "lightningCone": 20,
@@ -56,11 +77,10 @@
         "lightningDamage": 100,
         "lightningAngleRand": 40,
         "largeHit": true,
-        "lightColor": "FF4040FF",
-        "lightningColor": "FF4040FF",
+        "lightColor": "FF5845FF",
+        "lightningColor": "FF5845FF",
         "shootEffect": "massiveExplosion",
-        "collidesTeam": true,
-       "colors": ["CB1D1DFF", "FF4040FF", "a17dcd"]
+       "colors": ["DE4136FF", "FF5845FF", "FFC1BBFF"]
     },
     "surge-alloy": {
     "type": "LaserBulletType",
