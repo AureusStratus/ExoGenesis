@@ -1,15 +1,26 @@
 {	
     "localizedName": "Fission furnace",
     "description": "Uses the decay of thorium to cause a fission reaction between the thorium and xanium to create a very strange metalic material",
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
+    "drawer": "drawWeave",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 30,
 	"craftTime": 120,
-	"flameColor": "E9C9FFFF",
-	"craftEffect": "sapExplosion",
+	"craftEffect": {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 38,
+    "length": 45,
+    "cone": -360,
+    "lenFrom": 10,
+    "lenTo": 0,
+    "colorFrom": "C3A0FFFF",
+    "colorTo": "774ACFFF"
+	},
 	"updateEffect": "none",
 	"consumes": {
 		"power": 5,
@@ -31,5 +42,5 @@
 	"outputItem": {
 		"item": "quantux",
 		"amount": 3
-	}
+}
 }
