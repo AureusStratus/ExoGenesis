@@ -4,13 +4,13 @@
   "name": "Solar farm",
   "description": "A massive solar panel that is able to produce large amounts of power",
 	"hasPower": true,
-	"powerProduction": 12,
+	"powerProduction": 18,
 	"requirements": [
-		{ "item": "metaglass", "amount": 600 },
-		{ "item": "phase-fabric", "amount": 270 },
-		{ "item": "titanium", "amount": 320 },
-		{ "item": "surge-alloy", "amount": 100 },
-		{ "item": "silicon", "amount": 480 }
+		{ "item": "metaglass", "amount": 200 },
+		{ "item": "phase-fabric", "amount": 70 },
+		{ "item": "titanium", "amount": 220 },
+		{ "item": "surge-alloy", "amount": 40 },
+		{ "item": "silicon", "amount": 380 }
 	],
 	"category": "power",
 	"research": "solar-panel"
