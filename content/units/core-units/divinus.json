@@ -31,7 +31,6 @@
     "shootSound": "flame2",
     "bullet": {
     "sprite": "exogenesis-plasma",
-    "buildingDamageMultiplier": -0.03,
     "shootEffect": "shootHealYellow",
     "hitEffect": "shootHealYellow",
     "trailEffect": "shootHealYellow",
