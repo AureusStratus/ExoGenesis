@@ -3,7 +3,7 @@
     "description": "A large shield projector that has much more health then a normal force projector",
     "localizedName": "Iron Dome",
     "health": 800,
-    "shieldHealth": 7850,
+    "shieldHealth": 8850,
     "size": 4,
     "liquidCapacity": 30,
     "hasPower": true,
@@ -27,7 +27,7 @@
       }
     },
     "requirements": [
-      {"item": "osmium ", "amount": 220},
+      {"item": "osmium", "amount": 220},
       {"item": "silicon", "amount": 645},
       {"item": "titanium", "amount": 595},
       {"item": "plastanium", "amount": 820},
