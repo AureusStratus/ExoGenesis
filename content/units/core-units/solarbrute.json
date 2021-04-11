@@ -37,7 +37,7 @@
     "bullet": {
     "type": "MissileBulletType",
     "shootEffect": "blastExplosion",
-    "damage": 28,
+    "damage": 38,
     "speed": 3,
 	"width": 4,
 	"height": 12,
@@ -50,7 +50,7 @@
 	"weaveScale": 5,			
 	"weaveMag": 2,
 	"splashDamageRadius": 10,
-	"splashDamage": 18
+	"splashDamage": 28
 
     }
   }
