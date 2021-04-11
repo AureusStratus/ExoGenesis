@@ -24,6 +24,7 @@
             "ammoMultiplier": 3,
             "pierce": true,
             "collidesTiles": true,
+            "trailEffect": "instTrail"
 			"trailSpacing": 20,
             "hitEffect": "massiveExplosion",
             "smokeEffect": "shootBig2",
@@ -36,6 +37,7 @@
             "ammoMultiplier": 1,
             "pierce": true,
             "collidesTiles": true,
+            "trailEffect": "instTrail"
 			"trailSpacing": 20,
             "hitEffect": "massiveExplosion",
             "smokeEffect": "shootBig2",
