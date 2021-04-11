@@ -25,11 +25,10 @@
             "ammoMultiplier": 3,
             "pierce": true,
             "collidesTiles": true,
-            "trailEffect": "instTrail"
+            "trailEffect": "instTrail",
 			"trailSpacing": 20,
             "hitEffect": "massiveExplosion",
-            "smokeEffect": "shootBig2",
-            "pierceDamageFactor": 0.2
+            "smokeEffect": "shootBig2"
         },
         "thorium": {
             "type": "pointBulletType",
@@ -38,11 +37,10 @@
             "ammoMultiplier": 1,
             "pierce": true,
             "collidesTiles": true,
-            "trailEffect": "instTrail"
+            "trailEffect": "instTrail",
 			"trailSpacing": 20,
             "hitEffect": "massiveExplosion",
-            "smokeEffect": "shootBig2",
-            "pierceDamageFactor": 0.5
+            "smokeEffect": "shootBig2"
         }
     },
     "consumes": {
