@@ -1,0 +1,27 @@
+{
+	"localizedName": "Ergo Battery",
+	"type": "battery",
+	"description": "Uses alpha steel cells to store mass amounts of power but requires lost of resources to build",
+	"size": 6,
+	"absorbLasers": true,
+	"fullLightColor": "79F2EEFF",
+	"emptyLightColor": "565666FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+	"canOverdrive": false,
+	"health": 5000,
+	"consumes": {
+		"powerBuffered": 837000
+	},
+	"category": "power",
+	"research": "battery",
+	"requirements": [
+		{ "item": "titanium", "amount": 280 },
+		{ "item": "silicon", "amount": 480 },
+		{ "item": "alpha-yellow", "amount": 290 },
+		{ "item": "phase-fabric", "amount": 520 },
+		{ "item": "surge-alloy", "amount": 100 }
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "PowerNode",
+  "name": "Alpha network",
+  "description": "Extremely long range and can have many connections has a massive range also",
+  "size": 4,
+  "health": 500,
+  "laserRange": 36,
+  "maxNodes": 20,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    { "item": "phase-fabric", "amount": 200},
+    { "item": "osmium", "amount": 200},
+    { "item": "silicon", "amount": 370},
+    { "item": "surge-alloy", "amount": 150}
+  ],
+  "research": "surge-tower"
+}
