@@ -1,0 +1,129 @@
+{
+	"type": "LaserTurret",
+	"localizedName": "Kilonova",
+	"details": "The power of a star even for only a few seconds",
+	"description": "[blue]A turret that can generate powerful beam of blue plasma that can break apart in to plasma spikes",
+	"size": 7,
+	"health": 3880,
+	"reloadTime": 20,
+	"range": 380,
+	"heatColor": "90CAF9FF",
+	"shots" : 1,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 40,
+	"spread" : 4,
+	"powerUse": 53,
+    "coolantMultiplier": 2.6,
+    "update": true,
+    "hasPower": true,
+    "shootEffect": {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 45,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "bbdefb",
+    "colorTo": "90caf9"
+    },
+    "shootShake": 4,
+    "firingMoveFract": 0.5,
+    "shootDuration": 450,
+    "shootSound": "laserbig",
+	"recoilAmount" : 1.5,
+	"restitution" : 0.04, 
+	"rotateSpeed": 2,
+    "chargeTime" : 90,
+	"chargeMaxDelay" : 3,
+	"chargeEffects" : 10,
+	"chargeBeginEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 50,
+	    "effects": [
+	   {     
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 10,
+    "sizeTo": 1,
+    "length": 0,
+    "lifetime": 70,
+    "colorFrom": "bbdefb",
+    "colorTo": "90caf9",
+    "cone": 360
+	   },
+	   {     
+    "type": "WaveEffect",
+    "lifetime": 45,
+    "sizeFrom": 75,
+    "sizeTo": 0,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "bbdefb",
+    "colorTo": "90caf9"
+	   }
+	   ]
+},
+	"chargeEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 50,
+    "length": -45,
+    "baseLength": 45,
+    "cone": 60,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "bbdefb",
+    "colorTo": "90caf9"
+	},
+	
+      "shootType" : {
+      "type": "ContinuousLaserBulletType",
+      "colors": ["70ABFFFF", "90CAF9FF", "BBDEFBFF", "F6FBFFFF"],
+      "oscScl": 1,
+      "oscMag": 0.5,
+      "damage": 380,
+      "length": 380,
+      "width": 5,
+      "drawSize": 380,
+      "incendChance": 10,
+      "incendSpread": 7,
+      "incendAmount": 4,
+      "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 30,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "90caf9",
+    "colorTo": "bbdefb"
+      },
+     	"fragBullets": 5,
+     	"fragCone": 360,
+		"fragBullet": {
+        "type": "ShrapnelBulletType",
+        "serrations": 1,
+        "splashDamageRadius": 8,
+        "length": 52,
+        "width": 10,
+        "fromColor": "90CAF9FF",
+        "toColor": "F6FBFFFF",
+        "damage": 170
+		}
+	},
+
+	"requirements": [
+		{ "item": "titanium", "amount": 400},
+		{ "item": "surge-alloy", "amount": 800},
+		{ "item": "osmium", "amount": 400},
+		{ "item": "omega-blue", "amount": 780},
+		{ "item": "silicon", "amount": 780},
+		{ "item": "thorium", "amount": 640}
+	],
+	"category": "turret",
+	"research": "o-breakthrough"
+}
