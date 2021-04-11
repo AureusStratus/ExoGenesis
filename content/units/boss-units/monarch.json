@@ -124,7 +124,7 @@
   "recoil": 5,
   "rotate": true,
   "shootY": 3,
-  "rotateSpeed": 0.8,
+  "rotateSpeed": 1.2,
   "chargeSound": "lasercharge2",
     "shootSound": "pulse",
     "continuous": true,
