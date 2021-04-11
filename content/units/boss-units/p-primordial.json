@@ -64,7 +64,7 @@
               "type": "LaserBulletType",
               "length": 540,
               "width": 25,
-              "damage": 680,
+              "damage": 1380,
 	          "lightning": 1,
               "lightningCone": 20,
               "lightningSpacing": 28,
@@ -106,7 +106,7 @@
               "type": "LaserBulletType",
               "length": 300,
               "width": 12,
-              "damage": 300,
+              "damage": 460,
               "knockback": -2,
               "hitColor": "665C9FFF",
               "shootEffect": {
@@ -148,7 +148,7 @@
               "type": "LaserBulletType",
               "length": 300,
               "width": 12,
-              "damage": 300,
+              "damage": 460,
               "knockback": -2,
               "hitColor": "665C9FFF",
               "shootEffect": {
@@ -186,7 +186,7 @@
     "shootSound": "railgun",
     "bullet": {
 	"type" : "pointBulletType",
-	"damage": 3570,
+	"damage": 5570,
 	"speed": 170,
 	"lightningColor": "665C9FFF",
 	"lightning": 8,
@@ -249,7 +249,7 @@
            "bullet": { 
             "sprite": "exogenesis-plasma",
             "status": "melting",
-            "damage": 789,
+            "damage": 1789,
             "weaveMag": 4,
             "weaveScale": 2,
             "splashDamage": 80,
