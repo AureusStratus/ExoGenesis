@@ -175,7 +175,7 @@
   "shootSound": "corexplode",
            "bullet": { 
              "type": "basicBulletType",
-             "sprite": "testers-plasma",
+             "sprite": "exogenesis-plasma",
              "hitEffect": "nuclearShockwave",
              "hitColor": "79F2EEFF",
              "despawnEffect": "nuclearShockwave",
