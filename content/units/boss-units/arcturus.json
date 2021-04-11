@@ -45,7 +45,7 @@
     "shake": 1,
     "rotate": true,
     "shootSound": "shootBig",
-    "rotateSpeed": 2,
+    "rotateSpeed": 2.8,
     "shootCone": 45,
     "bullet": { 
             "type": "flakBulletType",
@@ -85,7 +85,7 @@
     "shake": 1,
     "rotate": true,
     "shootSound": "shootBig",
-    "rotateSpeed": 2,
+    "rotateSpeed": 2.8,
     "shootCone": 45,
     "bullet": { 
             "type": "flakBulletType",
