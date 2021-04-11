@@ -3,7 +3,7 @@
     "description": "A bigger mend projector that is more powerful and has more range",
     "localizedName": "Repair station",
     "health": 960,
-    "size": 4,
+    "size": 3,
     "hasPower": true,
     "baseColor": "84f491",
     "phaseColor": "ffd59e",
