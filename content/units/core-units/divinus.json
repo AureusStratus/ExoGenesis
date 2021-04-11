@@ -30,7 +30,7 @@
     "recoil": 0.5,
     "shootSound": "flame2",
     "bullet": {
-    "sprite": "testers-plasma",
+    "sprite": "exogenesis-plasma",
     "buildingDamageMultiplier": -0.03,
     "shootEffect": "shootHealYellow",
     "hitEffect": "shootHealYellow",
