@@ -1,0 +1,57 @@
+{
+    "type": "ItemTurret",
+    "description": "ay smaller foreshadow that is capable of taking down large units",
+    "localizedName": "Forebode",
+    "size": 3,
+    "health": 900,
+    "maxAmmo": 100,
+    "ammoPerShot": 10,
+    "reloadTime": 220,
+    "range": 460,
+    "targetAir": true,
+    "targetGround": true,
+    "rotateSpeed": 4,
+    "recoilAmount": 7,
+    "restitution": 0.2,
+    "shootSound": "railgun",
+    "ammoUseEffect": "casing3",
+    "ammoTypes": {
+        "osmium": {
+            "type": "pointBulletType",
+            "status": "melting",
+            "damage": 200,
+            "speed": 460,
+            "ammoMultiplier": 3,
+            "pierce": true,
+            "collidesTiles": true,
+			"trailSpacing": 20,
+            "hitEffect": "massiveExplosion",
+            "smokeEffect": "shootBig2",
+            "pierceDamageFactor": 0.2
+        },
+        "thorium": {
+            "type": "pointBulletType",
+            "damage": 320,
+            "speed": 460,
+            "ammoMultiplier": 1,
+            "pierce": true,
+            "collidesTiles": true,
+			"trailSpacing": 20,
+            "hitEffect": "massiveExplosion",
+            "smokeEffect": "shootBig2",
+            "pierceDamageFactor": 0.5
+        }
+    },
+    "consumes": {
+        "power": 5
+    },
+    "requirements": [
+		{ "item": "plastanium", "amount": 300 },
+		{ "item": "osmium", "amount": 800 },
+		{ "item": "silicon", "amount": 520 },
+		{ "item": "metaglass", "amount": 570 },
+		{ "item": "titanium", "amount": 500 }
+    ],
+    "category": "turret",
+    "research": "w-enforcer"
+}
