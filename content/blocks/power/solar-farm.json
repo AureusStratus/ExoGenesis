@@ -4,7 +4,7 @@
   "name": "Solar farm",
   "description": "A massive solar panel that is able to produce large amounts of power",
 	"hasPower": true,
-	"powerProduction": 18,
+	"powerProduction": 24,
 	"requirements": [
 		{ "item": "metaglass", "amount": 200 },
 		{ "item": "phase-fabric", "amount": 70 },
