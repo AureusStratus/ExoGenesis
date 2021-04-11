@@ -1,0 +1,18 @@
+{
+"localizedName": "MPC Conveyor",
+"description": "The ultimate resources transportation it can carry 100 item stacks at a time [red] Warning do not directly connect to plastanium conveyor!",
+"type": "StackConveyor",
+"health": 300,
+"speed": 0.10,
+"itemCapacity": 100,
+    "requirements": [
+		{ "item": "titanium", "amount": 5 },
+		{ "item": "surge-alloy", "amount": 10 },
+		{ "item": "omega-blue", "amount": 15 },
+		{ "item": "phase-fabric", "amount": 10 },
+		{ "item": "silicon", "amount": 5 }
+    ],
+"research": "plastanium-conveyor",
+"category": "distribution"
+
+}
