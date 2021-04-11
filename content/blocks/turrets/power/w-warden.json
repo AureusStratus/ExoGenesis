@@ -1,5 +1,6 @@
 {
     "type": "PowerTurret",
+    "researchCostMultiplier": 0.3,
     "description": "The upgrade to the guard it fires a single projectile that will break in to smaller projectiles that peirces and homes in takes alot of power to fire",
     "localizedName": "Warden",
     "size": 4,
