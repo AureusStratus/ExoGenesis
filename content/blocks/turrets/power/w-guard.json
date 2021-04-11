@@ -1,5 +1,6 @@
 {
     "type": "PowerTurret",
+    "researchCostMultiplier": 0.1,
     "description": "A strong turret with peircing energy bullets",
     "localizedName": "Guard",
     "size": 2,
