@@ -157,7 +157,7 @@
     "keepVelocity": false,
     "buildingDamageMultiplier": -0.30,
     "type": "MissileBulletType",
-    "sprite": "testers-warhead",
+    "sprite": "exogenesis-warhead",
     "shootEffect": "explosion",
     "despawnEffect": "explosion",
     "hitEffect": "massiveExplosion",
@@ -224,7 +224,7 @@
     "shootSound": "ascends",
     "bullet": {
     "type": "basicBulletType",
-    "sprite": "testers-slice",
+    "sprite": "exogenesis-slice",
     "buildingDamageMultiplier": -0.8,
     "shrinkX": "0",
     "shrinkY": "0",
