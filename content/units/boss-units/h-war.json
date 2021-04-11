@@ -9,7 +9,7 @@
         "drag": 0.018,
         
         "drawShields": false,
-        "rotateSpeed": 0.6,
+        "rotateSpeed": 1.6,
         "range": 380,
         "maxRange": 380,
         "crashDamageMultiplier": "12",
@@ -109,7 +109,7 @@
     "recoil": 5,
     "shots": 1,
     "shotDelay": 1,
-    "rotateSpeed": 0.8,
+    "rotateSpeed": 1.3,
     "shootSound": "artillery",
     "bullet": {
     "buildingDamageMultiplier": -0.05,
