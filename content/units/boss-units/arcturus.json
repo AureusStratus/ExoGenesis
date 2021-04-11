@@ -21,7 +21,7 @@
 	"maxRange": 350,
 	"flying": false,
 	"targetAir": true,
-	"rotateSpeed": 0.5,
+	"rotateSpeed": 1,
 	"immunities": [
 		"burning", 
 		"wet",
