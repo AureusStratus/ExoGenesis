@@ -1,7 +1,7 @@
 {
         "localizedName": "Divinus",
     	"description": "[gold] A fast nimble unit that can fire homing shock orbs to defend its core",
-        "speed": 1.9,
+        "speed": 2.3,
      	"isCounted": false,
         "mineSpeed": 6,
         "buildSpeed": 1.8,
