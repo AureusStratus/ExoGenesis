@@ -9,6 +9,7 @@
     "hasPower": true,
     "canOverdrive": true,
     "phaseUseTime": 470,
+    "phaseShieldBoost": 2000,
     "phaseRadiusBoost": 30,
     "solid": true,
     "radius": 161.7,
