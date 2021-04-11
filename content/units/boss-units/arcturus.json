@@ -6,7 +6,7 @@
     "singleTarget": true,
 	"lightRadius": 350,
     "type": "mech",
-	"speed": 0.11,
+	"speed": 0.31,
 	"hitSize": 82,
 	"health": 3897600,
 	"canDrown": false,
