@@ -1,0 +1,39 @@
+{
+	"type": "Separator",
+	"localizedName": "Dismantleer",
+	"description": "A massive structure that can shift through slag pulling out lots of different reasources and can be quite useful",
+	"size": 9,
+	"spinnerSpeed": 4,
+	"craftTime": 20,
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"consumes": {
+		"power": 8,
+		"liquid": {
+			"liquid": "slag", 
+			"amount": 1.2
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount": 200},
+		{"item": "osmium", "amount": 400},
+		{"item": "silicon", "amount": 200},
+		{"item": "titanium", "amount": 400},
+		{"item": "plastanium", "amount": 230},
+		{"item": "surge-alloy", "amount": 260}
+	],
+	"category": "crafting",
+	"research": "disassembler",
+	"results": [
+		{"item": "titanium", "amount": 10},
+		{"item": "surge-alloy", "amount": 8},
+		{"item": "graphite", "amount": 11},
+		{"item": "thorium", "amount": 11},
+		{"item": "lead", "amount": 10},
+		{"item": "osmium", "amount": 12},
+		{"item": "copper", "amount": 10},
+		{"item": "sand", "amount": 13},
+		{"item": "scrap", "amount": 12}
+	]
+}
