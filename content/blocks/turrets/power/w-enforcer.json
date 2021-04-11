@@ -1,5 +1,6 @@
 {
     "type": "PowerTurret",
+    "researchCostMultiplier": 0.3,
     "localizedName": "Enforcer",
     "size": 3,
     "health": 360,
