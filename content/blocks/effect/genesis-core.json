@@ -1,0 +1,20 @@
+{
+	"localizedName": "Genesis Core",
+	"description": "A very large core that is heavily more armored than a standard core and has a bit more storage",
+	"type": "CoreBlock",
+	"health": 9870,
+	"size": 7,
+	"itemCapacity": 19500,
+	"unitCapModifier": 30,
+    "researchCostMultiplier": 0.06,
+    "unitType": "omni",
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 7000 },
+		{ "item": "thorium", "amount": 4900},
+		{ "item": "osmium", "amount": 6000 },
+		{ "item": "omega-blue", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "core-nucleus"
+}

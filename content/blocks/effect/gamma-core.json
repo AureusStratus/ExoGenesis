@@ -1,0 +1,21 @@
+{
+	"localizedName": "Quantum Core",
+	"description": "A very large core that can store tons of resources but is more fragile then normal core ",
+	"type": "CoreBlock",
+	"health": 6870,
+	"size": 7,
+	"absorbLasers": true,
+	"itemCapacity": 25000,
+	"unitCapModifier": 32,
+    "researchCostMultiplier": 0.06,
+    "unitType": "commander",
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 7000 },
+		{ "item": "thorium", "amount": 4900},
+		{ "item": "osmium", "amount": 6000 },
+		{ "item": "gamma-green", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "core-nucleus"
+}

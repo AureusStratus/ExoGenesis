@@ -1,0 +1,20 @@
+{
+	"localizedName": "Bulwark Core",
+	"description": "A very large core that is heavily more armored than a standard core and has a low storage",
+	"type": "CoreBlock",
+	"health": 16520,
+	"size": 7,
+	"itemCapacity": 14000,
+	"unitCapModifier": 28,
+    "researchCostMultiplier": 0.06,
+    "unitType": "solarbrute",
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 7000 },
+		{ "item": "thorium", "amount": 4900},
+		{ "item": "osmium", "amount": 6000 },
+		{ "item": "primal-red", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "core-nucleus"
+}

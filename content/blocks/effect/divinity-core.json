@@ -1,0 +1,20 @@
+{
+	"localizedName": "Divinity Core",
+	"description": "A very large core that has high number of unit capacity and has decent health and storage",
+	"type": "CoreBlock",
+	"health": 9870,
+	"size": 7,
+	"itemCapacity": 16500,
+	"unitCapModifier": 60,
+    "researchCostMultiplier": 0.06,
+    "unitType": "divinus",
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 7000 },
+		{ "item": "thorium", "amount": 4900},
+		{ "item": "osmium", "amount": 6000 },
+		{ "item": "alpha-yellow", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "core-nucleus"
+}
