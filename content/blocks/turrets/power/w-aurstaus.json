@@ -82,7 +82,6 @@
       "type": "ContinuousLaserBulletType",
       "colors": ["6A97D9FF", "74C2E8FF", "94FFFBFF", "ffffff"],
       "damage": 7360,
-      "length": 780,
       "pierceDamageFactor": 0.01,
       "width": 7,
       "oscScl": 4,
