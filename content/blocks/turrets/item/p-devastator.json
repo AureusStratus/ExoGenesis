@@ -1,6 +1,7 @@
 {
 	"type": "ItemTurret",
 	"localizedName": "Devastator",
+	"researchCostMultiplier": 0.3,
 	"description": "[purple] Like the havoc the devastator can launch powerful mines that can cause devastation in groups of ground units and single units",
 	"health": 300,
 	"size": 3,
