@@ -1,5 +1,6 @@
 {
     "type": "ItemTurret",
+    "researchCostMultiplier": 0.1,
     "description": "ay cheap and small missile launcher",
     "localizedName": "Pine",
     "size": 1,
