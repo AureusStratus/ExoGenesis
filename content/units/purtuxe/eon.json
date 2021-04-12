@@ -47,7 +47,7 @@
                 "recoil": 4,
                 "shootSound": "shotgun",
                   "bullet": { 
-                    "sprite": "testers-plasma",
+                    "sprite": "exogenesis-plasma",
                     "damage": 118,
                     "weaveMag": 4,
                     "weaveScale": 2,
