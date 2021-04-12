@@ -28,7 +28,7 @@
                   "bullet": { 
                     "type": "basicBulletType",
                     "sprite": "exogenesis-plasma",
-                    "damage": 20,
+                    "damage": 30,
                     "weaveMag": 2,
                     "weaveScale": 2,
                     "speed": 5,
