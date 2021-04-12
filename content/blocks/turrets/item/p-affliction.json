@@ -25,6 +25,7 @@
   "length": 290,
   "width": 23,
   "damage": 458,
+  "collidesTiles": true,
   "lightColor": "BF92F9FF",
   "lightRadius": 10,
   "shootEffect": "sapExplosion",
