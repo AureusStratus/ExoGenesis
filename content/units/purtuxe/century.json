@@ -30,7 +30,7 @@
                 "shootSound": "sap",
                   "bullet": { 
                     "type": "basicBulletType",
-                    "sprite": "testers-plasma",
+                    "sprite": "exogenesis-plasma",
                     "damage": 65,
                     "weaveMag": 3,
                     "weaveScale": 4,
