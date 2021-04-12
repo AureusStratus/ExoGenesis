@@ -35,7 +35,7 @@
     "shrinkY": 0,
     "drawSize": 0,
     "collidesTeam": true,
-    "healPercent": 10,
+    "healPercent": 50,
     "hitSize": 36,
     "pierce": true,
     "pierceCap": 10,
