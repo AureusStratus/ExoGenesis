@@ -38,6 +38,7 @@
     "healPercent": 10,
     "hitSize": 36,
     "pierce": true,
+    "pierceCap": 10,
     "pierceBuilding": true,
     "lifetime": 1000,
     "knockback": 0,
