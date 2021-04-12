@@ -100,7 +100,7 @@
     "buildingDamageMultiplier": -0.03,
     "damage": 120,
     "length": 220,
-    "width": 8,
+    "width": 5,
     "hitEffect": "hitMeltdown",
     "drawSize": 420,
     "lifetime": 200,

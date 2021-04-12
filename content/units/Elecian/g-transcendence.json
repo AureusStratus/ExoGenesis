@@ -1,8 +1,8 @@
 {
         "localizedName": "Contention",
-        "description": "[gold] A titan class assault unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
+        "description": "[gold] A warrior class titan unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
         "details": "And in a thunderous bang all gone",
-        "research": "ravthian-reconstructor",
+        "research": "dagger",
         "lightRadius": 200,
         "speed": 0.7,
         "accel": 0.02,
@@ -83,7 +83,7 @@
       "damage": 160,
       "width": 32,
       "height": 46,
-      "sprite": "exogenesis-spear",
+      "sprite": "testers-spear",
       "pierce": true,
       "status": "shocked",
       "reflectable": false,
@@ -145,12 +145,11 @@
               "color": "F3E979FF",
               "effectChance": 1,
               "healthMultiplier": 0.5
-                }
     },
       "hittable": false,
       "reflectable": false,
       "absorbable": true,
-      "sprite": "exogenesis-plasma",
+      "sprite": "testers-plasma",
       "homingPower": 0.0925,
       "homingRange": 180,
       "homingDelay": 55,
@@ -166,6 +165,7 @@
                 "length": 180
                      }
 			      }
+  }
     ],
     "abilities": [
         {
