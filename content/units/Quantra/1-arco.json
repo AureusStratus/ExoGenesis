@@ -24,7 +24,7 @@
     "shootY": 2,
     "recoil": 1.5,
     "shake": 1,
-    "rotateSpeed": 3,
+    "rotateSpeed": 1,
     "rotate": true,
     "shots": 5,
     "shootSound": "spark",

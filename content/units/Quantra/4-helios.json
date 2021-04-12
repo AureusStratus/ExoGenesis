@@ -6,7 +6,7 @@
     "armor": 13,
     "drag": 0.17,
 	"targetAir": true,
-    "hitSize": 30,
+    "hitSize": 46,
     "health": 9280,
     "speed": 0.7,
     "accel": 0.3,
@@ -79,8 +79,8 @@
              "collides": true,
              "collidesAir": true,
              "collidesTiles": true,
-             "homingRange": 500,
-             "homingPower": 1,
+             "homingRange": 100,
+             "homingPower": 0.00678,
              "splashDamageRadius": 100,
              "splashDamage": 85,
              "trailColor": "CEFF73FF",
@@ -96,12 +96,11 @@
     "mirror": false,
     "rotate": true,
     "rotateSpeed": 2.8,
-    "reload": 240,
+    "reload": 210,
     "recoil": 2,
     "shake": 2,
     "shootSound": "laser",
     "cooldownTime": 250,
-    "firstShotDelay": 39,
     "bullet": {
       "type": "laserBulletType",
       "damage": 450,
@@ -109,7 +108,7 @@
       "sideWidth": 1.5,
       "sideLength": 80,
       "width": 26,
-      "buildingDamageMultiplier": 0.1,
+      "buildingDamageMultiplier": 1.2,
       "colors":["9FEB61FF", "F3E979FF", "FFFFFF"],
       "length": 280,
         "shootEffect": {
@@ -121,7 +120,7 @@
         "lifetime": 38,
         "colorFrom": "F3E979FF",
         "colorTo": "F3E979FF",
-        "cone": 36
+        "cone": 360
 		 }
        }
 	 }
