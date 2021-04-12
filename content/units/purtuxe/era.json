@@ -47,7 +47,7 @@
                 "recoil": 4,
                 "shootSound": "shotgun",
                   "bullet": { 
-                    "sprite": "testers-plasma",
+                    "sprite": "exogenesis-plasma",
                     "damage": 118,
                     "weaveMag": 4,
                     "weaveScale": 2,
@@ -137,7 +137,7 @@
                      "continuous": true,
                      "bullet": {
                      "type": "basicBulletType",
-                     "sprite": "testers-plasma",
+                     "sprite": "exogenesis-plasma",
                      "pierce": true,
                      "pierceBuilding": true,
                      "lifetime": 480,
@@ -155,7 +155,7 @@
                      "fragVelocityMax": 4,
                      "fragVelocityMin": 4,
                      "fragBullet": {
-            "sprite": "testers-wavee",
+            "sprite": "exogenesis-wavee",
             "collidesTiles": true,
             "speed": 4,
             "height": 67,
