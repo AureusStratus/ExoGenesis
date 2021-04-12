@@ -69,7 +69,6 @@
       "liquid": "oil",
       "speed": 3,
       "damage": 1,
-      "collidesTeam": true,
       "lifetime": 160
       }
     },
@@ -97,7 +96,7 @@
 		"pierceCap": 7,
 		"hitEffect" : "blastExplosion",
 		"despawnEffect": "blastExplosion",
-		"shootEffect": "hitMeltHeal",
+		"shootEffect": "hitMeltdown",
 		"pierce": true,
 		"trailColor": "FF5845FF",
         "backColor": "FF5845FF",
