@@ -8,7 +8,6 @@
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 980},
-				{"item": "surge-alloy", "amount": 890},
                                 {"item": "osmium", "amount": 700},
 				{"item": "plastanium", "amount": 820},
 				{"item": "titanium", "amount": 780}
@@ -20,7 +19,7 @@
 		{"item": "plastanium", "amount": 580},
 	        {"item": "osmium", "amount": 650},
 		{"item": "silicon", "amount": 480},
-		{"item": "surge-alloy", "amount": 380}
+		{"item": "thorium", "amount": 380}
 	],
 	"upgrades": [
 		["millennia", "eon"],
