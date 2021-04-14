@@ -10,16 +10,15 @@
 				{"item": "osmium", "amount": 890},
 				{"item": "xanium", "amount": 850},
 				{"item": "surge-alloy", "amount": 920},
-				{"item": "phase-fabric", "amount": 1220},
 				{"item": "silicon", "amount": 1920},
 				{"item": "plastanium", "amount": 1380}
 			]
 		}
 	},
 	"requirements": [
-		{"item": "phase-fabric", "amount": 850},
+		{"item": "jupitanium", "amount": 850},
 		{"item": "plastanium", "amount": 680},
-	    {"item": "titanium", "amount": 750},
+	        {"item": "titanium", "amount": 750},
 		{"item": "silicon", "amount": 1200},
 		{"item": "surge-alloy", "amount": 1280}
 	],
