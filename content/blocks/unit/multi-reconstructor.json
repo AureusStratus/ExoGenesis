@@ -4,7 +4,7 @@
 	"size": 5,
 	"constructTime": 800,
 	"consumes": {
-		"power": 380,
+		"power": 13,
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 640},
