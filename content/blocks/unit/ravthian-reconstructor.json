@@ -24,7 +24,7 @@
 		{"item": "phase-fabric", "amount": 1250},
 		{"item": "osmium", "amount": 1167},
 		{"item": "plastanium", "amount": 1280},
-	    {"item": "titanium", "amount": 950},
+	        {"item": "titanium", "amount": 950},
 		{"item": "silicon", "amount": 1200},
 		{"item": "surge-alloy", "amount": 1280}
 	],
