@@ -16,7 +16,7 @@
 		}
 	},
 	"requirements": [
-		{"item": "jupitanium", "amount": 850},
+		{"item": "jupiteium", "amount": 850},
 		{"item": "plastanium", "amount": 680},
 	        {"item": "titanium", "amount": 750},
 		{"item": "silicon", "amount": 1200},
