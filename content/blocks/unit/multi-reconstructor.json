@@ -9,8 +9,8 @@
 			"items": [
 				{"item": "silicon", "amount": 640},
 				{"item": "osmium", "amount": 540},
-				{"item": "plastanium", "amount": 480},
-				{"item": "thorium", "amount": 550}
+				{"item": "titanium", "amount": 480},
+				{"item": "thorium", "amount": 250}
 			]
 		}
 	},
@@ -18,7 +18,7 @@
 		{"item": "osmium", "amount": 350},
 		{"item": "silicon", "amount": 180},
 		{"item": "metaglass", "amount": 280},
-		{"item": "surge-alloy", "amount": 100}
+		{"item": "thorium", "amount": 100}
 	],
 	"upgrades": [
         ["century", "millennia"],
