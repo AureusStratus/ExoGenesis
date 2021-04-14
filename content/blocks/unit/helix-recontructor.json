@@ -9,15 +9,15 @@
 			"items": [
 				{"item": "silicon", "amount": 80},
 				{"item": "graphite", "amount": 120},
-				{"item": "plastanium", "amount": 80}
+				{"item": "osmium", "amount": 80}
 			]
 		}
 	},
 	"requirements": [
-		{"item": "osmium", "amount": 150},
+		{"item": "osmium", "amount": 250},
 		{"item": "silicon", "amount": 240},
-		{"item": "plastanium", "amount": 180},
-		{"item": "surge-alloy", "amount": 160}
+		{"item": "graphite", "amount": 180},
+		{"item": "lead", "amount": 160}
 	],
 	"upgrades": [
         ["decade", "century"],
