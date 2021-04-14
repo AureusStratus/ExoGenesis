@@ -18,10 +18,10 @@
     "restitution": 0.05,
     "shootSound": "laser",
     "hasPower": true,
-    "powerUse": 8,
+    "powerUse": 14,
     "shootType": {
 			"type" : "pointBulletType",
-			"damage": 40,
+			"damage": 50,
 			"lightningColor": "bbdefb",
 			"lightning": 8,
 			"lightningLength": 10,
@@ -31,7 +31,7 @@
 			"speed": 500,
 			"trailSpacing": 20,
 			"collidesTiles" : true,
-			"buildingDamageMultiplier": 0.4,
+			"buildingDamageMultiplier": 1,
 			"trailColor": "90caf9",
 	        "trailEffect": { 
     "type": "ParticleEffect",
