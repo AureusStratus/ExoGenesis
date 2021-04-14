@@ -4,7 +4,7 @@
 "localizedName": "Multi factory",
 "size": 3,
 "consumes": {
-"power": 60
+"power": 5
 },
 "plans": [
 {
