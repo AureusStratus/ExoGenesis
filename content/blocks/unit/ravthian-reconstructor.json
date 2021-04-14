@@ -5,7 +5,7 @@
 	"size": 11,
 	"constructTime": 3000,
 	"consumes": {
-		"power": 800,
+		"power": 28,
 		"items": {
 			"items": [
 				{"item": "omega-blue", "amount": 1200},
