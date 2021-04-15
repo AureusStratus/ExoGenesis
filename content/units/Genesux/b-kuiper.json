@@ -68,20 +68,53 @@
     "mirror": false,
     "x": 0,
     "y": -6,
-    "shootY": 0,
+    "shootY": 4,
     "recoil": 1.5,
     "shake": 1,
     "rotate": false,
-    "shots": 5,
+    "shots": 1,
     "shootSound": "spark",
     "shootCone": 45,
-			"bullet": {
-              "type": "LightningBulletType",
-		      "lightningColor": "79F2EEFF",
-		      "lightningCone": 20,
-		      "damage": 68,
-              "lightningLength": 20,
-              "collidesAir": true
+	"bullet": {
+    "sprite": "testers-plasma",
+    "shootEffect": "lightningShoot",
+	"despawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 45,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "79F2EEFF"
+	        },
+	"hitEffect": {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 45,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "79F2EEFF"
+	},
+    "trailEffect": "none",
+    "width": 13,
+    "height": 13,
+    "lightning": 5,
+    "lightningColor": "79F2EEFF",
+    "lightningDamage": 28,
+    "lightningLength": 10,
+    "lightningCone": 360,
+    "lightningLengthRand": 1,
+    "type": "BasicBulletType",
+    "shrinkX": 0.3,
+    "shrinkY": 0.3,
+    "damage": 88,
+    "speed": 4,
+    "frontColor": "FFFFFF",
+    "backColor": "79F2EEFF",
+    "lifetime": 50
 			}
 		}
 	]
