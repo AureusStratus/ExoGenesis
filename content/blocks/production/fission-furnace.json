@@ -23,7 +23,7 @@
 	},
 	"updateEffect": "none",
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "thorium", "amount": 10},
