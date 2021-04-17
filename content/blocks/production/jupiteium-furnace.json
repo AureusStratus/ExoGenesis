@@ -14,7 +14,7 @@
 	"updateEffect": "hitMeltdown",
 	"flameColor": "88a4ff",
 	"consumes": {
-		"power": 5.0,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "thorium", "amount": 10},
