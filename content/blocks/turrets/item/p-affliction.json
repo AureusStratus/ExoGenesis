@@ -24,7 +24,7 @@
   "colors": ["BF92F9FF", "665C9FFF", "000000FF"],
   "length": 290,
   "width": 23,
-  "damage": 458,
+  "damage": 345,
   "collidesTiles": true,
   "lightColor": "BF92F9FF",
   "lightRadius": 10,
