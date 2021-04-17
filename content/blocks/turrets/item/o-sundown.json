@@ -125,5 +125,5 @@
 		{ "item": "primal-red", "amount": 560 }
 	],
 	"category": "turret",
-	"research": "o-breakthrough"
+	"research": "r-blast"
     }
