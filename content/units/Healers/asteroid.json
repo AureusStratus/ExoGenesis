@@ -3,7 +3,7 @@
         "controller": "RepairAI",
         "type": "flying",
         "canHeal": true,
-	    "description": "[gold] The upgrade to the theory this unit is equipped with two bolters that shoot rapidly but do low damage",
+	    "description": "[lime] The upgrade to the meteor the asteroid is equiped with two healing bolters and a more powerful energy orb attack",
         "research": "meteor",
         "lowAltitude": true,
         "speed": 1.9,

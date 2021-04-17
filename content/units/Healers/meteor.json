@@ -1,9 +1,9 @@
 {
         "localizedName": "Meteor",
         "type": "flying",
-        "controller": "minerAI",
+        "controller": "repairAI",
         "canHeal": true,
-	    "description": "[gold] The upgrade to the theory this unit is equipped with two bolters that shoot rapidly but do low damage",
+	    "description": "[lime] the meteor is a small and fast support unit that that has a healing field and can shoot energy orbs",
         "research": "dagger",
         "lowAltitude": true,
         "speed": 2.4,

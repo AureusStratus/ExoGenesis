@@ -3,7 +3,7 @@
         "type": "payload",
         "canHeal": true,
         "controller": "repairAI",
-	    "description": "[gold] The upgrade to the theory this unit is equipped with two bolters that shoot rapidly but do low damage",
+	    "description": "[lime] The upgrade to the comet the planetoide is equipped with 4 healing lasers and it can now pick up larger and more heavy payloads thanks to its anti gravity tractor",
         "research": "comet",
         "lowAltitude": true,
         "speed": 0.8,
