@@ -1,0 +1,112 @@
+{
+	"type": "ItemTurret",
+	"localizedName": "Plasma expeller",
+	"description": "[green] a flame thrower turret that uses plastanium or xanium at super heated temperatures to create green hot plasma",
+	"size": 4,
+	"health": 1600,
+	"range": 130,
+	"reloadTime" : 10,
+	"burstSpacing": 5,
+	"shots" : 3,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 20,
+	"recoilAmount" : 0,
+	"inaccuracy" : 12, 
+	"rotateSpeed": 4.0,
+	"shootSound": "flame2",
+
+	"ammoTypes": {
+    "xanium": {
+    "lightRadius": 0,
+    "type": "BasicBulletType",
+    "collidesAir": true,
+    "speed": 5,
+    "damage": 58,
+    "width": 0.1,
+    "height": 0.1,
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 150,
+    "lifetime": 45,
+    "colorFrom": "DBFFBDFF",
+    "colorTo": "9BF056FF",
+    "cone": 20
+    },
+    "smokeEffect": "none",
+    "lifetime": 20,
+	"despawnEffect": "none",
+    "hittable": false,
+    "reflectable": false,
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 20,
+    "lifetime": 15,
+    "colorFrom": "DBFFBDFF",
+    "colorTo": "9BF056FF",
+    "cone": 360
+	},
+	"status": "corroded",
+	"pierce": true,
+	"incendAmount": 5
+		},
+		
+		
+		
+    "plastanium": {
+    "type": "BasicBulletType",
+    "lightRadius": 0,
+    "speed": 5,
+    "damage": 40,
+    "width": 0.1,
+    "height": 0.1,
+    "collidesAir": true,
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 150,
+    "lifetime": 45,
+    "colorFrom": "EDF2A8FF",
+    "colorTo": "9CB664FF",
+    "cone": 20
+    },
+    "smokeEffect": "none",
+    "hittable": false,
+    "reflectable": false,
+    "lifetime": 20,
+	"despawnEffect": "none",
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 20,
+    "lifetime": 15,
+    "colorFrom": "EDF2A8FF",
+    "colorTo": "9CB664FF",
+    "cone": 360
+	},
+	"status": "melting",
+	"pierce": true,
+	"incendAmount": 5
+		    }
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 1250 },
+		{ "item": "silicon", "amount": 700},
+		{ "item": "xanium", "amount": 120},
+		{ "item": "plastanium", "amount": 400},
+		{ "item": "surge-alloy", "amount": 450}
+	],
+	"category": "turret",
+	"research": "g-discharge"
+}
