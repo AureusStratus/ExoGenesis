@@ -12,7 +12,7 @@
 	"craftEffect": "heal",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "osmium", "amount": 8},
