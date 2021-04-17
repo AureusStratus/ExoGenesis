@@ -12,7 +12,7 @@
 	"craftEffect": "shockwave",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 6,
+		"power": 3,
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 3},
