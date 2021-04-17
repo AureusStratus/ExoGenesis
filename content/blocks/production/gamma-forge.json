@@ -12,7 +12,7 @@
 	"craftEffect": "healWave",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "xanium", "amount": 8},
