@@ -12,7 +12,7 @@
 	"craftEffect": "massiveExplosion",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "blast-compound", "amount": 8},
