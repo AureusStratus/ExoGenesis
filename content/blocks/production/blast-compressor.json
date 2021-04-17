@@ -12,7 +12,7 @@
 	"updateEffect": "smeltsmoke",
 	"updateEffectChance": 0.05,
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "pyratite", "amount": 8},
