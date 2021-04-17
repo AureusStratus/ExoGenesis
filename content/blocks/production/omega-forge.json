@@ -12,7 +12,7 @@
 	"craftEffect": "lightningShoot",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 5,
+		"power": 2,
 		"items": {
 			"items": [
 				{"item": "titanium", "amount": 8},
