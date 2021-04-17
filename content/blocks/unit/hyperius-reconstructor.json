@@ -18,12 +18,13 @@
 	"requirements": [
 		{"item": "jupiteium", "amount": 850},
 		{"item": "plastanium", "amount": 680},
-	        {"item": "titanium", "amount": 750},
+	    {"item": "titanium", "amount": 750},
 		{"item": "silicon", "amount": 1200},
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
 		["eon", "era"],
+		["planetoide", "moon"],
 		["b-oort", "b-sirius"],
 		["radiative", "core"],
 		["4-helios", "5-prime"],

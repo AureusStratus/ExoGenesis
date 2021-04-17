@@ -17,6 +17,14 @@
     "time": 460
   },
   {
+    "unit": "meteor",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 50}
+       ],
+    "time": 300
+  },
+  {
     "unit": "a-orion",
     	"requirements": [
 		{"item": "silicon", "amount": 20},

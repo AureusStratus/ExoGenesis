@@ -22,6 +22,7 @@
 	],
 	"upgrades": [
         ["century", "millennia"],
+        ["asteroid", "comet"],
 		["b-galileo", "b-kuiper"],
 		["corona", "photosphere"],
 		["2-falx", "3-vega"],
