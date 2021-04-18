@@ -46,7 +46,7 @@
 	
     "shootType": {
         "type": "basicBulletType",
-        "sprite": "testers-plasma",
+        "sprite": "exogenesis-plasma",
         "status": "shocked",
         "speed": 4,
         "lifetime": 180,
@@ -79,7 +79,7 @@
         "length": 0,
         "lifetime": 24,
         "sizeFrom": 18,
-        "region": "testers-plasma",
+        "region": "exogenesis-plasma",
         "colorFrom": "79F2EEFF",
         "colorTo": "74C2E8FF"
         },
