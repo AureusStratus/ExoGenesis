@@ -17,7 +17,6 @@
             "legGroupSize": 3,
             "legPairOffSet": 3,
             "legMoveSpace": 0.5,
-            "legPairOffset": 3,
             "legLength": 45,
             "legExtension": -15,
             "legBaseOffset": 14,
@@ -128,7 +127,6 @@
 			          "collidesTiles" : true,
 			          "updateEffectSeg": 40,
 			          "updateEffect": "railTrail",
-			          "shootColor": "CEFF73FF",
 			          "pierceEffect" : "railHit",
 			          "hitEffect" : "massiveExplosion"
                      }
