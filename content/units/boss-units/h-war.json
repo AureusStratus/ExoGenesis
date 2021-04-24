@@ -10,8 +10,9 @@
         
         "drawShields": false,
         "rotateSpeed": 1.6,
-        "range": 380,
-        "maxRange": 380,
+        "range": 420,
+        "aimDst": 420
+        "maxRange": 420,
         "crashDamageMultiplier": "12",
         "flying": true,
         "health": 1784000,
