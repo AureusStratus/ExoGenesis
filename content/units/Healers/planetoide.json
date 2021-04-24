@@ -12,7 +12,7 @@
         "flying": true,
         "health": 6320,
         "hitSize": 38,
-        "payloadCapacity": 684,
+        "payloadCapacity": 2184,
         "armor": 10,
         "mineSpeed": 3.2,
         "buildSpeed": 1.8,
