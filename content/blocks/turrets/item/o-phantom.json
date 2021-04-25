@@ -3,18 +3,18 @@
 	"type": "itemTurret",
 	"description": "[orange]Shoots powerfull bullets that can shock, burn, and slow enemy targets",
 	"health": 1900,
-    "coolantMultiplier": 2.0,
-    "reloadTime": 9,
+    "coolantMultiplier": 1.0,
+    "reloadTime": 5,
     "restitution": 0.1,
     "ammoUseEffect": "casing3",
     "range": 300,
     "inaccuracy": 3,
     "recoilAmount": 4,
-    "spread": 8,
+    "spread": 14,
     "alternate": true,
-    "shootShake": 3,
+    "shootShake": 2,
     "shots": 2,
-    "size":  4,
+    "size":  5,
     "shootCone": 24,
     "shootSound": "shootBig",
     "ammoTypes": {
@@ -75,11 +75,11 @@
         }
     },  
 	"requirements": [
-		{ "item": "graphite", "amount": 350 },
+		{ "item": "osmium", "amount": 350 },
 		{ "item": "silicon", "amount": 790 },
-		{ "item": "thorium", "amount": 470 },
+		{ "item": "jupiteium", "amount": 470 },
 		{ "item": "titanium", "amount": 500 },
-		{ "item": "osmium", "amount": 600 }
+		{ "item": "surge-alloy", "amount": 600 }
 	],
 	"category": "turret",
 	"research": "spectre"
