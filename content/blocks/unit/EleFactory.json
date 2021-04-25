@@ -8,7 +8,7 @@
 },
 "plans": [
 {
-    "unit": "challange",
+    "unit": "challenge",
     	"requirements": [
 		{"item": "lead", "amount": 30},
 		{"item": "silicon", "amount": 25},
