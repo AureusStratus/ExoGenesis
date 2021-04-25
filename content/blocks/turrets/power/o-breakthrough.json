@@ -4,7 +4,7 @@
 	"description": "[orange]A much more powerful upgrade to the meltdown",
 	"size": 5,
 	"health": 180,
-	"reloadTime": 180,
+	"reloadTime": 10,
 	"range": 260,
 	"shots" : 1,
 	"targetAir" : true, 
@@ -19,15 +19,15 @@
         "shootShake": 4,
         "firingMoveFract": 0.5,
         "shootDuration": 390,
-        "shootSound": "laserbig",
+        "shootSound": "beam",
 	"recoilAmount" : 1.5,
 	"restitution" : 0.04, 
 	"rotateSpeed": 8,
 	
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "colors": ["E04031FF", "B7FF7CFF", "FF8E38FF", "ffffff"],
       "damage": 290,
+      "width": 7,
       "length": 260,
       "hitEffect": "hitMeltdown",
       "drawSize": 260,
@@ -39,9 +39,9 @@
 	"requirements": [
 		{ "item": "titanium", "amount": 400},
 		{ "item": "surge-alloy", "amount": 600},
-		{ "item": "graphite", "amount": 400},
+		{ "item": "osmium", "amount": 400},
 		{ "item": "silicon", "amount": 780},
-		{ "item": "thorium", "amount": 640}
+		{ "item": "jupiteium", "amount": 640}
 	],
 	"category": "turret",
 	"research": "meltdown"
