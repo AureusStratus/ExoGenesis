@@ -133,7 +133,8 @@
     "bullet": { 
             "damage": 2365,
             "width": 35,
-            "pierce": "true",
+            "pierce": true,
+	    "largeHit": true,
             "type": "ShrapnelBulletType",
             "statusDuration": 90,
             "status": "melting",
