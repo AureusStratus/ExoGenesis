@@ -1,0 +1,42 @@
+{
+        "localizedName": "Gacrux",
+        "research": "majoris",
+        "type": "flying",
+	    "description": "[blue] the gacrux air unit is fast and has no weapons but it can do a powerful and dash and ram in to units dealing lots if damage and its stronger in groups",
+        "lowAltitude": true,
+        "speed": 1.8,
+        "accel": 0.1,
+        "drag": 0.02,
+        "flying": true,
+        "health": 890,
+        "hitSize": 12,
+        "armor": 5,
+        "itemCapacity": 10,
+        "engineOffset": 6,
+        "range": 180,
+        "maxRange": 180,
+        "aimDst": 180,
+        "targetAir": true,
+        "circleTarget": true,
+        "commandLimit": 8,
+        "faceTarget": true,
+	    "weapons": [
+	   {
+    "name": "gacrux-ram",
+    "x": 0,
+    "y": 0,
+    "mirror": false,
+    "shootSound": "none",
+    "reload": 40,
+    "bullet": {
+      "type": "RailBulletType",
+      "damage": 65,
+      "pierceDamageFactor": 0,
+      "length": 120,
+      "recoil": -10,
+      "shootEffect": "none",
+      "smokeEffect": "none"
+}
+}
+]
+}

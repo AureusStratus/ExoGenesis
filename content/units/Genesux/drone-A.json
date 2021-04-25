@@ -1,0 +1,44 @@
+{
+        "localizedName": "Attack Drone",
+        "type": "flying",
+	    "description": "[blue] a small attack drone thats spawned from the kentaurus it has low heath and is pretty fast and can rapidly shoot energy bolts",
+        "lowAltitude": true,
+        "speed": 2.4,
+        "accel": 0.1,
+        "drag": 0.02,
+        "flying": true,
+        "health": 100,
+        "hitSize": 9,
+        "armor": 0,
+        "itemCapacity": 0,
+        "engineOffset": 6,
+        "range": 100,
+        "targetAir": true,
+        "commandLimit": 8,
+        "faceTarget": true,
+	    "weapons": [
+	   {
+    "name": "drone-weapon",
+    "shootCone": 15,
+    "mirror": false,
+    "top": true,
+    "x": 0,
+    "y": 0,
+    "shootY": 4,
+    "reload": 28,
+    "recoil": 0.5,
+    "shootSound": "sap",
+    "bullet": {
+    "shootEffect": "lightningShoot",
+    "hitEffect": "hitLancer",
+    "despawnEffect": "lancerLaserChargeBegin",
+    "type": "LaserBoltBulletType",
+    "damage": 10,
+    "speed": 6,
+    "frontColor": "79F2EEFF",
+    "backColor": "79F2EEFF",
+    "lifetime": 35
+}
+}
+]
+}

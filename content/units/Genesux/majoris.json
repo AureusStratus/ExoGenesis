@@ -1,0 +1,52 @@
+{
+        "localizedName": "Majoris",
+        "research": "dagger",
+        "type": "flying",
+	    "description": "[blue] a nimble and fast air created  by the genesux this air unit that can shoot shock bullets and is most strongest in large numbers",
+        "lowAltitude": true,
+        "speed": 1.4,
+        "accel": 0.1,
+        "drag": 0.02,
+        "flying": true,
+        "health": 300,
+        "hitSize": 12,
+        "armor": 1,
+        "itemCapacity": 10,
+        "engineOffset": 6,
+        "range": 100,
+        "targetAir": true,
+        "commandLimit": 8,
+        "faceTarget": true,
+	    "weapons": [
+	   {
+    "name": "majoris-weapon",
+    "shootCone": 15,
+    "mirror": false,
+    "alternate": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 3,
+    "reload": 17,
+    "recoil": 0.5,
+    "ejectEffect": "casing2",
+    "shootSound": "shoot",
+    "bullet": {
+    "type": "basicBulletType",
+    "hitEffect": "none",
+    "shootEffect": "lightningShoot",
+    "damage": 15,
+    "lightningColor": "79F2EEFF",
+    "lightning": 5,
+    "lightningDamage": 5,
+    "lightningLength": 4,
+    "lightningCone": 360,
+    "height": 8,
+    "width": 8,
+    "speed": 4,
+    "frontColor": "FFFFFF",
+    "backColor": "79F2EEFF",
+    "lifetime": 90
+}
+}
+]
+}
