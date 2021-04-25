@@ -26,8 +26,10 @@
 		["eon", "era"],
 		["planetoide", "moon"],
 		["b-oort", "b-sirius"],
+		["vega", "centauri"],
 		["radiative", "core"],
 		["4-helios", "5-prime"],
+		["combat", "hostile"],
 		["d-enlightenment", "f-apotheosis"]
 	],
 	"category": "units",

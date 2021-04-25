@@ -31,8 +31,10 @@
 	"upgrades": [
 		["era", "epoch"],
 		["b-sirius", "b-rigel"],
+		["centauri", "arbiter"],
 		["5-prime", "6-apex"],
 		["core", "proxima"],
+		["hostile", "bloodshed"],
 		["f-apotheosis", "g-transcendence"]
 	],
 	"category": "units",

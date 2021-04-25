@@ -24,8 +24,10 @@
         ["century", "millennia"],
         ["asteroid", "comet"],
 		["b-galileo", "b-kuiper"],
+		["gacrux", "kentaurus"],
 		["corona", "photosphere"],
 		["2-falx", "3-vega"],
+		["disrespect", "strife"],
 		["b-hypothesis", "c-revelation"]
 	],
 	"category": "units",

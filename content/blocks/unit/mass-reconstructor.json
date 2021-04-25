@@ -25,8 +25,10 @@
 		["millennia", "eon"],
 		["comet", "planetoide"],
 		["b-kuiper", "b-oort"],
+		["kentaurus", "vega"],
 		["photosphere", "radiative"],
 		["3-vega", "4-helios"],
+		["strife", "combat"],
 		["c-revelation", "d-enlightenment"]
 	],
 	"category": "units",

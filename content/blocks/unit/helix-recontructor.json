@@ -23,8 +23,10 @@
         ["decade", "century"],
         ["meteor", "asteroid"],
 		["a-orion", "b-galileo"],
+		["majoris", "gacrux"],
 		["sol", "corona"],
 		["1-arco", "2-falx"],
+		["challenge", "disrespect"],
 		["a-theory", "b-hypothesis"]
 	],
 	"category": "units",

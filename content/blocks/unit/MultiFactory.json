@@ -24,15 +24,6 @@
        ],
     "time": 300
   },
-  {
-    "unit": "a-orion",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "titanium", "amount": 50},
-		{"item": "graphite", "amount": 10}
-       ],
-    "time": 400
-  },
  {
     "unit": "sol",
     	"requirements": [
@@ -50,14 +41,6 @@
 		{"item": "lead", "amount": 10}
        ],
     "time": 540
-  },
-  {
-    "unit": "a-theory",
-    	"requirements": [
-		{"item": "lead", "amount": 30},
-		{"item": "silicon", "amount": 25}
-    ],
-    "time": 480
   }
 ],
     "requirements": [

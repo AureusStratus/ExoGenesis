@@ -1,0 +1,36 @@
+{
+"type": "UnitFactory",
+"description": "can create elecian units",
+"localizedName": "Elecian Factory",
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "challange",
+    	"requirements": [
+		{"item": "lead", "amount": 30},
+		{"item": "silicon", "amount": 25},
+		{"item": "coal", "amount": 10}
+       ],
+    "time": 480
+  },
+  {
+    "unit": "a-theory",
+    	"requirements": [
+		{"item": "lead", "amount": 30},
+		{"item": "silicon", "amount": 25}
+    ],
+    "time": 480
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "osmium", "amount": 380},
+	{"item": "lead", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}
