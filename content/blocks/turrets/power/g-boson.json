@@ -61,7 +61,7 @@
                 "damage": 0,
                 "splashDamage": 10,
                 "splashDamageRadius": 60,
-                "sprite" : "testers-mine",
+                "sprite" : "exogenesis-mine",
                 "status": "corroded",
                 "makeFire" : true,
                 "frontColor": "B7FF7CFF",
