@@ -50,5 +50,5 @@
 		{ "item": "silicon", "amount": 240}
 	],
 	"category": "turret",
-	"research": "g-discharge"
+	"research": "g-gluon"
 }
