@@ -1,0 +1,41 @@
+{
+"localizedName": "Fury",
+"description": "a powerful laser turret that uses sh9rt fusion burst the create lasers",
+"type": "PowerTurret",
+"size": 2,
+"health": 300,
+"range": 120,
+"reloadTime": 30,
+"shootSound": "laser",
+"rotateSpeed": 3,
+"shootCone": 20,
+"shootShake": 1.5,
+"cooldown": 0.03,
+"shots": 1,
+"targetAir": true,
+"targetGround": true,
+"heatColor": "5B4CB0FF",
+"recoilAmount": 2,
+"shootType": {
+  "type": "LaserBulletType",
+  "colors": ["DE4136FF", "FF5845FF", "FFC1BBFF"],
+  "length": 120,
+  "width": 13,
+  "status": "melting",
+  "damage": 45,
+  "lightColor": "FF5845FF",
+  "lightRadius": 10,
+  "shootEffect": "hitMeltdown",
+  "smokeEffect": "none",
+  "sideAngle": 25,
+  "sideWidth": 15,
+  "sideLength": 0
+  },
+    "requirements": [
+		{ "item": "lead", "amount": 150 },
+		{ "item": "graphite", "amount": 200 },
+		{ "item": "copper", "amount": 80 }
+    ],
+    "category": "turret",
+    "research": "r-hel"
+}
