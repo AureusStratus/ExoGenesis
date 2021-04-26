@@ -116,5 +116,5 @@
 		{ "item": "silicon", "amount": 260 }
 	],
 	"category": "turret",
-	"research": "lancer"
+	"research": "r-fury"
     }
