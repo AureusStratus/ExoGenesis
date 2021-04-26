@@ -1,0 +1,68 @@
+{
+    "type": "ItemTurret",
+    "researchCostMultiplier": 0.2,
+    "description": "a shotgun bullet turret that uses explosive ammo",
+    "localizedName": "Devil",
+    "size": 2,
+    "health": 240,
+    "reloadTime": 14,
+    "range": 140,
+    "maxAmmo": 48,
+    "inaccuracy": 1,
+    "shots": 2,
+    "alternate": true,
+    "spread": 4,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 0.08,
+    "recoilAmount": 0.7,
+    "restitution": 0.06,
+    "rotateSpeed": 3,
+    "shootSound": "shoot",
+    "ammoTypes": {
+        "copper": {
+            "type": "BasicBulletType",
+            "speed": 4,
+            "lifetime": 50,
+            "damage": 10,
+            "height": 8,
+            "width": 8,
+            "hitEffect": "blastExplosion",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig"
+        },
+        "graphite": {
+            "type": "BasicBulletType",
+            "speed": 3,
+            "damage": 22,
+            "lifetime": 50,
+            "height": 8,
+            "width": 8,
+            "hitEffect": "blastExplosion",
+            "pierce": true,
+            "smokeEffect": "hitBulletBig",
+            "frontColor": "95ABD9FF",
+            "backColor": "6B77A1FF"
+        },
+        "pyratite": {
+            "type": "BasicBulletType",
+            "speed": 4,
+            "damage": 14,
+            "lifetime": 50,
+            "height": 8,
+            "width": 8,
+            "splashDamage": 8,
+            "splashDamageRadius": 11,
+            "hitEffect": "blastExplosion",
+            "pierce": false,
+            "smokeEffect": "hitBulletBig"
+        }
+    },
+    "requirements": [
+		{ "item": "copper", "amount": 157 },
+		{ "item": "graphite", "amount": 97 },
+		{ "item": "lead", "amount": 74 }
+    ],
+    "category": "turret",
+    "research": "r-hel"
+}
