@@ -7,7 +7,7 @@
     "type": "legs",
 	"speed": 0.34,
 	"hitSize": 68,
-	"health": 648900,
+	"health": 348900,
 	"rotateSpeed": 1,
 	"faceTarget": true,
 	"armor": 32,
