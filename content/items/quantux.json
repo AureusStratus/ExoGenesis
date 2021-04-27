@@ -1,7 +1,7 @@
 {
     "localizedName": "Quantux",
-    "description": "A very strange metalic materials that when given energy wraps quantum space.",
-    "details": "A metalic material used by the purtuxian to create powerful weaponry ",
+    "description": "A very strange metallic material that when given enough energy, warps quantum space.",
+    "details": "A metalic material used by the Purtuxians to create powerful weaponry",
     "cost": 3,
     "radioactivity": 0.1,
     "color": "BA52FFFF",
