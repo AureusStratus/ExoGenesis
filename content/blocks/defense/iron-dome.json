@@ -1,6 +1,6 @@
 {    
     "type": "ForceProjector",
-    "description": "A large shield projector that has much more health then a normal force projector",
+    "description": "A large shield projector that has much more health than a normal force projector",
     "localizedName": "Iron Dome",
     "health": 800,
     "shieldHealth": 8850,
@@ -18,22 +18,22 @@
     "cooldownBrokenBase": 0.6,
     "basePowerDraw": 5,
     "consumes": {
-      "power": 18,
-      "items": {
-        "items": [
-          {"item": "phase-fabric", "amount": 2}
-        ],
-        "booster": true,
-    	  "optional": true
-      }
+        "power": 18,
+        "items": {
+            "items": [
+                "phase-fabric/2"
+            ],
+            "booster": true,
+    	    "optional": true
+        }
     },
     "requirements": [
-      {"item": "osmium", "amount": 220},
-      {"item": "silicon", "amount": 645},
-      {"item": "titanium", "amount": 595},
-      {"item": "plastanium", "amount": 820},
-      {"item": "phase-fabric", "amount": 755},
-      {"item": "silicon", "amount": 195}
+        "osmium/220",
+        "silicon/645",
+        "titanium/595",
+        "plastanium/820",
+        "phase-fabric/755",
+        "silicon/195"
     ],
     "category": "effect",
     "research": "force-projector"

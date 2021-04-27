@@ -1,6 +1,7 @@
 {
     "type": "MendProjector",
     "description": "A bigger mend projector that is more powerful and has more range",
+    "details": "Mend dome lmao"
     "localizedName": "Repair station",
     "health": 960,
     "size": 3,
@@ -15,22 +16,22 @@
     "itemCapacity": 20,
     "useTime": 450,
     "consumes": {
-		"power": 18,
-		"items": {
-			"items": [
-				{"item": "phase-fabric", "amount": 2}
-			],
-			"booster": true,
-			"optional": true
-		}
+        "power": 18,
+        "items": {
+            "items": [
+                "phase-fabric/2"
+            ],
+            "booster": true,
+            "optional": true
+        }
     },
     "requirements": [
-		{"item": "lead", "amount": 200},
-		{"item": "osmium", "amount": 440},
-		{"item": "xanium", "amount": 340},
-		{"item": "titanium", "amount": 400},
-		{"item": "silicon", "amount": 380},
-		{"item": "phase-fabric", "amount": 610}
+        "lead/200",
+        "osmium/440",
+        "xanium/340",
+        "titanium/400",
+        "silicon/380",
+        "phase-fabric/610"
     ],
     "category": "effect",
     "research": "mend-projector"

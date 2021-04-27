@@ -1,0 +1,3 @@
+Repair is for units and mend is for buildings.
+I thought repair station was some kind of 2x2 repair point, not a building mender.
+Sync names, given that Quantum Core is in "gamma-core.json"
