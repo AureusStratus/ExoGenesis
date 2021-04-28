@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.4,
-    "description": "ay smaller foreshadow that is capable of taking down large units",
+    "description": "a smaller foreshadow that is capable of taking down large units",
     "localizedName": "Forebode",
     "size": 3,
     "health": 900,
