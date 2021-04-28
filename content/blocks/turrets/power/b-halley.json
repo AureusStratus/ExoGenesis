@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "[blue]A power based energy turret that can shoot large homing energy comets",
+    "description": "[blue]A powerful energy turret that can shoot large homing energy comets",
     "localizedName": "Halley",
     "size": 4,
     "health": 1600,
