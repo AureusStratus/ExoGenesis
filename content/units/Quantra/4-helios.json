@@ -1,6 +1,6 @@
 {
     "localizedName": "Pinnacle",
-    "description": "[acid] This unit is equipped with a powerful gamma laser that deals more damage to structures and it has 2 specialized artillery cannons that shot out a spread of bullets that have random speeds",
+    "description": "[acid] This unit is equipped with a powerful gamma laser gun that deals more damage to structures and it has 2 specialized artillery cannons that shot out a spread of bullets that have random speeds",
     "research": "3-vega",
     "type": "naval",
     "armor": 13,
