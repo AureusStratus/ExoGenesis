@@ -1,6 +1,6 @@
 {
     "localizedName": "Disrespect",
-    "description": "[gold] small spider unit that has abuilt in flame thrower that can deal lots of damage against units",
+    "description": "[gold]A small spider unit that has abuilt in flame thrower that can deal lots of damage against units",
     "research": "challenge",
     "groundLayer": 75,
     "commandLimit": 8,
