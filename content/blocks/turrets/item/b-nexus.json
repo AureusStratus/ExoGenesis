@@ -1,25 +1,25 @@
 {
-	"localizedName": "Nexus",
-	"type": "itemTurret",
-	"details": "One bullet wasn't enough so now we have two",
-	"description": "[blue] A rapidly firing Turret that is stronger against single targets",
-	"health": 8660,
-	"shots": 2,
+    "localizedName": "Nexus",
+    "type": "itemTurret",
+    "details": "One bullet wasn't enough, so now we have two",
+    "description": "[blue]A rapidly firing Turret that is stronger against single targets",
+    "health": 8660,
+    "shots": 2,
     "shootShake": 3,
-	"size": 8,
-	"reloadTime": 10.25,
-	"range": 430,
-	"recoilAmount": 4.2,
-	"restitution": 0.1,
-	"coolantMultiplier": 0.84,
-	"ammoUseEffect": "none",
-	"burstSpacing": 3,
-	"shootCone": 6,
-	"shootSound": "artillery",
-	"rotateSpeed": 0.80,
-	"inaccuracy": 0,
+    "size": 8,
+    "reloadTime": 10.25,
+    "range": 430,
+    "recoilAmount": 4.2,
+    "restitution": 0.1,
+    "coolantMultiplier": 0.84,
+    "ammoUseEffect": "none",
+    "burstSpacing": 3,
+    "shootCone": 6,
+    "shootSound": "artillery",
+    "rotateSpeed": 0.80,
+    "inaccuracy": 0,
     "ammoTypes": {
-    "jupiteium": {
+        "jupiteium": {
             "speed": 18,
             "height": 26,
             "width": 13,
@@ -31,9 +31,9 @@
             "shootEffect": "lightningShoot",
             "hitEffect": "bigShockwave"
         },
-     "omega-blue": {
+        "omega-blue": {
             "status": "slow",
-			"statusDuration": "1200",
+            "statusDuration": "1200",
             "speed": 20,
             "height": 29,
             "width": 13,
@@ -52,9 +52,9 @@
             "lightningLength": 25,
             "collidesAir": true
         },
-     "surge-alloy": {
+        "surge-alloy": {
             "status": "shocked",
-			"statusDuration": "1200",
+            "statusDuration": "1200",
             "speed": 18,
             "height": 30,
             "width": 17,
@@ -73,14 +73,14 @@
             "collidesAir": true
         }
     },  
-	"requirements": [
-		{ "item": "jupiteium", "amount": 680 },
-		{ "item": "lead", "amount": 1000 },
-		{ "item": "silicon", "amount": 890 },
-		{ "item": "osmium", "amount": 770 },
-		{ "item": "titanium", "amount": 860 },
-		{ "item": "omega-blue", "amount": 870 }
-	],
-	"category": "turret",
-	"research": "b-flux"
+    "requirements": [
+        "jupiteium/680",
+        "lead/1000",
+        "silicon/890",
+        "osmium/770",
+        "titanium/860",
+        "omega-blue/870"
+    ],
+    "category": "turret",
+    "research": "b-flux"
 }

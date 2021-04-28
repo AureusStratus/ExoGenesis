@@ -1,132 +1,130 @@
 {
     "localizedName": "Polaris",
-    "description": "[blue]A magnetically accelerated railgun that primarily uses omega alloy and shots it at devastating speeds at enemies",
-    "details": "may god forgive you... but i wont",
-	"type": "ItemTurret",
-	"size": 5,
-	"health": 850,
-	"maxAmmo": 150,
-	"ammoPerShot" : 10,
-	"reloadTime": 450,
-	"range": 500,
-	"targetAir" : true, 
-	"targetGround" : true, 
-	"recoilAmount" : 15,
-	"shootShake" : 12,
-	"inaccuracy": 0,
-	"restitution" : 0.1,
-	"rotateSpeed": 0.8,
-	"shootSound" : "railgun",
-
-	"ammoTypes":	{
-		"omega-blue": {
-			"type" : "railBulletType",
-			"damage": 3150,
-			"status": "shocked",
-			"length" : 3000,
-			"lightningColor": "79F2EEFF",
-			"lightning": 8,
-			"lightningLength": 15,
-			"lightningDamage": 45,
-			"ammoMultiplier": 3,
-			"pierce": true,
-			"buildingDamageMultiplier": 0.8,
-			"pierceEffect" : {
-            "type": "ParticleEffect",
-            "particles": 1,
-            "length": 0,
-            "lifetime": 25,
-             "sizeFrom": 80,
-             "region": "exogenesis-blue-pierce",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
+    "description": "[blue]A magnetically accelerated railgun that primarily uses omega alloy and shot it at devastating speeds at enemies",
+    "details": "May god forgive you... but I won't",
+    "type": "ItemTurret",
+    "size": 5,
+    "health": 850,
+    "maxAmmo": 150,
+    "ammoPerShot" : 10,
+    "reloadTime": 450,
+    "range": 500,
+    "targetAir" : true, 
+    "targetGround" : true, 
+    "recoilAmount" : 15,
+    "shootShake" : 12,
+    "inaccuracy": 0,
+    "restitution" : 0.1,
+    "rotateSpeed": 0.8,
+    "shootSound" : "railgun",
+    "ammoTypes": {
+        "omega-blue": {
+            "type" : "railBulletType",
+            "damage": 3150,
+            "status": "shocked",
+            "length" : 3000,
+            "lightningColor": "79F2EEFF",
+            "lightning": 8,
+            "lightningLength": 15,
+            "lightningDamage": 45,
+            "ammoMultiplier": 3,
+            "pierce": true,
+            "buildingDamageMultiplier": 0.8,
+            "pierceEffect" : {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "length": 0,
+                "lifetime": 25,
+                "sizeFrom": 80,
+                "region": "exogenesis-blue-pierce",
+                "colorFrom": "79F2EEFF",
+                "colorTo": "74C2E8FF"
             },
-			"updateEffect" : {
-            "type": "ParticleEffect",
-            "particles": 1,
-            "length": 0,
-            "lifetime": 25,
-             "sizeFrom": 20,
-             "region": "exogenesis-star-wide",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
-			},
-			"hitEffect" : {
-	        "type": "MultiEffect",
-	        "lifetime": 40,
-	        "effects": [
-	            {
-            "type": "WaveEffect",
-            "lifetime": 30,
-            "sides": 4,
-            "rotation": 60,
-            "sizeFrom": 0,
-            "sizeTo": 64,
-            "strokeFrom": 4,
-            "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
-	            },
-	            {
-            "type": "WaveEffect",
-            "lifetime": 30,
-            "sides": 4,
-            "rotation": 0,
-            "sizeFrom": 0,
-            "sizeTo": 64,
-            "strokeFrom": 4,
-            "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
-	            },
-	            {
-            "type": "WaveEffect",
-            "lifetime": 40,
-            "sizeFrom": 0,
-            "sizeTo": 104,
-            "strokeFrom": 4,
-            "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
-	            }
-			]
-			},
+            "updateEffect" : {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "length": 0,
+                "lifetime": 25,
+                "sizeFrom": 20,
+                "region": "exogenesis-star-wide",
+                "colorFrom": "79F2EEFF",
+                "colorTo": "74C2E8FF"
+            },
+            "hitEffect" : {
+                "type": "MultiEffect",
+                "lifetime": 40,
+                "effects": [
+                {
+                    "type": "WaveEffect",
+                    "lifetime": 30,
+                    "sides": 4,
+                    "rotation": 60,
+                    "sizeFrom": 0,
+                    "sizeTo": 64,
+                    "strokeFrom": 4,
+                    "strokeTo": 0,
+                    "colorFrom": "79F2EEFF",
+                    "colorTo": "74C2E8FF"
+                },
+                {
+                    "type": "WaveEffect",
+                    "lifetime": 30,
+                    "sides": 4,
+                    "rotation": 0,
+                    "sizeFrom": 0,
+                    "sizeTo": 64,
+                    "strokeFrom": 4,
+                    "strokeTo": 0,
+                    "colorFrom": "79F2EEFF",
+                    "colorTo": "74C2E8FF"
+                },
+                {
+                    "type": "WaveEffect",
+                    "lifetime": 40,
+                    "sizeFrom": 0,
+                    "sizeTo": 104,
+                    "strokeFrom": 4,
+                    "strokeTo": 0,
+                    "colorFrom": "79F2EEFF",
+                    "colorTo": "74C2E8FF"
+                }
+                ]
+            },
             "trailEffect": {
-            "type": "ParticleEffect",
-            "particles": 1,
-            "length": 0,
-            "lifetime": 25,
-             "sizeFrom": 20,
-             "region": "exogenesis-star-wide",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
+                "type": "ParticleEffect",
+                "particles": 1,
+                "length": 0,
+                "lifetime": 25,
+                "sizeFrom": 20,
+                "region": "exogenesis-star-wide",
+                "colorFrom": "79F2EEFF",
+                "colorTo": "74C2E8FF"
             },
-			"fragBullets": 10,
-			"fragBullet": {
-            "type": "ShrapnelBulletType",
-            "serrations": 1,
-            "lifetime": 25,
-            "length": 52,
-            "absorbable": false,
-            "width": 10,
-            "fromColor": "79F2EEFF",
-            "toColor": "79F2EEFF",
-            "damage": 370
-			}
-			
-		}
-	},
-	"consumes" : {
-		"power": 80
-			},
-	"requirements": [
-		{ "item": "thorium", "amount": 300 },
-		{ "item": "omega-blue", "amount": 320 },
-		{ "item": "silicon", "amount": 1000 },
-		{ "item": "osmium", "amount": 400 },
-		{ "item": "surge-alloy", "amount": 310 },
-		{ "item": "metaglass", "amount": 500 }
-	],
-	"category": "turret",
-	"research": "foreshadow"
+            "fragBullets": 10,
+            "fragBullet": {
+                "type": "ShrapnelBulletType",
+                "serrations": 1,
+                "lifetime": 25,
+                "length": 52,
+                "absorbable": false,
+                "width": 10,
+                "fromColor": "79F2EEFF",
+                "toColor": "79F2EEFF",
+                "damage": 370
+            }	
+        }
+    },
+    "consumes" : {
+        "power": 80
+    },
+    "requirements": [
+        { "item": "thorium", "amount": 300 },
+        { "item": "omega-blue", "amount": 320 },
+        { "item": "silicon", "amount": 1000 },
+        { "item": "osmium", "amount": 400 },
+        { "item": "surge-alloy", "amount": 310 },
+        { "item": "metaglass", "amount": 500 }
+    ],
+    "category": "turret",
+    "research": "foreshadow"
 }

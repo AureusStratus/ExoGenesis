@@ -1,26 +1,24 @@
 {
-	"type": "ItemTurret",
-	"description": "A single barreled turret that can shoot rapidly",
-	"localizedName": "Flux",
-	"size": 5,
-	"health": 1500,
-	"maxAmmo": 50,
-	"ammoPerShot" : 1,
-	"reloadTime": 18,
-	"range": 250,
-	"targetAir" : true, 
-	"targetGround" : true, 
-
-	"rotateSpeed": 5,
-	"inaccuracy": 1,
-	"shots" : 1,
-	"burstSpacing": 6,
-	"recoilAmount" : 3,
-	"restitution" : 0.08, 
-	"shootSound" : "shootBig",
-
-	"ammoTypes": {
-    "thorium": {
+    "type": "ItemTurret",
+    "description": "A single-barreled turret that can shoot rapidly",
+    "localizedName": "Flux",
+    "size": 5,
+    "health": 1500,
+    "maxAmmo": 50,
+    "ammoPerShot" : 1,
+    "reloadTime": 18,
+    "range": 250,
+    "targetAir" : true, 
+    "targetGround" : true,
+    "rotateSpeed": 5,
+    "inaccuracy": 1,
+    "shots" : 1,
+    "burstSpacing": 6,
+    "recoilAmount" : 3,
+    "restitution" : 0.08, 
+    "shootSound" : "shootBig",
+    "ammoTypes": {
+        "thorium": {
             "speed": 8,
             "height": 16,
             "width": 10,
@@ -31,10 +29,10 @@
             "backColor": "FF90D8FF",
             "shootEffect": "thoriumShoot",
             "hitEffect": "flakExplosion"
-        },
-     "blast-compound": {
+         },
+         "blast-compound": {
             "status": "burning",
-			"statusDuration": "1200",
+            "statusDuration": "1200",
             "speed": 10,
             "height": 16,
             "width": 10,
@@ -45,15 +43,15 @@
             "backColor": "C85C51FF",
             "shootEffect": "hitMeltdown",
             "hitEffect": "massiveExplosion",
-			"splashDamageRadius": 80,
-			"splashDamage": 10,
-                        "incendAmount": 8,
-			"incendSpread": 4,
-			"incendChance": 10
+            "splashDamageRadius": 80,
+            "splashDamage": 10,
+            "incendAmount": 8,
+            "incendSpread": 4,
+            "incendChance": 10
         },
-     "surge-alloy": {
+        "surge-alloy": {
             "status": "shocked",
-			"statusDuration": "1200",
+            "statusDuration": "1200",
             "speed": 9,
             "height": 16,
             "width": 10,
@@ -70,15 +68,15 @@
             "lightningLengthRand": 13,
             "lightningLength": 25,
             "collidesAir": true
-			}	
-	},
-	"requirements": [
-		{ "item": "plastanium", "amount": 400 },
-		{ "item": "lead", "amount": 800 },
-		{ "item": "silicon", "amount": 520 },
-		{ "item": "osmium", "amount": 220 },
-		{ "item": "titanium", "amount": 800 }
-	],
-	"category": "turret",
-	"research": "spectre"
+        }	
+    },
+    "requirements": [
+        "plastanium/400",
+        "lead/800",
+        "silicon/520",
+        "osmium/220",
+        "titanium/800"
+    ],
+    "category": "turret",
+    "research": "spectre"
 }
