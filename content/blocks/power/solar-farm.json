@@ -3,7 +3,6 @@
     "size": 8,
     "name": "Solar Farm",
     "description": "A massive array of solar panels that is able to produce large amounts of power",
-    "details": "Solar spam go brr v2",
     "hasPower": true,
     "powerProduction": 24,
     "requirements": [
