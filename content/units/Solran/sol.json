@@ -1,7 +1,7 @@
 {
 "name": "Sol",
 "research": "dagger",
-"description": "[red]A small and durable unit created by the solran legion this unit possess 2 fusion shotgun weapons that lights what it hits on fire it also has a less command amount",
+"description": "[red]A small and durable unit created by the solrians this unit possess 2 fusion shotgun weapons that lights what it hits on fire it also has a less command amount",
 "type": "mech",
 "armor": 7,
 "commandLimit": 6,
