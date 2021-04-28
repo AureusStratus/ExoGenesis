@@ -28,7 +28,7 @@
             "amount": 1.0
         }
     },
-    requirements": [
+    "requirements": [
         "lead/1000",
         "osmium/700",
         "silicon/1290",
