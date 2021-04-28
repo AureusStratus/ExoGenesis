@@ -1,44 +1,39 @@
 {
-	"type": "GenericSmelter",
-	"localizedName": "Jupiteium Furnace",
-	"description": "Rabidly decades thorium and melts it together with titanium and silicon to form jupiteium",
-	"health": 360,
-	"liquidCapacity": 60,
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"itemCapacity": 60,
-	"craftTime": 85,
-	"craftEffect": "none",
-	"updateEffect": "hitMeltdown",
-	"flameColor": "88a4ff",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "thorium", "amount": 10},
-				{"item": "titanium", "amount": 8},
-				{"item": "silicon", "amount": 6}
-			]
-	},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.5
-		}
-	},
-	
-	"outputItem": {
-		"item": "jupiteium",
-		"amount": 6
-	},
-	
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "titanium", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "osmium", "amount": 160}
-	],
-	"category": "crafting",
-	"research": "silicon-smelter"
+    "type": "GenericSmelter",
+    "localizedName": "Jupiteium Furnace",
+    "description": "Rapidly decays thorium and melts it together with titanium and silicon to form jupiteium",
+    "health": 360,
+    "liquidCapacity": 60,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemCapacity": 60,
+    "craftTime": 85,
+    "craftEffect": "none",
+    "updateEffect": "hitMeltdown",
+    "flameColor": "88a4ff",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "thorium/10",
+                "titanium/8",
+                "silicon/6"
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.5
+        }
+    },
+    "outputItem": "jupiteium/6",
+    "requirements": [
+        "silicon/160",
+        "titanium/160",
+        "thorium/140",
+        "osmium/160"
+    ],
+    "category": "crafting",
+    "research": "silicon-smelter"
 }

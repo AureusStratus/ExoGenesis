@@ -2,35 +2,32 @@
     "localizedName": "Xanium crucible",
     "description": "Melts together osmium and plastanium under high amounts of radiation  to create xanium",
     "type": "GenericSmelter",
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 120,
-	"flameColor": "DEFFCFFF",
-	"craftEffect": "heal",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "osmium", "amount": 8},
-				{"item": "plastanium", "amount": 10}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 360},
-		{"item": "lead", "amount": 380},
-		{"item": "metaglass", "amount": 140},
-		{"item": "osmium", "amount": 160},
-		{"item": "plastanium", "amount": 300}
-	],
-	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": {
-		"item": "xanium",
-		"amount": 3
-	}
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 120,
+    "flameColor": "DEFFCFFF",
+    "craftEffect": "heal",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "osmium/8",
+                "plastanium/10"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/360",
+        "lead/380",
+        "metaglass/140",
+        "osmium/160",
+        "plastanium/300"
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter",
+    "outputItem": "xanium/3"
 }

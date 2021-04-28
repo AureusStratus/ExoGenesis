@@ -1,37 +1,34 @@
 {	
-    "localizedName": "Nuclear fusion furnace",
-    "description": "Super heats materials to the point of fusion to create Sigma iron",
+    "localizedName": "Nuclear Fusion Furnace",
+    "description": "Superheats materials to the point of fusion to create sigma iron",
     "type": "GenericSmelter",
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 20,
-	"craftTime": 150,
-	"flameColor": "F66332FF",
-	"craftEffect": "massiveExplosion",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "blast-compound", "amount": 8},
-				{"item": "surge-alloy", "amount": 5},
-				{"item": "osmium", "amount": 10}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "lead", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "plastanium", "amount": 140}
-	],
-	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": {
-		"item": "primal-red",
-		"amount": 5
-	}
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 150,
+    "flameColor": "F66332FF",
+    "craftEffect": "massiveExplosion",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "blast-compound/8",
+                "surge-alloy/5",
+                "osmium/10"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/160",
+        "lead/160",
+        "thorium/140",
+        "titanium/160",
+        "plastanium/140"
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter",
+    "outputItem": "primal-red/5"
 }

@@ -1,46 +1,44 @@
 {	
-    "localizedName": "Fission furnace",
-    "description": "Uses the decay of thorium to cause a fission reaction between the thorium and xanium to create a very strange metalic material",
-	"type": "GenericCrafter",
+    "localizedName": "Fission Furnace",
+    "description": "Uses the decay of thorium to cause a fission reaction between thorium and xanium. Creates a very strange metallic material",
+    "type": "GenericCrafter",
     "drawer": "drawWeave",
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 120,
-	"craftEffect": {
-     "type": "ParticleEffect",
-    "line": true,
-    "particles": 18,
-    "lifetime": 38,
-    "length": 45,
-    "cone": -360,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "C3A0FFFF",
-    "colorTo": "774ACFFF"
-	},
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "thorium", "amount": 10},
-				{"item": "xanium", "amount": 8}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "plastanium", "amount": 190},
-		{"item": "metaglass", "amount": 140},
-		{"item": "titanium", "amount": 270}
-	],
-	"category": "crafting",
-	"research": "plastanium-compressor",
-	"outputItem": {
-		"item": "quantux",
-		"amount": 3
-}
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 120,
+    "craftEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 18,
+        "lifetime": 38,
+        "length": 45,
+        "cone": -360,
+        "lenFrom": 10,
+        "lenTo": 0,
+        "colorFrom": "C3A0FFFF",
+        "colorTo": "774ACFFF"
+    },
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "thorium/10",
+                "xanium/8"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/160",
+        "plastanium/190",
+        "metaglass/140",
+        "titanium/270"
+    ],
+    "category": "crafting",
+    "research": "plastanium-compressor",
+    "outputItem": "quantux/3"
+    }
 }

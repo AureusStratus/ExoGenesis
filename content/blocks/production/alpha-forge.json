@@ -1,36 +1,33 @@
 {	
-    "localizedName": "Electro arc forge",
-	"description": "Uses lightning arc to melt and super charge material to create alpha steel",
-	"type": "GenericSmelter",
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"craftTime": 150,
-	"itemCapacity": 30,
-	"flameColor": "F3E979FF",
-	"craftEffect": "instBomb",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "xanium", "amount": 5},
-				{"item": "surge-alloy", "amount": 5}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "lead", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "graphite", "amount": 140}
-	],
-	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": {
-		"item": "alpha-yellow",
-		"amount": 5
-	}
+    "localizedName": "Electro Arc Forge",
+    "description": "Uses lightning arc to melt and supercharge material to create alpha steel",
+    "type": "GenericSmelter",
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 150,
+    "itemCapacity": 30,
+    "flameColor": "F3E979FF",
+    "craftEffect": "instBomb",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "xanium/5",
+                "surge-alloy/5"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/160",
+        "lead/160",
+        "thorium/140",
+        "titanium/160",
+        "graphite/140"
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter",
+    "outputItem": "alpha-yellow/5"
 }

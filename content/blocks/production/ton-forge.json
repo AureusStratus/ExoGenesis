@@ -1,36 +1,33 @@
 {	
     "localizedName": "Ton forge",
-    "description": "Melts together materials under tons of pressure to create a really dense metal",
-	"type": "GenericSmelter",
-	"size": 4,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 250,
-	"flameColor": "E3EFF2FF",
-	"craftEffect": "shockwave",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 3,
-		"items": {
-			"items": [
-				{"item": "silicon", "amount": 3},
-				{"item": "titanium", "amount": 8},
-				{"item": "lead", "amount": 10}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "titanium", "amount": 260},
-		{"item": "lead", "amount": 140},
-		{"item": "graphite", "amount": 230}
-	],
-	"category": "crafting",
-	"research": "silicon-smelter",
-	"outputItem": {
-		"item": "osmium",
-		"amount": 6
-	}
+    "description": "Melts together materials under tons of pressure to create a super dense metal",
+    "type": "GenericSmelter",
+    "size": 4,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 250,
+    "flameColor": "E3EFF2FF",
+    "craftEffect": "shockwave",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 3,
+        "items": {
+            "items": [
+                "silicon/3",
+                "titanium/8",
+                "lead/10"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/160",
+        "titanium/260",
+        "lead/140",
+        "graphite/230"
+    ],
+    "category": "crafting",
+    "research": "silicon-smelter",
+    "outputItem": "osmium/6"
 }

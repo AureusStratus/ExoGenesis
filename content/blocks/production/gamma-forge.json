@@ -1,37 +1,34 @@
 {	
-    "localizedName": "Gamma radiation forge",
-	"description": "Uses extreme amounts of gamma radiation to irradiate and melt materials in to gamma alloy",
-	"type": "GenericSmelter",
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 150,
-	"flameColor": "DBFFBDFF",
-	"craftEffect": "healWave",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-				{"item": "xanium", "amount": 8},
-				{"item": "surge-alloy", "amount": 5},
-				{"item": "thorium", "amount": 12}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "plastanium", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "graphite", "amount": 140}
-	],
-	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": {
-		"item": "gamma-green",
-		"amount": 5
-	}
+    "localizedName": "Gamma Radiation Forge",
+    "description": "Uses extreme amounts of gamma radiation to irradiate and melt materials into gamma alloy",
+    "type": "GenericSmelter",
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 150,
+    "flameColor": "DBFFBDFF",
+    "craftEffect": "healWave",
+    "updateEffect": "none",
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                "xanium/8",
+                "surge-alloy/5",
+                "thorium/12"
+            ]
+        }
+    },
+    "requirements": [
+        "silicon/160",
+        "plastanium/160",
+        "thorium/140",
+        "titanium/160",
+        "graphite/140"
+    ],
+    "category": "crafting",
+    "research": "alloy-smelter",
+    "outputItem": "gamma-green/5"
 }
