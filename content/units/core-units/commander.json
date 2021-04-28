@@ -1,6 +1,6 @@
 {
         "localizedName": "Gaurdian",
-    	"description": "[green] a unit built for supporting it can command large amounts of units and has an unmatched mining speed it does not have an offensive weapon but can deploy a bomb that slows enemies",
+    	"description": "[green]A unit built for supporting it can command large amounts of units and has an unmatched mining speed it does not have an offensive weapon but can deploy a bomb that slows enemies",
         "speed": 1.8,
      	"isCounted": false,
         "mineSpeed": 20,
