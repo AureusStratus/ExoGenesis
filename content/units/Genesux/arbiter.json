@@ -1,7 +1,7 @@
 {
         "localizedName": "Universalis",
-        "description": "[blue] The universalis is an orbital class titan unit it is slow moving and possess 2 big gunners and 2 small ones but its main power comes from its powerful energy laser that can deal catastrophic damage to units and bases and shooting its laser causes the unit to stop moving for a short while",
-        "details": "The power of blue star at your arsenal",
+        "description": "[blue] The universalis is an orbital class titan unit it is slow moving and possess 2 big gunners and 2 smaller ones but its main power comes from its powerful energy laser that can deal catastrophic damage to units and bases and shooting its laser causes the unit to stop moving for a short while",
+        "details": "The power of a star at your arsenal",
         "singleTarget": true,
         "drawShields": false,
         "research": "centauri",
