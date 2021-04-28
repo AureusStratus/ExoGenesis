@@ -2,7 +2,7 @@
         "localizedName": "Majoris",
         "research": "dagger",
         "type": "flying",
-	    "description": "[blue] a nimble and fast air created  by the genesux this air unit that can shoot shock bullets and is most strongest in large numbers",
+	    "description": "[blue] A nimble and fast air created by the genesuxians this air unit that can shoot shock bullets and is most strongest in large numbers",
         "lowAltitude": true,
         "speed": 1.4,
         "accel": 0.1,
