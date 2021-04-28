@@ -1,6 +1,6 @@
 {
         "localizedName": "Contention",
-        "description": "[gold] A warrior class titan unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
+        "description": "[gold] A warrior class titan unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that can cutting a units health in half",
         "details": "And in a thunderous bang all gone",
         "research": "ravthian-reconstructor",
         "lightRadius": 200,
