@@ -1,8 +1,8 @@
 {
-    "localizedName": "Sagittarius-A",
-    "description": "[blue] The sagittarius is massive catapult unit that has high damage capabilities and it is the boss unit of the genesux the unit itself is a massive energy cannon that can fire out 3 energy homing spheres that can pierce through a few enemies dealing high damage it is equipped with 2 laser cannons that can fire devastating lasers although they cannot rotate it is also equipped with 4 artillery gunners for close ranged attack it also has a large and durable shield",
+    "localizedName": "Sagittarius",
+    "description": "[blue] The sagittarius is massive catapult unit that has high damage capabilities and it is the leader of the genesuxians the unit itself is a massive energy cannon that can fire out 3 energy homing spheres that can pierce through a few enemies dealing high damage it is equipped with 2 laser cannons that can fire devastating lasers although they cannot rotate it is also equipped with 4 artillery gunners for close ranged attack it also has a large and durable shield",
     "research": "b-rigel",
-    "details": "Show them what the power of a far away star can do",
+    "details": "It came from the galactic center",
     "singleTarget": true,
 	"groundLayer": 75,
 	"lightRadius": 350,
