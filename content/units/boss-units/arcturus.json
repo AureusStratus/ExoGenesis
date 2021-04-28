@@ -1,7 +1,7 @@
 {
     "localizedName": "Arcturus",
     "research": "proxima",
-    "description": "[red] The arcturus is a heavily armored and powerful unit it is the boss unit of the solrans it is slow at turning due to its armor but it is equipped with nuclear fusion guns that can deal lots of damage at close ranged and can light enemies ablaze it also has 4 heavy gunners that assist it in combat and one impact they explode in small fusions explosions",
+    "description": "[red] The arcturus is a heavily armored and powerful unit it is the leader of the solrans it is slow at turning due to its armor but it is equipped with nuclear fusion guns that can deal lots of damage at close ranged and can light enemies ablaze it also has 4 heavy gunners that assist it in combat and one impact they explode in small fusions explosions",
     "details": "It came from a distant world",
     "singleTarget": true,
 	"lightRadius": 350,
