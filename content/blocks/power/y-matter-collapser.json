@@ -1,45 +1,45 @@
 {
-	"type": "ImpactReactor",
-	"localizedName": "Atomic Collapser",
-	"description": "uses extreme amounts of gravitational energy to collapse jupiteium and azuid azide in to a singularity to generate power [red] warning keep far away from cores or important defenses",
-	"health": 1200,
-	"itemCapacity": 200,
-	"size": 5,
-	"lightColor": "EBFFFEFF",
-	"baseExplosiveness": 900000,
+    "type": "ImpactReactor",
+    "localizedName": "Atomic Collapser",
+    "description": "Uses extreme amounts of gravitational energy to collapse jupiteium and azuid azide into a singularity to generate power.\n[red] Warning: keep far away from cores or important defenses",
+    "health": 1200,
+    "itemCapacity": 200,
+    "size": 5,
+    "lightColor": "EBFFFEFF",
+    "baseExplosiveness": 900000,
     "explosionRadius": 400,
     "explosionDamage": 100000,
-	"hasLiquids": true,
-	"powerProduction": 570,
-	"warmupSpeed": 0.001,
-	"itemDuration": 380,
-	"plasma1": "EC905AFF",
-	"plasma2": "D99F6BFF",
-	"consumes": {
-		"power": 80.0,
-		"items": {
-			"items": [
-				{"item": "jupiteium", "amount": 15},
-				{"item": "azuid-azide", "amount": 15}
-			]
-	},
-		"liquid": {
-			"liquid": "cryofluid",
-			"amount": 1.0
-		}
-	},
-	"requirements": [
-		{ "item": "lead", "amount": 1000 },
-		{ "item": "osmium", "amount": 700 },
-		{ "item": "silicon", "amount": 1290 },
-		{ "item": "metaglass", "amount": 470 },
-		{ "item": "titanium", "amount": 780 },
-		{ "item": "alpha-yellow", "amount": 600 }
-	],
-	"category": "power",
+    "hasLiquids": true,
+    "powerProduction": 570,
+    "warmupSpeed": 0.001,
+    "itemDuration": 380,
+    "plasma1": "EC905AFF",
+    "plasma2": "D99F6BFF",
+    "consumes": {
+        "power": 80.0,
+        "items": {
+            "items": [
+                "jupiteium/15",
+                "azuid-azide"
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 1.0
+        }
+    },
+    requirements": [
+        "lead/1000",
+        "osmium/700",
+        "silicon/1290",
+        "metaglass/470",
+        "titanium/780",
+        "alpha-yellow/600"
+    ],
+    "category": "power",
     "loopSound": "pulse",
     "loopSoundVolume": 1.0,
-	"research": "impact-reactor",
-	"ambientSound": "hum",
-	"ambientSoundVolume": 0.85
+    "research": "impact-reactor",
+    "ambientSound": "hum",
+    "ambientSoundVolume": 0.85
 }

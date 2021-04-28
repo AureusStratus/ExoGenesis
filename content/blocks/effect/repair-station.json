@@ -1,7 +1,7 @@
 {
     "type": "MendProjector",
     "description": "A bigger mend projector that is more powerful and has more range",
-    "details": "Mend dome lmao"
+    "details": "Mend dome lmao",
     "localizedName": "Repair station",
     "health": 960,
     "size": 3,

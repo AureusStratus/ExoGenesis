@@ -1,18 +1,18 @@
 {
-	"type": "SolarGenerator",
-	"size": 8,
-  "name": "Solar farm",
-  "description": "A massive solar panel that is able to produce large amounts of power",
-	"hasPower": true,
-	"powerProduction": 24,
-	"requirements": [
-		{ "item": "metaglass", "amount": 200 },
-		{ "item": "phase-fabric", "amount": 70 },
-		{ "item": "titanium", "amount": 220 },
-		{ "item": "surge-alloy", "amount": 40 },
-		{ "item": "silicon", "amount": 380 }
-	],
-	"category": "power",
-	"research": "solar-panel"
-    
+    "type": "SolarGenerator",
+    "size": 8,
+    "name": "Solar Farm",
+    "description": "A massive array of solar panels that is able to produce large amounts of power",
+    "details": "Solar spam go brr v2",
+    "hasPower": true,
+    "powerProduction": 24,
+    "requirements": [
+        "metaglass/200",
+        "phase-fabric/70",
+        "titanium/220",
+        "surge-alloy/40",
+        "silicon/280"
+    ],
+    "category": "power",
+    "research": "solar-panel-large"
 }
