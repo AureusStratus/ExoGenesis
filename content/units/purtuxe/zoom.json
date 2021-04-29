@@ -8,7 +8,7 @@
     "commandLimit": 10,
     "targetAir": true,
     "hitSize": 68,
-    "health": 14800,
+    "health": 19800,
     "speed": 0.76,
     "accel": 0.11,
     "rotateSpeed": 0.8,
