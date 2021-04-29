@@ -31,7 +31,7 @@
     "ejectEffect": "casing2",
     "shootSound": "lasershoot",
         "bullet": { 
-        "sprite": "testers-plasma",
+        "sprite": "exogenesis-plasma",
         "type": "basicBulletType",
         "hitEffect": {
         "type": "WaveEffect",
@@ -82,7 +82,7 @@
     "ejectEffect": "casing2",
     "shootSound": "lasershoot",
         "bullet": { 
-        "sprite": "testers-plasma",
+        "sprite": "exogenesis-plasma",
         "type": "basicBulletType",
         "hitEffect": {
         "type": "WaveEffect",
