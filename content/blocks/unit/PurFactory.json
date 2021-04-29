@@ -1,0 +1,37 @@
+{
+"type": "UnitFactory",
+"description": "can create purtuxian units",
+"localizedName": "purtuxe Factory",
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "decade",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "titanium", "amount": 20},
+		{"item": "thorium", "amount": 25}
+       ],
+    "time": 460
+  },
+  {
+    "unit": "speed",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "metaglass", "amount": 20},
+		{"item": "thorium", "amount": 25}
+       ],
+    "time": 460
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "osmium", "amount": 380},
+	{"item": "lead", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}
