@@ -1,7 +1,7 @@
 {
     "localizedName": "Sigma Iron",
-    "description": "a Highly Durable material that is used in explosive, piercing ammunition and defensive structures and weaponry",
-    "details": "a super dense and tough metal that was used by the solrans to create highly durable and aggressively powerful units and weaponry",
+    "description": "A highly Durable material that is used in powerful unit construction, piercing ammunition and defensive structures and weaponry",
+    "details": "A super dense and tough metal that was used by the solrans to create highly durable and aggressively powerful units and weaponry",
     "cost": 7,
     "hardness": 8,
     "flammability": 0.4,
