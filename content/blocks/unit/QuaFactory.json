@@ -1,34 +1,35 @@
 {
 "type": "UnitFactory",
-"description": "can create different unit types",
-"localizedName": "Multi factory",
+"description": "Can create quantra units",
+"localizedName": "Quantra Factory",
 "size": 3,
 "consumes": {
 "power": 5
 },
 "plans": [
 {
-    "unit": "meteor",
+    "unit": "rule",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "titanium", "amount": 50}
+		{"item": "metaglass", "amount": 50},
+		{"item": "titanium", "amount": 10}
        ],
-    "time": 300
+    "time": 540
   },
  {
-    "unit": "sol",
+    "unit": "1-arco",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "osmium", "amount": 50},
+		{"item": "metaglass", "amount": 50},
 		{"item": "lead", "amount": 10}
        ],
-    "time": 580
+    "time": 540
   }
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 380},
-	{"item": "thorium", "amount": 180},
+	{"item": "lead", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
