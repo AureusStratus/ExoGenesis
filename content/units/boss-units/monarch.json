@@ -15,7 +15,7 @@
     "health": 2118200,
     "speed": 0.4,
     "accel": 0.2,
-    "rotateSpeed": 0.5,
+    "rotateSpeed": 0.8,
     "trailX": 37.0,
     "trailY": -104.0,
     "trailScl": 3.8,
