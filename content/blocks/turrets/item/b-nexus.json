@@ -2,7 +2,7 @@
 	"localizedName": "Nexus",
 	"type": "itemTurret",
 	"details": "One bullet wasn't enough so now we have two",
-	"description": "[blue] A rapidly firing Turret that is stronger against single targets",
+	"description": "[blue] A rapidly firing turret that is stronger against single targets",
 	"health": 8660,
 	"shots": 2,
     "shootShake": 3,
