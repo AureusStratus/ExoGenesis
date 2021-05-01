@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "a turret that uses low tier quantra technology to fire gamma pulses this turret is the upgrade to the gluon",
+    "description": "A turret that uses low tier quantra technology to fire gamma pulses this turret is the upgrade to the gluon",
     "localizedName": "Tau",
     "size": 1,
     "health": 240,
