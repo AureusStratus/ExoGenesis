@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "a shotgun bullet turret that uses explosive ammo",
+    "description": "A shotgun bullet turret that uses explosive ammo",
     "localizedName": "Glory",
     "size": 2,
     "health": 240,
