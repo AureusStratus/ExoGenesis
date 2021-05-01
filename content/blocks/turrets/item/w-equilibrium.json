@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-    "description": "[white]Equalize the battle field with this massive turret it shoots a different projectile depending on its ammo, it needs a lot of power to fire and it take a large amount a resource to build this weapon was created to fight off power units",
+    "description": "[white]Equalize the battle field with this massive turret, it can shoots a different projectile depending on its ammunition, it needs a lots of resource to build this weapon was created to fight off power units",
 	"localizedName": "Equilibrium",
 	"details": "Equalize the battlefield",
 	"size": 14,
