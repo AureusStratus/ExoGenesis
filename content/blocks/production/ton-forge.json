@@ -1,5 +1,5 @@
 {	
-    "localizedName": "Ton forge",
+    "localizedName": "Ton Forge",
     "description": "Melts together materials under tons of pressure to create a really dense metal",
 	"type": "GenericSmelter",
 	"size": 4,
