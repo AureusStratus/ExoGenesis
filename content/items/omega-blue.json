@@ -1,7 +1,7 @@
 {
     "localizedName": "Omega Metal",
-    "description": "This metal is used for advanced weaponry, transportation and various structures.",
-    "details": "A metal that was used by the genesuxians to create various resource structures and powerful weaponry",
+    "description": "A metal used for advanced weaponry, transportation and various structures.",
+    "details": "A metal that was used by the genesuxians to create various structures and powerful weaponry",
     "cost": 7,
     "hardness": 8,
     "charge": 0.3,
