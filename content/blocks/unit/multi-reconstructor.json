@@ -22,6 +22,7 @@
 	],
 	"upgrades": [
         ["century", "millennia"],
+        ["agility", "pace"],
         ["asteroid", "comet"],
 		["b-galileo", "b-kuiper"],
 		["gacrux", "kentaurus"],

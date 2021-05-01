@@ -30,6 +30,7 @@
 	],
 	"upgrades": [
 		["era", "epoch"],
+		["zoom", "hurtle"],
 		["b-sirius", "b-rigel"],
 		["centauri", "arbiter"],
 		["5-prime", "6-apex"],

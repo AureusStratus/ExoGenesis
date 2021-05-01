@@ -23,6 +23,7 @@
 	],
 	"upgrades": [
 		["millennia", "eon"],
+		["pace", "dash"],
 		["comet", "planetoide"],
 		["b-kuiper", "b-oort"],
 		["kentaurus", "vega"],

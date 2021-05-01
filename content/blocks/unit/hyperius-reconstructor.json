@@ -24,6 +24,7 @@
 	],
 	"upgrades": [
 		["eon", "era"],
+		["dash", "zoom"],
 		["planetoide", "moon"],
 		["b-oort", "b-sirius"],
 		["vega", "centauri"],
