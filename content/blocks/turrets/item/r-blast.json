@@ -1,6 +1,6 @@
  {
 	"type": "ItemTurret",
-	"description": "[red] a laser turret that super heats its ammo to produce powerful laser blasts",
+	"description": "[red] A laser turret that superheats its ammo to produce powerful laser blasts",
 	"localizedName": "Shockwave",
 	"size": 4,
 	"health": 1600,
