@@ -1,6 +1,6 @@
 {
   "type": "PowerNode",
-  "name": "Alpha network",
+  "name": "Alpha Network",
   "description": "An extremely long ranged node that can have many connections",
   "size": 4,
   "health": 500,
