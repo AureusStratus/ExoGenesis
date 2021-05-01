@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "a small turret that can fure plasma balls at enemies",
+    "description": "A small turret that can fire plasma balls at enemies",
     "localizedName": "Hel",
     "size": 1,
     "health": 240,
