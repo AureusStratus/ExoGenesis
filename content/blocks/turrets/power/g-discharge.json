@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "localizedName": "Discharge",
-    "description": "[green]Discharges green lightning that corrodes The enemy.",
+    "description": "[green]Discharges green lightning that corrodes The enemies.",
     "targetAir": true,
     "targetGround": true,
     "hasPower": true,
