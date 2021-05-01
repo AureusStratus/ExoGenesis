@@ -120,7 +120,7 @@
              },
              "knockback": 0.8,
              "lifetime": 110,
-             "damage": 60,
+             "damage": 40,
              "buildingDamageMultiplier": 0.06,
              "status": "corroded",
              "statusDuration": 80,
