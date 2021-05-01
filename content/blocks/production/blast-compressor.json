@@ -1,5 +1,5 @@
 {	
-    "localizedName": "Blast compressor",
+    "localizedName": "Blast Compressor",
     "description": "Mixes together blast compound, pyratite and coal to create a highly explosive compound",
 	"type": "GenericCrafter",
 	"size": 4,
