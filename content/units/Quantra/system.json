@@ -6,7 +6,7 @@
 "armor": 12,
 "rotateSpeed": 2.8,
 "canDrown": false,
-"hitSize": 20,
+"hitSize": 27,
 "buildSpeed": 3.6,
 "mechFrontSway": 1,
 "commandLimit": 6,
