@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "a turret that can fire a gamma boom bullet that will shatter in to mines that will stay around for while",
+    "description": "a turret that can fire a gamma bombs that will shatter in to mines that will stay around for while",
     "localizedName": "Boson",
     "size": 2,
     "health": 240,
