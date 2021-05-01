@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "a small turret that uses low tier quantra technology to fire small gamma pulses",
+    "description": "A small turret that uses low tier quantra technology to fire small gamma pulses",
     "localizedName": "Gluon",
     "size": 2,
     "health": 240,
