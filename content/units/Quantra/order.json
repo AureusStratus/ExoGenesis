@@ -4,7 +4,7 @@
 "description": "[acid]The order is the upgrade to the law unit and it can now shootpulses of gamma energy that can peirce through one tile",
 "type": "mech",
 "armor": 8,
-"hitSize": 15,
+"hitSize": 18,
 "mechFrontSway": 0.55,
 "commandLimit": 6,
 "buildSpeed": 3.6,
