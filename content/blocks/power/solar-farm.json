@@ -1,8 +1,8 @@
 {
 	"type": "SolarGenerator",
 	"size": 8,
-  "name": "Solar farm",
-  "description": "A massive solar panel that is able to produce large amounts of power",
+  "name": "Solar Farm",
+  "description": "An array of solar panel that is able to produce large amounts of power",
 	"hasPower": true,
 	"powerProduction": 24,
 	"requirements": [
