@@ -1,0 +1,72 @@
+{
+"name": "Order",
+"research": "law",
+"description": "[acid]The order is the upgrade to the law unit and it can now shootpulses of gamma energy that can peirce through one tile",
+"type": "mech",
+"armor": 8,
+"hitSize": 15,
+"mechFrontSway": 0.55,
+"commandLimit": 6,
+"buildSpeed": 3.6,
+"speed": 0.66,
+"flying": false,
+"health": 5900,
+"range": 120,
+"immunities": [
+		"corroded"
+		],
+"weapons": [
+  {
+  "name": "order-weapon",
+  "x": 11,
+  "y": 0,
+  "reload": 34,
+  "alternate": true,
+  "top": false,
+  "recoil": 1,
+  "shots": 1,
+  "shootSound": "laser",
+  "ejectEffect": "none",
+  "bullet": {
+		"type" : "basicBulletType",
+		"sprite" : "exogenesis-pulse",
+		"status": "corroded",
+		"damage": 30,
+		"height" : 21,
+		"width" : 11,
+		"hitSize": 5,
+		"speed": 5,
+		"lifetime" : 45,
+		"buildingDamageMultiplier": 0.7,
+		"pierceBuilding": true,
+		"pierceCap": 2,
+		"shootEffect": "hitMeltHeal",
+        "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 30,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 14,
+        "lenTo": 0,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 30,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+             },
+		"pierce": true,
+        "backColor": "C2FF70FF",
+        "frontColor": "FFFFFFFF"
+    }
+  }
+]
+}
