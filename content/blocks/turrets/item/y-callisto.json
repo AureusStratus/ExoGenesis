@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "localizedName": "Callisto",
-    "description": "[yellow]A cannon like turret turret that has large range and can fire large and forceful bullets",
+    "description": "[yellow]A cannon like turret turret that has lots of range and can fire large and forceful bullets",
     "health": 1600,
     "size": 4,
     "reloadTime": 44,
