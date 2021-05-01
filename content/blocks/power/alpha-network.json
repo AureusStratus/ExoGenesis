@@ -1,10 +1,10 @@
 {
   "type": "PowerNode",
   "name": "Alpha network",
-  "description": "Extremely long range and can have many connections has a massive range also",
+  "description": "An extremely long ranged node that can have many connections",
   "size": 4,
   "health": 500,
-  "laserRange": 36,
+  "laserRange": 46,
   "maxNodes": 20,
   "hasPower": true,
   "category": "power",
