@@ -1,7 +1,7 @@
 {
 "type": "UnitFactory",
 "description": "Can create genesuxian units",
-"localizedName": "Genesux factory",
+"localizedName": "Genesux Factory",
 "size": 3,
 "consumes": {
 "power": 5
@@ -28,7 +28,7 @@
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 380},
+	{"item": "osmium", "amount": 180},
 	{"item": "lead", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
