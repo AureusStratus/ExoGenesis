@@ -90,10 +90,10 @@
 		    	}
 	},
 	"requirements": [
-		{ "item": "graphite", "amount": 350 },
-		{ "item": "silicon", "amount": 490 },
+		{ "item": "graphite", "amount": 450 },
+		{ "item": "silicon", "amount": 690 },
 		{ "item": "titanium", "amount": 500 },
-		{ "item": "plastanium", "amount": 400 }
+		{ "item": "plastanium", "amount": 600 }
 	],
 	"category": "turret",
 	"research": "swarmer"
