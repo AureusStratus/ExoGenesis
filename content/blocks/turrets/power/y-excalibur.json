@@ -18,7 +18,7 @@
 "targetGround": true,
 "heatColor": "5B4CB0FF",
 "recoilAmount": 2,
-"powerUse": 4,
+"powerUse": 7,
 "shootType": {
   "type": "LaserBulletType",
     "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
