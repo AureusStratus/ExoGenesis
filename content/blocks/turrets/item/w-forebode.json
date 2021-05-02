@@ -47,11 +47,11 @@
         "power": 5
     },
     "requirements": [
-		{ "item": "plastanium", "amount": 300 },
-		{ "item": "osmium", "amount": 800 },
+		{ "item": "plastanium", "amount": 200 },
+		{ "item": "osmium", "amount": 400 },
 		{ "item": "silicon", "amount": 520 },
-		{ "item": "metaglass", "amount": 570 },
-		{ "item": "titanium", "amount": 500 }
+		{ "item": "metaglass", "amount": 370 },
+		{ "item": "titanium", "amount": 400 }
     ],
     "category": "turret",
     "research": "w-enforcer"
