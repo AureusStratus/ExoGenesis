@@ -76,11 +76,11 @@
             }
     },
     "requirements": [
-		{ "item": "lead", "amount": 460 },
-		{ "item": "jupiteium", "amount": 297 },
+		{ "item": "lead", "amount": 560 },
+		{ "item": "jupiteium", "amount": 397 },
 		{ "item": "surge-alloy", "amount": 384 },
-		{ "item": "osmium", "amount": 263 },
-		{ "item": "silicon", "amount": 260 }
+		{ "item": "osmium", "amount": 463 },
+		{ "item": "silicon", "amount": 360 }
     ],
     "category": "turret",
     "research": "ripple"
