@@ -58,10 +58,11 @@
             }
         },
 	"requirements": [
-		{ "item": "titanium", "amount": 300},
-		{ "item": "plastanium", "amount": 250},
-		{ "item": "osmium", "amount": 150},
-		{ "item": "thorium", "amount": 200}
+		{ "item": "titanium", "amount": 500},
+		{ "item": "plastanium", "amount": 450},
+                { "item": "silicon", "amount": 600},
+		{ "item": "osmium", "amount": 350},
+		{ "item": "thorium", "amount": 400}
 	],
 	"category": "turret",
 	"research": "fuse"
