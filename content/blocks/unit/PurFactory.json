@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "can create purtuxian units",
+"description": "Can create purtuxian units",
 "localizedName": "purtuxe Factory",
 "size": 3,
 "consumes": {
@@ -28,7 +28,7 @@
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 380},
+	{"item": "osmium", "amount": 180},
 	{"item": "lead", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
