@@ -15,6 +15,7 @@
     "restitution": 0.04,
     "rotateSpeed": 4,
     "shootSound": "laser",
+    "powerUse": 7,
     
 	"chargeTime": 25,
 	"chargeMaxDelay": 38,
