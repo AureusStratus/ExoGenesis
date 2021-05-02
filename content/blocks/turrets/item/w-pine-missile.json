@@ -58,8 +58,8 @@
         }
     },
     "requirements": [
-		{ "item": "copper", "amount": 57 },
-		{ "item": "lead", "amount": 64 }
+		{ "item": "copper", "amount": 77 },
+		{ "item": "lead", "amount": 74 }
     ],
     "category": "turret",
     "research": "duo"
