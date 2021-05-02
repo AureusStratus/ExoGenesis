@@ -44,10 +44,10 @@
 
 	"requirements": [
 		{ "item": "thorium", "amount": 700},
-		{ "item": "plastanium", "amount": 250},
-		{ "item": "xanium", "amount": 120},
+		{ "item": "plastanium", "amount": 350},
+		{ "item": "xanium", "amount": 220},
 		{ "item": "titanium", "amount": 400},
-		{ "item": "silicon", "amount": 240}
+		{ "item": "silicon", "amount": 440}
 	],
 	"category": "turret",
 	"research": "g-gluon"
