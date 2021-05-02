@@ -28,7 +28,7 @@
         "height": 13,
         "speed": 4,
         "lifetime": 60,
-        "damage": 20,
+        "damage": 30,
         "status": "corroded",
         "hitEffect": {
         "type": "ParticleEffect",
