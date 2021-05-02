@@ -117,12 +117,12 @@
 	},
 
 	"requirements": [
-		{ "item": "titanium", "amount": 400},
-		{ "item": "surge-alloy", "amount": 800},
-		{ "item": "osmium", "amount": 400},
+		{ "item": "titanium", "amount": 600},
+		{ "item": "surge-alloy", "amount": 880},
+		{ "item": "osmium", "amount": 600},
 		{ "item": "omega-blue", "amount": 780},
-		{ "item": "silicon", "amount": 780},
-		{ "item": "thorium", "amount": 640}
+		{ "item": "silicon", "amount": 880},
+		{ "item": "thorium", "amount": 740}
 	],
 	"category": "turret",
 	"research": "o-breakthrough"
