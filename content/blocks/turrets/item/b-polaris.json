@@ -120,11 +120,11 @@
 		"power": 80
 			},
 	"requirements": [
-		{ "item": "thorium", "amount": 300 },
-		{ "item": "omega-blue", "amount": 320 },
+		{ "item": "thorium", "amount": 500 },
+		{ "item": "omega-blue", "amount": 520 },
 		{ "item": "silicon", "amount": 1000 },
-		{ "item": "osmium", "amount": 400 },
-		{ "item": "surge-alloy", "amount": 310 },
+		{ "item": "osmium", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 410 },
 		{ "item": "metaglass", "amount": 500 }
 	],
 	"category": "turret",
