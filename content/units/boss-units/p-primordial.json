@@ -1,13 +1,13 @@
 {
     "localizedName": "Primordial",
-    "description": "[purple] The primordial is the boss unit of the purtuxians its there super weapon it is equipped with a powerful point gun for unit assault it has 2 massive laser cannons on the back that can fire 3 quantux energy laser blasts and it has 4laser mounts for close ranged damaged lastly it has an orb of pure quantux energy that is able to fire out large homing orbs of quantux energy that deal high damage",
+    "description": "[purple] The primordial is the leader of the purtuxians, it is equipped with a powerful railgun, and it has two massive laser cannons on the back that can fire three quantux energy laser blasts, it has four laser mounts for close ranged damaged, lastly it has an orb of pure quantux energy that is able to fire out large homing orbs of quantux energy that deals catastrophic damage",
     "research": "epoch",
-    "details": "It was around long before the first star. note the idea for the orb was made by the creator of the exotic mod",
+    "details": "It was around long before the first star. note the idea for the orb was made by the creator of the exotic mod. lore: the primordial has been around for who knows how long it has ravaged countless planets, turning them in the waste lands, before it then crashed landed on the planet of the purtuxians, giving there civilization the power to harness the power of quantux energy, but as there civilization advanced the primordial slowly influenced, them until it reawakened and took over",
     "singleTarget": true,
 	"lightRadius": 350,
 	"groundLayer": 75,
     "type": "legs",
-	"speed": 0.26,
+	"speed": 0.36,
 	"hitSize": 114,
 	"health": 1697600,
 	"armor": 65,
@@ -20,11 +20,11 @@
 	"flipBackLegs": true,
 	"legGroupSize": 2,
 	"legPairOffset": 3,
-	"maxStretch": 80,
+	"maxStretch": 88,
 	"legExtension": -20,
 	"legCount": 6,
     "legMoveSpace": 0.8,
-    "legLength": 80,
+    "legLength": 88,
     "legBaseOffset": 31,
     "legTrns": 1,
     "landShake": 3.4,
@@ -75,13 +75,22 @@
               "lightningLengthRand": 6,
               "lightningDamage": 120,
               "lightningAngleRand": 40,
-              "lightColor": "665C9FFF",
-              "lightningColor": "665C9FFF",
+              "lightColor": "A170F4FF",
+              "lightningColor": "A170F4FF",
               "status": "sapped",
               "statusDuration": 100,
-              "hitColor": "665C9FFF",
-              "shootEffect": "bigShockwave",
-              "colors":["D5B5FFFF", "BF92F9FF", "000000FF"],
+              "hitColor": "A170F4FF",
+              "shootEffect": {
+              "type": "WaveEffect",
+              "lifetime": 35,
+              "sizeFrom": 0,
+              "sizeTo": 45,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "colorFrom": "A170F4FF",
+              "colorTo": "A170F4FF"
+              },
+              "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
               "sideAngle": 25,
               "sideLength": 32,
               "sideWidth": 1
@@ -99,7 +108,7 @@
     "shots": 1,
     "shootCone": 18,
     "shootY": 13,
-    "reload": 60,
+    "reload": 40,
     "recoil": 2,
     "shake": 2,
     "ejectEffect": "casing2",
@@ -118,12 +127,12 @@
               "sizeTo": 35,
               "strokeFrom": 4,
               "strokeTo": 0,
-              "colorFrom": "665C9FFF",
-              "colorTo": "BF92F9FF"
+              "colorFrom": "A170F4FF",
+              "colorTo": "774ACFFF"
               },
               "status": "slow",
               "statusDuration": 100,
-              "colors":["D5B5FFFF", "BF92F9FF", "000000FF"],
+              "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
               "sideAngle": 25,
               "sideLength": 0,
               "sideWidth": 0
@@ -141,7 +150,7 @@
     "shots": 1,
     "shootCone": 18,
     "shootY": 13,
-    "reload": 62,
+    "reload": 42,
     "recoil": 2,
     "shake": 2,
     "ejectEffect": "casing2",
@@ -160,12 +169,12 @@
               "sizeTo": 35,
               "strokeFrom": 4,
               "strokeTo": 0,
-              "colorFrom": "665C9FFF",
-              "colorTo": "BF92F9FF"
+              "colorFrom": "A170F4FF",
+              "colorTo": "774ACFFF"
               },
               "status": "slow",
               "statusDuration": 100,
-              "colors":["D5B5FFFF", "BF92F9FF", "000000FF"],
+              "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
               "sideAngle": 25,
               "sideLength": 0,
               "sideWidth": 0
@@ -187,28 +196,26 @@
     "rotateSpeed": 0.6,
     "shootSound": "railgun",
     "bullet": {
-	"type" : "pointBulletType",
-	"damage": 5570,
-	"speed": 170,
-	"lightningColor": "665C9FFF",
-	"lightning": 8,
-	"lightningLength": 23,
-	"lightningDamage": 200,
+	"type" : "railBulletType",
+	"damage": 3270,
+	"length" : 900,
+	"ammoMultiplier": 3,
 	"pierce": true,
-	"trailSpacing": 20,
+	"pierceBuilding": true,
+	"pierceDamageFactor": 0.1,
 	"collidesAir": true,
-	"collidesTiles" : false,
-	"buildingDamageMultiplier": 0.4,
-	"trailColor": "665C9FFF",
-	"trailEffect": { 
+	"collidesGround": true,
+	"collidesTiles" : true,
+	"updateEffectSeg": 40,
+	"updateEffect": { 
     "type": "ParticleEffect",
     "particles": 1,
     "length": 0,
     "lifetime": 35,
     "sizeFrom": 20,
     "region": "exogenesis-wide",
-    "colorFrom": "665C9FFF",
-    "colorTo": "BF92F9FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
 	        },
 	"despawnEffect": {
     "type": "WaveEffect",
@@ -217,8 +224,8 @@
     "sizeTo": 55,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "665C9FFF",
-    "colorTo": "BF92F9FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
 	        },
 	"hitEffect": {
     "type": "WaveEffect",
@@ -227,13 +234,13 @@
     "sizeTo": 55,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "665C9FFF",
-    "colorTo": "BF92F9FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
 	      }
 			 }
            },
 			{
- "name": "p-primordial-orb",
+ "name": "primordial-orb",
   "x": 0,
   "y": 0,
   "shootY": 0,
@@ -249,11 +256,29 @@
   "shootCone": 20,
   "shootSound": "laser",
            "bullet": { 
-            "sprite": "exogenesis-plasma",
-            "status": "melting",
+           "sprite": "exogenesis-plasma",
+           "statusDuration": 400,
+           "status": {
+           "name": "quantux-lock",
+           "localizedName": "Quantux Locked",
+           "description": "you are unable to do anything",
+           "disarm": true,
+           "reloadMultiplier": 0.3,
+           "speedMultiplier": -1,
+           "effectChance": 0.5,
+           "effect": {
+           "type": "ParticleEffect",
+           "particles": 2,
+           "length": 1,
+           "region": "exogenesis-triangle",
+           "lifetime": 10,
+           "sizeFrom": 5,
+           "sizeTo": 0,
+           "colorFrom": "A170F4FF",
+           "colorTo": "774ACFFF"
+           }
+           },
             "damage": 1789,
-            "weaveMag": 4,
-            "weaveScale": 2,
             "splashDamage": 80,
             "splashDamageRadius": 116,
             "speed": 5,
@@ -273,7 +298,7 @@
             "lifetime": 287,
             "homingRange": 246,
             "homingDelay": 24,
-            "homingPower": 0.00978,
+            "homingPower": 0.01178,
             "backColor": "BF92F9FF",
             "frontColor": "BF92F9FF",
     "hitEffect": {
@@ -324,7 +349,7 @@
         "toColor": "BF92F9FF",
         "damage": 370
 		}
-    }
+           }
   }
      ],
     "abilities": [
@@ -342,9 +367,9 @@
       "region": "particle"
     },
      "effect": {
-      "name": "quantux-repair",
-      "localizedName": "Quantux-repair",
-      "damage": 0,
+      "name": "quantux-power",
+      "localizedName": "Quantux Power",
+      "speedMultiplier": 1.5,
       "effect": "none"
     },
     "range": 185,
