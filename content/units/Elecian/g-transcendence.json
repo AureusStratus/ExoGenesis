@@ -83,7 +83,7 @@
       "damage": 160,
       "width": 32,
       "height": 46,
-      "sprite": "testers-spear",
+      "sprite": "exogenesis-spear",
       "pierce": true,
       "status": "shocked",
       "reflectable": false,
