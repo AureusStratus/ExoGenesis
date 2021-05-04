@@ -1,7 +1,9 @@
 {
     "localizedName": "Dash",
     "description": "[purple]The dash unit is a naval equipped with two sap gunners, a railgun and two large sap guns",
-    "research": "pace",
+    "research": {
+    "parent": "pace"
+    },
     "type": "naval",
     "armor": 14,
     "drag": 0.17,

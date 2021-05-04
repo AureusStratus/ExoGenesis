@@ -1,7 +1,9 @@
 {
             "localizedName": "Century",
-            "research": "decade",
-            "description": "[purple] The upgrade to the century this unit is equipped with upgraded quantux blasters and it has a built in laser blaster",
+            "research": {
+            "parent": "decade"
+            },
+            "description": "[purple]The upgrade to the decade, this unit is equipped with upgraded quantux blasters, and it has small sappers",
             "type": "mech",
             "flying": false,
             "speed": 0.53,

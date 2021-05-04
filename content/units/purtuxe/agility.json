@@ -1,7 +1,9 @@
 {
     "localizedName": "Agility",
-    "description": "[purple] The agility is a fast naval equipped with a large sap gun and two sap gunners on its side",
-    "research": "speed",
+    "description": "[purple] The agility is a fast naval equipped with a large sap gun, and two sap gunners on its side",
+    "research": {
+    "parent": "speed"
+    },
     "type": "naval",
     "speed": 1.5,
     "armor": 6,

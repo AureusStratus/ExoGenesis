@@ -1,7 +1,9 @@
 {
             "localizedName": "Eon",
-            "research": "millennia",
-            "description": "[purple] The upgrade to the Millennia this unit is is equipped with powerful quantux blasters and sappers it also has a much more powerful laser blaster",
+            "description": "[purple]The upgrade to the Millennia, this unit is is equipped with powerful quantux blasters, two sappers and a built-in weapon",
+            "research": {
+            "parent": "millennia"
+            },
             "type": "legs",
             "speed": 0.43,
             "groundLayer": 75,

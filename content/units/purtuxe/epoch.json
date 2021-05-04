@@ -1,8 +1,10 @@
 {
             "localizedName": "Epoch",
-            "description": "[purple] The T5 upgrade in the decade line this unit is long ranged Sentinel type titan it is equipped with two railguns this titan can create a long ranged focused beam of quantux energy that can cut through unprotected defenses and it can inflict quantux burn",
+            "description": "[purple] The sentinel class titan unit, the epoch it is equipped with two railguns and can create a long ranged focused beam of quantux energy, that can cut through unprotected defenses, it is also equipped with laser mounts to help in close range combat ",
             "details": "The power of a dark energy technology at you finger tips",
-            "research": "ravthian-reconstructor",
+            "research": {
+            "parent": "era"
+            },
             "groundLayer": 75,
             "type": "legs",
             "speed": 0.27,
@@ -162,7 +164,7 @@
                      "despawnEffect": "smokeCloud",
                      "smokeEffect": "smokeCloud",
                      "status": {
-                     "localizedName": "Dark energy heat",
+                     "localizedName": "Dark Heat",
                      "name": "dark-heat",
                      "damage": 7,
                      "effect": "sapped",

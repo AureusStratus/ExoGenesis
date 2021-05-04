@@ -1,7 +1,9 @@
 {
     "localizedName": "Zoom",
-    "description": "[purple]The teir five upgrade of the speed unit line, this unit is equipped with four artillery guns that are used for long ranged assault, it also has laser cannon that has quite a bit of range",
-    "research": "dash",
+    "description": "[purple]The tier five upgrade of the speed unit line, this unit is equipped with four artillery guns that are used for long ranged assault, it also has laser cannon that has quite a bit of range",
+    "research": {
+    "parent": "dash"
+    },
     "type": "naval",
     "armor": 23,
     "drag": 0.10,
