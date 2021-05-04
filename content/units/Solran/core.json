@@ -1,7 +1,9 @@
 {
 "name": "Core",
-"research": "radiative",
-"description": "[red] The tier 5 of the solar units its is equipped with powerful fusion shotguns and powerful incendiary rocks and a oil sprayer set your enemies ablaze",
+"description": "[red] The tier five of the sol unit line, it is equipped with powerful fusion shotguns and and it has two energy pulse guns and an oil ",
+"research": {
+"parent": "radioactive"
+},
 "type": "mech",
 "armor": 23,
 "rotateSpeed": 2.0,

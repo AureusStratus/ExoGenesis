@@ -1,7 +1,9 @@
 {
 "name": "Corona",
-"research": "sol",
-"description": "[red]A durable unit that posses pulse guns that are capable of piercing through both enemies and buildings and its projectile also sets things on fire",
+"description": "[red]A durable unit that posses pulse guns that are capable of piercing through both enemies and structures, its projectile also sets things on fire",
+"research": {
+"parent": "sol"
+},
 "type": "mech",
 "armor": 9,
 "commandLimit": 6,

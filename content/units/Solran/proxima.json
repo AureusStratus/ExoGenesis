@@ -1,9 +1,11 @@
 {
 "name": "Proxima",
-"research": "ravthian-reconstructor",
-"description": "[red]A titan class unit that is able go tank through normal defenses and it specializes in taking down defense it is equipped with powerful shotgun weapons, large cannons and missiles launchers",
+"description": "[red]The bulwark class titan unit, this unit is able to tank through normal defenses, it specializes in taking down tough defense it is equipped with powerful shotgun weapons, large cannons and small missiles launchers",
+"research": {
+"parent": "core"
+},
 "type": "mech",
-"details": "They will know what the power of nuclear fusion can do",
+"details": "They will know what the power of nuclear fusion can do  Lore: The proxima titan unit was used by the solrans as front line defenders, the size and durability it made them shields and taking down well defend races and civilizations,it was an ease with there front lines of proximas",
 "lightRadius": 200,
 "armor": 74,
 "rotateSpeed": 1.0,
