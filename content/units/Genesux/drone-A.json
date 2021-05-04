@@ -1,7 +1,7 @@
 {
         "localizedName": "Attack Drone",
         "type": "flying",
-	    "description": "[blue] a small attack drone thats spawned from the kentaurus it has low heath and is pretty fast and can rapidly shoot energy bolts",
+	    "description": "[blue]A small attack drone thats spawned from the kentaurus, it has low heath and is pretty fast and it can rapidly shoot energy bolts",
         "lowAltitude": true,
         "speed": 2.4,
         "accel": 0.1,

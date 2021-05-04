@@ -1,7 +1,9 @@
 {
         "localizedName": "Centauri",
-        "description": "[blue] The centauri is a flying battleship unit that is equipped with 4 gunners to gun down enemies and bases and it posses a built-in weapon that can fire out powerful homing energy orbs and its equipped with a shield",
-        "research": "vega",
+        "description": "[blue] The centauri is a flying battleship unit that is equipped with four gunners to gun down enemies, bases and it posses a built-in weapon that can fire out powerful homing energy orbs, and its equipped with a shield",
+        "research": {
+        "parent": "vega"
+        },
         "singleTarget": true,
         "drawShields": false,
         "speed": 0.7,

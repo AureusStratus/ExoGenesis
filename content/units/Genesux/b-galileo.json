@@ -1,9 +1,10 @@
 {
     "localizedName": "Galileo",
-    "description": "[blue]The upgrade to the orion that is a slower and has 2 laser bolt guns for some extra power",
+    "description": "[blue]The upgrade to the orion that is a slower and has two laser bolt guns for some extra power",
     "type": "legs",
-    "groundLayer": 75,
-    "research": "a-orion",
+    "research": {
+    "parent": "a-orion"
+    },
 	"speed": 0.5,
 	"hitSize": 12,
 	"health": 890,

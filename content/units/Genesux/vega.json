@@ -1,7 +1,9 @@
 {
         "localizedName": "Vega",
-        "description": "[blue] The vega is large air unit that posses a built in fuse weapons that it uses to take down groups or single enemies it also has two orb guns that fire multiple homing energy orbs",
-        "research": "kentaurus",
+        "description": "[blue] The vega is large air unit that posses a built in fuse weapon that it uses to take down groups or single, enemies it also has two orb guns that fire multiple homing energy orbs",
+        "research": {
+        "parent": "kentaurus"
+        },
         "speed": 0.8,
         "rotateSpeed": 1.6,
         "accel": 0.02,
