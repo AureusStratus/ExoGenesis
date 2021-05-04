@@ -3,8 +3,10 @@
         "type": "payload",
         "canHeal": true,
         "controller": "repairAI",
-	    "description": "[lime] The upgrade to the comet the planetoide is equipped with 4 healing lasers and it can now pick up larger and more heavy payloads thanks to its anti gravity tractor",
-        "research": "comet",
+	    "description": "[lime]The upgrade to the comet, the planetoide is equipped with four healing lasers and it can pick up larger and more heavy payloads, thanks to its anti gravity tractor",
+        "research": {
+        "parent": "comet"
+        },
         "lowAltitude": true,
         "speed": 0.8,
         "accel": 0.1,

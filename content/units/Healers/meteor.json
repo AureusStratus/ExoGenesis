@@ -3,7 +3,7 @@
         "type": "flying",
         "controller": "repairAI",
         "canHeal": true,
-	    "description": "[lime] the meteor is a small and fast support unit that that has a healing field and can shoot energy orbs",
+	    "description": "[lime]The meteor is a small and fast support unit, that has a healing field and can shoot energy orbs",
         "research": "dagger",
         "lowAltitude": true,
         "speed": 2.4,
