@@ -1,7 +1,9 @@
 {
 "name": "Organization",
-"research": "system",
-"description": "[acid]The organization is the Fifth teir upgrade in the rule line its two main guns can fire three gamma plasma balls and it has four energy missile launcher making it effective at taking down bases",
+"description": "[acid]The organization is the fifth teir upgrade in the rule line, its two main guns can fire three gamma plasma balls, and it has four energy missile launcher making it effective at taking down bases",
+"research": {
+"parent": "system"
+},
 "type": "mech",
 "armor": 18,
 "lightRadius": 110,

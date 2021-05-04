@@ -1,7 +1,9 @@
 {
     "localizedName": "Prime",
-    "description": "[acid] The prime is a giant of a naval unit it is equipped with powerful guns that shoot 3 bullets that are capable of piercing through structures along with a giga laser that fires out gamma lighting when it hits something it also has the ability to heal friendly units",
-    "research": "4-helios",
+    "description": "[acid] The prime is a giant of a naval unit, it is equipped with powerful guns that shoot three bullets that are capable of piercing through structures, along with a giga laser that fires out gamma lighting when it hits something, it also has the ability to heal friendly units",
+    "research": {
+    "parent": "4-helios"
+    },
     "type": "naval",
     "armor": 18,
     "drag": 0.17,

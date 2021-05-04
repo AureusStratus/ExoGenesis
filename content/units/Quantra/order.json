@@ -1,8 +1,10 @@
 {
 "name": "Order",
-"research": "law",
-"description": "[acid]The order is the upgrade to the law unit and it can now shootpulses of gamma energy that can peirce through one tile",
+"description": "[acid]The order is the upgrade to the law, and it can now shoot pulses of gamma energy that can peirce through one tile",
 "type": "mech",
+"research": {
+"parent": "law"
+},
 "armor": 8,
 "hitSize": 18,
 "mechFrontSway": 0.55,

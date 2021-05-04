@@ -1,7 +1,9 @@
 {
     "localizedName": "Rank",
-    "description": "[acid] This unit is equipped with two powerful gamma artillery that homes in on targets the bullet moves slowly tho",
-    "research": "1-arco",
+    "description": "[acid] This unit is equipped with two powerful gamma artillery that homes in on targets, the bullet moves slowly tho it also has a gamma zapper",
+    "research": {
+    "parent": "1-arco"
+    },
     "type": "naval",
     "speed": 0.9,
     "armor": 5,
