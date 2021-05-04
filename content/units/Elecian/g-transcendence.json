@@ -2,7 +2,9 @@
         "localizedName": "Contention",
         "description": "[gold] A warrior class titan unit that has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
         "details": "And in a thunderous bang all gone",
-        "research": "ravthian-reconstructor",
+        "research": {
+        "parent": "f-apotheosis"
+         },
         "lightRadius": 200,
         "speed": 0.7,
         "accel": 0.02,
@@ -83,7 +85,7 @@
       "damage": 160,
       "width": 32,
       "height": 46,
-      "sprite": "exogenesis-spear",
+      "sprite": "testers-spear",
       "pierce": true,
       "status": "shocked",
       "reflectable": false,

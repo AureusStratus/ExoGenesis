@@ -1,7 +1,9 @@
 {
         "localizedName": "Dispute",
 	"description": "[gold] The upgrade to the conflict this unit is equipped with two bolters that shoot rapidly but do low damage",
-        "research": "a-theory",
+    "research": {
+        "parent": "a-theory"
+         },
         "speed": 2.9,
         "accel": 0.03,
         "drag": 0.02,
