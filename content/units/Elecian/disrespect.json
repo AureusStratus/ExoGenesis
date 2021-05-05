@@ -1,9 +1,7 @@
 {
     "localizedName": "Disrespect",
     "description": "[gold] Small spider unit that has a built-in flame thrower that can deal lots of damage against units",
-    "research": {
-    "parent": "challenge"
-    },
+    "research": "challenge",
     "commandLimit": 8,
     "type": "legs",
 	"speed": 0.56,

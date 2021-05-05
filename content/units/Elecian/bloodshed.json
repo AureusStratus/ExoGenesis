@@ -1,9 +1,7 @@
 {
     "localizedName": "Bloodshed",
-    "description": "[gold] The bloodshed is the attacker class titan unit its flame thrower deals massive damage and now shoot lightning as well and it has much more range it is equipped with two gunners and two laser mounts to assist it in combat against units",
-    "research": {
-    "parent": "hostile"
-    },
+    "description": "[gold]The attacker class titan unit, its flame thrower deals massive damage and now shoot lightning as well and it has much more range it is equipped with two gunners and two laser mounts to assist it in combat against units",
+    "research": "hostile",
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",

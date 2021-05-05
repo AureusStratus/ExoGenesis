@@ -1,9 +1,7 @@
 {
     "localizedName": "Hostile",
     "description": "[gold] The hostile is equipped with two powerful shotguns and a rocket launcher and its flame thrower is much more stronger and has more range and it is equipped with a low health shield",
-    "research": {
-    "parent": "combat"
-    },
+    "research": "combat",
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",

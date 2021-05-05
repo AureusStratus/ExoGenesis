@@ -1,9 +1,7 @@
 {
         "localizedName": "Debate",
-        "description": "[gold] This unit is equipped with upgraded surge launchers and is much more durable then the dispute and its also equipped with small and low health shields",
-        "research": {
-        "parent": "b-hypothesis"
-         },
+        "description": "[gold] This unit is equipped with upgraded surge launchers and is much more durable then the dispute, it also equipped with small and low health shields",
+    "research": "b-hypothesis",
         "speed": 2.0,
         "accel": 0.03,
         "drag": 0.012,

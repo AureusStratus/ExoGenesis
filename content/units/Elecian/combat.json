@@ -1,9 +1,7 @@
 {
     "localizedName": "Combat",
     "description": "[gold] The combat is equipped with shock artillery guns and it can give surrounding units the overclock effect making them stronger",
-    "research": {
-    "parent": "strife"
-    },
+    "research": "strife",
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",
