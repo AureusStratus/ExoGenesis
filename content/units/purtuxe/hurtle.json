@@ -1,9 +1,7 @@
 {
     "localizedName": "Hurtle",
     "description": "[purple] The dreadnaught class titan unit, this naval unit is quite durable and can take on large amounts of fire power, it is equipped with large gunners, two laser mounts and a large energy beam cannon that can cut through plastanium defense at long range",
-    "research": {
-    "parent": "zoom"
-    },
+    "research": "zoom",
     "type": "naval",
     "armor": 48,
     "drag": 0.17,

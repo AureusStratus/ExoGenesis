@@ -2,9 +2,7 @@
             "localizedName": "Epoch",
             "description": "[purple] The sentinel class titan unit, the epoch it is equipped with two railguns and can create a long ranged focused beam of quantux energy, that can cut through unprotected defenses, it is also equipped with laser mounts to help in close range combat ",
             "details": "The power of a dark energy technology at you finger tips",
-            "research": {
-            "parent": "era"
-            },
+    "research": "era",
             "groundLayer": 75,
             "type": "legs",
             "speed": 0.27,

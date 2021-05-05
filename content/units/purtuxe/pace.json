@@ -1,9 +1,7 @@
 {
     "localizedName": "Pace",
     "description": "[purple]The pace is a durable unit that is equipped with four orb cannons, that it can fire at long ranges",
-    "research": {
-    "parent": "agility"
-    },
+    "research": "agility",
     "type": "naval",
     "speed": 1,
     "armor": 9,

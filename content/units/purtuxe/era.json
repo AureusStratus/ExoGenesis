@@ -1,9 +1,7 @@
 {
             "localizedName": "Era",
             "description": "[purple]The upgrade to the eon, it is equipped with a railgun similar to the omuras, it is also equipped with quantux blasters and two gunners to help it in combat, it can also generate a small quantux energy sphere that slowly implode in to a pulse that damage enemies",
-            "research": {
-            "parent": "eon"
-            },
+    "research": "eon",
             "type": "legs",
             "speed": 0.37,
             "groundLayer": 75,
