@@ -4,9 +4,7 @@
         "type": "flying",
         "canHeal": true,
 	    "description": "[lime]The upgrade to the meteor, the asteroid is equiped with two healing bolters and a more powerful energy orb attack",
-        "research": {
-        "parent": "meteor"
-        },
+    "research": "meteor",
         "lowAltitude": true,
         "speed": 1.9,
         "accel": 0.1,
