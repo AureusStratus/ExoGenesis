@@ -1,9 +1,7 @@
 {
 "name": "Core",
 "description": "[red] The tier five of the sol unit line, it is equipped with powerful fusion shotguns and and it has two energy pulse guns and an oil ",
-"research": {
-"parent": "radioactive"
-},
+    "research": "radiative",
 "type": "mech",
 "armor": 23,
 "rotateSpeed": 2.0,

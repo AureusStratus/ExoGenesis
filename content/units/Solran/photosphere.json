@@ -1,9 +1,7 @@
 {
 "name": "Photosphere",
 "description": "[red]A unit equipped with two powerful fusion shotgun and incendiary rockets, it has high health and armor this unit is capable of ripping through defenses if not dealt with",
-"research": {
-"parent": "corona"
-},
+    "research": "corona",
 "type": "mech",
 "armor": 14,
 "hitSize": 13,
