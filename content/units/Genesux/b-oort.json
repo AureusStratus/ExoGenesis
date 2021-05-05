@@ -1,9 +1,7 @@
 {
     "localizedName": "Oort",
     "description": "[blue] The oort is walking meltdown with its blue plasma laser that can easily cut through defense and units alike,along with its laser it has two plasma guns to aid it in battle, and it sports a powerful shield",
-    "research": {
-    "parent": "b-kuiper"
-    },
+    "research": "b-kuiper",
     "groundLayer": 75,
     "drawShields": false,
     "type": "legs",

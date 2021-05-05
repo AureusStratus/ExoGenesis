@@ -2,9 +2,7 @@
         "localizedName": "Kentaurus",
         "type": "flying",
 	    "description": "[blue]The kentaurus is equipped with two laser mounts but it has the ability to build two types of drones, that it builds continuously and these drones aid in battle, and are very deadly in groups",
-        "research": {
-        "parent": "gacrux"
-        },
+    "research": "gacrux",
         "lowAltitude": true,
         "speed": 1,
         "accel": 0.1,

@@ -1,9 +1,7 @@
 {
     "localizedName": "Sirius",
     "description": "[blue]The sirius is the tier five upgrade to the orion line, it posses a much more powerful and longer blue plasma laser beams, and it has two lancer laser and two laser bolt guns and a larger and strong shield shield",
-    "research": {
-    "parent": "b-oort"
-    },
+    "research": "b-oort",
     "groundLayer": 75,
     "drawShields": false,
     "maxRange": 220,

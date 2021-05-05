@@ -4,9 +4,7 @@
         "details": "The power of blue star at your arsenal",
         "singleTarget": true,
         "drawShields": false,
-        "research": {
-        "parent": "centauri"
-        },
+    "research": "centauri",
         "lightRadius": 200,
         "rotateSpeed": 0.8,
         "speed": 0.3,

@@ -1,8 +1,6 @@
 {
         "localizedName": "Gacrux",
-        "research": {
-        "parent": "majoris"
-        },
+    "research": "majoris",
         "type": "flying",
 	    "description": "[blue]The gacrux air unit is fast and has no weapons but it can do a powerful and dash and ram in to units dealing lots if damage and its stronger in groups",
         "lowAltitude": true,

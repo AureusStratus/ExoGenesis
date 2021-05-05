@@ -1,9 +1,7 @@
 {
     "localizedName": "Rigel",
     "description": "The catapult class of the titan units, it can hurl three plasma balls at enemies that peirce and do tones of damage and on impact, the plasmas realse lightning on contact aswell, this unit also has four laser weapons for more close ranged damage it also has a massive shield to protect it",
-    "research": {
-    "parent": "b-sirius"
-    },
+        "research": "b-rigel",
     "details": "Show them what the power of a far away star can do",
     "groundLayer": 75,
     "singleTarget": true,
