@@ -11,7 +11,7 @@
         "drawShields": false,
         "rotateSpeed": 1.6,
         "range": 420,
-        "aimDst": 420
+        "aimDst": 420,
         "maxRange": 420,
         "crashDamageMultiplier": "12",
         "flying": true,
@@ -36,6 +36,35 @@
         ],
 	    "weapons": [
 	   {
+    "name": "Storm-ability",
+    "reload": 600,
+    "rotate": true,
+    "rotateSpeed": 7.8,
+    "top": true,
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "recoil": 1.5,
+    "inaccuracy": 360,
+    "shake": 6,
+    "shots": 25,
+    "ignoreRotation": true,
+    "shootSound": "shockBoom",
+    "shootCone": 360,
+		"bullet": {
+        "type": "LightningBulletType",
+        "status": "slowed",
+        "statusDuration": 80,
+        "buildingDamageMultiplier": -0.4,
+		"lightningColor": "F3E979FF",
+		"lightningCone": 360,
+		"damage": 600,
+        "lightningLength": 46,
+        "collidesAir": true
+			}
+	   },
+     {
    "name": "energyG",
     "top": true,
     "mirror": true,
