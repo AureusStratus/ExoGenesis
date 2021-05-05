@@ -161,6 +161,8 @@
               "y": 17,
               "x": 18,
               "reload": 58,
+	      "rotate": true,
+	      "rotateSpeed": 4,
               "recoil": 0.5,
               "shots": 5,
               "shootY": 2,
