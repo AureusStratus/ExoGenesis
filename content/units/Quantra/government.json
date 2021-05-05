@@ -1,9 +1,7 @@
 {
 "name": "Government",
 "description": "[acid]The commander class of the titans, the government unit is a massive mech unit that is quite fast, it sports an ability where it can realse a pulse wave that will take control of any nearby units, making them stop moving and firing for a short while, the governments main weapons can fire 3 massive gamma laser blasts, and it has two artillery guns and two gamma orb blasters",
-"research": {
-"parent": "organization"
-},
+    "research": "organization",
 "type": "mech",
 "lightColor": "C2FF70FF",
 "details": "Control and destroy. lore: The government units where used by the Quantra to raid planets and civilizations, with there unique ability to control or disable technology around it made them effect units at taking down technically advance races",

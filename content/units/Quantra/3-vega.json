@@ -1,9 +1,7 @@
 {
     "localizedName": "Peak",
     "description": "[acid] Instead of just two artillery guns it now has four, which makes it great at taking out thing at a distance",
-    "research": {
-    "parent": "2-falx"
-    },
+    "research": "2-falx",
     "type": "naval",
     "speed": 0.85,
     "armor": 8,

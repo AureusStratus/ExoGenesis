@@ -2,9 +2,7 @@
     "localizedName": "Apex",
     "description": "[acid]The base breaker class titan unit, the apex is equipped with upgrade gauss cannons and gamma laser, it also has four gunners and two lancers at the back that can pull in enemies, its able to build like the prime it can also hold large amounts of resources",
     "details": "Stand your ground and make them pay",
-    "research": {
-    "parent": "5-prime"
-    },
+    "research": "5-prime",
     "type": "naval",
     "armor": 46,
     "drag": 0.17,
