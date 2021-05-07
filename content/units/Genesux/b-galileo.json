@@ -1,8 +1,8 @@
 {
     "localizedName": "Galileo",
-    "description": "[blue]The upgrade to the orion that is a slower and has two laser bolt guns for some extra power",
+    "description": "[blue]The upgrade to the orion that is a slower and has four laser bolt guns",
     "type": "legs",
-        "research": "a-orion",
+    "research": "a-orion",
 	"speed": 0.5,
 	"hitSize": 12,
 	"health": 890,
@@ -29,16 +29,17 @@
 	    {
     "name": "bolter",
     "shootCone": 15,
+    "alternate": true,
     "mirror": true,
     "x": 6,
-    "y": 1.5,
+    "y": -1.5,
     "reload": 10,
     "recoil": 0.5,
     "shootSound": "sap",
     "bullet": {
     "type": "LaserBoltBulletType",
     "shootEffect": "lightningShoot",
-    "damage": 38,
+    "damage": 20,
     "speed": 6,
     "frontColor": "79F2EEFF",
     "backColor": "74C2E8FF",
@@ -46,30 +47,23 @@
     }
   },
   {
-    "name": "laserbolt",
-    "reload": 65,
-    "mirror": false,
-    "x": 0,
-    "y": -2.3,
-    "shootY": 3,
-    "recoil": 1.5,
-    "shake": 1,
-    "rotate": true,
-    "shootSound": "laser",
-    "rotateSpeed": 10,
-    "shootCone": 45,
-			"bullet": {
-              "type": "LaserBulletType",
-              "length": 180,
-              "width": 10,
-              "damage": 130,
-              "hitColor": "79F2EEFF",
-              "shootEffect": "lightningShoot",
-              "hitEffect": "lightningShoot",
-              "colors":["74C2E8FF", "79F2EEFF", "FFFFFF"],
-              "sideAngle": 25,
-              "sideLength": 32,
-              "sideWidth": 1
+    "name": "bolter",
+    "shootCone": 15,
+    "alternate": true,
+    "mirror": true,
+    "x": 2,
+    "y": 2,
+    "reload": 10,
+    "recoil": 0.5,
+    "shootSound": "sap",
+    "bullet": {
+    "type": "LaserBoltBulletType",
+    "shootEffect": "lightningShoot",
+    "damage": 20,
+    "speed": 6,
+    "frontColor": "79F2EEFF",
+    "backColor": "74C2E8FF",
+    "lifetime": 35
 			}
 		}
 	]

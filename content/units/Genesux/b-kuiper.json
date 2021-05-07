@@ -3,7 +3,7 @@
     "description": "[blue]The kuiper unit is equipped with two lancer lasers and one plasma gun amount at the center back, its also much more durable than the galileo",
     "type": "legs",
     "groundLayer": 75,
-        "research": "b-galileo",
+    "research": "b-galileo",
 	"speed": 0.34,
 	"hitSize": 21,
 	"health": 2600,

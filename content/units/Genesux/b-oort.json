@@ -50,7 +50,7 @@
     "shootSound": "spark",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "exogenesis-plasma",
+    "sprite": "testers-plasma",
     "shootEffect": "lightningShoot",
 	"despawnEffect": {
     "type": "WaveEffect",
@@ -60,7 +60,7 @@
     "strokeFrom": 4,
     "strokeTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "74C2E8AA"
 	        },
 	"hitEffect": {
     "type": "WaveEffect",
@@ -70,7 +70,7 @@
     "strokeFrom": 4,
     "strokeTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "74C2E8AA"
 	},
     "trailEffect": "none",
     "width": 13,
@@ -103,6 +103,8 @@
   "recoil": 0,
   "chargeSound": "lasercharge2",
   "shootSound": "beam",
+  "shootStatus": "slow",
+  "shootStatusDuration": 190,
   "continuous": true,
   "cooldownTime": 210,
   "firstShotDelay": 39,
@@ -113,13 +115,15 @@
     "width": 4,
     "drawSize": 180,
     "lifetime": 180,
-    "shake": 2,
+    "shake": 1,
     "despawnEffect": "smokeCloud",
     "smokeEffect": "none",
     "incendChance": 0.15,
     "incendSpread": 5,
     "incendAmount": 1,
-    "colors":["74C2E8FF", "79F2EEFF", "FFFFFF"],
+    "status": "freezing",
+    "statusDuration": "50",
+    "colors":["74C2E8AA", "79F2EEFF", "FFFFFF"],
     "hitEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -134,34 +138,34 @@
       },
     "shootEffect": {
     "type": "multiEffect",
+    "lifetime": 39,
     "effects": [
     {
     "type": "WaveEffect",
-    "lifetime": 42,
+    "lifetime": 39,
     "rotation": 2.5,
     "sides": 0,
     "sizeFrom": 40,
     "sizeTo": 0,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "79F2EEFF",
+    "colorFrom": "74C2E8AA",
     "colorTo": "FFFFFF"
     },
     {
   "type": "ParticleEffect",
-        "particles": 35,
-        "sizeFrom": 5,
-        "sizeTo": 0,
-        "length": 50,
-        "baseLength": -50,
-        "lifetime": 25,
+        "particles": 1,
+        "sizeFrom": 0,
+        "sizeTo": 5,
+        "length": 0,
+        "lifetime": 39,
         "colorFrom": "79F2EEFF",
         "colorTo": "FFFFFF",
         "cone": 360
     },
     {
     "type": "WaveEffect",
-    "lifetime": 25,
+    "lifetime": 39,
     "rotation": 2.5,
     "sides": 0,
     "sizeFrom": 20,
