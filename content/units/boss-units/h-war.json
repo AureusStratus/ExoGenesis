@@ -36,7 +36,7 @@
         ],
 	    "weapons": [
 	   {
-    "name": "Storm-ability",
+    "name": "storm-ability",
     "reload": 600,
     "rotate": true,
     "rotateSpeed": 7.8,
@@ -52,14 +52,14 @@
     "ignoreRotation": true,
     "shootSound": "shockBoom",
     "shootCone": 360,
-		"bullet": {
+	"bullet": {
         "type": "LightningBulletType",
-        "status": "slowed",
+        "status": "slow",
         "statusDuration": 80,
         "buildingDamageMultiplier": -0.4,
-		"lightningColor": "F3E979FF",
-		"lightningCone": 360,
-		"damage": 600,
+	"lightningColor": "F3E979FF",
+	"lightningCone": 360,
+	"damage": 600,
         "lightningLength": 46,
         "collidesAir": true
 			}
