@@ -50,7 +50,7 @@
     "shootSound": "spark",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "testers-plasma",
+    "sprite": "exogenesis-plasma",
     "shootEffect": "lightningShoot",
 	"despawnEffect": {
     "type": "WaveEffect",
