@@ -1,0 +1,71 @@
+{
+"name": "Heat",
+"description": "[red]A small and durable unit created by the Solrans, this unis is equipped with two plasma bolters that shoot rapidly, and the unit can boost",
+"research": "dagger",
+"type": "mech",
+"armor": 7,
+"hitSize": 10,
+"canBoost": true,
+"boostMultiplier": 2.2,
+"engineOffset": 6,
+"commandLimit": 8,
+"speed": 0.52,
+"flying": false,
+"health": 690,
+"range": 120,
+"immunities": [
+		"burning"
+		],
+"weapons": [
+  {
+  "name": "heat-bolter",
+    "shootCone": 15,
+    "alternate": true,
+    "mirror": true,
+    "x": 4,
+    "y": -2,
+    "reload": 10,
+    "recoil": 0.5,
+    "shootSound": "sap",
+    "bullet": {
+    "type": "LaserBoltBulletType",
+	"shootEffect": {
+    "type": "WaveEffect",
+    "lifetime": 15,
+    "sizeFrom": 0,
+    "sizeTo": 4,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF"
+	},
+	"despawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 15,
+    "sizeFrom": 0,
+    "sizeTo": 4,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF"
+	},
+	"hitEffect": {
+    "type": "WaveEffect",
+    "lifetime": 15,
+    "sizeFrom": 0,
+    "sizeTo": 4,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF"
+	},
+    "damage": 12,
+    "speed": 6,
+    "frontColor": "FFC1BBFF",
+    "backColor": "FF5845FF",
+    "lifetime": 35
+     }
+  }
+]
+}
+ 

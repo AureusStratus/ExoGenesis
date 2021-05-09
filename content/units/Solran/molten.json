@@ -1,0 +1,70 @@
+{
+"name": "Molten",
+"description": "[red]This unit is equipped with two liquid shotguns that can fire out both slag and oil, enabling them to cuase some serious damage",
+"research": "heat",
+"type": "mech",
+"canBoost": true,
+"boostMultiplier": 1.7,
+"engineOffset": 8,
+"armor": 14,
+"hitSize": 13,
+"mechFrontSway": 0.55,
+"commandLimit": 6,
+"speed": 0.49,
+"flying": false,
+"health": 1000,
+"range": 120,
+"immunities": [
+		"melting",
+		"burning"
+		],
+"weapons": [
+{
+  "name": "molten-sprayer",
+  "x": 10.2,
+  "y": -0.7,
+  "mirror": "true",
+  "reload": 28,
+  "alternate": true,
+  "top": false,
+  "recoil": 2,
+  "shots": 6,
+  "inaccuracy": 10,
+  "shootSound": "shotgun",
+  "ejectEffect": "none",
+  "bullet": {
+      "type": "LiquidBulletType",
+      "liquid": "slag",
+      "speed": 3,
+      "knockback": 0.5,
+      "status": "melting",
+      "damage": 18,
+      "lifetime": 60
+}
+},
+{
+  "name": "molten-sprayer",
+  "x": 10.2,
+  "y": -0.7,
+  "flip": true,
+  "reload": 28,
+  "mirror": "true",
+  "alternate": true,
+  "top": false,
+  "recoil": 2,
+  "shots": 6,
+  "inaccuracy": 10,
+  "shootSound": "none",
+  "ejectEffect": "none",
+  "bullet": {
+      "type": "LiquidBulletType",
+      "liquid": "oil",
+      "status": "tarred",
+      "speed": 3,
+      "knockback": 0.9,
+      "damage": 8,
+      "lifetime": 60
+    }
+  }
+]
+}
