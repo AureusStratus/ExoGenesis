@@ -1,7 +1,7 @@
 {
 "type": "UnitFactory",
-"description": "can create different unit types",
-"localizedName": "Multi Factory",
+"description": "can create units",
+"localizedName": "Factory",
 "size": 3,
 "consumes": {
 "power": 5
@@ -14,15 +14,6 @@
 		{"item": "titanium", "amount": 50}
        ],
     "time": 300
-  },
- {
-    "unit": "sol",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "osmium", "amount": 50},
-		{"item": "lead", "amount": 10}
-       ],
-    "time": 580
   }
 ],
     "requirements": [
