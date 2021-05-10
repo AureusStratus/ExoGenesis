@@ -110,7 +110,7 @@
         {
               "type": "mindustry.entities.abilities.RepairFieldAbility",
               "range": 20,
-              "amount": 3,
+              "amount": 30,
               "reload": 30
         }
         ]
