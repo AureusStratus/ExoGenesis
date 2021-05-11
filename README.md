@@ -5,6 +5,6 @@ A mod that adds a lot more content to the game.
 
 ## The mod adds: 
 `Items`: 9
-<br>`Blocks`: 93
+<br>`Blocks`: 94
 <br>`Turrets`: 46
 <br>`units`: 70
