@@ -2,7 +2,7 @@
     "localizedName": "Matriarch",
     "description": "[acid]The matriarch is a massive battle ship unit. it is the leader of the quantra, this unit is equipped with a massive gamma laser cannon that can cut through defenses, it also has two heavy cannons that fire cluster bullets and it also possess four heavy gunners for more close ranged attacks, it also has energy missile launchers and four artillery guns at its front, it can also hold a large amount of items and can heal nearby units",
     "details": "It came to protect and destroy lore: the matriarch crashed landed on the ocean planet of the quantra long ago and sank to it deepest parts, where the quantra then discovered and researched it, they buildt powerful technology with its gamma based weapons and from he unique allow it is made out of but, slowly over time it influenced them and when it reawakened it astablished its rule apon them",
-    "research": "dagger",
+    "research": "6-apex",
     "type": "naval",
     "armor": 76,
     "commandLimit": 4,
@@ -347,7 +347,7 @@
     "continuous": true,
     "bullet": {
     "type": "ContinuousLaserBulletType",
-    "damage": 300,
+    "damage": 600,
     "buildingDamageMultiplier": 0.8,
     "length": 560,
     "width": 7,
