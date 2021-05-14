@@ -197,7 +197,7 @@
 		      "trailColor": "C2FF70FF",
               "backColor": "C2FF70FF",
               "frontColor": "FFFFFFFF",
-              "sprite": "testers-warhead",
+              "sprite": "exogenesis-warhead",
               "buildingDamageMultiplier": 0.2,
               "homingDelay": 10,
               "homingRange": 88,
