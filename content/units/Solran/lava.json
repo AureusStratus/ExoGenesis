@@ -82,6 +82,7 @@
     "chargeSound": "lasercharge",
     "shootSound": "red",
     "bullet": {
+    "keepVelocity": false,
     "shootEffect": {
     "type": "multiEffect",
     "lifetime": 80,
