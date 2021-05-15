@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Aurstaus",
-	"description": "[blue]A massive turret that was built by being from another world, the turret consumes immense amounts of power when firing it shoots a beam of pure energy that realses additional beams that damage enemies",
+	"description": "[blue]A massive weapon that was built by a being from another world, the turret consumes immense amounts of power when firing it shoots a beam of pure energy that realses additional beams that damage enemies",
     "details": "Made by a furry",
 	"size": 14,
 	"health": 8789000,
