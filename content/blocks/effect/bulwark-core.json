@@ -1,6 +1,6 @@
 {
 	"localizedName": "Bulwark Core",
-	"description": "A very large core that is heavily more armored than a standard core and has a low storage",
+	"description": "A large core that is heavily more armored than a standard core. has a low storage capacity",
 	"type": "CoreBlock",
 	"health": 18520,
 	"size": 7,
