@@ -1,6 +1,6 @@
 {
 "localizedName": "Fury",
-"description": "A powerful laser turret that uses short fusion burst the create lasers",
+"description": "A powerful laser turret that uses short fusion burst to create lasers",
 "type": "PowerTurret",
 "size": 2,
 "health": 300,
