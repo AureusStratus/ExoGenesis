@@ -51,7 +51,7 @@
 		},
 			"blast-compound": {
 			"type" : "BasicBulletType",
-			"status" : "blasted",			
+			"status" : "burning",			
 			"damage": 40,	
 			"speed": 5,				
 			"splashDamage" : 15,
