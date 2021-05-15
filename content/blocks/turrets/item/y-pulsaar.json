@@ -1,6 +1,6 @@
 {
     "localizedName": "Pulsar",
-    "description": "[yellow]A shotgun turret that can shot either burning, freezing or electrical bullets and has a lot of knock back but it cannot target air units", 
+    "description": "[yellow]A shotgun turret that can shoot either burning, freezing or electrical bullets and has a lot of knock back but it cannot target air units", 
 	"type": "ItemTurret",
 	"size": 3,
 	"health": 1500,
