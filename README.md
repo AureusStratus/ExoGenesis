@@ -16,7 +16,7 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Solran`: They where a race that hail from hellish molton planet. There weaponry and units where powered by mostly nuclear fusion and are aggressively strong. They took a liking to fire.
 
-`Elecian`: They where a race of avian like creatures that hailed from mostly gas planet. There weaponry was powered by mostly electricity and where quite deadly towards other units. They had no such thing as mercy in tehre culture.
+`Elecian`: They where a race of avian like creatures that hailed from mostly gas planet. There weaponry was powered by mostly electricity and where quite deadly towards other units. They had no such thing as mercy in there culture.
 
 `Quantra`: They where a race of amphibious like creatures that hails from an radioactive ocean planet. There weaponry and units where mostly powered by nuclear and gamma energy and where mostly support based. They had great knowledge in all things.
 
