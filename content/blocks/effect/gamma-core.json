@@ -1,6 +1,6 @@
 {
 	"localizedName": "Quantum Core",
-	"description": "A very large core that can store tons of resources but is more fragile then a normal core ",
+	"description": "A large core that can store tons of resources but is more fragile then a normal core ",
 	"type": "CoreBlock",
 	"health": 6870,
 	"size": 7,
