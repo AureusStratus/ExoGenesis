@@ -1,6 +1,6 @@
 {	
     "localizedName": "Furnace",
-    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "description": "An upgrade of the kiln able to produce more metaglass but requires more materials",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

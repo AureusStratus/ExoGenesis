@@ -1,6 +1,6 @@
 {	
     "localizedName": "Phase Loom",
-    "description": "Uses a bit of phase to speed up the decay of thorium, to cause mass amounts of fission reaction to melt materials in to lots of quantux",
+    "description": "An upgrade of the phase weaver able to produce more phasefabric but requires more materials and uses a bit of silicon",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 3,

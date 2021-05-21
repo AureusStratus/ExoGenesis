@@ -1,6 +1,6 @@
 {	
     "localizedName": "Blast Factory",
-    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "description": "An upgrade of the blast mixer able to produce more blast compound but needs more materials",
     "type": "GenericCrafter",
 	"size": 3,
 	"hasPower": true,

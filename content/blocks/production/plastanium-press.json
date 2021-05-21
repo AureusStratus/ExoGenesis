@@ -1,6 +1,6 @@
 {	
     "localizedName": "Plastanium Press",
-    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "description": "An upgrade of the plastanium Compressor thats able to produce more plastanium but requires more materials and some lead",
     "type": "GenericCrafter",
 	"size": 4,
 	"hasPower": true,
