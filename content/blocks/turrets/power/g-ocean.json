@@ -53,5 +53,5 @@
 		{ "item": "titanium", "amount": 300 }
 	],
 	"category": "turret",
-	"research": "w-lake"
+	"research": "g-lake"
 }
