@@ -1,0 +1,31 @@
+{	
+    "localizedName": "Furnace",
+    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "type": "GenericSmelter",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"flameColor": "ffc099",
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+               "sand/6",
+               "lead/8"
+			]
+		}
+	},
+	"requirements": [
+        "plastanium/130",
+        "titanium/320",
+        "silicon/230",
+        "lead/300"
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"outputItem": "metaglass/3"
+}

@@ -1,0 +1,38 @@
+{	
+    "localizedName": "Plastanium Press",
+    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "type": "GenericCrafter",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquid": true,
+	"liquidCapacity": 80,
+	"itemCapacity": 20,
+	"craftTime": 100,
+	"drawer": "drawGlow",
+	"craftEffect": "formsmoke",
+	"updateEffect": "plasticburn",
+	"consumes": {
+		"power": 4,
+		"items": {
+			"items": [
+               "lead/2",
+               "titanium/6"
+			]
+	},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.5
+		}
+	},
+	"requirements": [
+        "graphite/400",
+        "plastanium/230",
+        "titanium/220",
+        "silicon/430",
+        "lead/630"
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"outputItem": "plastanium/4"
+}

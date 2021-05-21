@@ -1,0 +1,45 @@
+{	
+    "localizedName": "Gigavolt Forge",
+	"description": "Uses uigh voltages of lightning to energize and melt materials to create more alpha steel",
+	"type": "GenericSmelter",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 250,
+	"itemCapacity": 80,
+	"flameColor": "F3E979FF",
+    "craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "region": "particle",
+    "lifetime": 28,
+    "sizeFrom": 18,
+    "sizeTo": 0,
+    "colorFrom": "F3E979FF",
+    "colorTo": "FFFFFF"
+    },
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+               "surge-alloy/15",
+               "silicon/6",
+               "xanium/10"
+			]
+		}
+	},
+	"requirements": [
+        "surge-alloy/300",
+        "silicon/700",
+        "plastanium/400",
+        "osmium/560",
+        "alpha-yellow/500",
+        "titanium/300"
+	],
+	"category": "crafting",
+	"research": "alloy-kiln",
+	"outputItem": "alpha-yellow/15"
+}

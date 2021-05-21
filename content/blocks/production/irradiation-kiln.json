@@ -1,0 +1,51 @@
+{	
+    "localizedName": "Irradiation Kiln",
+	"description": "Uses mini gamma ray burst to irradiate and melt materials to create more gamma alloy",
+	"type": "GenericSmelter",
+	"size": 5,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 80,
+	"craftTime": 250,
+	"flameColor": "DBFFBDFF",
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "length": 20,
+    "baseLength": -20,
+    "offset": 3,
+    "cone": 360,
+    "lifetime": 28,
+    "sizeFrom": 7,
+    "sizeTo": 0,
+    "colorTo": "FFFFFFFF",
+    "colorFrom": "C2FF70FF"
+    },
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                "surge-alloy/15",
+                "plastanium/12",
+                "thorium/17"
+			]
+	},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.4
+		}
+	},
+	"requirements": [
+        "gamma-green/500",
+        "xanium/430",
+        "jupiteium/300",
+        "titanium/300",
+        "silicon/730",
+        "osmium/530"
+	],
+	"category": "crafting",
+	"research": "alloy-kiln",
+	"outputItem": "gamma-green/15"
+}

@@ -1,0 +1,34 @@
+{	
+    "localizedName": "Xanium Furnace",
+    "description": "Able to produce more xanium but it uses more materials, and now uses a bit of silicon",
+    "type": "GenericSmelter",
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 80,
+	"craftTime": 220,
+	"flameColor": "DEFFCFFF",
+	"craftEffect": "plasticburn",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                "titanium/12",
+                "silicon/6",
+                "plastanium/18"
+			]
+		}
+	},
+	"requirements": [
+        "xanium/230",
+        "plastanium/470",
+        "titanium/400",
+        "silicon/400",
+        "osmium/330"
+	],
+	"category": "crafting",
+	"research": "plastanium-press",
+	"outputItem": "xanium/7"
+}

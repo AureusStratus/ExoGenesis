@@ -1,0 +1,36 @@
+{	
+    "localizedName": "Kiloton Forge",
+    "description": "A bigger ton forge, the kiloton forge can produce an abundance of osmium, but it takes a bit more materials and uses pyratite to aid in the creation of osmium",
+	"type": "GenericSmelter",
+	"size": 6,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 50,
+	"craftTime": 320,
+	"flameColor": "E3EFF2FF",
+	"craftEffect": "shockwave",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                "lead/18",
+                "pyratite/8",
+                "silicon/9",
+                "titanium/17"
+			]
+		}
+	},
+	"requirements": [
+        "metaglass/260",
+        "plastanium/430",
+        "thorium/340",
+        "titanium/200",
+        "silicon/400",
+        "osmium/330"
+	],
+	"category": "crafting",
+	"research": "ton-forge",
+	"outputItem": "osmium/30"
+}

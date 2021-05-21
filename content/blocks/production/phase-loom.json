@@ -1,0 +1,35 @@
+{	
+    "localizedName": "Phase Loom",
+    "description": "Uses a bit of phase to speed up the decay of thorium, to cause mass amounts of fission reaction to melt materials in to lots of quantux",
+	"type": "GenericCrafter",
+    "drawer": "drawWeave",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"craftTime": 180,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+    "ambientSound": "techloop",
+    "ambientSoundVolume": 0.02,
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+               "sand/10",
+               "thorium/14",
+               "silicon/6"
+			]
+		}
+	},
+	"requirements": [
+    "silicon/450",
+    "titanium/400",
+    "lead/300",
+    "thorium/300",
+    "phase-fabric/200"
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"outputItem": "phase-fabric/4"
+}

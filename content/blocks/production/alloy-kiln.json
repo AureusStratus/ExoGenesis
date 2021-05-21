@@ -1,0 +1,33 @@
+{	
+    "localizedName": "Alloy Kiln",
+    "description": "Able to produce more sigma iron by creating extreme temperatures, but uses more materials",
+    "type": "GenericSmelter",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 120,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+               "silicon/9",
+               "titanium/6",
+               "copper/10",
+               "lead/8"
+			]
+		}
+	},
+	"requirements": [
+        "surge-alloy/100",
+        "plastanium/230",
+        "titanium/320",
+        "silicon/230",
+        "lead/330"
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"outputItem": "surge-alloy/4"
+}
