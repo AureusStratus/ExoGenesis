@@ -38,7 +38,7 @@
 		{"item": "titanium", "amount": 270}
 	],
 	"category": "crafting",
-	"research": "plastanium-compressor",
+	"research": "xanium-crucible",
 	"outputItem": {
 		"item": "quantux",
 		"amount": 3
