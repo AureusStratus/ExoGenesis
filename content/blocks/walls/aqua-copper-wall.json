@@ -3,8 +3,8 @@
     "buildCostMultiplier": 0.1,
     "description": "Protects structures from enemy projectiles. a wall used for deep water defense",
     "localizedName": "Aqua Copper Wall",
-    "placeableLiquid": "true",
     "health": 320,
+"placeableLiquid": "true",
     "size": 1,
     "requirements": [
         {"item": "copper", "amount": 6}
