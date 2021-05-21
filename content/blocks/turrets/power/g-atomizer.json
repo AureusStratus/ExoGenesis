@@ -1,0 +1,205 @@
+{
+	"type": "PowerTurret",
+	"description": "[acid]A powerful energy turret that fires a ball of supercharge plasma that deal massive damage, and creeats piercing fragments",
+	"details": "Destroy them at the atomic level",
+	"localizedName": "Atomizer",
+	
+	"size": 8,
+	"health": 8660,
+	"range": 800,
+	"reloadTime" : 380,
+	"shots" : 1,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 1,
+	"recoilAmount" : 4,
+	"restitution" : 0.08, 
+	"rotateSpeed": 2,
+	"shootShake" : 2,
+
+	"shootSound": "release",
+	"chargeSound": "lasercharge",
+	"chargeTime" : 80,
+	"chargeEffects" : 1,
+	"chargeBeginEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 0,
+    "sizeTo": 10,
+    "length": 0,
+    "lifetime": 80,
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "C2FF70FF",
+    "cone": 360
+},
+	"chargeEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 80,
+	    "effects": [
+	   {     
+        "type": "WaveEffect",
+        "lifetime": 80,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 0,
+        "strokeTo": 6,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+	   },
+	   {     
+    "type": "ParticleEffect",
+    "particles": 10,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "length": 45,
+    "baseLength": -45,
+    "lifetime": 80,
+    "colorFrom": "C2FF70FF",
+    "colorTo": "FFFFFFFF",
+    "cone": 360
+	   }
+	   ]
+	},
+
+    "powerUse" : 40,
+	"hasPower" : true,
+	"shootType" : {
+		"type" : "basicBulletType",
+		"sprite" : "exogenesis-plasma",
+		"hitSound": "laser",
+		"status" : "corroded",
+		"statusDuration": 300,
+		"damage": 700,	
+		"knockback": 4,
+		"splashDamage": 100,
+		"splashDamageRadius": 100,	
+	    "hitShake": 10,
+		"height": 40,
+		"width": 40,			
+		"speed": 5,
+		"lifetime" : 200,
+		"homingPower": 0.00769,
+		"homingRange": 128,
+		"shrinkX": 0,
+		"shrinkY": 0,
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 0,
+        "strokeTo": 6,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 0,
+        "strokeTo": 4,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+		"shootEffect": {
+        "type": "WaveEffect",
+        "lifetime": 20,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 0,
+        "strokeTo": 7,
+        "colorFrom": "C2FF70FF",
+        "colorTo": "C2FF70FF"
+		},
+		"trailEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 80,
+	    "effects": [
+	   {     
+        "type": "ParticleEffect",
+        "offset": 7,
+        "particles": 6,
+        "sizeFrom": 7,
+        "sizeTo": 0,
+        "length": 15,
+        "baseLength": 15,
+        "lifetime": 25,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF",
+        "cone": 360
+        },
+		{
+        "type": "ParticleEffect",
+        "region": "exogenesis-triangle",
+        "offset": 7,
+        "particles": 10,
+        "sizeFrom": 7,
+        "sizeTo": 0,
+        "length": 15,
+        "baseLength": 15,
+        "lifetime": 15,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF",
+        "cone": 360
+	   }
+	   ]
+		},
+		"pierce": false,
+		"absorbable": false,
+		"trailChance": 2,
+		"smokeEffect": "none",
+		"frontColor": "FFFFFFFF",
+		"backColor": "C2FF70FF",
+		"fragBullets": 12,
+		"fragCone": 20,
+		"fragBullet": {
+			"type": "basicBulletType",
+			"sprite" : "exogenesis-electric-pulse",
+			"status" : "corroded",
+			"statusDuration": 300,
+			"height" : 25,
+			"width" : 25,
+			"shrinkX": 0,
+			"shrinkY": 0,
+			"lifetime": 80,
+			"hitSize": 12,
+			"speed": 3.5,
+			"damage" : 300,
+			"pierce": true,
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 5,
+        "strokeFrom": 0,
+        "strokeTo": 4,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 5,
+        "strokeFrom": 0,
+        "strokeTo": 4,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+		    "frontColor": "FFFFFFFF",
+		    "backColor": "C2FF70FF"
+		}
+	},
+
+	"requirements": [
+        "lead/1000",
+        "osmium/400",
+        "xanium/600",
+        "silicon/800",
+        "plastanium/600",
+        "gamma-green/500"
+	],
+	"category": "turret",
+	"research": "g-quarker"
+}
