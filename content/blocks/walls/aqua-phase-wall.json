@@ -4,6 +4,7 @@
     "description": "Protects structures from enemy projectiles, reflecting most bullets upon impact. Used for deep water defense",
     "localizedName": "Aqua Phase Wall",
     "flashHit": true,
+    "placeableLiquid": "true",
     "chanceDeflect": 10,
     "health": 600,
     "size": 1,
