@@ -28,7 +28,7 @@
 		{"item": "plastanium", "amount": 300}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "plastanium-compressor",
 	"outputItem": {
 		"item": "xanium",
 		"amount": 3
