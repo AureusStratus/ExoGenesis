@@ -1,0 +1,17 @@
+{    
+    "type": "Wall",
+    "buildCostMultiplier": 0.1,
+    "description": "Protects structures from enemy projectiles. Absorbs lasers and electric arcs. Blocks automatic power connections. Used for deep water defense",
+    "localizedName": "Aqua plastanium Wall",
+    "health": 130,
+    "insulated": true,
+    "absorbLasers": true,
+    "schematicPriority": 10,
+    "size": 1,
+    "requirements": [
+        {"item": "metaglass", "amount": 2},
+        {"item": "plastanium", "amount": 5}
+    ],
+    "category": "defense",
+    "research": "plastanium-wall"
+}
