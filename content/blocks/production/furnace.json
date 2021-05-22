@@ -11,7 +11,7 @@
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 1,
+		"power": 3,
 		"items": {
 			"items": [
                "sand/6",
