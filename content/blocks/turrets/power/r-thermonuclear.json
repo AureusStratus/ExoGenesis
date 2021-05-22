@@ -4,7 +4,7 @@
 	"description": "[red]A powerful laser turret used by the Solrans. uses nuclear power to melt away foes. creates plasma fragments on contact",
 	"details": "find out what the suns surface feels like",
 	"size": 8,
-	"health": 180,
+	"health": 8660,
 	"reloadTime": 8,
 	"range": 280,
 	"shots" : 1,
