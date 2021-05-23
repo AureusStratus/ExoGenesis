@@ -146,9 +146,9 @@
     "length": 0,
     "lifetime": 20,
     "sizeFrom": 16,
-    "region": "exogenesis-plasma",
+    "region": "exogenesis-plasma-back",
     "colorFrom": "84F491FF",
-    "colorTo": "F2FFF3FF"
+    "colorTo": "64CF8DAA"
     },
     "lifetime": 95,
     "homingDelay": 10,

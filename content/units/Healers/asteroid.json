@@ -8,7 +8,7 @@
         "lowAltitude": true,
         "speed": 1.9,
         "accel": 0.1,
-        "drag": 0.02,
+        "drag": 0.1,
         "flying": true,
         "health": 520,
         "hitSize": 12,
@@ -110,9 +110,9 @@
     "length": 0,
     "lifetime": 15,
     "sizeFrom": 7,
-    "region": "exogenesis-plasma",
+    "region": "exogenesis-plasma-back",
     "colorFrom": "84F491FF",
-    "colorTo": "F2FFF3FF"
+    "colorTo": "64CF8DAA"
     },
     "lifetime": 65,
     "homingDelay": 5,

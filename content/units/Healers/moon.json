@@ -161,9 +161,9 @@
     "length": 0,
     "lifetime": 20,
     "sizeFrom": 13,
-    "region": "exogenesis-plasma",
+    "region": "exogenesis-plasma-back",
     "colorFrom": "84F491FF",
-    "colorTo": "F2FFF3FF"
+    "colorTo": "64CF8DAA"
     },
     "lifetime": 115,
     "homingRange": 100,
@@ -188,7 +188,7 @@
                 "damage": 0,
                 "splashDamage": 30,
                 "splashDamageRadius": 60,
-                "sprite" : "exogenesis-mine",
+                "sprite" : "testers-mine",
                 "status": "slow",
 	            "frontColor": "84F491FF",
                 "backColor": "F2FFF3FF",
