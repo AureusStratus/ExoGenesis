@@ -15,11 +15,12 @@
     "shots": 1,
     "spread": 0,
     "rotateSpeed": 0.89,
-    "shootSound": "explosionbig",
+    "shootSound": "jupiterShoot",
 	"ammoTypes": {
         "thorium": {
             "speed": 20,
             "type":"BasicBulletType",
+            "hitSound": "jupiterImpact",
             "damage": 660,
             "width": 25,
             "height": 30,
@@ -43,6 +44,7 @@
             "shootEffect": "explosion",
             "smokeEffect": "none",
             "hitEffect": "flakExplosionBig",
+            "hitSound": "jupiterImpact",
             "knockback": 14,
             "hitShake": 3,
             "ammoMultiplier": 1,
