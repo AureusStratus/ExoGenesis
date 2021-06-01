@@ -105,7 +105,7 @@
     "cooldownTime": 190,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 90,
+    "damage": 40,
     "length": 300,
     "width": 5,
     "hitEffect": "hitMeltHeal",
@@ -183,7 +183,7 @@
     "healPercent": 50,
     "type": "basicBulletType",
     "sprite": "exogenesis-plasma",
-    "damage": 280,
+    "damage": 120,
     "width": 10,
     "height": 10,
     "speed": 3.5,
