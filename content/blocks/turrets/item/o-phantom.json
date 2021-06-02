@@ -1,7 +1,7 @@
 {
 	"localizedName": "Phantom",
 	"type": "itemTurret",
-	"description": "[orange]Shoots powerful bullets that can shock, burn, or slow enemies depending on its ammunition",
+	"description": "[orange]Shoots powerful bullets that can shock, burn, or slow enemies depending on what ammunition is used.",
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "reloadTime": 5,
