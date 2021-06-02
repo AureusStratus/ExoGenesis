@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "A small turret that can fires plasma arcs at enemies",
+    "description": "[yellow]A small turret that fires plasma arcs at enemies.",
     "localizedName": "Electron",
     "size": 1,
     "health": 240,
