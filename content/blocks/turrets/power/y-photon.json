@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "A turret that can fires a spread of powerful light orbs",
+    "description": "[yellow]A turret that can fires a spread of powerful light orbs.",
     "localizedName": "Photon",
     "size": 2,
     "health": 240,
