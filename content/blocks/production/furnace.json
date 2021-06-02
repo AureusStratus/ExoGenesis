@@ -1,6 +1,6 @@
 {	
     "localizedName": "Furnace",
-    "description": "An upgrade of the kiln able to produce more metaglass but requires more materials",
+    "description": "An upgrade of the kiln able to produce more metaglass, but at the cost of more materials.",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
