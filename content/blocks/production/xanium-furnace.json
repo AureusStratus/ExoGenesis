@@ -1,6 +1,6 @@
 {	
     "localizedName": "Xanium Furnace",
-    "description": "Able to produce more xanium but it uses more materials, and now uses a bit of silicon",
+    "description": "Able to produce more xanium but it uses more materials and some silicon.",
     "type": "GenericSmelter",
 	"size": 4,
 	"hasPower": true,
