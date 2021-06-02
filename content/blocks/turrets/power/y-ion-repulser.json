@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "[yellow]An ion based ground turret it ionizes particles and uses magnetic pulses to accelerate ion bullets at enemies",
+	"description": "[yellow]An ion-based ground turret. It ionizes particles and uses magnetic pulses to accelerate ion bullets at enemies.",
 	"localizedName": "Ion Repulser",
 	"size": 4,
 	"health": 3180,
