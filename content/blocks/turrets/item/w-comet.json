@@ -1,7 +1,7 @@
 {
     "type": "itemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "Hurls powerful projectiles at enemies.",
+    "description": "[white]Hurls powerful projectiles at enemies.",
     "localizedName": "Comet",
     "size": 2,
     "health": 180,
