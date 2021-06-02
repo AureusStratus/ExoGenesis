@@ -1,7 +1,7 @@
 {
 	"type": "ImpactReactor",
 	"localizedName": "Kilanoviath Reactor",
-	"description": "A massive reactor that creates two mini neutron stars, and then mimics a kilonova event to generate enough power to support multiple colonies. [red] WARNING. if the reactor gets destroy it will take out everything around it, so keep it away from cores or front line defenses",
+	"description": "A massive reactor that creates two mini neutron stars, and then mimics a Kilonova event to generate enough power to support multiple colonies. \n[red] WARNING: Breach of reactor containment will result in a large explosion, it is suggested to keep it away critical infrastructure.",
 	"health": 9000,
 	"itemCapacity": 300,
 	"liquidCapacity": 800,
