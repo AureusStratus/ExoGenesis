@@ -1,6 +1,6 @@
 {	
     "localizedName": "Fission Furnace",
-    "description": "Uses the decay of thorium to cause a fission reaction between thorium and xanium to create a very strange metalic material",
+    "description": "Uses the fissile properties of thorium to cause a fusion reaction between thorium and xanium to create quantax.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 3,
