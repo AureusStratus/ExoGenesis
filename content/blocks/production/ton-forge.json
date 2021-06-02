@@ -1,6 +1,6 @@
 {	
     "localizedName": "Ton Forge",
-    "description": "Melts together materials under tons of pressure to create a really dense metal",
+    "description": "Melts together materials under tons of pressure to create osmium.",
 	"type": "GenericSmelter",
 	"size": 4,
 	"hasPower": true,
