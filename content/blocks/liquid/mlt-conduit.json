@@ -1,6 +1,6 @@
 {
 "localizedName": "MLT Conduit",
-"description": "M.L.T mass liquid transportation. The ultimate liquid transportation and can provide sufficient liquids to things that need it. it also can store quite a bit of liquid",
+"description": "M.L.T: Mass Liquid Transportation. The ultimate liquid transportation. Can provide sufficient liquids to anything that needs it. It also can store quite a bit of liquid.",
 "type": "Conduit",
 "health": 400,
 "leaks": false,
