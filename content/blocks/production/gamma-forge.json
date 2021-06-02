@@ -1,6 +1,6 @@
 {	
     "localizedName": "Gamma Radiation Forge",
-	"description": "Uses extreme amounts of gamma radiation to irradiate and melt materials in to gamma alloy",
+	"description": "Uses extreme amounts of gamma radiation to irradiate and melt materials in to gamma alloy.",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
