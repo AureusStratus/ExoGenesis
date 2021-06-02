@@ -1,6 +1,6 @@
 {
 	"type": "ItemTurret",
-	"description": "A single-barrel turret that can shoot rapidly",
+	"description": "A single-barrel turret that can shoot rapidly.",
 	"localizedName": "Flux",
 	"size": 5,
 	"health": 1500,
