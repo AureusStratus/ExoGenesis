@@ -1,7 +1,7 @@
 {
 	"type": "ImpactReactor",
 	"localizedName": "Atomic Collapser",
-	"description": "uses extreme amounts of gravitational energy to collapse jupiteium and azuid azide in to a singularity to generate power [red] warning keep far away from cores or important defenses",
+	"description": "Uses extreme amounts of gravitational energy to collapse Jupiteium and Azuid Azide in to a singularity to generate power. \n[red]Warning: Keep away from critical infrastructure.",
 	"health": 1200,
 	"itemCapacity": 200,
 	"size": 5,
