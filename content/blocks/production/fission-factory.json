@@ -1,6 +1,6 @@
 {	
     "localizedName": "Fission Factory",
-    "description": "Uses a bit of phase to speed up the decay of thorium, to cause mass amounts of fission reaction to melt materials in to lots of quantux",
+    "description": "Uses a bit of phase to speed up the decay of thorium, creating enough heat to melt materials into quantux.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 4,
