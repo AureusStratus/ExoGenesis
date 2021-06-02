@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Quarker",
-	"description": "[green]Shoots a spread of energy pulses that pierce through the enemies and also corrodes them",
+	"description": "[green]Shoots a spread of energy pulses that pierce through enemies while also corroding them.",
 	"size": 5,
 	"health": 880,
 	"reloadTime": 90,
