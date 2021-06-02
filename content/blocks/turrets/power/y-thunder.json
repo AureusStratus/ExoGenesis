@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "A turret that fires powerful plasma arcs that peirce",
+    "description": "A turret that fires powerful piercing plasma arcs.",
     "localizedName": "Thunder",
     "size": 2,
     "health": 240,
