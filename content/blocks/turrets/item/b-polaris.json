@@ -1,7 +1,7 @@
 {
     "localizedName": "Polaris",
-    "description": "[blue]A magnetically accelerated railgun that primarily uses omega alloy and shoots it at devastating speeds",
-    "details": "may god forgive you... but i wont",
+    "description": "[blue]A railgun that primarily uses omega alloy, which it shoots at devastating speeds.",
+    "details": "May god forgive you... but I won't.", //nice
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 850,
