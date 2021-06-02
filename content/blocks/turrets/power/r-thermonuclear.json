@@ -1,7 +1,7 @@
 {
 	"type": "LaserTurret",
 	"localizedName": "Thermonuclear",
-	"description": "[red]A powerful laser turret used by the Solrans. uses nuclear power to melt away foes. creates plasma fragments on contact",
+	"description": "[red]A powerful laser turret used by the Solrans. Uses nuclear power to melt away foes. Creates plasma fragments on contact.",
 	"details": "find out what the suns surface feels like",
 	"size": 8,
 	"health": 8660,
