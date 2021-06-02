@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"localizedName": "Jupiteium Furnace",
-	"description": "Rabidly decades thorium and melts it together with titanium and silicon to form jupiteium",
+	"description": "Rapidly decays thorium and melts it together with titanium and silicon to form jupiteium.",
 	"health": 360,
 	"liquidCapacity": 60,
 	"size": 3,
