@@ -25,7 +25,7 @@
    "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
   "length": 300,
   "width": 23,
-  "damage": 530,
+  "damage": 524,
   "knockback": -1,
   "status": "slow",
   "statusDuration": 100,
