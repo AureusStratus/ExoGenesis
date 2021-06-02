@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "localizedName": "Project Jupiter",
-    "description": "[yellow]A large and powerful magnetically accelerator cannon that can launch projectiles with extreme force",
+    "description": "[yellow]A large and powerful magnetic accelerator cannon that can launch projectiles with extreme force.",
     "details": "Does this turret seem familiar to you?",
     "health": 8660,
     "size": 8,
