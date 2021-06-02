@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "An ocean defense turret used for defense on deep waters. fires three energy trident at super longer range. shoots two now",
+	"description": "[green]An ocean defense turret used for defense on deep waters. Fires three energy tridents at super longer range.",
 	"localizedName": "Ocean",
 	"size": 4,
 	"health": 1500,
