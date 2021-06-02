@@ -6,7 +6,7 @@
 "size": 8,
 "health": 1000,
 "range": 300,
-"reloadTime": 23,
+"reloadTime": 15,
 "shootSound": "railgun",
 "rotateSpeed": 2,
 "shootCone": 20,
