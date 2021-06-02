@@ -1,7 +1,7 @@
 {
 	"type": "Separator",
-	"localizedName": "Dismantleer",
-	"description": "A massive structure that can sift through slag, pulling out small amounts of different reasources. can be quite useful",
+	"localizedName": "Dismantler",
+	"description": "A massive structure that can sift through slag, pulling out small amounts of different reasources. Can be quite useful.",
 	"size": 9,
 	"spinnerSpeed": 4,
 	"craftTime": 20,
