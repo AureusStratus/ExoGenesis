@@ -1,6 +1,6 @@
 {    
     "type": "ForceProjector",
-    "description": "A large shield projector that has much more health then a normal force projector",
+    "description": "A large shield projector that has much more health then a normal force projector.",
     "localizedName": "Iron Dome",
     "health": 800,
     "shieldHealth": 8850,
