@@ -1,6 +1,6 @@
 {
 	"localizedName": "Divinity Core",
-	"description": "A very large core that has high number of unit capacity and has decent health and storage",
+	"description": "A very large core that has a large unit capacity and decent health and storage.",
 	"type": "CoreBlock",
 	"health": 9870,
 	"size": 7,
