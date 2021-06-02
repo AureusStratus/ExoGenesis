@@ -1,6 +1,6 @@
 {	
     "localizedName": "Atomic kiln",
-	"description": "Disassembles materials at the atomic level and reassembles them in to omega metal",
+	"description": "Disassembles materials at the atomic level and reassembles them into omega metal.",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
