@@ -9,7 +9,7 @@
 	"targetAir" : false, 
 	"targetGround" : true, 
     "placeableLiquid": "true",
-    "shootLength": 0,
+    "shootLength": 7,
 
 	"rotateSpeed": 1,
 	"shots" : 1,
