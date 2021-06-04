@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create purtuxian units",
+"description": "Can create purtuxian units.",
 "localizedName": "purtuxe Factory",
 "size": 3,
 "consumes": {
