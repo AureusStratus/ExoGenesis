@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create solran units",
+"description": "Can create solran units.",
 "localizedName": "Solran Factory",
 "size": 3,
 "consumes": {

@@ -1,6 +1,6 @@
 {	
     "localizedName": "Xanium Crucible",
-    "description": "Melts together osmium and plastanium under high amounts of radiation  to create xanium",
+    "description": "Melts together osmium and plastanium through high amounts of radiation to create xanium.",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

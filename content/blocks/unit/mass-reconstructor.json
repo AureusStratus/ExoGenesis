@@ -1,6 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Mass Recontructor",
+	//no description
 	"size": 7,
 	"constructTime": 1500,
 	"consumes": {

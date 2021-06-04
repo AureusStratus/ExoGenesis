@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "can create elecian units",
+"description": "Can create elecian units.",
 "localizedName": "Elecian Factory",
 "size": 3,
 "consumes": {

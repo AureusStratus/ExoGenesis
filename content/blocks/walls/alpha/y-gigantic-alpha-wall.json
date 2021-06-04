@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "description": "A tough wall that absorbs hits from enemies and then releases it in large lighting arcs",
+    "description": "A tough wall that absorbs hits from enemies, then releases it in large lighting arcs.",
     "localizedName": "Gigantic alpha wall",
     "lightningSound": "spark",
     "lightningChance": 0.60,

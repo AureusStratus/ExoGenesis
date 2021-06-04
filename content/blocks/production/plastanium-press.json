@@ -1,6 +1,6 @@
 {	
     "localizedName": "Plastanium Press",
-    "description": "An upgrade of the plastanium Compressor thats able to produce more plastanium but requires more materials and some lead",
+    "description": "An upgrade of the plastanium Compressor thats able to produce more plastanium, but requires more materials and some lead.",
     "type": "GenericCrafter",
 	"size": 4,
 	"hasPower": true,

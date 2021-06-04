@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
-	"description": "[acid]A powerful energy turret that fires a ball of supercharge plasma that deal massive damage, and creeats piercing fragments",
-	"details": "Destroy them at the atomic level",
+	"description": "[acid]A powerful energy turret that fires a ball of supercharged plasma that deals massive amounts of damage and creates piercing fragments.",
+	"details": "Destroy them at the atomic level.",
 	"localizedName": "Atomizer",
 	
 	"size": 8,

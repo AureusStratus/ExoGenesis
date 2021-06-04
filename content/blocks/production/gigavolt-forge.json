@@ -1,6 +1,6 @@
 {	
     "localizedName": "Gigavolt Forge",
-	"description": "Uses uigh voltages of lightning to energize and melt materials to create more alpha steel",
+	"description": "Uses high voltages and lightning to energize and melt materials to create more alpha steel than a normal furnace.",
 	"type": "GenericSmelter",
 	"size": 4,
 	"hasPower": true,

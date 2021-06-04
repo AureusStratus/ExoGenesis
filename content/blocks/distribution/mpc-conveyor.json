@@ -1,6 +1,6 @@
 {
 "localizedName": "MPC Conveyor",
-"description": "The ultimate resources transportation it can carry 100 item stacks at a time [red] Warning do not directly connect to plastanium conveyor!",
+"description": "The ultimate resource transportation, it can carry 100 items at a time. \n[red]Warning do not directly connect to plastanium conveyor.",
 "type": "StackConveyor",
 "health": 300,
 "speed": 0.10,

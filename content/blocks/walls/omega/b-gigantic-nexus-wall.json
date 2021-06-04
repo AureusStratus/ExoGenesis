@@ -1,7 +1,7 @@
 { 
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "description": "A very resistant wall that can deflect bullets back at the enemy",
+    "description": "A very resistant wall that can deflect bullets back at the enemy.",
     "localizedName": "Gigantic Nexus wall",
     "deflectSound": "sap",
     "chanceDeflect": 30.0,

@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "An ocean defense turret used for defense on deep waters. fires energy bomb shells at super longer range. shoots two now",
+	"description": "An ocean defense turret used for defense on deep waters. Fires energy bomb shells at super longer range.",
 	"localizedName": "Neptune",
 	"size": 11,
 	"health": 10000,

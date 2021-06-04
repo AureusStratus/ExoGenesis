@@ -1,8 +1,8 @@
 {
 	"type": "LaserTurret",
 	"localizedName": "Kilonova",
-	"details": "The power of a star even for only a few seconds",
-	"description": "[blue]A turret that can generate powerful beam of blue plasma that can break apart in to plasma spikes",
+	"details": "The power of a star, if only for a few seconds.",
+	"description": "[blue]A turret that can generate powerful beam of blue plasma that can break apart in to plasma spikes.",
 	"size": 7,
 	"health": 3880,
 	"reloadTime": 20,

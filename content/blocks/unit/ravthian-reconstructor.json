@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Ravthian Recontructor",
-	"description": "what did it cost?...",
+	"description": "What did it cost?...", //a soul
 	"size": 11,
 	"constructTime": 3000,
 	"consumes": {

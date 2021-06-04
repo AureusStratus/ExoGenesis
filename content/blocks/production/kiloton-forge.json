@@ -1,6 +1,6 @@
 {	
     "localizedName": "Kiloton Forge",
-    "description": "A bigger ton forge, the kiloton forge can produce an abundance of osmium, but it takes a bit more materials and uses pyratite to aid in the creation of osmium",
+    "description": "A bigger ton forge, the kiloton forge can produce an abundance of osmium, but it takes a bit more materials and uses pyratite to aid in the creation of osmium.",
 	"type": "GenericSmelter",
 	"size": 6,
 	"hasPower": true,

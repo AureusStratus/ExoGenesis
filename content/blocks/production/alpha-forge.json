@@ -1,6 +1,6 @@
 {	
     "localizedName": "Electro Arc Forge",
-	"description": "Uses lightning arcs to melt and supercharge materials to create alpha steel",
+	"description": "Uses lightning arcs to melt and supercharge materials to create alpha steel.",
 	"type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,

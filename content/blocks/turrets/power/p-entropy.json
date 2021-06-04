@@ -1,7 +1,7 @@
 {
 "localizedName": "Entropy",
-"description": "A massive turret used by the purtuxians to defened there colonies. fires 3 beams in sequence that deal massive damge and slow units,",
-"details":"everything will grow cold. aswell as the bodies of your enemies",
+"description": "A massive turret used by the purtuxians to defened their colonies. Fires 3 beams in sequence that deal massive amounts of damage and slow units.",
+"details":"Everything will eventually grow cold, the bodies of your enemies with be the first to cool.",
 "type": "PowerTurret",
 "size": 8,
 "health": 1000,

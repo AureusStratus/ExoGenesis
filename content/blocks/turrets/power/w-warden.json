@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.3,
-    "description": "The upgrade to the guard. it can fires a single projectile that will break in to smaller ones that can peirces and homes. takes alot of power to fire",
+    "description": "The upgrade of the guard. The warden can fire a single projectile that will break in to smaller ones with piercing and homing capabilities. Takes a lot of power to fire.",
     "localizedName": "Warden",
     "size": 4,
     "health": 480,

@@ -1,7 +1,7 @@
 {
     "type": "itemTurret",
     "researchCostMultiplier": 0.3,
-    "description": "An upgrade to the comet it can hurl more materials now",
+    "description": "[white]An upgrade to the comet, it can hurl more materials now.",
     "localizedName": "Orbit",
     "size": 4,
     "health": 480,

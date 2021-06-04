@@ -1,6 +1,6 @@
 { 
     "type": "Wall",
-    "description": "A very resistant wall that can deflect bullets back at the enemy",
+    "description": "A very resistant wall that can deflect bullets back at the enemy.",
     "buildCostMultiplier": 0.1,
     "localizedName": "Nexus wall",
     "deflectSound": "sap",

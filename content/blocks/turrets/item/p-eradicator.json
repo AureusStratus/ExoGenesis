@@ -1,8 +1,8 @@
 {
     "type": "ItemTurret",
     "localizedName": "Eradicator",
-    "details": "Ha! you and what army?",
-    "description": "[purple]A large and powerful mortar like turret that shoots gaint explosive bullets that can eradicate groups of enemies it is unable to target air units",
+    "details": "Ha! You and what army?",
+    "description": "[purple]A large and powerful mortar-like turret that shoots gaint explosive bullets that can eradicate groups of enemies. It is unable to target air units.",
     "health": 2500,
     "targetAir": false,
     "buildVisibility": "shown",

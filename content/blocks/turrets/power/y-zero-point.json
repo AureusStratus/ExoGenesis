@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "[yellow]An AA energy turret that shoots large energy bullets that homes in on air units dealing massive aof damage",
+	"description": "[yellow]An anti air energy turret that shoots large energy bullets that home in on air units, dealing massive amounts of damage.",
 	"localizedName": "Zero Point",
 	
 	"size": 4,

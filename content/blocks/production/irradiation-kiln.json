@@ -1,6 +1,6 @@
 {	
     "localizedName": "Irradiation Kiln",
-	"description": "Uses mini gamma ray burst to irradiate and melt materials to create more gamma alloy",
+	"description": "Uses mini gamma ray bursts to irradiate and melt materials to create gamma alloy.",
 	"type": "GenericSmelter",
 	"size": 5,
 	"hasPower": true,

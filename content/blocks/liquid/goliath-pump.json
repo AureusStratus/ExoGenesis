@@ -1,8 +1,8 @@
 {
 "type": "Pump",
 "localizedName": "Goliath Pump",
-"description": "A monster of pump that can provide enough liquid to whole colonies and systems. It can also be placed on deep liquid",
-"details": "It can pump you full owo",
+"description": "A monster of pump that can provide enough liquid to run whole colonies and systems. It can also be placed on deep liquid.",
+"details": "It can pump you full owo", //excuse me what the h
 "size": 8,
 "health": 4000,
 "hasPower": true,

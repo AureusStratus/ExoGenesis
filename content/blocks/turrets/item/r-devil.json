@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.2,
-    "description": "A double barrel turret that can shoot various ammunition",
+    "description": "A double barrel turret that can shoot various ammunition.",
     "localizedName": "Devil",
     "size": 2,
     "health": 240,
