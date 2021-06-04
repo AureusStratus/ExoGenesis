@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create genesuxian units",
+"description": "Can create genesuxian units.",
 "localizedName": "Genesux Factory",
 "size": 3,
 "consumes": {
