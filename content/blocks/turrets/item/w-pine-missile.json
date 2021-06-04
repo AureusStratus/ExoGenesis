@@ -19,7 +19,7 @@
     "ammoTypes": {
         "graphite": {
             "type": "MissileBulletType",
-            "damage": 27,
+            "damage": 8,
             "splashDamageRadius": 16,
             "splashDamage": 25,
             "speed": 3.5,
@@ -38,7 +38,7 @@
         },
         "pyratite": {
             "type": "MissileBulletType",
-            "damage": 28,
+            "damage": 18,
             "splashDamageRadius": 16,
             "splashDamage": 20,
             "height": 12,
