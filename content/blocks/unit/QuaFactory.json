@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create quantra units",
+"description": "Can create quantra units.",
 "localizedName": "Quantra Factory",
 "size": 3,
 "consumes": {
