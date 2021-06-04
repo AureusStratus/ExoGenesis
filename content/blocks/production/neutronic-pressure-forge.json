@@ -1,6 +1,6 @@
 {	
-    "localizedName": "Neutronic Compressor Forge",
-	"description": "Simulates the extreme pressure and gravity of a neutron star to create large amounts of omega metal",
+    "localizedName": "Nuetronic Compressor Forge",
+	"description": "Simulates the extreme pressure and gravity of neutron stars to create lots of omega metal",
 	"type": "GenericSmelter",
 	"size": 5,
 	"hasPower": true,
