@@ -2,6 +2,7 @@
 	"type": "Reconstructor",
 	"localizedName": "Helixian Reconstructor",
 	"size": 3,
+	//no description
 	"constructTime": 600,
 	"consumes": {
 		"power": 8,
