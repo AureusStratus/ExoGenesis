@@ -14,7 +14,7 @@
     "spread": 1,
     "recoilAmount": 2,
     "restitution": 0.04,
-    "rotateSpeed": 1,
+    "rotateSpeed": 2.5,
     "shootSound": "lasershoot",
     
 	"chargeTime": 65,
