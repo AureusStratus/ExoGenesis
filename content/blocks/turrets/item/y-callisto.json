@@ -18,13 +18,13 @@
 	"ammoTypes": {
           "blast-compound": {
             "status": "blasted",
-	        "statusDuration": "50",
+	    "statusDuration": "50",
             "reflectable": false,
             "speed": 7,
             "width": 15,
             "height": 20,
             "lifetime": 70,
-            "damage": 57,
+            "damage": 67,
             "splashDamage": 45,
             "splashDamageRadius": 16,
             "knockback": 1.8,
@@ -37,7 +37,7 @@
         "thorium": {
             "speed": 7,
             "type":"BasicBulletType",
-            "damage": 80,
+            "damage": 90,
             "lifetime": 70,
             "width": 15,
             "height": 20,
@@ -54,7 +54,7 @@
             "type":"BasicBulletType",
             "speed": 7,
             "lifetime": 70,
-            "damage": 116,
+            "damage": 136,
             "width": 15,
             "height": 20,
             "reflectable": false,
