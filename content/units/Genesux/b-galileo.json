@@ -1,6 +1,6 @@
 {
     "localizedName": "Galileo",
-    "description": "[blue]The upgrade to the orion that is a slower and has four laser bolt guns",
+    "description": "[blue]Equipped with cold plasma bolters that fires rapidly",
     "type": "legs",
     "research": "a-orion",
 	"speed": 0.5,

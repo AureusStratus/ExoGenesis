@@ -1,6 +1,6 @@
 {
     "localizedName": "Orion",
-    "description": "[blue]A small and fast unit created by the Genesuxians, it uses energy in its fuel cells to power a lancer like laser that pierces. it doesn't do well against plastanium walls",
+    "description": "[blue]A small and fast unit created by the Genesuxians, equipped with a cold plasma laser that can deal some heavy damage",
     "research": "dagger",
     "commandLimit": 5,
     "type": "legs",
@@ -17,7 +17,7 @@
     "legTrns": 0.6,
 	"legCount": 4,
 	"legMoveSpace": 1.4,
-	"legLength": 9,
+	"legLength": 12,
 	"visualElevation": 0.65,
 	"allowLegStep": true,
 	"hovering": true,
