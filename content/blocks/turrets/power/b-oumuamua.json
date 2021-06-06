@@ -1,8 +1,8 @@
 {
     "type": "PowerTurret",
-    "description": "[blue]A large energy based turret created by the Genesuxians. Fires large cold plasma comets at enemies which fragments in to smaller ones.",
+    "description": "[blue]O.A.C. Orbital acceleration cannon this turret was created by the Genesuxians. Fires large cold plasma comets at enemies which fragments in to smaller ones.",
     "details": "From a far away world, and now pointed at your enemies.",
-    "localizedName": "Oumuamua",
+    "localizedName": "Oac",
     "size": 8,
     "health": 8660,
     "reloadTime": 270,
