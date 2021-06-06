@@ -13,7 +13,7 @@
 	"targetGround" : true,
 	"shootCone" : 40,
 	"spread" : 4,
-	"powerUse": 53,
+	"powerUse": 73,
     "coolantMultiplier": 2.6,
     "update": true,
     "hasPower": true,
