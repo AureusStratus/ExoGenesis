@@ -1,6 +1,6 @@
 {
         "localizedName": "Contention",
-        "description": "[gold] A warrior class titan unit,it has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
+        "description": "[gold] The warrior class titan unit,it has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
         "details": "And in a thunderous bang all gone",
     "research": "f-apotheosis",
         "lightRadius": 200,
@@ -83,7 +83,7 @@
       "damage": 160,
       "width": 32,
       "height": 46,
-      "sprite": "testers-spear",
+      "sprite": "exogenesis-spear",
       "pierce": true,
       "status": "shocked",
       "reflectable": false,
