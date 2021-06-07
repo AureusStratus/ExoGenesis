@@ -21,7 +21,7 @@
             "speed": 20,
             "type":"BasicBulletType",
             "hitSound": "jupiterImpact",
-            "damage": 660,
+            "damage": 860,
             "width": 25,
             "height": 30,
             "reflectable": false,
@@ -36,7 +36,7 @@
         "alpha-yellow": {
             "type":"BasicBulletType",
             "speed": 22,
-            "damage": 970,
+            "damage": 1270,
             "width": 25,
             "height": 30,
             "drag": 0.016,
