@@ -34,7 +34,7 @@
         "speed": 2.5,
         "lifetime": 100,
         "maxRange": 270,
-        "damage": 30,
+        "damage": 24,
         "height": 5,
         "width": 5,
         "trailEffect": {
