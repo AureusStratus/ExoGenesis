@@ -28,7 +28,7 @@
         "drag": -0.01,
         "speed": 2,
         "lifetime": 100,
-        "damage": 14,
+        "damage": 12,
         "maxRange": 250,
         "height": 3,
         "width": 3,
