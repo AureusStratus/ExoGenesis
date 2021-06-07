@@ -56,7 +56,7 @@
         "shrinkX": 0.1,
         "speed": 4,
         "lifetime": 100,
-        "damage": 68,
+        "damage": 58,
         "pierce": true,
         "maxRange": 200,
         "status": "slow",
