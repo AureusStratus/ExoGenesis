@@ -12,15 +12,17 @@ A mod that adds a lot more content to the game.
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
 
-`Genesux`: they where a race of energy based life forms that hail from a dark and stormy planet, There weaponry and units are mostly energy based and They have an interest in astronomy.
+@your local furry new lore
 
-`Solran`: They where a race that hail from hellish molton planet. There weaponry and units where powered by mostly nuclear fusion and are aggressively strong. They took a liking to fire.
+`Genesux`: energy based metalloid beings that base off of material from space, mostly use energy and have a interest in astronomy, they have made weapons using energy, electricity, and power to their advantage, they are truly proven to be an astronomical trophy
 
-`Elecian`: They where a race of avian like creatures that hailed from mostly gas planet. There weaponry was powered by mostly electricity and where quite deadly towards other units. They had no such thing as mercy in there culture.
+`Solran`: hot and molten beings living on a molten and volcanic planet, they are strong and are the god of heat and magma, they have focused on strength more than defensive capabilities
 
-`Quantra`: They where a race of amphibious like creatures that hails from an radioactive ocean planet. There weaponry and units where mostly powered by nuclear and gamma energy and where mostly support based. They had great knowledge in all things.
+`Elecian`: the monsters of the universe, from a gassy planet they rose up to be one of the best, although they do not recognize mercy, they are full of strength and wrath of the elecians, they show power and give no recognition of loss, they mostly use electricity for their weapons
 
-`Purtuxe`: They where a race of squid like creatures that hail from a dark energy effect planet in a dark region of space. There weaponry and units where mostly powered by dark energy and they had interesting and powerful technology. They where very mysterious.
+`Purtuxe`: amphibious creatures that took the design of squids and octopuses, they reside in Bootes void, on a secret planet with dark energy and a purple aura, they have been producing multiple strong weaponry
+
+`Quantra`: a aquatic metalloid beings, they reside on a planet which has almost all of it in a radioactive underwater, they have gained the ability to be amphibious like the purtuxe, their defences and energy are mostly radioactive and toxic waste from the radioactive storms, they have developed similarly to the purtuxe, but they have a difference
 
 ## Screenshots
 ![unknown-14](https://user-images.githubusercontent.com/68311340/118233805-7227c080-b460-11eb-99cd-5ab35cecb273.png)
