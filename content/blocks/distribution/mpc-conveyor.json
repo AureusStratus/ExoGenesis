@@ -7,9 +7,9 @@
 "itemCapacity": 100,
     "requirements": [
 		{ "item": "titanium", "amount": 5 },
-		{ "item": "surge-alloy", "amount": 10 },
-		{ "item": "omega-blue", "amount": 15 },
-		{ "item": "phase-fabric", "amount": 10 },
+		{ "item": "surge-alloy", "amount": 2 },
+		{ "item": "omega-blue", "amount": 2 },
+		{ "item": "phase-fabric", "amount": 2 },
 		{ "item": "silicon", "amount": 5 }
     ],
 "research": "plastanium-conveyor",
