@@ -12,7 +12,7 @@ A mod that adds a lot more content to the game.
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
 
-@your local furry new lore
+
 
 `Genesux`: energy based metalloid beings that base off of material from space, mostly use energy and have a interest in astronomy, they have made weapons using energy, electricity, and power to their advantage, they are truly proven to be an astronomical trophy
 
