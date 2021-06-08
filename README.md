@@ -16,7 +16,7 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Genesux`: energy based metalloid beings that base off of material from space, mostly use energy and have a interest in astronomy, they have made weapons using energy, electricity, and power to their advantage, they are truly proven to be an astronomical trophy
 
-`Solran`: hot and molten beings living on a molten and volcanic planet, they are strong and are the god of heat and magma, they have focused on strength more than defensive capabilities
+`Solran`: hot and molten beings living on a molten and volcanic planet, they are strong and thye have a sort of pyrokinesis, they have focused on strength more than defensive capabilities
 
 `Elecian`: the monsters of the universe, from a gassy planet they rose up to be one of the best, although they do not recognize mercy, they are full of strength and wrath of the elecians, they show power and give no recognition of loss, they mostly use electricity for their weapons
 
