@@ -2,6 +2,7 @@
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
 
+`note`: The plasma orb trail idea originally came from the exotic mod and also the gacrux units dash is also from exotic
 
 ## The mod adds: 
 `Items`: 9
