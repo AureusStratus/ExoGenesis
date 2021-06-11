@@ -61,7 +61,7 @@
     "smokeEffect": "none",
     "incendChance": 0,
     "status": {
-      "localizedName": "Chaos blasted",
+      "localizedName": "chaos-blasted",
       "name": "chaos",
       "description": "you have been hit with chaotic energy",
       "effect": {
@@ -71,7 +71,7 @@
       "lifetime": 30,
       "length": 35,
       "cone": -360,
-      "lenFrom": 20,
+      "lenFrom": 10,
       "lenTo": 0,
       "colorFrom": "9B61FFFF",
       "colorTo": "9B61FFFF"
@@ -84,16 +84,15 @@
     }
 },
 "requirements": [
-		{ "item": "surge-alloy", "amount": 2750 },
-		{ "item": "phase-fabric", "amount": 4000 },
-		{ "item": "xanium", "amount": 3000 },
-		{ "item": "silicon", "amount": 4800},
-		{ "item": "primal-red", "amount": 2200 },
-		{ "item": "quantux", "amount": 6000},
-		{ "item": "titanium", "amount": 5000},
-		{ "item": "osmium", "amount": 4300}
+    "surge-alloy/2750",
+    "phase-fabric/4000",
+	"xanium/3000",
+    "primal-red/2200",
+    "quantux/6000",
+	"titanium/5000",
+	"osmium/4300"
 ],
 "category": "turret",
-"research": "w-epg"
+"research": "eternity-core"
 
 }
