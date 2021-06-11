@@ -1,0 +1,70 @@
+{
+	"type": "ItemTurret",
+	"localizedName": "Combuster",
+	"description": "[purple]A flame thrower turret that uses spore primarly as its fuel source",
+	"size": 1,
+	"health": 100,
+	"range": 50,
+	"reloadTime" : 10,
+	"burstSpacing": 5,
+	"shots" : 3,
+	
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 20,
+	"recoilAmount" : 0,
+	"inaccuracy" : 12, 
+	"rotateSpeed": 4.0,
+	"shootSound": "flame2",
+
+	"ammoTypes": {
+    "spore-pod": {
+    "type": "BasicBulletType",
+    "lightRadius": 0,
+    "speed": 3,
+    "damage": 16,
+    "width": 0.1,
+    "height": 0.1,
+    "collidesAir": true,
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 7,
+    "offset": 8,
+    "sizeFrom": 3.5,
+    "sizeTo": 0,
+    "length": 60,
+    "lifetime": 35,
+    "colorFrom": "BF92F9FF",
+    "colorTo": "606166FF",
+    "cone": 15
+    },
+    "smokeEffect": "none",
+    "hittable": false,
+    "reflectable": false,
+    "lifetime": 20,
+	"despawnEffect": "none",
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "particles": 5,
+    "offset": 10,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "length": 20,
+    "lifetime": 15,
+    "colorFrom": "BF92F9FF",
+    "colorTo": "606166FF",
+    "cone": 360
+	},
+	"status": "sapped",
+	"pierce": true,
+	"incendAmount": 5
+		    }
+	},
+	"requirements": [
+        "spore-pod/10",
+        "lead/400",
+        "graphite/320"
+	],
+	"category": "turret",
+	"research": "duo"
+}

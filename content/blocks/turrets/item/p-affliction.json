@@ -17,7 +17,6 @@
 "targetGround": true,
 "heatColor": "5B4CB0FF",
 "recoilAmount": 4,
-"buildVisibility": "shown",
 "ammoTypes": {
     "quantux": {
   "type": "LaserBulletType",
@@ -40,24 +39,24 @@
   "lightningCone": 20,
   "lightningLengthRand": 13,
   "status": {
-              "localizedName": "Quantux Burn",
-              "name": "quantux-burn",
-              "description": "Burns away atoms",
-              "damage": 5,
-              "effect": "sapped",
-              "speedMultiplier": 0.52,
-              "reloadMultiplier": 0.30,
-              "damageMultiplier": 0.70
+    "localizedName": "Quantux Burn",
+    "name": "quantux-burn",
+    "description": "Burns away atoms",
+    "damage": 5,
+    "effect": "sapped",
+    "speedMultiplier": 0.52,
+    "reloadMultiplier": 0.30,
+    "damageMultiplier": 0.70
     }
   }
 },
     "requirements": [
-        { "item": "surge-alloy", "amount": 580 },
-        { "item": "thorium", "amount": 460 },
-		{ "item": "osmium", "amount": 850 },
-		{ "item": "silicon", "amount": 600 },
-		{ "item": "quantux", "amount": 430 }
+        "surge-alloy/580",
+        "thorium/460",
+		"osmium/850",
+		"silicon/600",
+		"quantux/430"
     ],
     "category": "turret",
-    "research": "o-breakthrough"
+    "research": "p-rebound"
 }
