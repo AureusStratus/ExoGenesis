@@ -61,8 +61,8 @@
     "smokeEffect": "none",
     "incendChance": 0,
     "status": {
-      "localizedName": "chaos-blasted",
-      "name": "chaos",
+      "localizedName": "chaos blasted",
+      "name": "choas-blast",
       "description": "you have been hit with chaotic energy",
       "effect": {
       "type": "ParticleEffect",
