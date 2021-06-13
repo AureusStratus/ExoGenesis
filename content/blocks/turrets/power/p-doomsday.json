@@ -62,7 +62,7 @@
     "incendChance": 0,
     "status": {
       "localizedName": "chaos blasted",
-      "name": "choas-blast",
+      "name": "choas",
       "description": "you have been hit with chaotic energy",
       "effect": {
       "type": "ParticleEffect",
