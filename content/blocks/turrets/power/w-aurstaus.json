@@ -94,6 +94,7 @@
   "sideLength": 0,
       "status": {
               "name": "furry",
+	      "localizedName": "Furry",
               "damage": 20,
               "effect": "lightningCharge",
               "permanent": true,
