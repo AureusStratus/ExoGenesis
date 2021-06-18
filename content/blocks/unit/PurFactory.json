@@ -12,7 +12,7 @@
     	"requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "titanium", "amount": 20},
-		{"item": "thorium", "amount": 25}
+		{"item": "vurtimite", "amount": 25}
        ],
     "time": 460
   },
@@ -21,7 +21,7 @@
     	"requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "metaglass", "amount": 20},
-		{"item": "thorium", "amount": 25}
+		{"item": "vurtimite", "amount": 25}
        ],
     "time": 460
   }
@@ -29,7 +29,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
-	{"item": "lead", "amount": 180},
+	{"item": "vurtimite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
