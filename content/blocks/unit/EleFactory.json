@@ -10,7 +10,7 @@
 {
     "unit": "challenge",
     	"requirements": [
-		{"item": "lead", "amount": 30},
+		{"item": "oltuxium", "amount": 30},
 		{"item": "silicon", "amount": 25},
 		{"item": "coal", "amount": 10}
        ],
@@ -19,7 +19,7 @@
   {
     "unit": "a-theory",
     	"requirements": [
-		{"item": "lead", "amount": 30},
+		{"item": "oltuxium", "amount": 30},
 		{"item": "silicon", "amount": 25}
     ],
     "time": 480
@@ -28,7 +28,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
-	{"item": "lead", "amount": 180},
+	{"item": "oltuxium", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
