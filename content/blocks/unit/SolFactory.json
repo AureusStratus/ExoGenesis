@@ -11,7 +11,7 @@
     "unit": "sol",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "osmium", "amount": 50},
+		{"item": "volcanite", "amount": 50},
 		{"item": "lead", "amount": 10}
        ],
     "time": 580
@@ -20,7 +20,7 @@
     "unit": "heat",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "osmium", "amount": 50},
+		{"item": "volcanite", "amount": 50},
 		{"item": "titanium", "amount": 10}
        ],
     "time": 580
@@ -29,7 +29,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
-	{"item": "lead", "amount": 180},
+	{"item": "volcanite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
