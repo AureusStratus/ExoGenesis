@@ -36,7 +36,6 @@
     "particles": 5,
     "lifetime": 30,
     "length": 45,
-    "baseLength": -45,
     "cone": 30,
     "lenFrom": 10,
     "lenTo": 0,
@@ -61,8 +60,8 @@
         "maxRange": 180,
         "status": "slow",
         "statusDuration": 20,
-        "height": 7,
-        "width": 7,
+        "height": 9,
+        "width": 9,
         "hitEffect": {
         "type": "WaveEffect",
         "lifetime": 25,
