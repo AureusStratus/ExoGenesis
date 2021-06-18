@@ -1,0 +1,71 @@
+{
+	"type": "PowerTurret",
+	"localizedName": "Subzero",
+	"description": "[blue] An upgraded permafrost. shoots more cold plasma at a faster speed",
+	"size": 5,
+	"health": 1600,
+	"range": 130,
+	"reloadTime" : 8,
+	"burstSpacing": 5,
+	"shots" : 6,
+	"hasPower": true,
+	"targetAir" : false, 
+	"targetGround" : true,
+	"shootCone" : 20,
+	"recoilAmount" : 0.5,
+	"inaccuracy" : 12, 
+	"rotateSpeed": 4.0,
+	"shootSound": "flame2",
+    "powerUse": 12,
+
+	"shootType": {
+    "lightRadius": 0,
+    "type": "BasicBulletType",
+    "collidesAir": true,
+    "speed": 4,
+    "damage": 88,
+    "width": 0.1,
+    "height": 0.1,
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "sizeFrom": 6,
+    "sizeTo": 1.5,
+    "length": 150,
+    "lifetime": 50,
+    "colorFrom": "79F2EEFF",
+    "colorTo": "6A97D9AA",
+    "cone": 20
+    },
+    "smokeEffect": "none",
+    "lifetime": 30,
+	"despawnEffect": "none",
+    "hittable": false,
+    "reflectable": false,
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "sizeFrom": 5,
+    "offset": 16,
+    "sizeTo": 0,
+    "length": 20,
+    "lifetime": 15,
+    "colorFrom": "79F2EEFF",
+    "colorTo": "6A97D9AA",
+    "cone": 360
+	},
+	"status": "freezing",
+	"pierce": true
+		   
+	},
+	"requirements": [
+        "omega-blue/170",
+        "plastanium/800",
+        "titanium/600",
+        "lead/800",
+        "silicon/570",
+        "osmium/760"
+	],
+	"category": "turret",
+	"research": "b-perma-frost"
+}
