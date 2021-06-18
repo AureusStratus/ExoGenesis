@@ -11,7 +11,7 @@
     "unit": "rule",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "metaglass", "amount": 50},
+		{"item": "valvanite", "amount": 50},
 		{"item": "titanium", "amount": 10}
        ],
     "time": 540
@@ -21,7 +21,7 @@
     	"requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "metaglass", "amount": 50},
-		{"item": "lead", "amount": 10}
+		{"item": "valvanite", "amount": 10}
        ],
     "time": 540
   }
@@ -29,7 +29,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
-	{"item": "lead", "amount": 180},
+	{"item": "valvanite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
