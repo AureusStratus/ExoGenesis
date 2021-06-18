@@ -1,0 +1,36 @@
+{
+"type": "UnitFactory",
+"description": "Can create Vyrthian units.",
+"localizedName": "Vyrthian Factory",
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "wraith",
+    	"requirements": [
+        "silicon/10",
+        "vytama/20"
+       ],
+    "time": 350
+  },
+  {
+    "unit": "critter",
+    	"requirements": [
+        "silicon/13",
+        "vytama/20",
+        "lead/6"
+       ],
+    "time": 400
+  }
+],
+    "requirements": [
+        "silicon/580",
+        "osmium/180",
+        "lead/180",
+        "titanium/160"
+],
+"category": "units",
+"research": "ground-factory"
+}

@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Mass Recontructor",
-	//no description
+	"description": "Upgrades units to there 4th tier",
 	"size": 7,
 	"constructTime": 1500,
 	"consumes": {
@@ -18,7 +18,7 @@
 	"requirements": [
 		{"item": "lead", "amount": 850},
 		{"item": "plastanium", "amount": 580},
-	        {"item": "osmium", "amount": 650},
+	    {"item": "osmium", "amount": 650},
 		{"item": "silicon", "amount": 480},
 		{"item": "thorium", "amount": 380}
 	],
@@ -33,7 +33,9 @@
 		["3-vega", "4-helios"],
 		["order", "system"],
 		["strife", "combat"],
-		["c-revelation", "d-enlightenment"]
+		["c-revelation", "d-enlightenment"],
+		["animal", "feral"],
+		["revenant", "poltergeist"]
 	],
 	"category": "units",
 	"research": "multi-reconstructor"

@@ -1,8 +1,8 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Helixian Reconstructor",
+	"description": "Upgrades otherworldly units in to there second tier.",
 	"size": 3,
-	//no description
 	"constructTime": 600,
 	"consumes": {
 		"power": 8,
@@ -31,7 +31,9 @@
 		["1-arco", "2-falx"],
 		["rule", "law"],
 		["challenge", "disrespect"],
-		["a-theory", "b-hypothesis"]
+		["a-theory", "b-hypothesis"],
+		["critter", "varmint"],
+		["wraith", "ghoul"]
 	],
 	"category": "units",
 	"research": "additive-reconstructor"

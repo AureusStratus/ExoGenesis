@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Hyperius Recontructor",
-	//no description
+	"description": "Upgrades units to there 5th tier.",
 	"size": 9,
 	"constructTime": 2000,
 	"consumes": {
@@ -34,7 +34,9 @@
 		["system", "organization"],
 		["4-helios", "5-prime"],
 		["combat", "hostile"],
-		["d-enlightenment", "f-apotheosis"]
+		["d-enlightenment", "f-apotheosis"],
+		["feral", "beast"],
+		["poltergeist", "lich"]
 	],
 	"category": "units",
 	"research": "mass-reconstructor"

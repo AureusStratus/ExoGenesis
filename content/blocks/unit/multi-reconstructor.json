@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName":"Multi Reconstructor",
-	//no description
+	"description": "Upgrades units to there 3rd tier.",
 	"size": 5,
 	"constructTime": 800,
 	"consumes": {
@@ -32,7 +32,9 @@
 		["2-falx", "3-vega"],
 		["law", "order"],
 		["disrespect", "strife"],
-		["b-hypothesis", "c-revelation"]
+		["b-hypothesis", "c-revelation"],
+		["varmint", "animal"],
+		["ghoul", "revenant"]
 	],
 	"category": "units",
 	"research": "multiplicative-reconstructor"

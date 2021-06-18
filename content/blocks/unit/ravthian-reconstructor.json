@@ -12,10 +12,10 @@
 				{"item": "alpha-yellow", "amount":1200},
 				{"item": "primal-red", "amount": 1200},
 				{"item": "gamma-green", "amount": 1200},
-				{"item": "osmium", "amount": 1890},
+				{"item": "osmium", "amount": 1590},
 				{"item": "quantux", "amount": 1520},
-				{"item": "phase-fabric", "amount": 2620},
-				{"item": "silicon", "amount": 1920},
+				{"item": "phase-fabric", "amount": 1720},
+				{"item": "silicon", "amount": 1520},
 				{"item": "plastanium", "amount": 2780}
 			]
 		}
@@ -24,7 +24,7 @@
 		{"item": "phase-fabric", "amount": 1250},
 		{"item": "osmium", "amount": 1167},
 		{"item": "plastanium", "amount": 1280},
-	        {"item": "titanium", "amount": 950},
+	    {"item": "titanium", "amount": 950},
 		{"item": "silicon", "amount": 1200},
 		{"item": "surge-alloy", "amount": 1280}
 	],
@@ -39,7 +39,15 @@
 		["5-prime", "6-apex"],
 		["hostile", "bloodshed"],
 		["moon", "earth"],
-		["f-apotheosis", "g-transcendence"]
+		["f-apotheosis", "g-transcendence"],
+        ["reign", "tyrant"],
+        ["corvus", "beacon"],
+        ["eclipse", "penumbra"],
+        ["toxopid", "xenoct"],
+		["oct", "deca"],
+		["omura", "balaenoptera"],
+		["beast", "creature"],
+		["lich", "reaper"]
 	],
 	"category": "units",
 	"research": "hyperius-reconstructor"

@@ -1,0 +1,47 @@
+{
+	"type": "Reconstructor",
+	"localizedName": "Auvathia Recontructor",
+	"description": "Upgrades units to demi-god mechanical monsters.... may your enemies suffer",
+	"size": 14,
+	"constructTime": 18000,
+	"consumes": {
+		"power": 58,
+		"items": {
+			"items": [
+        "sigma-red/8000",
+        "gamma-green/8000",
+        "alpha-yellow/8000",
+        "omega-blue/8000",
+        "quantux/8000",
+        "epsilon-black/8000",
+        "titanium/5600",
+        "plastanium/6320",
+        "silicon/9420",
+        "xanium/4230",
+        "surge-alloy/6570",
+        "osmium/4800"
+			]
+		}
+	},
+	"requirements": [
+        "surge-alloy/2130",
+        "jupiteium/3020",
+        "thorium/2420",
+        "plastanium/2130",
+        "titanium/3020",
+        "xanium/4120",
+        "silicon/3530",
+        "graphite/5670",
+        "lead/4000"
+	],
+	"upgrades": [
+		["proxima", "arcturus"],
+		["b-rigel", "b-sagittarius"],
+		["epoch", "p-primordial"],
+		["6-apex", "matriarch"],
+		["g-transcendence", "h-war"],
+		["reaper", "nemesis"]
+	],
+	"category": "units",
+	"research": "ravthian-reconstructor"
+}
