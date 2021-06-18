@@ -37,7 +37,7 @@
     "lifetime": 30,
     "length": 45,
     "baseLength": -45,
-    "cone": -40,
+    "cone": 40,
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFFFF",
