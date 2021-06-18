@@ -1,0 +1,8 @@
+{
+    "localizedName": "Astrolite",
+    "description": "A mineral that is commonly found on the cold world of the Genesuxians. Used in various Genesuxian tech and crafting.",
+    "cost": 1,
+    "charge": 0.1,
+    "color": "74C2E8FF",
+    "research": "osmium"
+}

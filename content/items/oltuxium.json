@@ -1,0 +1,9 @@
+{
+    "localizedName": "Oltuxium",
+    "description": "A slightly electrical metal thta is commonly found on the gassy planet of the Elecians. Used in various elecian tech aswell as electrical structures.",
+    "details": "It makes your hair stand up.",
+    "cost": 1,
+    "charge": 0.09,
+    "color": "E09430FF",
+    "research": "silicon"
+}

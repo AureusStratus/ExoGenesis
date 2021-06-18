@@ -1,0 +1,8 @@
+{
+    "localizedName": "Volcanite",
+    "description": "A tough material commonly found on the volcanic world of the solrans. Used in various Solran tech and defense.",
+    "details": "Warm to the touch",
+    "cost": 1,
+    "color": "403F3FFF",
+    "research": "graphite"
+}

@@ -1,0 +1,8 @@
+{
+    "localizedName": "Vytama",
+    "description": "A material that absorbs almost all light that hits it and stores that light as some kind of energy commonly found on worlds that have been ravaged by the vyrthians. Used in varios vyrthian tech.",
+    "details": "Gives off and erie feeling of death and choas.",
+    "cost": 3,
+    "color": "B7FF7CFF",
+    "research": "graphite"
+}
