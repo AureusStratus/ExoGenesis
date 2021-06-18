@@ -1,0 +1,126 @@
+{
+    "type": "ItemTurret",
+    "localizedName": "Demise",
+    "description": "[grey]Fires point bullets that deal massive damage and peirces enemies souls",
+    "size": 6,
+    "health": 6560,
+    "range": 600,
+    "shots": 1,
+    "reloadTime": 450,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 45,
+    "spread": 8,
+    "rotateSpeed": 2,
+    "recoilAmount": 4,
+    "shootShake": 10,
+    "restitution": 0.05,
+    "shootSound": "railgun",
+	"ammoTypes":	{
+		"epsilon-black": {
+		"type" : "pointBulletType",
+		"damage": 2190,
+		"lightningColor": "202328FF",
+		"lightning": 5,
+		"lightningLength": 10,
+		"lightningDamage": 45,
+		"ammoMultiplier": 3,
+        "status": {
+        "name": "pierced-soul",
+        "localizedName": "Pierced Soul",
+        "description": "Your soul has been peirced",
+        "healthMultiplier": 0.7,
+        "speedMultiplier": 0.7,
+        "effectChance": 0.5,
+        "damage": 0.1,
+        "transitionDamage": 2,
+        "affinities": ["slow", "freezing", "blasted"],
+        "effect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sides": 8,
+        "sizeTo": 5,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "202328FF",
+        "colorTo": "FFFFFFFF"
+        }
+        },
+		"pierce": true,
+		"speed": 600,
+		"trailSpacing": 30,
+		"collidesTiles" : true,
+		"buildingDamageMultiplier": 1,
+		"trailColor": "90caf9",
+        "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "length": 0,
+        "sizeFrom": 50,
+        "lifetime": 35,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "202328FF",
+        "region": "testers-tall"
+          },
+          {
+        "type": "WaveEffect",
+        "lifetime": 12,
+        "sizeTo": 50,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "202328FF",
+        "strokeFrom": 6,
+        "strokeTo": 0
+          }
+        ]
+      },
+	"trailEffect": { 
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 35,
+    "sizeFrom": 20,
+    "region": "testers-wide",
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "202328FF"
+	        },
+	"despawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 35,
+    "sizeFrom": 0,
+    "sizeTo": 45,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "202328FF"
+	        },
+	"hitEffect": {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 45,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "202328FF"
+	}
+    }
+},
+	"consumes" : {
+		"power": 70
+			},
+    "requirements": [
+        "thorium/400",
+        "epsilon-black/400",
+        "surge-alloy/470",
+        "titanium/400",
+        "silicon/370",
+        "plastanium/600"
+    ],
+    "category": "turret",
+    "research": "b-beyond"
+}

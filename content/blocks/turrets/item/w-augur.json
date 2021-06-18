@@ -1,0 +1,58 @@
+{
+    "localizedName": "Augur",
+    "description": "An upgraded foreshadow fires ammo with more force and discharges lightning on impact.",
+    "details": "Your doom is near.",
+	"type": "ItemTurret",
+	"size": 5,
+	"health": 850,
+	"maxAmmo": 150,
+	"ammoPerShot" : 10,
+	"reloadTime": 400,
+	"range": 600,
+	"coolantUsage": 1.2,
+	"ammoUseEffect": "casing3Double",
+	"coolantMultiplier": 0.5,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	"recoilAmount" : 6,
+	"shootShake" : 6,
+	"inaccuracy": 0,
+	"restitution" : 0.009,
+	"cooldown": 0.009,
+	"rotateSpeed": 1,
+	"shootSound" : "railgun",
+
+	"ammoTypes":	{
+	"surge-alloy": {
+	"type" : "pointBulletType",
+	"damage": 2160,
+	"shootEffect": "instShoot",
+	"lightning": 8,
+	"lightningLength": 17,
+	"lightningDamage": 55,
+	"ammoMultiplier": 3,
+	"speed": 600,
+	"hitShake": 7,
+	"trailSpacing": 20,
+	"collidesTiles" : true,
+	"smokeEffect": "smokeCloud",
+	"buildingDamageMultiplier": 0.50,
+	"trailEffect": "instTrail",
+	"despawnEffect": "instBomb",
+	"hitEffect":"instHit"
+		}
+	},
+	"consumes" : {
+		"power": 20
+			},
+	"requirements": [
+		"titanium/750",
+        "thorium/460",
+        "plastanium/650",
+        "copper/950",
+        "surge-alloy/550",
+		"silicon/1000"
+	],
+	"category": "turret",
+	"research": "foreshadow"
+}
