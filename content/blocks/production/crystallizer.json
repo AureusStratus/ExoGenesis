@@ -1,0 +1,40 @@
+{	
+    "localizedName": "Crystallizer",
+    "description": "compresses and energies graphite with cold plasma to form a crystal like mineral.",
+    "type": "GenericSmelter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"flameColor": "B7B9C2FF",
+	"craftTime": 30,
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 15,
+    "length": 25,
+    "baseLength": -25,
+    "cone": -360,
+    "lenFrom": 10,
+    "lenTo": 0,
+    "colorFrom": "90CAF9FF",
+    "colorTo": "F6FBFFFF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "graphite/2"
+			]
+		}
+	},
+	"requirements": [
+        "silicon/20",
+        "lead/100"
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": "astrolite/1"
+}

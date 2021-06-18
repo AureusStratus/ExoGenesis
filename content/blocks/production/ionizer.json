@@ -1,0 +1,41 @@
+{	
+    "localizedName": "Ionizer",
+    "description": "Ionizes materials with radiation to create valvanite.",
+    "type": "GenericSmelter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"flameColor": "DBFFBDFF",
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 6,
+    "length": 20,
+    "baseLength": -20,
+    "offset": 3,
+    "cone": 360,
+    "lifetime": 28,
+    "sizeFrom": 2,
+    "sizeTo": 0,
+    "colorTo": "FFFFFFFF",
+    "colorFrom": "C2FF70FF"
+    },
+	"craftTime": 30,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "lead/1",
+               "copper/2"
+			]
+		}
+	},
+	"requirements": [
+        "copper/90",
+        "lead/120"
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": "valvanite/1"
+}

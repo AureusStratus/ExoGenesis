@@ -1,0 +1,40 @@
+{	
+    "localizedName": "Anomaly Kiln",
+    "description": "Creates small dark energy Anomalies to turn materials in to vurtimite.",
+    "type": "GenericSmelter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"flameColor": "C3A0FFFF",
+	"craftTime": 30,
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 38,
+    "length": 45,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "C3A0FFFF",
+    "colorTo": "774ACFFF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "lead/2",
+               "graphite/1"
+			]
+		}
+	},
+	"requirements": [
+        "silicon/20",
+        "graphite/110"
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"outputItem": "vurtimite/1"
+}

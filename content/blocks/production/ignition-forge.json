@@ -1,0 +1,29 @@
+{	
+    "localizedName": "Ignition Forge",
+    "description": "Melts materials in to volcanite.",
+    "type": "GenericSmelter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"flameColor": "ffc099",
+	"craftTime": 30,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "coal/1",
+               "graphite/2"
+			]
+		}
+	},
+	"requirements": [
+        "copper/80",
+        "lead/120"
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": "volcanite/1"
+}

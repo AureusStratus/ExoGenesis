@@ -1,0 +1,29 @@
+{	
+    "localizedName": "Force Furnace",
+    "description": "Uses force and heat to turn materials in to vytama.",
+    "type": "GenericSmelter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"flameColor": "B7B9C2FF",
+	"craftTime": 30,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "lead/2",
+               "copper/1"
+			]
+		}
+	},
+	"requirements": [
+        "graphite/60",
+        "lead/120"
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"outputItem": "vytama/1"
+}

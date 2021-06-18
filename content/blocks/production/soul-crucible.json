@@ -1,0 +1,60 @@
+{	
+    "localizedName": "Soul Crucible",
+    "description": "Able to produce more epsilonium using but it uses more materials",
+    "type": "GenericSmelter",
+	"size": 5,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 80,
+	"craftTime": 230,
+	"flameColor": "B7B9C2FF",
+	"craftEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 45,
+    "sides": 8,
+    "sizeTo": 0,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "202328FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "sizeFrom": 50,
+    "lifetime": 28,
+    "colorFrom": "FFFFFFFF",
+    "colorTo": "202328FF",
+    "region": "exogenesis-star"
+	}
+	]
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+                "plastanium/10",
+                "phase-fabric/6",
+                "surge-alloy/15"
+			]
+		}
+	},
+	"requirements": [
+        "epsilon-black/230",
+        "plastanium/470",
+        "jupiteium/570",
+        "titanium/400",
+        "silicon/400",
+        "osmium/330"
+	],
+	"category": "crafting",
+	"research": "epsilon-forge",
+	"outputItem": "epsilon-black/15"
+}
