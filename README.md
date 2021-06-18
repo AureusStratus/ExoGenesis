@@ -5,7 +5,7 @@ A mod that adds a lot more content to the game.
 `note`: The plasma orb trail idea originally came from the exotic mod and also the gacrux units dash is also from exotic as well as the energy sphere ability on my primordial, and earth unit
 
 ## The mod adds: 
-`Items`: 9
+`Items`: 19
 <br>`Blocks`: 166
 <br>`Turrets`: 81
 <br>`units`: 91
