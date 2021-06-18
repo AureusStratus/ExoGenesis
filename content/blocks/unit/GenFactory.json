@@ -11,7 +11,7 @@
     "unit": "majoris",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "lead", "amount": 10},
+		{"item": "astrolite", "amount": 10},
 		{"item": "titanium", "amount": 50}
        ],
     "time": 400
@@ -20,7 +20,7 @@
     "unit": "a-orion",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "titanium", "amount": 50},
+		{"item": "astrolite", "amount": 50},
 		{"item": "graphite", "amount": 10}
        ],
     "time": 400
@@ -29,7 +29,7 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
-	{"item": "lead", "amount": 180},
+	{"item": "astrolite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
 "category": "units",
