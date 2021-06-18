@@ -8,7 +8,7 @@ A mod that adds a lot more content to the game.
 `Items`: 9
 <br>`Blocks`: 145
 <br>`Turrets`: 60
-<br>`units`: 72
+<br>`units`: 91
 
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
