@@ -41,8 +41,8 @@
     "shootEffect": "lightningShoot",
     "damage": 20,
     "speed": 6,
-    "frontColor": "79F2EEFF",
-    "backColor": "74C2E8FF",
+    "frontColor": "A9D8FFFF",
+    "backColor": "66B1FFFF",
     "lifetime": 35
     }
   },
@@ -61,8 +61,8 @@
     "shootEffect": "lightningShoot",
     "damage": 20,
     "speed": 6,
-    "frontColor": "79F2EEFF",
-    "backColor": "74C2E8FF",
+    "frontColor": "A9D8FFFF",
+    "backColor": "66B1FFFF",
     "lifetime": 35
 			}
 		}

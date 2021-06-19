@@ -1,6 +1,6 @@
 {
     "localizedName": "Rigel",
-    "description": "[blue] The steller class of the titan units, equipped with two cold plasma cannon that fragment in to smaller pieces apon impact, is qlso equipped with cold plasma gunners aswell. Protects its self and nearby allies with a large and powerful force shield",
+    "description": "[blue] The gun platform class of the titan units, equipped with two cold plasma cannon that fragment in to smaller pieces apon impact, is qlso equipped with cold plasma gunners aswell. Protects its self and nearby allies with a large and powerful force shield",
     "research": "b-sirius",
     "details": "Show them what the power of a far away star can do",
     "groundLayer": 75,
@@ -53,8 +53,8 @@
     "rotate": true,
     "bullet": {
       "type": "basicBulletType",
-      "damage": 80,
-      "width": 8,
+      "damage": 90,
+      "width": 12,
       "height": 12,
       "status": "freezing",
       "reflectable": false,
@@ -64,12 +64,12 @@
       "lightningLength": 5,
       "lightningLengthRand": 7,
       "lightningDamage": 6,
-      "lightColor": "79F2EEFF",
-      "lightningColor": "79F2EEFF",
+      "lightColor": "A9D8FFFF",
+      "lightningColor": "66B1FFFF",
       "speed": 5.5,
       "lifetime": 78,
-      "frontColor": "79F2EEFF",
-      "backColor": "74C2E8AA",
+      "frontColor": "A9D8FFFF",
+      "backColor": "66B1FFFF",
       "despawnEffect": "none",
       "shootEffect": "shootSmall"
 	       }
@@ -90,8 +90,8 @@
     "rotate": true,
     "bullet": {
       "type": "basicBulletType",
-      "damage": 80,
-      "width": 8,
+      "damage": 90,
+      "width": 12,
       "height": 12,
       "status": "freezing",
       "reflectable": false,
@@ -101,12 +101,12 @@
       "lightningLength": 5,
       "lightningLengthRand": 7,
       "lightningDamage": 6,
-      "lightColor": "79F2EEFF",
-      "lightningColor": "79F2EEFF",
+      "lightColor": "A9D8FFFF",
+      "lightningColor": "66B1FFFF",
       "speed": 5.5,
       "lifetime": 78,
-      "frontColor": "79F2EEFF",
-      "backColor": "74C2E8AA",
+      "frontColor": "A9D8FFFF",
+      "backColor": "66B1FFFF",
       "despawnEffect": "none",
       "shootEffect": "shootSmall"
 	       }
@@ -115,7 +115,7 @@
     "name": "cold-plasma-primer",
     "x": 25,
     "y": 5.5,
-    "shootY": 9,
+    "shootY": 11,
     "rotateSpeed": 4,
     "reload": 45,
     "recoil": 2,
@@ -127,7 +127,7 @@
     "bullet": {
       "type": "basicBulletType",
       "sprite": "exogenesis-armored-bullet",
-      "damage": 183,
+      "damage": 213,
       "width": 12,
       "height": 26,
       "status": "freezing",
@@ -138,12 +138,12 @@
       "lightningLength": 10,
       "lightningLengthRand": 6,
       "lightningDamage": 20,
-      "lightColor": "79F2EEFF",
-      "lightningColor": "79F2EEFF",
+      "lightColor": "A9D8FFFF",
+      "lightningColor": "66B1FFFF",
       "speed": 5.5,
       "lifetime": 78,
-      "frontColor": "79F2EEFF",
-      "backColor": "74C2E8AA",
+      "frontColor": "A9D8FFFF",
+      "backColor": "66B1FFFF",
       "despawnEffect": "none",
       "shootEffect": "shootBig"
 	       }
@@ -175,8 +175,8 @@
     "lightningLength": 6,
     "lightningLengthRand": 8,
     "lightningDamage": 30,
-    "lightColor": "79F2EEFF",
-    "lightningColor": "79F2EEFF",
+    "lightColor": "A9D8FFFF",
+    "lightningColor": "66B1FFFF",
     "shootEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -187,8 +187,8 @@
     "cone": -360,
     "lenFrom": 10,
     "lenTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
     },
     "status": {
     "name": "cosmic-freeze",
@@ -214,7 +214,7 @@
     "lenFrom": 5,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
     }
     },
     "statusDuration": 150,
@@ -229,7 +229,7 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
     },
     "despawnEffect": {
     "type": "ParticleEffect",
@@ -242,10 +242,10 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
     },
     "lifetime": 70,
-    "damage": 540,
+    "damage": 780,
     "speed": 6,
     "width": 13,
     "height": 13,
@@ -259,16 +259,16 @@
     "lifetime": 24,
     "sizeFrom": 13,
     "region": "exogenesis-plasma-back",
-    "colorFrom": "79F2EEFF",
-    "colorTo": "74C2E8FF"
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
     },
-    "backColor": "74C2E8FF",
-    "frontColor": "79F2EEFF",
+    "backColor": "66B1FFFF",
+    "frontColor": "A9D8FFFF",
     "fragBullets": 6,
     "fragCone": 360,
 	"fragBullet": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "testers-plasma",
     "status": "freezing",
     "statusDuration": 100,
     "trailEffect": {
@@ -278,8 +278,8 @@
     "lifetime": 24,
     "sizeFrom": 4,
     "region": "exogenesis-plasma-back",
-    "colorFrom": "79F2EEFF",
-    "colorTo": "74C2E8FF"
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
     },
     "absorbable": true,
     "speed": 4,
@@ -301,7 +301,7 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
     },
     "despawnEffect": {
     "type": "ParticleEffect",
@@ -314,10 +314,10 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
     },
-    "frontColor": "F2FFF3FF",
-    "backColor": "84F491FF"
+    "frontColor": "A9D8FFFF",
+    "backColor": "66B1FFFF"
     }
     }
   }

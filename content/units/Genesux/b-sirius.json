@@ -1,13 +1,13 @@
 {
     "localizedName": "Sirius",
-    "description": "[blue]Equipped with cold plasma laser mounts that iflict freezing on enemies, also has two cold plasma guns that shoots a spread of cold plasma orbs, also has two small cold plasma lasers at the front. Uses a powerful force shield to protect itself and allies",
+    "description": "[blue]Equipped with cold plasma laser mounts that iflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
     "research": "b-oort",
     "groundLayer": 75,
     "drawShields": false,
     "maxRange": 220,
     "type": "legs",
 	"speed": 0.35,
-	"hitSize": 38,
+	"hitSize": 50,
 	"health": 18000,
 	"armor": 20,
 	"drag": 0.2,
@@ -20,7 +20,7 @@
     "legLength": 18,
     "legBaseOffset": 19,
     "legTrns": 0.62,
-    "landShake": 2.0,
+    "landShake": 1.3,
     "legSpeed": 0.2,
     "rippleScale": 2.8,
     "legSplashDamage": 56,
@@ -35,80 +35,122 @@
 	],
 	"weapons": [
 	 {
-    "name": "orb-SG",
+    "name": "star-barrage",
+    "shootCone": 30,
+    "mirror": false,
     "top": true,
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
     "rotate": true,
-    "rotateSpeed": 4,
-    "shots": 3,
-    "shootCone": 28,
-    "inaccuracy": 10,
-    "reload": 58,
-    "x": -12.5,
-    "y": 3,
-    "alternate": true,
-    "ejectEffect": "none",
-    "recoil": 2,
-    "shootSound": "bang",
-    "bullet": { 
-    "sprite": "exogenesis-plasma",
-    "damage": 98,
-    "weaveMag": 4,
-    "weaveScale": 2,
-    "speed": 5,
-    "width": 18,
-    "height": 18,
+    "rotateSpeed": 100,
+    "inaccuracy": 20,
+    "reload": 280,
+    "shots": 7,
+    "shotDelay": 5,
+    "firstShotDelay": 38,
+    "recoil": 0.5,
+    "shootSound": "plasmaboom",
+    "bullet": {
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "offset": 30,
+    "particles": 13,
+    "lifetime": 33,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "A9D8FFFF"
+    },
+    "despawnEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "offset": 30,
+    "particles": 13,
+    "lifetime": 33,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "A9D8FFFF"
+    },
+    "shootEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 38,
+	    "effects": [
+	   {     
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 55,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "A9D8FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "offset": 30,
+    "particles": 35,
+    "lifetime": 38,
+    "length": 65,
+    "baseLength": -65,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "FFFFFF",
+    "colorTo": "A9D8FFFF"
+    }
+    ]
+    },
+    "keepVelocity": false,
+    "collidesTeam": true,
+    "healPercent": 5,
+    "type": "basicBulletType",
+    "sprite": "exogenesis-star-bullet",
+    "spin": 12,
+    "damage": 80,
+    "shrinkY": 0,
+    "shrinkX": 0,
+    "width": 37,
+    "height": 37,
+    "speed": 4.5,
+	"frontColor": "FFFFFF",
+    "backColor": "A9D8FFFF",
     "trailChance": 1,
-    "trailEffect":{
+    "trailEffect": {
     "type": "ParticleEffect",
     "particles": 1,
     "length": 0,
-    "lifetime": 20,
-    "sizeFrom": 7,
+    "lifetime": 25,
+    "sizeFrom": 6,
     "region": "exogenesis-plasma-back",
-    "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFAA"
     },
-    "lifetime": 57,
-    "homingRange": 66,
-    "homingDelay": 8,
-    "homingPower": 0.0678,
-    "shootEffect": "lightningShoot",
-    "despawnEffect": "none",
-    "hitEffect": "lightningShoot",
-    "backColor": "FFFFFF",
-    "frontColor": "79F2EEFF"
-			}
-		},
-		{
-    "name": "laserbolt",
-    "reload": 50,
-    "mirror": true,
-    "x": 7,
-    "y": 16,
-    "shootY": 3,
-    "recoil": 1.5,
-    "shake": 1,
-    "rotate": true,
-    "shootSound": "laser",
-    "rotateSpeed": 10,
-    "shootCone": 45,
-			"bullet": {
-              "type": "LaserBulletType",
-              "length": 180,
-              "width": 10,
-              "damage": 130,
-              "hitColor": "79F2EEFF",
-              "shootEffect": "lightningShoot",
-              "hitEffect": "lightningShoot",
-              "colors":["74C2E8AA", "79F2EEFF", "FFFFFF"],
-              "sideAngle": 25,
-              "sideLength": 32,
-              "sideWidth": 1
-	       }
-	    },
-{
+    "lifetime": 90,
+    "homingRange": 60,
+    "homingPower": 0.0745,
+	"weaveScale": 3.5,			
+	"weaveMag": 3.5,
+	"splashDamageRadius": 20,
+	"splashDamage": 60,
+	"lightningColor": "66B1FFFF",
+    "lightning": 6,
+    "lightningDamage": 38,
+    "lightningLength": 5,
+    "lightningCone": 360,
+    "lightningLengthRand": 8
+    }
+	 },
+	 {
  "name": "cold-plasma-laser-mount",
-  "x": 13,
+  "x": 16,
   "y": -15,
   "shootY": 8.5,
   "ejectEffect": "none",
@@ -119,7 +161,7 @@
   "shots": 1,
   "reload": 145,
   "recoil": 2,
-  "shake": 0.5,
+  "shake": 0.1,
   "shootCone": 20,
   "cooldownTime": 145,
   "heatColor": "79F2EEFF",
@@ -128,18 +170,18 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 40,
+    "damage": 31,
     "width": 4,
-    "length": 200,
-    "drawSize": 200,
+    "length": 170,
+    "drawSize": 470,
     "lifetime": 210,
-    "shake": 2,
+    "shake": 0.5,
     "despawnEffect": "smokeCloud",
     "smokeEffect": "smokeCloud",
     "status": "freezing",
     "statusDuration": 50,
     "incendChance": 0,
-    "colors":["74C2E8AA", "79F2EEFF", "FFFFFF"],
+    "colors": ["66B1FFAA", "66B1FFFF", "A9D8FFFF", "FFFFFF"],
     "hitEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -150,7 +192,7 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
       },
     "shootEffect": {
     "type": "ParticleEffect",
@@ -163,18 +205,83 @@
     "lenFrom": 10,
     "lenTo": 0,
     "colorFrom": "FFFFFF",
-    "colorTo": "79F2EEFF"
+    "colorTo": "66B1FFFF"
       }
     }
   }
      ],
     "abilities": [
         {
-            "type": "mindustry.entities.abilities.ForceFieldAbility",
-            "radius": 90,
-            "regen": 16,
-            "max": 6800,
-            "cooldown": 160
-            }
-        ]
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 90,
+        "regen": 16,
+        "max": 6800,
+        "cooldown": 160
+        },
+        {
+        "type": "StatusFieldAbility",
+        "activeEffect": {
+	    "type": "MultiEffect",
+	    "effects": [
+	    {     
+        "type": "ParticleEffect",
+        "lifetime": 20,
+        "length": 0,
+        "sizeFrom": 15,
+        "sizeTo": 0,
+        "particles": 1,
+        "colorFrom": "66B1FFFF",
+        "colorTo": "A9D8FFFF",
+        "region": "particle"
+	    },
+	    {
+        "type": "WaveEffect",
+        "lifetime": 5,
+        "sizeFrom": 165,
+        "sizeTo": 165,
+        "strokeFrom": 3,
+        "strokeTo": 3,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "A9D8FFFF"
+	    },
+	    {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 10,
+        "lifetime": 10,
+        "length": 55,
+        "cone": -360,
+        "lenFrom": 6,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+	    }
+	    ]
+        },
+        "effect": {
+        "name": "star-powered",
+        "localizedName": "Star Powered",
+        "description": "You are being powered by a mini neutron star.",
+        "reloadMultiplier": 1.1,
+        "speedMultiplier": 1.2,
+        "effect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 10,
+        "length": 35,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        "damage": -8
+
+    },
+    "range": 165,
+    "reload": 1,
+    "duration": 5
+        }
+    ]
 }
