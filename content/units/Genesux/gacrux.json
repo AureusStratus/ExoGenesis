@@ -12,7 +12,7 @@
         "hitSize": 12,
         "armor": 5,
         "itemCapacity": 10,
-        "engineOffset": 6,
+        "engineOffset": 8,
         "range": 180,
         "maxRange": 180,
         "aimDst": 180,
@@ -30,7 +30,7 @@
     "reload": 40,
     "bullet": {
       "type": "RailBulletType",
-      "damage": 65,
+      "damage": 35,
       "pierceDamageFactor": 0,
       "length": 120,
       "recoil": -10,

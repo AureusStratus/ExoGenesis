@@ -28,14 +28,39 @@
     "shootY": 3,
     "reload": 17,
     "recoil": 0.5,
-    "ejectEffect": "casing2",
+    "ejectEffect": "none",
     "shootSound": "shoot",
     "bullet": {
     "type": "basicBulletType",
-    "hitEffect": "none",
+      "despawnEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 5,
+      "lifetime": 20,
+      "offset": 10,
+      "length": 35,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
+      "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 5,
+      "lifetime": 20,
+      "offset": 10,
+      "length": 35,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
     "shootEffect": "lightningShoot",
     "damage": 15,
-    "lightningColor": "79F2EEFF",
+    "lightningColor": "A9D8FFFF",
     "lightning": 5,
     "lightningDamage": 5,
     "lightningLength": 4,
@@ -43,9 +68,9 @@
     "height": 8,
     "width": 8,
     "speed": 4,
-    "frontColor": "FFFFFF",
-    "backColor": "79F2EEFF",
-    "lifetime": 90
+    "frontColor": "66B1FFFF",
+    "backColor": "A9D8FFFF",
+    "lifetime": 50
 }
 }
 ]

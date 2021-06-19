@@ -30,13 +30,37 @@
     "shootSound": "sap",
     "bullet": {
     "shootEffect": "lightningShoot",
-    "hitEffect": "hitLancer",
-    "despawnEffect": "lancerLaserChargeBegin",
+      "despawnEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 6,
+      "lifetime": 20,
+      "offset": 30,
+      "length": 25,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
+      "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 6,
+      "lifetime": 20,
+      "offset": 30,
+      "length": 25,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
     "type": "LaserBoltBulletType",
     "damage": 10,
     "speed": 6,
-    "frontColor": "79F2EEFF",
-    "backColor": "79F2EEFF",
+    "frontColor": "A9D8FFFF",
+    "backColor": "66B1FFFF",
     "lifetime": 35
 }
 }
