@@ -53,14 +53,14 @@
               "spawnX": -7,
               "spawnY": -6.5,
               "unit": "drone-B",
-              "spawnTime": 390
+              "spawnTime": 460
   },
         {
               "type": "UnitSpawnAbility",
               "spawnX": 7,
               "spawnY": -6.5,
               "unit": "drone-A",
-              "spawnTime": 340
+              "spawnTime": 420
             }
         ]
 }
