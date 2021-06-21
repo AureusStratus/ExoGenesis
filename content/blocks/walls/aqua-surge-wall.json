@@ -1,6 +1,5 @@
 {    
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
     "description": "Protects structures from enemy projectiles, periodically releasing electric arcs upon contact. Used for deep water defense",
     "localizedName": "Aqua Surge Wall",
     "lightningChance": 0.05,
@@ -8,7 +7,8 @@
     "health": 920,
     "size": 1,
     "requirements": [
-        {"item": "surge-alloy", "amount": 6}
+        "metaglass/6",
+        "surge-alloy/6"
     ],
     "category": "defense",
     "research": "surge-wall"

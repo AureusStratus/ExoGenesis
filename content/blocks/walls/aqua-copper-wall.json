@@ -7,7 +7,8 @@
 "placeableLiquid": "true",
     "size": 1,
     "requirements": [
-        {"item": "copper", "amount": 6}
+        "metaglass/6",
+        "copper/6"
     ],
     "category": "defense",
     "research": "copper-wall"

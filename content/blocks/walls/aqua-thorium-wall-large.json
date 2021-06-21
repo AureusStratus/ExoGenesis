@@ -1,13 +1,13 @@
 {    
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
     "description": "Protects structures from enemy projectiles. Used for deep water defense",
     "localizedName": "Large Aqua Thorium Wall",
     "health": 3200,
 "placeableLiquid": "true",
     "size": 2,
     "requirements": [
-        {"item": "thorium", "amount": 24}
+        "metaglass/24",
+        "thorium/24"
     ],
     "category": "defense",
     "research": "aqua-thorium-wall"

@@ -1,6 +1,5 @@
 {    
     "type": "Wall",
-    "buildCostMultiplier": 0.1,
     "description": "Protects structures from enemy projectiles, reflecting most bullets upon impact. Used for deep water defense",
     "localizedName": "Aqua Phase Wall",
 "placeableLiquid": "true",
@@ -9,7 +8,8 @@
     "health": 600,
     "size": 1,
     "requirements": [
-        {"item": "phase-fabric", "amount": 6}
+        "metaglass/6",
+        "phase-fabric/6"
     ],
     "category": "defense",
     "research": "phase-wall"
