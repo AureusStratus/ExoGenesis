@@ -65,7 +65,7 @@
         "lifetime": 35,
         "colorFrom": "FFFFFFFF",
         "colorTo": "202328FF",
-        "region": "testers-tall"
+        "region": "exogenesis-tall"
           },
           {
         "type": "WaveEffect",
@@ -84,7 +84,7 @@
     "length": 0,
     "lifetime": 35,
     "sizeFrom": 20,
-    "region": "testers-wide",
+    "region": "exogenesis-wide",
     "colorFrom": "FFFFFFFF",
     "colorTo": "202328FF"
 	        },
