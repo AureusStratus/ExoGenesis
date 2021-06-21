@@ -1,12 +1,12 @@
 {
 "name": "System",
 "description":"[acid]The System unit is quite durable it has two gamma bullet gunners, and it now has gamma artillery guns that can make quick work of enemy groups, it can also heal nearby unit",
-    "research": "order",
+"research": "order",
 "type": "mech",
 "armor": 12,
 "rotateSpeed": 2.8,
 "canDrown": false,
-"hitSize": 27,
+"hitSize": 35,
 "buildSpeed": 3.6,
 "mechFrontSway": 1,
 "commandLimit": 6,
@@ -30,7 +30,7 @@
   "top": false,
   "inaccuracy": 3,
   "recoil": 2,
-  "shootY": 8,
+  "shootY": 11,
   "shots": 3,
   "shotDelay": 6,
   "shootSound": "bang",
@@ -59,13 +59,13 @@
         "colorTo": "C2FF70FF"
              },
         "lifetime": 90,
-        "damage": 130,
-        "speed": 4,
+        "damage": 80,
+        "speed": 6,
         "status": "corroded",
         "statusDuration": 100,
-        "buildingDamageMultiplier": 0.4,
+        "buildingDamageMultiplier": 0.7,
         "width": 11,
-        "height": 11,
+        "height": 16,
         "splashDamage": 20,
         "splashDamageRadius": 30,
         "backColor": "C2FF70FF",
@@ -85,6 +85,7 @@
     "recoil": 1,
     "shake": 2,
     "ejectEffect": "casing2",
+    "velocityRnd": 0.4,
     "shootSound": "artillery",
            "bullet": { 
              "type": "artilleryBulletType",
@@ -121,7 +122,7 @@
              "knockback": 0.8,
              "lifetime": 110,
              "damage": 40,
-             "buildingDamageMultiplier": 0.06,
+             "buildingDamageMultiplier": 0.2,
              "status": "corroded",
              "statusDuration": 80,
              "speed": 2.6,
@@ -140,10 +141,30 @@
      ],
     "abilities": [
         {
-              "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 230,
-              "amount": 300,
-              "reload": 250
+        "type": "mindustry.entities.abilities.RepairFieldAbility",
+        "range": 230,
+        "activeEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 230,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "healEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 30,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "amount": 300,
+        "reload": 250
             }
     ]
 }

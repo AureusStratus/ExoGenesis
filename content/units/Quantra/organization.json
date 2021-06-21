@@ -8,12 +8,12 @@
 "lightColor": "C2FF70FF",
 "rotateSpeed": 2.3,
 "canDrown": false,
-"hitSize": 32,
+"hitSize": 39,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.6,
 "commandLimit": 8,
 "mechStepParticles": true,
-"mechStepShake": 0.75,
+"mechStepShake": 1,
 "singleTarget": true,
 "speed": 0.55,
 "health": 25400,
@@ -33,7 +33,7 @@
   "reload": 58,
   "alternate": true,
   "top": false,
-  "shootY": 8,
+  "shootY": 10,
   "recoil": 1,
   "shots": 3,
   "shake": 2,
@@ -76,29 +76,29 @@
              "pierce": true,
              "pierceCap": 2,
              "lifetime": 80,
-             "damage": 480,
+             "damage": 280,
              "trailChance": 1,
              "trailEffect": {
              "type": "ParticleEffect",
              "particles": 1,
              "length": 0,
              "lifetime": 20,
-             "sizeFrom": 10,
-             "region": "exogenesis-plasma",
+             "sizeFrom": 8,
+             "region": "exogenesis-plasma-back",
              "colorFrom": "FFFFFFFF",
              "colorTo": "C2FF70FF"
              },
              "status": "slow",
              "shrinkX": 0,
              "shrinkY": 0,
-             "buildingDamageMultiplier": 0.6,
+             "buildingDamageMultiplier": 0.9,
              "statusDuration": 100,
              "homingRange": 100,
              "homingDelay": 80,
              "homingPower": 0.0545,
              "speed": 4.5,
-             "width": 10,
-             "height": 10,
+             "width": 20,
+             "height": 20,
              "backColor": "C2FF70FF",
              "frontColor": "FFFFFFFF"
               }
@@ -119,7 +119,7 @@
   "bullet": {
 		"type" : "missileBulletType",
 		"status": "corroded",
-		"damage": 95,
+		"damage": 45,
 		"height" : 10,
 		"width" : 10,
 		"speed": 5,
@@ -173,7 +173,7 @@
   "bullet": {
 		"type" : "missileBulletType",
 		"status": "corroded",
-		"damage": 95,
+		"damage": 45,
 		"height" : 10,
 		"width" : 10,
 		"speed": 5,
@@ -214,10 +214,30 @@
      ],
     "abilities": [
         {
-              "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 260,
-              "amount": 800,
-              "reload": 280
+        "type": "mindustry.entities.abilities.RepairFieldAbility",
+        "activeEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 260,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "healEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 30,
+        "strokeFrom": 6,
+        "strokeTo": 0,
+        "colorFrom": "FFFFFF",
+        "colorTo": "C2FF70FF"
+        },
+        "range": 260,
+        "amount": 800,
+        "reload": 280
             }
     ]
 }
