@@ -8,6 +8,7 @@
 	"range": 200,
 	"inaccuracy": 360,
     "shots": 35,
+    "recoilAmount": 0,
     "burstSpacing": 0.5,
     "heatColor": "FFFFFF",
 	"shootEffect": {
