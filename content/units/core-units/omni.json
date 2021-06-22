@@ -7,7 +7,7 @@
 	"health": 1160,
 	"isCounted": false,
     "mineSpeed": 12,
-    "buildSpeed": 5,
+    "buildSpeed": 5.6,
     "mineTier": 5,
     "itemCapacity": 110,
 	"armor": 8,
