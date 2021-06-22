@@ -4,7 +4,7 @@
         "speed": 1.8,
      	"isCounted": false,
         "mineSpeed": 20,
-        "buildSpeed": 2.7,
+        "buildSpeed": 3.7,
         "mineTier": 7,
         "itemCapacity": 200,
         "accel": 0.03,
