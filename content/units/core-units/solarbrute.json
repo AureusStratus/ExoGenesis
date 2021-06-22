@@ -5,7 +5,7 @@
 "boostMultiplier": 1.6,
 "canBoost": true,
 "mineSpeed": 6,
-"buildSpeed": 1,
+"buildSpeed": 2,
 "mineTier": 5,
 "itemCapacity": 100,
 "isCounted": false,
