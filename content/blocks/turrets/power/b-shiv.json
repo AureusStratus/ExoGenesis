@@ -21,7 +21,7 @@
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
-        "sprite": "testers-sword",
+        "sprite": "exogenesis-sword",
         "collidesAir": false,
         "collidesGround": false,
         "collidesTiles": false,
@@ -64,7 +64,7 @@
         "fragVelocityMax": 0.9,
 		"fragBullet": {
 		"type": "BasicBulletType",
-		"sprite" : "testers-sword",
+		"sprite" : "exogenesis-sword",
         "height": 16,
         "width": 7,
 		"shrinkX": 0,
