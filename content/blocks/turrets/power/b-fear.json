@@ -49,7 +49,7 @@
 
 	"shootType": {
 		"type" : "BasicBulletType",
-		"sprite" : "testers-plasma",
+		"sprite" : "exogenesis-plasma",
 		"damage": 700,	
 		"absorbable": false,
 		"splashDamage" : 80,
