@@ -48,7 +48,7 @@
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "basicBulletType",
-		"sprite" : "testers-plasma",
+		"sprite" : "exogenesis-plasma",
 		"hitSound": "laser",
 		"damage": 300,	
 		"splashDamage" : 80,
