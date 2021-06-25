@@ -2,10 +2,11 @@
         "localizedName": "Deca",
         "controller": "builderAI",
         "type": "payload",
-        "description": "[green] The protecter class titan unit. a gaint air support unit that can drop massive energy bombs that debuff enemies  and deal massive damage to surrounding units and structures. has a large healing field ability that regenerates allies health and buffs them. has a powerful shield.",
-        "details": "Protect... at all costs.",
+        "description": "[green]The protecter class titan unit. The deca is massive titan unit made to defend against powerful enemies, a gaint air support unit that can drop massive energy bombs that debuff enemies and deal massive damage to surrounding units and structures and also drops two additional bombs. Has a large healing field ability that regenerates allies health and buffs them. has a powerful shield.",
+        "details": "Protect at all costs.",
         "singleTarget": true,
         "drawShields": false,
+        "fallSpeed": 0.006,
         "research": "oct",
         "lowAltitude": false,
         "ammoCapacity": 3000,
@@ -30,9 +31,8 @@
         "flying": true,
         "health": 1240000,
         "hitSize": 80,
-        "armor": 40,
+        "armor": 27,       
         "engineOffset": 52,
-        
         "engineSize": 8.5,
         "targetAir": true,
         "commandLimit": 10,
@@ -45,6 +45,49 @@
 		"burning"
 		],
 	    "weapons": [
+	   {
+    "name": "deca-bombs",
+    "x": 22,
+    "y": -20,
+    "mirror": true,
+    "alternate": false,
+    "reload": 35,
+    "minShootVelocity": 0.01,
+    "soundPitchMin": 1,
+    "shootSound": "plasmadrop",
+    "bullet": {
+    "sprite": "large-bomb",
+    "width":  60,
+    "height": 60,
+    "maxRange": 30,
+    "ignoreRotation": true,
+    "mixColorTo": "98ffa9",
+    "backColor": "84F491FF",
+    "frontColor": "98ffa9",
+    "hitSound": "plasmaboom",
+    "shootCone": 180,
+    "ejectEffect": "none",
+    "hitShake": 4,
+    "collidesAir": false,
+    "lifetime": 70,
+    "despawnEffect": "greenBomb",
+    "hitEffect": "massiveExplosion",
+    "keepVelocity": false,
+    "spin": 2,
+    "lightning": 7,
+    "lightningDamage": 30,
+    "lightningLength": 10,
+    "lightningColor": "98ffa9",
+    "shrinkX": 0.7,
+    "shrinkY": 0.7,
+    "speed": 0.001,
+    "collides":  false,
+    "healPercent":  15,
+    "splashDamage": 280,
+    "splashDamageRadius": 80
+   
+    }
+	   },
 	   {
     "name": "octane-nuke",
     "shootCone": 180,
@@ -68,11 +111,65 @@
     "splashDamage": 1000,
     "splashDamageRadius": 160,
     "hitSound": "bigLaserShoot",
-    "mixColorTo": "ffffff",
-    "backColor": "98ffa9",
-    "frontColor": "ffffff",
+    "mixColorTo": "98ffa9",
+    "backColor": "84F491FF",
+    "frontColor": "98ffa9",
     "type": "basicBulletType",
-    "hitEffect": "nuclearcloud",
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 35,
+    "lifetime": 30,
+    "offset": 60,
+    "length": 95,
+    "cone": -360,
+    "strokeFrom": 0,
+    "strokeTo": 3.5,
+    "sizeFrom": 8,
+    "sizeTo": 0,
+    "colorFrom": "98ffa9",
+    "colorTo": "84F491FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 35,
+    "offset": 30,
+    "sizeFrom": 4,
+    "sizeTo": 0,
+    "length": 105,
+    "lifetime": 30,
+    "colorFrom": "98ffa9",
+    "colorTo": "84F491FF",
+    "cone": 360
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 45,
+    "sizeFrom": 2,
+    "sizeTo": 7,
+    "offset": 60,
+    "length": 100,
+    "lifetime": 200,
+    "colorFrom": "98ffa9",
+    "colorTo": "84F491AA",
+    "cone": 360
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 50,
+    "sizeFrom": 0,
+    "sizeTo": 95,
+    "sides": 8,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "98ffa9",
+    "colorTo": "84F491FF"
+          }
+        ]
+      },
     "statusDuration": 600,
     "collidesTeam": true,
     "lightning": 14,
@@ -82,7 +179,7 @@
     "status": {
     "name": "octane-blasted",
     "localizedName": "Octane Blasted",
-    "description": "you've been hit with immense healing power",
+    "description": "You've been hit with immense healing power.",
     "reloadMultiplier": 0.2,
     "buildSpeedMultiplier": 0.2,
     "speedMultiplier": 0.2,
@@ -96,8 +193,8 @@
         "sizeTo": 3,
         "strokeFrom": 0,
         "strokeTo": 3,
-        "colorFrom": "98ffa9",
-        "colorTo": "ffffff"
+        "colorFrom": "84F491FF",
+        "colorTo": "98ffa9"
     }
     },
     "shootEffect": "none",
@@ -118,7 +215,7 @@
     "type": "StatusFieldAbility",
     "activeEffect": {
         "type": "WaveEffect",
-        "lifetime": 1,
+        "lifetime": 2,
         "sizeFrom": 200,
         "sizeTo": 200,
         "strokeFrom": 3,
@@ -129,7 +226,7 @@
      "effect": {
       "name": "octane-charge",
       "localizedName": "Octane charge",
-      "description": "you are being powers by healing energy",
+      "description": "you are being powered by healing energy",
       "buildSpeedMultiplier": 1.7,
       "healthMultiplier": 1.7,
       "damage": -10,
@@ -140,8 +237,8 @@
       "sizeFrom": 6,
       "sizeTo": 0,
       "particles": 2,
-      "colorFrom": "98ffa9",
-      "colorTo": "ffffff",
+      "colorFrom": "84F491FF",
+      "colorTo": "98ffa9",
       "region": "exogenesis-heal"
     }
     },
@@ -154,7 +251,7 @@
             "radius": 180,
             "regen": 30,
             "max": 80000,
-            "cooldown": 350
+            "cooldown": 550
         }
     ]
 }
