@@ -2,7 +2,7 @@
 	"type": "ItemTurret",
 	"localizedName": "Apec",
 	"details": "Slice and dice or home and explode.",
-	"description": "[green]A.P.E.C: Atomic Partical Energizer Cannon. It superchargers atoms with gamma radiation, then it uses magnetic forces to fire it out in an energy pulse that breaks into orbs that corrode the enemy.",
+	"description": "[acid]A.P.E.C: Atomic Partical Energizer Cannon. Superchargers atoms with gamma radiation, then it uses magnetic forces to fire it out in an energy pulse that breaks into orbs that corrode the enemy.",
 	"size": 8,
 	"health": 8660,
 	"range": 580,
@@ -22,7 +22,7 @@
 	"chargeSound": "grinding",
 	"chargeTime" : 80,
 	"chargeMaxDelay" : 10,
-	"chargeEffects" : 5,
+	"chargeEffects" : 1,
 	"chargeBeginEffect": {
     "type": "ParticleEffect",
     "particles": 1,
@@ -68,8 +68,8 @@
 	"ammoTypes": {
         "gamma-green": {
 		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-pulse",
-		"damage": 1000,	
+		"sprite" : "exogenesis-electric-pulse",
+		"damage": 1580,	
 		"absorbable": false,
 		"splashDamage" : 200,
 		"splashDamageRadius" : 96,	
@@ -114,17 +114,17 @@
 		"pierce": true,
 		"frontColor": "FFFFFFFF",
 		"backColor": "C2FF70FF",
-		"fragBullets": 4,
+		"fragBullets": 6,
 		"fragBullet": {
 			"type": "MissileBulletType",
-			"sprite" : "exogenesis-orb",
+			"sprite" : "exogenesis-electric-pulse",
 			"status" : "corroded",
 			"height" : 15,
 			"width" : 15,
 			"shrinkX": 1,
 			"shrinkY": 1,
 			"lifetime": 120,
-		    "homingPower": 0.00889,
+		    "homingPower": 0.0589,
 		    "homingRange": 180,
 			"damage" : 200,
 			"splashDamage" : 100,
@@ -156,9 +156,9 @@
 		},
         "plastanium": {
 		"type" : "BasicBulletType",
-		"sprite" : "exogenesis -pulse",
-		"damage": 880,	
-		"absorbable": true,
+		"sprite" : "exogenesis-electric-pulse",
+		"damage": 980,	
+		"absorbable": false,
 		"splashDamage" : 200,
 		"splashDamageRadius" : 260,	
 		"height" : 50,
@@ -208,15 +208,16 @@
 		"fragBullets": 10,
 		"fragBullet": {
 			"type": "MissileBulletType",
-			"sprite" : "exogenesis-orb",
+			"sprite" : "exogenesis-plasma",
 			"status" : "corroded",
 			"height" : 15,
 			"width" : 15,
 			"shrinkX": 1,
+			"speed": 3,
 			"shrinkY": 1,
 			"lifetime": 120,
 			"homingDelay": 1,
-		    "homingPower": 0.00889,
+		    "homingPower": 0.0889,
 		    "homingRange": 180,
 			"damage" : 300,
 			"splashDamage" : 100,
@@ -247,13 +248,16 @@
 		    }
 		}
 	},
+	"consumes" : {
+		"power": 20
+			},
 	"requirements": [
-		{ "item": "lead", "amount": 1250 },
-		{ "item": "osmium", "amount": 400},
-		{ "item": "xanium", "amount": 600},
-		{ "item": "silicon", "amount": 700},
-		{ "item": "plastanium", "amount": 400},
-		{ "item": "gamma-green", "amount": 650}
+        "lead/1250",
+        "osmium/400",
+        "xanium/600",
+        "silicon/700",
+        "plastanium/400",
+        "gamma-green/650"
 	],
 	"category": "turret",
 	"research": "g-quarker"

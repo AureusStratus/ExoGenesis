@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "localizedName": "Project Jupiter",
     "description": "[yellow]A large and powerful magnetic accelerator cannon that can launch projectiles with extreme force.",
-    "details": "Does this turret seem familiar to you?",
+    "details": "Does this turret seem familiar to you?... dark?.",
     "health": 8660,
     "size": 8,
     "reloadTime": 50,
@@ -10,7 +10,7 @@
     "range": 600,
     "recoilAmount": 7,
     "shootShake": 5,
-    "ammoUseEffect": "none",
+    "ammoUseEffect": "casing4",
     "inaccuracy": 0,
     "shots": 1,
     "spread": 0,
@@ -60,30 +60,12 @@
             }
     },
     "requirements": [
-        {
-            "item": "jupiteium",
-            "amount": 650
-        },
-        {
-            "item": "graphite",
-            "amount": 500
-        },
-        {
-            "item": "thorium",
-            "amount": 400
-        },
-        {
-            "item": "surge-alloy",
-            "amount": 550
-        },
-        {
-            "item":"osmium",
-            "amount": 450
-        },
-        {
-            "item": "alpha-yellow",
-            "amount": 725
-        }
+        "jupiteium/650",
+        "graphite/500",
+        "thorium/400",
+        "surge-alloy/550",
+        "osmium/450",
+        "alpha-yellow/700"
     ],
     "category": "turret",
     "research": "y-callisto"

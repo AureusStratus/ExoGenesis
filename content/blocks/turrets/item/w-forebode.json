@@ -27,7 +27,7 @@
             "collidesTiles": true,
             "trailEffect": "instTrail",
 			"trailSpacing": 20,
-            "hitEffect": "massiveExplosion",
+            "hitEffect": "instBomb",
             "smokeEffect": "shootBig2"
         },
         "thorium": {
@@ -39,7 +39,7 @@
             "collidesTiles": true,
             "trailEffect": "instTrail",
 			"trailSpacing": 20,
-            "hitEffect": "massiveExplosion",
+            "hitEffect": "instBomb",
             "smokeEffect": "shootBig2"
         }
     },

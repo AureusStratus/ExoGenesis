@@ -4,7 +4,7 @@
 	"description": "[green]A flame thrower turret that uses plastanium or xanium at superheated temperatures to create green hot plasma.",
 	"size": 4,
 	"health": 1600,
-	"range": 130,
+	"range": 100,
 	"reloadTime" : 10,
 	"burstSpacing": 5,
 	"shots" : 3,
@@ -27,31 +27,54 @@
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {
+    "type": "MultiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "offset": 30,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "length": 155,
+    "cone": -26,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "DBFFBDFF",
+    "colorTo": "9BF056FF"
+    },
+    {
     "type": "ParticleEffect",
     "particles": 30,
+    "offset": 30,
     "sizeFrom": 5,
     "sizeTo": 0,
+    "interp": "circleOut",
     "length": 150,
     "lifetime": 45,
     "colorFrom": "DBFFBDFF",
     "colorTo": "9BF056FF",
     "cone": 20
+    }
+    ]
     },
     "smokeEffect": "none",
-    "lifetime": 20,
+    "lifetime": 16,
 	"despawnEffect": "none",
     "hittable": false,
     "reflectable": false,
 	"hitEffect": {
     "type": "ParticleEffect",
+    "line": true,
     "particles": 15,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 20,
-    "lifetime": 15,
+    "offset": 30,
+    "lifetime": 20,
+    "length": 45,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
     "colorFrom": "DBFFBDFF",
-    "colorTo": "9BF056FF",
-    "cone": 360
+    "colorTo": "9BF056FF"
 	},
 	"status": "corroded",
 	"pierce": true,
@@ -69,43 +92,66 @@
     "height": 0.1,
     "collidesAir": true,
     "shootEffect": {
+    "type": "MultiEffect",
+    "effects": [
+    {
     "type": "ParticleEffect",
-    "particles": 30,
-    "sizeFrom": 5,
+    "line": true,
+    "particles": 15,
+    "offset": 30,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "length": 155,
+    "cone": -26,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "EDF2A8FF",
+    "colorTo": "9CB664FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "interp": "circleOut",
+    "offset": 30,
+    "sizeFrom": 4,
     "sizeTo": 0,
     "length": 150,
     "lifetime": 45,
     "colorFrom": "EDF2A8FF",
     "colorTo": "9CB664FF",
     "cone": 20
+    }
+    ]
     },
     "smokeEffect": "none",
     "hittable": false,
     "reflectable": false,
-    "lifetime": 20,
+    "lifetime": 16,
 	"despawnEffect": "none",
 	"hitEffect": {
     "type": "ParticleEffect",
+    "line": true,
     "particles": 15,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 20,
-    "lifetime": 15,
+    "offset": 30,
+    "lifetime": 20,
+    "length": 45,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
     "colorFrom": "EDF2A8FF",
-    "colorTo": "9CB664FF",
-    "cone": 360
+    "colorTo": "9CB664FF"
 	},
-	"status": "melting",
+	"status": "corroded",
 	"pierce": true,
 	"incendAmount": 5
 		    }
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 1250 },
-		{ "item": "silicon", "amount": 700},
-		{ "item": "xanium", "amount": 120},
-		{ "item": "plastanium", "amount": 400},
-		{ "item": "surge-alloy", "amount": 450}
+        "lead/1250",
+        "silicon/700",
+        "xanium/120",
+        "plastanium/400",
+        "surge-alloy/450"
 	],
 	"category": "turret",
 	"research": "g-discharge"

@@ -3,7 +3,7 @@
     "localizedName": "Alpha",
     "description": "[yellow]A large and powerful super weapon turret used by the elecian to defend there home from orbital, ground and flying threats. uses powerful magnet acceleration to hurl project at speeds that can break the sound barrier",
     "details": "Listen to the alpha",
-    "health": 8660,
+    "health": 8789000,
     "size": 12,
     "reloadTime": 250,
     "range": 700,
@@ -11,7 +11,7 @@
     "recoilAmount": 13,
     "shootLength": 0,
     "shootShake": 6,
-    "ammoUseEffect": "none",
+    "ammoUseEffect": "casing4",
     "inaccuracy": 0,
     "burstSpacing": 4,
     "shots": 2,
@@ -40,9 +40,10 @@
             "sizeFrom": 4,
             "length": 170,
             "lifetime": 28,
+            "interp": "circleOut",
             "colorFrom": "5E7DC7FF",
             "colorTo": "565656FF",
-            "cone": 30
+            "cone": 20
             },
             "hitEffect": {
             "type": "ParticleEffect",
@@ -77,9 +78,10 @@
             "sizeFrom": 4,
             "length": 170,
             "lifetime": 38,
+            "interp": "circleOut",
             "colorFrom": "9CB664FF",
             "colorTo": "565656FF",
-            "cone": 30
+            "cone": 20
             },
             "hitEffect": {
             "type": "ParticleEffect",
@@ -100,25 +102,24 @@
             "hitSize": 8,
             "frontColor": "9CB664FF",
             "backColor": "EDF2A8FF",
-		    "fragBullets": 6,
-		    "fragBullet": {
-			"type": "BasicBulletType",
-			"status" : "corroded",
-			"height" : 25,
-			"width" : 15,
-			"shrinkX": 0,
-			"shrinkY": 1,
-			"collidesTiles": false,
-			"spin" : 8,
-			"lifetime": 120,
-			"speed": 1.5,
-			"damage" : 50,
-			"splashDamage" : 300,
-			"splashDamageRadius" : 70,	
-			"hitEffect" : "plasticExplosionFlak",
-			"despawnEffect": "plasticExplosionFlak",
-			"frontColor": "9CB664FF",
-            "backColor": "9CB664FF"
+            "fragBullets": 10,
+            "fragVelocityMin": 4,
+            "fragCone": 360,
+            "fragLifeMin": 1,
+	        "fragBullet": {
+	        "type": "BasicBulletType",
+	        "status" : "melting",
+	        "height" : 18,
+	        "width" : 18,
+            "frontColor": "9CB664FF",
+            "backColor": "EDF2A8FF",
+	        "lifetime": 20,
+	        "damage" : 150,
+	        "pierce": true,
+	        "pierceBuilding": true,
+	        "splashDamage" : 30,
+	        "splashDamageRadius" : 10,	
+            "hitEffect": "flakExplosion"
 		    }
         },
         "alpha-yellow": {
@@ -137,11 +138,12 @@
             "particles": 19,
             "offset": 11,
             "sizeFrom": 4,
+            "interp": "circleOut",
             "length": 170,
             "lifetime": 28,
             "colorFrom": "F3E979FF",
             "colorTo": "565656FF",
-            "cone": 30
+            "cone": 20
             },
             "hitEffect": {
             "type": "ParticleEffect",

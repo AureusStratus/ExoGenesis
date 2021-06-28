@@ -1,7 +1,7 @@
 {
     "localizedName": "Polaris",
     "description": "[blue]A railgun that primarily uses omega alloy, which it shoots at devastating speeds.",
-    "details": "May god forgive you... but I won't.", //nice
+    "details": "May god forgive you... but I won't.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 850,
@@ -22,9 +22,10 @@
 		"omega-blue": {
 			"type" : "railBulletType",
 			"damage": 3150,
-			"status": "shocked",
+			"status": "freezing",
 			"length" : 600,
-			"lightningColor": "79F2EEFF",
+			"lightningColor": "A9D8FFFF",
+	        "trailSpacing": 35,
 			"lightning": 8,
 			"lightningLength": 15,
 			"lightningDamage": 45,
@@ -38,8 +39,8 @@
             "lifetime": 25,
              "sizeFrom": 80,
              "region": "exogenesis-blue-pierce",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
+             "colorFrom": "A9D8FFFF",
+             "colorTo": "66B1FFFF"
             },
 			"updateEffect" : {
             "type": "ParticleEffect",
@@ -48,8 +49,8 @@
             "lifetime": 25,
              "sizeFrom": 20,
              "region": "exogenesis-star-wide",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
+             "colorFrom": "A9D8FFFF",
+             "colorTo": "66B1FFFF"
 			},
 			"hitEffect" : {
 	        "type": "MultiEffect",
@@ -64,8 +65,8 @@
             "sizeTo": 64,
             "strokeFrom": 4,
             "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
 	            },
 	            {
             "type": "WaveEffect",
@@ -76,8 +77,8 @@
             "sizeTo": 64,
             "strokeFrom": 4,
             "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
 	            },
 	            {
             "type": "WaveEffect",
@@ -86,8 +87,8 @@
             "sizeTo": 104,
             "strokeFrom": 4,
             "strokeTo": 0,
-            "colorFrom": "79F2EEFF",
-            "colorTo": "74C2E8FF"
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
 	            }
 			]
 			},
@@ -98,8 +99,8 @@
             "lifetime": 25,
              "sizeFrom": 20,
              "region": "exogenesis-star-wide",
-             "colorFrom": "79F2EEFF",
-             "colorTo": "74C2E8FF"
+             "colorFrom": "A9D8FFFF",
+             "colorTo": "66B1FFFF"
             },
 			"fragBullets": 10,
 			"fragBullet": {
@@ -109,8 +110,8 @@
             "length": 52,
             "absorbable": false,
             "width": 10,
-            "fromColor": "79F2EEFF",
-            "toColor": "79F2EEFF",
+            "fromColor": "A9D8FFFF",
+            "toColor": "66B1FFFF",
             "damage": 370
 			}
 			
@@ -120,12 +121,12 @@
 		"power": 80
 			},
 	"requirements": [
-		{ "item": "thorium", "amount": 500 },
-		{ "item": "omega-blue", "amount": 520 },
-		{ "item": "silicon", "amount": 1000 },
-		{ "item": "osmium", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 410 },
-		{ "item": "metaglass", "amount": 500 }
+        "thorium/520",
+        "omega-blue/550",
+        "silicon/1000",
+        "osmium/500",
+        "surge-alloy/410",
+        "metaglass/500"
 	],
 	"category": "turret",
 	"research": "foreshadow"

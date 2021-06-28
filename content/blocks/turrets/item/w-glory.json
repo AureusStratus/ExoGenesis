@@ -24,7 +24,7 @@
         "coal": {
             "type": "BasicBulletType",
             "speed": 8,
-            "damage": 18,
+            "damage": 8,
             "splashDamage": 5,
             "splashDamageRadius": 12,
             "frontColor": "404040FF",
@@ -41,7 +41,7 @@
         "blast-compound": {
             "type": "BasicBulletType",
             "speed": 7,
-            "damage": 29,
+            "damage": 19,
             "lifetime": 30,
             "splashDamage": 8,
             "height": 12,
@@ -50,7 +50,7 @@
             "status": "blasted",
             "pierce": false,
             "smokeEffect": "hitBulletBig",
-            "splashDamageRadius": 32,
+            "splashDamageRadius": 12,
             "frontColor": "FEB380",
             "backColor": "EA8878",
             "ammoMultiplier": 4

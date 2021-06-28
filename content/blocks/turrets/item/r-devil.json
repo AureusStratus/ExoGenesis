@@ -11,7 +11,7 @@
     "inaccuracy": 1,
     "shots": 2,
     "alternate": true,
-    "spread": 4,
+    "spread": 6,
     "targetAir": true,
     "targetGround": true,
     "shootCone": 0.08,
@@ -23,45 +23,48 @@
         "copper": {
             "type": "BasicBulletType",
             "speed": 4,
-            "lifetime": 50,
+            "lifetime": 57,
             "damage": 10,
-            "height": 8,
+            "height": 12,
+            "knockback": 0.3,
             "width": 8,
             "hitEffect": "blastExplosion",
             "pierce": false,
-            "smokeEffect": "hitBulletBig"
+            "smokeEffect": "none"
         },
         "graphite": {
             "type": "BasicBulletType",
-            "speed": 3,
+            "speed": 4,
             "damage": 22,
-            "lifetime": 50,
-            "height": 8,
+            "lifetime": 57,
+            "height": 12,
             "width": 8,
             "hitEffect": "blastExplosion",
             "pierce": true,
-            "smokeEffect": "hitBulletBig",
+            "knockback": 0.5,
+            "smokeEffect": "none",
             "frontColor": "95ABD9FF",
             "backColor": "6B77A1FF"
         },
-        "pyratite": {
+        "volcanite": {
             "type": "BasicBulletType",
             "speed": 4,
-            "damage": 14,
-            "lifetime": 50,
-            "height": 8,
+            "damage": 30,
+            "knockback": 0.8,
+            "lifetime": 57,
+	        "frontColor": "525050FF",
+            "backColor": "403F3FFF",
+            "height": 12,
             "width": 8,
-            "splashDamage": 8,
-            "splashDamageRadius": 11,
             "hitEffect": "blastExplosion",
             "pierce": false,
-            "smokeEffect": "hitBulletBig"
+            "smokeEffect": "none"
         }
     },
     "requirements": [
-		{ "item": "copper", "amount": 157 },
-		{ "item": "graphite", "amount": 97 },
-		{ "item": "lead", "amount": 74 }
+        "copper/150",
+        "volcanite/90",
+        "lead/70"
     ],
     "category": "turret",
     "research": "r-hel"

@@ -18,7 +18,7 @@
     "restitution": 0.5,
     "rotateSpeed": 5,
     "shootSound": "shotgun",
-    "ammoPerShot": 4,
+    "ammoPerShot": 2,
     "ammoTypes": {
         "lead": {
             "type": "shrapnelBulletType",

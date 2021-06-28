@@ -20,9 +20,9 @@
     "ammoTypes": {
           "blast-compound": {
             "status": "burning",
-	"statusDuration": "800",
+	        "statusDuration": "800",
             "speed": 7,
-             "height": 18,
+            "height": 18,
             "width": 15,
             "lifetime": 70,
             "damage": 97,
@@ -54,7 +54,7 @@
         },
         "surge-alloy": {
             "status": "shocked",
-	"statusDuration": "700",
+	        "statusDuration": "700",
             "speed": 10,
             "height": 18,
             "width": 15,
@@ -75,11 +75,11 @@
         }
     },  
 	"requirements": [
-		{ "item": "osmium", "amount": 350 },
-		{ "item": "silicon", "amount": 790 },
-		{ "item": "jupiteium", "amount": 470 },
-		{ "item": "titanium", "amount": 500 },
-		{ "item": "surge-alloy", "amount": 600 }
+	    "osmium/350",
+        "silicon/790",
+        "jupiteium/470",
+        "titanium/500",
+        "surge-alloy/600"
 	],
 	"category": "turret",
 	"research": "spectre"
