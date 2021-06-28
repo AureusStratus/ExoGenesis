@@ -21,9 +21,9 @@
 "powerUse": 7,
 "shootType": {
   "type": "LaserBulletType",
-    "colors":["ECD36FFF", "F3E979FF", "FFFFFF"],
+    "colors":["ECD36FAA", "F3E979FF", "FFFFFF"],
   "length": 240,
-  "width": 14,
+  "width": 20,
   "damage": 125,
   "collidesTiles": true,
   "lightColor": "F3E979FF",
@@ -35,11 +35,12 @@
   "sideLength": 0
   },
     "requirements": [
-        { "item": "surge-alloy", "amount": 580 },
-        { "item": "thorium", "amount": 460 },
-		{ "item": "osmium", "amount": 850 },
-		{ "item": "silicon", "amount": 600 },
-		{ "item": "copper", "amount": 430 }
+        "oltuxium/450",
+        "thorium/400",
+        "osmium/800",
+        "surge-alloy/340",
+        "silicon/600",
+        "copper/430"
     ],
     "category": "turret",
     "research": "lancer"

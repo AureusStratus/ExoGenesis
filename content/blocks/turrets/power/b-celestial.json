@@ -12,7 +12,7 @@
     "burstSpacing": 7,
     "targetAir": true,
     "targetGround": true,
-    "inaccuracy": 10,
+    "inaccuracy": 26,
     "shootCone": 20,
     "recoilAmount": 2,
     "restitution": 0.04,
@@ -22,7 +22,8 @@
     "powerUse": 37,
     "shootType": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "exogenesis-star-bullet",
+        "spin": 9,
         "status": {
         "name": "celestial-blaze",
         "localizedName": "Celestial Blaze",
@@ -43,25 +44,27 @@
         "sizeTo": 0,
         "length": 30,
         "lifetime": 20,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
         "cone": 360
         }
         },
         "statusDuration": 400,
-        "weaveMag": 1,
-        "weaveScale": 6,
+        "weaveMag": 2,
+        "weaveScale": 8,
         "speed": 4,
+        "shrinkY": 0,
+        "shrinkX": 0,
         "lightning": 7,
         "lightningDamage": 40,
-        "lightningColor": "84F491FF",
+        "lightningColor": "A9D8FFFF",
         "lightningCone": 360,
         "lightningLengthRand": 5,
         "lightningLength": 2,
         "lifetime": 300,
-        "damage": 885,
-        "height": 14,
-        "width": 14,
+        "damage": 2785,
+        "height": 55,
+        "width": 55,
         "shootEffect": {
         "type": "ParticleEffect",
         "particles": 19,
@@ -69,29 +72,29 @@
         "sizeTo": 0,
         "length": 170,
         "lifetime": 28,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
         "cone": 360
         },
         "hitEffect": {
         "type": "WaveEffect",
-        "lifetime": 20,
+        "lifetime": 15,
         "sizeFrom": 0,
         "sizeTo": 50,
         "strokeFrom": 5,
         "strokeTo": 0,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
-        "lifetime": 20,
+        "lifetime": 15,
         "sizeFrom": 0,
         "sizeTo": 50,
         "strokeFrom": 5,
         "strokeTo": 0,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
         "trailEffect": {
         "type": "ParticleEffect",
@@ -100,8 +103,8 @@
         "lifetime": 28,
         "sizeFrom": 12,
         "region": "exogenesis-plasma-back",
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8AA"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFAa"
         },
         "trailChance": 1,
         "collides": true,
@@ -111,8 +114,8 @@
         "homingPower": 0.0667,
         "splashDamageRadius": 54,
         "splashDamage": 136,
-        "frontColor": "F2FFF3FF",
-        "backColor": "84F491FF",
+        "frontColor": "FFFFFF",
+        "backColor": "A9D8FFFF",
 	    "fragBullets": 1,
 	    "fragCone": 1,
 	    "fragBullet": {
@@ -121,8 +124,8 @@
         "splashDamageRadius": 14,
         "length": 82,
         "width": 23,
-        "fromColor": "90CAF9FF",
-        "toColor": "F6FBFFFF",
+        "fromColor": "A9D8FFFF",
+        "toColor": "66B1FFFF",
         "damage": 570
 	    }
     },

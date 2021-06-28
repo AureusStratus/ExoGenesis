@@ -16,7 +16,7 @@
     "recoilAmount": 0.7,
     "restitution": 0.06,
     "rotateSpeed": 3,
-    "shootSound": "lasershoot",
+    "shootSound": "sap",
     "powerUse": 1,
     "hasPower": true,
     "shootType": {
@@ -29,25 +29,29 @@
         "lifetime": 100,
         "damage": 28,
         "status": "melting",
-        "height": 7,
-        "width": 7,
+        "height": 8,
+        "width": 8,
         "hitEffect": {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 25,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 15,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
         "colorFrom": "FF5845FF",
         "colorTo": "FFC1BBFF"
         },
         "despawnEffect": {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 25,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 15,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
         "colorFrom": "FF5845FF",
         "colorTo": "FFC1BBFF"
         },
@@ -57,8 +61,8 @@
         "backColor": "FF5845FF"
     },
     "requirements": [
-		{ "item": "silicon", "amount": 17 },
-		{ "item": "lead", "amount": 134 }
+        "silicon/17",
+        "lead/130"
     ],
     "category": "turret",
     "research": "duo"

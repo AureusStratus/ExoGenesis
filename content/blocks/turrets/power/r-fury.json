@@ -18,9 +18,9 @@
 "recoilAmount": 2,
 "shootType": {
   "type": "LaserBulletType",
-  "colors": ["DE4136FF", "FF5845FF", "FFC1BBFF"],
+  "colors": ["DE4136AA", "FF5845FF", "FFC1BBFF"],
   "length": 120,
-  "width": 13,
+  "width": 26,
   "status": "melting",
   "damage": 45,
   "lightColor": "FF5845FF",
@@ -32,9 +32,9 @@
   "sideLength": 0
   },
     "requirements": [
-		{ "item": "lead", "amount": 150 },
-		{ "item": "graphite", "amount": 200 },
-		{ "item": "copper", "amount": 80 }
+        "copper/90",
+        "silicon/120",
+        "volcanite/100"
     ],
     "category": "turret",
     "research": "r-hel"

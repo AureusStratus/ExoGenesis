@@ -22,12 +22,12 @@
 	"chargeBeginEffect": {
     "type": "ParticleEffect",
     "particles": 1,
-    "sizeFrom": 3,
-    "sizeTo": 1,
+    "sizeFrom": 0,
+    "sizeTo": 3,
     "length": 0,
     "lifetime": 25,
-    "colorFrom": "FFFFFFFF",
-    "colorTo": "FFF68FFF",
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF",
     "cone": 360
 },
 	"chargeEffect": {
@@ -39,8 +39,8 @@
     "cone": 30,
     "lenFrom": 10,
     "lenTo": 0,
-    "colorFrom": "FFFFFFFF",
-    "colorTo": "FFF68FFF"
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF"
 	},
 	
     "shootSound": "lasershoot",
@@ -64,26 +64,26 @@
         "width": 9,
         "hitEffect": {
         "type": "WaveEffect",
-        "lifetime": 25,
+        "lifetime": 15,
         "sizeFrom": 0,
         "sizeTo": 25,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "FFF68FFF"
+        "colorFrom": "FFDA45FF",
+        "colorTo": "F3E979FF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
-        "lifetime": 25,
+        "lifetime": 15,
         "sizeFrom": 0,
         "sizeTo": 25,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "FFF68FFF"
+        "colorFrom": "FFDA45FF",
+        "colorTo": "F3E979FF"
         },
-        "frontColor": "FFFFFFFF",
-        "backColor": "FFF68FFF"
+        "frontColor": "F3E979FF",
+        "backColor": "FFDA45FF"
     },
     "requirements": [
 		"silicon/27",

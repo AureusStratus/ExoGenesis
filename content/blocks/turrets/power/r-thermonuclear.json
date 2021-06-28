@@ -1,11 +1,11 @@
 {
 	"type": "LaserTurret",
 	"localizedName": "Thermonuclear",
-	"description": "[red]A powerful laser turret used by the Solrans. Uses nuclear power to melt away foes. Creates plasma fragments on contact.",
+	"description": "[red]A powerful laser turret used by the Solrans. Uses nuclear power to melt away foes+.",
 	"details": "Let them find out what a star's surface feels like.",
 	"size": 8,
 	"health": 8660,
-	"reloadTime": 8,
+	"reloadTime": 200,
 	"range": 280,
 	"shots" : 1,
 	"targetAir" : true, 
@@ -13,14 +13,14 @@
 	"shootCone" : 40,
 	"spread" : 4,
 	"powerUse": 23,
-        "coolantMultiplier": 3.6,
-        "update": true,
-        "hasPower": true,
-        "shootEffect": "shootBigSmoke2",
-        "shootShake": 4,
-        "firingMoveFract": 0.5,
-        "shootDuration": 390,
-        "shootSound": "beam",
+    "coolantMultiplier": 3.6,
+    "update": true,
+    "hasPower": true,
+    "shootEffect": "shootBigSmoke2",
+    "shootShake": 4,
+    "firingMoveFract": 0.5,
+    "shootDuration": 390,
+    "shootSound": "beam",
 	"recoilAmount" : 1.5,
 	"restitution" : 0.04, 
 	"rotateSpeed": 1.5,
@@ -54,8 +54,8 @@
 	
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "colors": ["DE4136FF", "FF5845FF", "FFC1BBFF"],
-      "damage": 360,
+      "colors": ["DE4136AA", "DE4136AA", "FF5845FF", "FFC1BBFF"],
+      "damage": 250,
       "width": 8,
       "length": 280,
       "hitEffect": {
@@ -73,48 +73,19 @@
       "drawSize": 260,
       "incendChance": 10,
       "incendSpread": 7,
-      "incendAmount": 4,
-		"fragBullets": 4,
-		"fragBullet": {
-			"type": "BasicBulletType",
-			"sprite" : "exogenesis-orb",
-			"status" : "blasted",
-			"speed": 2,
-			"height" : 10,
-			"width" : 10,
-			"shrinkX": 0,
-			"shrinkY": 0,
-			"lifetime": 20,
-			"damage" : 80,
-            "hitEffect": {
-            "type": "WaveEffect",
-            "lifetime": 15,
-            "sizeFrom": 0,
-            "sizeTo": 10,
-            "strokeFrom": 0,
-            "strokeTo": 4,
-            "colorFrom": "FFC1BBFF",
-            "colorTo": "FF5845FF"
-            },
-            "despawnEffect": {
-            "type": "WaveEffect",
-            "lifetime": 15,
-            "sizeFrom": 0,
-            "sizeTo": 10,
-            "strokeFrom": 0,
-            "strokeTo": 4,
-            "colorFrom": "FFC1BBFF",
-            "colorTo": "FF5845FF"
-            },
-			"frontColor": "FFC1BBFF",
-			"backColor": "FF5845FF"
-		}
+      "incendAmount": 4
 	},
-
+	"consumes": {
+		"liquid": {
+			"liquid": "cryofluid",
+			"update": true,
+			"amount": 0.5
+		}
+		},
 	"requirements": [
 	    "silicon/700",
         "osmium/400",
-        "jupiteium/300",
+        "thorium/300",
         "titanium/750",
         "surge-alloy/800",
         "primal-red/560"

@@ -5,9 +5,9 @@
     "localizedName": "Photon",
     "size": 2,
     "health": 240,
-    "reloadTime": 54,
+    "reloadTime": 64,
     "range": 270,
-    "inaccuracy": 7,
+    "inaccuracy": 12,
     "burstSpacing": 5,
     "shots": 5,
     "targetAir": true,
@@ -74,7 +74,7 @@
     },
     "requirements": [
 		"silicon/38",
-		"titanium/60",
+		"oltuxium/60",
 		"copper/100"
     ],
     "category": "turret",

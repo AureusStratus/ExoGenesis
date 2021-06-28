@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "localizedName": "Discharge",
-    "description": "[green]Discharges green lightning that corrodes enemies.",
+    "description": "[acid]Discharges gamma lightning that corrodes enemies.",
     "targetAir": true,
     "targetGround": true,
     "hasPower": true,
@@ -15,22 +15,33 @@
     "shootCone": 2,
     "rotateSpeed": 5,
     "range": 120,
-    "shootEffect": "hitMeltHeal",
-    
+    "shootEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 10,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 1,
+    "lenTo": 5,
+    "colorFrom": "C2FF70FF",
+    "colorTo": "C2FF70FF"
+    },
 	"shootType": {
-        "type": "LightningBulletType",
-        "status": "corroded",
-	"lightningColor": "82FF93FF",
+    "type": "LightningBulletType",
+    "status": "corroded",
+	"lightningColor": "C2FF70FF",
 	"lightningCone": 1,
 	"damage": 38,
-        "lightningLength": 30,
-        "collidesAir": true
+    "lightningLength": 30,
+    "collidesAir": true
 	},
     "requirements": [
-        { "item": "lead", "amount": 650 },
-        { "item": "silicon", "amount": 240},
-        { "item": "plastanium", "amount": 340},
-        { "item": "osmium", "amount": 100}
+        "lead/650",
+        "silicon/250",
+        "xanium/400",
+        "plastanium/350",
+        "osmium/100"
     ],
     "category": "turret",
     "shootSound": "spark",

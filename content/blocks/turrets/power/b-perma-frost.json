@@ -19,7 +19,7 @@
     "powerUse": 7,
 
 	"shootType": {
-    "lightRadius": 0,
+    "lightRadius": 3,
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 4,
@@ -28,13 +28,14 @@
     "height": 0.1,
     "shootEffect": {
     "type": "ParticleEffect",
-    "particles": 30,
+    "particles": 20,
     "sizeFrom": 5.5,
-    "sizeTo": 1.5,
+    "sizeTo": 0,
+    "interp": "circleOut",
     "length": 150,
-    "lifetime": 45,
-    "colorFrom": "79F2EEFF",
-    "colorTo": "6A97D9AA",
+    "lifetime": 35,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
     "cone": 20
     },
     "smokeEffect": "none",
@@ -48,10 +49,11 @@
     "sizeFrom": 5,
     "offset": 16,
     "sizeTo": 0,
+    "interp": "circleOut",
     "length": 20,
     "lifetime": 15,
-    "colorFrom": "79F2EEFF",
-    "colorTo": "6A97D9AA",
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
     "cone": 360
 	},
 	"status": "freezing",
@@ -60,8 +62,8 @@
 	},
 	"requirements": [
         "thorium/570",
-        "lead/600",
-        "titanium/600",
+        "astrolite/600",
+        "surge-alloy/600",
         "silicon/500",
         "osmium/460"
 	],

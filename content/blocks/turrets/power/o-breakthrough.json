@@ -12,17 +12,17 @@
 	"shootCone" : 40,
 	"spread" : 4,
 	"powerUse": 23,
-        "coolantMultiplier": 1.6,
-        "update": true,
-        "hasPower": true,
-        "shootEffect": "shootBigSmoke2",
-        "shootShake": 4,
-        "firingMoveFract": 0.5,
-        "shootDuration": 390,
-        "shootSound": "beam",
+    "coolantMultiplier": 1.0,
+    "update": true,
+    "hasPower": true,
+    "shootEffect": "shootBigSmoke2",
+    "shootShake": 4,
+    "firingMoveFract": 0.5,
+    "shootDuration": 390,
+    "shootSound": "beam",
 	"recoilAmount" : 1.5,
 	"restitution" : 0.04, 
-	"rotateSpeed": 8,
+	"rotateSpeed": 2,
 	
       "shootType" : {
       "type": "ContinuousLaserBulletType",
@@ -37,11 +37,11 @@
 	},
 
 	"requirements": [
-		{ "item": "titanium", "amount": 400},
-		{ "item": "surge-alloy", "amount": 600},
-		{ "item": "osmium", "amount": 400},
-		{ "item": "silicon", "amount": 780},
-		{ "item": "jupiteium", "amount": 640}
+	    "titanium/400",
+        "surge-alloy/600",
+        "osmium/400",
+        "silicon/700",
+        "jupiteium/640"
 	],
 	"category": "turret",
 	"research": "meltdown"

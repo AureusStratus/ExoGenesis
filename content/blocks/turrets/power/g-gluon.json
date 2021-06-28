@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "[green]A small turret that uses low tier quantra technology to fire small gamma pulses. Is the upgradeto the tau.",
+    "description": "[acid]A small turret that uses low tier quantra technology to fire small gamma pulses. Is the upgradeto the tau.",
     "localizedName": "Gluon",
     "size": 2,
     "health": 240,
@@ -20,7 +20,7 @@
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-pulse",
+        "sprite": "exogenesis-electric-pulse",
         "absorbable": true,
         "shrinkY": 0.1,
         "shrinkX": 0.1,
@@ -39,29 +39,29 @@
         "cone": -360,
         "lenFrom": 10,
         "lenTo": 0,
-        "colorFrom": "B7FF7CFF",
-        "colorTo": "35B06EFF"
+        "colorFrom": "C2FF70FF",
+        "colorTo": "C2FF70FF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
-        "lifetime": 25,
+        "lifetime": 15,
         "sizeFrom": 0,
         "sizeTo": 25,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "B7FF7CFF",
-        "colorTo": "35B06EFF"
+        "colorFrom": "C2FF70FF",
+        "colorTo": "C2FF70FF"
         },
         "homingPower": 0.00689,
         "homingRange": 30,
-        "frontColor": "B7FF7CFF",
-        "backColor": "35B06EFF"
+        "frontColor": "FFFFFFFF",
+        "backColor": "C2FF70FF"
     },
     "requirements": [
-		{ "item": "graphite", "amount": 37 },
-		{ "item": "lead", "amount": 57 },
-		{ "item": "silicon", "amount": 37 },
-		{ "item": "copper", "amount": 134 }
+        "graphite/30",
+        "valvanite/50",
+        "silicon/30",
+        "copper/130"
     ],
     "category": "turret",
     "research": "g-tau"

@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "[green]An ocean defense turret used for defense on deep waters. Fires three energy tridents at super longer range.",
+	"description": "[acid]An ocean defense turret used for defense on deep waters. Fires three energy tridents at super longer range.",
 	"localizedName": "Ocean",
 	"size": 4,
 	"health": 1500,
@@ -26,13 +26,13 @@
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-trident",
 		"damage": 50,	
-		"height" : 22,
-		"width" : 10,			
+		"height" : 28,
+		"width" : 15,			
 		"speed": 4,
 		"collidesTiles": true,
 		"collidesGround": true,
 		"collidesAir": false,
-		"lifetime" : 1200,
+		"lifetime" : 600,
 		"homingPower": 0.00769,
 		"homingRange": 68,
 		"shrinkX": 0,
@@ -43,14 +43,14 @@
 		"pierce": true,
 		"smokeEffect": "none",
 		"frontColor": "FFFFFFFF",
-		"backColor": "FFDA45FF"
+		"backColor": "C2FF70FF"
 	},
 	"requirements": [
-		{ "item": "plastanium", "amount": 400 },
-		{ "item": "lead", "amount": 800 },
-		{ "item": "silicon", "amount": 520 },
-		{ "item": "metaglass", "amount": 220 },
-		{ "item": "titanium", "amount": 300 }
+        "plastanium/450",
+        "valvanite/80",
+        "silicon/500",
+        "metaglass/250",
+        "titanium/300"
 	],
 	"category": "turret",
 	"research": "g-lake"

@@ -4,7 +4,7 @@
 	"description": "[blue]A cryogenic turret that shoots super cold plasma at enemies",
 	"size": 2,
 	"health": 1600,
-	"range": 130,
+	"range": 100,
 	"reloadTime" : 10,
 	"burstSpacing": 5,
 	"shots" : 3,
@@ -19,7 +19,7 @@
     "powerUse": 4,
 
 	"shootType": {
-    "lightRadius": 0,
+    "lightRadius": 4,
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 4,
@@ -30,11 +30,12 @@
     "type": "ParticleEffect",
     "particles": 30,
     "sizeFrom": 5,
-    "sizeTo": 1,
-    "length": 150,
-    "lifetime": 40,
-    "colorFrom": "79F2EEFF",
-    "colorTo": "6A97D9AA",
+    "sizeTo": 0,
+    "interp": "circleOut",
+    "length": 120,
+    "lifetime": 35,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
     "cone": 20
     },
     "smokeEffect": "none",
@@ -47,11 +48,12 @@
     "particles": 15,
     "sizeFrom": 5,
     "offset": 16,
+    "interp": "circleOut",
     "sizeTo": 0,
     "length": 20,
     "lifetime": 15,
-    "colorFrom": "79F2EEFF",
-    "colorTo": "6A97D9AA",
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
     "cone": 360
 	},
 	"status": "freezing",
@@ -59,7 +61,7 @@
 		   
 	},
 	"requirements": [
-        "titanium/400",
+        "astrolite/400",
         "silicon/450",
         "osmium/330"
 	],

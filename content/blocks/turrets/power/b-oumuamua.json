@@ -28,8 +28,8 @@
     "sizeTo": 15,
     "length": 0,
     "lifetime": 80,
-    "colorFrom": "79F2EEFF",
-    "colorTo": "74C2E8FF",
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
     "cone": 360
 	},
 	"chargeBeginEffect": "none",
@@ -51,8 +51,8 @@
         "sizeTo": 50,
         "strokeFrom": 0,
         "strokeTo": 4,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
@@ -61,18 +61,18 @@
         "sizeTo": 50,
         "strokeFrom": 0,
         "strokeTo": 4,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
         "trailEffect": {
         "type": "ParticleEffect",
         "particles": 1,
         "length": 0,
         "lifetime": 28,
-        "sizeFrom": 28,
+        "sizeFrom": 18,
         "region": "exogenesis-plasma-back",
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFAA"
         },
         "trailChance": 1,
         "collides": true,
@@ -81,10 +81,10 @@
         "homingRange": 230,
         "homingPower": 0.0667,
         "splashDamageRadius": 94,
-        "splashDamage": 106,
-        "frontColor": "F2FFF3FF",
-        "backColor": "84F491FF",
-	    "fragBullets": 8,
+        "splashDamage": 156,
+        "frontColor": "A9D8FFFF",
+        "backColor": "66B1FFFF",
+	    "fragBullets": 12,
 	    "fragCone": 360,
 	    "fragBullet": {
         "type": "BasicBulletType",
@@ -100,8 +100,8 @@
         "lifetime": 24,
         "sizeFrom": 10,
         "region": "exogenesis-plasma-back",
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFAA"
         },
         "absorbable": true,
         "speed": 4,
@@ -119,8 +119,8 @@
         "sizeTo": 20,
         "strokeFrom": 0,
         "strokeTo": 4,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
@@ -129,11 +129,11 @@
         "sizeTo": 20,
         "strokeFrom": 0,
         "strokeTo": 4,
-        "colorFrom": "79F2EEFF",
-        "colorTo": "74C2E8FF"
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
         },
-        "frontColor": "F2FFF3FF",
-        "backColor": "84F491FF"
+        "frontColor": "A9D8FFFF",
+        "backColor": "66B1FFFF"
 	    }
     },
     "requirements": [

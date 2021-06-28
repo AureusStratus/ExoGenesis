@@ -8,7 +8,7 @@
 "rotateSpeed": 0,
 "shootCone": 360,
 "range": 200,
-"shootLength": -6,
+"shootLength": 0,
 "heatColor": "bbdefb",
 "cooldown": 0.030,
 "size": 3,
