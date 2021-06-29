@@ -13,7 +13,6 @@
         "ammoResupplyAmount": 40,
         "rotateShooting": false,
         "lightRadius": 200,
-        "drawShield": false,
         "rotateSpeed": 1,
         "crashDamageMultiplier": 18,
         "payloadCapacity": 16484,
