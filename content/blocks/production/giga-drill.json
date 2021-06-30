@@ -5,7 +5,7 @@
 	"size": 9,
 	"tier": 14,
 	"rotateSpeed": 4,
-	"drillTime": 125,
+	"drillTime": 35,
 	"liquidBoostIntensity": 1.4,
 	"drawRim": true,
 	"warmupSpeed": 0.0478,
