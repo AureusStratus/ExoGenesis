@@ -17,6 +17,7 @@
 "requirements": [
   "silicon/450",
   "thorium/240",
+  "xanium/500",
   "phase-fabric/185",
   "plastanium/265"
   ]
