@@ -8,7 +8,7 @@
 	"size": 9,
 	"lightColor": "B3F7FFFF",
 	"baseExplosiveness": 90000000,
-    "explosionRadius": 1000,
+    "explosionRadius": 70000,
     "explosionDamage": 90000000,
 	"hasLiquids": true,
 	"powerProduction": 2000,
