@@ -1,12 +1,13 @@
 {
 "localizedName": "Ragnarok Device",
 "description":"[purple]A massive doomsday device that can take out enemies from across the map with a pulse of dark energy, it requires lots of power to work and it will also heal damaged blocks",
-"details": "Bring upon us the end of days. \n \n \n [yellow]Note: hiting blocks may cuases the pulse wave to bug out.",
+"details": "Bring upon us the end of days. \n \n \n [yellow]Note: hiting blocks might cuases the pulse wave to bug out.",
 "health": "8789000",
 "type": "powerTurret",
 "reloadTime": 740,
 "recoilAmount": 0,
 "rotateSpeed": 0,
+"coolantMultiplier": 0.4,
 "shootCone": 720,
 "range": 1800,
 "shootLength": 0,
@@ -43,7 +44,7 @@
     "lifetime": 1000,
     "knockback": 0,
     "ammoMultiplier": 4,
-    "damage": 12000,
+    "damage": 13600,
     "frontColor": "FFFFFF",
     "backColor": "9B61FFFF",
     "hitEffect": {
@@ -61,9 +62,9 @@
     "smokeEffect": "none",
     "incendChance": 0,
     "status": {
-      "localizedName": "chaos blasted",
+      "localizedName": "Chaos Blasted",
       "name": "choas",
-      "description": "you have been hit with chaotic energy",
+      "description": "You have been hit with chaotic energy.",
       "effect": {
       "type": "ParticleEffect",
       "line": true,
@@ -84,11 +85,12 @@
     }
 },
 "requirements": [
-    "surge-alloy/2750",
-    "phase-fabric/4600",
-	"xanium/4000",
-    "primal-red/4200",
-    "quantux/8000",
+    "surge-alloy/3750",
+    "phase-fabric/4000",
+	"xanium/3600",
+	"plastanium/4500",
+    "primal-red/3200",
+    "quantux/6000",
 	"titanium/5000",
 	"osmium/4300"
 ],
