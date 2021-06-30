@@ -6,7 +6,7 @@
 "health": 3000,
 "liquidCapacity": 4500,
 "research": "liquid-tank",
-"category": "effect",
+"category": "liquids",
 "requirements": [
   "osmium/700",
   "thorium/200",
