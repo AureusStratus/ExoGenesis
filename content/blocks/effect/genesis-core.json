@@ -7,7 +7,7 @@
 	"itemCapacity": 19500,
 	"unitCapModifier": 30,
     "researchCostMultiplier": 0.06,
-    "unitType": "omni",
+    "unitType": "constellation",
 	"requirements": [
 		{ "item": "silicon", "amount": 4200 },
 		{ "item": "surge-alloy", "amount": 7000 },

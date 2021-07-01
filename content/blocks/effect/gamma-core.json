@@ -8,7 +8,7 @@
 	"itemCapacity": 25000,
 	"unitCapModifier": 32,
     "researchCostMultiplier": 0.06,
-    "unitType": "commander",
+    "unitType": "guardian",
 	"requirements": [
 		{ "item": "silicon", "amount": 4200 },
 		{ "item": "surge-alloy", "amount": 7000 },

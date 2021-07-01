@@ -7,7 +7,7 @@
 	"itemCapacity": 16500,
 	"unitCapModifier": 60,
     "researchCostMultiplier": 0.06,
-    "unitType": "divinus",
+    "unitType": "asgard",
 	"requirements": [
 		{ "item": "silicon", "amount": 4200 },
 		{ "item": "surge-alloy", "amount": 7000 },
