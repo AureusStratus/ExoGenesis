@@ -1,0 +1,103 @@
+{
+        "localizedName": "Asgard",
+    	"description": "[gold]The defender of the divinity core. A fast core unit equipped with energy orb attack to defend its core. Has a small force shield and can command a large amount of units.",
+        "speed": 1.7,
+     	"isCounted": false,
+     	"lowAltitude": true,
+        "mineSpeed": 6,
+        "buildSpeed": 2.5,
+        "mineTier": 4,
+        "itemCapacity": 110,
+        "accel": 0.03,
+        "drag": 0.02,
+        "flying": true,
+        "health": 1280,
+        "hitSize": 23,
+        "armor": 6,
+        "engineOffset": 10.5,
+        "range": 140,
+        "targetAir": true,
+        "commandLimit": 18,
+        "faceTarget": true,
+	    "weapons": [
+	   {
+  "name": "asguard-weapon",
+    "shootCone": 15,
+    "mirror": false,
+    "alternate": false,
+    "x": 0,
+    "y": 0,
+    "shootY": 8,
+    "reload": 88,
+    "recoil": 0.5,
+    "shootSound": "laser",
+    "bullet": {
+    "sprite": "exogenesis-plasma",
+    "shootEffect": {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 15,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "f3e979",
+    "colorTo": "D99F6BFF"
+    },
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 6,
+    "offset": 5,
+    "lifetime": 12,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "f3e979",
+    "colorTo": "D99F6BFF"
+    },
+    "despawnEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 6,
+    "offset": 5,
+    "lifetime": 12,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "f3e979",
+    "colorTo": "D99F6BFF"
+    },
+    "width": 17,
+    "height": 17,
+    "buildingDamageMultiplier": 0.05,
+    "lightning": 4,
+    "lightningDamage": 10,
+    "lightningLength": 10,
+    "lightningCone": 360,
+    "lightningLengthRand": 8,
+    "homingRange": 100,
+    "homingPower": 0.00678,
+    "homingDelay": 6.6,
+    "type": "BasicBulletType",
+    "shrinkX": 0.3,
+    "shrinkY": 0.3,
+    "damage": 30,
+    "speed": 4,
+    "frontColor": "f3e979",
+    "backColor": "f3e979",
+    "lifetime": 50
+			}
+		}
+     ],
+    "abilities": [
+        {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 40,
+            "regen": 3,
+            "max": 230,
+            "cooldown": 60
+            }
+        ]
+}
