@@ -52,7 +52,7 @@
     "maxRange": 60,
     "hitSound": "plasmaboom",
     "buildingDamageMultiplier": "0.2",
-    "sprite": "mine-bullet",
+    "sprite": "exogenesis-mine",
     "hitSize": 24,
     "splashDamage": 26,
     "splashDamageRadius": 60,
