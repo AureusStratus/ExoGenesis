@@ -1,6 +1,6 @@
 {
     "localizedName": "Stratosphere",
-    "description": "[blue]A prototype unit developed by the Genesuxians to aid in an on going galactic war. Equipped with cold plasma laser mounts that iflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
+    "description": "[blue]A prototype unit developed by the Genesuxians to aid in an on going galactic war. Equipped with cold plasma laser mounts that inflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
     "research": "assembly",
     "groundLayer": 75,
     "drawShields": false,
