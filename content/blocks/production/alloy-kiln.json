@@ -21,7 +21,7 @@
 		}
 	},
 	"requirements": [
-        "surge-alloy/100",
+        "surge-alloy/900",
         "plastanium/230",
         "titanium/320",
         "silicon/230",
