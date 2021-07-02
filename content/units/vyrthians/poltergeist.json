@@ -1,6 +1,6 @@
 {
         "localizedName": "Poltergeist",
-        "description": "[black]A large flying unit equipped with four soul energy laser that are used in combat",
+        "description": "[grey]A large flying unit equipped with four soul energy laser that are used in combat",
         "type": "flying",
         "research": "revenant",
         "speed": 0.92,
