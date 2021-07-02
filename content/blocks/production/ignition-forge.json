@@ -7,7 +7,7 @@
 	"hasItems": true,
 	"itemCapacity": 10,
 	"flameColor": "ffc099",
-	"craftTime": 30,
+	"craftTime": 40,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
@@ -25,5 +25,5 @@
 	],
 	"category": "crafting",
 	"research": "graphite-press",
-	"outputItem": "volcanite/1"
+	"outputItem": "volcanite/2"
 }
