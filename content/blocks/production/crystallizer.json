@@ -7,7 +7,7 @@
 	"hasItems": true,
 	"itemCapacity": 10,
 	"flameColor": "B7B9C2FF",
-	"craftTime": 30,
+	"craftTime": 40,
 	"craftEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -36,5 +36,5 @@
 	],
 	"category": "crafting",
 	"research": "graphite-press",
-	"outputItem": "astrolite/1"
+	"outputItem": "astrolite/2"
 }
