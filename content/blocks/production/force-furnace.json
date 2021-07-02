@@ -7,7 +7,7 @@
 	"hasItems": true,
 	"itemCapacity": 10,
 	"flameColor": "B7B9C2FF",
-	"craftTime": 30,
+	"craftTime": 40,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
@@ -25,5 +25,5 @@
 	],
 	"category": "crafting",
 	"research": "graphite-press",
-	"outputItem": "vytama/1"
+	"outputItem": "vytama/2"
 }
