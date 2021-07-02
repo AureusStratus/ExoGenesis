@@ -10,7 +10,7 @@
     "unitType": "asgard",
 	"requirements": [
 		{ "item": "silicon", "amount": 4200 },
-		{ "item": "surge-alloy", "amount": 7000 },
+		{ "item": "surge-alloy", "amount": 3000 },
 		{ "item": "thorium", "amount": 4900},
 		{ "item": "osmium", "amount": 6000 },
 		{ "item": "alpha-yellow", "amount": 1000 }
