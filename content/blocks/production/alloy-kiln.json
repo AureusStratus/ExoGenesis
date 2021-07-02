@@ -15,7 +15,7 @@
 			"items": [
                "silicon/9",
                "titanium/6",
-               "copper/10",
+               "copper/8",
                "lead/8"
 			]
 		}
@@ -29,5 +29,5 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": "surge-alloy/4"
+	"outputItem": "surge-alloy/6"
 }
