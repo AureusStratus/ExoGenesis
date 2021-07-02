@@ -153,7 +153,7 @@
                 "shrinkY": 0.2,
                 "speed": 3,
                 "drag" : 0.04,
-                "fragBullets": 20,
+                "fragBullets": 5,
 			    "fragBullet": {
 				"damage": 15,
 				"speed": 4,
