@@ -2,7 +2,7 @@
         "localizedName": "Wraith",
         "research": "dagger",
         "type": "flying",
-	    "description": "[black]A small and fast unit created by the vyrthians. fires soul energy orb at enemies",
+	    "description": "[grey]A small and fast unit created by the vyrthians. fires soul energy orb at enemies",
         "lowAltitude": true,
         "speed": 2.2,
         "accel": 0.3,
