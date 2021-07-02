@@ -15,7 +15,7 @@
 		"power": 2,
 		"items": {
 			"items": [
-				{"item": "osmium", "amount": 8},
+				{"item": "silicon", "amount": 8},
 				{"item": "plastanium", "amount": 10}
 			]
 		}
