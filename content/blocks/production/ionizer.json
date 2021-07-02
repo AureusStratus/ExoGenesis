@@ -20,7 +20,7 @@
     "colorTo": "FFFFFFFF",
     "colorFrom": "C2FF70FF"
     },
-	"craftTime": 30,
+	"craftTime": 40,
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
@@ -37,5 +37,5 @@
 	],
 	"category": "crafting",
 	"research": "graphite-press",
-	"outputItem": "valvanite/1"
+	"outputItem": "valvanite/2"
 }
