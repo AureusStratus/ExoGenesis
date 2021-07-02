@@ -1,7 +1,7 @@
 {
         "localizedName": "Reaper",
         "type": "flying",
-        "description": "[black] The executioner class titan unit. The reaper is a massive flying air unit that has a power soul energy ability capable of dealing massive damage all around it, it also has four small soul energy orb guns and two bigger ones, and it has rea0ers sword cannon that can peirce through units and structures",
+        "description": "[grey] The executioner class titan unit. The reaper is a massive flying air unit that has a power soul energy ability capable of dealing massive damage all around it, it also has four small soul energy orb guns and two bigger ones, and it has rea0ers sword cannon that can peirce through units and structures",
         "details": "Kill them all",
         "singleTarget": true,
         "drawShields": false,
