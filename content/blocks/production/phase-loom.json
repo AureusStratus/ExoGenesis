@@ -26,10 +26,11 @@
     "silicon/450",
     "titanium/400",
     "lead/300",
+    "osmium/700",
     "thorium/300",
-    "phase-fabric/200"
+    "phase-fabric/800"
 	],
 	"category": "crafting",
 	"research": "phase-weaver",
-	"outputItem": "phase-fabric/4"
+	"outputItem": "phase-fabric/6"
 }
