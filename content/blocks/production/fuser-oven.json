@@ -6,7 +6,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"craftTime": 30,
+	"craftTime": 40,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 1,
@@ -35,5 +35,5 @@
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
-	"outputItem": "oltuxium/1"
+	"outputItem": "oltuxium/2"
 }
