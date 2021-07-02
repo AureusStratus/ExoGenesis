@@ -7,7 +7,7 @@
 	"hasItems": true,
 	"itemCapacity": 10,
 	"flameColor": "C3A0FFFF",
-	"craftTime": 30,
+	"craftTime": 40,
 	"craftEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -36,5 +36,5 @@
 	],
 	"category": "crafting",
 	"research": "silicon-smelter",
-	"outputItem": "vurtimite/1"
+	"outputItem": "vurtimite/2"
 }
