@@ -1,7 +1,7 @@
 {
         "localizedName": "Revenant",
         "type": "flying",
-	    "description": "[black] a much more durable upgrade to the ghoul unit thats now equipped with soul energy rockets",
+	    "description": "[grey] a much more durable upgrade to the ghoul unit thats now equipped with soul energy rockets",
         "research": "ghoul",
         "lowAltitude": true,
         "rotateSpeed": 2,
