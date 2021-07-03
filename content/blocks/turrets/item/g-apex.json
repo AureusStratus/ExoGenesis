@@ -69,7 +69,7 @@
         "gamma-green": {
 		"type" : "BasicBulletType",
 		"sprite" : "exogenesis-electric-pulse",
-		"damage": 1580,	
+		"damage": 3580,	
 		"absorbable": false,
 		"splashDamage" : 200,
 		"splashDamageRadius" : 96,	
@@ -157,9 +157,9 @@
         "plastanium": {
 		"type" : "BasicBulletType",
 		"sprite" : "exogenesis-electric-pulse",
-		"damage": 980,	
+		"damage": 1880,	
 		"absorbable": false,
-		"splashDamage" : 200,
+		"splashDamage" : 890,
 		"splashDamageRadius" : 260,	
 		"height" : 50,
 		"width" : 50,
