@@ -79,7 +79,7 @@
   "colors": ["74C2E8AA", "94FFFBFF", "ffffff"],
   "length": 1200,
   "width": 63,
-  "damage": 65000,
+  "damage": 85000,
   "lifetime": 24,
   "collidesTiles": true,
   "lightColor": "BF92F9FF",
