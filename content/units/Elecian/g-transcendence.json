@@ -149,7 +149,7 @@
       "hittable": false,
       "reflectable": false,
       "absorbable": true,
-      "sprite": "testers-plasma",
+      "sprite": "exogenesis-plasma",
       "homingPower": 0.0925,
       "homingRange": 180,
       "homingDelay": 55,
