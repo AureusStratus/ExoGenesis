@@ -55,7 +55,7 @@
       "shootType" : {
       "type": "ContinuousLaserBulletType",
       "colors": ["DE4136AA", "DE4136AA", "FF5845FF", "FFC1BBFF"],
-      "damage": 250,
+      "damage": 350,
       "width": 8,
       "length": 280,
       "hitEffect": {
