@@ -42,7 +42,7 @@
     "despawnEffect": "blastExplosion",
     "knockback": 0.8,
     "lifetime": 70,
-    "damage": 37,
+    "damage": 77,
     "buildingDamageMultiplier": 0.05,
     "status": "blasted",
     "statusDuration": 80,
