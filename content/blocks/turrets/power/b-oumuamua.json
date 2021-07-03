@@ -41,7 +41,7 @@
         "statusDuration": 1000,
         "speed": 4,
         "lifetime": 280,
-        "damage": 1885,
+        "damage": 5885,
         "height": 28,
         "width": 28,
         "hitEffect": {
@@ -92,7 +92,7 @@
         "status": "freezing",
         "statusDuration": 1000,
         "splashDamageRadius": 30,
-        "splashDamage": 106,
+        "splashDamage": 176,
         "trailEffect": {
         "type": "ParticleEffect",
         "particles": 1,
@@ -106,7 +106,7 @@
         "absorbable": true,
         "speed": 4,
         "lifetime": 120,
-        "damage": 120,
+        "damage": 620,
         "homingRange": 200,
         "homingPower": 0.0767,
         "trailChance": 1,
