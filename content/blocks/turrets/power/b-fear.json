@@ -50,9 +50,9 @@
 	"shootType": {
 		"type" : "BasicBulletType",
 		"sprite" : "exogenesis-plasma",
-		"damage": 700,	
+		"damage": 1200,	
 		"absorbable": false,
-		"splashDamage" : 80,
+		"splashDamage" : 180,
 		"splashDamageRadius" : 96,	
 		"height" : 36,
 		"width" : 36,
@@ -139,7 +139,7 @@
      	"fragCone": 50,
 		"fragBullet": {
       "type": "ContinuousLaserBulletType",
-      "damage": 90,
+      "damage": 120,
       "width": 6,
       "lifetime": 70,
       "length": 100,
