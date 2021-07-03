@@ -1,5 +1,5 @@
 {
-        "localizedName": "Gaurdian",
+        "localizedName": "Guardian",
     	"description": "[acid]The defender of the quantum core. Can command large amounts of units and has an unmatched mining speed. Can deploy gamma bombs that slows enemies.",
         "speed": 1.8,
      	"isCounted": false,
