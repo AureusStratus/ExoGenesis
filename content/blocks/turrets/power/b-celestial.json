@@ -62,7 +62,7 @@
         "lightningLengthRand": 5,
         "lightningLength": 2,
         "lifetime": 300,
-        "damage": 2785,
+        "damage": 6785,
         "height": 55,
         "width": 55,
         "shootEffect": {
@@ -126,7 +126,7 @@
         "width": 23,
         "fromColor": "A9D8FFFF",
         "toColor": "66B1FFFF",
-        "damage": 570
+        "damage": 870
 	    }
     },
     "requirements": [
