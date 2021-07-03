@@ -54,7 +54,7 @@
         "pierce": false,
         "speed": 6,
         "lifetime": 120,
-        "damage": 480,
+        "damage": 1280,
         "height": 48,
         "width": 20,
         "shootEffect": {
@@ -89,7 +89,7 @@
         "absorbable": true,
         "speed": 4,
         "lifetime": 120,
-        "damage": 100,
+        "damage": 600,
         "homingRange": 200,
         "homingPower": 0.0667,
         "height": 12,
