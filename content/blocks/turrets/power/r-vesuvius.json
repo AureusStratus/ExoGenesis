@@ -86,7 +86,7 @@
 },
 	"consumes": {
 		"liquid": {
-			"liquid": "cryofluid",
+			"liquid": "osmilium-liquid",
 			"update": true,
 			"amount": 1.2
 		}
