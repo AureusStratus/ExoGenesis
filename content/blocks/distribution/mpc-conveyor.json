@@ -1,16 +1,38 @@
 {
 "localizedName": "MPC Conveyor",
-"description": "The ultimate resource transportation, it can carry 100 items at a time. \n[red]Warning do not directly connect to plastanium conveyor.",
+"description": "M.P.C. Mass production transportation. Can carry 100 items at a time. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 100 stacks.",
 "type": "StackConveyor",
+"loadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "A9D8FFFF",
+"colorTo": "66B1FFFF"
+},
+"unloadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "A9D8FFFF",
+"colorTo": "66B1FFFF"
+},
 "health": 300,
 "speed": 0.10,
 "itemCapacity": 100,
     "requirements": [
-		{ "item": "titanium", "amount": 5 },
-		{ "item": "surge-alloy", "amount": 2 },
-		{ "item": "omega-blue", "amount": 2 },
-		{ "item": "phase-fabric", "amount": 2 },
-		{ "item": "silicon", "amount": 5 }
+        "surge-alloy/3",
+        "silicon/10",
+        "omega-blue/5"
     ],
 "research": "plastanium-conveyor",
 "category": "distribution"
