@@ -1,7 +1,7 @@
 {    
     "type": "ForceProjector",
-    "description": "A large shield projector that has much more health then a normal force projector.",
-    "localizedName": "Bunker",
+    "description": "[acid]A powerful shield projector that can provide excellent defence.",
+    "localizedName": "Bunker Dome",
     "health": 1800,
     "shieldHealth": 20000,
     "size": 6,
@@ -14,10 +14,9 @@
     "phaseRadiusBoost": 100,
     "solid": true,
     "radius": 200,
-    "cooldownNormal": 2.25,
-    "cooldownLiquid": 2.8,
-    "cooldownBrokenBase": 0.6,
-    "basePowerDraw": 5,
+    "cooldownNormal": 2.12,
+    "cooldownLiquid": 1.7,
+    "cooldownBrokenBase": 2.35,
     "consumes": {
       "power": 26,
       "items": {
@@ -30,7 +29,7 @@
     },
     "requirements": [
         "phase-fabric/500",
-        "gamma-green/100",
+        "xanium/300",
         "plastanium/430",
         "titanium/300",
         "silicon/730",
