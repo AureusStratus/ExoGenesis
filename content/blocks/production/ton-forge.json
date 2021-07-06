@@ -16,8 +16,8 @@
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 3},
-				{"item": "titanium", "amount": 8},
-				{"item": "lead", "amount": 10}
+				{"item": "titanium", "amount": 2},
+				{"item": "lead", "amount": 6}
 			]
 		}
 	},
