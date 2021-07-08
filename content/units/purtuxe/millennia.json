@@ -42,7 +42,7 @@
     "colorFrom": "FFFFFF",
     "colorTo": "A170F4FF"
     },
-    "sapStrength": 2,
+    "sapStrength": 0.5,
     "length": 120,
     "damage": 78,
     "hitColor": "A170F4FF",
