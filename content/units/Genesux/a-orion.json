@@ -1,7 +1,13 @@
 {
     "localizedName": "Orion",
     "description": "[blue]A small and fast unit created by the Genesuxians, equipped with a cold plasma laser that can deal some heavy damage",
-    "research": "dagger",
+    "research": {
+    "parent": "GenFactory",
+    "requirements": [
+    "astrolite/100",
+    "silicon/200"
+    ]
+    },
     "commandLimit": 5,
     "type": "legs",
 	"speed": 0.52,

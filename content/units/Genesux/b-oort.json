@@ -1,7 +1,15 @@
 {
     "localizedName": "Oort",
     "description": "[blue]Fires a laser of cold energy at enemies also fires cold plasma orbs at enemies that bursts in to cold lightning. Uses a strong force shield and can also heal nearby allies",
-    "research": "b-kuiper",
+    "research": {
+    "parent": "b-kuiper",
+    "requirements": [
+    "astrolite/500",
+    "plastanium/400",
+    "lead/640",
+    "silicon/800"
+    ]
+    },
     "groundLayer": 75,
     "drawShields": false,
     "type": "legs",

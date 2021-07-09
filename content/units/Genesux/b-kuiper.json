@@ -1,9 +1,16 @@
 {
     "localizedName": "Kuiper",
-    "description": "[blue] Equipped with cold plasma laser and a cold lightning orb launcher. Is quite durable",
+    "description": "[blue]Equipped with cold plasma laser and a cold plasma orb launcher. Is quite durable.",
     "type": "legs",
     "groundLayer": 75,
-    "research": "b-galileo",
+    "research": {
+    "parent": "b-galileo",
+    "requirements": [
+    "astrolite/300",
+    "lead/340",
+    "silicon/400"
+    ]
+    },
 	"speed": 0.34,
 	"hitSize": 25,
 	"health": 2600,

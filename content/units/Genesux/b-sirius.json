@@ -1,7 +1,16 @@
 {
     "localizedName": "Sirius",
     "description": "[blue]Equipped with cold plasma laser mounts that iflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
-    "research": "b-oort",
+    "research": {
+    "parent": "b-oort",
+    "requirements": [
+    "astrolite/820",
+    "surge-alloy/700",
+    "plastanium/740",
+    "lead/940",
+    "silicon/1000"
+    ]
+    },
     "groundLayer": 75,
     "drawShields": false,
     "maxRange": 220,

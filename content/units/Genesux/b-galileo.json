@@ -1,8 +1,15 @@
 {
     "localizedName": "Galileo",
-    "description": "[blue]Equipped with cold plasma bolters that fires rapidly",
+    "description": "[blue]Equipped with cold plasma bolters that rapidly fire.",
     "type": "legs",
-    "research": "a-orion",
+    "research": {
+    "parent": "a-orion",
+    "requirements": [
+    "astrolite/300",
+    "lead/340",
+    "silicon/400"
+    ]
+    },
 	"speed": 0.5,
 	"hitSize": 12,
 	"health": 890,

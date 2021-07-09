@@ -1,7 +1,17 @@
 {
     "localizedName": "Rigel",
     "description": "[blue] The gun platform class of the titan units, equipped with two cold plasma cannon that fragment in to smaller pieces apon impact, is qlso equipped with cold plasma gunners aswell. Protects its self and nearby allies with a large and powerful force shield",
-    "research": "b-sirius",
+    "research": {
+    "parent": "b-sirius",
+    "requirements": [
+    "astrolite/1220",
+    "surge-alloy/1000",
+    "plastanium/940",
+    "surge-alloy/850",
+    "osmium/1240",
+    "silicon/1300"
+    ]
+    },
     "details": "Show them what the power of a far away star can do",
     "groundLayer": 75,
     "singleTarget": true,

@@ -1,23 +1,29 @@
 {
-        "localizedName": "Majoris",
-        "research": "dagger",
-        "type": "flying",
-	    "description": "[blue]A nimble and fast air created by the genesuxians, this air unit that can shoot shock bullets and is most strongest in large numbers",
-        "lowAltitude": true,
-        "speed": 1.4,
-        "accel": 0.1,
-        "drag": 0.02,
-        "flying": true,
-        "health": 300,
-        "hitSize": 12,
-        "armor": 1,
-        "itemCapacity": 10,
-        "engineOffset": 6,
-        "range": 100,
-        "targetAir": true,
-        "commandLimit": 8,
-        "faceTarget": true,
-	    "weapons": [
+    "localizedName": "Majoris",
+    "research": {
+    "parent": "GenFactory",
+    "requirements": [
+    "astrolite/100",
+    "silicon/200"
+    ]
+    },
+    "type": "flying",
+	"description": "[blue]A nimble and fast air created by the genesuxians, this air unit that can shoot shock bullets and is most strongest in large numbers.",
+    "lowAltitude": true,
+    "speed": 1.4,
+    "accel": 0.1,
+    "drag": 0.02,
+    "flying": true,
+    "health": 300,
+    "hitSize": 12,
+    "armor": 1,
+    "itemCapacity": 10,
+    "engineOffset": 6,
+    "range": 100,
+    "targetAir": true,
+    "commandLimit": 8,
+    "faceTarget": true,
+	"weapons": [
 	   {
     "name": "majoris-weapon",
     "shootCone": 15,
