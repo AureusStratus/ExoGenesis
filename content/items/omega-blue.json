@@ -1,10 +1,16 @@
 {
     "localizedName": "Omega Metal",
-    "description": "A metal used for advanced weaponry, transportation and various structures.",
+    "description": "A metal used for advanced weaponry, transportation and various structures. Contains a cold energy",
     "details": "A metal that was used by the genesuxians to create various structures and powerful weaponry",
     "cost": 7,
     "hardness": 8,
     "charge": 0.3,
     "color": "5DCBF3FF",
-    "research": "surge-alloy"
+    "research": {
+        "parent": "surge-alloy",
+        "requirements": [
+        "astrolite/200",
+        "surge-alloy/300"
+        ]
+    }
 }
