@@ -7,8 +7,8 @@ A mod that adds a lot more content to the game.
 ## The mod adds: 
 `Items`: 19
 <br>`maps`: 2
-<br>`Blocks`: 185
-<br>`Turrets`: 86
+<br>`Blocks`: 194
+<br>`Turrets`: 91
 <br>`units`: 91
 
 ## Mod races/factions 
