@@ -1,0 +1,85 @@
+{
+	"type": "PowerTurret",
+	"localizedName": "Corroder",
+	"description": "[acid]Shoots gamma energy bullets at enemies that. Also peirces.",
+	"size": 4,
+	"health": 880,
+	"reloadTime": 10,
+	"range": 200,
+	"inaccuracy": 2,
+	"alternate": true,
+    "shots": 2,
+	"shootEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 10,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "C2FF70FF",
+    "colorTo": "739959FF"
+	},
+	"targetAir" : true, 
+	"spread": 13,
+	"targetGround" : true,
+	"recoilAmount" : 1.5,
+	"restitution" : 0.04, 
+	"rotateSpeed": 3,
+	
+	"shootSound" : "lasershoot",
+	"powerUse": 30,
+	"hasPower" : true,
+	"shootType": {
+	"type" : "BasicBulletType",
+	"sprite" : "exogenesis-armored-bullet",
+	"status": "corroded",
+	"damage": 50,
+	"height" : 18,
+	"width" : 18,
+	"hitSize": 10,
+	"speed": 4,
+	"lifetime" : 50,
+	"shrinkX": 0,
+	"shrinkY": 0,
+	"hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "739959FF",
+    "colorTo": "C2FF70FF"
+	},
+	"despawnEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "739959FF",
+    "colorTo": "C2FF70FF"
+	},
+	"pierce": true,
+	"frontColor": "C2FF70FF",
+	"backColor": "739959FF"
+		
+	},
+
+	"requirements": [
+		 "thorium/700",
+		 "plastanium/350",
+		 "xanium/220",
+		 "titanium/400",
+		 "silicon/440"
+	],
+	"category": "turret",
+	"research": "g-discharger"
+}
