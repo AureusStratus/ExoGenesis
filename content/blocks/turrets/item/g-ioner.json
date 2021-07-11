@@ -67,6 +67,7 @@
         },
         "frontColor": "C2FF70FF",
         "backColor": "739959FF"
+            }
     },
     "requirements": [
         "valvanite/20",
