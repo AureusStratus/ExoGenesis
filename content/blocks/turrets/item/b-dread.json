@@ -197,8 +197,7 @@
 	"requirements": [
         "thorium/480",
         "epsilon-black/600",
-        "sand/500",
-        "sand/420",
+        "osmium/500",   
         "surge-alloy/870",
         "titanium/900",
         "silicon/1000",
