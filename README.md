@@ -14,7 +14,7 @@ A mod that adds a lot more content to the game.
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
 
-`Credits to Đuvent for making the new lore of the factions`
+`Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
 `Vyrthia`: Ruthless Beings witha Dictatorship ruling the planet, they show no mercy, heartless and will kill anything, have developed very advanced weapons that are powerful, they are strong and are hard to deal with, be careful as they are very deadly
 
