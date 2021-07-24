@@ -10,7 +10,7 @@
     "size": 1,
     "requirements": [
         "metaglass/3",
-        "phase-fabric/6"
+        "plastanium/6"
     ],
     "category": "defense",
     "research": "plastanium-wall"
