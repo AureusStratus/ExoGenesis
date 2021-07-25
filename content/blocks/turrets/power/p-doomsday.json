@@ -44,7 +44,7 @@
     "lifetime": 1000,
     "knockback": 0,
     "ammoMultiplier": 4,
-    "damage": 13600,
+    "damage": 23000,
     "frontColor": "FFFFFF",
     "backColor": "9B61FFFF",
     "hitEffect": {
