@@ -23,7 +23,7 @@
 	"ammoTypes":	{
 	"epsilon-black": {
 	"type" : "pointBulletType",
-	"damage": 16190,
+	"damage": 36190,
 	"hitSound": "desolationimpact",
 	"hitShake": 10,
 	"trailEffect": { 
