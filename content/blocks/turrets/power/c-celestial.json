@@ -62,7 +62,7 @@
         "lightningLengthRand": 5,
         "lightningLength": 2,
         "lifetime": 300,
-        "damage": 2785,
+        "damage": 4785,
         "height": 55,
         "width": 55,
         "shootEffect": {
