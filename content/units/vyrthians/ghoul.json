@@ -2,7 +2,7 @@
         "localizedName": "Ghoul",
         "research": "wraith",
         "type": "flying",
-	    "description": "[greay]A small and fast unit equipped with a soul energy shotgun",
+	    "description": "[grey]A small and fast unit equipped with a soul energy shotgun",
         "lowAltitude": true,
         "speed": 1.7,
         "accel": 0.3,
