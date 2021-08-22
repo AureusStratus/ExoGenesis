@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Advancer Recontructor",
-	"description": "Upgrades units to titan class unit.",
+	"description": "Upgrades units to a higher tier.",
 	"details": "After the Sharded got invaded by a Genesuxian coloration fleet they soon realized they weren't alone anymore, They retrieving the remains of a fallen titan unit they soon created titans of there own.",
 	"size": 11,
 	"constructTime": 8000,
@@ -29,12 +29,13 @@
         "phase-fabric/780"
 	],
 	"upgrades": [
-        ["eclipse", "dusk"],
-        ["reign", "tyrant"],
-        ["toxopid", "xenoct"],
-		["oct", "deca"],
-		["omura", "balaenoptera"],
-        ["corvus", "beacon"]
+        ["eclipse", "twilight"],
+        ["reign", "king"],
+        ["toxopid", "toxicity"],
+		["oct", "hex"],
+		["omura", "orca"],
+		["navanax", "mariana"],
+        ["corvus", "stella"]
 	],
 	"category": "units",
 	"research": "tetrative-reconstructor"

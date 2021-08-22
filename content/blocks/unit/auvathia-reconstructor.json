@@ -1,25 +1,25 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Auvathia Recontructor",
-	"description": "Upgrades units to demi-god mechanical monsters.... may your enemies suffer",
+	"description": "Upgrades units to the titan tier.",
 	"size": 14,
-	"constructTime": 18000,
+	"constructTime": 6000,
 	"consumes": {
 		"power": 58,
 		"items": {
 			"items": [
-        "primal-red/8000",
-        "gamma-green/8000",
-        "alpha-yellow/8000",
-        "omega-blue/8000",
-        "quantux/8000",
-        "epsilon-black/8000",
-        "titanium/5600",
-        "plastanium/6320",
-        "silicon/9420",
-        "xanium/4230",
-        "surge-alloy/6570",
-        "osmium/4800"
+        "primal-red/2000",
+        "gamma-green/2000",
+        "alpha-yellow/2000",
+        "omega-blue/2000",
+        "rutuxium/2000",
+        "epsilon-black/2000",
+        "titanium/3600",
+        "plastanium/3320",
+        "silicon/4420",
+        "xanium/2230",
+        "surge-alloy/3570",
+        "osmium/3800"
 			]
 		}
 	},
@@ -35,12 +35,13 @@
         "lead/4000"
 	],
 	"upgrades": [
-		["proxima", "arcturus"],
-		["b-rigel", "b-sagittarius"],
-		["epoch", "p-primordial"],
+		["fusion", "collapse"],
+		["b-rigel", "betelgeuse"],
+		["altair", "arbiter"],
+		["epoch", "eternity"],
 		["6-apex", "matriarch"],
-		["g-transcendence", "h-war"],
-		["reaper", "nemesis"]
+		["contustion", "battle"],
+		["assault", "bloodshed"]
 	],
 	"category": "units",
 	"research": "ravthian-reconstructor"

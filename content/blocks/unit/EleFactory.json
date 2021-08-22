@@ -17,7 +17,7 @@
     "time": 480
   },
   {
-    "unit": "a-theory",
+    "unit": "conflict",
     	"requirements": [
 		{"item": "oltuxium", "amount": 30},
 		{"item": "silicon", "amount": 25}

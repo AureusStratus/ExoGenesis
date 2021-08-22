@@ -1,7 +1,7 @@
 {
 	"type": "Reconstructor",
 	"localizedName": "Ravthian Recontructor",
-	"description": "What did it cost?...", //a soul
+	"description": "What did it cost?...", 
 	"size": 11,
 	"constructTime": 3000,
 	"consumes": {
@@ -13,7 +13,7 @@
 				{"item": "primal-red", "amount": 1200},
 				{"item": "gamma-green", "amount": 1200},
 				{"item": "osmium", "amount": 1590},
-				{"item": "quantux", "amount": 1520},
+				{"item": "rutuxium", "amount": 1520},
 				{"item": "phase-fabric", "amount": 1720},
 				{"item": "silicon", "amount": 1520},
 				{"item": "plastanium", "amount": 2780}
@@ -32,14 +32,14 @@
 		["era", "epoch"],
 		["zoom", "hurtle"],
 		["b-sirius", "b-rigel"],
-		["centauri", "arbiter"],
-		["core", "proxima"],
+		["centauri", "altair"],
+		["core", "fusion"],
 		["mantle", "volcan"],
 		["organization", "government"],
 		["5-prime", "6-apex"],
-		["hostile", "bloodshed"],
+		["hostile", "assault"],
 		["moon", "earth"],
-		["f-apotheosis", "g-transcendence"],
+		["disaccord", "contention"],
 		["beast", "creature"],
 		["lich", "reaper"]
 	],
