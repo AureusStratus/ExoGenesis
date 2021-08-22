@@ -1,0 +1,84 @@
+{
+        "localizedName": "Dispute",
+	"description": "[gold] The upgrade to the conflict this unit is equipped with two bolters that shoot rapidly but do low damage",
+    "research": {
+    "parent": "conflict",
+    "requirements": [
+    "oltuxium/300",
+    "lead/340",
+    "silicon/400"
+    ]
+    },
+        "speed": 2.9,
+        "accel": 0.03,
+        "drag": 0.02,
+        "lowAltitude": true,
+        "flying": true,
+        "health": 780,
+        "hitSize": 9,
+        "armor": 4,
+        "engineOffset": 7.8,
+        "range": 140,
+        "targetAir": true,
+        "commandLimit": 8,
+        "faceTarget": true,
+	    "weapons": [
+	   {
+  "name": "surge-bolter",
+    "shootCone": 15,
+    "mirror": true,
+    "alternate": true,
+    "x": 5,
+    "y": 1.8,
+    "reload": 8,
+    "recoil": 1,
+    "shootSound": "sap",
+    "bullet": {
+    "shootEffect": "shootHealYellow",
+    "despawnEffect": "shootHealYellow",
+    "smokeEffect": none,
+    "hitEffect": "shootHealYellow",
+    "type": "LaserBoltBulletType",
+    "damage": 12,
+    "speed": 6,
+    "frontColor": "FFFFFFF",
+    "backColor": "F3E979FF",
+    "lifetime": 35
+    }
+  },
+  {
+    "name": "surge-missile",
+    "shootCone": 15,
+    "mirror": false,
+    "top": true,
+    "x": 0,
+    "y": -2.3,
+    "reload": 18,
+    "recoil": 2,
+    "shootSound": "missile",
+    "bullet": {
+    "keepVelocity": false,
+    "type": "MissileBulletType",
+    "shootEffect": "shootHealYellow",
+    "damage": 25,
+    "speed": 5,
+    "keepVelocity": false,
+   "frontColor": "FFFFFFF",
+    "backColor": "F3E979FF",
+    "trailColor": "ECD36FFF",
+    "lifetime": 55,
+  	"homingPower": 1,
+	"homingRange": 80,
+	"weaveScale": 5,			
+	"weaveMag": 2,
+	"splashDamageRadius": 10,
+	"splashDamage": 8,			
+    "lightning": 3,
+    "lightningDamage": 3,
+    "lightningLength": 5,
+    "lightningCone": 360,
+    "lightningLengthRand": 8
+			}
+		}
+	]
+}

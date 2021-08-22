@@ -1,8 +1,14 @@
 {
 "name": "Challenge",
-"research": "dagger",
+"research": {
+"parent": "dagger",
+"requirements": [
+"oltuxium/100",
+"silicon/200"
+]
+},
 "controller": "SuicideAI",
-"description": "[gold] a fast small unit that will explode when near any structures or units when they get close in shack explosion",
+"description": "[gold]A fast small unit that will explode when near any structures or unit.",
 "type": "mech",
 "mechSideSway": 0.25,
 "armor": 1,

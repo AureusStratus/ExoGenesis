@@ -1,13 +1,22 @@
 {
     "localizedName": "Hostile",
-    "description": "[gold] The hostile is equipped with two powerful shotguns and a rocket launcher and its flame thrower is much more stronger and has more range and it is equipped with a low health shield",
-    "research": "combat",
+    "description": "[gold]The hostile is equipped with two powerful shotguns and a rocket launcher and its flame thrower is more stronger and has more range. Has a low health shield",
+    "research": {
+    "parent": "combat",
+    "requirements": [
+    "oltuxium/820",
+    "surge-alloy/700",
+    "plastanium/740",
+    "lead/940",
+    "silicon/1000"
+    ]
+    },
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",
 	"speed": 0.38,
 	"hitSize": 30,
-	"health": 34890,
+	"health": 54890,
 	"rotateSpeed": 2,
 	"faceTarget": true,
 	"armor": 23,
@@ -53,7 +62,6 @@
     "shootCone": 20,
 	"bullet": {
     "type": "BasicBulletType",
-    "buildingDamageMultiplier": -0.04,
     "collidesAir": true,
     "speed": 5,
     "damage": 70,
@@ -66,8 +74,9 @@
     "sizeTo": 0,
     "length": 180,
     "lifetime": 58,
-    "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "interp": "circleOut",
+    "colorFrom": "D99F6BFF",
+    "colorTo": "F3E979FF",
     "cone": 20
     },
     "smokeEffect": "none",
@@ -82,8 +91,9 @@
     "sizeTo": 0,
     "length": 20,
     "lifetime": 17,
+    "interp": "circleOut",
     "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "colorTo": "D99F6BFF",
     "cone": 360
 	},
 	"pierce": true,
@@ -106,21 +116,19 @@
     "spacing": 3,
     "shake": 2,
     "bullet": {
-    "buildingDamageMultiplier": -0.04,
-    "speed": 0.01,
     "damage": 105,
-    "width": 12,
     "pierce": "true",
     "type": "ShrapnelBulletType",
     "statusDuration": 60,
-    "status": "blasted",
+    "status": "shocked",
     "lifetime": 18,
     "length": 180,
+    "width": 14,
     "serrations": 4,
-    "fromColor": "FFFFFF",
-    "toColor": "F3E979FF",
+    "fromColor": "F3E979FF",
+    "toColor": "FFFFFFF",
     "shootEffect": "shootHealYellow",
-    "hitEffect": "overclocked"
+    "hitColor": "F3E979FF"
     }
   },
   {
@@ -128,6 +136,8 @@
     "shootCone": 25,
     "alternate": false,
     "mirror": false,
+    "rotate": true,
+    "rotateSpeed": 2,
     "top": true,
     "x": 0,
     "y": -7.5,
@@ -142,14 +152,13 @@
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
-    "keepVelocity": false,
-    "buildingDamageMultiplier": -0.35,
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",
     "damage": 45,
     "speed": 5,
-	"frontColor": "F3E979FF",
-    "backColor": "ECD36FFF",
+    "keepVelocity": true,
+	"frontColor": "FFFFFFF",
+    "backColor": "F3E979FF",
     "trailColor": "ECD36FFF",
     "lifetime": 90,
   	"homingPower": 1,
@@ -160,11 +169,11 @@
     "width": 8,
 	"splashDamageRadius": 30,
 	"splashDamage": 30,			
-    "lightning": 3,
-    "lightningDamage": 14,
-    "lightningLength": 10,
+    "lightning": 4,
+    "lightningDamage": 10,
+    "lightningLength": 4,
     "lightningCone": 360,
-    "lightningLengthRand": 8
+    "lightningLengthRand": 6
 			}
 		}
      ],
@@ -173,13 +182,13 @@
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "range" : 86,
             "reload" : 340,
-            "duration" : 485,
+            "duration" : 285,
             "effect": "overclock"
             },
         {
             "type": "mindustry.entities.abilities.ForceFieldAbility",
             "radius": 50,
-            "regen": 8,
+            "regen": 3,
             "max": 1000,
             "cooldown": 260
             }

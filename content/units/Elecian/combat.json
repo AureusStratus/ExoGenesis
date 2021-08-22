@@ -1,7 +1,15 @@
 {
     "localizedName": "Combat",
-    "description": "[gold] The combat is equipped with shock artillery guns and it can give surrounding units the overclock effect making them stronger",
-    "research": "strife",
+    "description": "[gold]The combat is equipped with shock artillery guns and it can give surrounding allies overclock making them stronger",
+    "research": {
+    "parent": "strife",
+    "requirements": [
+    "oltuxium/500",
+    "plastanium/400",
+    "lead/640",
+    "silicon/800"
+    ]
+    },
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",
@@ -50,7 +58,6 @@
     "shootCone": 20,
 	"bullet": {
     "type": "BasicBulletType",
-    "buildingDamageMultiplier": -0.03,
     "collidesAir": true,
     "speed": 5,
     "damage": 56,
@@ -63,8 +70,9 @@
     "sizeTo": 0,
     "length": 170,
     "lifetime": 58,
-    "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "interp": "circleOut",
+    "colorFrom": "D99F6BFF",
+    "colorTo": "F3E979FF",
     "cone": 20
     },
     "smokeEffect": "none",
@@ -79,8 +87,9 @@
     "sizeTo": 0,
     "length": 20,
     "lifetime": 15,
+    "interp": "circleOut",
     "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "colorTo": "D99F6BFF",
     "cone": 360
 	},
 	"pierce": true,
@@ -100,7 +109,6 @@
     "shootSound": "artillery",
     "shake": 2,
     "bullet": {
-    "buildingDamageMultiplier": -0.02,
     "type": "artilleryBulletType",
     "collides": true,
     "collidesTiles": true,
@@ -118,8 +126,9 @@
     "height": 14,
     "width": 14,
     "speed": 4,
+    "trailColor": "D99F6BFF",
     "frontColor": "F3E979FF",
-    "backColor": "F3E979FF",
+    "backColor": "D99F6BFF",
     "lifetime": 90
 			}
 		}
@@ -129,7 +138,7 @@
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "range" : 86,
             "reload" : 340,
-            "duration" : 485,
+            "duration" : 185,
             "effect": "overclock"
             }
     ]

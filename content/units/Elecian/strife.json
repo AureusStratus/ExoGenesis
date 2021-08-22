@@ -1,7 +1,14 @@
 {
     "localizedName": "Strife",
-    "description": "[gold] The strife is equipped with shock rockets and a much more power flame thrower",
-    "research": "disrespect",
+    "description": "[gold]The strife is equipped with shock rockets and a stronger power flame thrower",
+    "research": {
+    "parent": "disrespect",
+    "requirements": [
+    "oltuxium/300",
+    "lead/340",
+    "silicon/400"
+    ]
+    },
     "commandLimit": 8,
     "type": "legs",
 	"speed": 0.52,
@@ -45,7 +52,6 @@
     "shootCone": 25,
 	"bullet": {
     "type": "BasicBulletType",
-    "buildingDamageMultiplier": -0.03,
     "collidesAir": true,
     "speed": 5,
     "damage": 46,
@@ -58,8 +64,9 @@
     "sizeTo": 0,
     "length": 150,
     "lifetime": 45,
-    "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "interp": "circleOut",
+    "colorFrom": "D99F6BFF",
+    "colorTo": "F3E979FF",
     "cone": 20
     },
     "smokeEffect": "none",
@@ -74,8 +81,9 @@
     "sizeTo": 0,
     "length": 20,
     "lifetime": 15,
+    "interp": "circleOut",
     "colorFrom": "F3E979FF",
-    "colorTo": "FFFFFF",
+    "colorTo": "D99F6BFF",
     "cone": 360
 	},
 	"pierce": true,
@@ -95,13 +103,12 @@
     "bullet": {
     "keepVelocity": false,
     "type": "MissileBulletType",
-    "buildingDamageMultiplier": -0.03,
     "shootEffect": "shootHealYellow",
     "damage": 25,
-    "speed": 3,
+    "speed": 4,
 	"frontColor": "F3E979FF",
-    "backColor": "ECD36FFF",
-    "trailColor": "ECD36FFF",
+    "backColor": "D99F6BFF",
+    "trailColor": "D99F6BFF",
     "lifetime": 55,
   	"homingPower": 1,
 	"homingRange": 80,
