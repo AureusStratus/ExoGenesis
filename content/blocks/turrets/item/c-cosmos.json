@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.3,
-    "description": "A turret that fires cold plasma that shatter in to shrapnel on impact.",
+    "description": "[cyan]A turret that fires cold plasma that shatter in to shrapnel on impact.",
     "localizedName": "Cosmos",
     "size": 2,
     "health": 480,
@@ -21,7 +21,7 @@
     "ammoTypes": {
         "astrolite": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "circle-bullet",
         "absorbable": true,
         "shootEffect": {
         "type": "ParticleEffect",
@@ -40,10 +40,15 @@
         "speed": 5,
         "lifetime": 38,
         "damage": 37,
+        "trailColor": "66B1FFFF",
+        "trailParam": 5,
+        "trailLength": 6,
+        "trailWidth": 5,
+        "trailEffect": "none",
         "status": "freezing",
         "statusDuration": 30,
-        "height": 12,
-        "width": 12,
+        "height": 10,
+        "width": 10,
         "hitEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -70,7 +75,7 @@
         },
         "frontColor": "A9D8FFFF",
         "backColor": "66B1FFFF",
-		"fragBullets": 5,
+		"fragBullets": 3,
 		"fragCone": 60,
 		"fragBullet": {
         "type": "ShrapnelBulletType",
@@ -83,7 +88,7 @@
         "width": 20,
         "fromColor": "A9D8FFFF",
         "toColor": "66B1FFFF",
-        "damage": 30
+        "damage": 10
 		}
         }
     },

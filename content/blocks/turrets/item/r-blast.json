@@ -70,10 +70,10 @@
     "lightningLengthRand": 5,
     "lightningDamage": 7,
     "lightningAngleRand": 8,
-        "lightColor": "FF5845FF",
-        "lightningColor": "FF5845FF",
-        "shootEffect": "blastExplosion",
-       "colors": ["DE4136AA", "FF5845FF", "FFC1BBFF"]
+    "lightColor": "FF5845FF",
+    "lightningColor": "FF5845FF",
+    "shootEffect": "blastExplosion",
+    "colors": ["DE4136AA", "FF5845FF", "FFC1BBFF"]
     },
     "thorium": {
     "type": "LaserBulletType",

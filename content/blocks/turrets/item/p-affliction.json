@@ -1,6 +1,6 @@
 {
 "localizedName": "Affliction",
-"description": "[purple]Uses quantux to create triple beams that can pierce enemies and inflict enemies with quantux burn. Discharges purple lightning as well.",
+"description": "[purple]Uses rutuxium to create triple beams that can pierce enemies and inflict enemies with runic burn. Discharges purple lightning as well.",
 "details": "I might be coming down with something.",
 "type": "ItemTurret",
 "size": 7,
@@ -15,17 +15,17 @@
 "shots": 3,
 "targetAir": true,
 "targetGround": true,
-"heatColor": "5B4CB0FF",
+"heatColor": "A170F4FF",
 "recoilAmount": 4,
 "ammoTypes": {
-    "quantux": {
+  "rutuxium": {
   "type": "LaserBulletType",
-  "colors": ["BF92F9FF", "665C9FFF", "000000FF"],
+  "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
   "length": 290,
-  "width": 23,
+  "width": 30,
   "damage": 345,
   "collidesTiles": true,
-  "lightColor": "BF92F9FF",
+  "lightColor": "A170F4FF",
   "lightRadius": 10,
   "shootEffect": "sapExplosion",
   "smokeEffect": "smokeCloud",
@@ -39,7 +39,7 @@
   "lightningCone": 20,
   "lightningLengthRand": 13,
   "status": {
-    "localizedName": "Quantux Burn",
+    "localizedName": "Runic Burn",
     "name": "quantux-burn",
     "description": "Burns away atoms",
     "damage": 5,
@@ -51,11 +51,12 @@
   }
 },
     "requirements": [
-        "surge-alloy/580",
-        "thorium/460",
-		"osmium/850",
-		"silicon/600",
-		"quantux/430"
+    "surge-alloy/580",
+    "thorium/460",
+    "silicon/520",
+	"osmium/850",
+	"silicon/600",
+	"rutuxium/430"
     ],
     "category": "turret",
     "research": "p-rebound"

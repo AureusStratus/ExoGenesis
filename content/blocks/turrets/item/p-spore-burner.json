@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Combuster",
-	"description": "[purple]A flame thrower turret that uses spore primarly as its fuel source",
+	"localizedName": "Anomaly Flamer",
+	"description": "[purple]A flame thrower turret that uses vurtimite primarly as its fuel source",
 	"size": 1,
 	"health": 100,
 	"range": 50,
@@ -18,7 +18,7 @@
 	"shootSound": "flame2",
 
 	"ammoTypes": {
-    "spore-pod": {
+    "vurtimite": {
     "type": "BasicBulletType",
     "lightRadius": 0,
     "speed": 3,
@@ -27,43 +27,163 @@
     "height": 0.1,
     "collidesAir": true,
     "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
     "type": "ParticleEffect",
-    "particles": 7,
-    "offset": 8,
-    "sizeFrom": 3.5,
-    "sizeTo": 0,
+    "particles": 3,
+    "sizeFrom": 5.5,
+    "sizeTo": 3,
     "length": 60,
+    "cone": 16,
+    "lifetime": 34,
+    "interp": "circleOut",
+    "region": "exogenesis-rune1",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 1.4,
+    "sizeTo": 4.3,
+    "length": 60,
+    "cone": 16,
+    "lifetime": 38,
+    "interp": "circleOut",
+    "region": "exogenesis-rune13",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 3,
+    "sizeTo": 3,
+    "length": 60,
+    "cone": 16,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "region": "exogenesis-rune11",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 4,
+    "sizeTo": 4,
+    "length": 60,
+    "cone": 16,
+    "lifetime": 33,
+    "interp": "circleOut",
+    "region": "exogenesis-rune2",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 2,
+    "sizeTo": 2,
+    "length": 60,
+    "cone": 16,
     "lifetime": 35,
-    "colorFrom": "BF92F9FF",
-    "colorTo": "606166FF",
-    "cone": 15
+    "interp": "circleOut",
+    "region": "exogenesis-rune6",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    }
+    ]
     },
     "smokeEffect": "none",
     "hittable": false,
     "reflectable": false,
     "lifetime": 20,
-	"despawnEffect": "none",
-	"hitEffect": {
+	  "despawnEffect": "none",
+	  "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
     "type": "ParticleEffect",
-    "particles": 5,
-    "offset": 10,
+    "particles": 3,
+    "sizeFrom": 1,
+    "sizeTo": 1,
+    "length": 60,
+    "lifetime": 34,
+    "interp": "circleOut",
+    "region": "exogenesis-rune1",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 1.4,
+    "sizeTo": 2,
+    "length": 60,
+    "lifetime": 38,
+    "interp": "circleOut",
+    "region": "exogenesis-rune13",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
     "sizeFrom": 3,
-    "sizeTo": 0,
-    "length": 20,
-    "lifetime": 15,
-    "colorFrom": "BF92F9FF",
-    "colorTo": "606166FF",
-    "cone": 360
-	},
-	"status": "sapped",
-	"pierce": true,
-	"incendAmount": 5
-		    }
+    "sizeTo": 2,
+    "length": 60,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "region": "exogenesis-rune11",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 1,
+    "sizeTo": 1.5,
+    "length": 60,
+    "lifetime": 33,
+    "interp": "circleOut",
+    "region": "exogenesis-rune2",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "sizeFrom": 2,
+    "sizeTo": 2,
+    "length": 60,
+    "lifetime": 35,
+    "interp": "circleOut",
+    "region": "exogenesis-rune6",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    }
+    ]
+	  },
+	  "status": "sapped",
+	  "pierce": true
+		}
 	},
 	"requirements": [
-        "spore-pod/10",
-        "lead/400",
-        "graphite/320"
+  "vurtimite/20",
+  "lead/60",
+  "graphite/40"
 	],
 	"category": "turret",
 	"research": "duo"

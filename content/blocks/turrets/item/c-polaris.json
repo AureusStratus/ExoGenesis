@@ -1,6 +1,6 @@
 {
     "localizedName": "Polaris",
-    "description": "[blue]A railgun that primarily uses omega alloy, which it shoots at devastating speeds.",
+    "description": "[cyan]A railgun that primarily uses omega alloy, which it shoots at devastating speeds.",
     "details": "May god forgive you... but I won't.",
 	"type": "ItemTurret",
 	"size": 5,
@@ -37,20 +37,20 @@
             "particles": 1,
             "length": 0,
             "lifetime": 25,
-             "sizeFrom": 80,
-             "region": "exogenesis-blue-pierce",
-             "colorFrom": "A9D8FFFF",
-             "colorTo": "66B1FFFF"
+            "sizeFrom": 80,
+            "region": "exogenesis-blue-pierce",
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
             },
 			"updateEffect" : {
             "type": "ParticleEffect",
             "particles": 1,
             "length": 0,
             "lifetime": 25,
-             "sizeFrom": 20,
-             "region": "exogenesis-star-wide",
-             "colorFrom": "A9D8FFFF",
-             "colorTo": "66B1FFFF"
+            "sizeFrom": 20,
+            "region": "exogenesis-star-wide",
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
 			},
 			"hitEffect" : {
 	        "type": "MultiEffect",
@@ -97,10 +97,10 @@
             "particles": 1,
             "length": 0,
             "lifetime": 25,
-             "sizeFrom": 20,
-             "region": "exogenesis-star-wide",
-             "colorFrom": "A9D8FFFF",
-             "colorTo": "66B1FFFF"
+            "sizeFrom": 20,
+            "region": "exogenesis-star-wide",
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
             },
 			"fragBullets": 10,
 			"fragBullet": {
@@ -129,5 +129,5 @@
         "metaglass/500"
 	],
 	"category": "turret",
-	"research": "duo"
+	"research": "foreshadow"
 }

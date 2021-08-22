@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "A small turret that uses astrolite to fire cold plasma orbs at enemies.",
+    "description": "[cyab]A small turret that uses astrolite to fire cold plasma orbs at enemies.",
     "localizedName": "Astral",
     "size": 1,
     "health": 240,
