@@ -1,39 +1,49 @@
 {
-            "localizedName": "Epoch",
-            "description": "[purple] The sentinel class titan unit, the epoch it is equipped with two railguns and can create a long ranged focused beam of quantux energy, that can cut through unprotected defenses, it is also equipped with laser mounts to help in close range combat ",
-            "details": "The power of a dark energy technology at you finger tips",
-    "research": "era",
-            "groundLayer": 75,
-            "type": "legs",
-            "speed": 0.27,
-            "range": 700,
-            "hitSize": 84,
-            "rotateSpeed": 1.0,
-            "health": 405800,
-            "buildSpeed": 5,
-            "armor": 38,
-            "commandLimit": 9,
-            "legCount": 6,
-            "legGroupSize": 3,
-            "legPairOffset": 2,
-            "legMoveSpace": 0.6,
-            "legLength": 45,
-            "legExtension": -15,
-            "legBaseOffset": 14,
-            "legLengthScl": 0.96,
-            "landShake": 2.5,
-            "rippleScale": 4,
-            "legSpeed": 1.3,
+    "localizedName": "Epoch",
+    "description": "[purple] The sentinel class titan unit, the epoch it is equipped with two railguns and can create a long ranged focused beam of anomaly energy, that can cut through unprotected defenses, it is also equipped with laser mounts to help in close range combat ",
+    "details": "The power of a dark energy technology at you finger tips",
+    "research": {
+    "parent": "era",
+    "requirements": [
+    "vurtimite/1220",
+    "surge-alloy/1000",
+    "plastanium/940",
+    "rutuxium/850",
+    "osmium/1240",
+    "silicon/1300"
+    ]
+    },
+    "groundLayer": 75,
+    "type": "legs",
+    "speed": 0.27,
+    "range": 700,
+    "hitSize": 84,
+    "rotateSpeed": 1.0,
+    "health": 405800,
+    "buildSpeed": 5,
+    "armor": 38,
+    "commandLimit": 9,
+    "legCount": 6,
+    "legGroupSize": 3,
+    "legPairOffset": 2,
+    "legMoveSpace": 0.6,
+    "legLength": 45,
+    "legExtension": -15,
+    "legBaseOffset": 14,
+    "legLengthScl": 0.96,
+    "landShake": 2.5,
+    "rippleScale": 4,
+    "legSpeed": 1.3,
 
-            "legSplashDamage": 142,
-            "legSplashRange": 40,
+    "legSplashDamage": 142,
+    "legSplashRange": 40,
 
-            "hovering": true,
-            "allowLegStep": true,
-            "visualElevation": 0.95,
+    "hovering": true,
+    "allowLegStep": true,
+    "visualElevation": 0.95,
 
-          "weapons": [
-                    {
+    "weapons": [
+    {
    "name": "orbital-EB",
     "top": true,
     "mirror": true,
@@ -46,11 +56,11 @@
     "shootCone": 18,
     "shootY": 9,
     "reload": 60,
-    "recoil": 2,
+    "recoil": 4,
     "shake": 2,
     "ejectEffect": "casing2",
     "shootSound": "laser",
-	"bullet": {
+	  "bullet": {
     "type": "LaserBulletType",
     "length": 300,
     "width": 18,
@@ -64,8 +74,8 @@
     "sizeTo": 20,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "A170F4FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
     },
     "status": "slow",
     "statusDuration": 100,
@@ -88,11 +98,11 @@
     "shootCone": 18,
     "shootY": 9,
     "reload": 62,
-    "recoil": 2,
+    "recoil": 6,
     "shake": 2,
     "ejectEffect": "casing2",
     "shootSound": "laser",
-	"bullet": {
+	  "bullet": {
     "type": "LaserBulletType",
     "length": 300,
     "width": 18,
@@ -106,8 +116,8 @@
     "sizeTo": 20,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "A170F4FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
     },
     "status": "slow",
     "statusDuration": 100,
@@ -132,20 +142,20 @@
     "rotateSpeed": 1.6,
     "shootSound": "railgun",
     "bullet": {
-	"type" : "RailBulletType",
-	"damage": 570,
-	"length" : 900,
-	"ammoMultiplier": 3,
-	"pierce": true,
-	"pierceBuilding": true,
-	"pierceDamageFactor": 0.3,
-	"collidesAir": true,
-	"collidesGround": true,
-	"collidesTiles" : true,
-	"updateEffectSeg": 40,
-	"updateEffect": "railTrail",
-	"pierceEffect" : "railHit",
-	"hitEffect" : "massiveExplosion"
+	  "type" : "RailBulletType",
+	  "damage": 570,
+	  "length" : 900,
+	  "ammoMultiplier": 3,
+	  "pierce": true,
+	  "pierceBuilding": true,
+	  "pierceDamageFactor": 0.3,
+	  "collidesAir": true,
+	  "collidesGround": true,
+	  "collidesTiles" : true,
+	  "updateEffectSeg": 40,
+	  "updateEffect": "railTrail",
+	  "pierceEffect" : "railHit",
+	  "hitEffect" : "massiveExplosion"
                      }
                   },
                   {
@@ -185,18 +195,18 @@
     "cone": -360,
     "sizeFrom": 5,
     "sizeTo": 0,
-    "colorFrom": "A170F4FF",
-    "colorTo": "FFFFFF"
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
     },
     {
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 1,
-    "sizeTo": 8,
+    "sizeTo": 10,
     "length": 0,
     "lifetime": 120,
-    "colorFrom": "A170F4FF",
-    "colorTo": "FFFFFF",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF",
     "cone": 360
     },
     {
@@ -206,8 +216,89 @@
     "sizeTo": 0,
     "strokeFrom": 6,
     "strokeTo": 3,
-    "colorFrom": "A170F4FF",
-    "colorTo": "FFFFFF"
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 23,
+    "sizeFrom": 4.6,
+    "sizeTo": 4,
+    "length": 75,
+    "baseLength": -75,
+    "offsetX": 2.5,
+    "spin": 1,
+    "lifetime": 110,
+    "region": "exogenesis-rune1",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "sizeFrom": 4.5,
+    "sizeTo": 4,
+    "offsetX": 2.6,
+    "length": 75,
+    "baseLength": -75,
+    "spin": 1,
+    "lifetime": 110,
+    "region": "exogenesis-rune2",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 18,
+    "sizeFrom": 4.4,
+    "sizeTo": 4,
+    "offsetX": 2.7,
+    "length": 75,
+    "baseLength": -75,
+     "spin": 1,
+    "lifetime": 110,
+    "region": "exogenesis-rune3",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "particles": 16,
+    "sizeFrom": 4.3,
+    "sizeTo": 4,
+    "offsetX": 2.8,
+    "length": 75,
+    "baseLength": -75,
+    "spin": -1,
+    "lifetime": 110,
+    "region": "exogenesis-rune4",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "particles": 13,
+    "sizeFrom": 4.2,
+    "sizeTo": 4,
+    "offsetX": 2.9,
+    "length": 75,
+    "baseLength": -75,
+    "spin": -1,
+    "lifetime": 110,
+    "region": "exogenesis-rune5",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
+    },
+    {
+    "particles": 10,
+    "sizeFrom": 4.1,
+    "sizeTo": 4,
+    "offsetX": 3,
+    "length": 75,
+    "baseLength": -75,
+    "spin": -1,
+    "lifetime": 110,
+    "region": "exogenesis-rune6",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F4FF"
           }
         ]
       },
@@ -215,7 +306,7 @@
     "length": 700,
     "width": 65,
     "lifetime": 35,
-    "damage": 2880,
+    "damage": 1580,
     "lightningSpacing": 28,
     "lightningLength": 8,
     "lightningDelay": 1.1,
@@ -249,20 +340,6 @@
     "sideAngle": 90,
     "sideLength": 30,
     "sideWidth": 1
-    }
- }
-     ],
-    "abilities": [
-        {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "range" : 206,
-            "reload" : 540,
-            "duration" : 165,
-            "effect": {
-                "name": "quantux-charged",
-                "speedMultiplier": 1.4,
-                "reloadMultiplier": 1.8,
-                "effect": "sapped"
             }
         }
     ]

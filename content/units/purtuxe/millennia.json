@@ -1,24 +1,31 @@
 {
-            "localizedName": "Millennia",
-    "research": "dagger",
-            "description": "[purple]The upgrade to the century, this unit is equipped with upgraded quantux blasters, and it has a built-in laser blaster",
-            "type": "mech",
-            "flying": false,
-            "speed": 0.50,
-            "hitSize": 15,
-            "health": 2456,
-            "mechFrontSway": 0.55,
-            "buildSpeed": 1.9,
-            "mineTier": 4,
-            "mineSpeed": 6.1,
-            "armor": 15,
-            "commandLimit": 9,
+    "localizedName": "Millennia",
+    "research": {
+    "parent": "century",
+    "requirements": [
+    "vurtimite/300",
+    "lead/340",
+    "silicon/400"
+    ]
+    },
+    "description": "[purple]The upgrade to the century, this unit is equipped with upgraded anomaly blasters, and it has a built-in laser blaster",
+    "type": "mech",
+    "flying": false,
+    "speed": 0.50,
+    "hitSize": 15,
+    "health": 2456,
+    "mechFrontSway": 0.55,
+    "buildSpeed": 1.9,
+    "mineTier": 4,
+    "mineSpeed": 6.1,
+    "armor": 15,
+    "commandLimit": 9,
 
-            "weapons": [
-                    {
+    "weapons": [
+    {
     "name": "millennia-blaster",
     "top": false,
-    "shootY": 2,
+    "shootY": 5,
     "shots": 5,
     "shootCone": 18,
     "shotDelay": 5,
@@ -28,7 +35,7 @@
     "y": 0.0,
     "alternate": true,
     "ejectEffect": "none",
-    "recoil": 2,
+    "recoil": 2.5,
     "shootSound": "laser",
     "bullet": { 
     "type": "SapBulletType",
@@ -37,18 +44,18 @@
     "lifetime": 10,
     "sizeFrom": 0,
     "sizeTo": 15,
-    "strokeFrom": 1,
-    "strokeTo": 1,
-    "colorFrom": "FFFFFF",
-    "colorTo": "A170F4FF"
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "colorFrom": "A170F4FF",
+    "colorTo": "774ACFFF"
     },
-    "sapStrength": 0.5,
+    "sapStrength": 0.7,
     "length": 120,
     "damage": 78,
     "hitColor": "A170F4FF",
     "color": "A170F4FF",
     "despawnEffect": "none",
-    "width":0.6,
+    "width":0.7,
     "lifetime": 20,
     "knockback": -0.65
      }
