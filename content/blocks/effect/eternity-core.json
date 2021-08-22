@@ -13,7 +13,7 @@
 		{ "item": "surge-alloy", "amount": 3000 },
 		{ "item": "thorium", "amount": 4900},
 		{ "item": "osmium", "amount": 6000 },
-		{ "item": "quantux", "amount": 1000 }
+		{ "item": "rutuxium", "amount": 1000 }
 	],
   "category": "effect",
 	"research": "core-nucleus"
