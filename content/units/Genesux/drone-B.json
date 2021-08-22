@@ -1,7 +1,7 @@
 {
         "localizedName": "Bomber Drone",
         "type": "flying",
-	    "description": "[blue]A small bomber drone thats spawned from the kentaurus, it has low heath and it is pretty fast and it can drop powerful neutrino bombs, that can cause some havoc if not delt with",
+	    "description": "[cyan]A small bomber drone thats spawned from the kentaurus, it has low heath and it is pretty fast and it can drop powerful neutrino bombs, that can cause some havoc if not delt with",
         "lowAltitude": false,
         "speed": 2.0,
         "accel": 0.1,
@@ -34,7 +34,7 @@
     "shootSound": "plasmadrop",
     "bullet": {
     "hittable": false,
-          "despawnEffect": {
+      "despawnEffect": {
       "type": "ParticleEffect",
       "line": true,
       "particles": 7,

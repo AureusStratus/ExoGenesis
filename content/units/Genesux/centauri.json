@@ -1,6 +1,6 @@
 {
     "localizedName": "Centauri",
-    "description": "[blue] The centauri is a flying battleship unit that is equipped with four gunners to gun down enemies, bases and it posses a built-in weapon that can fire out powerful homing energy orbs, and its equipped with a shield",
+    "description": "[cyan] The centauri is a flying battleship unit that is equipped with four gunners to gun down enemies, bases and it posses a built-in weapon that can fire out powerful homing energy orbs, and its equipped with a shield",
     "research": {
     "parent": "vega",
     "requirements": [
@@ -61,7 +61,7 @@
       "lightColor": "A9D8FFFF",
       "lightningColor": "66B1FFFF",
       "speed": 5.5,
-      "lifetime": 78,
+      "lifetime": 58,
       "frontColor": "A9D8FFFF",
       "backColor": "66B1FFFF",
       "despawnEffect": {
@@ -123,7 +123,7 @@
       "lightColor": "A9D8FFFF",
       "lightningColor": "66B1FFFF",
       "speed": 5.5,
-      "lifetime": 78,
+      "lifetime": 58,
       "frontColor": "A9D8FFFF",
       "backColor": "66B1FFFF",
       "despawnEffect": {
@@ -156,7 +156,7 @@
     }
   },
   {
-"name": "centauri-weapon",
+  "name": "centauri-weapon",
   "x": 0,
   "y": 0,
   "mirror": false,
@@ -164,16 +164,16 @@
   "shake": 0,
   "shootCone": 20,
   "inaccuracy": 8,
-  "shots": 7,
+  "shots": 5,
   "shootY": 27,
   "reload": 440,
   "recoil": 0,
   "soundPitchMin": 0.95,
   "soundPitchMax": 1.05,
   "chargeSound": "lasercharge2",
-    "shootSound": "plasmaboom",
-    "firstShotDelay": 35,
-    "bullet": {
+      "shootSound": "plasmaboom",
+      "firstShotDelay": 35,
+      "bullet": {
       "despawnEffect": {
       "type": "ParticleEffect",
       "line": true,

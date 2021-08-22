@@ -1,15 +1,16 @@
 {
-    "localizedName": "Orion",
-    "description": "[blue]A small and fast unit created by the Genesuxians, equipped with a cold plasma laser that can deal some heavy damage",
-    "research": {
-    "parent": "GenFactory",
-    "requirements": [
-    "astrolite/100",
-    "silicon/200"
-    ]
-    },
-    "commandLimit": 5,
-    "type": "legs",
+  "localizedName": "Orion",
+  "description": "[cyan]A small and fast unit created by the Genesuxians, equipped with a cold plasma launcher that fires cold plasma orbs.",
+  "details": "The first ever unit the Genesuxians that very day when a mysterious force crash landed on there cold home world.",
+  "research": {
+  "parent": "dagger",
+  "requirements": [
+  "astrolite/100",
+  "silicon/200"
+  ]
+  },
+  "commandLimit": 5,
+  "type": "legs",
 	"speed": 0.52,
 	"hitSize": 10,
 	"health": 360,
@@ -17,7 +18,6 @@
 	"armor": 5,
 	"drag": 0.4,
 	"range": 180,
-	"flying": false,
 	"targetAir": false,
 	"rotateSpeed": 3,
     "legTrns": 0.6,
@@ -28,8 +28,6 @@
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [
-		"burning", 
-		"melting",
 		"freezing"
 	],
 	"weapons": [
@@ -40,24 +38,81 @@
     "x": 0,
     "y": -1,
     "shootY": 3,
-    "recoil": 1.5,
+    "recoil": 2,
     "shake": 1,
     "rotate": false,
     "shootSound": "laser",
     "shootCone": 45,
-			"bullet": {
-              "type": "LaserBulletType",
-              "length": 180,
-              "width": 10,
-              "damage": 30,
-              "hitColor": "A9D8FFFF",
-              "shootEffect": "lightningShoot",
-              "hitEffect": "lightningShoot",
-              "colors": ["66B1FFFF", "A9D8FFFF", "FFFFFF"],
-              "sideAngle": 25,
-              "sideLength": 32,
-              "sideWidth": 1
-			}
-		}
+	"bullet": {
+    "type": "EmpBulletType",
+    "width": 7,
+    "height": 7,
+    "sprite": "circle-bullet",
+    "frontColor": "FFFFFF",
+    "backColor": "A9D8FFFF",
+    "lifetime": 60,
+    "speed": 5,
+    "damage": 30,
+    "splashDamage": 5,
+    "splashDamageRadius": 20,
+    "shrinkY": 0,
+    "shrinkX": 0,
+    "radius": 20,
+    "timeIncrease": 0.5,
+    "powerDamageScl": 0.3,
+    "powerSclDecrease": 0.1,
+    "unitDamageScl": 0.3,
+    "status": "freezing",
+    "statusDuration": 100,
+    "shootEffect": "lightningShoot",
+    "homingPower": 0.0678,
+    "homingRange": 40,
+    "despawnEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 20,
+    "offset": 50,
+    "length": 55,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 20,
+    "offset": 50,
+    "length": 55,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "trailColor": "A9D8FFFF",
+    "trailParam": 6,
+    "trailLength": 10,
+    "trailWidth": 4,
+    "trailChance": 0.3,
+    "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "length": 2.5,
+    "baseLength": 2.5,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "cone": 360,
+    "offset": 5,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFAA",
+    "sizeFrom": 5,
+    "sizeTo": 0
+    }
+	}
+	}
 	]
 }
