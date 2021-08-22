@@ -1,12 +1,15 @@
 {	
     "localizedName": "Force Furnace",
-    "description": "Uses force and heat to turn materials in to vytama.",
-    "type": "GenericSmelter",
+    "description": "[grey]Uses force and heat to turn materials in to vytama.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "B7B9C2FF"
+	},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"flameColor": "B7B9C2FF",
 	"craftTime": 40,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",

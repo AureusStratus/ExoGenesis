@@ -1,17 +1,17 @@
 {
 	"type": "Separator",
-	"localizedName": "Dismantler",
+	"localizedName": "Core Drill",
 	"description": "A massive structure that can sift through slag, pulling out small amounts of different reasources. Can be quite useful.",
 	"size": 9,
 	"spinnerSpeed": 4,
-	"craftTime": 20,
+	"craftTime": 4,
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
 	"consumes": {
 		"power": 8,
 		"liquid": {
-			"liquid": "slag", 
+			"liquid": "water", 
 			"amount": 1.2
 		}
 	},
@@ -37,3 +37,5 @@
 		{"item": "scrap", "amount": 12}
 	]
 }
+
+

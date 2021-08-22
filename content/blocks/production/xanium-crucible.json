@@ -1,14 +1,17 @@
 {	
     "localizedName": "Xanium Crucible",
     "description": "Melts together osmium and plastanium through high amounts of radiation to create xanium.",
-    "type": "GenericSmelter",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "DEFFCFFF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 30,
 	"craftTime": 120,
-	"flameColor": "DEFFCFFF",
 	"craftEffect": "heal",
 	"updateEffect": "none",
 	"consumes": {

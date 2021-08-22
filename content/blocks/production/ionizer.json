@@ -1,12 +1,15 @@
 {	
     "localizedName": "Ionizer",
-    "description": "Ionizes materials with radiation to create valvanite.",
-    "type": "GenericSmelter",
+    "description": "[acid]Ionizes materials with radiation to create valvanite.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "DBFFBDFF"
+	},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"flameColor": "DBFFBDFF",
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,

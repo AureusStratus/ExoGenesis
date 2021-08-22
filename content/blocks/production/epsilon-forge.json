@@ -1,12 +1,15 @@
 {	
     "localizedName": "Epsilon Forge",
-    "description": "Uses Unknown kinds of energy to create a twisted and dark material with unnatural properties",
-    "type": "GenericSmelter",
+    "description": "[grey]Uses Unknown kinds of energy to create a twisted and dark material with unnatural properties.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "B7B9C2FF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 30,
-	"flameColor": "B7B9C2FF",
 	"craftTime": 140,
 	"craftEffect": {
     "type": "WaveEffect",

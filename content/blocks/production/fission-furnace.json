@@ -1,6 +1,6 @@
 {	
-    "localizedName": "Fission Furnace",
-    "description": "Uses the fissile properties of thorium to cause a fusion reaction between thorium and xanium to create quantax.",
+    "localizedName": "Anomalous Furnace",
+    "description": "[purple]Infuses melted materials with anomalous energy to create rutuxium.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 3,
@@ -10,24 +10,28 @@
 	"itemCapacity": 30,
 	"craftTime": 120,
 	"craftEffect": {
-     "type": "ParticleEffect",
-    "line": true,
-    "particles": 18,
-    "lifetime": 38,
-    "length": 45,
-    "cone": -360,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "C3A0FFFF",
-    "colorTo": "774ACFFF"
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 2,
+    "sizeTo": 30,
+    "length": 0,
+    "spin": 11,
+    "lightColor": "774ACFFF",
+    "lifetime": 35,
+    "layer": 109,
+    "region": "exogenesis-runic-circle",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F400",
+    "cone": 360
 	},
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
 		"items": {
 			"items": [
-				{"item": "thorium", "amount": 10},
-				{"item": "xanium", "amount": 8}
+				"thorium/10",
+				"vurtimite/5",
+				"xanium/8"
 			]
 		}
 	},
@@ -38,9 +42,6 @@
 		{"item": "titanium", "amount": 270}
 	],
 	"category": "crafting",
-	"research": "xanium-crucible",
-	"outputItem": {
-		"item": "quantux",
-		"amount": 3
-}
+	"research": "alloy-smelter",
+	"outputItem": "rutuxium/3"
 }

@@ -1,14 +1,17 @@
 {	
     "localizedName": "Soul Crucible",
-    "description": "Able to produce more epsilonium using but it uses more materials",
-    "type": "GenericSmelter",
+    "description": "[grey]Able to produce more epseepsilonium through ununknown means using but it uses more materials.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "B7B9C2FF"
+	},
 	"size": 5,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 80,
 	"craftTime": 230,
-	"flameColor": "B7B9C2FF",
 	"craftEffect": {
     "type": "multiEffect",
     "effects": [
@@ -42,6 +45,7 @@
 			"items": [
                 "plastanium/10",
                 "phase-fabric/6",
+                "vytama/8",
                 "surge-alloy/15"
 			]
 		}

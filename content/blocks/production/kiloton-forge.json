@@ -1,14 +1,17 @@
 {	
     "localizedName": "Kiloton Forge",
-    "description": "A bigger ton forge, the kiloton forge can produce an abundance of osmium, but it takes a bit more materials and uses pyratite to aid in the creation of osmium.",
-	"type": "GenericSmelter",
+    "description": "A bigger ton forge that can produce an abundance of osmium. Takes a bit more materials and uses pyratite to aid in the creation of osmium.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "E3EFF2FF"
+	},
 	"size": 6,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 50,
 	"craftTime": 320,
-	"flameColor": "E3EFF2FF",
 	"craftEffect": "shockwave",
 	"updateEffect": "none",
 	"consumes": {

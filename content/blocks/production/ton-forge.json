@@ -1,14 +1,17 @@
 {	
     "localizedName": "Ton Forge",
     "description": "Melts together materials under tons of pressure to create osmium.",
-	"type": "GenericSmelter",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "E3EFF2FF"
+	},
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 30,
 	"craftTime": 250,
-	"flameColor": "E3EFF2FF",
 	"craftEffect": "shockwave",
 	"updateEffect": "none",
 	"consumes": {

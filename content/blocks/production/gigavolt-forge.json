@@ -1,14 +1,17 @@
 {	
     "localizedName": "Gigavolt Forge",
-	"description": "Uses high voltages and lightning to energize and melt materials to create more alpha steel than a normal furnace.",
-	"type": "GenericSmelter",
+	"description": "[gold]Uses high voltages and lightning to energize and melt materials to create more alpha steel than a normal furnace.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "F3E979FF"
+	},
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"craftTime": 250,
 	"itemCapacity": 80,
-	"flameColor": "F3E979FF",
     "craftEffect": {
     "type": "ParticleEffect",
     "particles": 1,
@@ -27,6 +30,7 @@
 			"items": [
                "surge-alloy/15",
                "silicon/6",
+               "oltuxium/8",
                "xanium/10"
 			]
 		}

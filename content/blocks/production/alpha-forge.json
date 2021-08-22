@@ -1,22 +1,26 @@
 {	
     "localizedName": "Electro Arc Forge",
-	"description": "Uses lightning arcs to melt and supercharge materials to create alpha steel.",
-	"type": "GenericSmelter",
+	"description": "[gold]Uses lightning arcs to melt and supercharge materials to create alpha steel.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "F3E979FF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"craftTime": 150,
 	"itemCapacity": 30,
-	"flameColor": "F3E979FF",
 	"craftEffect": "instBomb",
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
 		"items": {
 			"items": [
-				{"item": "xanium", "amount": 5},
-				{"item": "surge-alloy", "amount": 5}
+			    "xanium/5",
+				"oltuxium/4",
+				"surge-alloy/5"
 			]
 		}
 	},

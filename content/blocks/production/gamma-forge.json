@@ -1,14 +1,17 @@
 {	
     "localizedName": "Gamma Radiation Forge",
-	"description": "Uses extreme amounts of gamma radiation to irradiate and melt materials in to gamma alloy.",
-	"type": "GenericSmelter",
+	"description": "[acid]Uses extreme amounts of gamma radiation to irradiate and melt materials in to gamma alloy.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "DBFFBDFF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 30,
 	"craftTime": 150,
-	"flameColor": "DBFFBDFF",
 	"craftEffect": "healWave",
 	"updateEffect": "none",
 	"consumes": {
@@ -17,7 +20,7 @@
 			"items": [
 				{"item": "xanium", "amount": 8},
 				{"item": "surge-alloy", "amount": 5},
-				{"item": "thorium", "amount": 12}
+				{"item": "valvanite", "amount": 12}
 			]
 		}
 	},
@@ -26,7 +29,7 @@
 		{"item": "plastanium", "amount": 160},
 		{"item": "thorium", "amount": 140},
 		{"item": "titanium", "amount": 160},
-		{"item": "graphite", "amount": 140}
+		{"item": "valvanite", "amount": 640}
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",

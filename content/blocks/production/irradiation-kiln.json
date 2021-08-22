@@ -1,26 +1,39 @@
 {	
     "localizedName": "Irradiation Kiln",
-	"description": "Uses mini gamma ray bursts to irradiate and melt materials to create gamma alloy.",
-	"type": "GenericSmelter",
+	"description": "[acid]Uses mini gamma ray bursts to irradiate and melt materials to create gamma alloy. Uses water to cool off.",
+	"type": "GenericCrafter",
+	"drawer": {
+	"type": "drawArcSmelter",
+    "flameColor": "C2FF70FF",
+    "midColor": "739959FF",
+    "flameRad": 2,
+    "circleSpace": 2.6,
+    "circleStroke": 1.3,
+    "alpha": 5,
+    "particleRad": 15,
+    "particles": 60,
+    "particleLen": 5,
+    "particleStroke": 1.1,
+    "particleLife": 80
+	},
 	"size": 5,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 80,
 	"craftTime": 250,
-	"flameColor": "DBFFBDFF",
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
     "length": 20,
-    "baseLength": -20,
     "offset": 3,
     "cone": 360,
+    "interp": "circleOut",
     "lifetime": 28,
-    "sizeFrom": 7,
+    "sizeFrom": 5,
     "sizeTo": 0,
-    "colorTo": "FFFFFFFF",
-    "colorFrom": "C2FF70FF"
+    "colorTo": "C2FF70FF",
+    "colorFrom": "739959FF"
     },
 	"updateEffect": "none",
 	"consumes": {
@@ -29,6 +42,7 @@
 			"items": [
                 "surge-alloy/15",
                 "plastanium/12",
+                "valvanite/8",
                 "thorium/17"
 			]
 	},

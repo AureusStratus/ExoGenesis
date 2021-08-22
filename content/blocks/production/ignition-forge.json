@@ -1,12 +1,15 @@
 {	
     "localizedName": "Ignition Forge",
-    "description": "Melts materials in to volcanite.",
-    "type": "GenericSmelter",
+    "description": "[red]Melts materials in to volcanite.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "ffc099"
+	},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"flameColor": "ffc099",
 	"craftTime": 40,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",

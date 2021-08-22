@@ -1,6 +1,6 @@
 {	
-    "localizedName": "Fission Factory",
-    "description": "Uses a bit of phase to speed up the fission reaction of thorium, creating enough heat to melt materials into quantux.",
+    "localizedName": "Abnormality Materiliver",
+    "description": "[purple]Uses large amounts of dark matter and an anomales energy to create more rutuxium.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 4,
@@ -14,27 +14,32 @@
     "lifetime": 25,
     "effects": [
     {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sides": 4,
-    "rotation": 90,
-    "sizeFrom": 0,
-    "sizeTo": 40,
-    "strokeFrom": 0,
-    "strokeTo": 4,
-    "colorFrom": "A170F4FF",
-    "colorTo": "A170F4FF"
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 2,
+    "sizeTo": 30,
+    "length": 0,
+    "spin": 11,
+    "lightColor": "774ACFFF",
+    "lifetime": 35,
+    "layer": 109,
+    "region": "exogenesis-runic-circle",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F400"
     },
     {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sides": 4,
-    "sizeFrom": 40,
-    "sizeTo": 0,
-    "strokeFrom": 0,
-    "strokeTo": 4,
-    "colorFrom": "A170F4FF",
-    "colorTo": "A170F4FF"
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 2,
+    "sizeTo": 25,
+    "length": 0,
+    "lightColor": "774ACFFF",
+    "spin": -11,
+    "lifetime": 35,
+    "layer": 109,
+    "region": "exogenesis-runic-circle",
+    "colorFrom": "774ACFFF",
+    "colorTo": "A170F400"
     }
 	]
 	},
@@ -44,20 +49,21 @@
 		"items": {
 			"items": [
                "phase-fabric/2",
-               "thorium/18",
-               "xanium/14"
+               "thorium/8",
+               "vurtimite/8",
+               "xanium/10"
 			]
 		}
 	},
 	"requirements": [
     "silicon/450",
     "titanium/400",
-    "quantux/300",
+    "rutuxium/300",
     "osmium/300",
     "surge-alloy/200",
     "phase-fabric/100"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
-	"outputItem": "quantux/8"
+	"research": "alloy-klin",
+	"outputItem": "rutuxium/8"
 }

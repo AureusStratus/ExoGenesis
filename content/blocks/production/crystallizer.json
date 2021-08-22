@@ -1,12 +1,15 @@
 {	
     "localizedName": "Crystallizer",
-    "description": "compresses and energies graphite with cold plasma to form a crystal like mineral.",
-    "type": "GenericSmelter",
-	"size": 2,
+    "description": "[cyan]compresses and energies graphite with cold plasma to form a crystal like mineral.",
+    "size": 2,
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "B7B9C2FF"
+	},
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
-	"flameColor": "B7B9C2FF",
 	"craftTime": 40,
 	"craftEffect": {
     "type": "ParticleEffect",
@@ -14,12 +17,11 @@
     "particles": 15,
     "lifetime": 15,
     "length": 25,
-    "baseLength": -25,
     "cone": -360,
-    "lenFrom": 10,
+    "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "90CAF9FF",
-    "colorTo": "F6FBFFFF"
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
 	},
 	"updateEffect": "none",
 	"consumes": {

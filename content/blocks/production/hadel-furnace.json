@@ -1,14 +1,17 @@
 {	
     "localizedName": "Hadel Furnace",
-    "description": "Able to produce more sigma iron through extreme temperatures, but uses more materials to do so.",
-    "type": "GenericSmelter",
+    "description": "[red]Able to produce more sigma iron through extreme temperatures, but uses more materials to do so.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "FF5845FF"
+	},
 	"size": 6,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 80,
 	"craftTime": 250,
-	"flameColor": "FF5845FF",
 	"craftEffect": {
     "type": "WaveEffect",
     "lifetime": 25,
@@ -26,6 +29,7 @@
 			"items": [
                "surge-alloy/15",
                "blast-compound/18",
+               "volcanite/8",
                "osmium/15"
 			]
 		}

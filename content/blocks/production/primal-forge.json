@@ -1,21 +1,24 @@
 {	
     "localizedName": "Nuclear Fusion Furnace",
-    "description": "Superheats materials to the point of fusion to create sigma iron.",
-    "type": "GenericSmelter",
+    "description": "[red]Superheats materials to the point of fusion to create sigma iron.",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "F66332FF"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 20,
 	"craftTime": 150,
-	"flameColor": "F66332FF",
 	"craftEffect": "massiveExplosion",
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
 		"items": {
 			"items": [
-				{"item": "blast-compound", "amount": 8},
+			    "volcanite/5",
 				{"item": "surge-alloy", "amount": 5},
 				{"item": "osmium", "amount": 10}
 			]
@@ -23,7 +26,7 @@
 	},
 	"requirements": [
 		{"item": "silicon", "amount": 160},
-		{"item": "lead", "amount": 160},
+		{"item": "volcanite", "amount": 450},
 		{"item": "thorium", "amount": 140},
 		{"item": "titanium", "amount": 160},
 		{"item": "plastanium", "amount": 140}

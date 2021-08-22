@@ -1,5 +1,9 @@
 {
-	"type": "GenericSmelter",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "88a4ff"
+	},
 	"localizedName": "Jupiteium Furnace",
 	"description": "Rapidly decays thorium and melts it together with titanium and silicon to form jupiteium.",
 	"health": 360,
@@ -12,7 +16,6 @@
 	"craftTime": 85,
 	"craftEffect": "none",
 	"updateEffect": "hitMeltdown",
-	"flameColor": "88a4ff",
 	"consumes": {
 		"power": 2,
 		"items": {

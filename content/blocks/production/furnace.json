@@ -1,12 +1,15 @@
 {	
     "localizedName": "Furnace",
     "description": "An upgrade of the kiln able to produce more metaglass, but at the cost of more materials.",
-    "type": "GenericSmelter",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "ffc099"
+	},
 	"size": 3,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 20,
-	"flameColor": "ffc099",
 	"craftTime": 60,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",

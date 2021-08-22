@@ -1,14 +1,17 @@
 {	
     "localizedName": "Xanium Furnace",
     "description": "Able to produce more xanium but it uses more materials and some silicon.",
-    "type": "GenericSmelter",
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "DEFFCFFF"
+	},
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 80,
 	"craftTime": 220,
-	"flameColor": "DEFFCFFF",
 	"craftEffect": "plasticburn",
 	"updateEffect": "none",
 	"consumes": {
