@@ -63,7 +63,7 @@
     "type": "BasicBulletType",
 	"sprite" : "exogenesis-star-core-bullet",
   "status": {
-  "name": "solar-flare",
+  "name": "solar1-flare",
   "localizedName": "Solar Flare",
   "description": "The heat of the suns surface.",
   "reloadMultiplier": 0.5,
