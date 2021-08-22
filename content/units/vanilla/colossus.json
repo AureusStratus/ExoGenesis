@@ -1,0 +1,140 @@
+{
+    "localizedName": "Colossus",
+    "controller": "builderAI",
+    "type": "payload",
+    "description": "[green]The protecter class titan unit. The colossus is massive titan unit made to defend against powerful enemies, a gaint air support that has a powerful energy field ability aswell as it can regenerate itself. has a powerful shield.",
+    "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Protect at all costs.",
+    "singleTarget": true,
+    "drawShields": false,
+    "fallSpeed": 0.006,
+    "research": {
+    "parent": "hex",
+    "requirements": [
+    "graphite/1220",
+    "surge-alloy/1200",
+    "plastanium/940",
+    "phase-fabric/1000",
+    "scrap/1200",
+    "copper/1540",
+    "lead/1540",
+    "silicon/1800"
+    ]
+    },
+    "lowAltitude": true,
+    "ammoCapacity": 3000,
+    "ammoResupplyAmount": 40,
+    "rotateShooting": false,
+    "lightRadius": 200,
+    "rotateSpeed": 1,
+    "crashDamageMultiplier": 18,
+    "payloadCapacity": 16484,
+    "mineSpeed": 4.3,
+    "buildSpeed": 10,
+    "mineTier": 5,
+    "itemCapacity": 1000,
+    "speed": 0.8,
+    "accel": 0.04,
+    "drag": 0.012,
+    "range": 430,
+    "maxRange": 430,
+    "aimDst": 430,
+    "faceTarget": true,
+    "flying": true,
+    "health": 1240000,
+    "hitSize": 88,
+    "armor": 27,       
+    "engineOffset": 57,
+    "engineSize": 8.5,
+    "targetAir": true,
+    "commandLimit": 10,
+    "immunities": [
+		"sapped",
+		"wet",
+		"tarred",
+		"slow",
+		"melting",
+		"burning"
+		],
+	 "weapons": [
+    ],
+    "abilities": [
+    {
+    "type": "StatusFieldAbility",
+    "activeEffect": "none",
+     "effect": {
+      "name": "octane-charge",
+      "localizedName": "Octane charge",
+      "description": "you are being powered by healing energy",
+      "buildSpeedMultiplier": 1.7,
+      "healthMultiplier": 1.7,
+      "damage": -10,
+      "effect": {
+      "type": "ParticleEffect",
+      "lifetime": 25,
+      "length": 0,
+      "sizeFrom": 6,
+      "sizeTo": 0,
+      "particles": 2,
+      "lightColor": "98ffa9ff",
+      "colorFrom": "84F491FF",
+      "colorTo": "98ffa9",
+      "region": "exogenesis-heal"
+      }
+      },
+      "range": 200,
+      "reload": 1,
+      "duration": 5
+      },
+      {
+      "type": "EnergyFieldAbility",
+      "statusDuration": 300,
+      "status": {
+      "name": "octane-blasted",
+      "localizedName": "Octane energy",
+      "description": "You've been hit with immense healing power.",
+      "reloadMultiplier": 0.2,
+      "buildSpeedMultiplier": 0.2,
+      "speedMultiplier": 0.2,
+      "effectChance": 0.3,
+      "transitionDamage": 5,
+      "affinities": ["freezing", "blasted"],
+      "effect": {
+      "type": "WaveEffect",
+      "lifetime": 20,
+      "sizeFrom": 0,
+      "sizeTo": 3,
+      "strokeFrom": 0,
+      "strokeTo": 3,
+      "colorFrom": "84F491FF",
+      "colorTo": "98ffa9"
+      }
+      },
+      "color": "98ffa9ff",
+      "maxTargets": 30,
+      "damage": 175,
+      "healPercent": 1,
+      "y": -8,
+      "range": 270,
+      "sectors": 3,
+      "rotateSpeed": 1,
+      "hitBuildings": true,
+      "sectorRad": 0.28,
+      "effectRadius": 11,
+      "reload": 110
+      },
+      {
+      "type": "mindustry.entities.abilities.ForceFieldAbility",
+      "radius": 180,
+      "regen": 30,
+      "max": 80000,
+      "cooldown": 550
+      },
+      {
+      "type": "mindustry.entities.abilities.ForceFieldAbility",
+      "radius": 100,
+      "regen": 7,
+      "max": 30000,
+      "cooldown": 350
+      }
+    ]
+}

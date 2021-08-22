@@ -1,8 +1,20 @@
 {
     "localizedName": "Balaenoptera",
     "description": "[orange]The destroyer class titan unit. The balaenoptera is massive titan unit made to combat powerful enemies. A massiva naval battle ship thats equipped with a massive cannon capable of peircing enemies and buildings, it also has two missile launchers and four artillery cannons in the front that have masisive range. Builds minkus.",
-    "details": "Make your enemies and the water gods fear you.",
-    "research": "omura",
+    "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines  made for war. Make your enemies and the water gods fear you.",
+    "research": {
+    "parent": "orca",
+    "requirements": [
+    "graphite/1220",
+    "surge-alloy/1200",
+    "plastanium/940",
+    "phase-fabric/1000",
+    "scrap/1200",
+    "copper/1540",
+    "lead/1540",
+    "silicon/1800"
+    ]
+    },
     "type": "naval",
     "armor": 50,
     "drag": 0.17,
@@ -22,7 +34,7 @@
 
 	"weapons": [
 		{
-  "name": "tyrant-gunner",
+    "name": "tyrant-gunner",
     "top": true,
     "mirror": true,
     "alternate": true,
@@ -76,7 +88,7 @@
            }
 			},
 			{
-  "name": "tyrant-gunner",
+    "name": "tyrant-gunner",
     "shootCone": 25,
     "alternate": true,
     "mirror": true,
@@ -172,19 +184,19 @@
    "name": "balaenoptera-cannon",
     "x": 0,
     "y": -10,
-  "reload": 236,
-  "mirror": false,
-  "top": true,
-  "rotateSpeed": 0.7,
-  "rotate": true,
-  "recoil": 7.5,
-  "shootY": 26,
-  "shots": 3,
-  "shake": 3,
-  "inaccuracy": 3,
-  "shotDelay": 5,
-  "shootSound": "shootBig",
-  "ejectEffect": "casing3Double",
+    "reload": 236,
+    "mirror": false,
+    "top": true,
+    "rotateSpeed": 0.7,
+    "rotate": true,
+    "recoil": 7.5,
+    "shootY": 26,
+    "shots": 3,
+    "shake": 3,
+    "inaccuracy": 3,
+    "shotDelay": 5,
+    "shootSound": "shootBig",
+    "ejectEffect": "casing3Double",
     "bullet": { 
     "type": "basicBulletType",
     "hitEffect": "massiveExplosion",

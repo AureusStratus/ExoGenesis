@@ -1,10 +1,22 @@
 {
         "localizedName": "Dusk",
         "description": "[orange]The heavy gunner class titan unit. Equipped four gunners and four heavy gunners, and it is equipped with missike launchers. Can fire devastating energy orb that deals massive damage on impact. empowers nearby allies.",
-        "details": "Rule the skies and destroy the land.",
+        "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Rule the skies and destroy the land.",
         "singleTarget": true,
         "drawShields": false,
-        "research": "eclipse",
+        "research": {
+        "parent": "twilight",
+        "requirements": [
+        "graphite/1220",
+        "surge-alloy/1200",
+        "plastanium/940",
+        "phase-fabric/1000",
+        "scrap/1200",
+        "copper/1540",
+        "lead/1540",
+        "silicon/1800"
+        ]
+        },
         "lightRadius": 250,
         "fallSpeed": 0.006,
         "rotateSpeed": 0.7,
@@ -113,26 +125,26 @@
     "shotDelay": 5,
     "ejectEffect": "casing2",
     "shootSound": "shootBig",
-           "bullet": { 
-             "type": "basicBulletType",
-             "hitEffect": "flakExplosion",
-             "shootEffect": "shootBig2",
-             "despawnEffect": "flakExplosion",
-             "pierce": true,
-             "pierceCap": 1,
-             "knockback": 1.8,
-             "statusDuration": 80,
-             "status": "blasted",
-             "lifetime": 90,
-             "damage": 200,
-             "speed": 4,
-             "width": 14,
-             "height": 14,
-             "splashDamage": 20,
-             "splashDamageRadius": 20
-           }
-  },
-  {
+    "bullet": { 
+    "type": "basicBulletType",
+    "hitEffect": "flakExplosion",
+    "shootEffect": "shootBig2",
+    "despawnEffect": "flakExplosion",
+    "pierce": true,
+    "pierceCap": 1,
+    "knockback": 1.8,
+    "statusDuration": 80,
+    "status": "blasted",
+    "lifetime": 90,
+    "damage": 200,
+    "speed": 4,
+    "width": 14,
+    "height": 14,
+    "splashDamage": 20,
+    "splashDamageRadius": 20
+    }
+    },
+    {
     "name": "tyrant-artillery",
     "top": true,
     "mirror": true,
@@ -150,26 +162,26 @@
     "shotDelay": 5,
     "ejectEffect": "casing2",
     "shootSound": "shootBig",
-           "bullet": { 
-             "type": "basicBulletType",
-             "hitEffect": "flakExplosion",
-             "shootEffect": "shootBig2",
-             "despawnEffect": "flakExplosion",
-             "pierce": true,
-             "pierceCap": 1,
-             "knockback": 1.8,
-             "statusDuration": 80,
-             "status": "blasted",
-             "lifetime": 90,
-             "damage": 200,
-             "speed": 4,
-             "width": 14,
-             "height": 14,
-             "splashDamage": 20,
-             "splashDamageRadius": 20
-           }
-  },
-  {
+    "bullet": { 
+    "type": "basicBulletType",
+    "hitEffect": "flakExplosion",
+    "shootEffect": "shootBig2",
+    "despawnEffect": "flakExplosion",
+    "pierce": true,
+    "pierceCap": 1,
+    "knockback": 1.8,
+    "statusDuration": 80,
+    "status": "blasted",
+    "lifetime": 90,
+    "damage": 200,
+    "speed": 4,
+    "width": 14,
+    "height": 14,
+    "splashDamage": 20,
+    "splashDamageRadius": 20
+    }
+    },
+    {
     "name": "balaenoptera-launcher",
     "x": 35,
     "y": -28,
@@ -198,19 +210,19 @@
     "speed": 4,
     "lifetime": 120,
   	"homingPower": 0.0567,
-	"homingRange": 100,
-	"weaveScale": 5,			
-	"weaveMag": 5,
+	  "homingRange": 100,
+	  "weaveScale": 5,			
+	  "weaveMag": 5,
     "height": 12,
     "width": 8,
-	"splashDamageRadius": 20,
-	"splashDamage": 38
+	  "splashDamageRadius": 20,
+	  "splashDamage": 38
     }
   },
   {
   "name": "dusk-nuke",
-    "x": 0,
-    "y": 0,
+  "x": 0,
+  "y": 0,
   "reload": 860,
   "alternate": false,
   "mirror": false,
@@ -225,8 +237,8 @@
   "shake": 3,
   "shootSound": "bigLaserShoot",
   "ejectEffect": "none",
-        "bullet": { 
-        "type": "BasicBulletType",
+    "bullet": { 
+    "type": "BasicBulletType",
 		"sprite" : "exogenesis-plasma",
 		"status" : "melting",
 		"statusDuration": 300,
@@ -234,9 +246,9 @@
 		"splashDamage": 2350,
 		"splashDamageRadius": 100,	
 		"makeFire": true,
-        "incendChance": 140,
-        "incendSpread": 18,
-        "incendAmount": 4,
+    "incendChance": 140,
+    "incendSpread": 18,
+    "incendAmount": 4,
 		"height": 40,
 		"width": 40,			
 		"speed": 6,
@@ -251,7 +263,7 @@
        {
        "type": "ParticleEffect",
        "line": true,
-       "particles": 35,
+       "particles": 45,
        "lifetime": 30,
        "offset": 60,
        "length": 115,
@@ -262,10 +274,10 @@
        "sizeTo": 0,
        "colorFrom": "fff8e8",
        "colorTo": "f9c27a"
-    },
-    {
+       },
+       {
        "type": "ParticleEffect",
-       "particles": 35,
+       "particles": 65,
        "offset": 30,
        "sizeFrom": 4,
        "sizeTo": 0,
@@ -274,8 +286,8 @@
        "colorFrom": "fff8e8",
        "colorTo": "f9c27a",
        "cone": 360
-    },
-    {
+        },
+        {
         "type": "ParticleEffect",
         "particles": 45,
         "sizeFrom": 7,
@@ -283,22 +295,22 @@
         "offset": 60,
         "length": 100,
         "lifetime": 200,
-       "colorFrom": "fff8e8",
-       "colorTo": "f9c2AA",
+        "colorFrom": "fff8e8",
+        "colorTo": "f9c2AA",
         "cone": 360
-    },
-    {
+        },
+        {
         "type": "WaveEffect",
         "lifetime": 50,
         "sizeFrom": 0,
         "sizeTo": 95,
         "strokeFrom": 8,
         "strokeTo": 0,
-       "colorFrom": "fff8e8",
-       "colorTo": "f9c27a"
-          }
+        "colorFrom": "fff8e8",
+        "colorTo": "f9c27a"
+        }
         ]
-      },
+        },
         "despawnEffect": {
         "type": "ParticleEffect",
         "particles": 30,
@@ -311,7 +323,7 @@
         "sizeFrom": 6,
         "sizeTo": 0
         },
-		"shootEffect": {
+		   "shootEffect": {
         "type": "multiEffect",
         "lifetime": 120,
         "effects": [
@@ -346,12 +358,12 @@
         "sizeTo": 0,
         "strokeFrom": 0,
         "strokeTo": 8,
-       "colorFrom": "f9c27a",
-       "colorTo": "fff8e8"
-		}
+        "colorFrom": "f9c27a",
+        "colorTo": "fff8e8"
+		    }
         ]
-		},
-		"trailEffect": {
+		    },
+		    "trailEffect": {
         "type": "ParticleEffect",
         "particles": 15,
         "length": 8,
@@ -372,21 +384,21 @@
 		"smokeEffect": "blastExplosion",
 		"frontColor": "fff8e8",
 		"backColor": "f9c27a",
-        "fragBullets": 33,
-        "fragCone": 360,
-	    "fragBullet": {
-	    "type": "LiquidBulletType",
-	    "liquid": "slag",
-	    "status": "melting",
-	    "lifetime": 30,
+    "fragBullets": 33,
+    "fragCone": 360,
+	  "fragBullet": {
+	  "type": "LiquidBulletType",
+	  "liquid": "slag",
+	  "status": "melting",
+	  "lifetime": 30,
 		"makeFire": true,
-        "incendChance": 140,
-        "incendSpread": 18,
-        "incendAmount": 4,
-	    "puddleSize": 8,
-	    "orbSize": 4.5,
-	    "speed": 3,
-	    "damage" : 10
+    "incendChance": 140,
+    "incendSpread": 18,
+    "incendAmount": 4,
+	  "puddleSize": 8,
+	  "orbSize": 4.5,
+	  "speed": 3,
+	  "damage" : 10
 	    }
     }
 }
