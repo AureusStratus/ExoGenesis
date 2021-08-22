@@ -1,6 +1,6 @@
 {
 "localizedName": "Entropy",
-"description": "A massive turret used by the purtuxians to defened their colonies. Fires 3 beams in sequence that deal massive amounts of damage and slow units.",
+"description": "[purple]A massive turret used by the purtuxians to defened their colonies. Fires 3 beams in sequence that deal massive amounts of damage and slow units.",
 "details":"Everything will eventually grow cold, the bodies of your enemies with be the first to cool.",
 "type": "PowerTurret",
 "size": 8,
@@ -12,7 +12,7 @@
 "shootCone": 20,
 "shootShake": 1.5,
 "cooldown": 0.00789,
-"spread": 8,
+"spread": 4,
 "alternate": true,
 "shots": 3,
 "targetAir": true,
@@ -22,10 +22,10 @@
 "powerUse": 27,
 "shootType": {
   "type": "LaserBulletType",
-   "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
+  "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
   "length": 300,
   "width": 23,
-  "damage": 524,
+  "damage": 724,
   "knockback": -1,
   "status": "slow",
   "statusDuration": 100,
@@ -60,7 +60,7 @@
         "plastanium/600",
         "osmium/750",
         "silicon/800",
-        "quantux/900"
+        "rutuxium/900"
     ],
     "category": "turret",
     "research": "p-singularity-charger"

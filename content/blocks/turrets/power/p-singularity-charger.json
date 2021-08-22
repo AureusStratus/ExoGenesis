@@ -1,6 +1,6 @@
 {
 "localizedName": "Singularity Charger",
-"description": "Creates a unstable micro singularity that it fire out at enemies dealing massive damage.",
+"description": "[purple]Creates a unstable micro singularity that it fire out at enemies dealing massive damage.",
 "details":"It shoots singularitys.",
 "type": "PowerTurret",
 "size": 7,
@@ -28,22 +28,22 @@
     "sizeTo": 10,
     "length": 0,
     "lifetime": 80,
-    "colorFrom": "9057F2FF",
-    "colorTo": "322252FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF",
     "cone": 360
-},
-	"chargeEffect": {
-	"type": "MultiEffect",
-	"effects": [
-	{     
+    },
+	  "chargeEffect": {
+	  "type": "MultiEffect",
+	  "effects": [
+	  {     
     "type": "WaveEffect",
     "lifetime": 80,
     "sizeFrom": 0,
     "sizeTo": 40,
     "strokeFrom": 4,
     "strokeTo": 0,
-    "colorFrom": "9057F2FF",
-    "colorTo": "322252FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF"
 	   },
 	   {     
     "type": "ParticleEffect",
@@ -53,15 +53,15 @@
     "length": 45,
     "baseLength": -45,
     "lifetime": 80,
-    "colorFrom": "9057F2FF",
-    "colorTo": "322252FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF",
     "cone": 360
 	   }
 	   ]
-	},
-"shootType": {
-  "type": "BasicBulletType",
-    "sprite": "exogenesis-plasma",
+	   },
+    "shootType": {
+    "type": "BasicBulletType",
+    "sprite": "circle-bullet",
     "status": {
     "localizedName": "Singularity Warped",
     "name": "singularity-warped",
@@ -76,8 +76,8 @@
     "sizeTo": 4,
     "strokeFrom": 3,
     "strokeTo": 0,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF"
     },
     "speedMultiplier": 0.52,
     "reloadMultiplier": 0.35,
@@ -85,12 +85,12 @@
     },
     "statusDuration": 300,
     "speed": 2.6,
-	"lightningColor": "9057F2FF",
-	"lightning": 10,
-	"lightningLength": 7,
-	"lightningLengthRand": 9,
-	"lightningDamage": 45,
-    "lifetime": 350,
+	  "lightningColor": "A170F4FF",
+	  "lightning": 10,
+	  "lightningLength": 7,
+	  "lightningLengthRand": 9,
+	  "lightningDamage": 45,
+    "lifetime": 170,
     "damage": 3885,
     "height": 38,
     "spin": 15,
@@ -98,54 +98,126 @@
     "shrinkY": 0.2,
     "shrinkX": 0.2,
     "hitEffect": {
-    "type": "WaveEffect",
-    "lifetime": 20,
-    "sizeFrom": 0,
-    "sizeTo": 50,
-    "strokeFrom": 0,
-    "strokeTo": 4,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF"
+    "type": "ExplosionEffect",  
+    "waveColor": "774ACFFF",
+    "sparkColor": "774ACFFF",
+    "smokeColor": "3D344EA4",
+    "smokes": 40,
+    "smokeSize": 18.0,	
+    "smokeSizeBase": 10.6,
+    "smokeRad": 73,	
+    "waveLife": 50,
+    "waveStroke": 2,
+    "waveRad": 165,
+    "waveRadBase": 2.0,
+    "sparkLen": 25,
+    "sparks": 40
     },
     "despawnEffect": {
-    "type": "WaveEffect",
-    "lifetime": 20,
-    "sizeFrom": 0,
-    "sizeTo": 50,
-    "strokeFrom": 0,
-    "strokeTo": 4,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF"
+    "type": "ExplosionEffect",  
+    "waveColor": "774ACFFF",
+    "sparkColor": "774ACFFF",
+    "smokeColor": "3D344EA4",
+    "smokes": 40,
+    "smokeSize": 18.0,	
+    "smokeSizeBase": 10.6,
+    "smokeRad": 73,	
+    "waveLife": 50,
+    "waveStroke": 2,
+    "waveRad": 165,
+    "waveRadBase": 2.0,
+    "sparkLen": 25,
+    "sparks": 40
     },
-	"trailEffect": {
+  "lightColor": "A170F4FF",
+  "trailColor": "A170F4FF",
+  "trailParam": 5,
+  "trailLength": 23,
+  "trailWidth": 5,
+  "homingPower": 0.00756,
+  "homingRange": 80,
+  "splashDamageRadius": 140,
+  "splashDamage": 600,
+  "trailChance": 0.3,
+  "trailEffect": {
+    "type": "multiEffect",
+    "lifetime": 120,
+    "effects": [
+    {
     "type": "ParticleEffect",
-    "offset": 8,
-    "particles": 2,
+    "particles": 1,
     "sizeFrom": 3.5,
-    "sizeTo": 0,
-    "length": 15,
-    "baseLength": 15,
-    "lifetime": 20,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF",
-    "cone": -360
-	},
-    "trailChance": 1,
-    "collides": true,
-    "collidesAir": true,
-    "collidesTiles": true,
-    "homingRange": 130,
-    "homingPower": 0.0467,
-    "splashDamageRadius": 94,
-    "splashDamage": 166,
-    "frontColor": "322252FF",
-    "backColor": "9057F2FF",
-	"fragBullets": 5,
+    "sizeTo": 3,
+    "length": 22,
+    "baseLength": 22,
+    "lifetime": 30,
+    "region": "exogenesis-rune2",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3.4,
+    "sizeTo": 3,
+    "length": 22,
+    "baseLength": 22,
+    "lifetime": 30,
+    "region": "exogenesis-rune3",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3.3,
+    "sizeTo": 3,
+    "length": 22,
+    "baseLength": 22,
+    "lifetime": 30,
+    "region": "exogenesis-rune4",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3.2,
+    "sizeTo": 3,
+    "length": 22,
+    "baseLength": 22,
+    "lifetime": 30,
+    "region": "exogenesis-rune5",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3.1,
+    "sizeTo": 3,
+    "length": 22,
+    "baseLength": 22,
+    "lifetime": 30,
+    "region": "exogenesis-rune6",
+    "lightColor": "A170F4FF",
+    "colorFrom": "A170F4FF",
+    "colorTo": "A170F400"
+    }
+    ]
+  },
+  "frontColor": "180F2AFF",
+  "backColor": "A170F4FF",
+	"fragBullets": 8,
 	"fragCone": 360,
 	"fragBullet": {
-    "type": "BasicBulletType",
-    "sprite": "exogenesis-plasma",
-	"lightningColor": "9057F2FF",
+  "type": "BasicBulletType",
+  "sprite": "exogenesis-plasma",
+	"lightningColor": "A170F4FF",
 	"lightning": 10,
 	"lightningLength": 6,
 	"lightningDamage": 24,
@@ -155,7 +227,7 @@
     "speed": 2.5,
     "shrinkY": 0.5,
     "shrinkX": 0.5,
-    "lifetime": 120,
+    "lifetime": 70,
     "damage": 120,
     "homingRange": 200,
     "homingPower": 0.0767,
@@ -169,8 +241,8 @@
     "sizeTo": 20,
     "strokeFrom": 0,
     "strokeTo": 4,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF"
     },
     "despawnEffect": {
     "type": "WaveEffect",
@@ -179,11 +251,11 @@
     "sizeTo": 20,
     "strokeFrom": 0,
     "strokeTo": 4,
-    "colorFrom": "322252FF",
-    "colorTo": "9057F2FF"
+    "colorFrom": "A170F4FF",
+    "colorTo": "180F2AFF"
     },
-    "frontColor": "322252FF",
-    "backColor": "9057F2FF"
+  "frontColor": "180F2AFF",
+  "backColor": "A170F4FF"
 	}
     },
     "requirements": [
@@ -192,7 +264,7 @@
         "plastanium/600",
         "osmium/750",
         "xanium/800",
-        "quantux/1000"
+        "rutuxium/1000"
     ],
     "category": "turret",
     "research": "p-dark-matter-launcher"

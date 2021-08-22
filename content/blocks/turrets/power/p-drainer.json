@@ -1,7 +1,7 @@
 {
  "type": "TractorBeamTurret",
  "localizedName": "Drainer",
- "description": "drainers units health with a beam that inflicts them with sapped.",
+ "description": "[purple]drainers units health with a beam that inflicts them with sapped.",
  "range": 200,
  "size": 2,
  "health": 300,
@@ -20,7 +20,7 @@
  "research": "p-accelerator",
  "requirements": [
   "lead/250",
-  "spore-pod/200",
+  "vurtimite/200",
   "titanium/125",
   "osmium/75"
   ]

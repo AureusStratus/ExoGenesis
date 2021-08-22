@@ -1,7 +1,7 @@
 {
 	"type": "LaserTurret",
 	"localizedName": "Vesuvius",
-	"description": "[red] A large super weapon that was used by the Solrans. Uses extreme amounts of heat and energy to create beams of superheated plasma that can vaporize almost anything in its way. Uses large amounts of power and a special coolant",
+	"description": "[red]A large super weapon that was used by the Solrans. Uses extreme amounts of heat and energy to create beams of superheated plasma that can vaporize almost anything in its way. Uses large amounts of power and a special coolant",
 	"details": "Burn them down to there last atoms.",
 	"size": 12,
 	"health": 8789000,
@@ -39,9 +39,9 @@
 	
     "shootType" : {
     "type": "ContinuousLaserBulletType",
-    "colors": ["DE4136AA", "DE4136AA", "FF5845FF", "FFC1BBFF"],
-    "damage": 1300,
-    "width": 10,
+    "colors": ["DE4136AA", "DE4136AA", "FF5845FF", "FFFFFFF"],
+    "damage": 6000,
+    "width": 13,
     "length": 430,
     "status": {
     "name": "solar-flare",
@@ -50,7 +50,7 @@
     "reloadMultiplier": 0.5,
     "speedMultiplier": 0.7,
     "effectChance": 0.5,
-    "damage": 2,
+    "damage": 8.5,
     "transitionDamage": 66,
     "opposites": [ "freezing"],
     "affinities": [ "tarred", "melting"],
@@ -68,16 +68,16 @@
     }
     },
     "hitEffect": {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "offset": 11,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 25,
-    "lifetime": 18,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
-    "cone": 360      
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 8,
+        "lifetime": 25,
+        "length": 45,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FF5845FF",
+        "colorTo": "FFC1BBFF"
     },
     "drawSize": 660,
     "incendChance": 10,
@@ -86,9 +86,9 @@
 },
 	"consumes": {
 		"liquid": {
-			"liquid": "osmilium-liquid",
+			"liquid": "water",
 			"update": true,
-			"amount": 1.2
+			"amount": 0.6
 		}
 		},
 	"requirements": [
@@ -102,5 +102,5 @@
         "osmium/2000"
 	],
 	"category": "turret",
-	"research": "bulwark-core"
+	"research": "duo"
 }
