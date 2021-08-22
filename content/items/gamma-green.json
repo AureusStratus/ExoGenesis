@@ -1,10 +1,15 @@
 {
     "localizedName": "Gamma Alloy",
-    "description": "An alloy used in advanced weaponry, repair structures and special defenses",
-    "details": "An alloy that was used by the quantra to create useful support structures, units and powerful turrets",
+    "description": "[acid]An alloy used in advanced weaponry, repair structures and special defenses",
+    "details": "An alloy that was used by the Guantra to create useful support structures, units and powerful turrets. Extremely radioactive and powerful.",
     "hardness": 8,
     "cost": 7,
     "radioactivity": 1.8,
     "color": "35B06EFF",
-    "research": "surge-alloy"
+    "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+    "surge-alloy/200"
+  ]
+  }
 }

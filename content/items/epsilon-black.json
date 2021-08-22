@@ -1,9 +1,13 @@
 {
     "localizedName": "Epsilonium",
-    "description": "A material used for advanced and deadly weaponry, defence and various structures.",
-    "details": "A sinister material that was used by the Vyrthians, to create various structures and powerful weaponry",
+    "description": "[grey]A material used for advanced and deadly weaponry, defence and various structures.",
+    "details": "A sinister material that was used by the Vyrthians, to create various structures and powerful weaponry. Faint screams off the fallen can be heard coming from the metal.",
     "cost": 7,
-    "hardness": 8,
     "color": "202328FF",
-    "research": "surge-alloy"
+    "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+    "surge-alloy/200"
+  ]
+  }
 }

@@ -1,9 +1,14 @@
 {
     "localizedName": "Valvanite",
-    "description": "A radioactive material commonly found in the deep oceans of the radioactive Quantra world. Used in various quantra tech and also can be used as nuclear fuel",
+    "description": "[acid]A radioactive material commonly found in the deep oceans of the radioactive ofcean planet of the Quantra. Used in various Quantra tech and also can be used as nuclear fuel",
     "details": "Is this safe to hold?",
     "cost": 1,
     "radioactivity": 0.3,
     "color": "7AC27CFF",
-    "research": "lead"
+    "research": {
+    "parent": "lead",
+    "requirements": [
+    "lead/200"
+  ]
+  }
 }
