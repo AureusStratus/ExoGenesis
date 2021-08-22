@@ -64,6 +64,6 @@
     "phase-fabric/100"
 	],
 	"category": "crafting",
-	"research": "alloy-klin",
+	"research": "alloy-kiln",
 	"outputItem": "rutuxium/8"
 }
