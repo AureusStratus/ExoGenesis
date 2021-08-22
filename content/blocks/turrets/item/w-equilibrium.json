@@ -136,7 +136,7 @@
         "speedMultiplier": 0.7
            }
         },
-        "quantux": {
+        "rutuxium": {
         "type": "BasicBulletType",
         "sprite": "exogenesis-plasma",
         "lightRadius": 140,
@@ -371,7 +371,7 @@
 		{ "item": "omega-blue", "amount": 1200 },
 		{ "item": "primal-red", "amount": 1200 },
 		{ "item": "gamma-green", "amount": 1200},
-		{ "item": "quantux", "amount": 12000},
+		{ "item": "rutuxium", "amount": 12000},
 		{ "item": "titanium", "amount": 5000},
 		{ "item": "osmium", "amount": 4300}
 	],
