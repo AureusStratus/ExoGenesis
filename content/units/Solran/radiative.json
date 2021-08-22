@@ -1,12 +1,20 @@
 {
 "name": "Radiative",
-"description":"[red]This unit is equipped powerful fusion shotguns and pulse guns, it also has a oil sprayer that sprays oil on targets to further ignite them and the area, it also has status field that make units around it stronger",
-    "research": "photosphere",
+"description":"[red]A highly durbale unit. Fires two large plasma balls at enemies as well as peircing plasma spikes.",
+"research": {
+"parent": "photosphere",
+"requirements": [
+"volcanite/500",
+"plastanium/400",
+"lead/640",
+"silicon/800"
+]
+},
 "type": "mech",
 "armor": 19,
 "rotateSpeed": 2.8,
 "canDrown": false,
-"hitSize": 20,
+"hitSize": 38,
 "mechFrontSway": 1,
 "commandLimit": 6,
 "mechStepParticles": true,
@@ -16,76 +24,163 @@
 "health": 17000,
 "range": 155,
 "immunities": [
-		"burning"
+		"burning",
+		"melting"
 		],
 "weapons": [
   {
-  "name": "radiative-shotgun",
-  "x": 16,
+  "name": "radiative-plasma-cannon",
+  "x": 20,
   "y": 1,
-  "reload": 38,
+  "reload": 78,
   "alternate": true,
   "top": false,
-  "recoil": 5,
-  "shake": 2,
-  "shots": 1,
-  "shootSound": "shotgun",
+  "recoil": 3,
+  "shake": 3,
+  "shots": 2,
+  "inaccuracy": 2,
+  "shotDelay": 3,
+  "cooldownTime": 78, 
+  "shootSound": "plasmaboom",
   "ejectEffect": "casing1",
   "bullet": {
-            "speed": 0.01,
-            "damage": 215,
-            "width": 18,
-            "pierce": "true",
-            "type": "ShrapnelBulletType",
-            "statusDuration": 80,
-            "status": "melting",
-            "lifetime": 18,
-            "length": 160,
-            "serrations": 5,
-            "fromColor": "FF5845FF",
-            "toColor": "CD4238FF",
-            "shootEffect": "blastExplosion",
-            "hitEffect": "hitMeltdown",
-            "incendChance": 140,
-            "incendSpread": 18,
-            "incendAmount": 4
-              }
-         },
+    "type": "BasicBulletType",
+	"sprite" : "circle-bullet",
+    "status": "melting",
+	"statusDuration": 300,
+	"damage": 265,	
+	"splashDamage": 55,
+	"splashDamageRadius": 30,	
+	"height": 18,
+	"width": 18,			
+	"speed": 6,
+	"lifetime": 70,
+	"shrinkX": 0,
+	"shrinkY": 0,
+	"lightColor": "FFC1BBFF",
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
     {
-	"name": "oil-sprayer",
-    "mirror": false,
-    "x": 0,
-    "y": -4,
-    "shootY": 6,
-    "recoil": 0,
-    "reload": 6,
-    "rotate": true,
-    "inaccuracy": 7,
-    "soundPitchMin": 1.2,
-    "soundPitchMax": 1.4,
-    "shootSound": "flame2",
-    "bullet":{
-      "type": "LiquidBulletType",
-      "liquid": "oil",
-      "speed": 3,
-      "damage": 1,
-      "lifetime": 160
-      }
+    "type": "ParticleEffect",
+    "particles": 30,
+    "length": 60,
+    "lifetime": 36,
+    "interp": "circleOut",
+    "cone": 360,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "sizeFrom": 5,
+    "sizeTo": 0
     },
     {
-   "name": "pulse-gun",
-  "x": 8.5,
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 32,
+    "strokeFrom": 5,
+    "strokeTo": 0,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF"
+    }
+    ]
+    },
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "length": 60,
+    "lifetime": 36,
+    "interp": "circleOut",
+    "cone": 360,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "sizeFrom": 5,
+    "sizeTo": 0
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 32,
+    "strokeFrom": 5,
+    "strokeTo": 0,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF"
+    }
+    ]
+    },
+	"smokeEffect":  "none",
+	"pierce": false,
+	"absorbable": false,
+	"trailChance": 1,
+	"trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 12,
+    "length": 4,
+    "baseLength": 4,
+    "lifetime": 25,
+    "interp": "circleOut",
+    "cone": 360,
+    "offset": 3,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "sizeFrom": 3,
+    "sizeTo": 0
+	},
+	"shootEffect": {
+	"type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "length": 60,
+    "lifetime": 25,
+    "interp": "circleOut",
+    "cone": 25,
+    "offset": 20,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "sizeFrom": 4,
+    "sizeTo": 0
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "length": 60,
+    "lifetime": 25,
+    "interp": "circleOut",
+    "cone": -25,
+    "offset": 20,
+    "offsetX": 2,
+    "offsetY": 18,
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "sizeFrom": 5.7,
+    "sizeTo": 0
+    }
+    ]
+	},
+    "frontColor": "FFC1BBFF",
+    "backColor": "FF5845FF"
+    }
+    },
+    {
+   "name": "solran-gunner",
+  "x": 12.5,
   "y": -7,
   "reload": 28,
   "alternate": true,
   "top": true,
   "shots": 3,
-  "shootSound": "lasershoot",
+  "shootSound": "laser",
   "ejectEffect": "casing1",
   "bullet": {
 		"type" : "basicBulletType",
-		"sprite" : "exogenesis-pulse",
-		"status": "corroded",
+		"sprite" : "exogenesis-peircer",
+		"status": "melting",
 		"damage": 50,
 		"height" : 12,
 		"width" : 12,
@@ -94,27 +189,40 @@
 		"lifetime" : 45,
 		"pierceBuilding": true,
 		"pierceCap": 7,
-		"hitEffect" : "blastExplosion",
-		"despawnEffect": "blastExplosion",
+		"hitEffect": {
+		"type": "ParticleEffect",
+        "particles": 6,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "length": 20,
+        "lifetime": 15,
+        "interp": "circleOut",
+        "colorFrom": "FFC1BBFF",
+        "colorTo": "FF5845FF",
+        "cone": 360   
+		},
+		"despawnEffect": {
+		"type": "ParticleEffect",
+        "particles": 6,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "length": 20,
+        "lifetime": 15,
+        "interp": "circleOut",
+        "colorFrom": "FFC1BBFF",
+        "colorTo": "FF5845FF",
+        "cone": 360   
+		},
 		"shootEffect": "hitMeltdown",
 		"pierce": true,
+		"trailParam": 5,
+		"trailLength": 19,
+        "trailWidth": 3,
+		"trailEffect": "none",
 		"trailColor": "FF5845FF",
         "backColor": "FF5845FF",
-        "frontColor": "CD4238FF",
-        "incendChance": 140,
-        "incendSpread": 18,
-        "incendAmount": 3
+        "frontColor": "FFC1BBFF"
+      }
     }
-
-       }
-     ],
-    "abilities": [
-        {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "range" : 86,
-            "reload" : 340,
-            "duration" : 285,
-            "effect": "overclock"
-        }
-    ]
+  ]
 }
