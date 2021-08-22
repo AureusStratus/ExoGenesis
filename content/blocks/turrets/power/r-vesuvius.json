@@ -40,7 +40,7 @@
     "shootType" : {
     "type": "ContinuousLaserBulletType",
     "colors": ["DE4136AA", "DE4136AA", "FF5845FF", "FFFFFFF"],
-    "damage": 6000,
+    "damage": 7000,
     "width": 13,
     "length": 430,
     "status": {
@@ -86,7 +86,7 @@
 },
 	"consumes": {
 		"liquid": {
-			"liquid": "water",
+			"liquid": "osmilium-liquid",
 			"update": true,
 			"amount": 0.6
 		}
@@ -102,5 +102,5 @@
         "osmium/2000"
 	],
 	"category": "turret",
-	"research": "duo"
+	"research": "eternity-core"
 }
