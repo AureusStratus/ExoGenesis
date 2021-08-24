@@ -31,7 +31,6 @@
         "speed": 3,
         "lifetime": 100,
         "drag": 0.04,
-        "damage": 32,
         "height": 16,
         "width": 7,
         "hitEffect": {
@@ -72,7 +71,7 @@
 		"lifetime": 100,
 		"pierce": true,
 		"speed": 3,
-		"damage" : 32,
+		"damage" : 12,
 		"pierceBuilding": true,
 		"homingPower": 0.0856,
 	    "homingRange": 150,
