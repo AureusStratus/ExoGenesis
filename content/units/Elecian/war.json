@@ -54,7 +54,7 @@
     "type": "LightningBulletType",
     "lightningLength": 17,
     "lightningLengthRand": 28,
-    "damage": 1350,
+    "damage": 8350,
     "lightningColor": "F3E979FF",
     "lightningType": {
     "type": "LightningBulletType",
@@ -64,7 +64,7 @@
     "lightningLengthRand": 9,
     "lightningCone": 28,
     "lightningColor": "F3E979FF",
-    "lightningDamage": 1350
+    "lightningDamage": 4350
     }
 	}
 	},
@@ -89,7 +89,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 180,
+    "damage": 380,
     "width": 5.7,
     "length": 240,
     "drawSize": 470,
@@ -148,7 +148,7 @@
     "collidesTiles": true,
     "collidesAir": true,
     "collidesGround": true,
-    "damage": 600,
+    "damage": 1600,
     "status": "shocked",
     "statusDuration": 300,
 	"lightning": 4,
@@ -254,7 +254,7 @@
     "collidesTiles": true,
     "collidesAir": true,
     "collidesGround": true,
-    "damage": 600,
+    "damage": 1600,
     "status": "shocked",
     "statusDuration": 300,
 	"lightning": 4,
@@ -345,7 +345,7 @@
     "x": 0,
     "y": -28,
     "shootY": 3,
-    "reload": 335,
+    "reload": 135,
     "recoil": 4,
     "shots": 1,
     "shootSound": "railgun",
@@ -616,7 +616,7 @@
     "height": 25,
     "width": 25,
 	"splashDamageRadius": 60,
-	"splashDamage": 360,			
+	"splashDamage": 1860,			
     "lightning": 7,
     "lightningDamage": 204,
     "lightningLength": 10,
