@@ -495,7 +495,7 @@
     "hitSound": "shockBoom",
     "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
-    "statusDuration": 500,
+    "statusDuration": 180,
     "status": {
     "localizedName": "System Crash",
     "name": "system-crash",
