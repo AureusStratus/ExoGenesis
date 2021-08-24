@@ -1,0 +1,534 @@
+{
+    "localizedName": "Universalis",
+    "description": "[cyan]The Armada class titan unit. a slow moving unit that possess two artillery guns and two small gunners. Fires a devastating laser from its star core that has the capability to peirce through 2 layers of plastanium defences. uses a small star core to power its weaponry and debuff enemies also causes lightning to appear around the unit. spawns drones.",
+    "details": "The Stars have aline and your enemies will perish.",
+    "singleTarget": true,
+    "drawShields": false,
+    "research": {
+    "parent": "altair",
+    "requirements": [
+    "astrolite/1920",
+    "surge-alloy/1300",
+    "plastanium/1040",
+    "omega-blue/1000",
+    "osmium/1440",
+    "silicon/1670"
+    ]
+    },
+    "lightRadius": 200,
+    "rotateSpeed": 0.7,
+    "speed": 0.33,
+    "accel": 0.4,
+    "drag": 0.4,
+    "range": 380,
+    "maxRange": 380,
+    "aimDst": 340,
+    "faceTarget": true,
+    "flying": true,
+    "health": 684000,
+    "hitSize": 92,
+    "armor": 36,
+    "engineOffset": 0,
+    "engineSize": 0.01,
+    "lowAltitude": true,
+    "targetAir": true,
+    "commandLimit": 8,
+	"weapons": [
+	   {
+    "name": "cold-plasma-artillery",
+    "x": 47,
+    "y": -15,
+    "shootY": 11,
+    "rotateSpeed": 1.6,
+    "reload": 45,
+    "shots": 6,
+    "velocityRnd": 0.34,
+    "recoil": 4, 
+    "inaccuracy": 8,
+    "shootSound": "artillery",
+    "rotate": true,
+    "bullet": {
+      "type": "ArtilleryBulletType",
+      "width": 16,
+      "height": 16,
+      "status": "freezing",
+      "splashDamage": 256,
+      "splashDamageRadius": 20,
+      "statusDuration": 300,
+	  "lightning": 4,
+      "lightningLength": 10,
+      "lightningLengthRand": 6,
+      "lightningDamage": 20,
+      "lightColor": "A9D8FFFF",
+      "lightningColor": "66B1FFFF",
+      "speed": 5.5,
+      "lifetime": 80,
+      "frontColor": "A9D8FFFF",
+      "backColor": "66B1FFFF",
+      "hitEffect": {
+      "type": "multiEffect",
+      "effects": [
+      {
+      "type": "ParticleEffect",
+      "particles": 8,
+      "length": 60,
+      "lifetime": 46,
+      "interp": "circleOut",
+      "cone": 360,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF",
+      "sizeFrom": 5,
+      "sizeTo": 0
+      },
+      {
+      "type": "WaveEffect",
+      "lifetime": 15,
+      "sizeFrom": 0,
+      "sizeTo": 45,
+      "strokeFrom": 4,
+      "strokeTo": 0,
+      "colorFrom": "66B1FFFF",
+      "colorTo": "A9D8FFFF"
+      } 
+      ]
+      },
+      "despawnEffect": {
+      "type": "multiEffect",
+      "effects": [
+      {
+      "type": "ParticleEffect",
+      "particles": 8,
+      "length": 60,
+      "lifetime": 46,
+      "interp": "circleOut",
+      "cone": 360,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF",
+      "sizeFrom": 5,
+      "sizeTo": 0
+      },
+      {
+      "type": "WaveEffect",
+      "lifetime": 15,
+      "sizeFrom": 0,
+      "sizeTo": 45,
+      "strokeFrom": 4,
+      "strokeTo": 0,
+      "colorFrom": "66B1FFFF",
+      "colorTo": "A9D8FFFF"
+      } 
+      ]
+      },
+      "shootEffect": "shootBig"
+    }
+  },
+  {
+  "name": "cold-plasma-gunner",
+    "x": 18,
+    "y": 7,
+    "shootY": 9,
+    "rotateSpeed": 4,
+    "reload": 15,
+    "recoil": 2,
+    "shots": 1,
+    "inaccuracy": 2,
+    "shootSound": "bang",
+    "mirror": true,
+    "alternate": true,
+    "rotate": true,
+    "bullet": {
+      "type": "basicBulletType",
+      "damage": 200,
+      "width": 12,
+      "height": 12,
+      "status": "freezing",
+      "reflectable": false,
+      "absorbable": true,
+      "statusDuration": 300,
+	  "lightning": 4,
+      "lightningLength": 5,
+      "lightningLengthRand": 7,
+      "lightningDamage": 6,
+      "lightColor": "A9D8FFFF",
+      "lightningColor": "66B1FFFF",
+      "speed": 5.5,
+      "lifetime": 78,
+      "frontColor": "A9D8FFFF",
+      "backColor": "66B1FFFF",
+      "despawnEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 15,
+      "lifetime": 20,
+      "offset": 30,
+      "length": 35,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
+      "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 15,
+      "lifetime": 20,
+      "offset": 30,
+      "length": 35,
+      "cone": -360,
+      "lenFrom": 5,
+      "lenTo": 0,
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "66B1FFFF"
+      },
+      "shootEffect": "shootSmall"
+    }
+  },
+  {
+  "name": "arbiter-weapon",
+  "x": 0,
+  "y": 0,
+  "mirror": false,
+  "top": false,
+  "shake": 4,
+  "shootY": 14,
+  "shootStatus": "unmoving",
+  "shootStatusDuration": 150,
+  "reload": 725,
+  "recoil": 0,
+  "shots": 2,
+  "shotDelay": 2,
+  "firstShotDelay": 130,
+  "soundPitchMin": 0.95,
+  "soundPitchMax": 2.05,
+    "chargeSound": "lasercharge",
+    "shootSound": "laserblast",
+    "bullet": {
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 25,
+    "offset": 55,
+    "lifetime": 130,
+    "length": 65,
+    "baseLength": -65,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 18,
+    "length": 0,
+    "lifetime": 130,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF",
+    "cone": 360
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 80,
+    "sizeFrom": 127,
+    "sizeTo": 0,
+    "strokeFrom": 0,
+    "strokeTo": 8,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "A9D8FFFF"
+          }
+        ]
+      },
+    "type": "LaserBulletType",
+    "length": 680,
+    "width": 65,
+    "lifetime": 45,
+    "damage": 2480,
+    "lightningSpacing": 28,
+    "lightningLength": 15,
+    "lightningDelay": 1,
+    "lightningLengthRand": 20,
+    "lightningDamage": 100,
+    "lightningAngleRand": 40,
+    "lightColor": "A9D8FFFF",
+    "lightningColor": "66B1FFFF",
+    "largeHit": true,
+    "status": "freezing",
+    "statusDuration": 100,
+    "hitColor": "A9D8FFFF",
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 20,
+    "offset": 50,
+    "length": 55,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "colors": ["66B1FFAA", "A9D8FFFF", "FFFFFF"],
+    "sideAngle": 90,
+    "sideLength": 1,
+    "sideWidth": 1
+    }
+  }
+    ],
+    "abilities": [
+    {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 120,
+    "regen": 5,
+    "max": 5700,
+    "cooldown": 200
+    },
+    {
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 90,
+    "regen": 8,
+    "max": 9700,
+    "cooldown": 280
+    },
+    {
+    "type": "EnergyFieldAbility",
+    "statusDuration": 100,
+    "shootSound": "none",
+    "healEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 13,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "color": "66B1FFFF",
+    "maxTargets": 60,
+    "healPercent": 1,
+    "damage": 100,
+    "range": 180,
+    "sectors": 3,
+    "y": 14,
+    "blinkScl": 80,
+    "rotateSpeed": 3,
+    "hitBuildings": true,
+    "sectorRad": 0.18,
+    "effectRadius": 5.6,
+    "reload": 50,
+    "status": {
+    "name": "energy-instability",
+    "localizedName": "Energy Instability",
+    "description": "energies the atoms of units making them unstable.",
+    "effectChance": 0.6,
+    "transitionDamage": 25,
+    "affinities": ["tarred", "melting", "corroded", "freezing", "blasted", "slow", "unmoving", "burning", "wet", "muddy", "sapped", "overclock", "disarmed", "shielded", "shocked", "electrified", "spore-slowed", "overdrive"],
+    "effect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 6,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    }
+    }
+    },
+    {
+    "type": "MoveLightningAbility",
+    "minSpeed": -1,
+    "maxSpeed": 0,
+    "damage": 0,
+    "chance": 1,
+    "length": 1,
+    "color": "00000000",
+    "shootSound": "none",
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "sizeFrom": 73,
+      "sizeTo": 73,
+      "length": 0.01,
+      "lifetime": 20,
+      "region": "exogenesis-universalis-glow",
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "A9D8FF00",
+      "lightOpacity": 0,
+      "layer": 105
+    },
+    {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "sizeFrom": 79,
+      "sizeTo": 0,
+      "length": 0.01,
+      "lifetime": 25,
+      "region": "exogenesis-universalis-glow2",
+      "colorFrom": "A9D8FFFF",
+      "colorTo": "A9D8FF00",
+      "lightOpacity": 0,
+      "layer": 105  
+    }
+    ]
+    }
+    },
+    {
+    "type": "MoveLightningAbility",
+    "minSpeed": -1,
+    "maxSpeed": 0,
+    "damage": 0,
+    "chance": 1,
+    "length": 1,
+    "color": "00000000",
+    "shootSound": "none",
+    "shootEffect": "none",
+    "bulletAngle": 360,
+    "bulletSpread": 360,
+    "bullet": {
+    "speed": 20,
+    "damage": 0,
+    "collidesGround": "false",
+    "collidesAir": "false",
+    "collides": "false",
+    "type": "BasicBulletType",
+    "lifetime": 5,
+    "lightOpacity": 0,
+    "shootEffect": "none",
+    "height": 0.1,
+    "width": 0.1,
+    "hitEffect": "none",
+    "despawnEffect": "none",
+    "fragBullets": 2,
+	   "fragCone": -2,
+	   "fragBullet": {
+    "type": "LightningBulletType",
+    "lightningLength": 8,
+    "lightningLengthRand": 17,
+    "damage": 300,
+    "lightningColor": "A9D8FFFF"
+	}
+    }
+    },
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": -30,
+    "spawnY": -26,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 30,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-L",
+    "spawnTime": 250
+	},
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": -45,
+    "spawnY": -34,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 25,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-A",
+    "spawnTime": 150
+    },
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": -54,
+    "spawnY": -27,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 25,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-B",
+    "spawnTime": 150
+   },
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": 30,
+    "spawnY": -26,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 30,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-L",
+    "spawnTime": 250
+	},
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": 45,
+    "spawnY": -34,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 25,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-A",
+    "spawnTime": 150
+    },
+    {
+    "type": "UnitSpawnAbility",
+    "spawnX": 54,
+    "spawnY": -27,
+    "spawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 25,
+    "sides": 4,
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"   
+    },
+    "unit": "drone-B",
+    "spawnTime": 150
+    }
+    ]
+}
