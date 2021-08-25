@@ -1,6 +1,6 @@
 {
     "localizedName": "Assault",
-    "description": "[gold]A powerful long ranged unit equipped with a powerful proton can on capable of massive amounds of damage. Has small rocket launchers for closer ranged combat",
+    "description": "[gold]A powerful long ranged unit equipped with a powerful proton that is capable of massive amounds of damage. Has small rocket launchers for closer ranged combat",
     "details": "Created after the reawakening of War its proton cannon was made by studying wars own weapons and its now used by the Elecians to take down enemies from low orbit or from extremely long distances.",
     "research": {
     "parent": "hostile",
