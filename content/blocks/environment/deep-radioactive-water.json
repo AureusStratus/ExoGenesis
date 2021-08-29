@@ -8,6 +8,6 @@
 "cacheLayer": "water",
 "albedo": 0.5,
 "isLiquid": true,
-"liquidDrop": "liquid-radoactive-water",
+"liquidDrop": "water",
 "liquidMultiplier": 1.5
 }
