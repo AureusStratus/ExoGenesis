@@ -7,5 +7,5 @@
 "albedo": 0.5,
 "status": "corroded",
 "cacheLayer": "water",
-"liquidDrop": "liquid-radoactive-water"
+"liquidDrop": "water"
 }
