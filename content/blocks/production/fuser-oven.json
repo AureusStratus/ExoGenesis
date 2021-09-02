@@ -1,6 +1,6 @@
 {	
     "localizedName": "Fuser Oven",
-    "description": "[gold]Fuses togther materials with heat and electric arcs to create oltuxium.",
+    "description": "[gold]Fuses together materials with heat and electric arcs to create Oltuxium.",
     "type": "GenericCrafter",
 	"size": 2,
 	"hasPower": true,
