@@ -1,6 +1,6 @@
 {	
     "localizedName": "Irradiation Kiln",
-	"description": "[acid]Uses mini gamma ray bursts to irradiate and melt materials to create gamma alloy. Uses water to cool off.",
+	"description": "[acid]Uses mini gamma ray bursts to irradiate and melt materials to create Gamma Alloy. Uses Water to cool off.",
 	"type": "GenericCrafter",
 	"drawer": {
 	"type": "drawArcSmelter",
