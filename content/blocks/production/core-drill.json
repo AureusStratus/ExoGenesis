@@ -1,7 +1,7 @@
 {
 	"type": "Separator",
 	"localizedName": "Core Drill",
-	"description": "A massive structure that can sift through slag, pulling out small amounts of different reasources. Can be quite useful.",
+	"description": "A massive structure that can sieve through Slag, pulling out small amounts of different resources. Can be quite useful.",
 	"size": 9,
 	"spinnerSpeed": 4,
 	"craftTime": 4,

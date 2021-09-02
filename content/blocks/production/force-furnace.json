@@ -1,6 +1,6 @@
 {	
     "localizedName": "Force Furnace",
-    "description": "[grey]Uses force and heat to turn materials in to vytama.",
+    "description": "[grey]Uses force and heat to turn materials in to Vytama.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

@@ -1,6 +1,6 @@
 {	
     "localizedName": "Nuclear Fusion Furnace",
-    "description": "[red]Superheats materials to the point of fusion to create sigma iron.",
+    "description": "[red]Superheats materials to the point of fusion to create Sigma Iron.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

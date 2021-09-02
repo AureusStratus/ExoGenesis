@@ -1,6 +1,6 @@
 {	
     "localizedName": "Hadel Furnace",
-    "description": "[red]Able to produce more sigma iron through extreme temperatures, but uses more materials to do so.",
+    "description": "[red]Able to produce more Sigma Iron through extreme temperatures, but uses more materials to do so.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

@@ -1,6 +1,6 @@
 {	
     "localizedName": "Ton Forge",
-    "description": "Melts together materials under tons of pressure to create osmium.",
+    "description": "Melts together materials under tons of pressure to create Osmium.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

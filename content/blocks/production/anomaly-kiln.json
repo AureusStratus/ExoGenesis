@@ -1,6 +1,6 @@
 {	
     "localizedName": "Anomaly Kiln",
-    "description": "[purple]Creates small dark energy through anomalies to turn materials in to vurtimite.",
+    "description": "[purple]Creates small dark energy through anomalies to turn materials in to Vurtimite.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

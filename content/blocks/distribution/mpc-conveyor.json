@@ -1,6 +1,6 @@
 {
-"localizedName": "MPC Conveyor",
-"description": "M.P.C. Mass production transportation. Can carry 100 items at a time. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 100 stacks.",
+"localizedName": "MPC",
+"description": "M.P.C stands for Mass production Conveyor. Can only carry 100 items at a time, but it is faster than M.R.S Conveyors. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 100 stacks.",
 "type": "StackConveyor",
 "loadEffect": {
 "type": "ParticleEffect",
