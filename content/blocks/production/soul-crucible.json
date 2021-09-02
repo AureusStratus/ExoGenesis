@@ -1,6 +1,6 @@
 {	
     "localizedName": "Soul Crucible",
-    "description": "[grey]Able to produce more Epsilonium through unknown means using but it needs more ingredients.",
+    "description": "[grey]Able to produce more Epsilonium through unknown means using but it requires more of its materials.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
