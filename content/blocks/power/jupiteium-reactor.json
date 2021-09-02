@@ -1,7 +1,7 @@
 {
 	"type": "NuclearReactor",
 	"localizedName": "Jupiteium Reactor",
-	"description": "Uses jupiteium to produce more power then a thorium reactor, but it needs better coolant",
+	"description": "Uses Jupiteium to produce more power then a thorium reactor, but it needs better coolant.",
 	"health": 1200,
 	"itemCapacity": 30,
 	"size": 4,
