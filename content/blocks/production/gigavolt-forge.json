@@ -1,6 +1,6 @@
 {	
     "localizedName": "Gigavolt Forge",
-	"description": "[gold]Uses high voltages and lightning to energize and melt materials to create more alpha steel than a normal furnace.",
+	"description": "[gold]Uses high voltages and lightning to energize and melt materials to create more Alpha Steel than a normal Arc Forge.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
