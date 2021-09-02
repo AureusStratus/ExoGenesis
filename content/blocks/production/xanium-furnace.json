@@ -1,6 +1,6 @@
 {	
     "localizedName": "Xanium Furnace",
-    "description": "Able to produce more Xanium but it uses more materials and some Silicon.",
+    "description": "Able to produce more Xanium but it uses more of its ingredients and some Silicon.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
