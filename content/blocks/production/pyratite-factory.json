@@ -1,6 +1,6 @@
 {	
     "localizedName": "Pyratite Factory",
-    "description": "An upgrade of the blast mixer able to produce more blast compound at the cost of more materials.",
+    "description": "An upgrade of the Pyratite Mixer able to produce more Pyratite at the cost of more materials.",
     "type": "GenericSmelter",
 	"size": 3,
 	"hasPower": true,
