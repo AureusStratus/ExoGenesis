@@ -23,7 +23,7 @@
 		],
 "weapons": [
   {
-  "name": "fusion-gun",
+  "name": "helios-gun",
    "shootCone": 15,
     "mirror": true,
     "alternate": true,
