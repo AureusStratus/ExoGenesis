@@ -299,7 +299,7 @@
   "shots": 1,
   "shootStatus": "unmoving",
   "shootStatusDuration": 160,
-  "reload": 725,
+  "reload": 1225,
   "recoil": 0,
   "firstShotDelay": 140,
   "soundPitchMin": 1,
