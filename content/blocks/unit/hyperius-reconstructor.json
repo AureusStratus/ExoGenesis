@@ -34,9 +34,7 @@
 		["system", "organization"],
 		["4-helios", "5-prime"],
 		["combat", "hostile"],
-		["disagreement", "disaccord"],
-		["feral", "beast"],
-		["poltergeist", "lich"]
+		["disagreement", "disaccord"]
 	],
 	"category": "units",
 	"research": "mass-reconstructor"
