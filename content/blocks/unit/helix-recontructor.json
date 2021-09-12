@@ -31,9 +31,7 @@
 		["1-arco", "2-falx"],
 		["rule", "law"],
 		["challenge", "disrespect"],
-		["conflict", "dispute"],
-		["critter", "varmint"],
-		["wraith", "ghoul"]
+		["conflict", "dispute"]
 	],
 	"category": "units",
 	"research": "additive-reconstructor"
