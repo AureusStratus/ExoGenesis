@@ -34,8 +34,6 @@
 		["order", "system"],
 		["strife", "combat"],
 		["debate", "disagreement"],
-		["animal", "feral"],
-		["revenant", "poltergeist"]
 	],
 	"category": "units",
 	"research": "multi-reconstructor"
