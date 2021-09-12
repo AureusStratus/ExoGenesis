@@ -39,9 +39,7 @@
 		["5-prime", "6-apex"],
 		["hostile", "assault"],
 		["moon", "earth"],
-		["disaccord", "contention"],
-		["beast", "creature"],
-		["lich", "reaper"]
+		["disaccord", "contention"]
 	],
 	"category": "units",
 	"research": "hyperius-reconstructor"
