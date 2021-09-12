@@ -8,10 +8,10 @@ A mod that adds a lot more content to the game.
 `note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
 
 ## The mod adds: 
-`Items`: 19
+`Items`: 17
 <br>`maps`: 2
-<br>`Blocks`: 194
-<br>`Turrets`: 91
+<br>`Blocks`: 181
+<br>`Turrets`: 78
 <br>`units`: 78
 
 ## Mod races/factions 
