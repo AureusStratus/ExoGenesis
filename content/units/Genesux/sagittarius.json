@@ -748,7 +748,7 @@
     "shrinkX": 0,
     "shrinkY": 0,
     "splashDamageRadius": 170,
-    "splashDamage": 566000,
+    "splashDamage": 266000,
     "lightColor": "66B1FFFF",
     "hitSound": "coolplasmaboom",
     "frontColor": "000000FF",
