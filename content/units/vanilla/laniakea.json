@@ -1,6 +1,6 @@
 {
     "localizedName": "Laniakea",
-    "description": "[green]The special support class titan. A massive support unit that can charge up a sphere of immense amount of energy and then realsing it in a devastating energy pulse wave, also weapons that can fire homing and peircing disks if energy. Uses an energy field ability.",
+    "description": "[green]The special support class titan. A massive support unit that can charge up a sphere of immense amount of energy and then realsing it in a devastating energy pulse wave, also has weapons can fire homing and peircing disks of energy. Uses an energy field ability.",
     "research": {
     "parent": "stella",
     "requirements": [
