@@ -26,7 +26,7 @@
 "mechStepShake": 6,
 "singleTarget": true,
 "speed": 0.31,
-"health": 778000,
+"health": 578000,
 "range": 300,
 "immunities": [
 		"melting",
