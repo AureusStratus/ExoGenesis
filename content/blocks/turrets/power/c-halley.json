@@ -24,11 +24,10 @@
     "line": true,
     "particles": 15,
     "lifetime": 25,
-    "length": 35,
-    "baseLength": -35,
+    "length": 55,
     "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
+    "lenFrom": 0,
+    "lenTo": 5,
     "colorFrom": "66B1FFFF",
     "colorTo": "A9D8FFFF"
 	},
@@ -46,14 +45,43 @@
 	
     "shootType": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "circle-bullet",
         "status": "freezing",
         "speed": 4,
-        "lifetime": 180,
-        "damage": 285,
-        "height": 18,
-        "width": 18,
+        "lifetime": 100,
+        "damage": 685,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "height": 15,
+        "width": 15,
         "hitEffect": {
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "ParticleEffect",
+        "particles": 20,
+        "length": 40,
+        "lifetime": 36,
+        "interp": "circleOut",
+        "cone": 30,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 6.5,
+        "sizeTo": 0
+        },
+        {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 19,
+        "lifetime": 20,
+        "length": 75,
+        "cone": -360,
+        "lenFrom": 8,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        {
         "type": "WaveEffect",
         "lifetime": 20,
         "sizeFrom": 0,
@@ -62,8 +90,37 @@
         "strokeTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
+        }
+        ]
         },
         "despawnEffect": {
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "ParticleEffect",
+        "particles": 20,
+        "length": 40,
+        "lifetime": 36,
+        "interp": "circleOut",
+        "cone": 30,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 6.5,
+        "sizeTo": 0
+        },
+        {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 19,
+        "lifetime": 20,
+        "length": 75,
+        "cone": -360,
+        "lenFrom": 8,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        {
         "type": "WaveEffect",
         "lifetime": 20,
         "sizeFrom": 0,
@@ -72,27 +129,20 @@
         "strokeTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
+        }
+        ]
         },
-        "trailEffect": {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "length": 0,
-        "lifetime": 24,
-        "sizeFrom": 10,
-        "region": "exogenesis-plasma-back",
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFAA"
-        },
-        "trailChance": 1,
-        "collides": true,
-        "collidesAir": true,
-        "collidesTiles": true,
+        "trailEffect": "none",
+        "trailColor": "66B1FFFF",
+        "trailParam": 3,
+        "trailLength": 13,
+        "trailWidth": 5,
         "homingRange": 200,
         "homingPower": 0.0567,
         "splashDamageRadius": 54,
         "splashDamage": 26,
         "frontColor": "A9D8FFFF",
-        "backColor": "66B1FFAA"
+        "backColor": "66B1FFFF"
     },
     "requirements": [
         "astrolite/470",
