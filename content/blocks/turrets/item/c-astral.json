@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[cyab]A small turret that uses astrolite to fire cold plasma orbs at enemies.",
+    "description": "[cyab]Uses astrolite to fire cold plasma bullets at enemies.",
     "localizedName": "Astral",
     "size": 1,
     "health": 240,
@@ -16,7 +16,7 @@
     "recoilAmount": 0.7,
     "restitution": 0.06,
     "rotateSpeed": 3,
-    "shootSound": "laser",
+    "shootSound": "bang",
     "hasPower": true,
     "ammoTypes": {
         "astrolite": {
@@ -27,54 +27,148 @@
         "shrinkX": 0,
         "speed": 4,
         "lifetime": 38,
-        "damage": 17,
+        "damage": 14,
+        "trailColor": "66B1FFFF",
+        "trailParam": 2,
+        "trailLength": 8,
+        "trailWidth": 2,
+        "trailEffect": "none",
         "shootEffect": {
+        "type": "multiEffect",
+        "effects": [
+        {
         "type": "ParticleEffect",
-        "line": true,
-        "particles": 7,
-        "lifetime": 15,
-        "length": 25,
-        "cone": -60,
-        "lenFrom": 5,
-        "lenTo": 0,
+        "particles": 20,
+        "length": 40,
+        "lifetime": 36,
+        "interp": "circleOut",
+        "sizeInterp": "pow5Out",
+        "cone": 20,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 4.5,
+        "sizeTo": 0
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 15,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
+        },
+        {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 30,
+        "strokeFrom": 3.5,
+        "strokeTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        }
+        ]
         },
         "status": "freezing",
-        "height": 9,
-        "width": 9,
+        "height": 7,
+        "width": 7,
         "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 5,
-        "lifetime": 15,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 20,
+        "strokeFrom": 3.5,
+        "strokeTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
         },
-        "despawnEffect": {
+        {
         "type": "ParticleEffect",
-        "line": true,
-        "particles": 5,
-        "lifetime": 15,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
+        "particles": 1,
+        "sizeFrom": 25,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 10,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
+        "colorFrom": "FFFFFFF",
+        "colorTo": "FFFFFFF"
+        }
+        ]
+        },
+        "despawnEffect": {
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 20,
+        "strokeFrom": 3.5,
+        "strokeTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 25,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 10,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
+        "colorFrom": "FFFFFFF",
+        "colorTo": "FFFFFFF"
+        }
+        ]
         },
         "frontColor": "A9D8FFFF",
         "backColor": "66B1FFFF"
         }
     },
     "requirements": [
-        "silicon/20",
+        "lead/20",
         "astrolite/60"
+    
     ],
     "category": "turret",
     "research": "duo"
+
 }

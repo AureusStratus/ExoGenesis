@@ -31,7 +31,7 @@
         "weaveScale": -50,
         "lifetime": 200,
         "speed": 5,
-        "damage": 285,
+        "damage": 235,
         "height": 18,
         "width": 18,
         "hitEffect": {
@@ -39,8 +39,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
         },
@@ -49,8 +49,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
         },
@@ -88,7 +88,7 @@
         "weaveMag": 8,
         "weaveScale": -50,
         "lifetime": 200,
-        "damage": 155,
+        "damage": 141,
         "height": 18,
         "width": 18,
         "hitEffect": {
@@ -96,8 +96,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "F3E979FF",
         "colorTo": "D99F6BFF"
         },
@@ -106,8 +106,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "F3E979FF",
         "colorTo": "D99F6BFF"
         },
@@ -138,7 +138,7 @@
         "weaveScale": -50,
         "lifetime": 200,
         "speed": 5,
-        "damage": 85,
+        "damage": 95,
         "height": 18,
         "width": 18,
         "hitEffect": {
@@ -146,8 +146,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "FFFFFF",
         "colorTo": "A9D8FFFF"
         },
@@ -156,8 +156,8 @@
         "lifetime": 20,
         "sizeFrom": 0,
         "sizeTo": 30,
-        "strokeFrom": 4,
-        "strokeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
         "colorFrom": "FFFFFF",
         "colorTo": "A9D8FFFF"
         },
