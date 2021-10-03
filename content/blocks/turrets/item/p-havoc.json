@@ -15,7 +15,7 @@
 	"ammoUseEffect": "none",
 	"inaccuracy": 0,
 	"shootCone": 5,
-	"rotateSpeed": 1,
+	"rotateSpeed": 2,
 	"shootSound": "boom",
 	"ammoTypes": {
 	"spore-pod": {
