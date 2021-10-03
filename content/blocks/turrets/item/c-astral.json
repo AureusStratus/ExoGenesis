@@ -15,7 +15,7 @@
     "shootCone": 0.08,
     "recoilAmount": 0.7,
     "restitution": 0.06,
-    "rotateSpeed": 3,
+    "rotateSpeed": 5,
     "shootSound": "bang",
     "hasPower": true,
     "ammoTypes": {
