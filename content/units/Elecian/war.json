@@ -35,7 +35,7 @@
 	    "weapons": [
 	   {
     "name": "storm-ability",
-    "reload": 600,
+    "reload": 500,
     "rotate": true,
     "rotateSpeed": 7.8,
     "top": true,
@@ -89,7 +89,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 380,
+    "damage": 400,
     "width": 5.7,
     "length": 240,
     "drawSize": 470,
@@ -148,7 +148,7 @@
     "collidesTiles": true,
     "collidesAir": true,
     "collidesGround": true,
-    "damage": 1600,
+    "damage": 3600,
     "status": "shocked",
     "statusDuration": 300,
 	"lightning": 4,
@@ -254,7 +254,7 @@
     "collidesTiles": true,
     "collidesAir": true,
     "collidesGround": true,
-    "damage": 1600,
+    "damage": 3600,
     "status": "shocked",
     "statusDuration": 300,
 	"lightning": 4,
@@ -353,7 +353,7 @@
     "rotateSpeed": 1.4,
     "bullet": {
     "type": "basicBulletType",
-    "damage": 13000,
+    "damage": 93000,
     "splashDamage": 400,
     "splashDamageRadius": 105,
     "width": 19,
