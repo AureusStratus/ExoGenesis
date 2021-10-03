@@ -37,7 +37,7 @@
     "allowLegStep": true,
     "hovering": true,
     "commandLimit": 8,
-	"armor": 200,
+	"armor": 360,
 	"drag": 0.2,
 	"range": 450,
 	"maxRange": 450,
@@ -239,7 +239,7 @@
     }
     },
 	"statusDuration": 300,
-	"damage": 8500,	
+	"damage": 10000,	
 	"splashDamage": 500,
 	"splashDamageRadius": 140,	
 	"height": 48,
