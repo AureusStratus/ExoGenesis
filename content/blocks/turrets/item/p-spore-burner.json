@@ -14,7 +14,7 @@
 	"shootCone" : 20,
 	"recoilAmount" : 0,
 	"inaccuracy" : 12, 
-	"rotateSpeed": 4.0,
+	"rotateSpeed": 5,
 	"shootSound": "flame2",
 
 	"ammoTypes": {
