@@ -233,7 +233,7 @@
     "rotate": true,
     "bullet": {
     "type": "basicBulletType",
-    "damage": 65000,
+    "damage": 75000,
     "splashDamage": 400,
     "splashDamageRadius": 40,
     "width": 35,
@@ -832,7 +832,7 @@
     "lifetime": 140,
     "splashDamage": 300,
     "splashDamageRadius": 200,
-    "damage": 8720,
+    "damage": 11000,
     "shrinkY": 0,
     "shrinkX": 0,
     "radius": 200,
@@ -857,7 +857,7 @@
         "spawnX": 0,
         "spawnY": 55,
         "unit": "crystal-drone-healer",
-        "spawnTime": 120
+        "spawnTime": 90
        },
        {
         "type": "mindustry.entities.abilities.RepairFieldAbility",
@@ -883,7 +883,7 @@
         "colorTo": "57D993FF"
         },
         "range": 300,
-        "amount": 20000,
+        "amount": 40000,
         "reload": 300
         },
         {
