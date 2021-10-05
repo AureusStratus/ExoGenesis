@@ -1,5 +1,5 @@
 {
-    "localizedName": "Pulsar",
+    "localizedName": "vanguard",
     "description": "[yellow]A shotgun turret that can shoot either burning, freezing, or electrical bullets and has a lot of knockback, but it cannot target air units.", 
 	"type": "ItemTurret",
 	"size": 3,
@@ -108,5 +108,5 @@
         "plastanium/200"
 	],
 	"category": "turret",
-	"research": "fuse"
+	"research": "photon"
 }
