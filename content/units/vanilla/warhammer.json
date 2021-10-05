@@ -2,7 +2,7 @@
 "name": "Warhammer",
 "description": "[orange]The assault class titan unit. A massive heavy fire power unit equipped with plasma cannons and can shoot a barrage of missiles and bullets. Powers itself with a built in reactor that will fire a devastating laser. Can buff allies.",
 "research": {
-"parent": "reign",
+"parent": "king",
 "requirements": [
 "graphite/1220",
 "surge-alloy/1200",
