@@ -15,5 +15,5 @@
     { "item": "silicon", "amount": 3},
     { "item": "metaglass", "amount": 6}
   ],
-  "research": "power-node-large"
+  "research": "aqua-node"
 }
