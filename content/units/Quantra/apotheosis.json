@@ -11,7 +11,7 @@
     "range": 560,
     "maxRange": 560,
     "hitSize": 170,
-    "health": 6700000,
+    "health": 6000000,
     "speed": 0.5,
     "accel": 0.5,
     "drag": 0.5,
