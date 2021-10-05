@@ -1,7 +1,7 @@
 {
     "localizedName": "Primordial",
     "description": "[purple] The primordial is the leader of the purtuxians, it is equipped with a powerful railgun, and it has two massive laser cannons on the back that can fire three quantux energy laser blasts, it has four laser mounts for close ranged damaged, lastly it has an orb of pure quantux energy that is able to fire out large homing orbs of quantux energy that deals catastrophic damage",
-    "research": "epoch",
+    "research": "eternity-core",
     "details": "It was around long before the first star. note the idea for the orb was made by the creator of the exotic mod. lore: the primordial has been around for who knows how long it has ravaged countless planets, turning them in the waste lands, before it then crashed landed on the planet of the purtuxians, giving there civilization the power to harness the power of quantux energy, but as there civilization advanced the primordial slowly influenced, them until it reawakened and took over",
     "singleTarget": true,
 	"lightRadius": 350,
