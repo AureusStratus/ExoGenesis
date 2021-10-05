@@ -20,7 +20,7 @@
     "type": "legs",
 	"speed": 0.20,
 	"hitSize": 100,
-	"health": 7300000,
+	"health": 5300000,
     "legCount": 4,
     "groundLayer": 75,
     "legPairOffset": 2,
