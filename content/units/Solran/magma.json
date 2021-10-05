@@ -1,7 +1,7 @@
 {
 "name": "Magma",
 "description":"[red]A large and durable unit that has three laser mounts on its back that can deal massive damage. the unit can also boost",
-"research": "dagger",
+"research": "molten",
 "type": "mech",
 "armor": 19,
 "boostMultiplier": 1.0,
