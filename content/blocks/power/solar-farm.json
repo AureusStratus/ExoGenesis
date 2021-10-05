@@ -13,6 +13,6 @@
 		{ "item": "silicon", "amount": 380 }
 	],
 	"category": "power",
-	"research": "solar-panel"
+	"research": "large-solar-panel"
     
 }
