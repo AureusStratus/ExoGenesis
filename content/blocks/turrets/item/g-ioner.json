@@ -71,7 +71,6 @@
     },
     "requirements": [
         "valvanite/20",
-        "silicon/20",
         "copper/140"
     ],
     "category": "turret",
