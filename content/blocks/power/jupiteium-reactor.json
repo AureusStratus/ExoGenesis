@@ -11,7 +11,7 @@
     "explosionRadius": 24,
     "explosionDamage": 2860,
 	"hasLiquids": true,
-	"powerProduction": 26,
+	"powerProduction": 56,
 	"itemDuration": 400,
 	"heating": 0.004,
 	"consumes": {
@@ -22,7 +22,7 @@
 	},
 		"liquid": {
 			"liquid": "osmilium-liquid",
-			"amount": 0.5
+			"amount": 0.2
 		}
 	},
 	"requirements": [
