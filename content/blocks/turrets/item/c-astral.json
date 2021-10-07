@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[cyab]Uses astrolite to fire cold plasma bullets at enemies.",
+    "description": "[cyan]Uses astrolite to fire cold plasma bullets at enemies.",
     "localizedName": "Astral",
     "size": 1,
     "health": 240,
