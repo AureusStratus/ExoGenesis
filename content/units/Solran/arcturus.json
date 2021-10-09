@@ -37,7 +37,7 @@
     "allowLegStep": true,
     "hovering": true,
     "commandLimit": 8,
-	"armor": 360,
+	"armor": 460,
 	"drag": 0.2,
 	"range": 450,
 	"maxRange": 450,
