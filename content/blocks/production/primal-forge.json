@@ -19,7 +19,7 @@
 		"items": {
 			"items": [
 			    "volcanite/5",
-				{"item": "surge-alloy", "amount": 5},
+				{"item": "titanium", "amount": 5},
 				{"item": "osmium", "amount": 10}
 			]
 		}
