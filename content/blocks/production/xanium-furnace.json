@@ -18,9 +18,9 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "titanium/12",
+                "titanium/10",
                 "silicon/6",
-                "plastanium/18"
+                "plastanium/10"
 			]
 		}
 	},
