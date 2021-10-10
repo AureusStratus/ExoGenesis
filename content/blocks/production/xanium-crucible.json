@@ -19,7 +19,7 @@
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 8},
-				{"item": "plastanium", "amount": 10}
+				{"item": "plastanium", "amount": 5}
 			]
 		}
 	},
@@ -34,6 +34,6 @@
 	"research": "plastanium-compressor",
 	"outputItem": {
 		"item": "xanium",
-		"amount": 3
+		"amount": 4
 	}
 }
