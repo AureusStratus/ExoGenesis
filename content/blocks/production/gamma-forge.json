@@ -18,9 +18,9 @@
 		"power": 2,
 		"items": {
 			"items": [
-				{"item": "xanium", "amount": 8},
-				{"item": "surge-alloy", "amount": 5},
-				{"item": "valvanite", "amount": 12}
+				{"item": "xanium", "amount": 4},
+				{"item": "osmium", "amount": 7},
+				{"item": "valvanite", "amount": 10}
 			]
 		}
 	},
