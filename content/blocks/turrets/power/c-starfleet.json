@@ -6,7 +6,7 @@
     "size": 1,
     "health": 240,
     "reloadTime": 35,
-    "range": 200,
+    "range": 180,
     "shots": 4,
     "burstSpacing": 3,
     "targetAir": true,
