@@ -16,8 +16,8 @@
 		"power": 4,
 		"items": {
 			"items": [
-               "lead/2",
-               "titanium/6"
+               "lead/4",
+               "titanium/8"
 			]
 	},
 		"liquid": {
@@ -34,5 +34,5 @@
 	],
 	"category": "crafting",
 	"research": "plastanium-compressor",
-	"outputItem": "plastanium/4"
+	"outputItem": "plastanium/6"
 }
