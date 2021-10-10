@@ -28,9 +28,9 @@
 		"power": 5,
 		"items": {
 			"items": [
-               "surge-alloy/15",
+               "surge-alloy/10",
                "silicon/6",
-               "oltuxium/8",
+               "oltuxium/15",
                "xanium/10"
 			]
 		}
