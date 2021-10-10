@@ -40,15 +40,15 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "surge-alloy/15",
-                "plastanium/12",
-                "valvanite/8",
-                "thorium/17"
+                "surge-alloy/10",
+                "xanium/10",
+                "valvanite/15",
+                "thorium/10"
 			]
 	},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.4
+			"amount": 0.1
 		}
 	},
 	"requirements": [
