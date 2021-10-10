@@ -27,10 +27,10 @@
 		"power": 5,
 		"items": {
 			"items": [
-               "surge-alloy/15",
-               "blast-compound/18",
-               "volcanite/8",
-               "osmium/15"
+               "surge-alloy/10",
+               "thorium/10",
+               "volcanite/15",
+               "osmium/10"
 			]
 		}
 	},
