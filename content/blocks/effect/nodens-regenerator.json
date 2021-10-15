@@ -10,7 +10,7 @@
     "healPercent": 104,
     "phaseBoost": 30,
     "range": 285,
-    "reload": 300,
+    "reload": 250,
     "phaseRangeBoost": 30,
     "itemCapacity": 20,
     "useTime": 450,
