@@ -1,6 +1,6 @@
 {
 "localizedName": "MRT Conveyor",
-"description": "M.R.T stands for Mass Resources Transporter. Can carry 400 items at a time but is quite slow at transporting it. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 400 stacks.",
+"description": "[#73FFAEFF]M.R.T stands for Mass Resources Transporter. Can carry 400 items at a time but is quite slow at transporting it. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 400 stacks.",
 "type": "StackConveyor",
 "loadEffect": {
 "type": "ParticleEffect",
@@ -11,8 +11,8 @@
 "cone": -360,
 "lenFrom": 5,
 "lenTo": 0,
-"colorFrom": "C2FF70FF",
-"colorTo": "739959FF"
+"colorFrom": "73FFAEFF",
+"colorTo": "57D993FF"
 },
 "unloadEffect": {
 "type": "ParticleEffect",
@@ -23,8 +23,8 @@
 "cone": -360,
 "lenFrom": 5,
 "lenTo": 0,
-"colorFrom": "C2FF70FF",
-"colorTo": "739959FF"
+"colorFrom": "73FFAEFF",
+"colorTo": "57D993FF"
 },
 "health": 400,
 "speed": 0.04,
