@@ -1,7 +1,7 @@
 {
 "type": "DecayGenerator",
 "localizedName": "Radioactive Decayer",
-"description": "[acid] Rapidly decays radioactive materials to generate lots of power. Consumes radioactive materials rapidly.",
+"description": "[#73FFAEFF] Rapidly decays radioactive materials to generate lots of power. Consumes radioactive materials rapidly.",
 "health": 400,
 "size": 4,
 "powerProduction": 24.5,
@@ -16,8 +16,8 @@
 "sizeTo": 35,
 "strokeFrom": 4,
 "strokeTo": 0,
-"colorFrom": "C2FF70FF",
-"colorTo": "739959FF"
+"colorFrom": "73FFAEFF",
+"colorTo": "57D993FF"
 },
 "heatColor": "FFFFFF",
 "minItemEfficiency": 0.1,

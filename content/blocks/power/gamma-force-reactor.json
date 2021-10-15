@@ -1,12 +1,12 @@
 {
 	"type": "ImpactReactor",
 	"localizedName": "Gamma Force Reactor",
-	"description": "[acid]Uses radioactive materials to generate ring of gamma energy that produces energy and heat. \n[red]Warning: Keep away from critical infrastructure.",
+	"description": "[#73FFAEFF]Uses radioactive materials to generate ring of gamma energy that produces large amounts energy at peak efficiency . \n[red]Warning: Keep away from critical infrastructure.",
 	"health": 1200,
 	"itemCapacity": 200,
 	"size": 5,
 	"lightRadius": 30,
-	"lightColor": "C2FF70FF",
+	"lightColor": "73FFAEFF",
 	"baseExplosiveness": 5000,
     "explosionRadius": 370,
     "explosionDamage": 5000,
@@ -16,8 +16,8 @@
 	"itemDuration": 380,
 	"ambientSound": "pulse",
 	"ambientSoundVolume": 0.85,
-	"plasma1": "C2FF70FF",
-	"plasma2": "739959FF",
+	"plasma1": "73FFAEFF",
+	"plasma2": "57D993FF",
 	"consumes": {
 	"power": 60.0,
 	  "items": {
@@ -36,6 +36,7 @@
         "plastanium/530",
         "gamma-green/450",
         "metaglass/550",
+        "phase-fabric/600",
         "silicon/800",
         "phase-fabric/300"
 	],
