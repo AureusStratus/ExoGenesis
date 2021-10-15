@@ -1,0 +1,22 @@
+{
+"name": "Irradiated",
+"description": "A permanent status effect that deals small amounts of damage to the unit and slightly debuffs them. You are now radioactive",
+"permanent": true,
+"effect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 2,
+"lifetime": 30,
+"length": 25,
+"lightColor": "73FFAEFF",
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "73FFAEFF",
+"colorTo": "73FFAEFF"
+},
+"damage": 0.05,
+"reloadMultiplier": 0.97,
+"speedMultiplier": 0.98,
+"healthMultiplier": 0.97
+}
