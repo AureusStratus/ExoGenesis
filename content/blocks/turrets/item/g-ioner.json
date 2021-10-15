@@ -1,13 +1,14 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[acid]Fires energized bullets of valvanite.",
+    "description": "[#73FFAEFF]Fires energized bullets of valvanite.",
     "localizedName": "Ioner",
     "size": 1,
     "health": 240,
-    "reloadTime": 34,
+    "reloadTime": 20,
     "range": 180,
     "inaccuracy": 1,
+"alwaysUnlocked": true,
     "shots": 2,
     "spread": 3,
     "alternate": true,
@@ -22,15 +23,14 @@
     "cone": -360,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "C2FF70FF",
-    "colorTo": "739959FF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
     },
     "shootCone": 0.08,
     "recoilAmount": 0.7,
     "restitution": 0.06,
     "rotateSpeed": 5,
     "shootSound": "sap",
-    "powerUse": 1,
     "hasPower": true,
     "ammoTypes": {
         "valvanite": {
@@ -39,7 +39,7 @@
         "shrinkX": 0.1,
         "speed": 5,
         "lifetime": 40,
-        "damage": 6,
+        "damage": 9,
         "status": "corroded",
         "height": 5,
         "width": 2,
@@ -48,25 +48,25 @@
         "line": true,
         "particles": 5,
         "lifetime": 10,
-        "length": 35,
+        "length": 10,
         "cone": -360,
-        "lenFrom": 5,
+        "lenFrom": 1,
         "lenTo": 0,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "739959FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
         "lifetime": 25,
         "sizeFrom": 0,
-        "sizeTo": 25,
-        "strokeFrom": 4,
+        "sizeTo": 10,
+        "strokeFrom": 1,
         "strokeTo": 0,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "739959FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
-        "frontColor": "C2FF70FF",
-        "backColor": "739959FF"
+        "frontColor": "FFFFFFF",
+        "backColor": "73FFAEFF"
             }
     },
     "requirements": [

@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"localizedName": "Battery missile",
-	"description": "[acid]Rapidly fires a swarm of missiles. Uses ammo incredibly fast",
+	"description": "[#73FFAEFF]Rapidly fires a swarm of missiles. Uses ammo incredibly fast",
 	"details": "Your gonna need alot of ammo for this",
 	"health": 1200,
 	"size": 3,
@@ -10,6 +10,7 @@
 	"recoilAmount": 2,
 	"shootShake": 4,
 	"ammoUseEffect": "none",
+"alwaysUnlocked": true,
 	"inaccuracy": 10,
 	"shots": 7,
 	"burstSpacing": 4,
@@ -23,7 +24,7 @@
 			"speed": 5,
 			"damage": 48,
 			"status": "blasted",
-			"StatusDuration": 70,
+			"statusDuration": 70,
 			"width": 7,
 			"height": 18,
 			"hitEffect": "blastExplosion",
@@ -94,6 +95,7 @@
 	"requirements": [
         "graphite/450",
         "silicon/600",
+        "valvanite/700",
         "titanium/500",
         "plastanium/600"
 	],
