@@ -1,11 +1,12 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Corroder",
-	"description": "[acid]Shoots gamma energy bullets at enemies that. Also peirces.",
+	"description": "[#73FFAEFF]Shoots gamma energy bullets at enemies that. Also peirces.",
 	"size": 4,
 	"health": 880,
 	"reloadTime": 10,
 	"range": 200,
+"alwaysUnlocked": true,
 	"inaccuracy": 2,
 	"alternate": true,
     "shots": 2,
@@ -18,17 +19,17 @@
     "cone": -360,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "C2FF70FF",
-    "colorTo": "739959FF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "57D993FF"
 	},
 	"targetAir" : true, 
-	"spread": 13,
+	"spread": 16,
 	"targetGround" : true,
 	"recoilAmount" : 1.5,
 	"restitution" : 0.04, 
 	"rotateSpeed": 3,
 	
-	"shootSound" : "lasershoot",
+	"shootSound" : "laser",
 	"powerUse": 30,
 	"hasPower" : true,
 	"shootType": {
@@ -37,7 +38,10 @@
 	"status": "corroded",
 	"damage": 50,
 	"height" : 18,
-	"width" : 18,
+  "trailColor": "73FFAEFF",
+  "trailLength": 10,
+  "trailWidth": 2,
+	"width" : 13,
 	"hitSize": 10,
 	"speed": 4,
 	"lifetime" : 50,
@@ -52,8 +56,8 @@
     "cone": -360,
     "lenFrom": 6,
     "lenTo": 0,
-    "colorFrom": "739959FF",
-    "colorTo": "C2FF70FF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
 	},
 	"despawnEffect": {
     "type": "ParticleEffect",
@@ -64,17 +68,18 @@
     "cone": -360,
     "lenFrom": 6,
     "lenTo": 0,
-    "colorFrom": "739959FF",
-    "colorTo": "C2FF70FF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
 	},
 	"pierce": true,
-	"frontColor": "C2FF70FF",
-	"backColor": "739959FF"
+	"frontColor": "FFFFFFF",
+	"backColor": "73FFAEFF"
 		
 	},
 
 	"requirements": [
 		 "thorium/700",
+		 "valvanite/400"
 		 "plastanium/350",
 		 "xanium/220",
 		 "titanium/400",

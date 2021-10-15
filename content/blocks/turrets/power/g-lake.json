@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "[acid]An ocean defense turret used for defense on deep waters. Fires energy tridents.",
+	"description": "[#73FFAEFF]An ocean defense turret used for defense on deep waters. Fires energy tridents.",
 	"localizedName": "Lake",
 	"size": 3,
 	"health": 1500,
@@ -10,6 +10,7 @@
 	"range": 450,
 	"targetAir" : false, 
 	"targetGround" : true, 
+"alwaysUnlocked": true,
     "placeableLiquid": "true",
     "burstSpacing": 4,
 
@@ -23,7 +24,7 @@
     "powerUse" : 3,
 	"hasPower" : true,
 	"shootType" : {
-		"type" : "hasicBulletType",
+		"type" : "BasicBulletType",
 		"sprite" : "exogenesis-trident",
 		"damage": 30,
 		"pierce": true,
@@ -38,12 +39,40 @@
 		"homingRange": 68,
 		"shrinkX": 0,
 		"shrinkY": 0,
-		"hitEffect" : "plasticExplosion",
-		"despawnEffect": "plasticExplosion",
+    "hitEffect": {
+    "type": "ExplosionEffect",  
+    "waveColor": "73FFAEFF",
+    "sparkColor": "73FFAEFF",
+    "smokes": 8,
+    "smokeSize": 3.7,	
+    "smokeSizeBase": 1.6,
+    "smokeRad":	26,	
+    "waveLife":	20,
+    "waveStroke": 2.1,	
+    "waveRad": 40,
+    "waveRadBase": 2.0,
+    "sparkLen": 6,
+    "sparks": 5   
+    },
+    "despawnEffect": {
+    "type": "ExplosionEffect",  
+    "waveColor": "73FFAEFF",
+    "sparkColor": "73FFAEFF",
+    "smokes": 8,
+    "smokeSize": 3.7,	
+    "smokeSizeBase": 1.6,
+    "smokeRad":	26,	
+    "waveLife":	20,
+    "waveStroke": 2.1,	
+    "waveRad": 40,
+    "waveRadBase": 2.0,
+    "sparkLen": 6,
+    "sparks": 5      
+    },
 		"shootEffect": "none",
 		"smokeEffect": "none",
 		"frontColor": "FFFFFFFF",
-		"backColor": "C2FF70FF"
+		"backColor": "73FFAEFF"
 	},
 	"requirements": [
         "valvanite/200",

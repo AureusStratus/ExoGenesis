@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.2,
-    "description": "[acid]A small turret that uses low tier quantra technology to fire small gamma pulses. Is the upgradeto the tau.",
+    "description": "[#73FFAEFF]turret that uses low tier quantra technology to fire small gamma pulses.",
     "localizedName": "Gluon",
     "size": 2,
     "health": 240,
@@ -11,6 +11,7 @@
     "shots": 1,
     "targetAir": false,
     "targetGround": true,
+"alwaysUnlocked": true,
     "shootCone": 0.08,
     "recoilAmount": 0.7,
     "restitution": 0.06,
@@ -21,15 +22,29 @@
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "exogenesis-electric-pulse",
-        "absorbable": true,
+        "absorbable": false,
         "shrinkY": 0.1,
         "shrinkX": 0.1,
         "width": 13,
         "height": 13,
         "speed": 4,
+        "pierce": true,
         "lifetime": 60,
-        "damage": 30,
-        "status": "corroded",
+        "trailRotation": true,
+        "trailChance": 1,
+        "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 10,
+        "sizeTo": 10,
+        "region": "exogenesis-pulse-trail",
+        "length": 0,
+        "lifetime": 15,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAE00"
+        },
+        "damage": 50,
+        "status": "exogenesis-irradiated",
         "hitEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -39,8 +54,8 @@
         "cone": -360,
         "lenFrom": 10,
         "lenTo": 0,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
         "despawnEffect": {
         "type": "WaveEffect",
@@ -49,13 +64,13 @@
         "sizeTo": 25,
         "strokeFrom": 4,
         "strokeTo": 0,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
         "homingPower": 0.00689,
-        "homingRange": 30,
+        "homingRange": 60,
         "frontColor": "FFFFFFFF",
-        "backColor": "C2FF70FF"
+        "backColor": "73FFAEFF"
     },
     "requirements": [
         "graphite/30",

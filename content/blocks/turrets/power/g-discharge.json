@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "localizedName": "Discharge",
-    "description": "[acid]Discharges gamma lightning that corrodes enemies.",
+    "description": "[#73FFAEFF]Discharges gamma lightning that corrodes enemies.",
     "targetAir": true,
     "targetGround": true,
     "hasPower": true,
@@ -9,12 +9,13 @@
     "health": 2500,
     "size": 3,
     "inaccuracy": 0,
+"alwaysUnlocked": true,
     "reloadTime": 15,
     "shots": 6,
     "recoilAmount": 4,
     "shootCone": 2,
     "rotateSpeed": 5,
-    "range": 120,
+    "range": 200,
     "shootEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -24,13 +25,13 @@
     "cone": -360,
     "lenFrom": 1,
     "lenTo": 5,
-    "colorFrom": "C2FF70FF",
-    "colorTo": "C2FF70FF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
     },
 	"shootType": {
     "type": "LightningBulletType",
     "status": "corroded",
-	"lightningColor": "C2FF70FF",
+	"lightningColor": "73FFAEFF",
 	"lightningCone": 1,
 	"damage": 38,
     "lightningLength": 30,
@@ -40,6 +41,7 @@
         "lead/650",
         "silicon/250",
         "xanium/400",
+        "gamma-green/200"
         "plastanium/350",
         "osmium/100"
     ],

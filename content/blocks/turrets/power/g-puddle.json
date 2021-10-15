@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"description": "[green]An ocean defense turret used for defense on deep waters. Fires energy tridents.",
+	"description": "[#73FFAEFF]An ocean defense turret used for defense on deep waters. Fires energy tridents.",
 	"localizedName": "Puddle",
 	"size": 2,
 	"health": 1500,
@@ -11,7 +11,7 @@
 	"targetAir" : false, 
 	"targetGround" : true, 
     "placeableLiquid": "true",
-
+"alwaysUnlocked": true,
 	"rotateSpeed": 3,
 	"inaccuracy": 5,
 	"shots" : 1,
@@ -42,7 +42,7 @@
 		"pierce": true,
 		"smokeEffect": "none",
 		"frontColor": "FFFFFFFF",
-		"backColor": "C2FF70FF"
+		"backColor": "73FFAEFF"
 	},
 	"requirements": [
         "valvanite/100",

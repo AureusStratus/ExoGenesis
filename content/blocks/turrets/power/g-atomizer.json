@@ -1,14 +1,14 @@
 {
 	"type": "PowerTurret",
-	"description": "[acid]A powerful energy turret used by the quantra to protect there bases. Fires a orb of supercharged plasma that deals massive amounts of damage and creates piercing fragments on impact.",
+	"description": "[#73FFAEFF]A powerful energy turret used by the quantra to protect there bases. Fires a orb of supercharged plasma that deals massive amounts of damage and creates piercing fragments on impact.",
 	"details": "Destroy them at the atomic level.",
 	"localizedName": "Atomizer",
-	
 	"size": 8,
 	"health": 8660,
 	"range": 800,
 	"reloadTime" : 380,
 	"shots" : 1,
+"alwaysUnlocked": true,
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 1,
@@ -28,8 +28,8 @@
     "sizeTo": 10,
     "length": 0,
     "lifetime": 80,
-    "colorFrom": "FFFFFFFF",
-    "colorTo": "C2FF70FF",
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF",
     "cone": 360
 },
 	"chargeEffect": {
@@ -43,8 +43,8 @@
         "sizeTo": 40,
         "strokeFrom": 0,
         "strokeTo": 6,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
 	   },
 	   {     
     "type": "ParticleEffect",
@@ -54,8 +54,8 @@
     "length": 45,
     "baseLength": -45,
     "lifetime": 80,
-    "colorFrom": "C2FF70FF",
-    "colorTo": "FFFFFFFF",
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF",
     "cone": 360
 	   }
 	   ]
@@ -67,11 +67,11 @@
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-plasma",
 		"hitSound": "plasmaboom",
-		"status" : "corroded",
+		"status" : "exogenesis-irradiated",
 		"statusDuration": 300,
-		"damage": 1700,	
+		"damage": 8700,	
 		"knockback": 4,
-		"splashDamage": 100,
+		"splashDamage": 500,
 		"splashDamageRadius": 100,	
 	    "hitShake": 10,
 		"height": 40,
@@ -97,8 +97,8 @@
        "strokeTo": 3.5,
        "sizeFrom": 8,
        "sizeTo": 0,
-       "colorFrom": "FFFFFFFF",
-       "colorTo": "C2FF70FF"
+       "colorFrom": "73FFAEFF",
+       "colorTo": "73FFAEFF"
     },
     {
        "type": "ParticleEffect",
@@ -109,8 +109,8 @@
        "region": "exogenesis-triangle",
        "length": 105,
        "lifetime": 30,
-       "colorFrom": "FFFFFFFF",
-       "colorTo": "C2FF70FF",
+       "colorFrom": "73FFAEFF",
+       "colorTo": "57D993FF",
        "cone": 360
     },
     {
@@ -121,8 +121,8 @@
         "offset": 60,
         "length": 100,
         "lifetime": 200,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "464646",
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF",
         "cone": 360
     },
     {
@@ -132,8 +132,8 @@
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEAA"
     },
     {
         "type": "WaveEffect",
@@ -142,8 +142,8 @@
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
           }
         ]
       },
@@ -162,20 +162,20 @@
        "strokeTo": 3.5,
        "sizeFrom": 8,
        "sizeTo": 0,
-       "colorFrom": "FFFFFFFF",
-       "colorTo": "C2FF70FF"
+       "colorFrom": "73FFAEFF",
+       "colorTo": "73FFAEFF"
     },
     {
        "type": "ParticleEffect",
        "particles": 35,
        "offset": 30,
-       "sizeFrom": 0,
-       "sizeTo": 4,
+       "sizeFrom": 4,
+       "sizeTo": 0,
        "region": "exogenesis-triangle",
        "length": 105,
        "lifetime": 30,
-       "colorFrom": "FFFFFFFF",
-       "colorTo": "C2FF70FF",
+       "colorFrom": "73FFAEFF",
+       "colorTo": "57D993FF",
        "cone": 360
     },
     {
@@ -186,8 +186,8 @@
         "offset": 60,
         "length": 100,
         "lifetime": 200,
-        "colorFrom": "7e7e7e",
-        "colorTo": "464646",
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF",
         "cone": 360
     },
     {
@@ -197,8 +197,8 @@
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEAA"
     },
     {
         "type": "WaveEffect",
@@ -207,8 +207,8 @@
         "sizeTo": 100,
         "strokeFrom": 8,
         "strokeTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
           }
         ]
         },
@@ -219,8 +219,8 @@
         "sizeTo": 40,
         "strokeFrom": 0,
         "strokeTo": 7,
-        "colorFrom": "C2FF70FF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
 		},
 		"trailEffect": {
 	    "type": "MultiEffect",
@@ -235,8 +235,8 @@
         "length": 15,
         "baseLength": 15,
         "lifetime": 25,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF",
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEAA",
         "cone": 360
         },
 		{
@@ -244,14 +244,14 @@
         "region": "exogenesis-triangle",
         "offset": 7,
         "particles": 10,
-        "sizeFrom": 4,
+        "sizeFrom": 6,
         "interp": "circleOut",
         "sizeTo": 0,
         "length": 15,
         "baseLength": 15,
         "lifetime": 15,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF",
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF",
         "cone": 360
 	   }
 	   ]
@@ -261,7 +261,7 @@
 		"trailChance": 2,
 		"smokeEffect": "none",
 		"frontColor": "FFFFFFFF",
-		"backColor": "C2FF70FF",
+		"backColor": "73FFAEFF",
 		"fragBullets": 12,
 		"fragCone": 40,
 		"fragBullet": {
@@ -287,8 +287,8 @@
         "cone": -360,
         "lenFrom": 7,
         "lenTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
         "despawnEffect": {
         "type": "ParticleEffect",
@@ -299,11 +299,11 @@
         "cone": -360,
         "lenFrom": 7,
         "lenTo": 0,
-        "colorFrom": "FFFFFFFF",
-        "colorTo": "C2FF70FF"
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"
         },
 		    "frontColor": "FFFFFFFF",
-		    "backColor": "C2FF70FF"
+		    "backColor": "73FFAEFF"
 		}
 	},
 
@@ -316,5 +316,5 @@
         "gamma-green/500"
 	],
 	"category": "turret",
-	"research": "g-quarker"
+	"research": "g-nullifier"
 }
