@@ -8,7 +8,6 @@
     "reloadTime": 20,
     "range": 180,
     "inaccuracy": 1,
-"alwaysUnlocked": true,
     "shots": 2,
     "spread": 3,
     "alternate": true,
