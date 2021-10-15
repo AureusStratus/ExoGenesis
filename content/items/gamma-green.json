@@ -1,15 +1,15 @@
 {
     "localizedName": "Gamma Alloy",
-    "description": "[acid]An alloy used in advanced weaponry, repair structures and special defenses",
-    "details": "An alloy that was used by the Guantra to create useful support structures, units and powerful turrets. Extremely radioactive and powerful.",
+    "description": "[#73FFAEFF]An alloy used in advanced weaponry, repair structures and special defenses",
+    "details": "An alloy that was used by the Quantra to create useful support structures, units and powerful turrets. Extremely radioactive and powerful. In ancient times when the Quntra race was still young and primitive bright teal star shined through there skys as it landed in there oceans. This star was fallen goddess striked down to there world this god peaceful layed as the area around it bursted with life. This was the apotheosis of there civilization as they learned to create strong materials.",
     "hardness": 8,
     "cost": 7,
-    "radioactivity": 1.8,
-    "color": "35B06EFF",
+    "radioactivity": 3,
+    "color": "73FFAEFF",
     "research": {
     "parent": "surge-alloy",
     "requirements": [
-    "surge-alloy/200"
+    "valvanite/150"
   ]
   }
 }
