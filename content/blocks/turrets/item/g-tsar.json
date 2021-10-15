@@ -4,7 +4,6 @@
     "localizedName": "Tsar",
     "size": 7,
     "health": 280,
-    "alwaysUnlocked": true,
     "reloadTime": 12,
     "range": 300,
     "inaccuracy": 3,
