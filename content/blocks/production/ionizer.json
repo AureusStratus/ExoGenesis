@@ -1,10 +1,10 @@
 {	
     "localizedName": "Ionizer",
-    "description": "[acid]Ionizes materials with radiation to create Valvanite.",
+    "description": "[#73FFAEFF]Ionizes materials with radiation to create Valvanite.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
-	"flameColor": "DBFFBDFF"
+	"flameColor": "73FFAEFF"
 	},
 	"size": 2,
 	"hasPower": true,
@@ -20,8 +20,8 @@
     "lifetime": 28,
     "sizeFrom": 2,
     "sizeTo": 0,
-    "colorTo": "FFFFFFFF",
-    "colorFrom": "C2FF70FF"
+    "colorTo": "73FFAEFF",
+    "colorFrom": "73FFAEFF"
     },
 	"craftTime": 40,
 	"updateEffect": "none",

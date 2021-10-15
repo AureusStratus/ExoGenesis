@@ -1,11 +1,11 @@
 {	
     "localizedName": "Irradiation Kiln",
-	"description": "[acid]Uses mini gamma ray bursts to irradiate and melt materials to create Gamma Alloy. Uses Water to cool off.",
+	"description": "[#73FFAEFF]Uses mini gamma ray bursts to irradiate and melt materials to create Gamma Alloy. Requires water.",
 	"type": "GenericCrafter",
 	"drawer": {
 	"type": "drawArcSmelter",
-    "flameColor": "C2FF70FF",
-    "midColor": "739959FF",
+    "flameColor": "73FFAEFF",
+    "midColor": "57D993FF",
     "flameRad": 2,
     "circleSpace": 2.6,
     "circleStroke": 1.3,
@@ -21,7 +21,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 80,
-	"craftTime": 250,
+	"craftTime": 230,
 	"craftEffect": {
     "type": "ParticleEffect",
     "particles": 15,
@@ -32,8 +32,8 @@
     "lifetime": 28,
     "sizeFrom": 5,
     "sizeTo": 0,
-    "colorTo": "C2FF70FF",
-    "colorFrom": "739959FF"
+    "colorTo": "73FFAEFF",
+    "colorFrom": "57D993FF"
     },
 	"updateEffect": "none",
 	"consumes": {
@@ -41,9 +41,9 @@
 		"items": {
 			"items": [
                 "surge-alloy/10",
-                "xanium/10",
+                "xanium/5",
                 "valvanite/15",
-                "thorium/10"
+                "thorium/8"
 			]
 	},
 		"liquid": {
@@ -60,6 +60,6 @@
         "osmium/530"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
-	"outputItem": "gamma-green/15"
+	"research": "alloy-smelter",
+	"outputItem": "gamma-green/10"
 }
