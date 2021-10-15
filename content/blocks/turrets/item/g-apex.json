@@ -7,7 +7,7 @@
 	"health": 8660,
 	"range": 580,
 	"reloadTime" : 210,
-"alwaysUnlocked": true,
+
 	"shots" : 1,
 	"targetAir" : false, 
 	"targetGround" : true,
