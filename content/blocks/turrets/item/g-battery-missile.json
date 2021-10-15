@@ -10,7 +10,6 @@
 	"recoilAmount": 2,
 	"shootShake": 4,
 	"ammoUseEffect": "none",
-"alwaysUnlocked": true,
 	"inaccuracy": 10,
 	"shots": 7,
 	"burstSpacing": 4,
