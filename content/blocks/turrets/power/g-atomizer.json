@@ -8,7 +8,6 @@
 	"range": 800,
 	"reloadTime" : 380,
 	"shots" : 1,
-"alwaysUnlocked": true,
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 1,
