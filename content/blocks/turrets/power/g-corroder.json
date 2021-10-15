@@ -6,7 +6,7 @@
 	"health": 880,
 	"reloadTime": 10,
 	"range": 200,
-"alwaysUnlocked": true,
+
 	"inaccuracy": 2,
 	"alternate": true,
     "shots": 2,
