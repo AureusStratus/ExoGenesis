@@ -22,6 +22,7 @@
 	"hitSize": 100,
 	"health": 5300000,
     "legCount": 4,
+	"canDrown": false,
     "groundLayer": 75,
     "legPairOffset": 2,
     "legLength": 82,
