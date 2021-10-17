@@ -25,6 +25,7 @@
     "buildSpeed": 5,
 	"armor": 62,
 	"drag": 0.4,
+	"canDrown": false,
 	"range": 340,
 	"maxRange": 340,
 	"aimDst": 340,
