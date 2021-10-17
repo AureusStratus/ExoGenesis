@@ -20,6 +20,7 @@
     "drawShields": false,
 	"lightRadius": 200,
     "type": "legs",
+	"canDrown": false,
 	"speed": 0.20,
 	"hitSize": 77,
 	"health": 487000,
