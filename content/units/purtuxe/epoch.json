@@ -17,6 +17,7 @@
     "lightColor": "A170F4FF",
 	"range": 1000,
     "maxRange": 1000,
+	"canDrown": false,
     "type": "legs",
 	"speed": 0.30,
 	"hitSize": 65,
