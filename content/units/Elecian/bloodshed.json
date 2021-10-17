@@ -16,6 +16,7 @@
     "groundLayer": 75,
     "commandLimit": 8,
     "type": "legs",
+	"canDrown": false,
 	"speed": 0.34,
 	"hitSize": 68,
 	"health": 548900,
