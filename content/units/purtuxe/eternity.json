@@ -14,6 +14,7 @@
     ]
     },
   "groundLayer": 75,
+	"canDrown": false,
   "commandLimit": 10,
   "type": "legs",
 	"speed": 0.24,
