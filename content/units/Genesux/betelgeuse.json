@@ -14,6 +14,7 @@
     },
     "details": "Show them what the power of a far away star can do",
     "groundLayer": 75,
+	"canDrown": false,
     "singleTarget": true,
     "drawShields": false,
 	"lightRadius": 260,
