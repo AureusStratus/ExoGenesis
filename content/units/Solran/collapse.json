@@ -16,6 +16,7 @@
 "armor": 50,
 "rotateSpeed": 1.3,
 "hitSize": 60,
+	"canDrown": false,
 "legCount": 4,
 "legMoveSpace": 1.1,
 "legPairOffset": 6,
