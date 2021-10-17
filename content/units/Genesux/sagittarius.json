@@ -8,6 +8,7 @@
 	"lightRadius": 350,
     "type": "legs",
 	"speed": 0.26,
+	"canDrown": false,
 	"hitSize": 94,
 	"health": 4397600,
 	"armor": 144,
