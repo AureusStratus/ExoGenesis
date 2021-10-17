@@ -1,8 +1,6 @@
 {
 "type": "ShallowLiquid",
 "liquidDrop": "water",
-"albedo": 0.5,
-"speedMultiplier": 0.8,
 "status": "corroded",
 "cacheLayer": "water"
 }
