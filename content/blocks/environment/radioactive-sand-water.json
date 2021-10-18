@@ -1,5 +1,6 @@
 {
 "type": "ShallowLiquid",
+"localizedName": "Radioactive Sand Water",
 "liquidDrop": "water",
 "status": "corroded",
 "cacheLayer": "water"
