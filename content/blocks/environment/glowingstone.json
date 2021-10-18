@@ -1,5 +1,6 @@
 {
 "type": "Floor",
+"localizedName": "Glowingstone",
 "emitLight": true,
 "lightRadius": 5,
 "lightColor": "A9D8FFFF",
