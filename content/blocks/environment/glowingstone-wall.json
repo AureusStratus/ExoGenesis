@@ -1,5 +1,6 @@
 {
 "type": "StaticWall",
+"localizedName": "Glowingstone Wall",
 "emitLight": true,
 "lightRadius": 31,
 "lightColor": "A9D8FFFF",
