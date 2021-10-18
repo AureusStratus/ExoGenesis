@@ -1,5 +1,6 @@
 {
 "type": "Floor",
+"localizedName": "Glowing Vein",
 "emitLight": true,
 "lightRadius": 8,
 "lightColor": "A9D8FFFF",
