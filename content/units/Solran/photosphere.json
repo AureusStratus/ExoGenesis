@@ -10,13 +10,13 @@
 ]
 },
 "type": "mech",
-"armor": 14,
+"armor": 12,
 "hitSize": 19,
 "mechFrontSway": 0.55,
 "commandLimit": 6,
 "speed": 0.36,
 "flying": false,
-"health": 5700,
+"health": 1300,
 "range": 120,
 "immunities": [
 	"burning",
@@ -38,13 +38,75 @@
   "ejectEffect": "casing1",
   "bullet": {
     "type": "basicBulletType",
-    "hitEffect": "explosion",
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 15,
+    "offset": 30,
+    "length": 40,
+    "lightColor": "FF5845FF",
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 20,
+    "baseLength": 10,
+    "lifetime": 20,
+    "sizeFrom": 6,
+    "sizeTo": 2,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    }
+    ]
+    },
     "shootEffect": "shootBig2",
-    "despawnEffect": "explosion",
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 15,
+    "offset": 30,
+    "length": 40,
+    "lightColor": "FF5845FF",
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lenFrom": 5,
+    "lenTo": 5,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 20,
+    "baseLength": 10,
+    "lifetime": 20,
+    "sizeFrom": 6,
+    "sizeTo": 2,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    }
+    ]
+    },
     "pierce": true,
     "pierceCap": 1,
     "lifetime": 50,
-    "damage": 56,
+    "damage": 50,
     "speed": 6,
     "status": "blasted",
     "statusDuration": 100,
@@ -56,7 +118,7 @@
     },
     {
     "name": "flamer",
-    "x": 5,
+    "x": 7,
     "y": -3,
     "reload": 7,
     "top": true,
@@ -74,7 +136,7 @@
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 5,
-    "damage": 18,
+    "damage": 4,
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {

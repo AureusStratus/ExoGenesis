@@ -1,6 +1,6 @@
 {
 "name": "Core",
-"description": "[red]A large unit that fires three plasma laser at enemies and structures. Fires plasma fire and multiple plasma spikes.",
+"description": "[red]unit that fires three plasma laser at enemies and structures. Fires multiple plasma spikes.",
 "research": {
 "parent": "radiative",
 "requirements": [
@@ -12,7 +12,8 @@
 ]
 },
 "type": "mech",
-"armor": 23,
+"armor": 19,
+"mechLegColor": "313131FF",
 "rotateSpeed": 2.0,
 "canDrown": false,
 "hitSize": 42,
@@ -20,10 +21,10 @@
 "mechSideSway": 0.6,
 "commandLimit": 5,
 "mechStepParticles": true,
-"mechStepShake": 0.75,
+"mechStepShake": 3,
 "singleTarget": true,
 "speed": 0.28,
-"health": 46400,
+"health": 50000,
 "range": 200,
 "immunities": [
 		"burning",
@@ -50,14 +51,14 @@
     "type": "LaserBulletType",
     "length": 200,
     "width": 32,
-    "damage": 585,
+    "damage": 125,
     "lifetime": 25,
     "lightColor": "FF5845FF",
     "sideAngle": 25,
     "sideLength": 1,
     "sideWidth": 1,
     "colors": ["FF5845FF", "FFC1BBFF", "FFFFFF"],
-    "status": "melting",
+    "status": "exogenesis-molten1",
     "statusDuration": 50,
     "hitEffect": {
     "type": "ParticleEffect",
@@ -107,72 +108,13 @@
     "lifetime": 25,
     "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
-    },
-    {
     }
     ]
     },
     "incendChance": 0.4,
     "incendSpread": 5,
     "incendAmount": 1
-    }
-    },
-    {
-    "name": "flamer",
-    "x": 15,
-    "y": 16,
-    "reload": 7,
-    "mirror": true,
-    "alternate": true,
-    "shootY": 3,
-    "shots": 2,
-    "recoil": 1.5,
-    "rotate": true,
-    "rotateSpeed": 3,
-    "shotDelay": 4,
-	"inaccuracy" : 7, 
-    "shootSound": "flame",
-    "shootCone": 18,
-	"bullet": {
-    "type": "BasicBulletType",
-    "collidesAir": true,
-    "speed": 5,
-    "damage": 18,
-    "width": 0.1,
-    "height": 0.1,
-    "shootEffect": {
-    "type": "ParticleEffect",
-    "particles": 30,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 80,
-    "lifetime": 25,
-    "interp": "circleOut",
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
-    "cone": 18
-    },
-    "smokeEffect": "none",
-    "lifetime": 12,
-	"despawnEffect": "none",
-    "hittable": false,
-    "reflectable": false,
-	"hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 60,
-    "interp": "circleOut",
-    "length": 50,
-    "cone": -30,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-	},
-	"pierce": true,
-	"incendAmount": 5
-	}
+	   }
     },
 	{
   "name": "scourge-shock",
@@ -191,14 +133,14 @@
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-peircer",
 		"status": "melting",
-		"damage": 90,
+		"damage": 50,
 		"height" : 12,
 		"width" : 12,
 		"hitSize": 5,
 		"speed": 5,
 		"lifetime" : 45,
 		"pierceBuilding": true,
-		"pierceCap": 7,
+		"pierceCap": 5,
 		"hitEffect": {
 		"type": "ParticleEffect",
         "particles": 6,

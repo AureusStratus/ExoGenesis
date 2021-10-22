@@ -1,6 +1,6 @@
 {
 "name": "Fusion",
-"description": "[red]A power and large unit equipped with powerful plasma flamethrowers that leave nothing behind. has multiple artillery guns.",
+"description": "[red]A power and large unit equipped with powerful plasma flamethrowers that leave nothing behind. has multiple heavy gunners.",
 "research": {
 "parent": "core",
 "requirements": [
@@ -13,18 +13,21 @@
 ]
 },
 "type": "mech",
-"armor": 33,
+"armor": 23,
 "rotateSpeed": 2.0,
 "canDrown": false,
+"mechLegColor": "313131FF",
+
+"outlineColor": "313131FF",
 "hitSize": 50,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.8,
 "commandLimit": 5,
 "mechStepParticles": true,
-"mechStepShake": 1,
+"mechStepShake": 5,
 "singleTarget": true,
 "speed": 0.24,
-"health": 86400,
+"health": 66000,
 "range": 200,
 "immunities": [
 		"burning",
@@ -40,6 +43,8 @@
   "alternate": true,
   "top": false,
   "recoil": 3,
+  "rotateSpeed": 0.6,
+  "rotate": true,
   "shootCone": 20,
   "shake": 2,
   "inaccuracy": 4,
@@ -51,8 +56,10 @@
   "bullet": {
     "type": "BasicBulletType",
     "collidesAir": true,
+    "status": "exogenesis-molten1",
+    "statusDuration": 50,
     "speed": 5,
-    "damage": 200,
+    "damage": 90,
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {
@@ -61,11 +68,25 @@
     {
     "type": "ParticleEffect",
     "particles": 40,
-    "sizeFrom": 8,
+    "sizeFrom": 7,
     "sizeTo": 1,
     "length": 140,
     "lifetime": 37,
     "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "cone": 15
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 30,
+    "sizeFrom": 8,
+    "sizeTo": 4,
+    "length": 100,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
     "colorFrom": "FFC1BBFF",
     "colorTo": "FF5845FF",
     "cone": 15
@@ -74,12 +95,13 @@
     "type": "ParticleEffect",
     "particles": 30,
     "sizeFrom": 6,
-    "sizeTo": 2,
+    "sizeTo": 4.5,
     "length": 100,
     "lifetime": 35,
     "interp": "circleOut",
+    "sizeInterp": "bounceOut",
     "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845AA",
+    "colorTo": "FF5845FF",
     "cone": 15
     },
     {
@@ -95,6 +117,19 @@
     "colorFrom": "FFC1BBFF",
     "colorTo": "FF5845FF",
     "cone": 15
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "sizeFrom": 7,
+    "sizeTo": 2.5,
+    "length": 100,
+    "lifetime": 35,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "787878",
+    "colorTo": "787878",
+    "cone": 15
     }
     ]
     },
@@ -106,12 +141,14 @@
 	"hitEffect": {
     "type": "ParticleEffect",
     "line": true,
-    "particles": 6,
+    "particles": 4,
     "lifetime": 60,
     "offset": 10,
     "interp": "circleOut",
     "length": 70,
     "cone": -30,
+    "strokeFrom": 3,
+    "strokeTo": 0,
     "lenFrom": 7,
     "lenTo": 0,
     "colorFrom": "FF5845FF",
@@ -172,7 +209,7 @@
     "sparks": 5      
     },
     "lifetime": 50,
-    "damage": 130,
+    "damage": 80,
     "speed": 6,
     "status": "blasted",
     "statusDuration": 100,
@@ -232,7 +269,7 @@
     "sparks": 5      
     },
     "lifetime": 50,
-    "damage": 130,
+    "damage": 80,
     "speed": 6,
     "status": "blasted",
     "statusDuration": 100,
