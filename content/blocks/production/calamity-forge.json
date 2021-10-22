@@ -15,6 +15,7 @@
 	"size": 6,
 	"hasPower": true,
 	"hasItems": true,
+	"canOverdrive": false,
 	"itemCapacity": 250,
 	"craftTime": 400,
 	"craftEffect": {
