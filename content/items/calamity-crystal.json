@@ -1,15 +1,15 @@
 {
     "localizedName": "Calamity Crystal",
-    "description": "[cyan]Contains the power to destroy worlds.",
-    "details": "An unknown crystal at the very center of Siratla it may be the source of siratla cold energy bands.",
+    "description": "[cyan]Contains the power to destroy worlds. It resonates with an otherworldly energy.",
+    "details": "An unknown crystal that seems to originate from multiple universe as it phases through the universal barriers. It maybe the sources of the cold energy at the very center of Siratla.",
     "cost": 7,
     "hardness": 8,
     "charge": 100,
     "color": "5DCBF3FF",
     "research": {
-    "parent": "surge-alloy",
+    "parent": "omega-blue",
     "requirements": [
-    "surge-alloy/200"
+    "omega-blue/1000"
   ]
   }
 }
