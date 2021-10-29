@@ -4,7 +4,7 @@
 "description": "A large liquid tank capable of holding large amounts of liquids.",
 "size": 6,
 "health": 3000,
-"liquidCapacity": 4500,
+"liquidCapacity": 7000,
 "research": "liquid-tank",
 "category": "liquid",
 "requirements": [
