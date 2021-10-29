@@ -8,15 +8,15 @@
 		"power": 28,
 		"items": {
 			"items": [
-				{"item": "omega-blue", "amount": 1200},
-				{"item": "alpha-yellow", "amount":1200},
-				{"item": "primal-red", "amount": 1200},
-				{"item": "gamma-green", "amount": 1200},
-				{"item": "osmium", "amount": 1590},
-				{"item": "rutuxium", "amount": 1520},
+				{"item": "omega-blue", "amount": 1000},
+				{"item": "alpha-yellow", "amount":1000},
+				{"item": "primal-red", "amount": 1000},
+				{"item": "gamma-green", "amount": 1000},
+				{"item": "osmium", "amount": 1500},
+				{"item": "rutuxium", "amount": 1000},
 				{"item": "phase-fabric", "amount": 1720},
 				{"item": "silicon", "amount": 1520},
-				{"item": "plastanium", "amount": 2780}
+				{"item": "plastanium", "amount": 2700}
 			]
 		}
 	},
@@ -34,7 +34,6 @@
 		["b-sirius", "b-rigel"],
 		["centauri", "altair"],
 		["core", "fusion"],
-		["mantle", "volcan"],
 		["organization", "government"],
 		["5-prime", "6-apex"],
 		["hostile", "assault"],

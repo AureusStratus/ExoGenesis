@@ -1,6 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create solran units.",
+"description": "creates Solran units.",
 "localizedName": "Solran Factory",
 "size": 3,
 "consumes": {
@@ -28,7 +28,7 @@
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 180},
+	{"item": "graphite", "amount": 180},
 	{"item": "volcanite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
