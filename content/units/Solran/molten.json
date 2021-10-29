@@ -1,70 +1,118 @@
 {
 "name": "Molten",
-"description": "[red]This unit is equipped with two liquid shotguns that can fire out both slag and oil, enabling them to cuase some serious damage",
-"research": "heat",
+"description": "[red]well armored and durble this unit is equipped with plasma railgun that work better against units then strctures.",
+"outlineColor": "313131FF",
+"research": {
+"parent": "heat",
+"requirements": [
+"volcanite/300",
+"lead/340",
+"silicon/400"
+]
+},
 "type": "mech",
-"canBoost": true,
-"boostMultiplier": 1.7,
-"engineOffset": 8,
-"armor": 14,
-"hitSize": 13,
-"mechFrontSway": 0.55,
+"armor": 12,
+"hitSize": 25,
 "commandLimit": 6,
-"speed": 0.49,
+"rotateShooting": false,
+"mechStepParticles": false,
+"mechStepShake": 0,
+"speed": 1.1,
 "flying": false,
-"health": 1000,
-"range": 120,
+"health": 700,
+"mechFrontSway": 0,
+"mechSideSway": 0,
+"range": 250,
 "immunities": [
 		"melting",
+		"blasted",
 		"burning"
 		],
 "weapons": [
 {
-  "name": "molten-sprayer",
-  "x": 10.2,
-  "y": -0.7,
-  "mirror": "true",
-  "reload": 28,
-  "alternate": true,
-  "top": false,
-  "recoil": 2,
-  "shots": 6,
-  "inaccuracy": 10,
-  "shootSound": "shotgun",
+  "name": "molten-weapon",
+  "x": 0,
+  "y": 0,
+  "reload": 58,
+  "mirror": false,
+  "top": true,
+  "recoil": 4,
+  "rotate": true,
+  "rotateSpeed": 4,
+  "shots": 1,
+  "shootSound": "railgun",
   "ejectEffect": "none",
   "bullet": {
-      "type": "LiquidBulletType",
-      "liquid": "slag",
-      "speed": 3,
-      "knockback": 0.5,
-      "status": "melting",
-      "damage": 18,
-      "lifetime": 60
-}
-},
-{
-  "name": "molten-sprayer",
-  "x": 10.2,
-  "y": -0.7,
-  "flip": true,
-  "reload": 28,
-  "mirror": "true",
-  "alternate": true,
-  "top": false,
-  "recoil": 2,
-  "shots": 6,
-  "inaccuracy": 10,
-  "shootSound": "none",
-  "ejectEffect": "none",
-  "bullet": {
-      "type": "LiquidBulletType",
-      "liquid": "oil",
-      "status": "tarred",
-      "speed": 3,
-      "knockback": 0.9,
-      "damage": 8,
-      "lifetime": 60
+	"type" : "RailBulletType",
+  	"damage": 50,
+  	"length" : 250,
+  	"status": "melting",
+	"statusDuration": 80,
+	"hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 40,
+    "offset": 30,
+    "length": 80,
+    "cone": -30,
+    "lightColor": "FF5845FF",
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 40,
+    "baseLength": 10,
+    "lifetime": 40,
+    "sizeFrom": 6,
+    "sizeTo": 2,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    }
+    ]
+    },
+	"updateEffectSeg": 17,
+	"updateEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "lifetime": 34,
+    "length": 0,
+    "region": "exogenesis-wide",
+    "sizeFrom": 10,
+    "sizeTo": 0,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"
+	},
+	"pierceEffect" : {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "lifetime": 34,
+    "length": 0,
+    "region": "exogenesis-blue-pierce",
+    "sizeFrom": 6,
+    "sizeTo": 0,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"
+	},
+	"pierce": true,
+	"pierceBuilding": true,
+	"pierceDamageFactor": 0.1
     }
   }
 ]
 }
+
+
+
+
+

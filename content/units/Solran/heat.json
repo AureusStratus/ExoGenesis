@@ -1,71 +1,126 @@
 {
 "name": "Heat",
-"description": "[red]A small and durable unit created by the Solrans, this unis is equipped with two plasma bolters that shoot rapidly, and the unit can boost",
-"research": "dagger",
+"description": "[red]A small and very durable unit created by the Solrans. equipped with one singular gun.",
+"outlineColor": "313131FF",
+"research": {
+"parent": "dagger",
+"requirements": [
+"volcanite/100",
+"silicon/200"
+]
+},
 "type": "mech",
-"armor": 7,
-"hitSize": 10,
-"canBoost": true,
-"boostMultiplier": 2.2,
-"engineOffset": 6,
+"armor": 8,
+"hitSize": 15,
+"mechStepParticles": false,
+"mechStepShake": 0,
+"mechFrontSway": 0,
+"mechSideSway": 0,
+"rotateShooting": false,
 "commandLimit": 8,
-"speed": 0.52,
+"speed": 1.3,
 "flying": false,
-"health": 690,
+"health": 300,
 "range": 120,
 "immunities": [
-		"burning"
+    "melting",
+    "burning",
+    "blasted"
 		],
 "weapons": [
   {
-  "name": "heat-bolter",
+  "name": "heat-weapon",
     "shootCone": 15,
-    "alternate": true,
-    "mirror": true,
-    "x": 4,
-    "y": -2,
-    "reload": 10,
-    "recoil": 0.5,
-    "shootSound": "sap",
+    "mirror": false,
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "rotateSpeed": 5,
+    "reload": 30,
+    "recoil": 3,
+    "shootSound": "bang",
     "bullet": {
-    "type": "LaserBoltBulletType",
-	"shootEffect": {
-    "type": "WaveEffect",
-    "lifetime": 15,
-    "sizeFrom": 0,
-    "sizeTo": 4,
-    "strokeFrom": 4,
+    "type": "basicBulletType",
+    "shootEffect": "shootBig2",
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 20,
+    "offset": 30,
+    "length": 80,
+    "lightColor": "FF5845FF",
+    "strokeFrom": 2,
     "strokeTo": 0,
-    "colorFrom": "FFC1BBFF",
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
-	},
-	"despawnEffect": {
-    "type": "WaveEffect",
-    "lifetime": 15,
-    "sizeFrom": 0,
-    "sizeTo": 4,
-    "strokeFrom": 4,
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 13,
+    "length": 30,
+    "baseLength": 10,
+    "lifetime": 20,
+    "sizeFrom": 6,
+    "sizeTo": 2,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    }
+    ]
+    },
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 20,
+    "offset": 30,
+    "length": 80,
+    "lightColor": "FF5845FF",
+    "strokeFrom": 2,
     "strokeTo": 0,
-    "colorFrom": "FFC1BBFF",
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
-	},
-	"hitEffect": {
-    "type": "WaveEffect",
-    "lifetime": 15,
-    "sizeFrom": 0,
-    "sizeTo": 4,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF"
-	},
-    "damage": 12,
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 13,
+    "length": 30,
+    "baseLength": 10,
+    "lifetime": 20,
+    "sizeFrom": 6,
+    "sizeTo": 2,
+    "colorFrom": "787878",
+    "colorTo": "78787810"
+    }
+    ]
+    },
+    "lifetime": 50,
+    "damage": 20,
     "speed": 6,
-    "frontColor": "FFC1BBFF",
+    "status": "blasted",
+    "statusDuration": 50,
+    "width": 12,
+    "height": 16,
     "backColor": "FF5845FF",
-    "lifetime": 35
+    "frontColor": "FFC1BBFF"
      }
   }
 ]
 }
  
+
+
+
+

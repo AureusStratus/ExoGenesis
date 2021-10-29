@@ -1,0 +1,284 @@
+{
+    "localizedName": "Eruption",
+    "description": "[red]A powerful and heavily armored tank equipped with plasma throw weapon that fires plasma spheres that apon impact realses slag due to the ground melting.",
+    "research": {
+    "parent": "lava",
+    "requirements": [
+    "volcanite/820",
+    "primal-red/700",
+    "plastanium/740",
+    "lead/940",
+    "silicon/1000"
+    ]
+    },
+    "type": "mech",
+    "outlineColor": "313131FF",
+	"speed": 0.5,
+	"hitSize": 61,
+	"health": 50000,
+    "mechStepParticles": false,
+    "mechStepShake": 0,
+    "mechFrontSway": 0,
+    "mechSideSway": 0,
+	"armor": 35,
+	"canDrown": false,
+    "rotateShooting": false,
+    "singleTarget": true,
+	"flying": false,
+	"targetAir": true,
+	"rotateSpeed": 1,
+	"immunities": [
+		"burning", 
+		"melting",
+		"blasted"
+	],
+	"weapons": [
+	 {
+  "name": "eruption-weapon",
+  "x": 0,
+  "y": 0,
+  "ejectEffect": "none",
+  "mirror": true,
+  "alternate": true,
+  "top": true,
+  "rotate": true,
+  "rotateSpeed": 3,
+  "shake": 0,
+  "shootX": 7,
+  "shootCone": 10,
+  "inaccuracy": 6,
+  "shootY": 37,
+  "reload": 7,
+  "recoil": 3,
+  "shootSound": "flame",
+  "bullet": {
+  "type": "BasicBulletType",
+  "sprite" : "circle-bullet",
+  "status" : "exogenesis-molten1",
+  "statusDuration": 100,
+  "damage": 200,	
+  "splashDamage": 50,
+  "splashDamageRadius": 50,	
+  "incendChance": 1,
+  "incendSpread": 18,
+  "incendAmount": 17,
+  "height": 10,
+  "width": 10,			
+  "speed": 6,
+  "lifetime": 60,
+  "shrinkX": 0,
+  "shrinkY": 0,
+  "hitEffect": {
+  "type": "multiEffect",
+  "effects": [
+  {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 30,
+    "length": 70,
+    "baseLength": 10,
+    "lifetime": 40,
+    "sizeFrom": 8,
+    "sizeTo": 3,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF584510"
+  },
+  {
+  "type": "ParticleEffect",
+  "particles": 30,
+  "length": 60,
+  "lifetime": 46,
+  "interp": "circleOut",
+  "cone": 360,
+  "colorFrom": "FF5845FF",
+  "colorTo": "FF5845FF",
+  "sizeFrom": 6,
+  "sizeTo": 0
+  }
+  ]
+  },
+  "despawnEffect": {
+  "type": "multiEffect",
+  "effects": [
+  {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 30,
+    "length": 70,
+    "baseLength": 10,
+    "lifetime": 40,
+    "sizeFrom": 8,
+    "sizeTo": 3,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF584510"
+  },
+  {
+  "type": "ParticleEffect",
+  "particles": 30,
+  "length": 60,
+  "lifetime": 46,
+  "interp": "circleOut",
+  "cone": 360,
+  "colorFrom": "FF5845FF",
+  "colorTo": "FF5845FF",
+  "sizeFrom": 6,
+  "sizeTo": 0
+  }
+  ]
+  },
+  "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 10,
+    "sizeFrom": 5,
+    "sizeTo": 1,
+    "length": 140,
+    "lifetime": 37,
+    "interp": "circleOut",
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF5845FF",
+    "cone": 15
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 10,
+    "sizeFrom": 5,
+    "sizeTo": 2,
+    "length": 100,
+    "lifetime": 35,
+    "interp": "circleOut",
+    "colorFrom": "FFC1BBFF",
+    "colorTo": "FF584510",
+    "cone": 15
+    }
+    ]
+    },
+  "trailEffect": {
+  "type": "ParticleEffect",
+  "particles": 30,
+  "length": 3.5,
+  "baseLength": 3.5,
+  "lifetime": 30,
+  "interp": "circleOut",
+  "cone": 360,
+  "lightColor": "FF5845FF",
+  "offset": 5,
+  "colorFrom": "FF5845FF",
+  "colorTo": "FF5845AA",
+  "sizeFrom": 4,
+  "sizeTo": 0
+	},
+    "absorbable": false,
+    "trailChance": 1,
+	"smokeEffect": "none",
+    "lightColor": "FF5845FF",
+    "frontColor": "FFC1BBFF",
+    "backColor": "FF5845FF",
+    "fragBullets": 7,
+    "fragCone": 360,
+	"fragBullet": {
+	"type": "LiquidBulletType",
+	"liquid": "slag",
+	"status": "melting",
+	"lifetime": 30,
+    "incendChance": 140,
+    "incendSpread": 18,
+    "incendAmount": 4,
+	"puddleSize": 8,
+	"orbSize": 4.5,
+	"speed": 3,
+	"damage" : 10
+	}
+	}
+  },
+  {
+  "name": "eruption-weapon-body",
+  "x": 0,
+  "y": 0,
+  "mirror": false,
+  "top": true,
+  "shootY": 37,
+  "reload": 20,
+  "rotate": true,
+  "rotateSpeed": 3,
+  "recoil": 0,
+  "shootSound": "none",
+    "bullet": {
+	"type" : "basicBulletType",
+	"damage": 0,
+	"height" : 0.001,
+	"width" : 0.001,
+	"speed": 6,
+	"lifetime" : 60,
+	"hitEffect": "none",
+    "despawnEffect": "none",
+	"shootEffect": "none",
+	"trailEffect": "none"
+    }
+    }
+    ],
+    "abilities": [
+    {
+    "type": "MoveLightningAbility",
+    "minSpeed": 0.10,
+    "maxSpeed": 1,
+    "damage": 0,
+    "chance": 0.99,
+    "length": 1,
+    "color": "00000000",
+    "parentizeEffects": true,
+    "shootEffect": {
+    "type": "multiEffect",
+    "followParent": true,
+    "rotWithParent": true,
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 1,
+    "length": 0,
+    "region": "exogenesis-eruption-track2",
+    "lifetime": 6,
+    "sizeFrom": 39,
+    "sizeTo": 39,
+    "colorFrom": "FFFFFFF",
+    "colorTo": "FFFFFFF"
+     }
+    ]
+    },
+    "shootSound": "none"
+    },
+    {
+    "type": "MoveLightningAbility",
+    "minSpeed": 0.10,
+    "maxSpeed": 1,
+    "damage": 0,
+    "chance": 1,
+    "length": 1,
+    "color": "00000000",
+    "parentizeEffects": true,
+    "shootEffect": {
+    "type": "multiEffect",
+    "followParent": true,
+    "rotWithParent": true,
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 1,
+    "length": 0,
+    "region": "exogenesis-eruption-track1",
+    "lifetime": 6,
+    "sizeFrom": 39,
+    "sizeTo": 39,
+    "colorFrom": "FFFFFFF",
+    "colorTo": "FFFFFFF"
+     }
+    ]
+    },
+    "shootSound": "none"
+    }
+ ]
+}
