@@ -98,7 +98,7 @@
     "lifetime": 55,
     "buildingDamageMultiplier": 0.05,
     "homingDelay": 5,
-  	"homingPower": 0.00656,
+  	"homingPower": 0.0656,
 	"homingRange": 80,
 	"splashDamageRadius": 10,
 	"splashDamage": 10,
