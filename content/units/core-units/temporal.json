@@ -75,7 +75,6 @@
     ]
     },
     "keepVelocity": false,
-    "collidesTeam": true,
     "type": "basicBulletType",
     "sprite": "exogenesis-plasma",
     "damage": 18,
