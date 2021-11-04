@@ -23,7 +23,7 @@
 	"health": 5300000,
 	"outlineRadius": 0,
     "legCount": 4,
-    
+    "drownTimeMultiplier": 99999999999999,
 	"canDrown": false,
     "groundLayer": 75,
     "legPairOffset": 2,
