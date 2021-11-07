@@ -26,7 +26,7 @@
 "mechStepShake": 6,
 "singleTarget": true,
 "speed": 0.31,
-"health": 578000,
+"health": 230000,
 "range": 300,
 "immunities": [
 		"melting",
@@ -55,7 +55,7 @@
   "status" : "burning",
   "statusDuration": 300,
   "damage": 3280,	
-  "splashDamage": 620,
+  "splashDamage": 420,
   "splashDamageRadius": 70,	
   "incendChance": 1,
   "incendSpread": 18,
@@ -176,7 +176,7 @@
 	"puddleSize": 8,
 	"orbSize": 4.5,
 	"speed": 3,
-	"damage" : 50
+	"damage" : 15
 	}
 	}
   },
@@ -200,7 +200,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 150,
+    "damage": 135,
     "width": 14,
     "length": 320,
     "drawSize": 470,
@@ -300,8 +300,8 @@
     "height": 20,
     "knockback": 3,
     "width": 8,
-	"splashDamageRadius": 10,
-	"splashDamage": 280
+	"splashDamageRadius": 20,
+	"splashDamage": 180
     }
   },
   {
@@ -388,8 +388,8 @@
     "height": 20,
     "knockback": 3,
     "width": 8,
-	"splashDamageRadius": 10,
-	"splashDamage": 280
+	"splashDamageRadius": 20,
+	"splashDamage": 180
    }
   },
   {
@@ -418,7 +418,7 @@
     "despawnEffect": "blastExplosion",
     "pierce": true,
     "lifetime": 80,
-    "damage": 500,
+    "damage": 300,
     "splashDamage": 82,
     "splashDamageRadius": 35,
     "speed": 6,
