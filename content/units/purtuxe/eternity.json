@@ -19,7 +19,7 @@
   "type": "legs",
 	"speed": 0.24,
 	"hitSize": 67,
-	"health": 583900,
+	"health": 200000,
 	"rotateSpeed": 0.6,
     "buildSpeed": 5,
 	"armor": 52,
