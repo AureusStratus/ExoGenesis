@@ -18,7 +18,7 @@
 "singleTarget": true,
 "buildSpeed": 6.7,
 "speed": 0.46,
-"health": 618000,
+"health": 218000,
 "range": 380,
 "immunities": [
 		"burning",
