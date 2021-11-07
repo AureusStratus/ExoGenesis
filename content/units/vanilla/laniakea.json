@@ -23,7 +23,7 @@
 	"canDrown": false,
 	"speed": 0.20,
 	"hitSize": 77,
-	"health": 487000,
+	"health": 157000,
 	"armor": 35,
 	"drag": 0.2,
 	"flying": false,
@@ -275,7 +275,7 @@
     "damageMultiplier": 0.60
     },
     "lifetime": 100,
-    "damage": 360,
+    "damage": 180,
     "frontColor": "FFFFFF",
     "backColor": "98ffa9ff",
     "hitEffect": "hitEmpSpark",
