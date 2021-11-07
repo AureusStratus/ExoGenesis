@@ -35,7 +35,7 @@
 "commandLimit": 5,
 "singleTarget": true,
 "speed": 0.22,
-"health": 356400,
+"health": 250000,
 "immunities": [
 		"burning",
 		"melting",
