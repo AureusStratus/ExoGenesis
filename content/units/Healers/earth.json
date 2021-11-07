@@ -13,7 +13,7 @@
         "accel": 0.1,
         "drag": 0.02,
         "flying": true,
-        "health": 1000000,
+        "health": 250000,
         "hitSize": 98,
         "payloadCapacity": 16484,
         "armor": 30,
