@@ -21,7 +21,7 @@
     "type": "legs",
 	"speed": 0.23,
 	"hitSize": 85,
-	"health": 684000,
+	"health": 210000,
 	"armor": 40,
 	"drag": 0.2,
 	"range": 380,
