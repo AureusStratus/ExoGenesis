@@ -7,7 +7,6 @@
 	"reloadTime": 30,
 	"range": 200,
   "shootLength": 6,
-"alwaysUnlocked": true,
     "shots": 10,
     "burstSpacing": 10,
     "shootEffect": {
