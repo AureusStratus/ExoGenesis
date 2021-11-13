@@ -11,7 +11,6 @@
     "shots": 1,
     "targetAir": false,
     "targetGround": true,
-"alwaysUnlocked": true,
     "shootCone": 0.08,
     "recoilAmount": 0.7,
     "restitution": 0.06,
