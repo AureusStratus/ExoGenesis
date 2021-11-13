@@ -9,7 +9,6 @@
     "health": 2500,
     "size": 3,
     "inaccuracy": 0,
-"alwaysUnlocked": true,
     "reloadTime": 15,
     "shots": 6,
     "recoilAmount": 4,
