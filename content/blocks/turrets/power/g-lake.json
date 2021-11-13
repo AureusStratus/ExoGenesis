@@ -10,7 +10,6 @@
 	"range": 450,
 	"targetAir" : false, 
 	"targetGround" : true, 
-"alwaysUnlocked": true,
     "placeableLiquid": "true",
     "burstSpacing": 4,
 
