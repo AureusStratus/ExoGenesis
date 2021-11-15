@@ -1,23 +1,22 @@
  {
 	"type": "ItemTurret",
-	"description": "[red]A laser turret that superheats its ammo to produce powerful laser blasts.",
+	"description": "[red]The precursor of the Solrans most power heavy turret. A laser turret that superheats its ammo to produce powerful laser blasts.",
 	"localizedName": "Shockwave",
 	"size": 4,
 	"health": 1600,
-	"range": 200,
-	"reloadTime" : 90,
+	"range": 300,
+	"reloadTime" : 250,
 	"shots" : 1,
 	"cooldown": "0.0030",
 	
 	"targetAir" : true, 
 	"targetGround" : true,
-	"shootCone" : 38,
 	
-	"recoilAmount" : 2,
+	"recoilAmount" : 3,
 	"heatColor": "CB1D1DFF",
 	"restitution" : 0.08, 
 	"rotateSpeed": 4.0,
-	"shootShake" : 1,
+	"shootShake" : 4,
 
 	"shootSound" : "plasmaboom",
 	"chargeTime" : 30,
@@ -51,66 +50,67 @@
     "blast-compound": {
 	"type": "LaserBulletType",
 	"hitEffect": "hitMeltdown",
-	"despawnEffect": "none",
 	"status": "melting",
 	"statusDuration": 100,
-	"hitShake" : 1,
 	"hitSize": 8,
-    "width": 20,
+    "width": 30,
 	"lifetime": 30,
-	"collidesAir": true,
-	"length": 210,
+	"length": 300,
     "sideAngle": 90,
-    "sideLength": 20,
+    "sideLength": 40,
     "sideWidth": 1,
-	"damage": 160,
+	"damage": 400,
     "lightningSpacing": 25,
     "lightningLength": 8,
     "lightningDelay": 1.1,
     "lightningLengthRand": 5,
-    "lightningDamage": 7,
+    "lightningDamage": 70,
     "lightningAngleRand": 8,
     "lightColor": "FF5845FF",
     "lightningColor": "FF5845FF",
     "shootEffect": "blastExplosion",
-    "colors": ["DE4136AA", "FF5845FF", "FFC1BBFF"]
+    "colors": ["FF5845FF", "FFC1BBFF", "FFFFFFF"]
     },
     "thorium": {
     "type": "LaserBulletType",
-    "hitEffect": "hitMeltdown",
-    "despawnEffect": "none",
+    "hitEffect": "thoriumShoot",
     "status": "melting",
     "statusDuration": 100,
-    "hitShake" : 1,
     "hitSize": 8,
-    "width": 20,
+    "width": 30,
     "lifetime": 30,
-    "collidesAir": true,
-    "length": 210,
+    "length": 300,
     "sideAngle": 90,
-    "sideLength": 20,
+    "sideLength": 40,
     "sideWidth": 1,
-    "damage": 200,
+    "damage": 700,
     "lightningSpacing": 25,
     "lightningLength": 8,
     "lightningDelay": 1.1,
     "lightningLengthRand": 5,
-    "lightningDamage": 18,
+    "lightningDamage": 90,
     "lightningAngleRand": 8,
     "lightColor": "F9A3C7FF",
     "lightningColor": "F9A3C7FF",
     "shootEffect": "thoriumShoot",
-    "colors": ["CB8EBFAA", "F9A3C7FF", "FFE0EDFF"]
-    
+    "colors": ["CB8EBFff", "F9A3C7FF", "FFE0EDFF"]
            }
         },
+    "consumes": {
+	"liquid": {
+	"liquid": "slag",
+	"optional": true,
+	"update": false,
+	"amount": 0.4
+	}
+	},
 	"requirements": [
 	    "titanium/450",
         "osmium/400",
-        "primal-red/100",
+        "primal-red/400",
         "titanium/160",
         "silicon/260"
 	],
 	"category": "turret",
-	"research": "r-fury"
+	"research": "r-demon"
     }
