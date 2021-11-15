@@ -1,0 +1,44 @@
+{
+"category": "turret",
+"type": "LiquidTurret",
+"localizedName": "Thermal",
+"description": "A turret used on volceru to care for the children but has been proven quite useful in warfare against less molten beings. Fires a stream of slag.",
+"size": 3,
+"range": 160,
+"health": 1100,
+"reloadTime": 3.5,
+"shots": 2,
+"inaccuracy": 0.7,
+"velocityInaccuracy": 0.4,
+"shootEffect": "hitMeltdown",
+"ammoTypes": {
+  "slag": {
+    "type": "LiquidBulletType",
+    "liquid": "slag",
+    "damage": 10,
+    "speed": 9,
+    "puddleSize": 8,
+    "lifetime": 50,
+    "drag": 0.07,
+    "orbSize": 5,
+    "fragBullets": 3,
+    "fragCone": 360,
+	"fragBullet": {
+	"type": "LiquidBulletType",
+	"liquid": "slag",
+	"lifetime": 20,
+	"puddleSize": 3,
+	"orbSize": 1.5,
+	"speed": 3,
+	"damage" : 2
+	}
+  }
+},
+"research": "r-fury",
+"requirements": [
+  "metaglass/80",
+  "graphite/300",
+  "lead/500",
+  "volcanite/200"
+  ]
+}

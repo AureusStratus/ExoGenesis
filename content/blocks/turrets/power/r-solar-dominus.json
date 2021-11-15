@@ -1,11 +1,11 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Solar Dominus",
-	"description": "[red]A powerful energy turret used by the Solrans. Fires 3 spiked energy bullets that then shatter in to smaller ones and then thos fragments shatter in to smaller onces hitting a oarge area.",
+	"description": "[red]A powerful energy turret used by the Solrans to devastate army's. Fires 3 spiked energy bullets that then shatter in to smaller ones and then thos fragments shatter in to smaller onces hitting a oarge area.",
 	"details": "Smuther your enemies in your hatred.",
 	"size": 8,
 	"health": 8660,
-	"reloadTime": 200,
+	"reloadTime": 350,
 	"range": 380,
 	"shots": 3,
 	"targetAir": true, 
@@ -17,15 +17,16 @@
     "hasPower": true,
     "shootEffect": {
     "type": "ParticleEffect",
-    "particles": 30,
-    "length": 90,
-    "lifetime": 46,
-    "interp": "circleOut",
-    "cone": 30,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
-    "sizeFrom": 6,
-    "sizeTo": 0
+    "particles": 1,
+    "length": 0,
+    "lifetime": 15,
+    "interp": "swingIn",
+    "region": "exogenesis-spikething",
+    "offsetX": 8,
+    "sizeFrom": 29,
+    "sizeTo": 1,
+    "colorFrom": "FF5845FF",
+    "colorTo": "DE4136Dff"
     },
     "shootShake": 6,
     "shootSound": "plasmaboom",
@@ -40,6 +41,8 @@
         "status": "melting",
         "lightRadius": 20,
         "statusDuration": 130,
+        "collidesGround": "false",
+        "collidesAir": "false",
         "incendChance": 10,
         "incendSpread": 15,
         "incendAmount": 8,
@@ -216,14 +219,22 @@
 		}
 	    }
 		},
+    "consumes": {
+	"liquid": {
+	"liquid": "slag",
+	"optional": true,
+	"update": false,
+	"amount": 0.4
+	}
+	},
 	"requirements": [
-	    "silicon/700",
-        "osmium/400",
-        "thorium/300",
-        "titanium/750",
-        "surge-alloy/800",
-        "primal-red/560"
+	    "silicon/1000",
+        "osmium/800",
+        "thorium/800",
+        "titanium/1750",
+        "surge-alloy/1000",
+        "primal-red/3560"
 	],
 	"category": "turret",
-	"research": "ripple"
+	"research": "r-impactor"
 }
