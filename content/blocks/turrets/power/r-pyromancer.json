@@ -7,6 +7,14 @@
 "rotateSpeed": 20,
 "range": 280,
 "shootCone": 30,
+"consumes": {
+"liquid": {
+"liquid": "slag",
+"optional": true,
+"update": false,
+"amount": 0.6
+}
+},
 "inaccuracy": 15,
 "shootLength": 0,
 "velocityInaccuracy": 0.33,
