@@ -65,7 +65,7 @@
     },
     "targetAir": true,
     "targetGround": true,
-    "powerUse": 38,
+    "powerUse": 35,
     "hasPower": true,
     "shootType": {
   "type": "BasicBulletType",
