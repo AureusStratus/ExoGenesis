@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "[cyab]A long ranged weapon. Fires high velocity bullet dealing massive damage.",
+    "description": "[cyan]A long ranged weapon. Fires high velocity bullet dealing massive damage.",
     "localizedName": "Constellation",
     "size": 8,
     "health": 480,
@@ -104,7 +104,7 @@
 		"lightning": 8,
         "lightningLengthRand": 13,
         "lightningLength": 25,
-		"lightningDamage": 850,
+		"lightningDamage": 250,
         "status": "slow",
         "statusDuration": 300,
         "height": 38,
