@@ -30,6 +30,7 @@
     "shootSound": "sap",
     "bullet": {
     "shootEffect": "lightningShoot",
+    "smokeEffect": "none",
       "despawnEffect": {
       "type": "ParticleEffect",
       "line": true,
