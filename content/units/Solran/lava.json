@@ -43,6 +43,7 @@
   "top": true,
   "rotate": true,
   "rotateSpeed": 3.5,
+  "layerOffset": 62,
   "shake": 4,
   "shootX": 7,
   "shootY": 31,
@@ -223,6 +224,7 @@
     "parentizeEffects": true,
     "shootEffect": {
     "type": "multiEffect",
+    "layer": 61,
     "followParent": true,
     "rotWithParent": true,
     "effects": [
@@ -253,6 +255,7 @@
     "parentizeEffects": true,
     "shootEffect": {
     "type": "multiEffect",
+    "layer": 61,
     "followParent": true,
     "rotWithParent": true,
     "effects": [
