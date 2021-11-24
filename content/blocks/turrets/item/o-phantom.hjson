@@ -1,0 +1,82 @@
+localizedName: Phantom
+type: itemTurret
+description: [orange]Shoots powerful bullets that can shock, burn, or slow enemies depending on what ammunition is used.
+health: 1900
+coolantMultiplier: 1.0
+reloadTime: 5
+restitution: 0.1
+ammoUseEffect: casing3
+range: 300
+inaccuracy: 3
+recoilAmount: 4
+spread: 14
+alternate: true
+shootShake: 2
+shots: 2
+size: 5
+shootCone: 24
+shootSound: shootBig
+ammoTypes: {
+  blast-compound: {
+    status: burning
+    statusDuration: 800
+    speed: 7
+    height: 18
+    width: 15
+    lifetime: 70
+    damage: 97
+    splashDamage: 45
+    splashDamageRadius: 16
+    knockback: 1.8
+    hitSize: 12
+    frontColor: E66F57FF
+    backColor: C85C51FF
+    shootEffect: shootPyraFlame
+    hitEffect: blastExplosion
+  }
+  jupiteium: {
+    speed: 8
+    height: 18
+    width: 15
+    pierce: true
+    lifetime: 70
+    damage: 150
+    knockback: 2.0
+    hitSize: 12
+    frontColor: C28590FF
+    backColor: A16570FF
+    status: slow
+    shootEffect: shootPyraFlame
+    hitEffect: blastExplosion
+  }
+  surge-alloy: {
+    status: shocked
+    statusDuration: 700
+    speed: 10
+    height: 18
+    width: 15
+    lifetime: 70
+    damage: 100
+    knockback: 1.8
+    hitSize: 12
+    frontColor: F3E979FF
+    backColor: D99F6BFF
+    shootEffect: shootPyraFlame
+    hitEffect: blastExplosion
+    lightning: 4
+    lightningDamage: 8
+    lightningCone: 360
+    lightningLengthRand: 13
+    lightningLength: 25
+    collidesAir: true
+  }
+}
+requirements: [
+  osmium/350
+  silicon/790
+  jupiteium/470
+  titanium/500
+  surge-alloy/600
+]
+category: turret
+research: spectre

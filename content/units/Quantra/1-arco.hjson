@@ -1,0 +1,43 @@
+localizedName: Tier
+description: [acid] A small and fast naval unit created by the Guantra, this unit is equipped with a gamma arc gun that uses quantum physics to destroy the atom of enemies or structures, making them corroded quickly
+research: dagger
+type: naval
+speed: 1.1
+drag: 0.13
+armor: 3
+targetAir: true
+hitSize: 13
+health: 680
+accel: 0.4
+rotateSpeed: 3.3
+trailLength: 20
+rotateShooting: false
+weapons: [
+  {
+    name: quark-zap
+    reload: 38
+    top: true
+    mirror: false
+    x: 0
+    y: -2
+    shootY: 2
+    recoil: 1.5
+    shake: 1
+    rotateSpeed: 3
+    rotate: true
+    shots: 5
+    shootSound: spark
+    shootCone: 45
+    bullet: {
+      type: LightningBulletType
+      status: corroded
+      statusDuration: 80
+      buildingDamageMultiplier: 0.04
+      lightningColor: C2FF70FF
+      lightningCone: 20
+      damage: 48
+      lightningLength: 26
+      collidesAir: true
+    }
+  }
+]

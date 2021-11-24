@@ -1,0 +1,67 @@
+localizedName: Abnormality Materializer
+description: [purple]Uses large amounts of dark matter and an anomalous energy to create more Rutuxium.
+type: GenericCrafter
+drawer: drawWeave
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 80
+craftTime: 230
+craftEffect: {
+  type: multiEffect
+  lifetime: 25
+  effects: [
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 2
+      sizeTo: 30
+      length: 0
+      spin: 11
+      lightColor: 774ACFFF
+      lifetime: 35
+      layer: 109
+      region: exogenesis-runic-circle
+      colorFrom: 774ACFFF
+      colorTo: A170F400
+    }
+    {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 2
+      sizeTo: 25
+      length: 0
+      lightColor: 774ACFFF
+      spin: -11
+      lifetime: 35
+      layer: 109
+      region: exogenesis-runic-circle
+      colorFrom: 774ACFFF
+      colorTo: A170F400
+    }
+  ]
+}
+updateEffect: none
+consumes: {
+  power: 4
+  items: {
+    items: [
+      surge-alloy/5
+      thorium/8
+      vurtimite/8
+      xanium/10
+    ]
+  }
+}
+requirements: [
+  silicon/450
+  titanium/400
+  rutuxium/300
+  osmium/300
+  surge-alloy/200
+  phase-fabric/100
+]
+category: crafting
+research: alloy-kiln
+outputItem: rutuxium/8

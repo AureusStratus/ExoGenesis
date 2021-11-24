@@ -1,0 +1,10 @@
+localizedName: Osmium
+description: A dense and durable metal used in various structure construction
+cost: 2
+color: C9DDE3FF
+research: {
+  parent: titanium
+  requirements: [
+    titanium/200
+  ]
+}

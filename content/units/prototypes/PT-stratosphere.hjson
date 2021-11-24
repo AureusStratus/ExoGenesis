@@ -1,0 +1,478 @@
+localizedName: Stratosphere
+description: [blue]A prototype unit developed by the Genesuxians to aid in an on going galactic war. Equipped with cold plasma laser mounts that inflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies
+research: assembly
+groundLayer: 75
+drawShields: false
+lightRadius: 145
+lightColor: A9D8FFFF
+range: 220
+maxRange: 220
+type: legs
+speed: 0.50
+hitSize: 55
+mineSpeed: 8.5
+mineTier: 4
+buildSpeed: 2.5
+itemCapacity: 150
+health: 65700
+armor: 10
+drag: 0.2
+flying: false
+targetAir: true
+rotateSpeed: 1.5
+legCount: 4
+legMoveSpace: 0.6
+maxStretch: 1.3
+legExtension: -5
+legLength: 78
+legBaseOffset: 19
+legTrns: 0.62
+landShake: 1.3
+legSpeed: 0.8
+rippleScale: 3.5
+legSplashDamage: 86
+legSplashRange: 30
+visualElevation: 0.75
+allowLegStep: true
+hovering: true
+immunities: [
+  burning
+  melting
+  freezing
+]
+weapons: [
+  {
+    name: neutron-core-barrage
+    shootCone: 30
+    mirror: false
+    top: true
+    x: 0
+    y: 0
+    shootY: 0
+    rotate: true
+    rotateSpeed: 100
+    inaccuracy: 20
+    reload: 480
+    shots: 7
+    shotDelay: 9
+    firstShotDelay: 38
+    recoil: 0.5
+    soundPitchMin: 1
+    shootSound: plasmaboom
+    bullet: {
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        offset: 30
+        particles: 13
+        lifetime: 33
+        length: 45
+        cone: -360
+        lenFrom: 6
+        lenTo: 0
+        colorFrom: FFFFFF
+        colorTo: A9D8FFFF
+      }
+      despawnEffect: {
+        type: ParticleEffect
+        line: true
+        offset: 30
+        particles: 13
+        lifetime: 33
+        length: 45
+        cone: -360
+        lenFrom: 6
+        lenTo: 0
+        colorFrom: FFFFFF
+        colorTo: A9D8FFFF
+      }
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 65
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: FFFFFF
+            colorTo: A9D8FFFF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            offset: 30
+            particles: 35
+            lifetime: 38
+            length: 65
+            baseLength: -65
+            cone: -360
+            lenFrom: 6
+            lenTo: 0
+            colorFrom: FFFFFF
+            colorTo: A9D8FFFF
+          }
+        ]
+      }
+      keepVelocity: false
+      collidesTeam: true
+      healPercent: 5
+      type: basicBulletType
+      sprite: exogenesis-star-bullet
+      spin: 12
+      lightColor: A9D8FFFF
+      damage: 200
+      shrinkY: 0
+      shrinkX: 0
+      hitSound: laser
+      width: 37
+      height: 37
+      speed: 4.5
+      frontColor: FFFFFF
+      backColor: A9D8FFFF
+      trailChance: 2
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 25
+        sizeFrom: 6
+        region: exogenesis-plasma-back
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFAA
+      }
+      lifetime: 110
+      homingRange: 90
+      homingPower: 0.0845
+      weaveScale: 4
+      weaveMag: 4
+      status: freezing
+      statusDuration: 80
+      splashDamageRadius: 20
+      splashDamage: 50
+      lightningColor: 66B1FFFF
+      lightning: 3
+      lightningDamage: 78
+      lightningLength: 7
+      lightningCone: 360
+      lightningLengthRand: 11
+    }
+  }
+  {
+    name: neutron-core-lightning
+    reload: 58
+    top: true
+    mirror: false
+    x: 0
+    y: 0
+    shootY: 0
+    ignoreRotation: true
+    rotate: false
+    shots: 20
+    shotDelay: 2
+    inaccuracy: 360
+    shootSound: spark
+    shootCone: 360
+    bullet: {
+      type: LightningBulletType
+      lightColor: A9D8FFFF
+      status: shocked
+      statusDuration: 80
+      lightningColor: 66B1FFFF
+      lightningLengthRand: 8
+      damage: 96
+      lightningLength: 26
+      collidesAir: true
+    }
+  }
+  {
+    name: cold-plasma-repulser
+    reload: 24
+    mirror: true
+    alternate: true
+    x: 19
+    y: 18
+    shootY: 6
+    recoil: 1.5
+    shake: 1
+    cooldownTime: 40
+    heatColor: A9D8FFFF
+    rotate: true
+    rotateSpeed: 7
+    inaccuracy: 10
+    shots: 1
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      sprite: exogenesis-plasma
+      lightColor: A9D8FFFF
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 14
+        lifetime: 15
+        offset: 20
+        length: 35
+        cone: 30
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 45
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: FFFFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+        ]
+      }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 45
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: FFFFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+        ]
+      }
+      trailEffect: none
+      width: 15
+      height: 15
+      lightning: 3
+      status: freezing
+      statusDuration: 80
+      lightningColor: 66B1FFFF
+      lightningDamage: 18
+      lightningLength: 10
+      lightningCone: 360
+      lightningLengthRand: 1
+      type: BasicBulletType
+      shrinkX: 0.3
+      shrinkY: 0.3
+      damage: 100
+      speed: 6
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      lifetime: 60
+    }
+  }
+  {
+    name: cold-plasma-repulser
+    reload: 24
+    mirror: true
+    alternate: true
+    x: 19
+    y: -18
+    shootY: 6
+    recoil: 1.5
+    shake: 1
+    cooldownTime: 40
+    heatColor: A9D8FFFF
+    rotate: true
+    rotateSpeed: 7
+    inaccuracy: 10
+    shots: 1
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      sprite: exogenesis-plasma
+      shootEffect: {
+        lightColor: A9D8FFFF
+        type: ParticleEffect
+        line: true
+        particles: 14
+        lifetime: 15
+        offset: 20
+        length: 35
+        cone: 30
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 45
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: FFFFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+        ]
+      }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 45
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: FFFFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+        ]
+      }
+      trailEffect: none
+      width: 15
+      lightColor: A9D8FFFF
+      height: 15
+      lightning: 3
+      status: freezing
+      statusDuration: 80
+      lightningColor: 66B1FFFF
+      lightningDamage: 18
+      lightningLength: 10
+      lightningCone: 360
+      lightningLengthRand: 1
+      type: BasicBulletType
+      shrinkX: 0.3
+      shrinkY: 0.3
+      damage: 100
+      speed: 6
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      lifetime: 60
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 90
+    regen: 7
+    max: 7800
+    cooldown: 160
+  }
+  {
+    type: StatusFieldAbility
+    activeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          lifetime: 20
+          length: 0
+          sizeFrom: 14.5
+          sizeTo: 0
+          particles: 1
+          colorFrom: 66B1FFFF
+          colorTo: A9D8FFFF
+          region: exogenesis-plasma-back
+        }
+        {
+          type: ParticleEffect
+          line: true
+          particles: 20
+          offset: 20
+          spin: 6
+          lifetime: 14
+          length: 55
+          cone: -360
+          lenFrom: 6
+          lenTo: 0
+          colorFrom: A9D8FFFF
+          colorTo: 66B1FFFF
+        }
+      ]
+    }
+    effect: {
+      name: neutron-overcharge
+      localizedName: Neutron Overcharge
+      description: You are being overcharged with neutron star energy.
+      speedMultiplier: 1.35
+      damageMultiplier: 1.35
+      reloadMultiplier: 1.75
+      effect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        length: 35
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      damage: -6
+    }
+    range: 145
+    reload: 1
+    duration: 5
+  }
+]

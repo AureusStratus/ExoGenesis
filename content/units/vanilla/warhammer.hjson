@@ -1,0 +1,529 @@
+name: Warhammer
+description: [orange]The assault class titan unit. A massive heavy fire power unit equipped with plasma cannons and can shoot a barrage of missiles and bullets. Powers itself with a built in reactor that will fire a devastating laser. Can buff allies.
+research: {
+  parent: king
+  requirements: [
+    graphite/1220
+    surge-alloy/1200
+    plastanium/940
+    phase-fabric/1000
+    scrap/1200
+    copper/1540
+    lead/1540
+    silicon/1800
+  ]
+}
+type: mech
+details: After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Bring the war to them.
+lightRadius: 200
+armor: 65
+rotateSpeed: 0.8
+canDrown: false
+hitSize: 60
+commandLimit: 8
+mechStepParticles: true
+mechStepShake: 6
+singleTarget: true
+speed: 0.31
+health: 230000
+range: 300
+immunities: [
+  melting
+  blasted
+  burning
+  slow
+]
+weapons: [
+  {
+    name: warhammer-weapon
+    x: 41
+    y: -4.5
+    reload: 100
+    alternate: true
+    top: false
+    rotate: false
+    recoil: 5.5
+    shootY: 23
+    shots: 1
+    shake: 3
+    shootSound: shootBig
+    ejectEffect: none
+    bullet: {
+      type: BasicBulletType
+      sprite: circle-bullet
+      status: burning
+      statusDuration: 300
+      damage: 3280
+      splashDamage: 420
+      splashDamageRadius: 70
+      incendChance: 1
+      incendSpread: 18
+      incendAmount: 17
+      height: 27
+      width: 27
+      speed: 6
+      lifetime: 80
+      homingPower: 0.00756
+      homingRange: 160
+      shrinkX: 0
+      shrinkY: 0
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 40
+            length: 160
+            baseLength: 10
+            lifetime: 280
+            layer: 106
+            interp: swing
+            sizeFrom: 28
+            sizeTo: 13
+            colorFrom: ffb855
+            colorTo: 7e7e7e10
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            interp: circleOut
+            cone: 360
+            colorFrom: 7e7e7e
+            colorTo: ffb855
+            sizeFrom: 6
+            sizeTo: 0
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 40
+            length: 160
+            baseLength: 10
+            lifetime: 280
+            layer: 106
+            interp: swing
+            sizeFrom: 28
+            sizeTo: 13
+            colorFrom: ffb855
+            colorTo: 7e7e7e10
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            interp: circleOut
+            cone: 360
+            colorFrom: 7e7e7e
+            colorTo: ffb855
+            sizeFrom: 6
+            sizeTo: 0
+          }
+        ]
+      }
+      shootEffect: {
+        type: ParticleEffect
+        particles: 20
+        length: 50
+        lifetime: 46
+        interp: circleOut
+        cone: 20
+        colorFrom: 7e7e7e
+        colorTo: 464646
+        sizeFrom: 6
+        sizeTo: 0
+      }
+      trailEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 7.5
+        baseLength: 7.5
+        lifetime: 25
+        interp: circleOut
+        cone: 360
+        lightColor: ffb855
+        offset: 5
+        colorFrom: ffb855
+        colorTo: db661c
+        sizeFrom: 7
+        sizeTo: 0
+      }
+      absorbable: false
+      trailChance: 1
+      smokeEffect: blastExplosion
+      lightColor: ffb855
+      frontColor: ffb855
+      backColor: db661c
+      fragBullets: 33
+      fragCone: 360
+      fragBullet: {
+        type: LiquidBulletType
+        liquid: slag
+        status: melting
+        lifetime: 30
+        incendChance: 140
+        incendSpread: 18
+        incendAmount: 4
+        puddleSize: 8
+        orbSize: 4.5
+        speed: 3
+        damage: 15
+      }
+    }
+  }
+  {
+    name: warhammer-laser
+    x: 0
+    y: 0
+    shootY: 8
+    ejectEffect: none
+    rotate: true
+    rotateSpeed: 0.7
+    mirror: false
+    shots: 1
+    reload: 745
+    recoil: 0
+    shake: 5
+    shootCone: 20
+    cooldownTime: 145
+    heatColor: 79F2EEFF
+    shootSound: beam
+    continuous: true
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 135
+      width: 14
+      length: 320
+      drawSize: 470
+      fadeTime: 70
+      lifetime: 280
+      shake: 0.5
+      despawnEffect: smokeCloud
+      smokeEffect: smokeCloud
+      status: melting
+      statusDuration: 50
+      incendChance: 1
+      hitEffect: hitMeltdown
+      shootEffect: bigShockwave
+    }
+  }
+  {
+    name: warhammer-heavy-rockets
+    shootCone: 15
+    shootY: 3
+    mirror: true
+    alternate: true
+    rotateSpeed: 3
+    inaccuracy: 8
+    rotate: true
+    x: 13
+    y: 13
+    reload: 49
+    recoil: 3
+    ejectEffect: casing2
+    shootSound: bang
+    shots: 3
+    shotDelay: 2
+    shake: 1
+    bullet: {
+      keepVelocity: false
+      type: MissileBulletType
+      shootEffect: blastExplosion
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            cone: 360
+            colorFrom: FF875BFF
+            colorTo: FF875B15
+            sizeFrom: 5
+            sizeTo: 0
+          }
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 50
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: FF875BFF
+            colorTo: FF875BF10
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            cone: 360
+            colorFrom: FF875BFF
+            colorTo: FF875B15
+            sizeFrom: 5
+            sizeTo: 0
+          }
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 50
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: FF875BFF
+            colorTo: FF875BF10
+          }
+        ]
+      }
+      damage: 350
+      speed: 5
+      lifetime: 90
+      homingPower: 0.0768
+      homingRange: 100
+      weaveScale: 0
+      weaveMag: 0
+      height: 20
+      knockback: 3
+      width: 8
+      splashDamageRadius: 20
+      splashDamage: 180
+    }
+  }
+  {
+    name: warhammer-heavy-rockets
+    shootCone: 15
+    shootY: 3
+    mirror: true
+    alternate: true
+    rotateSpeed: 3
+    inaccuracy: 8
+    rotate: true
+    x: 27
+    y: 4
+    reload: 49
+    recoil: 3
+    ejectEffect: casing2
+    shootSound: bang
+    shots: 3
+    shotDelay: 2
+    shake: 1
+    bullet: {
+      keepVelocity: false
+      type: MissileBulletType
+      shootEffect: blastExplosion
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            cone: 360
+            colorFrom: FF875BFF
+            colorTo: FF875B15
+            sizeFrom: 5
+            sizeTo: 0
+          }
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 50
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: FF875BFF
+            colorTo: FF875BF10
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 60
+            lifetime: 46
+            cone: 360
+            colorFrom: FF875BFF
+            colorTo: FF875B15
+            sizeFrom: 5
+            sizeTo: 0
+          }
+          {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 50
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: FF875BFF
+            colorTo: FF875BF10
+          }
+        ]
+      }
+      damage: 350
+      speed: 5
+      lifetime: 90
+      homingPower: 0.0768
+      homingRange: 100
+      weaveScale: 0
+      weaveMag: 0
+      height: 20
+      knockback: 3
+      width: 8
+      splashDamageRadius: 20
+      splashDamage: 180
+    }
+  }
+  {
+    name: warhammer-heavy-gunner
+    top: true
+    mirror: true
+    alternate: true
+    y: -8
+    x: 25
+    shots: 3
+    rotate: true
+    rotateSpeed: 2
+    inaccuracy: 2
+    shootY: 15
+    reload: 16
+    recoil: 1
+    shake: 0.5
+    shotDelay: 3
+    ejectEffect: casing2
+    shootSound: shootBig
+    bullet: {
+      type: basicBulletType
+      knockback: 5
+      hitEffect: blastExplosion
+      shootEffect: shootBig2
+      despawnEffect: blastExplosion
+      pierce: true
+      lifetime: 80
+      damage: 300
+      splashDamage: 82
+      splashDamageRadius: 35
+      speed: 6
+      width: 13
+      height: 16
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.StatusFieldAbility
+    effect: {
+      name: tyrannical-outburst
+      localizedName: Outburst
+      description: an unimaginable rage consumes you.
+      speedMultiplier: 1.7
+      damageMultiplier: 1.7
+      reloadMultiplier: 1.7
+      effect: {
+        type: ParticleEffect
+        lifetime: 25
+        length: 0
+        sizeFrom: 2
+        sizeTo: 0
+        particles: 2
+        colorFrom: FF5845FF
+        colorTo: DE4136FF
+      }
+    }
+    range: 1
+    reload: 1000
+    duration: 125
+  }
+  {
+    type: mindustry.entities.abilities.StatusFieldAbility
+    activeEffect: {
+      type: ParticleEffect
+      lifetime: 25
+      layer: 59
+      length: 0
+      sizeFrom: 12
+      sizeTo: 0
+      particles: 1
+      colorFrom: FF875BFF
+      colorTo: FF875BFF
+      region: particle
+    }
+    effect: {
+      name: militarian-buff
+      localizedName: Militarian Buff
+      speedMultiplier: 1.1
+      damageMultiplier: 1.37
+      reloadMultiplier: 1.15
+      effect: {
+        type: ParticleEffect
+        lifetime: 25
+        length: 0
+        sizeFrom: 4
+        sizeTo: 0
+        particles: 1
+        colorFrom: FF875BFF
+        colorTo: FF875BFF
+      }
+    }
+    range: 165
+    reload: 264
+    duration: 160
+  }
+  {
+    type: EnergyFieldAbility
+    statusDuration: 100
+    status: melting
+    color: FF875BFF
+    maxTargets: 30
+    damage: 55
+    layer: 60
+    healPercent: 0
+    range: 165
+    sectors: 4
+    rotateSpeed: 3
+    hitBuildings: true
+    sectorRad: 0.14
+    effectRadius: 9
+    reload: 80
+  }
+  {
+    type: MoveLightningAbility
+    minSpeed: -1
+    maxSpeed: 0
+    damage: 0
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 46
+      sizeTo: 46
+      length: 0.001
+      lifetime: 15
+      lightColor: FF875BFF
+      region: exogenesis-warhammar-flames
+      colorFrom: FF875BFF
+      colorTo: FF875B05
+      lightOpacity: 0.5
+    }
+  }
+]

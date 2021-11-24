@@ -1,0 +1,113 @@
+type: LaserTurret
+localizedName: Vesuvius
+description: [red]A large super weapon that was used by the Solrans. Uses extreme amounts of heat and energy to create beams of superheated plasma that can vaporize almost anything in its way. Uses large amounts of power and a special coolant
+details: Burn them down to there last atoms.
+size: 12
+health: 8789000
+reloadTime: 480
+range: 430
+shots: 1
+hasLiquids: true
+liquidCapacity: 1000
+targetAir: true
+targetGround: true
+shootCone: 40
+spread: 4
+heatColor: FFFFFF
+powerUse: 33
+coolantMultiplier: 0.8
+update: true
+hasPower: true
+shootEffect: {
+  type: WaveEffect
+  lifetime: 60
+  sizeFrom: 0
+  sizeTo: 60
+  strokeFrom: 3
+  strokeTo: 0
+  colorFrom: FF5845FF
+  colorTo: FFC1BBFF
+}
+shootShake: 4
+firingMoveFract: 0.5
+shootDuration: 390
+shootSound: beam
+recoilAmount: 9
+restitution: 0.04
+rotateSpeed: 1.5
+shootType: {
+  type: ContinuousLaserBulletType
+  colors: [
+    DE4136AA
+    DE4136AA
+    FF5845FF
+    FFFFFFF
+  ]
+  damage: 7000
+  width: 13
+  length: 430
+  status: {
+    name: solar-flare
+    localizedName: Solar Flare
+    description: The heat of the suns surface.
+    reloadMultiplier: 0.5
+    speedMultiplier: 0.7
+    effectChance: 0.5
+    damage: 8.5
+    transitionDamage: 66
+    opposites: [
+      freezing
+    ]
+    affinities: [
+      tarred
+      melting
+    ]
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      offset: 30
+      sizeFrom: 4
+      sizeTo: 0
+      length: 60
+      lifetime: 20
+      colorFrom: FFC1BBFF
+      colorTo: DE4136FF
+      cone: 360
+    }
+  }
+  hitEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 8
+    lifetime: 25
+    length: 45
+    cone: -360
+    lenFrom: 5
+    lenTo: 0
+    colorFrom: FF5845FF
+    colorTo: FFC1BBFF
+  }
+  drawSize: 660
+  incendChance: 10
+  incendSpread: 7
+  incendAmount: 4
+}
+consumes: {
+  liquid: {
+    liquid: osmilium-liquid
+    update: true
+    amount: 0.6
+  }
+}
+requirements: [
+  silicon/700
+  jupiteium/1200
+  titanium/850
+  copper/3400
+  surge-alloy/800
+  primal-red/1560
+  xanium/1750
+  osmium/2000
+]
+category: turret
+research: bulwark-core

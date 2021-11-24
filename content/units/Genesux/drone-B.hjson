@@ -1,0 +1,81 @@
+localizedName: Bomber Drone
+type: flying
+description: [cyan]A small bomber drone thats spawned from the kentaurus, it has low heath and it is pretty fast and it can drop powerful neutrino bombs, that can cause some havoc if not delt with
+lowAltitude: false
+speed: 2.0
+accel: 0.1
+drag: 0.02
+flying: true
+rotateShooting: false
+circleTarget: true
+health: 100
+hitSize: 8
+armor: 1
+itemCapacity: 0
+engineOffset: 6
+range: 100
+targetAir: false
+commandLimit: 8
+faceTarget: true
+weapons: [
+  {
+    name: drone-weapon
+    shootCone: 180
+    mirror: false
+    top: true
+    ignoreRotation: true
+    x: 0
+    y: 0
+    shootY: 0
+    reload: 38
+    minShootVelocity: 0.01
+    recoil: 0.5
+    shootSound: plasmadrop
+    bullet: {
+      hittable: false
+      despawnEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      type: BasicBulletType
+      damage: 10
+      speed: 0.001
+      width: 10
+      height: 10
+      spin: 3
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      shrinkY: 0.1
+      shrinkX: 0.1
+      collidesAir: false
+      keepVelocity: false
+      sprite: large-bomb
+      maxRange: 100
+      splashDamageRadius: 68
+      splashDamage: 36
+      lifetime: 20
+    }
+  }
+]

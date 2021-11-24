@@ -1,0 +1,10 @@
+type: Floor
+localizedName: Radioactive Water
+speedMultiplier: 0.5
+variants: 0
+statusDuration: 60
+isLiquid: true
+albedo: 0.5
+status: corroded
+cacheLayer: water
+liquidDrop: water

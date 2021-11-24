@@ -1,0 +1,76 @@
+localizedName: Hex
+controller: DefenderAI
+type: payload
+description: [green]A massive air unit dedicated to protecting and assisting. Equipped with a powerful shield an energy field ability that can debuff, heal units and structures and can deal damage to nearby enemies units and structures.
+singleTarget: true
+drawShields: false
+fallSpeed: 0.006
+research: {
+  parent: oct
+  requirements: [
+    graphite/1220
+    surge-alloy/1000
+    plastanium/940
+    phase-fabric/850
+    copper/1240
+    lead/1240
+    silicon/1300
+  ]
+}
+lowAltitude: true
+ammoCapacity: 3000
+ammoResupplyAmount: 40
+rotateShooting: false
+lightRadius: 200
+rotateSpeed: 1.3
+crashDamageMultiplier: 18
+payloadCapacity: 6484
+mineSpeed: 5.3
+buildSpeed: 8.4
+mineTier: 5
+itemCapacity: 500
+speed: 0.84
+accel: 0.4
+drag: 0.018
+faceTarget: true
+flying: true
+health: 104000
+hitSize: 85
+armor: 17
+engineOffset: 57
+engineSize: 6
+targetAir: true
+commandLimit: 10
+immunities: [
+  sapped
+  wet
+  tarred
+  slow
+  melting
+  burning
+]
+abilities: [
+  {
+    type: EnergyFieldAbility
+    statusDuration: 300
+    status: electrified
+    color: 98ffa9ff
+    maxTargets: 30
+    damage: 55
+    healPercent: 10
+    range: 165
+    sectors: 4
+    rotateSpeed: 3
+    hitBuildings: true
+    sectorRad: 0.64
+    effectRadius: 10
+    reload: 100
+  }
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 160
+    regen: 10
+    max: 30000
+    cooldown: 550
+  }
+]

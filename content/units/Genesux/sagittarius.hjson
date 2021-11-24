@@ -1,0 +1,1030 @@
+localizedName: Sagittarius
+description: [blue]A gaint mechanical god from another world. Charges up a large blackhole that apon impact deals devastating damage to surrounding units or structures wiping out nearly everything. Has powerful gunner that shoot three bullets and has smaller energy gunners that rapidly fire lasers. Uses a powerful shield.
+research: genesis-core
+details: A mechanical interdimensional deity that hailed from a chaotic dimension, It came through this would along with others like it long ago and went on a rampage through out the galaxy, before its rampage was suddenly halted by an equally powerful force. and floating out across space in a dormant state it then crashed landed on the planet of the Genesuxian and remind dormant for millenias before it was reawaken by a powerful blast of dark energy.
+singleTarget: true
+groundLayer: 75
+lightRadius: 350
+type: legs
+speed: 0.26
+canDrown: false
+hitSize: 94
+health: 4397600
+armor: 144
+drag: 0.2
+range: 500
+maxRange: 500
+flying: false
+targetAir: true
+rotateSpeed: 0.6
+flipBackLegs: true
+legGroupSize: 3
+legPairOffset: 3
+maxStretch: 58
+legExtension: -25
+legCount: 8
+legMoveSpace: 0.8
+legLength: 124
+legBaseOffset: 37
+legTrns: 1
+landShake: 3.4
+legSpeed: 0.17
+rippleScale: 10.5
+legSplashDamage: 886
+legSplashRange: 88
+visualElevation: 2
+allowLegStep: true
+hovering: true
+immunities: [
+  burning
+  wet
+  slow
+  sapped
+  shocked
+  freezing
+  corroded
+  tarred
+  muddy
+  spore-slowed
+  blasted
+  disarmed
+  electrified
+  melting
+  slow
+]
+weapons: [
+  {
+    name: sagittarius-energy-gunner
+    reload: 10
+    x: 20
+    y: 26
+    mirror: true
+    alternate: true
+    inaccuracy: 6
+    shootY: 8
+    shots: 1
+    recoil: 2
+    shake: 1
+    rotate: true
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 35
+        sizeFrom: 0
+        sizeTo: 7
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+      type: LaserBulletType
+      length: 300
+      width: 25
+      damage: 500
+      lightningSpacing: 28
+      lightningLength: 4
+      lightningDelay: 1.1
+      lightningLengthRand: 8
+      lightningDamage: 140
+      lightningAngleRand: 60
+      lightColor: A9D8FFFF
+      lightningColor: 66B1FFFF
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 15
+        lifetime: 20
+        offset: 50
+        length: 55
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      colors: [
+        66B1FFFF
+        A9D8FFFF
+        FFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+  {
+    name: sagittarius-energy-gunner
+    reload: 10
+    x: 27
+    y: -26
+    alternate: true
+    mirror: true
+    inaccuracy: 6
+    shootY: 8
+    recoil: 2
+    shots: 1
+    shake: 1
+    rotate: true
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 35
+        sizeFrom: 0
+        sizeTo: 7
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+      type: LaserBulletType
+      length: 350
+      width: 25
+      damage: 500
+      lightningSpacing: 28
+      lightningLength: 4
+      lightningDelay: 1.1
+      lightningLengthRand: 8
+      lightningDamage: 140
+      lightningAngleRand: 60
+      lightColor: A9D8FFFF
+      lightningColor: 66B1FFFF
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 15
+        lifetime: 20
+        offset: 50
+        length: 55
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      colors: [
+        66B1FFFF
+        A9D8FFFF
+        FFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+  {
+    name: sagittarius-heavy-gunner
+    shootCone: 15
+    mirror: true
+    alternate: false
+    shots: 3
+    shotDelay: 3
+    inaccuracy: 3
+    x: 55
+    y: 13
+    reload: 35
+    rotate: true
+    recoil: 3
+    shootY: 8
+    rotateSpeed: 1.6
+    shootSound: shootBig
+    bullet: {
+      type: basicBulletType
+      speed: 4.6
+      damage: 1200
+      status: freezing
+      shootEffect: shootBig
+      trailChance: 0.5
+      trailColor: 66B1FFFF
+      hitEffect: {
+        type: ExplosionEffect
+        waveColor: 66B1FFFF
+        sparkColor: 66B1FFFF
+        smokes: 16
+        smokeSize: 4.7
+        smokeSizeBase: 1.6
+        smokeRad: 66
+        waveLife: 20
+        waveStroke: 4.1
+        waveRad: 65
+        waveRadBase: 2.0
+        sparkLen: 7
+        sparks: 12
+      }
+      despawnEffect: {
+        type: ExplosionEffect
+        waveColor: 66B1FFFF
+        sparkColor: 66B1FFFF
+        smokes: 16
+        smokeSize: 4.7
+        smokeSizeBase: 1.6
+        smokeRad: 66
+        waveLife: 20
+        waveStroke: 4.1
+        waveRad: 65
+        waveRadBase: 2.0
+        sparkLen: 7
+        sparks: 12
+      }
+      width: 18
+      height: 22
+      lifetime: 109
+      knockback: 3
+      backColor: 66B1FFFF
+      frontColor: A9D8FFFF
+    }
+  }
+  {
+    name: sagittarius-heavy-gunner
+    shootCone: 15
+    mirror: true
+    alternate: false
+    shots: 3
+    shotDelay: 3
+    inaccuracy: 3
+    x: 63
+    y: -38
+    reload: 35
+    recoil: 3
+    rotate: true
+    shootY: 8
+    rotateSpeed: 1.6
+    shootSound: shootBig
+    bullet: {
+      type: basicBulletType
+      speed: 4.6
+      damage: 1500
+      status: freezing
+      shootEffect: shootBig
+      trailChance: 0.5
+      trailColor: 66B1FFFF
+      hitEffect: {
+        type: ExplosionEffect
+        waveColor: 66B1FFFF
+        sparkColor: 66B1FFFF
+        smokes: 16
+        smokeSize: 4.7
+        smokeSizeBase: 1.6
+        smokeRad: 66
+        waveLife: 20
+        waveStroke: 4.1
+        waveRad: 65
+        waveRadBase: 2.0
+        sparkLen: 7
+        sparks: 12
+      }
+      despawnEffect: {
+        type: ExplosionEffect
+        waveColor: 66B1FFFF
+        sparkColor: 66B1FFFF
+        smokes: 16
+        smokeSize: 4.7
+        smokeSizeBase: 1.6
+        smokeRad: 66
+        waveLife: 20
+        waveStroke: 4.1
+        waveRad: 65
+        waveRadBase: 2.0
+        sparkLen: 7
+        sparks: 12
+      }
+      width: 18
+      height: 22
+      lifetime: 108
+      knockback: 3
+      backColor: 66B1FFFF
+      frontColor: A9D8FFFF
+    }
+  }
+  {
+    name: sagittarius-A-star
+    x: 0
+    y: 2
+    shootY: 58
+    ejectEffect: none
+    mirror: false
+    shots: 1
+    shootStatus: unmoving
+    shootStatusDuration: 160
+    reload: 1225
+    recoil: 0
+    firstShotDelay: 140
+    soundPitchMin: 1
+    soundPitchMax: 1
+    chargeSound: lasercharge
+    shootSound: laserblast
+    bullet: {
+      type: basicBulletType
+      sprite: circle-bullet
+      lifetime: 170
+      damage: 88020
+      hitSize: 46
+      width: 68
+      height: 68
+      lightRadius: 80
+      spin: 30
+      statusDuration: 200
+      status: {
+        localizedName: Sagittarius
+        description: The power of a blackhole.
+        name: sagittarius-a
+        damage: 27.6
+        effect: {
+          type: ParticleEffect
+          line: true
+          particles: 4
+          lifetime: 13
+          length: 25
+          cone: -360
+          interp: swing
+          lenFrom: 3
+          lenTo: 0
+          colorFrom: FFFFFF
+          colorTo: A9D8FFFF
+        }
+        effectChance: 0.5
+      }
+      trailColor: 66B1FFFF
+      trailLength: 30
+      trailInterval: 12
+      trailWidth: 8
+      trailParam: 9
+      trailEffect: none
+      shootEffect: {
+        lifetime: 140
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 70
+            sizeTo: 0
+            length: 0
+            region: exogenesis-square
+            spin: 12
+            lifetime: 105
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFAA
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 70
+            sizeTo: 0
+            length: 0
+            region: exogenesis-square
+            spin: -12
+            lifetime: 105
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFAA
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 50
+            length: 0
+            lifetime: 140
+            layer: 109
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 30
+            length: 0
+            lifetime: 140
+            colorFrom: 000000FF
+            colorTo: 000000FF
+          }
+        ]
+      }
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 80
+            length: 200
+            baseLength: 30
+            lifetime: 290
+            layer: 106
+            interp: swing
+            sizeFrom: 24
+            sizeTo: 13
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -3.3
+            region: exogenesis-blackhole-disk-last
+            interp: swing
+            sizeFrom: 165
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -5
+            region: exogenesis-blackhole-disk-secondary
+            interp: swing
+            sizeFrom: 155
+            sizeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -8
+            region: exogenesis-blackhole-disk-main
+            interp: swing
+            sizeFrom: 130
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 290
+            layer: 106
+            spin: 2.3
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 250
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 285
+            layer: 106
+            spin: 3
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 220
+            sizeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: 6
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 190
+            sizeTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: A9D8FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 60
+            length: 180
+            lifetime: 290
+            interp: pow10Out
+            layer: 108
+            cone: 360
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+            sizeFrom: 7
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 60
+            length: 100
+            baseLength: 20
+            lifetime: 80
+            layer: 106
+            sizeFrom: 36
+            sizeTo: 10
+            colorFrom: 66B1FFFF
+            colorTo: A9D8FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            length: 200
+            lifetime: 50
+            cone: 360
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FF10
+            sizeFrom: 14
+            sizeTo: 5
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            length: 150
+            lifetime: 80
+            cone: 360
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+            sizeFrom: 7
+            sizeTo: 1
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 90
+            sizeTo: 0
+            length: 0
+            interp: swing
+            lifetime: 280
+            layer: 109
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 75
+            sizeTo: 0
+            interp: swing
+            length: 0
+            lifetime: 280
+            colorFrom: 000000FF
+            colorTo: 000000FF
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 80
+            length: 200
+            baseLength: 30
+            lifetime: 290
+            layer: 106
+            interp: swing
+            sizeFrom: 24
+            sizeTo: 13
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -3.3
+            region: exogenesis-blackhole-disk-last
+            interp: swing
+            sizeFrom: 165
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -5
+            region: exogenesis-blackhole-disk-secondary
+            interp: swing
+            sizeFrom: 155
+            sizeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: -8
+            region: exogenesis-blackhole-disk-main
+            interp: swing
+            sizeFrom: 130
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 290
+            layer: 106
+            spin: 2.3
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 250
+            sizeTo: 0
+            colorFrom: 6A97D9FF
+            colorTo: 6A97D910
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 285
+            layer: 106
+            spin: 3
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 220
+            sizeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            lifetime: 280
+            layer: 106
+            spin: 6
+            region: exogenesis-blackhole-pulse
+            interp: swing
+            sizeFrom: 190
+            sizeTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: A9D8FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 60
+            length: 180
+            lifetime: 290
+            interp: pow10Out
+            layer: 108
+            cone: 360
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FF10
+            sizeFrom: 7
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 60
+            length: 100
+            baseLength: 20
+            lifetime: 80
+            layer: 106
+            sizeFrom: 36
+            sizeTo: 10
+            colorFrom: 66B1FFFF
+            colorTo: A9D8FF10
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            length: 200
+            lifetime: 50
+            cone: 360
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FF10
+            sizeFrom: 14
+            sizeTo: 5
+          }
+          {
+            type: ParticleEffect
+            particles: 40
+            length: 150
+            lifetime: 80
+            cone: 360
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+            sizeFrom: 7
+            sizeTo: 1
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 90
+            sizeTo: 0
+            length: 0
+            interp: swing
+            lifetime: 280
+            layer: 109
+            colorFrom: 66B1FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 75
+            sizeTo: 0
+            interp: swing
+            length: 0
+            lifetime: 280
+            colorFrom: 000000FF
+            colorTo: 000000FF
+          }
+        ]
+      }
+      speed: 6
+      shrinkX: 0
+      shrinkY: 0
+      splashDamageRadius: 170
+      splashDamage: 160000
+      lightColor: 66B1FFFF
+      hitSound: coolplasmaboom
+      frontColor: 000000FF
+      backColor: 66B1FFFF
+      hittable: false
+      reflectable: false
+      absorbable: false
+      homingPower: 0.00505
+      homingRange: 380
+      fragBullets: 9
+      fragBullet: {
+        speed: 20
+        damage: 0
+        collidesGround: false
+        collidesAir: false
+        collides: false
+        type: BasicBulletType
+        lifetime: 6
+        lightOpacity: 0
+        shootEffect: none
+        height: 0.1
+        width: 0.1
+        hitEffect: none
+        despawnEffect: none
+        fragBullets: 1
+        fragCone: 1
+        fragBullet: {
+          type: basicBulletType
+          sprite: circle-bullet
+          lifetime: 80
+          damage: 23020
+          width: 28
+          height: 28
+          lightRadius: 50
+          spin: 30
+          statusDuration: 300
+          status: freezing
+          trailColor: 66B1FFFF
+          trailLength: 15
+          trailInterval: 12
+          trailWidth: 5
+          trailParam: 9
+          hitEffect: {
+            type: multiEffect
+            effects: [
+              {
+                type: ParticleEffect
+                particles: 1
+                sizeFrom: 40
+                sizeTo: 0
+                length: 0
+                interp: swing
+                lifetime: 150
+                layer: 109
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FFFF
+              }
+              {
+                type: ParticleEffect
+                particles: 1
+                sizeFrom: 27
+                sizeTo: 0
+                length: 0
+                lifetime: 150
+                interp: swing
+                colorFrom: 000000FF
+                colorTo: 000000FF
+              }
+              {
+                type: ParticleEffect
+                line: true
+                particles: 15
+                lifetime: 60
+                offset: 30
+                length: 100
+                cone: -360
+                lenFrom: 7
+                lenTo: 0
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FFFF
+              }
+              {
+                type: ParticleEffect
+                lightOpacity: 0
+                particles: 40
+                length: 160
+                baseLength: 20
+                lifetime: 80
+                layer: 106
+                interp: swing
+                sizeFrom: 24
+                sizeTo: 13
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FF10
+              }
+              {
+                type: ParticleEffect
+                particles: 30
+                length: 120
+                lifetime: 50
+                interp: pow10Out
+                layer: 108
+                cone: 360
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FF10
+                sizeFrom: 7
+                sizeTo: 0
+              }
+              {
+                type: ParticleEffect
+                particles: 40
+                length: 100
+                lifetime: 50
+                cone: 360
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FF10
+                sizeFrom: 10
+                sizeTo: 2
+              }
+              {
+                type: ParticleEffect
+                particles: 20
+                length: 150
+                lifetime: 80
+                cone: 360
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FFFF
+                sizeFrom: 7
+                sizeTo: 1
+              }
+            ]
+          }
+          despawnEffect: {
+            type: multiEffect
+            effects: [
+              {
+                type: ParticleEffect
+                particles: 1
+                sizeFrom: 40
+                sizeTo: 0
+                length: 0
+                interp: swing
+                lifetime: 150
+                layer: 109
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FFFF
+              }
+              {
+                type: ParticleEffect
+                particles: 1
+                sizeFrom: 27
+                sizeTo: 0
+                length: 0
+                lifetime: 150
+                interp: swing
+                colorFrom: 000000FF
+                colorTo: 000000FF
+              }
+              {
+                type: ParticleEffect
+                line: true
+                particles: 15
+                lifetime: 60
+                offset: 30
+                length: 100
+                cone: -360
+                lenFrom: 7
+                lenTo: 0
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FFFF
+              }
+              {
+                type: ParticleEffect
+                lightOpacity: 0
+                particles: 40
+                length: 160
+                baseLength: 20
+                lifetime: 80
+                layer: 106
+                interp: swing
+                sizeFrom: 24
+                sizeTo: 13
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FF10
+              }
+              {
+                type: ParticleEffect
+                particles: 30
+                length: 120
+                lifetime: 50
+                interp: pow10Out
+                layer: 108
+                cone: 360
+                colorFrom: 66B1FFFF
+                colorTo: 66B1FF10
+                sizeFrom: 7
+                sizeTo: 0
+              }
+              {
+                type: ParticleEffect
+                particles: 40
+                length: 100
+                lifetime: 50
+                cone: 360
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FF10
+                sizeFrom: 10
+                sizeTo: 2
+              }
+              {
+                type: ParticleEffect
+                particles: 20
+                length: 150
+                lifetime: 80
+                cone: 360
+                colorFrom: A9D8FFFF
+                colorTo: 66B1FFFF
+                sizeFrom: 7
+                sizeTo: 1
+              }
+            ]
+          }
+          speed: 6
+          shrinkX: 0
+          shrinkY: 0
+          splashDamageRadius: 100
+          splashDamage: 4600
+          lightColor: 66B1FFFF
+          hitSound: coolplasmaboom
+          frontColor: 000000FF
+          backColor: 66B1FFFF
+          absorbable: false
+          homingPower: 0.00885
+          homingRange: 380
+        }
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 220
+    regen: 8
+    max: 58000
+    cooldown: 460
+  }
+  {
+    type: MoveLightningAbility
+    minSpeed: -1
+    maxSpeed: 0
+    damage: 0
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 92
+      sizeTo: 92
+      length: 0.01
+      lifetime: 20
+      region: exogenesis-sagittarius-glow
+      colorFrom: A9D8FFFF
+      colorTo: A9D8FF00
+      lightOpacity: 0
+      layer: 105
+    }
+  }
+]

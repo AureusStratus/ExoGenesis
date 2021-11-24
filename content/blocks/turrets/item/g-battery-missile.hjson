@@ -1,0 +1,99 @@
+type: ItemTurret
+localizedName: Battery missile
+description: [#73FFAEFF]Rapidly fires a swarm of missiles. Uses ammo incredibly fast
+details: Your gonna need alot of ammo for this
+health: 1200
+size: 3
+reloadTime: 17
+range: 265
+recoilAmount: 2
+shootShake: 4
+ammoUseEffect: none
+inaccuracy: 10
+shots: 7
+burstSpacing: 4
+spread: 5
+xRand: 8
+rotateSpeed: 6
+shootSound: missile
+ammoTypes: {
+  blast-compound: {
+    type: MissileBulletType
+    speed: 5
+    damage: 48
+    status: blasted
+    statusDuration: 70
+    width: 7
+    height: 18
+    hitEffect: blastExplosion
+    shootEffect: shootBig
+    smokeEffect: blastExplosion
+    lifetime: 60
+    pierce: false
+    hitSize: 4
+    homingPower: 0.0667
+    homingRange: 250
+    weaveScale: 8
+    weaveMag: 2
+    incendAmount: 8
+    incendSpread: 4
+    incendChance: 1
+  }
+  plastanium: {
+    type: MissileBulletType
+    speed: 5
+    damage: 50
+    width: 7
+    height: 18
+    shootEffect: shootBig
+    smokeEffect: none
+    hitEffect: plasticExplosion
+    despawnEffect: plasticExplosion
+    pierce: false
+    lifetime: 60
+    homingPower: 0.0667
+    homingRange: 250
+    frontColor: 9CB664FF
+    backColor: EDF2A8FF
+    trailColor: 9CB664FF
+    weaveScale: 8
+    weaveMag: 2
+    splashDamageRadius: 80
+    splashDamage: 10
+  }
+  surge-alloy: {
+    type: MissileBulletType
+    speed: 5
+    damage: 70
+    width: 7
+    height: 18
+    shootEffect: shootBig
+    hitEffect: flakExplosion
+    smokeEffect: none
+    pierce: false
+    lifetime: 60
+    homingPower: 0.0667
+    homingRange: 250
+    frontColor: F3E979FF
+    backColor: ECD36FFF
+    trailColor: ECD36FFF
+    weaveScale: 8
+    weaveMag: 2
+    splashDamageRadius: 40
+    splashDamage: 4
+    lightning: 7
+    lightningDamage: 6
+    lightningLength: 6
+    lightningCone: 360
+    lightningLengthRand: 11
+  }
+}
+requirements: [
+  graphite/450
+  silicon/600
+  valvanite/700
+  titanium/500
+  plastanium/600
+]
+category: turret
+research: swarmer

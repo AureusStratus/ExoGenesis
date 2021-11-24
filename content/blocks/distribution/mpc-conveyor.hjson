@@ -1,0 +1,37 @@
+localizedName: MPC
+description: M.P.C stands for Mass production Conveyor. Can only carry 100 items at a time, but it is faster than a plastanium conveyor. \n[red]Warning do not directly connect to plastanium conveyor it will not load up to 100 stacks.
+type: StackConveyor
+loadEffect: {
+  type: ParticleEffect
+  line: true
+  particles: 7
+  lifetime: 15
+  length: 25
+  cone: -360
+  lenFrom: 5
+  lenTo: 0
+  colorFrom: A9D8FFFF
+  colorTo: 66B1FFFF
+}
+unloadEffect: {
+  type: ParticleEffect
+  line: true
+  particles: 7
+  lifetime: 15
+  length: 25
+  cone: -360
+  lenFrom: 5
+  lenTo: 0
+  colorFrom: A9D8FFFF
+  colorTo: 66B1FFFF
+}
+health: 300
+speed: 0.10
+itemCapacity: 100
+requirements: [
+  surge-alloy/3
+  silicon/10
+  omega-blue/5
+]
+research: plastanium-conveyor
+category: distribution

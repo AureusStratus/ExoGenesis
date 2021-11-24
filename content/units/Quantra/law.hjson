@@ -1,0 +1,61 @@
+name: Law
+description: [acid]The law is a small and durable mech unit that uses gamma bullets to deal damage to units and structures, especially structures
+type: mech
+armor: 5
+research: rule
+hitSize: 14
+commandLimit: 6
+speed: 0.76
+buildSpeed: 3
+flying: false
+health: 1390
+range: 180
+immunities: [
+  corroded
+]
+weapons: [
+  {
+    name: law-weapon
+    x: 8
+    y: 0
+    reload: 25
+    alternate: true
+    top: false
+    shots: 2
+    shotDelay: 5
+    shootSound: shoot
+    ejectEffect: casing2
+    bullet: {
+      type: basicBulletType
+      status: corroded
+      buildingDamageMultiplier: 0.8
+      damage: 28
+      height: 10
+      width: 12
+      speed: 5
+      lifetime: 45
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 10
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 10
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      backColor: C2FF70FF
+      frontColor: FFFFFFFF
+    }
+  }
+]

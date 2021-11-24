@@ -1,0 +1,18 @@
+type: Wall
+localizedName: Sigma wall
+buildCostMultiplier: 0.1
+description: An immensely dense wall that has a lot of health but takes a lot more materials to build
+health: 6400
+size: 1
+requirements: [
+  {
+    item: primal-red
+    amount: 300
+  }
+  {
+    item: osmium
+    amount: 150
+  }
+]
+category: defense
+research: surge-wall

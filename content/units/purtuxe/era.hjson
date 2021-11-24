@@ -1,0 +1,283 @@
+localizedName: Era
+description: [purple]The upgrade to the eon, it is equipped with a railgun similar to the omuras, it is also equipped with anomaly blasters and two gunners to help it in combat, it can also generate a small anomaly energy sphere that slowly implode in to a pulse that damage enemies
+research: {
+  parent: eon
+  requirements: [
+    vurtimite/820
+    surge-alloy/700
+    plastanium/740
+    lead/940
+    silicon/1000
+  ]
+}
+type: legs
+speed: 0.37
+groundLayer: 75
+hitSize: 43
+rotateSpeed: 1.5
+health: 20000
+buildSpeed: 3
+mineTier: 6
+mineSpeed: 7.6
+armor: 28
+commandLimit: 9
+legCount: 8
+legMoveSpace: 0.8
+legPairOffset: 3
+legLength: 75
+legLengthScl: 0.93
+legExtension: -12
+legBaseOffset: 14
+landShake: 1.5
+rippleScale: 3
+legSpeed: 0.1
+legSplashDamage: 42
+legSplashRange: 30
+hovering: true
+allowLegStep: true
+visualElevation: 0.75
+weapons: [
+  {
+    name: eon-blaster
+    top: false
+    shootY: 8
+    shots: 6
+    shootCone: 28
+    inaccuracy: 10
+    reload: 78
+    x: 20
+    y: -3
+    alternate: true
+    ejectEffect: none
+    recoil: 4
+    shootSound: shotgun
+    bullet: {
+      sprite: exogenesis-plasma
+      damage: 168
+      weaveMag: 4
+      weaveScale: 2
+      trailColor: A170F4FF
+      trailRotation: true
+      trailLength: 16
+      trailWidth: 5
+      trailParam: 5
+      trailChance: 0.3
+      trailEffect: {
+        type: multiEffect
+        lifetime: 120
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 3.5
+            sizeTo: 0
+            length: 5
+            baseLength: 5
+            lifetime: 30
+            region: exogenesis-rune2
+            colorFrom: A170F4FF
+            colorTo: 774ACFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 3.4
+            sizeTo: 0
+            length: 5
+            baseLength: 5
+            lifetime: 30
+            region: exogenesis-rune3
+            colorFrom: A170F4FF
+            colorTo: 774ACFFF
+          }
+          {
+            particles: 1
+            sizeFrom: 3.3
+            sizeTo: 0
+            length: 5
+            baseLength: 5
+            lifetime: 30
+            region: exogenesis-rune4
+            colorFrom: A170F4FF
+            colorTo: 774ACFFF
+          }
+          {
+            particles: 1
+            sizeFrom: 3.2
+            sizeTo: 0
+            length: 5
+            baseLength: 5
+            lifetime: 30
+            region: exogenesis-rune5
+            colorFrom: A170F4FF
+            colorTo: 774ACFFF
+          }
+          {
+            particles: 1
+            sizeFrom: 3.1
+            sizeTo: 0
+            length: 5
+            baseLength: 5
+            lifetime: 40
+            region: exogenesis-rune6
+            colorFrom: A170F4FF
+            colorTo: 774ACFFF
+          }
+        ]
+      }
+      speed: 5
+      height: 12
+      width: 12
+      shrinkY: 0
+      shrinkX: 0
+      lifetime: 57
+      homingRange: 66
+      homingDelay: 8
+      homingPower: 0.0678
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 10
+        sizeFrom: 0
+        sizeTo: 20
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 10
+        sizeFrom: 0
+        sizeTo: 20
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      backColor: A170F4FF
+      frontColor: FFFFFFF
+    }
+  }
+  {
+    name: sap-art
+    shootCone: 25
+    mirror: true
+    alternate: true
+    shots: 3
+    shootY: 9
+    inaccuracy: 4
+    x: 13
+    y: -7
+    shotDelay: 4
+    reload: 15
+    recoil: 3
+    shootSound: shootBig
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      damage: 98
+      backColor: 774ACFFF
+      frontColor: A170F4FF
+      shootEffect: shootBig
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 10
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 10
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      width: 11
+      height: 11
+      lifetime: 48
+      knockback: 1
+    }
+  }
+  {
+    name: point-gun
+    x: 0
+    y: -11
+    shootY: 13.5
+    ejectEffect: none
+    rotateSpeed: 3.5
+    rotate: true
+    alternate: false
+    mirror: true
+    shots: 1
+    reload: 145
+    recoil: 4
+    shake: 0.1
+    shootCone: 20
+    shootSound: beam
+    chargeSound: lasercharge2
+    continuous: true
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 37
+      width: 5.4
+      length: 250
+      drawSize: 170
+      lifetime: 210
+      shake: 0.5
+      despawnEffect: smokeCloud
+      smokeEffect: smokeCloud
+      status: sapped
+      largeHit: false
+      statusDuration: 50
+      incendChance: 0
+      colors: [
+        774ACFAA
+        774ACFFF
+        A170F4FF
+        FFFFFF
+      ]
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        length: 35
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 12
+        offset: 15
+        lifetime: 13
+        length: 35
+        cone: -30
+        lenFrom: 10
+        lenTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+    }
+  }
+]

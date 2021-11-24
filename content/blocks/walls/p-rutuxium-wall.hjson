@@ -1,0 +1,19 @@
+type: MendProjector
+localizedName: Rutuxium Wall
+description: [purple]An advanced wall with the capability to heal its self.
+health: 4000
+size: 1
+hasPower: false
+healPercent: 0.5
+range: 1
+phaseBoost: 0
+reload: 25
+phaseRangeBoost: 0
+baseColor: A774EAFF
+phaseColor: A774EAFF
+category: defense
+research: surge-wall
+requirements: [
+  rutuxium/100
+  vurtimite/50
+]

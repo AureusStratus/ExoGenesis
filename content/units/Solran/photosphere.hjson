@@ -1,0 +1,175 @@
+name: Photosphere
+description: [red]A durable unit that rapidly fires projectiles at enemies. Possess plasma flamethrowers.
+research: {
+  parent: corona
+  requirements: [
+    volcanite/300
+    lead/340
+    silicon/400
+  ]
+}
+type: mech
+armor: 12
+hitSize: 19
+mechFrontSway: 0.55
+commandLimit: 6
+speed: 0.36
+flying: false
+health: 1300
+range: 120
+immunities: [
+  burning
+  melting
+]
+weapons: [
+  {
+    name: photosphere-cannon
+    x: 12.8
+    y: 1.5
+    reload: 15
+    alternate: true
+    mirror: true
+    top: false
+    recoil: 2
+    shots: 1
+    shootY: 8
+    shootSound: shootBig
+    ejectEffect: casing1
+    bullet: {
+      type: basicBulletType
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 8
+            lifetime: 15
+            offset: 30
+            length: 40
+            lightColor: FF5845FF
+            strokeFrom: 4
+            strokeTo: 0
+            lenFrom: 5
+            lenTo: 5
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 10
+            length: 20
+            baseLength: 10
+            lifetime: 20
+            sizeFrom: 6
+            sizeTo: 2
+            colorFrom: 787878
+            colorTo: 78787810
+          }
+        ]
+      }
+      shootEffect: shootBig2
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 8
+            lifetime: 15
+            offset: 30
+            length: 40
+            lightColor: FF5845FF
+            strokeFrom: 4
+            strokeTo: 0
+            lenFrom: 5
+            lenTo: 5
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 10
+            length: 20
+            baseLength: 10
+            lifetime: 20
+            sizeFrom: 6
+            sizeTo: 2
+            colorFrom: 787878
+            colorTo: 78787810
+          }
+        ]
+      }
+      pierce: true
+      pierceCap: 1
+      lifetime: 50
+      damage: 50
+      speed: 6
+      status: blasted
+      statusDuration: 100
+      width: 12
+      height: 16
+      backColor: FF5845FF
+      frontColor: FFC1BBFF
+    }
+  }
+  {
+    name: flamer
+    x: 7
+    y: -3
+    reload: 7
+    top: true
+    mirror: true
+    alternate: true
+    shootY: 3
+    shots: 2
+    recoil: 1.5
+    rotate: false
+    shotDelay: 4
+    inaccuracy: 7
+    shootSound: flame
+    shootCone: 18
+    bullet: {
+      type: BasicBulletType
+      collidesAir: true
+      speed: 5
+      damage: 4
+      width: 0.1
+      height: 0.1
+      shootEffect: {
+        type: ParticleEffect
+        particles: 30
+        sizeFrom: 5
+        sizeTo: 0
+        length: 80
+        lifetime: 25
+        interp: circleOut
+        colorFrom: FFC1BBFF
+        colorTo: FF5845FF
+        cone: 18
+      }
+      smokeEffect: none
+      lifetime: 12
+      despawnEffect: none
+      hittable: false
+      reflectable: false
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 60
+        interp: circleOut
+        length: 50
+        cone: -30
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: FF5845FF
+        colorTo: FF5845FF
+      }
+      pierce: true
+      incendAmount: 5
+    }
+  }
+]

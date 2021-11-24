@@ -1,0 +1,75 @@
+localizedName: Constellation
+description: [blue]The defender of the genesis core. Equipped with laser weapons and a shield to help it defend its core.
+type: legs
+speed: 1.2
+hitSize: 26
+health: 1160
+isCounted: false
+mineSpeed: 12
+buildSpeed: 5.6
+mineTier: 5
+itemCapacity: 110
+armor: 8
+faceTarget: true
+range: 180
+flying: false
+targetAir: true
+rotateSpeed: 3
+legTrns: 0.6
+legCount: 4
+legMoveSpace: 1.2
+legLength: 25
+visualElevation: 0.67
+allowLegStep: true
+hovering: true
+immunities: [
+  burning
+  melting
+  freezing
+]
+weapons: [
+  {
+    name: laserbolt
+    reload: 25
+    alternate: true
+    mirror: true
+    x: 6
+    y: -1.5
+    shootY: 7
+    recoil: 1.5
+    shake: 1
+    rotate: true
+    shootSound: laser
+    rotateSpeed: 10
+    shootCone: 45
+    bullet: {
+      type: LaserBulletType
+      length: 180
+      width: 20
+      damage: 60
+      status: freezing
+      statusDuration: 55
+      buildingDamageMultiplier: 0.1
+      hitColor: A9D8FFFF
+      shootEffect: lightningShoot
+      hitEffect: lightningShoot
+      colors: [
+        66B1FFFF
+        A9D8FFFF
+        FFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 32
+      sideWidth: 1
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 30
+    regen: 1
+    max: 400
+    cooldown: 60
+  }
+]

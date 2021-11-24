@@ -1,0 +1,57 @@
+localizedName: Anomalous Furnace
+description: [purple]Infuses melted materials with anomalous energy to create Rutuxium.
+type: GenericCrafter
+drawer: drawWeave
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 30
+craftTime: 120
+craftEffect: {
+  type: ParticleEffect
+  particles: 1
+  sizeFrom: 2
+  sizeTo: 30
+  length: 0
+  spin: 11
+  lightColor: 774ACFFF
+  lifetime: 35
+  layer: 109
+  region: exogenesis-runic-circle
+  colorFrom: 774ACFFF
+  colorTo: A170F400
+  cone: 360
+}
+updateEffect: none
+consumes: {
+  power: 2
+  items: {
+    items: [
+      thorium/10
+      vurtimite/5
+      xanium/8
+    ]
+  }
+}
+requirements: [
+  {
+    item: silicon
+    amount: 160
+  }
+  {
+    item: plastanium
+    amount: 190
+  }
+  {
+    item: metaglass
+    amount: 140
+  }
+  {
+    item: titanium
+    amount: 270
+  }
+]
+category: crafting
+research: alloy-smelter
+outputItem: rutuxium/3

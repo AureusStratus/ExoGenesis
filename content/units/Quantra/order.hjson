@@ -1,0 +1,82 @@
+name: Order
+description: [acid]The order is the upgrade to the law, and it can now shoot pulses of gamma energy that can peirce through one tile
+type: mech
+research: law
+armor: 8
+hitSize: 24
+mechFrontSway: 0.55
+commandLimit: 6
+buildSpeed: 3.6
+speed: 0.66
+flying: false
+health: 5900
+range: 120
+immunities: [
+  corroded
+]
+weapons: [
+  {
+    name: order-weapon
+    x: 11
+    y: 0
+    reload: 34
+    alternate: true
+    top: false
+    shootY: 6
+    recoil: 1
+    shots: 1
+    shootSound: laser
+    ejectEffect: none
+    bullet: {
+      type: basicBulletType
+      sprite: exogenesis-pulse
+      status: corroded
+      damage: 46
+      height: 21
+      width: 12
+      hitSize: 5
+      speed: 5
+      lifetime: 45
+      buildingDamageMultiplier: 0.9
+      pierceBuilding: true
+      pierceCap: 3
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 30
+        length: 25
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 30
+        length: 25
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      pierce: true
+      backColor: C2FF70FF
+      frontColor: FFFFFFFF
+    }
+  }
+]

@@ -1,0 +1,327 @@
+name: Redox
+description: [#73FFAEFF]A prototype unit created by the Quantra to aid in galactic war. Equipped with gamma plasma cannons that fire highly corrosive gamma plasma balls that can quickly bring down units, also has gamma bullet guns at the back aswell as four gamma bolters at the front. Able to boost over terrain and also heals allies.
+research: assembly
+outlineColor: 3F414EFF
+mechLegColor: 3F414EFF
+type: mech
+armor: 24
+lightRadius: 100
+lightColor: 73FFAEFF
+canBoost: true
+boostMultiplier: 1.5
+engineOffset: 12
+engineSize: 6
+rotateSpeed: 1.8
+canDrown: false
+mineSpeed: 9
+mineTier: 5
+buildSpeed: 3.8
+itemCapacity: 250
+hitSize: 36
+mechFrontSway: 1.6
+mechSideSway: 0.8
+commandLimit: 8
+mechStepParticles: true
+mechStepShake: 1
+singleTarget: true
+speed: 0.71
+health: 71000
+maxRange: 320
+range: 320
+immunities: [
+  corroded
+  sapped
+  slow
+]
+weapons: [
+  {
+    name: PT-redox-gamma-weapon
+    x: 23.94
+    y: 0.2
+    shootY: 16
+    ejectEffect: none
+    rotate: false
+    top: false
+    alternate: true
+    mirror: true
+    shots: 3
+    inaccuracy: 5
+    shotDelay: 5
+    reload: 85
+    recoil: 2
+    shake: 0.1
+    shootCone: 20
+    cooldownTime: 85
+    heatColor: FFFFFF
+    shootSound: plasmaboom
+    bullet: {
+      type: BasicBulletType
+      sprite: exogenesis-plasma
+      status: {
+        name: eroding
+        localizedName: Eroding
+        description: You are rapidly corroding away.
+        damage: 0.94
+        opposites: [
+          wet
+        ]
+        transitionDamage: 50
+        affinities: [
+          corroded
+          slow
+          blasted
+        ]
+        reloadMultiplier: 0.67
+        healthMultiplier: 0.6
+        speedMultiplier: 0.54
+        effectChance: 0.5
+        effect: {
+          type: ParticleEffect
+          particles: 1
+          length: 0
+          lifetime: 10
+          sizeFrom: 0.2
+          sizeTo: 2
+          colorFrom: C2FF70FF
+          colorTo: 739959FF
+        }
+      }
+      statusDuration: 300
+      damage: 880
+      splashDamage: 80
+      splashDamageRadius: 30
+      height: 20
+      buildingDamageMultiplier: 1.3
+      width: 20
+      speed: 6
+      lifetime: 80
+      trailInterval: 0
+      shrinkX: 0
+      lightColor: 73FFAEFF
+      shrinkY: 0
+      hitEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 60
+        lifetime: 46
+        interp: circleOut
+        cone: 360
+        colorFrom: 73FFAEFF
+        colorTo: 73FFAEFF
+        sizeFrom: 5
+        sizeTo: 0
+      }
+      despawnEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 60
+        lifetime: 46
+        interp: circleOut
+        cone: 360
+        colorFrom: 73FFAEFF
+        colorTo: 73FFAEFF
+        sizeFrom: 5
+        sizeTo: 0
+      }
+      shootEffect: shootBig
+      trailEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 6
+        baseLength: 6
+        lifetime: 25
+        interp: circleOut
+        cone: 360
+        offset: 3
+        colorFrom: 73FFAEFF
+        colorTo: 57D993AA
+        sizeFrom: 5
+        sizeTo: 0
+      }
+      pierce: false
+      absorbable: false
+      trailChance: 1
+      smokeEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 40
+        lifetime: 25
+        interp: circleOut
+        cone: 20
+        offset: 20
+        colorFrom: 73FFAEFF
+        colorTo: 73FFAEFF
+        sizeFrom: 4
+        sizeTo: 0
+      }
+      frontColor: FFFFFFFF
+      backColor: 73FFAEFF
+    }
+  }
+  {
+    name: gamma-bolter
+    shootCone: 15
+    alternate: true
+    mirror: true
+    x: 16
+    y: 5
+    reload: 10
+    recoil: 0.5
+    shootSound: sap
+    bullet: {
+      type: LaserBoltBulletType
+      status: corroded
+      lightColor: 73FFAEFF
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 15
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 15
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      smokeEffect: none
+      damage: 60
+      speed: 6
+      frontColor: 73FFAEFF
+      backColor: 57D993FF
+      lifetime: 55
+    }
+  }
+  {
+    name: gamma-bolter
+    shootCone: 15.5
+    alternate: true
+    mirror: true
+    x: 7
+    y: 7
+    reload: 10
+    recoil: 0.5
+    shootSound: sap
+    bullet: {
+      type: LaserBoltBulletType
+      status: corroded
+      lightColor: 73FFAEFF
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 6
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 15
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 15
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+      }
+      smokeEffect: none
+      damage: 60
+      speed: 6
+      frontColor: 73FFAEFF
+      backColor: 57D993FF
+      lifetime: 55
+    }
+  }
+  {
+    name: redox-carbine
+    x: 10
+    y: -8
+    reload: 28
+    alternate: true
+    top: true
+    shootY: 11
+    shootCone: 20
+    inaccuracy: 3
+    shots: 2
+    shotDelay: 5
+    shootSound: bang
+    ejectEffect: casing2
+    bullet: {
+      type: basicBulletType
+      sprite: exogenesis-armored-bullet
+      damage: 370
+      width: 8
+      buildingDamageMultiplier: 0.7
+      height: 16
+      pierce: true
+      status: corroded
+      reflectable: false
+      absorbable: true
+      statusDuration: 300
+      lightColor: 73FFAEFF
+      speed: 5.5
+      lifetime: 78
+      frontColor: 73FFAEFF
+      backColor: 57D993FF
+      shootEffect: shootBig
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    activeEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 0
+      sizeTo: 260
+      strokeFrom: 6
+      strokeTo: 0
+      colorFrom: 73FFAEFF
+      colorTo: 73FFAEFF
+    }
+    healEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 0
+      sizeTo: 30
+      strokeFrom: 6
+      strokeTo: 0
+      colorFrom: 73FFAEFF
+      colorTo: 73FFAEFF
+    }
+    range: 260
+    amount: 1000
+    reload: 400
+  }
+]

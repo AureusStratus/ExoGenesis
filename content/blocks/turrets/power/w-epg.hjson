@@ -1,0 +1,75 @@
+localizedName: Electron Pulse Emitter
+researchCostMultiplier: 0.3
+description: An area of effect turret built to weaken other units with pulses of charged electrons. It uses alot of power.
+type: powerTurret
+reloadTime: 240
+recoilAmount: 0
+rotateSpeed: 0
+shootCone: 360
+range: 200
+shootLength: 0
+heatColor: bbdefb
+cooldown: 0.030
+size: 3
+shots: 360
+spread: 1
+inaccuracy: 0
+targetAir: true
+targetGround: true
+powerUse: 18
+hasPower: true
+shootType: {
+  sprite: exogenesis-wavee
+  collidesTiles: false
+  speed: 8
+  height: 48
+  width: 8
+  drawSize: 0
+  hitSize: 16
+  pierce: true
+  lifetime: 40
+  knockback: 0
+  ammoMultiplier: 4
+  damage: 1
+  frontColor: bbdefb
+  backColor: 90caf9
+  hitEffect: lancerLaserCharge
+  despawnEffect: none
+  shootEffect: none
+  smokeEffect: none
+  incendChance: 0
+  status: {
+    localizedName: Electronic Interference
+    name: electron
+    description: messes with electronics
+    effect: lancerLaserCharge
+    speedMultiplier: 0.80
+    reloadMultiplier: 0.80
+    damageMultiplier: 0.85
+  }
+}
+requirements: [
+  {
+    item: copper
+    amount: 400
+  }
+  {
+    item: lead
+    amount: 380
+  }
+  {
+    item: osmium
+    amount: 230
+  }
+  {
+    item: titanium
+    amount: 200
+  }
+  {
+    item: silicon
+    amount: 265
+  }
+]
+category: turret
+research: arc
+shootSound: laser

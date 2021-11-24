@@ -1,0 +1,83 @@
+type: ItemTurret
+localizedName: Rebound
+description: [purple]Fires 3 bullets at enemies in and has long-range.
+health: 1600
+size: 5
+reloadTime: 80
+cooldown: 0.030
+range: 380
+recoilAmount: 3
+shootShake: 2
+ammoUseEffect: casing3
+inaccuracy: 0
+shots: 3
+burstSpacing: 4
+spread: 0
+rotateSpeed: 3
+shootSound: bang
+ammoTypes: {
+  blast-compound: {
+    status: blasted
+    statusDuration: 50
+    speed: 7
+    width: 15
+    height: 20
+    lifetime: 80
+    damage: 87
+    splashDamage: 45
+    splashDamageRadius: 16
+    knockback: 1.8
+    hitSize: 8
+    frontColor: E66F57FF
+    backColor: C85C51FF
+    shootEffect: shootPyraFlame
+    hitEffect: blastExplosion
+  }
+  thorium: {
+    speed: 7
+    type: BasicBulletType
+    damage: 110
+    lifetime: 80
+    width: 15
+    height: 20
+    reflectable: false
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    hitEffect: flakExplosion
+    knockback: 3
+    ammoMultiplier: 3
+    pierce: false
+    hitSize: 8
+  }
+  surge-alloy: {
+    type: BasicBulletType
+    speed: 7
+    lifetime: 80
+    damage: 236
+    width: 15
+    height: 20
+    reflectable: false
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    hitEffect: flakExplosion
+    knockback: 4
+    hitShake: 3
+    ammoMultiplier: 1
+    lightning: 4
+    lightningDamage: 10
+    lightningCone: 360
+    lightningLengthRand: 3
+    lightningLength: 8
+    collidesAir: true
+  }
+}
+requirements: [
+  plastanium/100
+  surge-alloy/300
+  rutuxium/300
+  thorium/700
+  silicon/470
+  copper/800
+]
+category: turret
+research: p-obliterator

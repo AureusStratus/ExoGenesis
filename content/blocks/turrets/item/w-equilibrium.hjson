@@ -1,0 +1,421 @@
+type: ItemTurret
+description: [white]Equalize the battle field with this massive turret. It can shoot different projectiles depending on its ammunition. It takes a large amount of resource to build. This weapon was created to fight off power units.
+localizedName: Equilibrium
+details: Equalize the battlefield.
+size: 14
+health: 143600
+range: 800
+reloadTime: 380
+inaccuracy: 0
+shots: 1
+targetAir: true
+targetGround: true
+shootCone: 1
+spread: 2
+recoilAmount: 7
+restitution: 0.08
+rotateSpeed: 0.96
+shootShake: 20
+shootSound: plasmaboom
+ammoTypes: {
+  gamma-green: {
+    type: BasicBulletType
+    sprite: exogenesis-slice
+    damage: 3400
+    hitSound: laser
+    lightRadius: 150
+    lightColor: C2FF70FF
+    hitShake: 35
+    height: 100
+    width: 100
+    speed: 8
+    spin: -4
+    hitSize: 60
+    lifetime: 300
+    shrinkX: 0.5
+    shrinkY: 0.5
+    hitEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 15
+      offset: 20
+      lifetime: 30
+      length: 45
+      cone: -360
+      lenFrom: 9
+      lenTo: 0
+      colorFrom: FFFFFFFF
+      colorTo: C2FF70FF
+    }
+    despawnEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 0
+      sizeTo: 75
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFFFFFFF
+      colorTo: C2FF70FF
+    }
+    shootEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 0
+      sizeTo: 75
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: FFFFFFFF
+      colorTo: C2FF70FF
+    }
+    pierce: true
+    frontColor: FFFFFFFF
+    backColor: C2FF70FF
+    statusDuration: 1300
+    status: {
+      localizedName: Gamma Burn
+      description: gamma energy is melting you
+      name: gamma-burn
+      damage: 1.8
+      effect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        offset: 20
+        lifetime: 10
+        length: 45
+        cone: -360
+        lenFrom: 6
+        lenTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      permanent: false
+      effectChance: 0.5
+    }
+  }
+  alpha-yellow: {
+    type: BasicBulletType
+    speed: 40
+    damage: 8600
+    frontColor: F3E979FF
+    backColor: D99F6BFF
+    width: 45
+    height: 50
+    drag: 0.001
+    hitSound: bigshellbullet
+    shootEffect: massiveExplosion
+    smokeEffect: shieldWave
+    hitEffect: impactShockwave
+    knockback: 40
+    hitShake: 20
+    ammoMultiplier: 1
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.68
+    pierceCap: 20
+    pierce: true
+    lightning: 10
+    lightningDamage: 100
+    lightningCone: 360
+    lightningLengthRand: 13
+    lightningLength: 18
+    collidesAir: true
+    statusDuration: 1300
+    status: {
+      localizedName: Armor Broken
+      description: Your armor has been broken
+      name: armor-break
+      effect: blastsmoke
+      permanent: true
+      color: F3E979FF
+      effectChance: 0.0001
+      healthMultiplier: 0.4
+      speedMultiplier: 0.7
+    }
+  }
+  rutuxium: {
+    type: BasicBulletType
+    sprite: exogenesis-plasma
+    lightRadius: 140
+    lightColor: 322252FF
+    status: {
+      localizedName: Void
+      name: void
+      description: The power of a singularity is warping you
+      transitionDamage: 36
+      affinities: [
+        slow
+        unmoving
+      ]
+      damage: 0.8
+      effect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 4
+        strokeFrom: 3
+        strokeTo: 0
+        colorFrom: 322252FF
+        colorTo: 9057F2FF
+      }
+      speedMultiplier: 0.3
+      reloadMultiplier: 0.3
+      healthMultiplier: 0.6
+    }
+    statusDuration: 300
+    speed: 3.6
+    lightningColor: 9057F2FF
+    lightning: 10
+    lightningLength: 7
+    lightningLengthRand: 9
+    lightningDamage: 75
+    lifetime: 400
+    damage: 6885
+    height: 68
+    spin: 15
+    width: 68
+    shrinkY: 0.0
+    shrinkX: 0.0
+    hitEffect: {
+      type: WaveEffect
+      lifetime: 20
+      sizeFrom: 0
+      sizeTo: 50
+      strokeFrom: 0
+      strokeTo: 4
+      colorFrom: 322252FF
+      colorTo: 9057F2FF
+    }
+    despawnEffect: {
+      type: WaveEffect
+      lifetime: 20
+      sizeFrom: 0
+      sizeTo: 50
+      strokeFrom: 0
+      strokeTo: 4
+      colorFrom: 322252FF
+      colorTo: 9057F2FF
+    }
+    trailEffect: {
+      type: ParticleEffect
+      offset: 20
+      particles: 5
+      sizeFrom: 3.5
+      sizeTo: 0
+      length: 25
+      baseLength: 25
+      lifetime: 20
+      colorFrom: 322252FF
+      colorTo: 9057F2FF
+      cone: -360
+    }
+    trailChance: 1
+    collides: true
+    collidesAir: true
+    collidesTiles: true
+    homingRange: 330
+    homingPower: 0.0467
+    splashDamageRadius: 124
+    splashDamage: 256
+    frontColor: 322252FF
+    backColor: 9057F2FF
+    fragBullets: 10
+    fragCone: 360
+    fragBullet: {
+      type: BasicBulletType
+      sprite: exogenesis-plasma
+      lightningColor: 9057F2FF
+      lightning: 10
+      lightningLength: 6
+      lightningDamage: 54
+      splashDamageRadius: 30
+      splashDamage: 96
+      absorbable: false
+      speed: 3.5
+      shrinkY: 0.5
+      shrinkX: 0.5
+      lifetime: 120
+      damage: 220
+      homingRange: 200
+      homingPower: 0.0767
+      drag: 0.001
+      height: 25
+      width: 25
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 20
+        strokeFrom: 0
+        strokeTo: 4
+        colorFrom: 322252FF
+        colorTo: 9057F2FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 20
+        strokeFrom: 0
+        strokeTo: 4
+        colorFrom: 322252FF
+        colorTo: 9057F2FF
+      }
+      frontColor: 322252FF
+      backColor: 9057F2FF
+    }
+  }
+  primal-red: {
+    type: LaserBulletType
+    hitEffect: hitMeltdown
+    width: 70
+    lifetime: 30
+    length: 1000
+    sideAngle: 90
+    sideLength: 90
+    sideWidth: 1
+    statusDuration: 1300
+    damage: 7960
+    lightningSpacing: 18
+    lightningLength: 10
+    lightningDelay: 0.5
+    lightningLengthRand: 40
+    lightningDamage: 400
+    lightningAngleRand: 40
+    largeHit: true
+    lightColor: FF5845FF
+    lightningColor: FF5845FF
+    shootEffect: massiveExplosion
+    colors: [
+      DE4136AA
+      FF5845FF
+      FFC1BBFF
+    ]
+    status: {
+      localizedName: Blazing
+      description: The heat is to much.
+      name: blazing
+      damage: 1.3
+      effect: burning
+      transitionDamage: 15
+      opposites: [
+        freezing
+        wet
+      ]
+      affinities: [
+        tarred
+      ]
+      permanent: false
+      color: FF4040FF
+      effectChance: 0.001
+      speedMultiplier: 0.7
+    }
+  }
+  omega-blue: {
+    type: basicBulletType
+    lifetime: 370
+    damage: 6820
+    hitSize: 46
+    width: 55
+    height: 55
+    lightRadius: 140
+    lightColor: A9D8FFFF
+    spin: 15
+    despawnEffect: bigShockwave
+    shootEffect: sparkShoot
+    hitEffect: sparkShoot
+    trailEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 20
+      sizeTo: 55
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: A9D8FFFF
+      colorTo: 66B1FFFF
+    }
+    trailChance: 1
+    speed: 6
+    shrinkX: 0
+    shrinkY: 0
+    hitSound: shotgun
+    frontColor: A9D8FFFF
+    backColor: 66B1FFFF
+    hittable: false
+    reflectable: false
+    absorbable: true
+    sprite: exogenesis-plasma
+    homingPower: 0.1205
+    homingRange: 380
+    homingDelay: 55
+    fragBullets: 15
+    fragBullet: {
+      type: laserBulletType
+      damage: 1000
+      sideAngle: 20
+      sideWidth: 1.5
+      sideLength: 80
+      width: 18
+      colors: [
+        66B1FFFF
+        A9D8FFFF
+        FFFFFF
+      ]
+      length: 280
+      statusDuration: 1300
+      status: {
+        localizedName: Omni Blasted
+        description: You have been hit with potent energy.
+        name: omni-blast
+        effect: lightningCharge
+        permanent: false
+        color: 79F2EEFF
+        effectChance: 0.5
+        damageMultiplier: 0.7
+      }
+    }
+  }
+}
+requirements: [
+  {
+    item: surge-alloy
+    amount: 2750
+  }
+  {
+    item: xanium
+    amount: 2900
+  }
+  {
+    item: silicon
+    amount: 4100
+  }
+  {
+    item: alpha-yellow
+    amount: 1200
+  }
+  {
+    item: omega-blue
+    amount: 1200
+  }
+  {
+    item: primal-red
+    amount: 1200
+  }
+  {
+    item: gamma-green
+    amount: 1200
+  }
+  {
+    item: rutuxium
+    amount: 12000
+  }
+  {
+    item: titanium
+    amount: 5000
+  }
+  {
+    item: osmium
+    amount: 4300
+  }
+]
+category: turret
+research: core-nucleus

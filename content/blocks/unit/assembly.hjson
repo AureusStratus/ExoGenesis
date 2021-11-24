@@ -1,0 +1,85 @@
+type: UnitFactory
+description: Builds prototype units created by power factions.
+localizedName: Assembly
+size: 7
+consumes: {
+  power: 25
+}
+plans: [
+  {
+    unit: PT-solstice
+    requirements: [
+      silicon/1000
+      surge-alloy/750
+      primal-red/780
+      phase-fabric/800
+      plastanium/1100
+      titanium/980
+      lead/580
+    ]
+    time: 3000
+  }
+  {
+    unit: PT-anomaly
+    requirements: [
+      silicon/1000
+      surge-alloy/750
+      rutuxium/780
+      phase-fabric/800
+      plastanium/1100
+      titanium/980
+      lead/580
+    ]
+    time: 3000
+  }
+  {
+    unit: PT-redox
+    requirements: [
+      silicon/1000
+      surge-alloy/750
+      gamma-green/780
+      phase-fabric/800
+      plastanium/1100
+      titanium/980
+      lead/580
+    ]
+    time: 3000
+  }
+  {
+    unit: PT-surge
+    requirements: [
+      silicon/1000
+      surge-alloy/750
+      alpha-yellow/780
+      phase-fabric/800
+      plastanium/1100
+      titanium/980
+      lead/580
+    ]
+    time: 3000
+  }
+  {
+    unit: PT-stratosphere
+    requirements: [
+      silicon/1000
+      surge-alloy/750
+      omega-blue/780
+      phase-fabric/800
+      plastanium/1100
+      titanium/980
+      lead/580
+    ]
+    time: 3000
+  }
+]
+requirements: [
+  silicon/1500
+  surge-alloy/750
+  metaglass/680
+  lead/1800
+  osmium/1800
+  plastanium/1100
+  titanium/980
+]
+category: units
+research: core-nucleus

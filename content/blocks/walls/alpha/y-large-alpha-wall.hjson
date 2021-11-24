@@ -1,0 +1,23 @@
+type: Wall
+buildCostMultiplier: 0.1
+description: A tough wall that absorbs hits from enemies, then releases it in large lighting arcs.
+localizedName: Large alpha wall
+lightningSound: spark
+lightningChance: 0.60
+lightningColor: F3E979FF
+lightningDamage: 48
+lightningLength: 28
+health: 10080
+size: 2
+requirements: [
+  {
+    item: alpha-yellow
+    amount: 195
+  }
+  {
+    item: surge-alloy
+    amount: 75
+  }
+]
+category: defense
+research: y-alpha-wall

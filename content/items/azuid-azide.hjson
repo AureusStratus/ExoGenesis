@@ -1,0 +1,7 @@
+localizedName: Azidoazide
+description: A highly explosive and unstable compound thats used in ammunition and production
+cost: 3
+explosiveness: 2.0
+flammability: 1.9
+color: FBCC56FF
+research: blast-compound

@@ -1,0 +1,12 @@
+localizedName: Oltuxium
+description: [gold]An electrical metal that is commonly found on the gassy planet of the Elecians. Used in various Elecian tech aswell as electrical structures.
+details: Makes your hair stand up.
+cost: 1
+charge: 0.09
+color: E09430FF
+research: {
+  parent: silicon
+  requirements: [
+    silicon/200
+  ]
+}

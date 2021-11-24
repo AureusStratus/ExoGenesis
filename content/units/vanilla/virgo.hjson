@@ -1,0 +1,701 @@
+localizedName: Virgo
+description: [green]The heavy support class titan. A massive heavy support unit equipped with the most advanced energy destroyer railgun cannon sharded has to offer. Along side this main it has two energy coresmit uses to power its weaponry system. It can fire energy missles qnd lasers from these two core, it also can fire disk that hwve an emp effect. Has a large and powerful shield and can heal nearby allies.
+research: {
+  parent: stella
+  requirements: [
+    graphite/1220
+    surge-alloy/1200
+    plastanium/940
+    phase-fabric/1000
+    scrap/1200
+    copper/1540
+    lead/1540
+    silicon/1800
+  ]
+}
+details: After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines  made for war. Look up to sky and see the glory we are part off. The mono, nova and meteor lines where some of the best units the Gemini deviation had to offer to sharded, there technology has proven to be very useful as there very adopted to using healing and energy technology. Hopefully the Taurus and Lyra deviation can also hold up on there technology aswell. 
+groundLayer: 75
+singleTarget: true
+drawShields: false
+lightRadius: 200
+outlineColor: 3F414EFF
+type: legs
+canDrown: false
+speed: 0.20
+hitSize: 77
+health: 137000
+armor: 35
+drag: 0.2
+drownTimeMultiplier: 500
+flying: false
+targetAir: true
+rotateSpeed: 1.5
+flipBackLegs: true
+legGroupSize: 2
+legPairOffset: 2
+maxStretch: 64
+legExtension: -15
+legCount: 6
+legMoveSpace: 0.8
+legLength: 64
+legBaseOffset: 13
+legTrns: 1
+landShake: 3.4
+legSpeed: 0.17
+rippleScale: 10.5
+legSplashDamage: 276
+legSplashRange: 36
+visualElevation: 0.75
+allowLegStep: true
+hovering: true
+immunities: [
+  burning
+  melting
+  corroded
+  slow
+]
+weapons: [
+  {
+    name: virgo-cannon
+    mirror: false
+    top: false
+    x: 0
+    y: 0
+    shootY: 46
+    reload: 800
+    recoil: 6
+    shots: 1
+    cooldown: 800
+    shootStatus: exogenesis-low-energy
+    shootStatusDuration: 200
+    firstShotDelay: 170
+    soundPitchMin: 3
+    chargeSound: lasercharge
+    shootSound: powerfulblast
+    rotate: false
+    bullet: {
+      type: basicBulletType
+      damage: 25000
+      splashDamage: 6000
+      splashDamageRadius: 65
+      recoil: 5
+      width: 24
+      height: 24
+      shootEffect: {
+        type: multiEffect
+        lifetime: 170
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 8
+            length: 200
+            baseLength: -200
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 120
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 7
+            length: 250
+            baseLength: -250
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 130
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 6
+            length: 300
+            baseLength: -300
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 140
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 5
+            length: 350
+            baseLength: -350
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 150
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 4
+            length: 400
+            baseLength: -400
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 160
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            offset: 100
+            sizeFrom: 0
+            sizeTo: 3
+            length: 450
+            baseLength: -450
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 170
+            lightColor: 84F491FF
+            colorFrom: 84F49100
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 90
+            sizeTo: 2
+            length: 0
+            spin: -8
+            lifetime: 240
+            interp: pow3In
+            sizeInterp: pow5Out
+            region: exogenesis-square
+            lightColor: 84F491FF
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 70
+            sizeTo: 2
+            length: 0
+            spin: -7
+            lifetime: 230
+            interp: pow3In
+            sizeInterp: pow5Out
+            region: exogenesis-square
+            lightColor: 84F491FF
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 50
+            sizeTo: 2
+            length: 0
+            spin: -6
+            lifetime: 220
+            interp: pow3In
+            sizeInterp: pow5Out
+            region: exogenesis-square
+            lightColor: 84F491FF
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 40
+            sizeTo: 2
+            length: 0
+            spin: -5
+            lifetime: 210
+            interp: pow3In
+            sizeInterp: pow5Out
+            region: exogenesis-square
+            lightColor: 84F491FF
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 45
+            length: 0
+            spin: 6
+            interp: swing
+            lightColor: 84F491FF
+            lifetime: 170
+            region: exogenesis-plasma-gas3
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+            cone: 360
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 35
+            length: 0
+            lightColor: 84F491FF
+            interp: swing
+            spin: 10
+            lifetime: 170
+            region: exogenesis-plasma-gas2
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 25
+            length: 0
+            lightColor: 84F491FF
+            interp: swing
+            spin: 18
+            lifetime: 170
+            region: exogenesis-plasma-gas1
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 20
+            length: 0
+            lightColor: 84F491FF
+            lifetime: 170
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+            cone: 360
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 0
+            sizeTo: 10
+            length: 0
+            lightColor: 774ACFFF
+            lifetime: 170
+            colorFrom: FFFFFFF
+            colorTo: FFFFFFF
+          }
+        ]
+      }
+      sprite: circle-bullet
+      knockback: 250
+      shrinkY: 0
+      shrinkX: 0
+      trailColor: 84F491FF
+      trailInterval: 1
+      trailChance: 1
+      trailParam: 5
+      trailEffect: none
+      trailLength: 19
+      trailWidth: 6
+      speed: 15
+      lifetime: 80
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 20
+            lifetime: 30
+            length: 165
+            cone: -360
+            lenFrom: 15
+            lenTo: 15
+            strokeFrom: 7
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 125
+            strokeFrom: 8
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 98ffa9
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 125
+            strokeFrom: 8
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 98ffa9
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 25
+            length: 120
+            baseLength: 10
+            lifetime: 130
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 25
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 20
+            length: 100
+            baseLength: 10
+            lifetime: 115
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 18.5
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 20
+            length: 80
+            baseLength: 10
+            lifetime: 95
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 12.5
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+        ]
+      }
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 20
+            lifetime: 30
+            length: 165
+            cone: -360
+            lenFrom: 15
+            lenTo: 15
+            strokeFrom: 7
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 84F491FF
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 125
+            strokeFrom: 8
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 98ffa9
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 125
+            strokeFrom: 8
+            strokeTo: 0
+            colorFrom: 84F491FF
+            colorTo: 98ffa9
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 25
+            length: 120
+            baseLength: 10
+            lifetime: 130
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 25
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 20
+            length: 100
+            baseLength: 10
+            lifetime: 115
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 18.5
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+          {
+            type: ParticleEffect
+            lightOpacity: 0
+            particles: 20
+            length: 80
+            baseLength: 10
+            lifetime: 95
+            interp: circleOut
+            sizeInterp: pow5In
+            sizeFrom: 12.5
+            sizeTo: 1
+            colorFrom: 84F491FF
+            colorTo: 84F491AA
+          }
+        ]
+      }
+      frontColor: FFFFFF
+      backColor: 84F491FF
+    }
+  }
+  {
+    name: milkyway-array
+    x: 39
+    y: -30
+    top: true
+    mirror: true
+    alternate: true
+    shots: 3
+    rotate: true
+    rotateSpeed: 2
+    shootY: 2
+    shotDelay: 5
+    inaccuracy: 10
+    cooldownTime: 87
+    reload: 87
+    recoil: 4
+    shake: 1
+    shootCone: 20
+    ejectEffect: casing2
+    shootSound: plasmaboom
+    bullet: {
+      type: EmpBulletType
+      hitEffect: hitEmpSpark
+      shootEffect: greenBomb
+      despawnEffect: hitEmpSpark
+      collidesTeam: true
+      healPercent: 36.5
+      spin: 9
+      sprite: exogenesis-galactic-bullet
+      trailColor: 84F491FF
+      trailParam: 5
+      trailLength: 16
+      trailWidth: 5
+      lifetime: 100
+      pierce: true
+      splashDamage: 100
+      splashDamageRadius: 100
+      homingPower: 0.05
+      homingRange: 80
+      damage: 320
+      shrinkY: 0
+      shrinkX: 0
+      radius: 100
+      buildingDamageMultiplier: 0.1
+      timeIncrease: 2.5
+      powerDamageScl: 4.0
+      powerSclDecrease: 0.4
+      unitDamageScl: 0.9
+      status: electrified
+      statusDuration: 100
+      lightColor: 84F491FF
+      speed: 5
+      width: 24
+      height: 24
+      backColor: 84F491FF
+      frontColor: FFFFFFFF
+    }
+  }
+  {
+    name: virgo-rockets
+    shootCone: 25
+    alternate: true
+    mirror: true
+    top: true
+    x: 21
+    y: -12
+    rotate: true
+    rotateSpeed: 8.9
+    reload: 5
+    recoil: 0.5
+    shots: 1
+    shootY: 0
+    inaccuracy: 10
+    shotDelay: 1
+    shootSound: missile
+    bullet: {
+      keepVelocity: false
+      type: MissileBulletType
+      backColor: 84F491FF
+      frontColor: FFFFFFFF
+      hitEffect: hitEmpSpark
+      despawnEffect: hitEmpSpark
+      shootEffect: none
+      trailEffect: none
+      trailColor: 84F491FF
+      trailParam: 5
+      trailLength: 16
+      trailWidth: 3
+      buildingDamageMultiplier: 0.1
+      damage: 150
+      speed: 5
+      lifetime: 130
+      homingPower: 0.05
+      homingRange: 200
+      weaveScale: 4
+      weaveMag: 4
+      height: 14
+      width: 11
+      splashDamageRadius: 40
+      splashDamage: 50
+    }
+  }
+  {
+    name: virgoe-laser
+    x: 21
+    y: -12
+    mirror: true
+    alternate: true
+    top: true
+    rotateSpeed: 9
+    shake: 4
+    shootY: 0
+    reload: 200
+    soundPitchMin: 1
+    shootSound: laserblast
+    bullet: {
+      keepVelocity: false
+      shootEffect: none
+      type: LaserBulletType
+      length: 400
+      width: 40
+      lifetime: 35
+      buildingDamageMultiplier: 0.2
+      damage: 1280
+      lightningSpacing: 28
+      lightningLength: 8
+      lightningDelay: 1.1
+      lightningLengthRand: 15
+      lightningDamage: 70
+      lightningAngleRand: 40
+      lightColor: 84F491FF
+      lightningColor: 84F491FF
+      largeHit: true
+      hitEffect: hitEmpSpark
+      colors: [
+        84F491FF
+        84F491FF
+        FFFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+]
+abilities: [
+  {
+    type: EnergyFieldAbility
+    statusDuration: 100
+    status: electrified
+    x: -21
+    y: -12
+    maxTargets: 12
+    damage: 50
+    healPercent: 1
+    range: 250
+    sectors: 2
+    rotateSpeed: 0.5
+    hitBuildings: true
+    sectorRad: 0.38
+    effectRadius: 5
+    reload: 10
+  }
+  {
+    type: EnergyFieldAbility
+    statusDuration: 100
+    status: electrified
+    x: 21
+    y: -12
+    maxTargets: 12
+    damage: 50
+    healPercent: 0.5
+    range: 250
+    sectors: 2
+    rotateSpeed: 1
+    hitBuildings: true
+    sectorRad: 0.38
+    effectRadius: 5
+    reload: 10
+  }
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 200
+    regen: 37
+    max: 80000
+    cooldown: 550
+  }
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    range: 200
+    activeEffect: {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 260
+      interp: pow5Out
+      strokeFrom: 10
+      strokeTo: 0
+      colorFrom: 84F491FF
+      colorTo: 84F491FF
+    }
+    healEffect: {
+      type: ParticleEffect
+      lightOpacity: 0
+      particles: 1
+      length: 0
+      lifetime: 20
+      sizeFrom: 20
+      sizeTo: 0
+      region: exogenesis-heal
+      colorFrom: 84F491FF
+      colorTo: 84F491FF
+    }
+    amount: 8000
+    reload: 300
+  }
+]

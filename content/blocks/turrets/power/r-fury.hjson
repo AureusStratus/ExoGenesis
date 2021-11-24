@@ -1,0 +1,73 @@
+localizedName: Fury
+description: [red]One of the earliest laser turrets the Solran had ever made. A powerful but slow firing laser turret that uses short fusion bursts to create lasers.
+type: PowerTurret
+size: 2
+health: 300
+range: 120
+reloadTime: 120
+shootSound: laser
+rotateSpeed: 3
+shootShake: 2.5
+cooldown: 0.03
+shots: 1
+targetAir: true
+targetGround: true
+heatColor: 5B4CB0FF
+recoilAmount: 2
+shootType: {
+  type: LaserBulletType
+  colors: [
+    FF5845FF
+    FFC1BBFF
+    FFFFFFF
+  ]
+  laserEffect: {
+    type: ParticleEffect
+    particles: 1
+    lifetime: 15
+    length: 0
+    interp: swingIn
+    region: exogenesis-tall
+    sizeFrom: 26
+    sizeTo: 0
+    colorFrom: FF5845FF
+    colorTo: FF5845FF
+  }
+  length: 120
+  width: 26
+  status: exogenesis-molten1
+  damage: 185
+  lightColor: FF5845FF
+  lightRadius: 10
+  shootEffect: {
+    type: ParticleEffect
+    particles: 1
+    lifetime: 15
+    length: 0
+    interp: swingIn
+    region: exogenesis-tall
+    sizeFrom: 20
+    sizeTo: 0
+    colorFrom: FF5845FF
+    colorTo: FF5845FF
+  }
+  smokeEffect: none
+  sideAngle: 25
+  sideWidth: 15
+  sideLength: 0
+}
+consumes: {
+  liquid: {
+    liquid: slag
+    optional: true
+    update: false
+    amount: 0.4
+  }
+}
+requirements: [
+  copper/90
+  silicon/120
+  volcanite/100
+]
+category: turret
+research: r-hel

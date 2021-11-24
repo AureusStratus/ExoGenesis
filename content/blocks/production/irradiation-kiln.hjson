@@ -1,0 +1,63 @@
+localizedName: Irradiation Kiln
+description: [#73FFAEFF]Uses mini gamma ray bursts to irradiate and melt materials to create Gamma Alloy. Requires water.
+type: GenericCrafter
+drawer: {
+  type: drawArcSmelter
+  flameColor: 73FFAEFF
+  midColor: 57D993FF
+  flameRad: 2
+  circleSpace: 2.6
+  circleStroke: 1.3
+  alpha: 5
+  particleRad: 15
+  particles: 60
+  particleLen: 5
+  particleStroke: 1.1
+  particleLife: 80
+}
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 80
+craftTime: 230
+craftEffect: {
+  type: ParticleEffect
+  particles: 15
+  length: 20
+  offset: 3
+  cone: 360
+  interp: circleOut
+  lifetime: 28
+  sizeFrom: 5
+  sizeTo: 0
+  colorTo: 73FFAEFF
+  colorFrom: 57D993FF
+}
+updateEffect: none
+consumes: {
+  power: 5
+  items: {
+    items: [
+      surge-alloy/10
+      xanium/5
+      valvanite/15
+      thorium/8
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+requirements: [
+  gamma-green/500
+  xanium/430
+  jupiteium/300
+  titanium/300
+  silicon/730
+  osmium/530
+]
+category: crafting
+research: alloy-smelter
+outputItem: gamma-green/10

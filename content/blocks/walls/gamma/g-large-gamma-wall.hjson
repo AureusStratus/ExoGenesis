@@ -1,0 +1,20 @@
+type: Wall
+buildCostMultiplier: 0.1
+description: A tough wall that has abortion properties.
+localizedName: Large gamma wall
+health: 11600
+size: 2
+insulated: true
+absorbLasers: true
+requirements: [
+  {
+    item: gamma-green
+    amount: 198
+  }
+  {
+    item: xanium
+    amount: 36
+  }
+]
+category: defense
+research: g-gamma-wall

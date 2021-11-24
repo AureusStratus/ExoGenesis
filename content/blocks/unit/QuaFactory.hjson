@@ -1,0 +1,65 @@
+type: UnitFactory
+description: Can create quantra units.
+localizedName: Quantra Factory
+size: 3
+consumes: {
+  power: 5
+}
+plans: [
+  {
+    unit: rule
+    requirements: [
+      {
+        item: silicon
+        amount: 20
+      }
+      {
+        item: valvanite
+        amount: 50
+      }
+      {
+        item: titanium
+        amount: 10
+      }
+    ]
+    time: 540
+  }
+  {
+    unit: 1-arco
+    requirements: [
+      {
+        item: silicon
+        amount: 20
+      }
+      {
+        item: metaglass
+        amount: 50
+      }
+      {
+        item: valvanite
+        amount: 10
+      }
+    ]
+    time: 540
+  }
+]
+requirements: [
+  {
+    item: silicon
+    amount: 580
+  }
+  {
+    item: osmium
+    amount: 180
+  }
+  {
+    item: valvanite
+    amount: 180
+  }
+  {
+    item: titanium
+    amount: 160
+  }
+]
+category: units
+research: ground-factory

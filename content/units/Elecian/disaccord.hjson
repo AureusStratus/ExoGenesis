@@ -1,0 +1,192 @@
+localizedName: Disaccord
+description: [gold] This unit is force to be reckoned with its is equipped with a vela like laser and 2 laser mounts and 1 missile launcher and 2 artillery cannons and it has a low health shield to block some attacks
+research: {
+  parent: disagreement
+  requirements: [
+    oltuxium/820
+    surge-alloy/700
+    plastanium/740
+    lead/940
+    silicon/1000
+  ]
+}
+speed: 1.0
+accel: 0.02
+drag: 0.018
+faceTarget: true
+flying: true
+health: 28400
+hitSize: 58
+armor: 20
+engineOffset: 38
+engineSize: 7
+lowAltitude: true
+targetAir: true
+commandLimit: 10
+weapons: [
+  {
+    name: shock-artillery
+    shootCone: 15
+    mirror: true
+    alternate: true
+    x: 14
+    y: 0
+    reload: 60
+    recoil: 3
+    ejectEffect: casing2
+    shootSound: artillery
+    shake: 2
+    bullet: {
+      keepVelocity: false
+      type: artilleryBulletType
+      collides: true
+      damage: 20
+      collidesTiles: true
+      collidesAir: true
+      splashDamageRadius: 24
+      splashDamage: 55
+      hitEffect: instBomb
+      shootEffect: shootHealYellow
+      lightning: 5
+      lightningDamage: 10
+      lightningLength: 4
+      lightningCone: 360
+      lightningLengthRand: 6
+      height: 14
+      width: 14
+      speed: 4
+      frontColor: FFFFFFF
+      backColor: F3E979FF
+      lifetime: 90
+    }
+  }
+  {
+    name: surge-laser
+    mirror: true
+    alternate: true
+    x: 26
+    y: -6
+    shake: 4
+    shootY: 13
+    rotateSpeed: 2
+    reload: 35
+    recoil: 4
+    shootSound: laser
+    shadow: 20
+    rotate: true
+    bullet: {
+      type: laserBulletType
+      damage: 150
+      sideAngle: 20
+      sideWidth: 1.5
+      sideLength: 80
+      width: 25
+      colors: [
+        ECD36FAA
+        F3E979FF
+        FFFFFF
+      ]
+      length: 280
+      shootEffect: shockwave
+    }
+  }
+  {
+    name: disaccord-weapon
+    x: 0
+    y: 0
+    mirror: false
+    top: false
+    shake: 4
+    shootY: 23
+    reload: 340
+    recoil: 0
+    chargeSound: lasercharge2
+    shootSound: beam
+    continuous: true
+    cooldownTime: 250
+    firstShotDelay: 39
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 50
+      length: 220
+      width: 5
+      hitEffect: hitMeltdown
+      drawSize: 420
+      lifetime: 200
+      shake: 2
+      knockback: -3
+      despawnEffect: smokeCloud
+      smokeEffect: none
+      incendChance: 0.18
+      incendSpread: 5
+      incendAmount: 1
+      colors: [
+        ECD36FAA
+        ECD36FFF
+        F3E979FF
+        FFFFFF
+      ]
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 39
+        sizeFrom: 50
+        sizeTo: 0
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: F3E979FF
+      }
+    }
+  }
+  {
+    name: alpha-rocket
+    shootCone: 25
+    alternate: false
+    mirror: false
+    top: true
+    x: 0
+    y: -8.5
+    reload: 48
+    recoil: 3
+    shots: 8
+    shootY: 2
+    spacing: 10
+    inaccuracy: 7
+    xRand: 8
+    shotDelay: 1
+    shootSound: missile
+    velocityRnd: 0.4
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootHealYellow
+      damage: 45
+      speed: 5
+      keepVelocity: false
+      frontColor: FFFFFFF
+      backColor: F3E979FF
+      trailColor: ECD36FFF
+      lifetime: 60
+      homingPower: 1
+      homingRange: 100
+      weaveScale: 5
+      weaveMag: 2
+      height: 8
+      width: 8
+      splashDamageRadius: 30
+      splashDamage: 30
+      lightning: 4
+      lightningDamage: 10
+      lightningLength: 4
+      lightningCone: 360
+      lightningLengthRand: 6
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 60
+    regen: 8
+    max: 2000
+    cooldown: 260
+  }
+]

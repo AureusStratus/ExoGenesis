@@ -1,0 +1,342 @@
+localizedName: Altair
+description: [cyan]A powerful air ship that is equipped with cold energy gunners. Can fire a cold plasma orb that frags in to cold energy bolts that home in. Protects itself with a strong shield.
+research: {
+  parent: centauri
+  requirements: [
+    astrolite/1220
+    surge-alloy/1000
+    plastanium/940
+    omega-blue/850
+    osmium/1240
+    silicon/1300
+  ]
+}
+singleTarget: true
+drawShields: false
+speed: 0.65
+accel: 0.02
+drag: 0.02
+rotateSpeed: 1
+faceTarget: true
+flying: true
+health: 82400
+hitSize: 74
+armor: 20
+engineOffset: 47
+range: 180
+maxRange: 180
+aimDst: 140
+engineSize: 5
+lowAltitude: true
+targetAir: true
+commandLimit: 10
+weapons: [
+  {
+    name: cold-plasma-gunner
+    x: 18
+    y: 7
+    shootY: 9
+    rotateSpeed: 4
+    reload: 12
+    recoil: 2
+    shots: 2
+    shotDelay: 3
+    inaccuracy: 2
+    shootSound: bang
+    mirror: true
+    alternate: true
+    rotate: true
+    bullet: {
+      type: basicBulletType
+      damage: 100
+      width: 8
+      height: 12
+      status: freezing
+      reflectable: false
+      absorbable: true
+      statusDuration: 300
+      lightning: 4
+      lightningLength: 5
+      lightningLengthRand: 7
+      lightningDamage: 16
+      lightColor: A9D8FFFF
+      lightningColor: 66B1FFFF
+      speed: 5.5
+      lifetime: 50
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      despawnEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 7
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 7
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      shootEffect: shootSmall
+    }
+  }
+  {
+    name: cold-plasma-artillery
+    x: 25
+    y: -13
+    shootY: 9
+    rotateSpeed: 4
+    reload: 32
+    recoil: 2
+    shots: 3
+    shotDelay: 3
+    inaccuracy: 3
+    shootSound: shootBig
+    mirror: true
+    alternate: true
+    rotate: true
+    bullet: {
+      type: basicBulletType
+      damage: 180
+      width: 12
+      height: 18
+      status: freezing
+      reflectable: false
+      absorbable: true
+      statusDuration: 300
+      lightning: 4
+      lightningLength: 5
+      lightningLengthRand: 7
+      lightningDamage: 16
+      lightColor: A9D8FFFF
+      lightningColor: 66B1FFFF
+      speed: 5.5
+      lifetime: 52
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      despawnEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 7
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 7
+        lifetime: 20
+        offset: 30
+        length: 35
+        cone: -360
+        lenFrom: 7
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      shootEffect: shootBig
+    }
+  }
+  {
+    name: altair-plasma-orb
+    reload: 388
+    mirror: false
+    x: 0
+    y: 0
+    shootY: 9
+    shake: 3
+    rotate: false
+    shots: 1
+    shootSound: plasmaboom
+    shootCone: 45
+    bullet: {
+      sprite: exogenesis-plasma
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 35
+            lifetime: 30
+            offset: 60
+            length: 115
+            cone: -360
+            strokeFrom: 0
+            strokeTo: 3.5
+            sizeFrom: 8
+            sizeTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 35
+            offset: 30
+            sizeFrom: 4
+            sizeTo: 0
+            length: 105
+            lifetime: 30
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+            cone: 360
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            sizeFrom: 7
+            sizeTo: 0.30
+            offset: 60
+            length: 100
+            lifetime: 200
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+            cone: 360
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 95
+            strokeFrom: 8
+            strokeTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+        ]
+      }
+      despawnEffect: {
+        type: ParticleEffect
+        particles: 30
+        length: 60
+        lifetime: 46
+        interp: circleOut
+        cone: 360
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+        sizeFrom: 6
+        sizeTo: 0
+      }
+      trailChance: 1
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 13
+        sizeFrom: 7
+        region: exogenesis-plasma-back
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFAA
+      }
+      width: 31
+      height: 31
+      splashDamage: 67
+      splashDamageRadius: 28
+      lightning: 6
+      lightningColor: 66B1FFFF
+      lightningDamage: 63
+      lightningLength: 10
+      lightningCone: 360
+      lightningLengthRand: 20
+      type: BasicBulletType
+      shrinkX: 0
+      shrinkY: 0
+      damage: 768
+      speed: 5
+      frontColor: A9D8FFFF
+      backColor: 66B1FFFF
+      lifetime: 120
+      fragBullets: 8
+      fragCone: 360
+      fragVelocityMin: 0.46
+      fragBullet: {
+        hitEffect: {
+          type: ParticleEffect
+          line: true
+          offset: 30
+          particles: 13
+          lifetime: 33
+          length: 35
+          cone: -360
+          lenFrom: 6
+          lenTo: 0
+          colorFrom: FFFFFF
+          colorTo: A9D8FFFF
+        }
+        despawnEffect: {
+          type: ParticleEffect
+          line: true
+          offset: 30
+          particles: 13
+          lifetime: 33
+          length: 35
+          cone: -360
+          lenFrom: 6
+          lenTo: 0
+          colorFrom: FFFFFF
+          colorTo: A9D8FFFF
+        }
+        shootEffect: none
+        keepVelocity: false
+        pierce: true
+        pierceBuilding: true
+        type: basicBulletType
+        sprite: exogenesis-star-cutter
+        damage: 360
+        status: freezing
+        statusDuration: 150
+        shrinkY: 0
+        shrinkX: 0
+        width: 23
+        height: 37
+        speed: 5.5
+        frontColor: A9D8FFFF
+        backColor: 66B1FFFF
+        trailChance: 1
+        trailRotation: true
+        trailEffect: {
+          type: ParticleEffect
+          particles: 1
+          length: 0
+          lifetime: 25
+          sizeFrom: 12
+          region: exogenesis-star-cutter-effect
+          colorFrom: A9D8FFFF
+          colorTo: 66B1FFAA
+        }
+        lifetime: 80
+        homingRange: 60
+        homingPower: 0.0845
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.ForceFieldAbility
+    radius: 78
+    regen: 4
+    max: 4000
+    cooldown: 260
+  }
+]

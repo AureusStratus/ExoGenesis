@@ -1,0 +1,6 @@
+localizedName: Radioactive Water
+description: Radioactive water, not much different from water its just not drinkable
+heatCapacity: 0.43
+effect: corroded
+color: 47CC7DFF
+research: water

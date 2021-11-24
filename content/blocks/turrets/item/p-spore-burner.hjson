@@ -1,0 +1,186 @@
+type: ItemTurret
+localizedName: Anomaly Flamer
+description: [purple]A flame thrower turret that uses vurtimite primarly as its fuel source
+size: 1
+health: 100
+range: 50
+reloadTime: 10
+burstSpacing: 5
+shots: 3
+targetAir: false
+targetGround: true
+shootCone: 20
+recoilAmount: 0
+inaccuracy: 12
+rotateSpeed: 5
+shootSound: flame2
+ammoTypes: {
+  vurtimite: {
+    type: BasicBulletType
+    lightRadius: 0
+    speed: 3
+    damage: 16
+    width: 0.1
+    height: 0.1
+    collidesAir: true
+    shootEffect: {
+      type: multiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 5.5
+          sizeTo: 3
+          length: 60
+          cone: 16
+          lifetime: 34
+          interp: circleOut
+          region: exogenesis-rune1
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 1.4
+          sizeTo: 4.3
+          length: 60
+          cone: 16
+          lifetime: 38
+          interp: circleOut
+          region: exogenesis-rune13
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 3
+          sizeTo: 3
+          length: 60
+          cone: 16
+          lifetime: 30
+          interp: circleOut
+          region: exogenesis-rune11
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 4
+          sizeTo: 4
+          length: 60
+          cone: 16
+          lifetime: 33
+          interp: circleOut
+          region: exogenesis-rune2
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 2
+          sizeTo: 2
+          length: 60
+          cone: 16
+          lifetime: 35
+          interp: circleOut
+          region: exogenesis-rune6
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+      ]
+    }
+    smokeEffect: none
+    hittable: false
+    reflectable: false
+    lifetime: 20
+    despawnEffect: none
+    hitEffect: {
+      type: multiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 1
+          sizeTo: 1
+          length: 60
+          lifetime: 34
+          interp: circleOut
+          region: exogenesis-rune1
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 1.4
+          sizeTo: 2
+          length: 60
+          lifetime: 38
+          interp: circleOut
+          region: exogenesis-rune13
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 3
+          sizeTo: 2
+          length: 60
+          lifetime: 30
+          interp: circleOut
+          region: exogenesis-rune11
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 1
+          sizeTo: 1.5
+          length: 60
+          lifetime: 33
+          interp: circleOut
+          region: exogenesis-rune2
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+        {
+          type: ParticleEffect
+          particles: 3
+          sizeFrom: 2
+          sizeTo: 2
+          length: 60
+          lifetime: 35
+          interp: circleOut
+          region: exogenesis-rune6
+          lightColor: A170F4FF
+          colorFrom: A170F4FF
+          colorTo: A170F400
+        }
+      ]
+    }
+    status: sapped
+    pierce: true
+  }
+}
+requirements: [
+  vurtimite/20
+  lead/60
+  graphite/40
+]
+category: turret
+research: duo

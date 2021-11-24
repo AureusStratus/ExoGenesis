@@ -1,0 +1,168 @@
+name: Magma
+description: [red]Fires four volatile plasma orbs that deals great damage apon impact.
+research: {
+  parent: molten
+  requirements: [
+    volcanite/300
+    lead/340
+    silicon/400
+  ]
+}
+outlineColor: 313131FF
+type: mech
+armor: 17
+mechStepParticles: false
+mechStepShake: 0
+rotateSpeed: 2.8
+hitSize: 31
+commandLimit: 6
+mechFrontSway: 0
+mechSideSway: 0
+rotateShooting: false
+singleTarget: true
+speed: 0.9
+health: 4800
+range: 185
+immunities: [
+  melting
+  blasted
+  burning
+]
+weapons: [
+  {
+    name: magma-weapon
+    reload: 60
+    mirror: false
+    x: 0
+    y: 0
+    shootY: 8
+    shake: 2
+    rotate: true
+    rotateSpeed: 5
+    shots: 4
+    shotDelay: 3
+    xRand: 4
+    inaccuracy: 6
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      type: basicBulletType
+      sprite: circle-bullet
+      status: exogenesis-molten1
+      damage: 70
+      height: 10
+      width: 10
+      shrinkX: 0
+      shrinkY: 0
+      speed: 5
+      lifetime: 65
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 28
+            lifetime: 40
+            interp: circleOut
+            offset: 30
+            length: 80
+            lightColor: FF5845FF
+            strokeFrom: 4
+            strokeTo: 0
+            lenFrom: 7
+            lenTo: 7
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+          {
+            type: ParticleEffect
+            particles: 25
+            length: 80
+            lifetime: 36
+            interp: pow5Out
+            cone: 360
+            colorFrom: FFC1BBFF
+            colorTo: FF584510
+            sizeFrom: 11
+            sizeTo: 3
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 30
+            strokeFrom: 2
+            strokeTo: 0
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 28
+            lifetime: 40
+            interp: circleOut
+            offset: 30
+            length: 80
+            lightColor: FF5845FF
+            strokeFrom: 4
+            strokeTo: 0
+            lenFrom: 7
+            lenTo: 7
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+          {
+            type: ParticleEffect
+            particles: 25
+            length: 80
+            lifetime: 36
+            interp: pow5Out
+            cone: 360
+            colorFrom: FFC1BBFF
+            colorTo: FF584510
+            sizeFrom: 11
+            sizeTo: 3
+          }
+          {
+            type: WaveEffect
+            lifetime: 50
+            sizeFrom: 0
+            sizeTo: 30
+            strokeFrom: 2
+            strokeTo: 0
+            colorFrom: FF5845FF
+            colorTo: FF5845FF
+          }
+        ]
+      }
+      shootEffect: {
+        type: ParticleEffect
+        particles: 15
+        length: 80
+        lifetime: 36
+        interp: circleOut
+        cone: 20
+        colorFrom: FFC1BBFF
+        colorTo: FF5845FF
+        sizeFrom: 3
+        sizeTo: 0
+      }
+      homingRange: 100
+      homingPower: 0.00567
+      trailParam: 5
+      trailLength: 10
+      trailWidth: 3.5
+      trailEffect: none
+      trailColor: FF5845FF
+      backColor: FF5845FF
+      frontColor: FFC1BBFF
+    }
+  }
+]

@@ -1,0 +1,210 @@
+localizedName: Hurtle
+description: [purple] The dreadnaught class titan unit, this naval unit is quite durable and can take on large amounts of fire power, it is equipped with large gunners, two laser mounts and a large energy beam cannon that can cut through plastanium defense at long range
+research: zoom
+type: naval
+armor: 48
+drag: 0.17
+commandLimit: 12
+targetAir: true
+hitSize: 97
+health: 200000
+speed: 0.80
+accel: 0.11
+rotateSpeed: 0.8
+trailX: 27
+trailY: -50
+trailScl: 8
+trailLength: 95
+rotateShooting: false
+weapons: [
+  {
+    name: sap-art
+    top: true
+    mirror: true
+    alternate: true
+    y: 37
+    x: 17
+    shots: 3
+    rotate: true
+    rotateSpeed: 2
+    shootY: 5
+    inaccuracy: 2
+    reload: 37
+    recoil: 1
+    shake: 1
+    shootCone: 20
+    shotDelay: 5
+    ejectEffect: casing2
+    shootSound: bang
+    bullet: {
+      type: basicBulletType
+      hitEffect: blastExplosion
+      shootEffect: shootBig
+      despawnEffect: blastExplosion
+      splashDamage: 20
+      splashDamageRadius: 25
+      lifetime: 90
+      damage: 110
+      status: sapped
+      statusDuration: 100
+      speed: 4
+      width: 15
+      height: 15
+      backColor: 774ACFFF
+      frontColor: A170F4FF
+    }
+  }
+  {
+    name: sap-art
+    top: true
+    mirror: true
+    alternate: true
+    y: 17
+    x: 33
+    shots: 3
+    rotate: true
+    inaccuracy: 2
+    reload: 37
+    recoil: 1
+    shake: 1
+    shotDelay: 5
+    shootCone: 20
+    ejectEffect: casing2
+    shootSound: bang
+    bullet: {
+      type: basicBulletType
+      hitEffect: blastExplosion
+      shootEffect: shootBig
+      despawnEffect: blastExplosion
+      splashDamage: 20
+      splashDamageRadius: 25
+      lifetime: 90
+      damage: 110
+      status: sapped
+      statusDuration: 100
+      speed: 4
+      width: 15
+      height: 15
+      backColor: 774ACFFF
+      frontColor: A170F4FF
+    }
+  }
+  {
+    name: ergo-cannon
+    x: 0
+    y: -32
+    mirror: false
+    top: true
+    shake: 1
+    reload: 480
+    recoil: 2
+    rotate: true
+    shootY: 13
+    rotateSpeed: 1.9
+    soundPitchMin: 1.80
+    soundPitchMax: 2.05
+    shootSound: beam
+    continuous: true
+    cooldownTime: 390
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 80
+      length: 420
+      width: 5
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 30
+        length: 35
+        cone: -360
+        lenFrom: 20
+        lenTo: 0
+        colorFrom: FFFFFF
+        colorTo: A170F4FF
+      }
+      drawSize: 300
+      lifetime: 200
+      shake: 1
+      status: slow
+      statusDuration: 100
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 35
+        sizeFrom: 0
+        sizeTo: 55
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFF
+        colorTo: A170F4FF
+      }
+      despawnEffect: smokeCloud
+      smokeEffect: smokeCloud
+      colors: [
+        774ACFFF
+        A170F4FF
+        FFFFFF
+      ]
+      fragBullets: 1
+      fragCone: 360
+      fragBullet: {
+        type: ShrapnelBulletType
+        serrations: 1
+        status: melting
+        length: 52
+        width: 10
+        fromColor: FFFFFF
+        toColor: A170F4FF
+        damage: 50
+      }
+    }
+  }
+  {
+    name: Q-laser
+    top: true
+    mirror: true
+    alternate: false
+    y: -21
+    x: 42
+    rotate: true
+    rotateSpeed: 2.8
+    shots: 1
+    shootCone: 18
+    shootY: 13
+    reload: 60
+    recoil: 2
+    shake: 2
+    soundPitchMin: 0.80
+    soundPitchMax: 2.05
+    ejectEffect: none
+    shootSound: laser
+    bullet: {
+      type: LaserBulletType
+      length: 360
+      width: 18
+      damage: 230
+      knockback: -2
+      hitColor: 665C9FFF
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 35
+        sizeFrom: 0
+        sizeTo: 35
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFF
+        colorTo: A170F4FF
+      }
+      status: slow
+      statusDuration: 100
+      colors: [
+        774ACFFF
+        A170F4FF
+        FFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+]

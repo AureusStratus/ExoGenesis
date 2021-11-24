@@ -1,0 +1,140 @@
+localizedName: Asteroid
+controller: RepairAI
+type: flying
+canHeal: true
+description: [lime]The upgrade to the meteor, the asteroid is equiped with two healing bolters and a more powerful energy orb attack
+research: meteor
+lowAltitude: true
+speed: 1.9
+accel: 0.1
+drag: 0.1
+flying: true
+health: 520
+hitSize: 12
+armor: 2
+mineSpeed: 2
+buildSpeed: 1
+mineTier: 2
+itemCapacity: 40
+engineOffset: 7.8
+range: 100
+targetAir: true
+commandLimit: 8
+faceTarget: true
+weapons: [
+  {
+    name: heal-bolter
+    shootCone: 15
+    mirror: true
+    rotate: true
+    rotateSpeed: 3
+    alternate: true
+    x: 5
+    y: 1.8
+    reload: 25
+    recoil: 0.5
+    shootSound: sap
+    bullet: {
+      collidesTeam: true
+      healPercent: 1
+      shootEffect: shootHeal
+      hitEffect: hitMeltHeal
+      despawnEffect: shootHeal
+      type: LaserBoltBulletType
+      damage: 10
+      speed: 6
+      frontColor: 84F491FF
+      backColor: F2FFF3FF
+      lifetime: 35
+    }
+  }
+  {
+    name: asteroid-weapon
+    shootCone: 15
+    mirror: false
+    top: true
+    x: 0
+    y: 0
+    shootY: 2
+    reload: 38
+    firstShotDelay: 20
+    recoil: 0.5
+    shootSound: missile
+    bullet: {
+      shootEffect: {
+        type: MultiEffect
+        lifetime: 20
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 1
+            sizeTo: 5
+            length: 0
+            lifetime: 20
+            colorFrom: 84F491FF
+            colorTo: F2FFF3FF
+            cone: 360
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 15
+            lifetime: 23
+            length: 35
+            baseLength: -35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: 84F491FF
+            colorTo: F2FFF3FF
+          }
+        ]
+      }
+      keepVelocity: false
+      collidesTeam: true
+      healPercent: 5
+      type: basicBulletType
+      sprite: exogenesis-plasma
+      damage: 25
+      width: 7
+      height: 7
+      speed: 3.6
+      frontColor: 84F491FF
+      backColor: F2FFF3FF
+      trailChance: 1
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 15
+        sizeFrom: 7
+        region: exogenesis-plasma-back
+        colorFrom: 84F491FF
+        colorTo: 64CF8DAA
+      }
+      lifetime: 65
+      homingDelay: 5
+      homingPower: 0.00356
+      homingRange: 80
+      weaveScale: 5
+      weaveMag: 2
+      splashDamageRadius: 10
+      splashDamage: 10
+      lightningColor: 84F491FF
+      lightning: 3
+      lightningDamage: 8
+      lightningLength: 5
+      lightningCone: 360
+      lightningLengthRand: 8
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    range: 60
+    amount: 100
+    reload: 80
+  }
+]

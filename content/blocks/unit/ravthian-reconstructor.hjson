@@ -1,0 +1,118 @@
+type: Reconstructor
+localizedName: Ravthian Recontructor
+description: What did it cost?...
+size: 11
+constructTime: 3000
+consumes: {
+  power: 28
+  items: {
+    items: [
+      {
+        item: omega-blue
+        amount: 1000
+      }
+      {
+        item: alpha-yellow
+        amount: 1000
+      }
+      {
+        item: primal-red
+        amount: 1000
+      }
+      {
+        item: gamma-green
+        amount: 1000
+      }
+      {
+        item: osmium
+        amount: 1500
+      }
+      {
+        item: rutuxium
+        amount: 1000
+      }
+      {
+        item: phase-fabric
+        amount: 1720
+      }
+      {
+        item: silicon
+        amount: 1520
+      }
+      {
+        item: plastanium
+        amount: 2700
+      }
+    ]
+  }
+}
+requirements: [
+  {
+    item: phase-fabric
+    amount: 1250
+  }
+  {
+    item: osmium
+    amount: 1167
+  }
+  {
+    item: plastanium
+    amount: 1280
+  }
+  {
+    item: titanium
+    amount: 950
+  }
+  {
+    item: silicon
+    amount: 1200
+  }
+  {
+    item: surge-alloy
+    amount: 1280
+  }
+]
+upgrades: [
+  [
+    era
+    epoch
+  ]
+  [
+    zoom
+    hurtle
+  ]
+  [
+    b-sirius
+    b-rigel
+  ]
+  [
+    centauri
+    altair
+  ]
+  [
+    core
+    fusion
+  ]
+  [
+    organization
+    government
+  ]
+  [
+    5-prime
+    6-apex
+  ]
+  [
+    hostile
+    assault
+  ]
+  [
+    moon
+    earth
+  ]
+  [
+    disaccord
+    contention
+  ]
+]
+category: units
+research: hyperius-reconstructor

@@ -1,0 +1,34 @@
+localizedName: Phase Loom
+description: An upgrade of the Phase Weaver able to produce more Phase Fabric but requires more materials and uses a bit of Silicon in the process.
+type: GenericCrafter
+drawer: drawWeave
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 40
+craftTime: 180
+craftEffect: smeltsmoke
+updateEffect: none
+ambientSound: techloop
+ambientSoundVolume: 0.02
+consumes: {
+  power: 6
+  items: {
+    items: [
+      sand/10
+      thorium/14
+      silicon/6
+    ]
+  }
+}
+requirements: [
+  silicon/450
+  titanium/400
+  lead/300
+  osmium/700
+  thorium/300
+  phase-fabric/800
+]
+category: crafting
+research: phase-weaver
+outputItem: phase-fabric/6

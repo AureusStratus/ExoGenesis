@@ -1,0 +1,49 @@
+localizedName: Blitz
+description: [yellow]A rapidly firing triple barrel laser turret which can easily cut down enemies.
+type: PowerTurret
+size: 4
+health: 1000
+range: 240
+reloadTime: 17
+shootSound: laser
+rotateSpeed: 4
+shootCone: 20
+shootShake: 1.5
+cooldown: 0.03
+spread: 9
+alternate: true
+shots: 3
+targetAir: true
+targetGround: true
+heatColor: 5B4CB0FF
+recoilAmount: 2
+powerUse: 7
+shootType: {
+  type: LaserBulletType
+  colors: [
+    ECD36FAA
+    F3E979FF
+    FFFFFF
+  ]
+  length: 240
+  width: 20
+  damage: 125
+  collidesTiles: true
+  lightColor: F3E979FF
+  lightRadius: 10
+  shootEffect: shootHealYellow
+  smokeEffect: lancerLaserShootSmoke
+  sideAngle: 15
+  sideWidth: 0
+  sideLength: 0
+}
+requirements: [
+  oltuxium/450
+  thorium/400
+  osmium/800
+  surge-alloy/340
+  silicon/600
+  copper/430
+]
+category: turret
+research: lancer

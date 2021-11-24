@@ -1,0 +1,75 @@
+localizedName: Gamma Radiation Forge
+description: [#73FFAEFF]Uses extreme amounts of gamma radiation to irradiate and melt materials in to Gamma Alloy.
+type: GenericCrafter
+drawer: {
+  type: DrawSmelter
+  flameColor: B2FFD1FF
+}
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 30
+craftTime: 130
+craftEffect: {
+  type: WaveEffect
+  lifetime: 200
+  sizeFrom: 0
+  sizeTo: 40
+  strokeFrom: 3
+  strokeTo: 0
+  colorFrom: 73FFAEFF
+  colorTo: 73FFAEFF
+}
+updateEffect: none
+consumes: {
+  power: 2
+  items: {
+    items: [
+      {
+        item: copper
+        amount: 3
+      }
+      {
+        item: titanium
+        amount: 4
+      }
+      {
+        item: lead
+        amount: 4
+      }
+      {
+        item: valvanite
+        amount: 5
+      }
+    ]
+  }
+}
+requirements: [
+  {
+    item: silicon
+    amount: 160
+  }
+  {
+    item: plastanium
+    amount: 160
+  }
+  {
+    item: thorium
+    amount: 140
+  }
+  {
+    item: titanium
+    amount: 160
+  }
+  {
+    item: valvanite
+    amount: 640
+  }
+]
+category: crafting
+research: alloy-smelter
+outputItem: {
+  item: gamma-green
+  amount: 2
+}

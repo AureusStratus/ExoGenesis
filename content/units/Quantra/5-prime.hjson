@@ -1,0 +1,296 @@
+localizedName: Prime
+description: [acid] The prime is a giant of a naval unit, it is equipped with powerful guns that shots bullets that are capable of piercing through structures, along with a giga lasers and four plasma panuchers. it also has the ability to heal friendly units
+research: 4-helios
+type: naval
+armor: 18
+drag: 0.17
+commandLimit: 10
+targetAir: true
+hitSize: 82
+health: 12800
+speed: 0.76
+accel: 0.11
+rotateSpeed: 0.9
+trailX: 23
+trailY: -20
+trailScl: 5
+trailLength: 55
+rotateShooting: false
+buildSpeed: 4.8
+buildBeamOffset: 48
+ammoCapacity: 1200
+ammoResupplyAmount: 20
+weapons: [
+  {
+    name: prime-gauss
+    top: true
+    mirror: true
+    alternate: true
+    y: -5
+    x: 18
+    shots: 1
+    rotate: true
+    rotateSpeed: 2
+    shootY: 15
+    reload: 35
+    recoil: 2.3
+    shake: 2
+    shootCone: 20
+    ejectEffect: casing2
+    shootSound: artillery
+    bullet: {
+      type: basicBulletType
+      hitEffect: plasticExplosion
+      shootEffect: shootBig2
+      despawnEffect: plasticExplosion
+      pierce: false
+      pierceCap: 1
+      pierceBuilding: true
+      buildingDamageMultiplier: 0.62
+      lifetime: 70
+      damage: 280
+      status: corroded
+      statusDuration: 100
+      speed: 6
+      width: 13
+      height: 18
+      backColor: 77D336FF
+      frontColor: C2FF70FF
+      fragBullets: 5
+      fragBullet: {
+        type: BasicBulletType
+        sprite: large-bomb
+        status: melting
+        buildingDamageMultiplier: 0.62
+        collidesTiles: false
+        collidesGround: true
+        collidesAir: false
+        height: 10
+        width: 10
+        shrinkX: 0
+        shrinkY: 0
+        spin: 8
+        lifetime: 20
+        speed: 2.5
+        damage: 20
+        splashDamage: 130
+        splashDamageRadius: 90
+        hitEffect: plasticExplosion
+        despawnEffect: plasticExplosion
+        frontColor: FFFFFF
+        backColor: CEFF73FF
+      }
+    }
+  }
+  {
+    name: prime-apec
+    mirror: true
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    top: true
+    y: 21
+    x: 21
+    shots: 1
+    reload: 38
+    shootSound: missile
+    recoil: 0.5
+    bullet: {
+      type: basicBulletType
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        length: 35
+        cone: -360
+        lenFrom: 20
+        lenTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      damage: 180
+      sprite: exogenesis-plasma
+      speed: 4
+      width: 8
+      height: 8
+      buildingDamageMultiplier: 0.4
+      frontColor: FFFFFFFF
+      backColor: C2FF70FF
+      trailChance: 1
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 20
+        sizeFrom: 7
+        region: exogenesis-plasma
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      lifetime: 125
+      homingPower: 0.00645
+      homingRange: 80
+      splashDamageRadius: 30
+      splashDamage: 20
+    }
+  }
+  {
+    name: prime-apec
+    mirror: true
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    top: true
+    y: -29
+    x: 25
+    shots: 1
+    reload: 38
+    shootSound: missile
+    recoil: 0.5
+    bullet: {
+      type: basicBulletType
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        length: 35
+        cone: -360
+        lenFrom: 20
+        lenTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      damage: 180
+      sprite: exogenesis-plasma
+      speed: 4
+      width: 8
+      height: 8
+      buildingDamageMultiplier: 0.4
+      frontColor: FFFFFFFF
+      backColor: C2FF70FF
+      trailChance: 1
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 20
+        sizeFrom: 7
+        region: exogenesis-plasma
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      lifetime: 125
+      homingPower: 0.00645
+      homingRange: 80
+      splashDamageRadius: 30
+      splashDamage: 20
+    }
+  }
+  {
+    name: prime-laser
+    x: 0
+    y: -21
+    mirror: false
+    top: true
+    shake: 1
+    reload: 340
+    recoil: 2
+    rotate: true
+    shootY: 14
+    rotateSpeed: 1.9
+    shootSound: beam
+    continuous: true
+    cooldownTime: 390
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 80
+      length: 220
+      width: 5
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        offset: 6
+        length: 35
+        cone: -360
+        lenFrom: 10
+        lenTo: 3
+        colorFrom: FFFFFFFF
+        colorTo: C2FF70FF
+      }
+      drawSize: 320
+      lifetime: 200
+      shake: 1
+      despawnEffect: smokeCloud
+      smokeEffect: smokeCloud
+      buildingDamageMultiplier: 1
+      status: corroded
+      statusDuration: 100
+      colors: [
+        77D336FF
+        C2FF70FF
+        FFFFFFFF
+      ]
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 50
+        sizeTo: 0
+        strokeFrom: 0
+        strokeTo: 2
+        colorFrom: C2FF70FF
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    range: 260
+    amount: 800
+    reload: 280
+  }
+]

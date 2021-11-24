@@ -1,0 +1,106 @@
+name: King
+description: [orange]An assault mech built to destroy and attack. Equipped with powerful meltdown weapons that can make quick work of structures and enemies also is equip with shock gunners.
+research: {
+  parent: reign
+  requirements: [
+    graphite/1220
+    surge-alloy/1000
+    plastanium/940
+    phase-fabric/850
+    copper/1240
+    lead/1240
+    silicon/1300
+  ]
+}
+type: mech
+lightRadius: 200
+armor: 35
+rotateSpeed: 1.4
+canDrown: false
+hitSize: 40
+mechFrontSway: 0.8
+mechSideSway: 1
+commandLimit: 8
+mechStepParticles: true
+mechStepShake: 1.8
+singleTarget: true
+speed: 0.30
+health: 78600
+range: 250
+immunities: [
+  melting
+  blasted
+  burning
+  slow
+]
+weapons: [
+  {
+    name: king-weapon
+    x: 26
+    y: 0
+    reload: 200
+    alternate: false
+    top: false
+    rotate: true
+    recoil: 1.5
+    rotateSpeed: 1.0
+    shootY: 26
+    shots: 1
+    shake: 1
+    cooldownTime: 200
+    shootSound: beam
+    ejectEffect: none
+    chargeSound: lasercharge2
+    continuous: true
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 50
+      width: 7
+      length: 250
+      drawSize: 470
+      lifetime: 280
+      shake: 0.5
+      despawnEffect: smokeCloud
+      smokeEffect: smokeCloud
+      status: melting
+      statusDuration: 50
+      incendChance: 0.2
+      hitEffect: hitMeltdown
+      shootEffect: bigShockwave
+    }
+  }
+  {
+    name: tyrant-gunner
+    shootCone: 15
+    mirror: true
+    alternate: true
+    rotateSpeed: 3
+    rotate: true
+    shootY: 8
+    x: 16
+    y: -6
+    reload: 30
+    recoil: 4
+    ejectEffect: casing2
+    shootSound: shootBig
+    shots: 3
+    shake: 1
+    shotDelay: 4
+    bullet: {
+      knockback: 1
+      lightning: 4
+      lightningDamage: 10
+      lightningLength: 3
+      lightningLengthRand: 6
+      type: basicBulletType
+      hitEffect: blastExplosion
+      shootEffect: shootBig2
+      despawnEffect: blastExplosion
+      lifetime: 70
+      damage: 80
+      speed: 4
+      width: 10
+      height: 8
+    }
+  }
+]

@@ -1,0 +1,135 @@
+type: PowerTurret
+researchCostMultiplier: 0.1
+description: [purple]Fires purple plasma balls at enemies
+localizedName: Purtux
+size: 1
+health: 240
+reloadTime: 38
+range: 200
+maxAmmo: 48
+inaccuracy: 1
+shots: 1
+targetAir: true
+targetGround: true
+shootCone: 0.08
+recoilAmount: 1
+restitution: 0.06
+rotateSpeed: 5
+shootSound: sap
+powerUse: 1
+hasPower: true
+shootType: {
+  type: BasicBulletType
+  sprite: circle-bullet
+  absorbable: true
+  shrinkY: 0
+  shrinkX: 0
+  speed: 3
+  lifetime: 100
+  damage: 10
+  height: 7
+  width: 7
+  homingDelay: 2
+  homingPower: 0.0356
+  homingRange: 80
+  weaveScale: 3
+  weaveMag: 3
+  trailLength: 10
+  trailWidth: 3
+  trailParam: 5
+  trailColor: A170F4FF
+  trailChance: 0.4
+  trailEffect: {
+    type: multiEffect
+    lifetime: 120
+    effects: [
+      {
+        type: ParticleEffect
+        particles: 1
+        sizeFrom: 3.3
+        sizeTo: 0
+        length: 3
+        baseLength: 3
+        lifetime: 18
+        region: exogenesis-rune2
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      {
+        type: ParticleEffect
+        particles: 1
+        sizeFrom: 3.2
+        sizeTo: 0
+        length: 3
+        baseLength: 3
+        lifetime: 18
+        region: exogenesis-rune3
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      {
+        particles: 1
+        sizeFrom: 3.1
+        sizeTo: 0
+        length: 3
+        baseLength: 3
+        lifetime: 18
+        region: exogenesis-rune4
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      {
+        particles: 1
+        sizeFrom: 2.9
+        sizeTo: 0
+        length: 3
+        baseLength: 3
+        lifetime: 18
+        region: exogenesis-rune5
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      {
+        particles: 1
+        sizeFrom: 2.7
+        sizeTo: 0
+        length: 3
+        baseLength: 3
+        lifetime: 18
+        region: exogenesis-rune6
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+    ]
+  }
+  hitEffect: {
+    type: WaveEffect
+    lifetime: 25
+    sizeFrom: 0
+    sizeTo: 15
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: 774ACFFF
+    colorTo: A170F4FF
+  }
+  despawnEffect: {
+    type: WaveEffect
+    lifetime: 25
+    sizeFrom: 0
+    sizeTo: 15
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: 774ACFFF
+    colorTo: A170F4FF
+  }
+  splashDamage: 10
+  splashDamageRadius: 10
+  frontColor: FFFFFFF
+  backColor: A170F4FF
+}
+requirements: [
+  silicon/17
+  lead/134
+]
+category: turret
+research: duo

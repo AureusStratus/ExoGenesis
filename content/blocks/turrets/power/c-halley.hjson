@@ -1,0 +1,152 @@
+type: PowerTurret
+description: [cyan]A power-based energy turret that can shoot large homing energy comets.
+localizedName: Halley
+size: 4
+health: 1600
+reloadTime: 70
+range: 300
+shots: 1
+targetAir: true
+targetGround: true
+shootCone: 2
+spread: 1
+recoilAmount: 2
+restitution: 0.04
+rotateSpeed: 4
+shootSound: laser
+powerUse: 7
+chargeTime: 25
+chargeEffects: 1
+chargeEffect: {
+  type: ParticleEffect
+  line: true
+  particles: 15
+  lifetime: 25
+  length: 55
+  cone: -360
+  lenFrom: 0
+  lenTo: 5
+  colorFrom: 66B1FFFF
+  colorTo: A9D8FFFF
+}
+chargeBeginEffect: {
+  type: ParticleEffect
+  particles: 1
+  sizeFrom: 1
+  sizeTo: 5
+  length: 0
+  lifetime: 25
+  colorFrom: 66B1FFFF
+  colorTo: A9D8FFFF
+  cone: 360
+}
+shootType: {
+  type: basicBulletType
+  sprite: circle-bullet
+  status: freezing
+  speed: 4
+  lifetime: 100
+  damage: 685
+  shrinkY: 0
+  shrinkX: 0
+  height: 15
+  width: 15
+  hitEffect: {
+    type: multiEffect
+    effects: [
+      {
+        type: ParticleEffect
+        particles: 20
+        length: 40
+        lifetime: 36
+        interp: circleOut
+        cone: 30
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+        sizeFrom: 6.5
+        sizeTo: 0
+      }
+      {
+        type: ParticleEffect
+        line: true
+        particles: 19
+        lifetime: 20
+        length: 75
+        cone: -360
+        lenFrom: 8
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 50
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+    ]
+  }
+  despawnEffect: {
+    type: multiEffect
+    effects: [
+      {
+        type: ParticleEffect
+        particles: 20
+        length: 40
+        lifetime: 36
+        interp: circleOut
+        cone: 30
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+        sizeFrom: 6.5
+        sizeTo: 0
+      }
+      {
+        type: ParticleEffect
+        line: true
+        particles: 19
+        lifetime: 20
+        length: 75
+        cone: -360
+        lenFrom: 8
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      {
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 50
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+    ]
+  }
+  trailEffect: none
+  trailColor: 66B1FFFF
+  trailParam: 3
+  trailLength: 13
+  trailWidth: 5
+  homingRange: 200
+  homingPower: 0.0567
+  splashDamageRadius: 54
+  splashDamage: 26
+  frontColor: A9D8FFFF
+  backColor: 66B1FFFF
+}
+requirements: [
+  astrolite/470
+  thorium/340
+  surge-alloy/430
+  osmium/360
+  silicon/430
+]
+category: turret
+research: c-stellar

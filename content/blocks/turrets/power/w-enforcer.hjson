@@ -1,0 +1,89 @@
+type: PowerTurret
+researchCostMultiplier: 0.3
+localizedName: Enforcer
+description: [white]A powerful energy turret that rapidly fires point bullets dealing massive damage
+size: 3
+health: 360
+range: 500
+shots: 3
+burstSpacing: 10
+reloadTime: 25
+inaccuracy: 3
+targetAir: true
+targetGround: true
+shootCone: 45
+spread: 8
+recoilAmount: 2
+shootShake: 1
+restitution: 0.05
+shootSound: laser
+hasPower: true
+powerUse: 18
+shootType: {
+  type: pointBulletType
+  damage: 50
+  lightningColor: bbdefb
+  lightning: 8
+  lightningLength: 10
+  lightningDamage: 15
+  ammoMultiplier: 3
+  speed: 500
+  trailSpacing: 20
+  collidesTiles: true
+  buildingDamageMultiplier: 1
+  trailColor: 90caf9
+  trailEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    lifetime: 35
+    sizeFrom: 20
+    region: exogenesis-wide
+    colorFrom: bbdefb
+    colorTo: 90caf9
+  }
+  despawnEffect: {
+    type: WaveEffect
+    lifetime: 35
+    sizeFrom: 0
+    sizeTo: 45
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bbdefb
+    colorTo: 90caf9
+  }
+  hitEffect: {
+    type: WaveEffect
+    lifetime: 35
+    sizeFrom: 0
+    sizeTo: 45
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: bbdefb
+    colorTo: 90caf9
+  }
+}
+requirements: [
+  {
+    item: titanium
+    amount: 400
+  }
+  {
+    item: osmium
+    amount: 800
+  }
+  {
+    item: lead
+    amount: 300
+  }
+  {
+    item: plastanium
+    amount: 250
+  }
+  {
+    item: silicon
+    amount: 490
+  }
+]
+category: turret
+research: w-guard

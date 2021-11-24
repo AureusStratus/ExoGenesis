@@ -1,0 +1,268 @@
+localizedName: Anomaly
+description: [purple]A prototype unit created by the Purtuxians the aid in on going galactic war. Equipped with long ranged assault weapons that use dark matter to fire devastating projectiles that have anomalous effects, also has two energy gunners at the front to aid in closer combat. Can apply a status to nearby allies
+details: This unit holds dangerous tech.
+research: assembly
+groundLayer: 75
+lightRadius: 145
+lightColor: A170F4FF
+range: 600
+maxRange: 600
+type: legs
+speed: 0.37
+hitSize: 55
+mineSpeed: 8.5
+mineTier: 4
+buildSpeed: 4.5
+itemCapacity: 200
+health: 56700
+armor: 16
+drag: 0.2
+flying: false
+targetAir: true
+rotateSpeed: 1.5
+legCount: 4
+legMoveSpace: 1.1
+legLength: 32
+legBaseOffset: 26
+legTrns: 0.62
+landShake: 1.0
+legSpeed: 0.01
+rippleScale: 3.5
+legSplashDamage: 56
+legSplashRange: 30
+visualElevation: 0.75
+allowLegStep: true
+hovering: true
+immunities: [
+  slow
+  sapped
+  blasted
+]
+weapons: [
+  {
+    name: anomaly-bolter
+    reload: 15
+    mirror: true
+    alternate: true
+    x: 10
+    y: 0
+    shootY: 6
+    recoil: 1.5
+    shake: 1
+    cooldownTime: 40
+    heatColor: A9D8FFFF
+    rotate: true
+    shots: 1
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      sprite: exogenesis-armored-bullet
+      lightColor: A9D8FFFF
+      shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 14
+        lifetime: 15
+        offset: 20
+        length: 35
+        cone: 30
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A170F4FF
+        colorTo: A170F4FF
+      }
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 25
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: A170F4FF
+            colorTo: A170F4FF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A170F4FF
+            colorTo: A170F4FF
+          }
+        ]
+      }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 25
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: A170F4FF
+            colorTo: A170F4FF
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 10
+            lifetime: 10
+            offset: 20
+            length: 35
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A170F4FF
+            colorTo: A170F4FF
+          }
+        ]
+      }
+      trailEffect: none
+      width: 15
+      height: 25
+      lightning: 3
+      lightRadius: 30
+      status: sapped
+      statusDuration: 80
+      lightningColor: A170F4FF
+      lightningDamage: 18
+      lightningLength: 10
+      lightningCone: 360
+      lightningLengthRand: 1
+      type: BasicBulletType
+      damage: 120
+      speed: 6
+      frontColor: A170F4FF
+      backColor: 774ACFFF
+      lifetime: 80
+    }
+  }
+  {
+    name: anomaly-rifle
+    reload: 300
+    mirror: true
+    alternate: true
+    x: 21
+    y: -18
+    shootY: 43
+    recoil: 4.5
+    shake: 1
+    rotate: true
+    rotateSpeed: 1
+    shots: 1
+    shootSound: railgun
+    shootCone: 45
+    bullet: {
+      type: RailBulletType
+      damage: 2570
+      length: 600
+      status: {
+        name: anomaly
+        localizedName: Anomaly
+        description: You are being overcharged with neutron star energy.
+        speedMultiplier: 0.35
+        damageMultiplier: 0.35
+        reloadMultiplier: 0.75
+        effect: {
+          type: ParticleEffect
+          particles: 1
+          lifetime: 20
+          length: 35
+          cone: -360
+          spin: 4
+          region: exogenesis-tall
+          sizeFrom: 5
+          sizeTo: 0
+          colorFrom: A170F4FF
+          colorTo: 774ACFFF
+        }
+      }
+      statusDuration: 300
+      ammoMultiplier: 3
+      pierce: true
+      pierceBuilding: true
+      pierceDamageFactor: 0.08
+      collidesAir: true
+      collidesGround: true
+      collidesTiles: true
+      updateEffectSeg: 1
+      updateEffect: {
+        type: ParticleEffect
+        particles: 1
+        lifetime: 34
+        length: 0
+        cone: -360
+        region: exogenesis-wavee-back
+        sizeFrom: 26
+        sizeTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      pierceEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 12
+        offset: 10
+        lifetime: 14
+        length: 35
+        cone: -360
+        lenFrom: 6
+        lenTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+      hitEffect: massiveExplosion
+    }
+  }
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+    activeEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 20
+      offset: 20
+      lifetime: 14
+      length: 55
+      cone: -360
+      lenFrom: 6
+      lenTo: 0
+      colorFrom: A170F4FF
+      colorTo: 774ACFFF
+    }
+    effect: {
+      name: assistance
+      localizedName: Assistance
+      description: You are being overcharged with neutron star energy.
+      speedMultiplier: 1.35
+      damageMultiplier: 1.35
+      reloadMultiplier: 1.75
+      effect: {
+        type: ParticleEffect
+        line: true
+        particles: 5
+        lifetime: 10
+        length: 35
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A170F4FF
+        colorTo: 774ACFFF
+      }
+    }
+    range: 145
+    reload: 500
+    duration: 240
+  }
+]

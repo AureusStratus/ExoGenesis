@@ -1,0 +1,90 @@
+type: Reconstructor
+localizedName: Helixian Reconstructor
+description: Upgrades otherworldly units in to there second tier.
+size: 3
+constructTime: 600
+consumes: {
+  power: 8
+  items: {
+    items: [
+      {
+        item: silicon
+        amount: 80
+      }
+      {
+        item: graphite
+        amount: 120
+      }
+      {
+        item: osmium
+        amount: 80
+      }
+    ]
+  }
+}
+requirements: [
+  {
+    item: osmium
+    amount: 250
+  }
+  {
+    item: silicon
+    amount: 240
+  }
+  {
+    item: graphite
+    amount: 180
+  }
+  {
+    item: lead
+    amount: 160
+  }
+]
+upgrades: [
+  [
+    decade
+    century
+  ]
+  [
+    speed
+    agility
+  ]
+  [
+    meteor
+    asteroid
+  ]
+  [
+    a-orion
+    b-galileo
+  ]
+  [
+    majoris
+    gacrux
+  ]
+  [
+    sol
+    corona
+  ]
+  [
+    heat
+    molten
+  ]
+  [
+    1-arco
+    2-falx
+  ]
+  [
+    rule
+    law
+  ]
+  [
+    challenge
+    disrespect
+  ]
+  [
+    conflict
+    dispute
+  ]
+]
+category: units
+research: additive-reconstructor

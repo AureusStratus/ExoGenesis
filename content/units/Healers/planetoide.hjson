@@ -1,0 +1,184 @@
+localizedName: Planetoide
+type: payload
+canHeal: true
+controller: repairAI
+description: [lime]The upgrade to the comet, the planetoide is equipped with four healing lasers and it can pick up larger and more heavy payloads, thanks to its anti gravity tractor
+research: comet
+lowAltitude: true
+speed: 0.8
+accel: 0.1
+drag: 0.02
+flying: true
+health: 6320
+hitSize: 38
+payloadCapacity: 2184
+armor: 10
+mineSpeed: 3.2
+buildSpeed: 1.8
+mineTier: 4
+itemCapacity: 160
+engineOffset: 21
+engineSize: 5.6
+range: 180
+targetAir: true
+commandLimit: 8
+faceTarget: true
+weapons: [
+  {
+    name: nuba-weapon
+    shootCone: 15
+    alternate: true
+    mirror: true
+    rotate: true
+    rotateSpeed: 2
+    top: true
+    x: 18
+    y: 6.5
+    reload: 30
+    shootSound: laser
+    recoil: 1
+    shots: 1
+    bullet: {
+      collidesTeam: true
+      healPercent: 2
+      type: LaserBulletType
+      length: 100
+      width: 10
+      damage: 60
+      hitEffect: hitMeltHeal
+      shootEffect: hitMeltHeal
+      colors: [
+        64CF8DFF
+        84F491FF
+        F2FFF3FF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+  {
+    name: nuba-weapon
+    shootCone: 15
+    alternate: true
+    mirror: true
+    rotate: true
+    rotateSpeed: 2
+    top: true
+    x: 18
+    y: -7.5
+    reload: 30
+    shootSound: laser
+    recoil: 1
+    shots: 1
+    bullet: {
+      collidesTeam: true
+      healPercent: 2
+      type: LaserBulletType
+      length: 100
+      width: 10
+      damage: 60
+      hitEffect: hitMeltHeal
+      shootEffect: hitMeltHeal
+      colors: [
+        64CF8DFF
+        84F491FF
+        F2FFF3FF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+  {
+    name: planetoide-weapon
+    shootCone: 15
+    mirror: false
+    top: true
+    x: 0
+    y: 0
+    shootY: 0
+    reload: 98
+    firstShotDelay: 28
+    recoil: 0.5
+    shootSound: laser
+    bullet: {
+      hitEffect: healWave
+      despawnEffect: healWave
+      shootEffect: {
+        type: MultiEffect
+        lifetime: 20
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 1
+            sizeTo: 9
+            length: 0
+            lifetime: 28
+            colorFrom: 84F491FF
+            colorTo: F2FFF3FF
+            cone: 360
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 15
+            lifetime: 23
+            length: 35
+            baseLength: -35
+            cone: -360
+            lenFrom: 14
+            lenTo: 0
+            colorFrom: 84F491FF
+            colorTo: F2FFF3FF
+          }
+        ]
+      }
+      keepVelocity: false
+      collidesTeam: true
+      healPercent: 8
+      type: basicBulletType
+      sprite: exogenesis-plasma
+      damage: 75
+      width: 16
+      height: 16
+      speed: 3.2
+      frontColor: 84F491FF
+      backColor: F2FFF3FF
+      trailChance: 1
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 20
+        sizeFrom: 16
+        region: exogenesis-plasma-back
+        colorFrom: 84F491FF
+        colorTo: 64CF8DAA
+      }
+      lifetime: 95
+      homingDelay: 10
+      homingPower: 0.00556
+      homingRange: 90
+      weaveScale: 5
+      weaveMag: 3
+      splashDamageRadius: 20
+      splashDamage: 30
+      lightningColor: 84F491FF
+      lightning: 4
+      lightningDamage: 28
+      lightningLength: 5
+      lightningCone: 360
+      lightningLengthRand: 8
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    range: 90
+    amount: 400
+    reload: 108
+  }
+]

@@ -1,0 +1,341 @@
+localizedName: Oort
+description: [cyan]Fires a barrage of asteroids at enemies dealing massive damage to units and structures. Equipped with cold laser weapons. Heale nearby allies with healing pulse and repair weapons.
+research: {
+  parent: b-kuiper
+  requirements: [
+    astrolite/500
+    plastanium/400
+    lead/640
+    silicon/800
+  ]
+}
+groundLayer: 75
+drawShields: false
+type: legs
+speed: 0.37
+hitSize: 52
+health: 12000
+faceTarget: true
+armor: 12
+drag: 0.2
+range: 180
+flying: false
+targetAir: true
+rotateSpeed: 1.5
+legCount: 4
+legMoveSpace: 1.1
+legLength: 18.5
+legBaseOffset: 16
+legTrns: 0.62
+landShake: 1.0
+legSpeed: 0.001
+rippleScale: 2.8
+legSplashDamage: 56
+legSplashRange: 30
+visualElevation: 0.75
+allowLegStep: true
+hovering: true
+immunities: [
+  burning
+  melting
+  freezing
+]
+weapons: [
+  {
+    name: oort-laser
+    reload: 29
+    alternate: true
+    mirror: true
+    x: 18
+    y: 12
+    shootY: 9
+    recoil: 3
+    shake: 1
+    rotateSpeed: 2
+    rotate: true
+    shots: 1
+    shootSound: laser
+    shootCone: 45
+    bullet: {
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 7
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+      type: LaserBulletType
+      length: 200
+      width: 20
+      damage: 100
+      lightColor: A9D8FFFF
+      hitEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 15
+        lifetime: 20
+        offset: 50
+        length: 55
+        cone: -360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: A9D8FFFF
+        colorTo: 66B1FFFF
+      }
+      colors: [
+        66B1FFFF
+        A9D8FFFF
+        FFFFFF
+      ]
+      sideAngle: 25
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    mirror: true
+    alternate: false
+    rotateSpeed: 3
+    name: oort-repairer-weapon
+    x: 25
+    y: -6
+    shootY: 8
+    reload: 1
+    recoil: 0
+    shake: 1
+    rotate: true
+    shootSound: laser
+    controllable: false
+    autoTarget: true
+    beamWidth: 0.9
+    laserColor: 66B1FFFF
+    pulseRadius: 6
+    pulseStroke: 2
+    repairSpeed: 1.75
+    bullet: {
+      shootEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 7
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+      maxRange: 260
+    }
+  }
+  {
+    name: oort-weapon
+    x: 0
+    y: 0
+    mirror: false
+    top: false
+    shake: 4
+    shootY: 7
+    shots: 8
+    velocityRnd: 0.22
+    inaccuracy: 10
+    shootStatus: unmoving
+    shootStatusDuration: 120
+    reload: 400
+    cooldownTime: 390
+    recoil: 0
+    firstShotDelay: 90
+    soundPitchMin: 1
+    chargeSound: lasercharge
+    shootSound: coolplasmaboom
+    bullet: {
+      keepVelocity: false
+      shootEffect: {
+        type: multiEffect
+        lifetime: 80
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 15
+            lifetime: 80
+            offset: 50
+            length: 85
+            baseLength: -85
+            cone: 360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 2
+            sizeTo: 39
+            length: 0
+            spin: 10
+            lifetime: 90
+            region: exogenesis-wide
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 2
+            sizeTo: 34
+            length: 0
+            spin: -10
+            lifetime: 90
+            region: exogenesis-tall
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: ParticleEffect
+            particles: 1
+            sizeFrom: 1
+            sizeTo: 14
+            length: 0
+            lifetime: 90
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+            cone: 360
+          }
+          {
+            type: WaveEffect
+            lifetime: 85
+            sizeFrom: 75
+            sizeTo: 0
+            strokeFrom: 0
+            strokeTo: 6
+            colorFrom: 66B1FFFF
+            colorTo: A9D8FFFF
+          }
+        ]
+      }
+      type: EmpBulletType
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 15
+            lifetime: 20
+            offset: 50
+            length: 55
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 56
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: A9D8FFFF
+          }
+        ]
+      }
+      despawnEffect: {
+        type: multiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            line: true
+            particles: 15
+            lifetime: 20
+            offset: 50
+            length: 55
+            cone: -360
+            lenFrom: 5
+            lenTo: 0
+            colorFrom: A9D8FFFF
+            colorTo: 66B1FFFF
+          }
+          {
+            type: WaveEffect
+            lifetime: 35
+            sizeFrom: 0
+            sizeTo: 56
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: 66B1FFFF
+            colorTo: A9D8FFFF
+          }
+        ]
+      }
+      spin: 3
+      sprite: exogenesis-asteroid-bullet
+      trailColor: 66B1FFFF
+      trailEffect: none
+      trailLength: 16
+      trailWidth: 3
+      lifetime: 100
+      hitPowerEffect: none
+      chainEffect: none
+      applyEffect: none
+      buildingDamageMultiplier: 0.2
+      splashDamage: 100
+      splashDamageRadius: 80
+      homingPower: 0.00968
+      homingRange: 50
+      damage: 320
+      shrinkY: 0
+      shrinkX: 0
+      radius: 80
+      timeIncrease: 0
+      powerDamageScl: 0.001
+      powerSclDecrease: 0.001
+      unitDamageScl: 0.9
+      status: blasted
+      statusDuration: 100
+      lightColor: 66B1FFFF
+      speed: 5
+      width: 21
+      height: 21
+      frontColor: FFFFFFFF
+      backColor: 66B1FFFF
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.RepairFieldAbility
+    activeEffect: {
+      type: WaveEffect
+      lifetime: 25
+      sizeFrom: 0
+      sizeTo: 120
+      strokeFrom: 10
+      strokeTo: 0
+      colorFrom: A9D8FFFF
+      colorTo: A9D8FFFF
+    }
+    healEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 15
+      lifetime: 20
+      offset: 50
+      length: 45
+      cone: -360
+      lenFrom: 5
+      lenTo: 0
+      colorFrom: FFFFFF
+      colorTo: A9D8FFFF
+    }
+    range: 120
+    amount: 485
+    reload: 280
+  }
+]

@@ -1,0 +1,62 @@
+type: Reconstructor
+localizedName: Auvathia Recontructor
+description: Upgrades units to the titan tier.
+size: 14
+constructTime: 6000
+consumes: {
+  power: 58
+  items: {
+    items: [
+      primal-red/2000
+      gamma-green/2000
+      alpha-yellow/2000
+      omega-blue/2000
+      rutuxium/2000
+      titanium/3600
+      plastanium/3320
+      silicon/4420
+      xanium/2230
+      surge-alloy/3570
+      osmium/3800
+    ]
+  }
+}
+requirements: [
+  surge-alloy/2130
+  jupiteium/3020
+  thorium/2420
+  plastanium/2130
+  titanium/3020
+  xanium/4120
+  silicon/3530
+  graphite/5670
+  lead/4000
+]
+upgrades: [
+  [
+    fusion
+    collapse
+  ]
+  [
+    b-rigel
+    betelgeuse
+  ]
+  [
+    altair
+    universalis
+  ]
+  [
+    epoch
+    eternity
+  ]
+  [
+    contention
+    battle
+  ]
+  [
+    assault
+    bloodshed
+  ]
+]
+category: units
+research: ravthian-reconstructor

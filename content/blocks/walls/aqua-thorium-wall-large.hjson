@@ -1,0 +1,12 @@
+type: Wall
+description: Protects structures from enemy projectiles. Used for deep water defense
+localizedName: Large Aqua Thorium Wall
+health: 3200
+placeableLiquid: true
+size: 2
+requirements: [
+  metaglass/24
+  thorium/24
+]
+category: defense
+research: aqua-thorium-wall

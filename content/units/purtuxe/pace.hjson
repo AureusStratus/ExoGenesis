@@ -1,0 +1,121 @@
+localizedName: Pace
+description: [purple]The pace is a durable unit that is equipped with four orb cannons, that it can fire at long ranges
+research: agility
+type: naval
+speed: 1
+armor: 9
+drag: 0.17
+targetAir: true
+hitSize: 26
+health: 2160
+accel: 0.2
+rotateSpeed: 1.9
+trailX: 7
+trailY: -9
+trailScl: 1.5
+trailLength: 20
+rotateShooting: false
+weapons: [
+  {
+    name: orb-blaster
+    top: true
+    mirror: true
+    y: 4
+    x: 6
+    rotate: true
+    rotateSpeed: 1.8
+    reload: 60
+    recoil: 1
+    shake: 0.5
+    ejectEffect: casing2
+    shootSound: lasershoot
+    bullet: {
+      sprite: exogenesis-plasma
+      type: basicBulletType
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 25
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 774ACFFF
+        colorTo: A170F4FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 25
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 774ACFFF
+        colorTo: A170F4FF
+      }
+      knockback: 0.8
+      lifetime: 140
+      damage: 40
+      status: sapped
+      statusDuration: 80
+      speed: 2.6
+      width: 14
+      height: 14
+      splashDamageRadius: 34
+      splashDamage: 35
+      trailColor: 774ACFFF
+      backColor: 774ACFFF
+      frontColor: A170F4FF
+    }
+  }
+  {
+    name: orb-blaster
+    top: true
+    mirror: true
+    y: -7
+    x: 7.8
+    rotate: true
+    rotateSpeed: 1.8
+    reload: 60
+    recoil: 1
+    shake: 0.5
+    ejectEffect: casing2
+    shootSound: lasershoot
+    bullet: {
+      sprite: exogenesis-plasma
+      type: basicBulletType
+      hitEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 25
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 774ACFFF
+        colorTo: A170F4FF
+      }
+      despawnEffect: {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 25
+        strokeFrom: 4
+        strokeTo: 0
+        colorFrom: 774ACFFF
+        colorTo: A170F4FF
+      }
+      knockback: 0.8
+      lifetime: 140
+      damage: 40
+      status: sapped
+      statusDuration: 80
+      speed: 2.6
+      width: 14
+      height: 14
+      splashDamageRadius: 34
+      splashDamage: 35
+      trailColor: 774ACFFF
+      backColor: 774ACFFF
+      frontColor: A170F4FF
+    }
+  }
+]
