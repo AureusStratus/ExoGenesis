@@ -22,7 +22,7 @@
     "powerUse": 18,
     "shootType": {
 	"type" : "pointBulletType",
-	"damage": 50,
+	"damage": 30,
 	"lightningColor": "bbdefb",
 	"lightning": 8,
 	"lightningLength": 10,
