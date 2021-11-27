@@ -9,8 +9,8 @@
     "type": "legs",
 	"speed": 0.36,
 	"hitSize": 114,
-	"health": 1697600,
-	"armor": 65,
+	"health": 7697600,
+	"armor": 125,
 	"drag": 0.2,
 	"range": 640,
 	"maxRange": 640,
@@ -117,7 +117,7 @@
               "type": "LaserBulletType",
               "length": 300,
               "width": 12,
-              "damage": 460,
+              "damage": 1460,
               "knockback": -2,
               "hitColor": "665C9FFF",
               "shootEffect": {
@@ -178,7 +178,7 @@
               "type": "LaserBulletType",
               "length": 300,
               "width": 12,
-              "damage": 460,
+              "damage": 1460,
               "knockback": -2,
               "hitColor": "665C9FFF",
               "shootEffect": {
@@ -235,7 +235,7 @@
     "shootSound": "railgun",
     "bullet": {
 	"type" : "railBulletType",
-	"damage": 3270,
+	"damage": 33270,
 	"length" : 900,
 	"ammoMultiplier": 3,
 	"pierce": true,
@@ -295,7 +295,7 @@
   "shootSound": "laser",
            "bullet": { 
            "sprite": "exogenesis-plasma",
-            "damage": 1789,
+            "damage": 7189,
             "splashDamage": 80,
             "splashDamageRadius": 116,
             "speed": 5,
