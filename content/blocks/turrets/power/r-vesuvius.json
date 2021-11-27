@@ -15,7 +15,7 @@
 	"shootCone" : 40,
 	"spread" : 4,
 	"heatColor": "FFFFFF",
-	"powerUse": 33,
+	"powerUse": 90,
     "coolantMultiplier": 0.8,
     "update": true,
     "hasPower": true,
