@@ -509,7 +509,7 @@
     ]
 	},
     "type": "ContinuousLaserBulletType",
-    "damage": 350,
+    "damage": 450,
     "width": 18,
     "length": 700,
     "drawSize": 470,
@@ -616,18 +616,7 @@
     "shootSound": "laserblast",
     "bullet": { 
     "type": "EmpBulletType",
-    "hitPowerEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 1,
-    "lifetime": 22,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 30,
-    "lenTo": 0,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "57D993FF"
-    },
+    "hitColor": "73FFAEFF",
     "chainEffect": {
     "type": "ParticleEffect",
     "line": true,
