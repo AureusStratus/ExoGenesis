@@ -45,7 +45,7 @@
     "shootY": 13, 
     "bullet": {
     "collidesTeam": true,
-    "healPercent": 20,
+    "healPercent": 10,
     "type": "LaserBulletType",
     "length": 200,
     "width": 25,
@@ -74,7 +74,7 @@
     "shootY": 13, 
     "bullet": {
     "collidesTeam": true,
-    "healPercent": 20,
+    "healPercent": 10,
     "type": "LaserBulletType",
     "length": 200,
     "width": 25,
@@ -180,7 +180,7 @@
     },
     "keepVelocity": false,
     "collidesTeam": true,
-    "healPercent": 50,
+    "healPercent": 10,
     "type": "basicBulletType",
     "sprite": "exogenesis-plasma",
     "damage": 120,
