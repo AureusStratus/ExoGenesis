@@ -802,7 +802,7 @@
     "colorTo": "57D993FF"   
     },
     "collidesTeam": true,
-    "healPercent": 50,
+    "healPercent": 20,
     "lightColor": "73FFAEFF",
     "sprite": "circle-bullet",
     "trailColor": "73FFAEFF",
@@ -846,7 +846,7 @@
         "spawnX": 0,
         "spawnY": 55,
         "unit": "crystal-drone-healer",
-        "spawnTime": 90
+        "spawnTime": 50
        },
        {
         "type": "mindustry.entities.abilities.RepairFieldAbility",
@@ -872,7 +872,7 @@
         "colorTo": "57D993FF"
         },
         "range": 300,
-        "amount": 40000,
+        "amount": 80000,
         "reload": 300
         },
         {
