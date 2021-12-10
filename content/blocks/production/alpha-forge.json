@@ -18,9 +18,10 @@
 		"power": 2,
 		"items": {
 			"items": [
-			    "xanium/5",
-				"oltuxium/10",
-				"silicon/5"
+			"titanium/3",
+                        "copper/3",
+			"oltuxium/5",
+			"silicon/4"
 			]
 		}
 	},
@@ -29,12 +30,12 @@
 		{"item": "lead", "amount": 160},
 		{"item": "thorium", "amount": 140},
 		{"item": "titanium", "amount": 160},
-		{"item": "graphite", "amount": 140}
+		{"item": "oltuxium", "amount": 440}
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
 	"outputItem": {
 		"item": "alpha-yellow",
-		"amount": 5
+		"amount": 2
 	}
 }
