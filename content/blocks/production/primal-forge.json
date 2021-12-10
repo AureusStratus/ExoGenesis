@@ -18,9 +18,10 @@
 		"power": 2,
 		"items": {
 			"items": [
-			    "volcanite/5",
-				{"item": "titanium", "amount": 5},
-				{"item": "osmium", "amount": 10}
+		        "copper/3",
+			"lead/3",
+			"titanium/4"
+			"volcanite/5",
 			]
 		}
 	},
@@ -35,6 +36,6 @@
 	"research": "alloy-smelter",
 	"outputItem": {
 		"item": "primal-red",
-		"amount": 5
+		"amount": 2
 	}
 }
