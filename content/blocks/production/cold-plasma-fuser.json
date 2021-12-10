@@ -37,9 +37,10 @@
 		"power": 2,
 		"items": {
 			"items": [
-			    "titanium/8",
-			    "osmium/10",
-                "astrolite/10"
+                        "titanium/3",
+                        "copper/3",
+			"astrolite/5",
+			"silicon/4"
 			]
 		}
 	},
@@ -48,11 +49,11 @@
 		"titanium/160",
 		"thorium/140",
 		"plastanium/160",
-        "graphite/140"
+        "astrolite/440"
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": "omega-blue/5"
+	"outputItem": "omega-blue/2"
 }
 
 
