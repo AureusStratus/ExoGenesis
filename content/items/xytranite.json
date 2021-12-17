@@ -1,0 +1,14 @@
+{
+    "localizedName": "Xytranite",
+    "description": "A highly radioactive unstable crystalline material when exposed to high energy this material can become highly explosive. Used to make Lyra regiment turrets and as ammunition and for powering structures.",
+    "cost": 6,
+    "radioactivity": 3,
+    "explosiveness": 8,
+    "color": "BA52FFFF",
+    "research": {
+    "parent": "thorium",
+    "requirements": [
+    "thorium/600"
+  ]
+  }
+}

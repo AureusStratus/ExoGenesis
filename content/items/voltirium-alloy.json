@@ -1,0 +1,16 @@
+{
+    "localizedName": " Voltirium Alloy",
+    "description": "The super metal from sharded. Used to create high tier turrets, structures and units.",
+    "details": "Uber tier alloy",
+    "cost": 9,
+    "hardness": 8,
+    "charge": 8,
+    "radioactivity": 1.8,
+    "color": "5DCBF3FF",
+    "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+    "surge-alloy/600"
+  ]
+  }
+}

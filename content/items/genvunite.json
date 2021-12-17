@@ -1,0 +1,13 @@
+{
+    "localizedName": "Genvunite",
+    "description": "[green]An odd metallic crystilne material with self regeneration properties. Used to make Gemini regiment turrets as well as defensive structures.",
+    "details": "its surface looks ever changing",
+    "cost": 1,
+    "color": "7AC27CFF",
+    "research": {
+    "parent": "plastanium",
+    "requirements": [
+    "plastanium/200"
+  ]
+  }
+}
