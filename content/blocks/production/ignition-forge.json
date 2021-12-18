@@ -1,6 +1,7 @@
 {	
     "localizedName": "Ignition Forge",
     "description": "[red]Melts materials in to Volcanite.",
+    "researchCostMultiplier": 0.1,
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
