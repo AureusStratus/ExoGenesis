@@ -149,7 +149,7 @@
     "interp": "circleOut",
     "colorFrom": "FFC1BBFF",
     "colorTo": "FF5845FF",
-    "cone": 18
+    "cone": 8
     },
     "smokeEffect": "none",
     "lifetime": 12,
