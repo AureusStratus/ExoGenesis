@@ -42,6 +42,7 @@
   "alternate": true,
   "top": true,
   "rotate": true,
+  "layerOffset": 2,
   "rotateSpeed": 3.5,
   "shake": 4,
   "shootX": 7,
