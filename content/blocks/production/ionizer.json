@@ -7,6 +7,7 @@
 	"flameColor": "73FFAEFF"
 	},
 	"size": 2,
+	 "researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
@@ -18,8 +19,8 @@
     "offset": 3,
     "cone": 360,
     "lifetime": 28,
-    "sizeFrom": 2,
-    "sizeTo": 0,
+    "sizeFrom": 0,
+    "sizeTo": 2,
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
     },
