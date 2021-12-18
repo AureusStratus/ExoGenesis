@@ -203,6 +203,7 @@
   "shootY": 37,
   "reload": 20,
   "rotate": true,
+  "layerOffset": 3,   
   "rotateSpeed": 3,
   "recoil": 0,
   "shootSound": "none",
