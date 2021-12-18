@@ -74,7 +74,6 @@
     "lifetime": 45,
     "lightOpacity": 0,
     "interp": "circleOut",
-    "sizeInterp": "pow5In",
     "colorFrom": "3f3f3fff",
     "colorTo": "3f3f3fff",
     "cone": 15
@@ -129,7 +128,6 @@
     "length": 110,
     "lifetime": 35,
     "interp": "circleOut",
-    "sizeInterp": "pow5In",
     "lightColor": "FF5845FF",
     "colorFrom": "FFDCD8FF",
     "colorTo": "FF5845FF",
@@ -143,7 +141,6 @@
     "length": 120,
     "lifetime": 45,
     "interp": "circleOut",
-    "sizeInterp": "pow5In",
     "lightColor": "FF5845FF",
     "colorFrom": "FFDCD8FF",
     "colorTo": "FF5845FF",
