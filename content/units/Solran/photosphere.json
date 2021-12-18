@@ -147,9 +147,10 @@
     "length": 80,
     "lifetime": 25,
     "interp": "circleOut",
-    "colorFrom": "FFC1BBFF",
+    "lightColor": "FF5845FF",
+    "colorFrom": "FFDCD8FF",
     "colorTo": "FF5845FF",
-    "cone": 8
+    "cone": 10
     },
     "smokeEffect": "none",
     "lifetime": 12,
