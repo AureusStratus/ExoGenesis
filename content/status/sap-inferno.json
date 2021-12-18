@@ -1,0 +1,25 @@
+   { 
+    "localizedName": "Sapping Inferno",
+    "description": "your life force is being burnt away",
+    "reloadMultiplier": 0.4,
+    "healthMultiplier": 0.6,
+    "speedMultiplier": 0.6,
+    "effectChance": 0.3,
+    "damage": 5,
+    "transitionDamage": 5,
+    "opposites": ["freezing", "wet"],
+    "affinities": ["sapped", "burning", "melting"],
+    "effect": {
+    "type": "ParticleEffect",
+    "particles": 15,
+    "offset": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "lightColor": "BF92F9FF",
+    "length": 60,
+    "lifetime": 25,
+    "colorFrom": "FFFFFF",
+    "colorTo": "bf92f9",
+    "cone": 360
+    }
+}
