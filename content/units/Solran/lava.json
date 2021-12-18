@@ -192,6 +192,7 @@
   "y": 0,
   "mirror": false,
   "top": true,
+  "layerOffset": 3,  
   "shootY": 31,
   "reload": 55,
   "rotate": true,
