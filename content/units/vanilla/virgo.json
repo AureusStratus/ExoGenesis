@@ -1,6 +1,6 @@
 {
     "localizedName": "Virgo",
-    "description": "[green]The heavy support class titan. A massive heavy support unit equipped with the most advanced energy destroyer railgun cannon sharded has to offer. Along side this main it has two energy coresmit uses to power its weaponry system. It can fire energy missles qnd lasers from these two core, it also can fire disk that hwve an emp effect. Has a large and powerful shield and can heal nearby allies.",
+    "description": "[green]The heavy support class titan. A massive heavy support unit equipped with the most advanced energy destroyer railgun cannon sharded has to offer. Along side its main weapon it has two energy cores it uses to power its weaponry system. It can fire energy missles qnd lasers from these two core, it also can fire disk that has an emp effect. Has a large and powerful shield and can heal nearby allies.",
     "research": {
     "parent": "stella",
     "requirements": [
