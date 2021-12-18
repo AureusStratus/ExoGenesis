@@ -1,5 +1,6 @@
 {	
     "localizedName": "Anomaly Kiln",
+    "researchCostMultiplier": 0.1,
     "description": "[purple]Creates small dark energy through anomalies to turn materials in to Vurtimite.",
     "type": "GenericCrafter",
 	"drawer": {
