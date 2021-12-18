@@ -61,7 +61,7 @@
     "mirror": true,
     "alternate": true,
     "y": 17,
-    "x": 33,
+    "x": 25,
     "shots": 3,
     "rotate": true,
     "inaccuracy": 2,
@@ -93,7 +93,7 @@
 			{
   "name": "ergo-cannon",
   "x": 0,
-  "y": -32,
+  "y": -26,
   "mirror": false,
   "top": true,
   "shake": 1,
