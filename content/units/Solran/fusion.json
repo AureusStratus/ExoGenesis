@@ -64,7 +64,7 @@
     "height": 0.1,
     "shootEffect": {
     "type": "multiEffect",
-    "layer": 122,
+    "layer": 110,
     "effects": [
     {
     "type": "ParticleEffect",
@@ -124,7 +124,7 @@
     },
     "smokeEffect": {
     "type": "multiEffect",
-    "layer": 121,
+    "layer": 109,
     "effects": [
     {
     "type": "ParticleEffect",
