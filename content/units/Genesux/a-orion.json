@@ -11,7 +11,7 @@
   },
   "commandLimit": 5,
   "type": "legs",
-	"speed": 0.52,
+	"speed": 0.72,
 	"hitSize": 10,
 	"health": 360,
 	"faceTarget": true,
