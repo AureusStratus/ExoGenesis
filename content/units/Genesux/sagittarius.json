@@ -7,7 +7,7 @@
 	"groundLayer": 75,
 	"lightRadius": 350,
     "type": "legs",
-	"speed": 0.26,
+	"speed": 0.46,
 	"canDrown": false,
 	"hitSize": 94,
 	"health": 4397600,
