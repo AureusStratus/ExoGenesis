@@ -64,34 +64,8 @@
     "height": 0.1,
     "shootEffect": {
     "type": "multiEffect",
+    "layer": 122,
     "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "sizeFrom": 5,
-    "sizeTo": 1,
-    "length": 160,
-    "lifetime": 45,
-    "lightOpacity": 0,
-    "interp": "fastSlow",
-    "colorFrom": "FF5845FF",
-    "colorTo": "3f3f3fff",
-    "cone": 15
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "sizeFrom": 7,
-    "sizeTo": 1,
-    "length": 180,
-    "lifetime": 55,
-    "lightOpacity": 0,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "colorFrom": "FF5845FF",
-    "colorTo": "3f3f3fff",
-    "cone": 10
-    },
     {
     "type": "ParticleEffect",
     "particles": 10,
@@ -148,7 +122,39 @@
     }
     ]
     },
-    "smokeEffect": "none",
+    "smokeEffect": {
+    "type": "multiEffect",
+    "layer": 121,
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "sizeFrom": 5,
+    "sizeTo": 1,
+    "length": 160,
+    "lifetime": 45,
+    "lightOpacity": 0,
+    "interp": "fastSlow",
+    "colorFrom": "FF5845FF",
+    "colorTo": "3f3f3fff",
+    "cone": 15
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "sizeFrom": 7,
+    "sizeTo": 1,
+    "length": 180,
+    "lifetime": 55,
+    "lightOpacity": 0,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "FF5845FF",
+    "colorTo": "3f3f3fff",
+    "cone": 10
+    }
+    ]
+    },
     "lifetime": 25,
 	"despawnEffect": "none",
     "hittable": false,
