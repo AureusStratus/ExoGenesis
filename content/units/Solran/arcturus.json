@@ -18,7 +18,7 @@
     "singleTarget": true,
 	"lightRadius": 300,
     "type": "legs",
-	"speed": 0.20,
+	"speed": 0.40,
 	"hitSize": 100,
 	"health": 5300000,
 	"outlineRadius": 0,
