@@ -3,7 +3,7 @@
     "description": "[cyan]A long ranged weapon. Fires high velocity bullet dealing massive damage.",
     "localizedName": "Constellation",
     "size": 8,
-    "health": 480,
+    "health": 8660,
     "reloadTime": 300,
     "range": 1000,
     "shots": 1,
