@@ -2,7 +2,7 @@
 	"type": "PowerTurret",
 	"localizedName": "Kilonova",
 	"details": "The blue prints for this turret was found in far, far away Galaxy on a dead world the decaying blue prints where soon then used to attempt to recreate the turret but this failed but they acquired a new powerful weapon. The power of two colliding stars fired at your foes.",
-	"description": "[cyan]Charges up, then shoots a devastating miniture star core that is a bit slow but deal massive damage on impact and also frags in to smaller pieces.",
+	"description": "[cyan]Charges up, then shoots a devastating dense energy bullet that is a bit slow but deal massive damage on impact and also frags in to smaller pieces.",
 	"size": 7,
 	"health": 6880,
 	"reloadTime": 450,
