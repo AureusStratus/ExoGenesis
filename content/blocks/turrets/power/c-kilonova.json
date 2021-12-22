@@ -202,7 +202,7 @@
     "timeIncrease": 0,
     "powerDamageScl": 1,
     "powerSclDecrease": 0.1,
-    "unitDamageScl": 1,
+    "unitDamageScl": 0.5,
     "lightRadius": 50,
     "statusDuration": 1000,
     "hitSound": "plasmaboom",
@@ -224,7 +224,7 @@
     "damage": 7685,
     "height": 28,
     "width": 28,
-    "radius": 70,
+    "radius": 100,
     "hitPowerEffect": {
     "type": "ParticleEffect",
     "line": true,
