@@ -8,6 +8,7 @@
 	"reloadTime": 170,
 	"range": 345,
 	"shots" : 1,
+        "heatColor": "FFFFFFF",
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 40,
