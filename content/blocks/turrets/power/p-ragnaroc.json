@@ -86,8 +86,8 @@
     {
     "type": "ParticleEffect",
     "particles": 1,
-    "sizeFrom": 60,
-    "sizeTo": 40,
+    "sizeFrom": 50,
+    "sizeTo": 0,
     "length": 0,
     "spin": 11,
     "lightColor": "774ACFFF",
@@ -102,8 +102,8 @@
     {
     "type": "ParticleEffect",
     "particles": 1,
-    "sizeFrom": 40,
-    "sizeTo": 20,
+    "sizeFrom": 30,
+    "sizeTo": 0,
     "length": 0,
     "lightColor": "774ACFFF",
     "interp": "swingIn",
