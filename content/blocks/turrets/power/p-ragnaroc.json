@@ -196,15 +196,15 @@
     "shootLength": 0,
     "heatColor": "9B61FFFF",
     "cooldown": 0.030,
-    "size": 14,
+    "size": 16,
     "shootSound": "release",
     "shots": 860,
     "spread": 1,
-    "inaccuracy": 0,
+    "inaccuracy": 360,
     "targetAir": true,
     "targetGround": true,
 
-    "powerUse": 1000,
+    "powerUse": 2000,
     "hasPower": true,
     "shootType": {
     "sprite": "exogenesis-wavee",
