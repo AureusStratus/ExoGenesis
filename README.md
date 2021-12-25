@@ -12,7 +12,7 @@ A mod that adds a lot more content to the game.
 <br>`maps`: 2
 <br>`Blocks`: 185
 <br>`Turrets`: 78
-<br>`units`: 77
+<br>`units`: 78
 
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
