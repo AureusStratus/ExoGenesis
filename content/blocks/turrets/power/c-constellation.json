@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "[cyan]A long ranged weapon. Fires high velocity bullet dealing massive damage.",
+    "description": "[cyan]A long ranged weapon. Fires high velocity bullets dealing massive damage.",
     "localizedName": "Constellation",
     "size": 8,
     "health": 8660,
