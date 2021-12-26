@@ -1,7 +1,7 @@
 {
-    "localizedName": "Alpha Steel",
-    "description": "[gold]A Highly energetic material that is used in advanced weaponry and eletrical structures",
-    "details": "A metal that was used by the Elecians to create powerful energy based units and turrets. Contains powerful energy.",
+    "localizedName": "Vanstarium Steel",
+    "description": "A Highly energetic metal forge by the [FFF861FF]Elecians []with powerful energy realising and absorption capabilities",
+    "details": "Forge merely a few years after the great light fell onto the world of the Elecians.",
     "hardness": 8,
     "cost": 7,
     "charge": 0.9,
