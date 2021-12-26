@@ -1,11 +1,11 @@
 {
-    "localizedName": "Omega Metal",
-    "description": "[cyan]A metal used for advanced weaponry, transportation and various structures.",
-    "details": "A metal that was used by the Genesuxians to create various structures and powerful weaponry. Contains a cold energy from a far away world.",
+    "localizedName": "Siravaxa Metal",
+    "description": "A matel forge by the [A9D8FFFF]Genesuxians[] which contians a strange form of energy called Cold lLght Eneregy.",
+    "details": "This metal have been in use by the genesux for centuries even before the large mechanical cretaure crashed on there cold world.",
     "cost": 7,
     "hardness": 8,
     "charge": 0.3,
-    "color": "5DCBF3FF",
+    "color": "A9D8FFFF",
     "research": {
     "parent": "surge-alloy",
     "requirements": [
