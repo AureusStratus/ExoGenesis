@@ -67,9 +67,9 @@
   "shrinkY": 0,
    "lightning": 7,
     "lightningDamage": 50,
-    "lightningLength": 10,
+    "lightningLength": 4,
     "lightningCone": 40,
-    "lightningLengthRand": 8,
+    "lightningLengthRand": 7,
   "hitEffect": {
    "type": "ParticleEffect",
     "line": true,
@@ -124,7 +124,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 135,
+    "damage": 105,
     "width": 14,
     "length": 320,
     "drawSize": 470,
@@ -214,7 +214,7 @@
     }
     ]
     },
-    "damage": 350,
+    "damage": 150,
     "speed": 5,
     "lifetime": 90,
   	"homingPower": 0.0768,
@@ -225,7 +225,7 @@
     "knockback": 3,
     "width": 8,
 	"splashDamageRadius": 20,
-	"splashDamage": 180
+	"splashDamage": 100
    }
   },
   {
@@ -255,8 +255,6 @@
     "pierce": true,
     "lifetime": 80,
     "damage": 300,
-    "splashDamage": 82,
-    "splashDamageRadius": 35,
     "speed": 6,
     "width": 13,
     "height": 16
