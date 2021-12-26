@@ -61,7 +61,7 @@
   "speed": 16,
   "lifetime": 40,
   "homingPower": 0.6,
-  "homingDelay: 20,
+  "homingDelay": 20,
   "homingRange": 160,
   "shrinkX": 0,
   "shrinkY": 0,
