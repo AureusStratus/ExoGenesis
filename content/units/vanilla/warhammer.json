@@ -56,8 +56,8 @@
   "type": "BasicBulletType",
   "sprite" : "exogenesis-pointy-bullet",
   "damage": 550,	
-  "height": 18,
-  "width": 18,			
+  "height": 14,
+  "width": 12,			
   "speed": 11,
   "lifetime": 40,
   "homingPower": 0.6,
@@ -141,94 +141,6 @@
     }
     },
     {
-    "name": "warhammer-heavy-rockets",
-    "shootCone": 15,
-    "shootY": 3,
-    "mirror": true,
-    "alternate": true,
-    "rotateSpeed": 3,
-    "inaccuracy": 8,
-    "rotate": true,
-    "x": 13,
-    "y": 13,
-    "reload": 49,
-    "recoil": 3,
-    "ejectEffect": "casing2",
-    "shootSound": "bang",
-    "shots": 2,
-    "shotDelay": 2,
-    "shake": 1,
-    "bullet": { 
-    "keepVelocity": false,
-    "type": "MissileBulletType",
-    "shootEffect": "blastExplosion",
-    "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 30,
-    "length": 60,
-    "lifetime": 46,
-    "cone": 360,
-    "colorFrom": "FF875BFF",
-    "colorTo": "FF875B15",
-    "sizeFrom": 5,
-    "sizeTo": 0
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 50,
-    "strokeFrom": 6,
-    "strokeTo": 0,
-    "colorFrom": "FF875BFF",
-    "colorTo": "FF875BF10"
-    }
-    ]
-    },
-    "despawnEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
- "type": "ParticleEffect",
-    "particles": 30,
-    "length": 60,
-    "lifetime": 46,
-    "cone": 360,
-    "colorFrom": "FF875BFF",
-    "colorTo": "FF875B15",
-    "sizeFrom": 5,
-    "sizeTo": 0
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 50,
-    "strokeFrom": 6,
-    "strokeTo": 0,
-    "colorFrom": "FF875BFF",
-    "colorTo": "FF875BF10"
-    }
-    ]
-    },
-    "damage": 350,
-    "speed": 5,
-    "lifetime": 90,
-  	"homingPower": 0.0768,
-	"homingRange": 100,
-	"weaveScale": 0,			
-	"weaveMag": 0,
-    "height": 20,
-    "knockback": 3,
-    "width": 8,
-	"splashDamageRadius": 20,
-	"splashDamage": 180
-    }
-  },
-  {
     "name": "warhammer-heavy-rockets",
     "shootCone": 15,
     "shootY": 3,
