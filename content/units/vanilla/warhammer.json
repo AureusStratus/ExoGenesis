@@ -54,7 +54,7 @@
   "ejectEffect": "none",
   "bullet": { 
   "type": "BasicBulletType",
-  "sprite" : "exogenesis-spikey-bullet",
+  "sprite" : "exogenesis-pointy-bullet",
   "damage": 550,	
   "height": 18,
   "width": 18,			
@@ -155,7 +155,7 @@
     "recoil": 3,
     "ejectEffect": "casing2",
     "shootSound": "bang",
-    "shots": 3,
+    "shots": 2,
     "shotDelay": 2,
     "shake": 1,
     "bullet": { 
@@ -243,7 +243,7 @@
     "recoil": 3,
     "ejectEffect": "casing2",
     "shootSound": "bang",
-    "shots": 3,
+    "shots": 2,
     "shotDelay": 2,
     "shake": 1,
     "bullet": { 
