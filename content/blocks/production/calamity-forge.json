@@ -17,7 +17,7 @@
 	"hasItems": true,
 	"canOverdrive": false,
 	"itemCapacity": 250,
-	"craftTime": 400,
+	"craftTime": 500,
 	"craftEffect": {
 	"type": "multiEffect",
     "effects": [
