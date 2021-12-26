@@ -54,11 +54,11 @@
   "ejectEffect": "none",
   "bullet": { 
   "type": "BasicBulletType",
-  "sprite" : "exogensis-spikey-bullet",
+  "sprite" : "exogenesis-spikey-bullet",
   "damage": 550,	
   "height": 18,
   "width": 18,			
-  "speed": 16,
+  "speed": 11,
   "lifetime": 40,
   "homingPower": 0.6,
   "homingDelay": 20,
