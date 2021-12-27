@@ -1,6 +1,7 @@
 {
 "type": "UnitFactory",
 "description": "Can create elecian units.",
+"researchCostMultiplier": 0.3,
 "localizedName": "Elecian Factory",
 "size": 3,
 "consumes": {
