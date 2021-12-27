@@ -14,7 +14,7 @@
   "maxRange": 420,
   "crashDamageMultiplier": "30",
   "flying": true,
-  "health": 4000000,
+  "health": 2000000,
   "hitSize": 160,
   "armor": 90,
   "engineOffset": 59,
