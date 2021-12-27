@@ -29,7 +29,7 @@
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 180},
+	{"item": "graphite", "amount": 180},
 	{"item": "astrolite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
