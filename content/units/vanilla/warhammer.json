@@ -69,7 +69,7 @@
     "lightningDamage": 50,
     "lightningLength": 4,
     "lightningCone": 40,
-    "lightningLengthRand": 7,
+    "lightningLengthRand": 6,
   "hitEffect": {
    "type": "ParticleEffect",
     "line": true,
@@ -124,7 +124,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 105,
+    "damage": 65,
     "width": 14,
     "length": 320,
     "drawSize": 470,
