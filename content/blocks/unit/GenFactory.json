@@ -13,7 +13,7 @@
     	"requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "astrolite", "amount": 10},
-		{"item": "titanium", "amount": 50}
+		{"item": "titanium", "amount": 20}
        ],
     "time": 400
   },
@@ -21,7 +21,7 @@
     "unit": "a-orion",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "astrolite", "amount": 50},
+		{"item": "astrolite", "amount": 20},
 		{"item": "graphite", "amount": 10}
        ],
     "time": 400
