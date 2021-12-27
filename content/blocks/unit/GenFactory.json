@@ -1,6 +1,7 @@
 {
 "type": "UnitFactory",
 "description": "Can create genesuxian units.",
+"researchCostMultiplier": 0.3,
 "localizedName": "Genesux Factory",
 "size": 3,
 "consumes": {
