@@ -1,6 +1,7 @@
 {
 "type": "UnitFactory",
 "description": "Can create purtuxian units.",
+"researchCostMultiplier": 0.3,
 "localizedName": "purtuxe Factory",
 "size": 3,
 "consumes": {
