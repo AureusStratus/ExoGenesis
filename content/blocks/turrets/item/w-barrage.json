@@ -78,7 +78,6 @@
     },
     "requirements": [
         "thorium/400",
-        "surge-alloy/170",
         "titanium/400",
         "silicon/380",
         "plastanium/360",
