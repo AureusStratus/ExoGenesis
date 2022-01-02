@@ -1,13 +1,13 @@
 {
     "localizedName": "Kentaurus",
     "type": "flying",
-	"description": "[cyan]The kentaurus is equipped with two laser mounts but it has the ability to build two types of drones, that it builds continuously and these drones aid in battle, and are very deadly in groups",
+	"description": "Fires lasers and builds swarms of drones capable of taking down medium sized bases.",
     "research": {
     "parent": "gacrux",
     "requirements": [
-    "astrolite/300",
-    "lead/340",
-    "silicon/400"
+    "astrolite/1200",
+    "lead/2340",
+    "silicon/1400"
     ]
     },
     "lowAltitude": true,
@@ -61,14 +61,14 @@
               "spawnX": -7,
               "spawnY": -6.5,
               "unit": "drone-B",
-              "spawnTime": 500
+              "spawnTime": 300
   },
         {
               "type": "UnitSpawnAbility",
               "spawnX": 7,
               "spawnY": -6.5,
               "unit": "drone-A",
-              "spawnTime": 480
+              "spawnTime": 280
             }
         ]
 }
