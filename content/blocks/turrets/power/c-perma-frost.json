@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Permafrost",
-	"description": "[blue]An upgraded cold. shoots more cold plasma at a slightly faster speed",
+	"description": "The upgraded cold. shoots more cold plasma at a slightly faster speed",
 	"size": 4,
 	"health": 1600,
 	"range": 130,
