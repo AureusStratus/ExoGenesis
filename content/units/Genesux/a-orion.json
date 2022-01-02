@@ -1,6 +1,6 @@
 {
   "localizedName": "Orion",
-  "description": "[cyan]A small and fast unit created by the Genesuxians, equipped with a cold plasma launcher that fires cold plasma orbs.",
+  "description": "A small and basic unit created by the [A9D8FFFF]Genesux[], fires cold plasma bullets at enemies.",
   "details": "The first ever unit the Genesuxians that very day when a mysterious force crash landed on there cold home world.",
   "research": {
   "parent": "dagger",
@@ -65,8 +65,8 @@
     "lifetime": 22,
     "length": 80,
     "cone": -360,
-    "lenFrom": 15,
-    "lenTo": 15,
+    "lenFrom": 10,
+    "lenTo": 10,
     "colorFrom": "FFFFFFF",
     "colorTo": "A9D8FFFF"
     },
