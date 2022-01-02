@@ -1,14 +1,14 @@
  {
     "localizedName": "Kuiper",
-    "description": "[cyan]Equipped with a prototype star core it uses to attack and heal allies and structures. Also fires orbs.",
+    "description": "Uses a prototype star core to attack and heal allies and structures.",
     "type": "legs",
     "groundLayer": 75,
     "research": {
     "parent": "b-galileo",
     "requirements": [
-    "astrolite/300",
-    "lead/340",
-    "silicon/400"
+    "astrolite/1200",
+    "lead/2340",
+    "silicon/1400"
     ]
     },
 	"speed": 0.34,
