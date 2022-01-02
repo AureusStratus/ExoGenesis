@@ -3,13 +3,13 @@
     "research": {
     "parent": "majoris",
     "requirements": [
-    "astrolite/300",
-    "lead/340",
-    "silicon/400"
+    "astrolite/600",
+    "lead/640",
+    "silicon/800"
     ]
     },
     "type": "flying",
-	"description": "[cyan]Fires piercing cold energy bolts that can go through walls and units",
+	"description": "Fires piercing cold energy bolts.",
     "lowAltitude": true,
     "speed": 1.8,
     "accel": 0.1,
