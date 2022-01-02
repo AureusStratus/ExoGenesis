@@ -1,6 +1,6 @@
 {
     "localizedName": "Universalis",
-    "description": "[cyan]The Armada class titan unit. a slow moving unit that possess two artillery guns and two small gunners. Fires a devastating laser from its star core that has the capability to peirce through 2 layers of plastanium defences. uses a small star core to power its weaponry and debuff enemies also causes lightning to appear around the unit. spawns drones.",
+    "description": "The Armada class titan unit. A massive [#]Genesuxian[] invasion battle ship. Slow moving and paired with cold plasma gunners and artillery. fires a massive cold energy laser from its core and generates a lightning field. Spawns swarms of drones.",
     "details": "The Stars have aline and your enemies will perish.",
     "singleTarget": true,
     "drawShields": false,
