@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[cyan]Uses astrolite to fire cold plasma bullets at enemies.",
+    "description": "A basic []Genesuxian[] turret. Fires astrolite bullets.",
     "localizedName": "Astral",
     "size": 1,
     "health": 240,
