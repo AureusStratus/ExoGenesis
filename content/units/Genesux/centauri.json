@@ -1,6 +1,6 @@
 {
     "localizedName": "Centauri",
-    "description": "[cyan] The centauri is a flying battleship unit that is equipped with four gunners to gun down enemies, bases and it posses a built-in weapon that can fire out powerful homing energy orbs, and its equipped with a shield",
+    "description": "An extension of the Vega. Paired with cold plasma gunners and fires a barrage of cold plasma energy spheres.",
     "research": {
     "parent": "vega",
     "requirements": [
