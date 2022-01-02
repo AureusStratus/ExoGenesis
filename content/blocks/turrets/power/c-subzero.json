@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Subzero",
-	"description": "[blue] An upgraded permafrost. Shoots more cold plasma at a faster speed.",
+	"description": "An upgraded permafrost. Shoots more cold plasma at a faster speed.",
 	"size": 5,
 	"health": 1600,
 	"range": 130,
