@@ -4,11 +4,11 @@
     "research": {
     "parent": "vega",
     "requirements": [
-    "astrolite/820",
-    "surge-alloy/700",
-    "plastanium/740",
-    "lead/940",
-    "silicon/1000"
+    "astrolite/3820",
+    "omega-blue/3700",
+    "plastanium/3740",
+    "lead/3940",
+    "silicon/3000"
     ]
     },
     "singleTarget": true,
