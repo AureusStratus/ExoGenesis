@@ -1,6 +1,6 @@
 {
     "localizedName": "Galileo",
-    "description": "[cyan]Equipped with cold plasma bolters that rapidly fire.",
+    "description": "Rapidly fires cold energy bolts at enemies.",
     "type": "legs",
     "research": {
     "parent": "a-orion",
