@@ -1,15 +1,14 @@
 {
     "localizedName": "Rigel",
-    "description": "[cyan]Equipped with two cold plasma cannon that fragment in to smaller pieces apon impact, is qlso equipped with cold plasma gunners aswell. Protects its self and nearby allies with a large and powerful force shield",
+    "description": "A heavy [#A9D8FFFF]genesux[] unit which uses an arsenal of cold plasma weapon to take down enemies. Uses a power force shield.",
     "research": {
     "parent": "b-sirius",
     "requirements": [
-    "astrolite/1220",
-    "surge-alloy/1000",
+    "astrolite/4220",
     "plastanium/940",
-    "omega-blue/850",
-    "osmium/1240",
-    "silicon/1300"
+    "omega-blue/4850",
+    "osmium/3240",
+    "silicon/5300"
     ]
     },
     "groundLayer": 75,
