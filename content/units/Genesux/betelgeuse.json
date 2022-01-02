@@ -1,15 +1,14 @@
 {
     "localizedName": "Betelgeuse",
-    "description": "[cyan]The heavy unit class titan unit. Equipped with powerful back cannons that fires cold energy shells that pierce  units and structures and also frags on impact, also has four artillery guns that fire a barrage of artillery shells. Equipped with a state of the art neutron core that fires cold energy bolts out in random directions. protects itself with a powerful shield.",
+    "description": "The heavy assault class titan unit. A behemoth of a [#A9D8FFFF]Genesux[] equipped with larges cannons and heavy artillery. Can fire piercing energy bolts from its core. Buffs nearby allies and uses a large force shield.",
     "research": {
     "parent": "b-rigel",
     "requirements": [
-    "astrolite/1920",
-    "surge-alloy/1300",
-    "plastanium/1040",
-    "omega-blue/1000",
-    "osmium/1440",
-    "silicon/1670"
+    "astrolite/10000",
+    "plastanium/7040",
+    "omega-blue/6000",
+    "osmium/6440",
+    "silicon/9670"
     ]
     },
     "details": "Show them what the power of a far away star can do",
@@ -72,7 +71,7 @@
       "lightningLength": 10,
       "lightningLengthRand": 6,
       "lightningDamage": 20,
-      "lightColor": "A9D8FFFF",
+      "lightColor": "A9D8FFFFA9D8FFFF",
       "lightningColor": "66B1FFFF",
       "speed": 5.5,
       "lifetime": 78,
