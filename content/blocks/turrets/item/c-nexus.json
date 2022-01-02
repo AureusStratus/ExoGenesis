@@ -1,7 +1,7 @@
 {
 	"localizedName": "Nexus",
 	"type": "itemTurret",
-	"description": "[blue] Fires power high velocity bullets great for single targets.",
+	"description": "A heavy [#A9D8FFFF]Genesuxian[] turret and an extention of the Cosmos turret.Rapidly fires high velocity rounds.",
 	"health": 8660,
 	"shots": 1,
     "shootShake": 3,
