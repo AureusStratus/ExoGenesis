@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.9,
-    "description": "[blue]A power-based energy turret that can shoot large homing energy comets.",
+    "description": "Fires powerful energized bullets at enemies in an odd way.",
     "localizedName": "Nebula",
     "size": 4,
     "health": 1600,
