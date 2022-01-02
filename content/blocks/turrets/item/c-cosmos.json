@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.3,
-    "description": "[cyan]A turret that fires cold plasma that shatter in to shrapnel on impact.",
+    "description": "An extension of the Astral turret. Fires astrolite bullets that shatter in to shrapnel on impact.",
     "localizedName": "Cosmos",
     "size": 2,
     "health": 480,
