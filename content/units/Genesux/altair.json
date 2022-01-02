@@ -1,15 +1,14 @@
 {
     "localizedName": "Altair",
-    "description": "[cyan]A powerful air ship that is equipped with cold energy gunners. Can fire a cold plasma orb that frags in to cold energy bolts that home in. Protects itself with a strong shield.",
+    "description": "An extension of Centauri. Paired with cold plasma gunners. Fires a cold energy core which explodes into cold energy bolts.",
     "research": {
     "parent": "centauri",
     "requirements": [
-    "astrolite/1220",
-    "surge-alloy/1000",
+     "astrolite/4220",
     "plastanium/940",
-    "omega-blue/850",
-    "osmium/1240",
-    "silicon/1300"
+    "omega-blue/4850",
+    "osmium/3240",
+    "silicon/5300"
     ]
     },
     "singleTarget": true,
