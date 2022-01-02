@@ -11,7 +11,7 @@
     "unit": "meteor",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "titanium", "amount": 50}
+		{"item": "titanium", "amount": 10}
        ],
     "time": 300
   }
