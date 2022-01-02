@@ -4,10 +4,10 @@
   "research": {
   "parent": "b-kuiper",
   "requirements": [
-  "astrolite/500",
-  "plastanium/400",
-  "lead/640",
-  "silicon/800"
+  "astrolite/2500",
+  "plastanium/2400",
+  "lead/2640",
+  "silicon/2800"
   ]
   },
     "groundLayer": 75,
