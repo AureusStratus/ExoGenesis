@@ -11,7 +11,7 @@
 {
     "unit": "challenge",
     	"requirements": [
-		{"item": "oltuxium", "amount": 30},
+		{"item": "oltuxium", "amount": 15},
 		{"item": "silicon", "amount": 25},
 		{"item": "coal", "amount": 10}
        ],
@@ -20,7 +20,7 @@
   {
     "unit": "conflict",
     	"requirements": [
-		{"item": "oltuxium", "amount": 30},
+		{"item": "oltuxium", "amount": 15},
 		{"item": "silicon", "amount": 25}
     ],
     "time": 480
