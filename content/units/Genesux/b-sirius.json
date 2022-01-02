@@ -1,6 +1,6 @@
 {
   "localizedName": "Sirius",
-  "description": "[cyan]Equipped with cold plasma laser mounts that iflict freezing on enemies and fires a devastating laser from its star core. Has a small nuetron star core that it uses to boost allies, it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
+  "description": "Fires cold plasma laser that iflict freezing on enemies and fires a devastating laser. buffs allies close to it and uses a force shield to protect itself and allies",
   "details": "Created way back using some blue prints from a faild experiment ment to use the power of a mini star.",
   "research": {
   "parent": "b-oort",
