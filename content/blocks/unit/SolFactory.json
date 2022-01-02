@@ -12,7 +12,7 @@
     "unit": "sol",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 50},
+		{"item": "volcanite", "amount": 20},
 		{"item": "lead", "amount": 10}
        ],
     "time": 580
@@ -21,7 +21,7 @@
     "unit": "heat",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 50},
+		{"item": "volcanite", "amount": 20},
 		{"item": "titanium", "amount": 10}
        ],
     "time": 580
