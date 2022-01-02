@@ -1,8 +1,8 @@
 {
 	"type": "ItemTurret",
 	"localizedName": "Hypernova",
-	"description": "[cyan] A super weapon created by the Genesuxians for the intended to destroy enemy planets. Generates immense amounts of energy and fires a devastating energy stars that deal catastrophic damage. Uses either omega metal or calamity crystals as ammunition. Consumes great amounts of power.",
-	"details": "After the reawakening of sagittarius the Genesuxians soon quickly expanded out as sagittarius is influence on the genesux grew stronger, but deep in the core of there cold world a powerful material has been found along with the first and oldest Genesuxian. This new material they have found will soon bring apon a calamity.",
+	"description": "A super weapon created by the []Genesuxians[] for the intended to destroy enemy fleets. Generates immense amounts of energy and fires a devastating hyper dense, energy core that deals catastrophic damage. Uses either Siravaxa Metal or a Calamity Crystals as ammunition. Consumes great amounts of power.",
+	"details": "After the reawakening of Sagittarius the Genesuxians soon quickly expanded out as sagittarius is influence on the genesux grew stronger, but deep in the core a presence has awoken. The first Genesuxian.",
 	"size": 12,
 	"health": 8789000,
 	"reloadTime": 750,
