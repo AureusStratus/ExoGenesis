@@ -1,6 +1,6 @@
     {
   "localizedName": "Oort",
-  "description": "[cyan]Fires a barrage of asteroids at enemies dealing massive damage to units and structures. Equipped with cold laser weapons. Heale nearby allies with healing pulse and repair weapons.",
+  "description": "An extension of the Orion. Fires a barrage of energy asteroids and is paired with laser weapons. Heals nearby allies with healing pulse and repair weapons.",
   "research": {
   "parent": "b-kuiper",
   "requirements": [
@@ -281,7 +281,7 @@
     "hitPowerEffect": "none",
     "chainEffect": "none",
     "applyEffect": "none",
-    "buildingDamageMultiplier": 0.2,
+    "buildingDamageMultiplier": 0.6,
     "splashDamage": 100,
     "splashDamageRadius": 80,
     "homingPower": 0.00968,
