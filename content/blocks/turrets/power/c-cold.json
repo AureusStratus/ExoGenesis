@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"localizedName": "Cold",
-	"description": "[blue]A cryogenic turret that shoots super cold plasma at enemies",
+	"description": "A cryogenic turret that shoots super cold plasma at enemies",
 	"size": 2,
 	"health": 1600,
 	"range": 100,
