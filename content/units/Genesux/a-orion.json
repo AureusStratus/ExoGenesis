@@ -1,6 +1,6 @@
 {
   "localizedName": "Orion",
-  "description": "A small and basic unit created by the [A9D8FFFF]Genesux[], fires cold plasma bullets at enemies.",
+  "description": "A small and basic unit created by the [#A9D8FFFF]Genesux[], fires cold plasma bullets at enemies.",
   "details": "The first ever unit the Genesuxians that very day when a mysterious force crash landed on there cold home world.",
   "research": {
   "parent": "dagger",
