@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "[cyan]A long ranged weapon. Fires high velocity bullets dealing massive damage.",
+    "description": "A long ranged [#A9D8FFFF]Genesux[] heavy turret. Charges up, then fires high velocity proectile dealing massive damage.",
     "localizedName": "Constellation",
     "size": 8,
     "health": 8660,
