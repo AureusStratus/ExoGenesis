@@ -1,7 +1,7 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[cyan]Summons a barrage of stars that home in on enemies.",
+    "description": "A basic [#9D8FFFF]Genesux[] energy turret. Fres a barrage of energy stars",
     "localizedName": "Starfleet",
     "size": 1,
     "health": 240,
