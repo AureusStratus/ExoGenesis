@@ -239,7 +239,7 @@
     "type": "ShrapnelBulletType",
     "serrations": 0,
     "splashDamageRadius": 47,
-    "length": 400,
+    "length": 200,
     "lifetime": 36,
     "width": 30,
     "lightColor": "FF5845FF",
