@@ -5,9 +5,9 @@
     "research": {
     "parent": "a-orion",
     "requirements": [
-    "astrolite/300",
-    "lead/340",
-    "silicon/400"
+    "astrolite/600",
+    "lead/640",
+    "silicon/800"
     ]
     },
 	"speed": 0.5,
