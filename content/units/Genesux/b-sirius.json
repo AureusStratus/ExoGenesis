@@ -6,7 +6,7 @@
   "parent": "b-oort",
   "requirements": [
     "astrolite/3820",
-    "surge-alloy/3700",
+    "omega-blue/3700",
     "plastanium/3740",
     "lead/3940",
     "silicon/3000"
