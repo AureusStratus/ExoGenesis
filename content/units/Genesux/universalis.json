@@ -7,12 +7,11 @@
     "research": {
     "parent": "altair",
     "requirements": [
-    "astrolite/1920",
-    "surge-alloy/1300",
-    "plastanium/1040",
-    "omega-blue/1000",
-    "osmium/1440",
-    "silicon/1670"
+    "astrolite/10000",
+    "plastanium/7040",
+    "omega-blue/6000",
+    "osmium/6440",
+    "silicon/9670"
     ]
     },
     "lightRadius": 200,
