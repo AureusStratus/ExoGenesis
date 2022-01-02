@@ -8,7 +8,7 @@
     ]
     },
     "type": "flying",
-	"description": "[cyan]A nimble and fast air created by the genesuxians, this air unit that can shoot shock bullets and is most strongest in large numbers.",
+	"description": "A basic and fast air created by the [#A9D8FFFF]genesux[]. Fires shock bullets. Stronger in large numbers.",
     "lowAltitude": true,
     "speed": 2,
     "accel": 0.1,
