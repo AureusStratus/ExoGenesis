@@ -1,13 +1,13 @@
 {
     "localizedName": "Vega",
-    "description": "[cyan]The vega is large air unit that posses a built in fuse weapon that it uses to take down groups or single, enemies it also has two orb guns that fire multiple homing energy orbs.",
+    "description": "Fires energy spikes and is paired with two orb guns that fire multiple homing energy orbs.",
     "research": {
     "parent": "kentaurus",
     "requirements": [
-    "astrolite/500",
-    "plastanium/400",
-    "lead/640",
-    "silicon/800"
+    "astrolite/2500",
+    "plastanium/2400",
+    "lead/2640",
+    "silicon/2800"
     ]
     },
     "speed": 0.8,
