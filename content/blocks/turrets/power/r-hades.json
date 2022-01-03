@@ -246,10 +246,10 @@
     "line": true,
     "particles": 8,
     "lifetime": 25,
-    "length": -60,
-    "baseLength": 60,
+    "length": 60,
+    "baseLength": -60,
     "cone": -360,
-    "lenFrom": 1,
+    "lenFrom": 7,
     "lenTo": 7,
     "colorFrom": "FF5845FF",
     "colorTo": "FFC1BBFF"
