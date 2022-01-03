@@ -230,9 +230,9 @@
         "colorFrom": "FF5845FF",
         "colorTo": "FFC1BBFF"
     },
-    "lightning": 1,
+    "lightning": 2,
     "lightningDamage": 0,
-    "lightningCone": 45,
+    "lightningCone": 65,
     "lightningLengthRand": 1,
     "lightningLength": 1,
     "lightningType": {
@@ -240,12 +240,12 @@
     "serrations": 0,
     "splashDamageRadius": 47,
     "length": 200,
-    "lifetime": 36,
+    "lifetime": 20,
     "despawnEffect": { 
     "type": "ParticleEffect",
     "line": true,
     "particles": 8,
-    "lifetime": 25,
+    "lifetime": 15,
     "length": 60,
     "baseLength": -60,
     "cone": -360,
