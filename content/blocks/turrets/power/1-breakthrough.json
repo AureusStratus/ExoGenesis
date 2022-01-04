@@ -77,9 +77,9 @@
 	    "titanium/600",
         "surge-alloy/700",
         "osmium/600",
-        "copper/1800",
+        "copper/1000,
         "silicon/700",
-        "jupiteium/640"
+        "jupiteium/340"
 	],
 	"category": "turret",
 	"research": "meltdown"
