@@ -64,6 +64,7 @@
     "y": 0,
     "shootY": 46,
     "reload": 800,
+    "layerOffSet": -1,
     "recoil": 6,
     "shots": 1,
     "cooldown": 800,
