@@ -63,7 +63,7 @@
     "healPercent": 0.7,
     "hitEffect": "hitMeltHeal",
     "drawSize": 300,
-    "lifetime": 280,
+    "lifetime": 480,
     "shake": 1,
     "status": "electrified",
     "statusDuration": 80,
