@@ -318,6 +318,7 @@
       "localizedName": "Ragnaroc",
       "name": "choas",
       "description": "You have reached your end.",
+      "permanent": true,
       "effect": {
       "type": "ParticleEffect",
       "line": true,
@@ -330,7 +331,7 @@
       "colorFrom": "9B61FFFF",
       "colorTo": "9B61FFFF"
       },
-      "damage": 150,
+      "damage": 300,
       "speedMultiplier": 0.50,
       "healthMultiplier": 0.50,
       "reloadMultiplier": 0.50,
