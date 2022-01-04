@@ -4,7 +4,7 @@
 	"description": "[red]unfinished",
 	"details": "Burn them down to there last atoms.",
 	"size": 13,
-	"health": 700000,
+	"health": 1000000,
 	"reloadTime": 300,
 	"range": 550,
 	"shots" : 1,
