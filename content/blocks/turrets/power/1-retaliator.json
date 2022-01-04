@@ -52,7 +52,6 @@
 	"requirements": [
 	    "osmium/1600",
         "silicon/1700",
-        "graphite/2000",
         "thorium/2400",
         "plastanium/3000",
         "voltirium-alloy/1500",
