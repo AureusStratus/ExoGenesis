@@ -1,6 +1,6 @@
 {	
     "localizedName": "Nuclei Oven",
-    "description": "Superheats materials to the point of fusion to create Sigma Iron.",
+    "description": "Induces nuclear fusion in thorium and creates titanium as by-product.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
