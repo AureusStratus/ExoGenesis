@@ -181,7 +181,6 @@
 
 	"requirements": [
         "plastanium/500",
-        "thorium/600",
         "genvunite/800",
         "silicon/1000",
         "titanium/600",
