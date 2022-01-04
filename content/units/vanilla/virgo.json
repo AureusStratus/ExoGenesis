@@ -22,7 +22,7 @@
 	"outlineColor": "3F414EFF",
     "type": "legs",
 	"canDrown": false,
-	"speed": 0.20,
+	"speed": 0.28,
 	"hitSize": 77,
 	"health": 137000,
 	"armor": 35,
