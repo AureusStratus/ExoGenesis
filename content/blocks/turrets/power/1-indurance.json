@@ -33,7 +33,6 @@
   "sideLength": 0
   },
     "requirements": [
-        "plastanium/450",
         "thorium/400",
         "genvunite/340",
         "silicon/600",
