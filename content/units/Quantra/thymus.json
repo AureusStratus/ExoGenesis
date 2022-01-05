@@ -30,7 +30,7 @@
 "drownTimeMultiplier": 10,
 "singleTarget": true,
 "speed": 0.52,
-"health": 25000,
+"health": 16000,
 "range": 215,
 "immunities": [
 		"corroded",
