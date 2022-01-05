@@ -185,6 +185,8 @@
   "y": -2,
   "reload": 25,
   "alternate": true,
+  "rotate": true,
+  "rotateSpeed": 1.8,
   "top": true,
   "recoil": 4,
   "shootY": 4,
