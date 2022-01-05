@@ -11,7 +11,7 @@
 "buildSpeed": 3.6
 "legCount": 8,
 "legMoveSpace": 1,
-"legLength": 28,
+"legLength": 32,
 "legExtension": -10,
 "legBaseOffset": 14,
 "legTrns": 0.9,
