@@ -5,6 +5,7 @@
 "type": "legs",
 "outlineColor": "34353EFF",
 "armor": 10,
+"outlines": true,
 "groundLayer": 75,
 "rotateSpeed": 2.5,
 "canDrown": false,
