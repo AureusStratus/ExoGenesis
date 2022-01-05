@@ -239,7 +239,7 @@
     "type": "ShrapnelBulletType",
     "serrations": 0,
     "splashDamageRadius": 47,
-    "length": 200,
+    "length": 270,
     "lifetime": 20,
     "despawnEffect": { 
     "type": "ParticleEffect",
@@ -249,7 +249,7 @@
     "length": 60,
     "baseLength": -60,
     "cone": -360,
-    "lenFrom": 7,
+    "lenFrom": 0,
     "lenTo": 7,
     "colorFrom": "FF5845FF",
     "colorTo": "FFC1BBFF"
