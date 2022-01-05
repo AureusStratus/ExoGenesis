@@ -161,9 +161,9 @@
     "sprite": "exogenesis-pointy-bullet",
     "damage": 200,
     "collidesTeam": true,
-    "healPercent": 1,
+    "healPercent": 20,
     "pierceCap": 8,
-    "buildingDamageMultiplier": 1,
+    "buildingDamageMultiplier": 1,2,
     "pierceBuilding": true,
     "trailEffect": {
     "type": "ParticleEffect",
