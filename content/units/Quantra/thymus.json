@@ -38,8 +38,8 @@
 "weapons": [
   {
   "name": "thymus-mount",
-  "x": 14,
-  "y": 0,
+  "x": 16,
+  "y": -3,
   "reload": 25,
   "alternate": true,
   "top": true,
@@ -76,7 +76,7 @@
     "shrinkX": 0,
     "trailColor": "73FFAEFF",
     "trailLength": 15,
-    "trailInterval": 12,
+    "trailInterval": 7,
     "trailRotation": true,
     "trailWidth": 3,
     "width": 17,
@@ -121,12 +121,12 @@
    "name": "quantra-bolter",
     "top": true,
     "x": 7,
-    "y": -4,
+    "y": 0,
     "rotate": true,
     "rotateSpeed": 1.8,
     "reload": 7,
     "inaccuracy": 8,
-    "shots": 2, 
+    "shots": 1, 
     "recoil": 3,
     "shake": 0.5,
     "shootY": 5
@@ -143,7 +143,7 @@
 	{
 	"type": "ParticleEffect",
     "line": true,
-    "particles": 5,
+    "particles": 3,
     "lifetime": 25,
     "length": 35,
     "lenFrom": 6,
