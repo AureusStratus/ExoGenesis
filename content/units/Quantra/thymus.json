@@ -3,7 +3,7 @@
 "description":"l nearby unit",
 "research": "aster",
 "type": "legs",
-"outlineColor": "tttt",
+"outlineColor": "34353EFF",
 "armor": 10,
 "groundLayer": 75,
 "rotateSpeed": 2.5,
