@@ -7,6 +7,7 @@
 "type": "mech",
 "armor": 24,
 "lightRadius": 100,
+"outlineColor": "34353EFF",
 "lightColor": "73FFAEFF",
 "canBoost": true,
 "boostMultiplier": 1.5,
@@ -154,7 +155,7 @@
     }
   },
   {
-    "name": "gamma-bolter",
+    "name": "disk-launcher",
     "shootCone": 15,
     "alternate": true,
     "mirror": true,
@@ -206,7 +207,7 @@
     }
   },
   {
-    "name": "gamma-bolter",
+    "name": "disk-launcher",
     "shootCone": 15.5,
     "alternate": true,
     "mirror": true,
