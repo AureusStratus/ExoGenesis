@@ -2,6 +2,7 @@
 "name": "Thymus",
 "description":"l nearby unit",
 "research": "aster",
+"outlineRadius": 3,
 "type": "legs",
 "outlineColor": "34353EFF",
 "armor": 10,
