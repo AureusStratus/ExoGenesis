@@ -2,7 +2,6 @@
 "name": "Thymus",
 "description":"l nearby unit",
 "research": "aster",
-"outlineRadius": 3,
 "type": "legs",
 "outlineColor": "34353EFF",
 "armor": 10,
@@ -28,7 +27,6 @@
 "allowLegStep": true,
 "hovering": true,
 "commandLimit": 8,
-"outlineRadius": 0,
 "drownTimeMultiplier": 10,
 "singleTarget": true,
 "speed": 0.52,
@@ -164,7 +162,7 @@
     "collidesTeam": true,
     "healPercent": 20,
     "pierceCap": 8,
-    "buildingDamageMultiplier": 1.2,
+    "buildingDamageMultiplier": 1.8,
     "pierceBuilding": true,
     "trailEffect": {
     "type": "ParticleEffect",
@@ -186,7 +184,7 @@
     "trailInterval": 7,
     "trailRotation": true,
     "trailWidth": 3,
-    "width": 17,
+    "width": 14,
     "height": 19,
     "shootEffect": {
     "type": "ParticleEffect",
@@ -201,7 +199,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D993FF"
     },
-    "lifetime": 70,
+    "lifetime": 80,
     "homingRange": 100,
     "homingDelay": 10,
     "homingPower": 0.8,
