@@ -40,13 +40,13 @@
   {
     "name": "disk-launcher",
     "top": false,
-    "shootY": 2,
+    "shootY": 7,
     "shots": 1,
     "layerOffset": -1,
     "shootCone": 10,
-    "reload": 60,
+    "reload": 70,
     "x": -15,
-    "y": 11,
+    "y": 15,
     "alternate": true,
     "mirror": true,
     "ejectEffect": "none",
@@ -56,7 +56,7 @@
     "colors":["57D993aa", "73FFAEFF", "FFFFFFF"],
       "type": "LaserBulletType",
       "length": 200,
-      "width": 35,
+      "width": 22,
       "damage": 100,
       "shootEffect": {
       "type": "WaveEffect",
@@ -124,19 +124,6 @@
     "colorTo": "57D993FF"
 	},
 	{
-	"type": "ParticleEffect",
-    "particles": 4,
-    "length": 35,
-    "lifetime": 30,
-    "interp": "pow3Out",
-    "sizeInterp": "pow5In",
-    "offset": 30,
-    "colorFrom": "787878",
-    "colorTo": "787878",
-    "sizeFrom": 3,
-    "sizeTo": 0
-	},
-	{
     "type": "ParticleEffect",
     "particles": 2,
     "length": 20,
@@ -152,7 +139,7 @@
 	{
     "type": "ParticleEffect",
     "particles": 2,
-    "length": 20,
+    "length": 10,
     "lifetime": 20,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
@@ -164,8 +151,8 @@
 	},
 	{
     "type": "ParticleEffect",
-    "particles": 3,
-    "length": 30,
+    "particles": 2,
+    "length": 20,
     "lifetime": 15,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
