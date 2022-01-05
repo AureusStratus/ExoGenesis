@@ -25,7 +25,7 @@
 "weapons": [
   {
   "name": "large-disk-launcher",
-  "x": 20.5,
+  "x": 18.5,
   "y": 0,
   "reload": 80,
   "alternate": true,
