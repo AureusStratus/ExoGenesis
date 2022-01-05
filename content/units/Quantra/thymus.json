@@ -163,7 +163,7 @@
     "collidesTeam": true,
     "healPercent": 20,
     "pierceCap": 8,
-    "buildingDamageMultiplier": 1,2,
+    "buildingDamageMultiplier": 1.2,
     "pierceBuilding": true,
     "trailEffect": {
     "type": "ParticleEffect",
