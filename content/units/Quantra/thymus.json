@@ -57,7 +57,7 @@
       "type": "LaserBulletType",
       "length": 200,
       "width": 22,
-      "damage": 100,
+      "damage": 60,
       "shootEffect": {
       "type": "WaveEffect",
       "lifetime": 15,
