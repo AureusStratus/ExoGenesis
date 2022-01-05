@@ -55,7 +55,7 @@
   "bullet": { 
   "type": "BasicBulletType",
   "sprite" : "exogenesis-pointy-bullet",
-  "damage": 550,	
+  "damage": 400,	
   "height": 14,
   "width": 12,			
   "speed": 11,
