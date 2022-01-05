@@ -159,7 +159,7 @@
     "shootCone": 15,
     "alternate": true,
     "mirror": true,
-    "x": 16,
+    "x": -16,
     "y": 5,
     "reload": 10,
     "recoil": 0.5,
@@ -208,7 +208,7 @@
   },
   {
     "name": "disk-launcher",
-    "shootCone": 15.5,
+    "shootCone": -15.5,
     "alternate": true,
     "mirror": true,
     "x": 7,
