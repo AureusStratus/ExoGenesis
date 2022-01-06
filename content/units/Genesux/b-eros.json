@@ -24,7 +24,7 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1.5,
-	"legCount": 6,
+	"legCount": 4,
     "legMoveSpace": 1,
     "legLength": 74,
     "legBaseOffset": 3,
@@ -396,35 +396,35 @@
     {
     "type": "WaveEffect",
     "lifetime": 25,
-    "sizeFrom": 160,
-    "sizeTo": 0,
+    "sizeFrom": 0,
+    "sizeTo": 160,
     "baseLength": 70,
-    "strokeFrom": 7,
+    "strokeFrom": 16,
     "strokeTo": 0,
     "colorFrom": "A9D8FFff",
-    "colorTo": "66B1FFFF"
+    "colorTo": "66B1FF10"
     },
     {
     "type": "WaveEffect",
     "lifetime": 25,
     "sizeFrom": 145,
-    "sizeTo": 0,
+    "sizeTo": 145,
     "baseLength": 70,
-    "strokeFrom": 7,
+    "strokeFrom": 13,
     "strokeTo": 0,
     "colorFrom": "A9D8FFAA",
-    "colorTo": "66B1FFAA"
+    "colorTo": "66B1FF10"
     },
     {
     "type": "WaveEffect",
     "lifetime": 25,
-    "sizeFrom": 125,
-    "sizeTo": 0,
+    "sizeFrom": 0,
+    "sizeTo": 125,
     "baseLength": 70,
-    "strokeFrom": 7,
+    "strokeFrom": 10,
     "strokeTo": 0,
-    "colorFrom": "A9D8FF30",
-    "colorTo": "66B1FF30"
+    "colorFrom": "A9D8FF90",
+    "colorTo": "66B1FF10"
     },
     {
     "type": "ParticleEffect",
