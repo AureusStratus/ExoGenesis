@@ -589,7 +589,8 @@
     "height": 27,
     "backColor": "66B1FFAA",
     "frontColor": "A9D8FFFF"
-			}
+	}
+    }
     },
     {
  "name": "added",
@@ -681,7 +682,6 @@
     "height": 55,
     "backColor": "66B1FFAA",
     "frontColor": "A9D8FFFF"
-	}
     }
     }
     ],
