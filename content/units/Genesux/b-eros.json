@@ -27,7 +27,8 @@
 	"legCount": 6,
     "legMoveSpace": 1,
     "legLength": 74,
-    "legBaseOffset": 10,
+    "legBaseOffset": 3,
+    "legLengthScl": 1
     "legTrns": 0.9,
     "landShake": 1.0,
     "legPairOffset": 3,
