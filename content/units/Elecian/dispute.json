@@ -36,14 +36,14 @@
     "bullet": {
     "shootEffect": "shootHealYellow",
     "despawnEffect": "shootHealYellow",
-    "smokeEffect": none,
+    "smokeEffect": :"none",
     "hitEffect": "shootHealYellow",
     "type": "LaserBoltBulletType",
     "damage": 12,
     "speed": 6,
     "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
-    "lifetime": 35
+    "lifetime": 25
     }
   },
   {
@@ -66,7 +66,7 @@
    "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
     "trailColor": "ECD36FFF",
-    "lifetime": 55,
+    "lifetime": 35,
   	"homingPower": 1,
 	"homingRange": 80,
 	"weaveScale": 5,			
