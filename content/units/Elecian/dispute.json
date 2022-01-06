@@ -36,7 +36,7 @@
     "bullet": {
     "shootEffect": "shootHealYellow",
     "despawnEffect": "shootHealYellow",
-    "smokeEffect": :"none",
+    "smokeEffect": "none",
     "hitEffect": "shootHealYellow",
     "type": "LaserBoltBulletType",
     "damage": 12,
