@@ -24,15 +24,16 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1.5,
-	"legCount": 4,
-    "legMoveSpace": 1,
-    "legLength": 74,
+	"legCount": 8,
+	"legLength": 60,
     "legBaseOffset": 3,
-    "legLengthScl": 1
-    "legTrns": 0.9,
+    "legLengthScl": 1  
+    "legMoveSpace": 1,
+  
     "landShake": 1.0,
-    "legPairOffset": 3,
-    "legSpeed": 0.01,
+     "legTrns": 0.9,
+    "legSpeed": 0.2,
+	    
     "rippleScale": 6.8,
     "legSplashDamage": 256,
     "legSplashRange": 50,
