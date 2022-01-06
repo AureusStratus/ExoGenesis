@@ -25,7 +25,7 @@
 	"targetAir": true,
 	"rotateSpeed": 1.5,
 	"legCount": 8,
-	"legLength": 60,
+	"legLength": 70,
     "legBaseOffset": 3,
     "legLengthScl": 1  
     "legMoveSpace": 1,
@@ -622,7 +622,7 @@
     "damage": 80,
     "range": 180,
     "sectors": 3,
-    "y": 4,
+    "y": 0,
     "blinkScl": 80,
     "rotateSpeed": 3,
     "hitBuildings": true,
