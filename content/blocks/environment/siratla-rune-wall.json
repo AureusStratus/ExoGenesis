@@ -1,0 +1,8 @@
+{
+"type": "StaticWall",
+"localizedName": "Rune Edged Wall",
+"emitLight": true,
+"lightRadius": 31,
+"lightColor": "A9D8FFFF",
+"variants": 8
+}
