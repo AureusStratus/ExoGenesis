@@ -26,14 +26,13 @@
 	"rotateSpeed": 1.5,
 	"legCount": 8,
 	"legLength": 70,
-	"maxStretch": 1.6,    
 	"legExtension": -7,
     "legBaseOffset": 3,
     "legLengthScl": 1  
     "legMoveSpace": 1,
   
     "landShake": 1.0,
-     "legTrns": 0.9,
+     "legTrns": 0.6,
     "legSpeed": 0.2,
 	    
     "rippleScale": 6.8,
