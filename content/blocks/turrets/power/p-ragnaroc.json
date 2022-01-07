@@ -6,6 +6,7 @@
     "type": "powerTurret",
     "reloadTime": 740,
     "recoilAmount": 0,
+    "hasShadow": false,
     "rotateSpeed": 0,
     "canOverdrive": false,
     "acceptsCoolant": false,
