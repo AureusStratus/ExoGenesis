@@ -664,7 +664,7 @@
     "splashDamage": 100,
     "splashDamageRadius": 80,
     "homingPower": 0.7,
-    'homingDelay": 40,
+    "homingDelay": 40,
     "homingRange": 200,
     "damage": 350,
     "shrinkY": 0,
