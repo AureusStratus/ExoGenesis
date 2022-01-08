@@ -550,7 +550,7 @@
     },
     "trailEffect": "none",
     "smokeEffect": {
-    "startDelay": 160,
+    "startDelay": 150,
     "type": "multiEffect",
     "effects": [
     {      
