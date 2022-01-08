@@ -26,7 +26,7 @@
 	"rotateSpeed": 1.5,
 	"legCount": 8,
 	"legLength": 70,
-	"legExtension": -10,
+	"legExtension": -1,
     "legBaseOffset": 3,
     "legLengthScl": 1  
     "legMoveSpace": 0.8,
