@@ -12,7 +12,7 @@
         "armor": 0,
         "itemCapacity": 0,
         "engineOffset": 6,
-        "range": 400,
+        "range": 100,
         "targetAir": true,
         "commandLimit": 8,
         "faceTarget": true,
