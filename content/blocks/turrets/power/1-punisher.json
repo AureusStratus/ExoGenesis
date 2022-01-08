@@ -43,7 +43,7 @@
 	"fragBullet": {
 	"type" : "basicBulletType",
 	"sprite": "missile",
-	"damage": 60,
+	"damage": 80,
 	"height" : 18,
 	"width" : 9,
 	"speed": 6,
