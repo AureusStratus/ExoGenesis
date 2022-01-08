@@ -169,7 +169,7 @@
     "status": "freezing",
     "statusDuration": 50,
     "incendChance": 0,
-    "colors": ["66B1FFAA", "A9D8FFFF", "FFFFFF", "FFFFFF"],
+    "colors": ["66B1FF30", "66B1FFAA", "A9D8FFFF", "FFFFFF"],
     "hitEffect": {
     "type": "ParticleEffect",
     "line": true,
