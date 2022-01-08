@@ -553,8 +553,25 @@
     "startDelay": 140,
     "type": "multiEffect",
     "effects": [
-    {   
-      "type": "WaveEffect",
+    {      
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 25,
+    "lifetime": 70,
+    "offset": 50,
+    "length": 255,
+    "cone": 360,
+    "interp": "pow3In",
+    "sizeInterp": "pow5Out",    
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "lenFrom": 7,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "WaveEffect",
     "lifetime": 45,
     "sizeFrom": 0,
     "sizeTo": 180,
