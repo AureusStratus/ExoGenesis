@@ -550,7 +550,7 @@
     },
     "trailEffect": "none",
     "smokeEffect": {
-    "startDelay": 140,
+    "startDelay": 160,
     "type": "multiEffect",
     "effects": [
     {      
@@ -572,10 +572,9 @@
     },
     {
     "type": "WaveEffect",
-    "lifetime": 45,
+    "lifetime": 35,
     "sizeFrom": 0,
     "sizeTo": 180,
-    "interp": "pow3In",    
     "strokeFrom": 40,
     "strokeTo": 0,
     "colorFrom": "66B1FF80",
@@ -583,10 +582,9 @@
     },
     {
     "type": "WaveEffect",
-    "lifetime": 45,
+    "lifetime": 35,
     "sizeFrom": 0,
     "sizeTo": 180,
-    "interp": "pow3In",
     "strokeFrom": 19,
     "strokeTo": 0,
     "colorFrom": "A9D8FFaa",
@@ -594,10 +592,9 @@
     },
     {
     "type": "WaveEffect",
-    "lifetime": 45,
+    "lifetime": 35,
     "sizeFrom": 0,
     "sizeTo": 180,
-    "interp": "pow3In",    
     "strokeFrom": 10,
     "strokeTo": 0,
     "colorFrom": "ffffFFFF",
