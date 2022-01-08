@@ -229,9 +229,9 @@
     "sizeFrom": 150,
     "sizeTo": 0,
     "strokeFrom": 0,
-    "strokeTo": 27,
+    "strokeTo": 40,
     "colorFrom": "66B1FF80",
-    "colorTo": "A9D8FF80"
+    "colorTo": "66B1FF80"
     },
     {
     "type": "WaveEffect",
@@ -240,7 +240,7 @@
     "sizeTo": 0,
     "strokeFrom": 0,
     "strokeTo": 19,
-    "colorFrom": "66B1FFaa",
+    "colorFrom": "A9D8FFaa",
     "colorTo": "A9D8FFaa"
     },
     {
@@ -250,18 +250,20 @@
     "sizeTo": 0,
     "strokeFrom": 0,
     "strokeTo": 10,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF"
+    "colorFrom": "ffffFFFF",
+    "colorTo": "ffffFFFF"
     },
     {
     "type": "ParticleEffect",
     "line": true,
     "particles": 25,
-    "lifetime": 160,
+    "lifetime": 140,
     "offset": 50,
     "length": 255,
     "baseLength": -255,
     "cone": 360,
+    "strokeFrom": 2,
+    "strokeTo": 2,
     "lenFrom": 7,
     "lenTo": 7,
     "colorFrom": "A9D8FFFF",
@@ -276,6 +278,8 @@
     "length": 245,
     "baseLength": -245,
     "cone": 360,
+    "strokeFrom": 2,
+    "strokeTo": 2,
     "lenFrom": 6,
     "lenTo": 6,
     "colorFrom": "A9D8FFFF",
@@ -290,6 +294,8 @@
     "length": 225,
     "baseLength": -235,
     "cone": 360,
+    "strokeFrom": 2,
+    "strokeTo": 2,    
     "lenFrom": 5,
     "lenTo": 5,
     "colorFrom": "A9D8FFFF",
@@ -318,8 +324,8 @@
     "interp": "swingOut",
     "lifetime": 140,
     "region": "exogenesis-tall",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "A9D8FFFF"
+    "colorFrom": "66B1FFFF",
+    "colorTo": "66B1FFFF"
     },
     {
     "type": "ParticleEffect",
@@ -329,8 +335,8 @@
     "length": 0,
     "interp": "swingOut",
     "lifetime": 140,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "A9D8FFFF",
+    "colorFrom": "66B1FFFF",
+    "colorTo": "66B1FFFF"
     "cone": 360
     },
     {
@@ -539,7 +545,7 @@
     "homingPower": 0.00567,
     "splashDamageRadius": 74,
     "splashDamage": 1876,
-    "frontColor": "A9D8FFFF",
+    "frontColor": "ffffFFFF",
     "backColor": "66B1FFFF",
 	"fragBullets": 14,
 	"fragLifeMin": 0.2,
