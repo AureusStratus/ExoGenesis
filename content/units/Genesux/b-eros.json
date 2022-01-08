@@ -549,12 +549,13 @@
     ]
     },
     "trailEffect": "none",
-	       "smokeEffect": {
+    "smokeEffect": {
+    "startDelay": 140,
     "type": "multiEffect",
     "effects": [
     {   
       "type": "WaveEffect",
-    "lifetime": 145,
+    "lifetime": 45,
     "sizeFrom": 0,
     "sizeTo": 180,
     "interp": "pow3In",    
@@ -565,7 +566,7 @@
     },
     {
     "type": "WaveEffect",
-    "lifetime": 145,
+    "lifetime": 45,
     "sizeFrom": 0,
     "sizeTo": 180,
     "interp": "pow3In",
@@ -576,7 +577,7 @@
     },
     {
     "type": "WaveEffect",
-    "lifetime": 145,
+    "lifetime": 45,
     "sizeFrom": 0,
     "sizeTo": 180,
     "interp": "pow3In",    
