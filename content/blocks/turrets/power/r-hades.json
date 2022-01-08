@@ -218,6 +218,18 @@
     "width": 14,
     "length": 560,
     "hitLarge": true,
+    "laserEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "lifetime": 15,
+    "length": 0,
+    "interp": "swingIn",
+    "region": "exogenesis-tall",
+    "sizeFrom": 46,
+    "sizeTo": 0,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FF5845FF"    
+	},
     "hitEffect": {
         "type": "ParticleEffect",
         "line": true,
