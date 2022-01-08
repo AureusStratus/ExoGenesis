@@ -226,8 +226,9 @@
     {
     "type": "WaveEffect",
     "lifetime": 100,
-    "sizeFrom": 150,
+    "sizeFrom": 180,
     "sizeTo": 0,
+    "interp": "pow3In",    
     "strokeFrom": 0,
     "strokeTo": 40,
     "colorFrom": "66B1FF80",
@@ -236,8 +237,9 @@
     {
     "type": "WaveEffect",
     "lifetime": 100,
-    "sizeFrom": 150,
+    "sizeFrom": 180,
     "sizeTo": 0,
+    "interp": "pow3In",
     "strokeFrom": 0,
     "strokeTo": 19,
     "colorFrom": "A9D8FFaa",
@@ -246,8 +248,9 @@
     {
     "type": "WaveEffect",
     "lifetime": 100,
-    "sizeFrom": 150,
+    "sizeFrom": 180,
     "sizeTo": 0,
+    "interp": "pow3In",    
     "strokeFrom": 0,
     "strokeTo": 10,
     "colorFrom": "ffffFFFF",
