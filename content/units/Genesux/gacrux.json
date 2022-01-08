@@ -73,6 +73,7 @@
     },
     "keepVelocity": false,
     "pierce": true,
+    "pierceCap": 3,
     "pierceBuilding": true,
     "type": "basicBulletType",
     "sprite": "exogenesis-star-cutter",
