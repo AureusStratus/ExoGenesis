@@ -129,6 +129,10 @@
     "shootSound": "laserblast",
     "bullet": {
     "hitEffect": {
+    "type": "multiEffect",
+    "lifetime": 120,
+    "effects": [
+    {    
  "type": "WaveEffect",
     "lifetime": 30,
     "sizeFrom": 40,
