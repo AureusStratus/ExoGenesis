@@ -129,41 +129,72 @@
     "shootSound": "laserblast",
     "bullet": {
     "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 60,
-    "offset": 30,
-    "sizeFrom": 4,
-    "sizeTo": 0,
-    "length": 105,
+ "type": "WaveEffect",
     "lifetime": 30,
+    "sizeFrom": 40,
+    "sizeTo": 90,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lightColor": "84F491FF",
     "colorFrom": "84F491FF",
-    "colorTo": "98ffa9",
-    "cone": 360
+    "colorTo": "84F491FF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "baseLength": 40,
+    "lifetime": 30,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 90,
+    "cone": -360,
+    "strokeTo": 1.5,
+    "strokeFrom": 1.5,
+    "sizeFrom": 12,
+    "sizeTo": 3,
+    "lightColor": "84F491FF",
+    "colorFrom": "84F491FF",
+    "colorTo": "84F491FF"
     },
     {
     "type": "ParticleEffect",
-    "particles": 45,
-    "sizeFrom": 7,
-    "sizeTo": 0.30,
-    "offset": 60,
-    "length": 100,
-    "lifetime": 200,
+    "lightOpacity": 0,
+    "particles": 20,
+    "length": 70,
+    "lifetime": 90,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 12,
+    "sizeTo": 0,
     "colorFrom": "84F491FF",
-    "colorTo": "98ffa9",
-    "cone": 360
+    "colorTo": "84F49190"
     },
     {
-    "type": "WaveEffect",
-    "lifetime": 50,
-    "sizeFrom": 0,
-    "sizeTo": 95,
-    "strokeFrom": 8,
-    "strokeTo": 0,
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 20,
+    "length": 60,
+    "lifetime": 75,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 8,
+    "sizeTo": 0,
     "colorFrom": "84F491FF",
-    "colorTo": "98ffa9"
+    "colorTo": "84F49190"
+    },
+    { 
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 25,
+    "length": 50,
+    "lifetime": 60,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 4.5,
+    "sizeTo": 0,
+    "colorFrom": "84F491FF",
+    "colorTo": "84F49190"
     }
     ]
     },
