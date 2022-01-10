@@ -1,6 +1,6 @@
 {
     "localizedName": "Decade",
-    "description": "[purple] A unit created by the Purtuxian. Equipped with a anomaly energy shotgun, that shoots out orbs that can home in on the enemy slightly, the unit can also build and mine",
+    "description": "[purple] A unit created by the Terretux. Equipped with anomaly energy shotguns, that shoots orbs that can home in on the enemy slightly, the unit can also build and mine",
     "type": "mech",
     "research": {
     "parent": "dagger",
