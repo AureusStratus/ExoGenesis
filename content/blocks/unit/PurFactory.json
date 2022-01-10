@@ -1,8 +1,8 @@
 {
 "type": "UnitFactory",
-"description": "Can create purtuxian units.",
+"description": "Can create Terretuxian units.",
 "researchCostMultiplier": 0.3,
-"localizedName": "purtuxe Factory",
+"localizedName": "Terretux Factory",
 "size": 3,
 "consumes": {
 "power": 5
