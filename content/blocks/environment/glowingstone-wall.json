@@ -3,18 +3,5 @@
 "localizedName": "Glowingstone Wall",
 "emitLight": true,
 "lightRadius": 31,
-"lightColor": "A9D8FFFF",
-"updateEffect": {
-"type": "ParticleEffect",
-"line": true,
-"particles": 2,
-"lifetime": 10,
-"length": 35,
-"cone": -360,
-"lenFrom": 3.5,
-"lenTo": 0,
-"colorFrom": "A9D8FFFF",
-"colorTo": "66B1FFFF"
-},
-"variants": 2
+"lightColor": "A9D8FFFF"
 }
