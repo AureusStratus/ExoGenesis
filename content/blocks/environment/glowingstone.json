@@ -7,18 +7,6 @@
 "attributes": {
   "heat": -1.8
 },
-"updateEffect": {
-"type": "ParticleEffect",
-"line": true,
-"particles": 2,
-"lifetime": 10,
-"length": 35,
-"cone": -360,
-"lenFrom": 3.5,
-"lenTo": 0,
-"colorFrom": "A9D8FFFF",
-"colorTo": "66B1FFFF"
-},
 "variants": 6,
 "wall": "glowingstone-wall"
 }
