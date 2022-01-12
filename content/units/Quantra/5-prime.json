@@ -19,9 +19,8 @@
     "rotateShooting": false,
     "buildSpeed": 4.8,
     "buildBeamOffset": 48,
-
-    "ammoCapacity": 1200,
-    "ammoResupplyAmount": 20,
+    
+ 
 	"weapons": [
 		{
    "name": "prime-gauss",
