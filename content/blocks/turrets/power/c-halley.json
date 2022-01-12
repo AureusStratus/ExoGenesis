@@ -1,6 +1,6 @@
 {
     "type": "PowerTurret",
-    "description": "An energy turret that fires large homing energy comets.",
+    "description": "An energy turret which fires large homing energy comets.",
     "localizedName": "Halley",
     "size": 4,
     "health": 1600,
@@ -22,14 +22,20 @@
 	"chargeEffect": {
     "type": "ParticleEffect",
     "line": true,
-    "particles": 15,
-    "lifetime": 25,
-    "length": 55,
-    "cone": -360,
+    "particles": 7,
+    "lifetime": 23,
+    "offset": 50,
+    "length": 65,
+    "baseLength": -65,
+    "cone": 360,
+    "interp": "pow3In",
+    "sizeInterp": "pow5Out",    
+    "strokeFrom": 0,
+    "strokeTo": 1.6,    
     "lenFrom": 0,
-    "lenTo": 5,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF"
+    "lenTo": 6,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
 	},
 	"chargeBeginEffect": {
     "type": "ParticleEffect",
