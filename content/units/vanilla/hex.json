@@ -19,8 +19,6 @@
     ]
     },
     "lowAltitude": true,
-    "ammoCapacity": 3000,
-    "ammoResupplyAmount": 40,
     "rotateShooting": false,
     "lightRadius": 200,
     "rotateSpeed": 1.3,
