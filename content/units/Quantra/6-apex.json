@@ -23,8 +23,6 @@
     "buildBeamOffset": 56,
             
     "itemCapacity": 500,
-    "ammoCapacity": 3000,
-    "ammoResupplyAmount": 30,
 	"weapons": [
 		{
   "name": "apex-meltdown-mount",
