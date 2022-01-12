@@ -4,8 +4,6 @@
         "canHeal": true,
 	    "description": "[lime]A massive flying fortress that can pick up large payloads, and helps to build and defend, it is equipped with two healing gunners and nodens laser mounts, it can now shoot three small orb that will break apart in to mines, that will slow both air and ground units",
     "research": "moon",
-        "ammoCapacity": 3500,
-        "ammoResupplyAmount": 36,
         "buildBeamOffset": 43,
         "rotateSpeed": 1,
         "lowAltitude": true,
