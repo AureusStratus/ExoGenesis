@@ -3,6 +3,7 @@
     "description": "An Ancient forge Thought to be built by the [#FF5845FF]Solrans[]. This forge cannot be deconstructed after its built. Consumes large amounts of resources and power to create a powerful crystal.",
     "details": "A very ancient forge. It seems to have unknown markings on it aswell and uses unknown technology not from this dimension the only translatable think was on the forge was, bring apon a annihilation.",
  "type": "GenericCrafter",
+"breakable": false,
 	"destructible": true,
 	"drawer": {
 	"type": "DrawSmelter",
