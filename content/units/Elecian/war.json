@@ -18,7 +18,7 @@
   "armor": 90,
   "engineOffset": 59,
   "engineSize": 9.8,
-  "lowAltitude": true,
+  "groundLayer": 99,
   "targetAir": true,
   "commandLimit": 11,
 	"immunities": [
