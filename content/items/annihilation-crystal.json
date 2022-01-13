@@ -1,0 +1,15 @@
+{
+    "localizedName": "Annihilation Crystal",
+    "description": "A crystal powerful to bring apon [#FF5845FF]annihilation[] anything. Contains an extremely volatile and powerful energy.",
+    "details": ".",
+    "cost": 7,
+    "hardness": 8,
+    "explosiveness": 10,
+    "color": "FF5845FF",
+    "research": {
+    "parent": "primal-red",
+    "requirements": [
+    "primal-red/200"
+  ]
+  }
+}
