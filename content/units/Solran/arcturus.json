@@ -25,7 +25,7 @@
     "legCount": 4,
     "drownTimeMultiplier": 99999999999999,
 	"canDrown": false,
-    "groundLayer": 75,
+    "groundLayer": 87,
     "legPairOffset": 2,
     "legLength": 82,
     "legBaseOffset": 28,
