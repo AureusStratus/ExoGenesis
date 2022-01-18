@@ -1,13 +1,16 @@
 {
 	"type": "LaserTurret",
 	"localizedName": "Hades",
-	"description": "[red]unfinished",
-	"details": "Burn them down to there last atoms.",
+	"description": "Burn them down to there last atoms. A Plasma laser super weapon created by the [#FF5845FF]Solveara[]. Uses internal fusion reactors and energy to create beams of hyperheated plasma that can vaporize almost anything in its way. Uses large amounts of power and coolant.",
+	"details": "A weapon created for warfare and destruction. The weapons creation was a few decades after the [#FF5845FF]Solveara[] ran into [#A9D8FFFF]Genesux and [#F3E979FF]Elecian[] forces, They used there most powerful tech along side pieces of Asthenos they found near its crash site, the resulting weapon could burn away large fields and ignite the air.",
 	"size": 13,
 	"health": 1000000,
 	"reloadTime": 300,
 	"range": 550,
 	"shots" : 1,
+	"shootSound": "laserbig",
+    "loopSound": "beam",
+    "loopSoundVolume": 6.5,
     "hasLiquids": true,
     "liquidCapacity": 400,
 	"targetAir" : true, 
@@ -18,7 +21,7 @@
     "coolantMultiplier": 0.8,
     "update": true,
     "hasPower": true,
-    "chargeSound": "none",
+    "chargeSound": "lasercharge",
 	"chargeTime": 120,
 	"chargeEffects": 1,
 	"chargeBeginEffect": {
@@ -205,8 +208,6 @@
     "shootShake": 7,
     "firingMoveFract": 0.35,
     "shootDuration": 460,
-    "shootSound": "laserblast",
-    "loopSound": "beam",
 	"recoilAmount" : 9,
 	"restitution" : 0.04, 
 	"rotateSpeed": 1.5,
@@ -218,29 +219,19 @@
     "width": 14,
     "length": 560,
     "hitLarge": true,
-    "laserEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "lifetime": 15,
-    "length": 0,
-    "interp": "swingIn",
-    "region": "exogenesis-tall",
-    "sizeFrom": 46,
-    "sizeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"    
-	},
+    "status": "exogenesis-plasma-vaporisation",
+    "statusDuration": 150,
     "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 8,
-        "lifetime": 25,
-        "length": 65,
-        "cone": -360,
-        "lenFrom": 7,
-        "lenTo": 1,
-        "colorFrom": "FF5845FF",
-        "colorTo": "FFC1BBFF"
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 8,
+    "lifetime": 25,
+    "length": 65,
+    "cone": -360,
+    "lenFrom": 7,
+    "lenTo": 1,
+    "colorFrom": "FF5845FF",
+    "colorTo": "FFC1BBFF"
     },
     "lightning": 2,
     "lightningDamage": 0,
@@ -250,6 +241,8 @@
     "lightningType": {
     "type": "ShrapnelBulletType",
     "serrations": 0,
+    "status": "exogenesis-plasma-vaporisation",
+    "statusDuration": 150,
     "splashDamageRadius": 47,
     "length": 270,
     "lifetime": 20,
@@ -274,18 +267,27 @@
     },
     "drawSize": 660,
     "incendChance": 10,
-    "incendSpread": 7,
-    "incendAmount": 4
+    "incendSpread": 17,
+    "incendAmount": 10
 },
 	"consumes": {
 		"liquid": {
-			"liquid": "water",
+			"liquid": "osmilium-liquid",
 			"update": true,
-			"amount": 0.6
+			"amount": 0.9
 		}
 		},
 	"requirements": [
-	    "silicon/700"
+	    "silicon/10000",
+	    "volcanite/10000",
+        "thorium/8000",
+        "titanium/7750",
+        "copper/8700",
+        "primal-red/6800",
+        "annihilation-crystal/800",
+        "plastanium/6350",
+        "osmium/4000"
 	],
+	"research": "r-aftershock",
 	"category": "turret"
 }
