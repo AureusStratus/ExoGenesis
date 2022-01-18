@@ -4,7 +4,7 @@
     "research": "genesis-core",
     "details": "A mechanical interdimensional deity that hailed from a chaotic dimension, It came through this would along with others like it long ago and went on a rampage through out the galaxy, before its rampage was suddenly halted by an equally powerful force. and floating out across space in a dormant state it then crashed landed on the planet of the Genesuxian and remind dormant for millenias before it was reawaken by a powerful blast of dark energy.",
     "singleTarget": true,
-	"groundLayer": 75,
+	"groundLayer": 87,
 	"lightRadius": 350,
     "type": "legs",
 	"speed": 0.46,
