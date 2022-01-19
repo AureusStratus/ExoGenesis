@@ -1,7 +1,5 @@
 {
 "type": "UnitFactory",
-"description": "Can create units.",
-"localizedName": "Factory",
 "size": 3,
 "consumes": {
 "power": 5

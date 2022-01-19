@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "A Gemini Regiment turret. Fires large energy spheres that explode on impact and relase smaller projectiles.",
-	"localizedName": "Avenger",
 	"size": 5,
 	"health": 4360,
 	"range": 600,

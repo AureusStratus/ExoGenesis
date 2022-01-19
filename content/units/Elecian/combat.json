@@ -1,6 +1,4 @@
 {
-    "localizedName": "Combat",
-    "description": "[gold]The combat is equipped with shock artillery guns and it can give surrounding allies overclock making them stronger",
     "research": {
     "parent": "strife",
     "requirements": [

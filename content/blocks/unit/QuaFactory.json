@@ -1,8 +1,6 @@
 {
 "type": "UnitFactory",
-"description": "Can create quantra units.",
 "researchCostMultiplier": 0.3,
-"localizedName": "Quantra Factory",
 "size": 3,
 "consumes": {
 "power": 5

@@ -1,6 +1,5 @@
 {
 "name": "Molten",
-"description": "[red]well armored and durble this unit is equipped with plasma railgun that work better against units then strctures.",
 "outlineColor": "313131FF",
 "research": {
 "parent": "heat",

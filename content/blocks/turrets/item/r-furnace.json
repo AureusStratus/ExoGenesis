@@ -1,6 +1,4 @@
 {
-"localizedName": "Furnace",
-"description": "[red]Created to defend bases against Genesuxian interstellar forces with its powerful missiles. Fires devastating and explosive missiles",
 "type": "ItemTurret",
 "size": 6,
 "health": 4680,

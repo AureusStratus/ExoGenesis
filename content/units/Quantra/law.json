@@ -1,6 +1,5 @@
 {
 "name": "Law",
-"description": "[acid]The law is a small and durable mech unit that uses gamma bullets to deal damage to units and structures, especially structures",
 "type": "mech",
 "armor": 5,
 "research": "rule",

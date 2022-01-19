@@ -1,8 +1,6 @@
 {
-        "localizedName": "Healing Drone",
         "type": "flying",
         "controller": "DefenderAI",
-	    "description": "[#73FFAEFF]A small drone spawned by apotheosis. Healing any damage done to it.",
         "lowAltitude": true,
         "speed": 3,
         "accel": 0.03,

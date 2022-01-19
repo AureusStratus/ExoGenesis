@@ -1,8 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Aurstaus",
-	"description": "[blue]A massive weapon that was built by a being from another world, the turret consumes immense amounts of power when firing. It shoots a beam of pure energy that releases additional beams that damage enemies.",
-    "details": "Made by a furry, so there may be a few hairs stuck in the mechanism.",
 	"size": 14,
 	"health": 8789000,
 	"reloadTime": 850,
@@ -91,7 +88,6 @@
   "sideLength": 0,
       "status": {
         "name": "furry",
-	    "localizedName": "Furry",
         "damage": 20,
         "effect": "lightningCharge",
         "permanent": true,

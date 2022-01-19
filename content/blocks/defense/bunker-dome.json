@@ -1,7 +1,5 @@
 {    
     "type": "ForceProjector",
-    "description": "[acid]A powerful shield projector that can provide excellent defence.",
-    "localizedName": "Bunker Dome",
     "health": 1800,
     "shieldHealth": 20000,
     "size": 6,

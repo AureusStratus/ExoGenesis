@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Dark Matter Bolter",
-	"description": "[purple]Fires out bursts of dark matter bolters in a random direction.",
 	"size": 4,
 	"health": 880,
 	"reloadTime": 120,

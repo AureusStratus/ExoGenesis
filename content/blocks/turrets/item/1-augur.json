@@ -1,6 +1,4 @@
 {
-    "localizedName": "Augur",
-    "description": "An upgraded foreshadow fires ammo with more force and discharges lightning on impact.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 850,

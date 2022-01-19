@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Electro Arc Forge",
-	"description": "[gold]Uses lightning arcs to melt and supercharge materials to create Alpha Steel.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

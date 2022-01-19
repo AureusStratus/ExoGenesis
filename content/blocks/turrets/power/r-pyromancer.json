@@ -1,6 +1,4 @@
 {
-"localizedName": "Pyromancer",
-"description": "Created with some of the most powerful plasma technology the Solrans had to offer. Rapidly fires balls of plasma at nearby enemies.",
 "type": "powerTurret",
 "reloadTime": 5,
 "recoilAmount": 0,

@@ -1,6 +1,4 @@
 {
-    "localizedName": "Tier",
-    "description": "[acid] A small and fast naval unit created by the Guantra, this unit is equipped with a gamma arc gun that uses quantum physics to destroy the atom of enemies or structures, making them corroded quickly",
     "research": "dagger",
     "type": "naval",
     "speed": 1.1,

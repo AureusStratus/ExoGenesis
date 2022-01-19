@@ -1,6 +1,5 @@
 {
 "name": "Redox",
-"description": "[#73FFAEFF]A prototype unit created by the Quantra to aid in galactic war. Equipped with gamma plasma cannons that fire highly corrosive gamma plasma balls that can quickly bring down units, also has gamma bullet guns at the back aswell as four gamma bolters at the front. Able to boost over terrain and also heals allies.",
 "research": "assembly",
 "outlineColor": "3F414EFF",
 "mechLegColor": "3F414EFF",
@@ -61,8 +60,6 @@
 	"sprite" : "exogenesis-plasma",
     "status": {
     "name": "eroding",
-    "localizedName": "Eroding",
-    "description": "You are rapidly corroding away.",
     "damage": 0.94,
     "opposites": ["wet"],
     "transitionDamage": 50,

@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.7,
-    "description": "Fires energized astrolite bullets that explode on impact.",
-    "localizedName": "Steller",
     "size": 3,
     "health": 480,
     "reloadTime": 65,

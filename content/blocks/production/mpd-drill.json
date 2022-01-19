@@ -1,7 +1,5 @@
 {
 	"type": "Drill",
-	"localizedName": "M.P.D",
-	"description": "[#73FFAEFF]The MPD stands for mass production drill. Able to mine great amounts of material as well as mine very tough ores.",
 	"size": 5,
 	"tier": 14,
 	"rotateSpeed": 5.5,

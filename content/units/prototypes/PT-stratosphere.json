@@ -1,6 +1,4 @@
 {
-    "localizedName": "Stratosphere",
-    "description": "[blue]A prototype unit developed by the Genesuxians to aid in an on going galactic war. Equipped with cold plasma laser mounts that inflict freezing on enemies, has a small nuetron star core that it uses to boost allies and it can fire out stars at enemies. Uses a powerful force shield to protect itself and allies",
     "research": "assembly",
     "groundLayer": 75,
     "drawShields": false,
@@ -453,8 +451,6 @@
         },
         "effect": {
         "name": "neutron-overcharge",
-        "localizedName": "Neutron Overcharge",
-        "description": "You are being overcharged with neutron star energy.",
         "speedMultiplier": 1.35,
         "damageMultiplier": 1.35,
         "reloadMultiplier": 1.75,

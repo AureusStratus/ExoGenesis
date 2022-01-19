@@ -1,8 +1,6 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Havoc",
 	"researchCostMultiplier": 0.2,
-	"description": "[purple]A small but powerful mine launching turret that can cause havoc to large groups of ground units or single units.",
 	"health": 200,
 	"size": 2,
 	"reloadTime": 50,

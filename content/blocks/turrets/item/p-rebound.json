@@ -1,7 +1,5 @@
 {
     "type": "ItemTurret",
-    "localizedName": "Rebound",
-    "description": "[purple]Fires 3 bullets at enemies in and has long-range.",
     "health": 1600,
     "size": 5,
     "reloadTime": 80,

@@ -1,7 +1,5 @@
  {
 	"type": "ItemTurret",
-	"description": "[red]The precursor of the Solrans most power heavy turret. A laser turret that superheats its ammo to produce powerful laser blasts.",
-	"localizedName": "Shockwave",
 	"size": 4,
 	"health": 1600,
 	"range": 300,

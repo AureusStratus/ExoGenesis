@@ -1,7 +1,4 @@
 {
-        "localizedName": "Nadir",
-        "description": "[orange]The heavy gunner class titan unit. Equipped four gunners and four heavy gunners, and it is equipped with missike launchers. Can fire devastating energy orb that deals massive damage on impact. empowers nearby allies.",
-        "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Rule the skies and destroy the land.",
         "singleTarget": true,
         "lowAltitude": true,
         "research": {

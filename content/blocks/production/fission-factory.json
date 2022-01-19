@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Abnormality Materializer",
-    "description": "[purple]Uses large amounts of dark matter and an anomalous energy to create more Rutuxium.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 4,

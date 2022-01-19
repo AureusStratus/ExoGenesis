@@ -1,5 +1,4 @@
 {
-    "localizedName": "Asthenos",
     "research": {
     "parent": "bulwark-core",
     "requirements": [
@@ -13,8 +12,6 @@
     "silicon/8670"
     ]
     },
-    "description": "[red] A gaint extra-universal deity. Fires three powerful rockets from its main cannons that deal massive damage apon impact. has four artillery cannons aswell as 6 spiker weapons that shoot projectiles with the the ability to pierce structures and units. getting to close will cause structures and units to ignite.",
-    "details": "A mechanical interdimensional deity that hailed from a chaotic dimension, it entered this world along time ago with few others of its kind and went on rampage across the galaxy, before its destruction was suddenly stopped by another being from a similar dimension, it  then crashed landed on the molten planet of the solrans, and layed dormant for eons as the solrans learned from it and influenced there kind. But now it has awakened and from a powerful energy pulse from a distance world and has now taken control if the solran race.",
     "singleTarget": true,
 	"lightRadius": 300,
     "type": "legs",
@@ -765,8 +762,6 @@
     "reload": 1,
     "status": {
     "name": "super-heated",
-    "localizedName": "Super Heated",
-    "description": "Yo it be getting hot in here.",
     "speedMultiplier": 0.90,
     "effectChance": 0.6,
     "damage": 8,

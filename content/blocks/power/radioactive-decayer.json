@@ -1,7 +1,5 @@
 {
 "type": "DecayGenerator",
-"localizedName": "Radioactive Decayer",
-"description": "[#73FFAEFF] Rapidly decays radioactive materials to generate lots of power. Consumes radioactive materials rapidly.",
 "health": 400,
 "size": 4,
 "powerProduction": 24.5,

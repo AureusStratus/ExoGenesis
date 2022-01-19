@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Alloy Kiln",
-    "description": "An upgrade of the alloy smelter that is able to produce more surge at the cost of extra materials.",
     "type": "GenericCrafter",
 	"drawer": "DrawSmelter",
 	"size": 4,

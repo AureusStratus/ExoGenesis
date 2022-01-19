@@ -1,8 +1,6 @@
 {
 "category": "turret",
 "type": "LiquidTurret",
-"localizedName": "Geothermal",
-"description": "[red]A more advanced version of Thermal. A special turret that uses slag to create thin shells with molten liquid inside qnd then shots them in shotgun like manner dealing massive damage to close range objects.",
 "size": 4,
 "range": 200,
 "health": 1100,

@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Dark Matter Launcher",
-	"description": "[purple]Launches dark matter missiles at enemies.",
 	"size": 5,
 	"health": 880,
 	"reloadTime": 190,

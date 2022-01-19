@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.2,
-    "description": "[#73FFAEFF]Fires a gamma energy bomb.",
-    "localizedName": "Boson",
     "size": 2,
     "health": 240,
     "reloadTime": 124,
@@ -90,7 +88,7 @@
         "colorTo": "57D993FF"
         },
         "frontColor": "FFFFFFF",
-        "backColor": "73FFAEFF",
+        "backColor": "73FFAEFF"
             }
         }
     },

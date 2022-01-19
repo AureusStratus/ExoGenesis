@@ -1,6 +1,4 @@
 {
-        "localizedName": "Surge",
-        "description": "[gold]A prototype unit created by the Elecians to aid in the galactic war. Equipped with two surge rocket launchers and two arc guns that deal massive damage at close range. Able to generate an energy spike on the front of it as it moves and runs in to things.",
        "research": "assembly",
         "lightRadius": "145",
         "lightColor": "f3e979",

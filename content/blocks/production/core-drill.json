@@ -1,7 +1,5 @@
 {
 	"type": "Separator",
-	"localizedName": "Dismantler",
-	"description": "A massive structure that can sieve through Slag, pulling out small amounts of different resources. Can be quite useful.",
 	"size": 9,
         "liquidCapacity": 50,
 	"spinnerSpeed": 4,

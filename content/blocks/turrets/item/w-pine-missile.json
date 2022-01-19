@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[white]A small and cheap missile launcher.",
-    "localizedName": "Pine",
     "size": 1,
     "health": 45,
     "maxAmmo": 25,

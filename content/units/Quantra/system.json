@@ -1,6 +1,5 @@
 {
 "name": "System",
-"description":"[acid]The System unit is quite durable it has two gamma bullet gunners, and it now has gamma artillery guns that can make quick work of enemy groups, it can also heal nearby unit",
 "research": "order",
 "type": "mech",
 "armor": 12,

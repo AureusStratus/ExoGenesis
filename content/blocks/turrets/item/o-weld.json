@@ -1,7 +1,5 @@
 {
-    "localizedName": "Weld",
     "type": "ItemTurret",
-    "description": "[orange]An upgraded fuse. It can shoot two extra blast and uses much powerful ammunition.",
 	"reloadTime": 35,
 	"range": 160,
 	"spread": 15,

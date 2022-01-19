@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Gamma Radiation Forge",
-	"description": "[#73FFAEFF]Uses extreme amounts of gamma radiation to irradiate and melt materials in to Gamma Alloy.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

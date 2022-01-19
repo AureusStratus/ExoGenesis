@@ -1,7 +1,4 @@
 {
-    "localizedName": "Primordial",
-    "description": "[purple] Equipped with a powerful railgun, and it has two massive laser cannons on the back that can fire three quantux energy laser blasts, it has four laser mounts for close ranged damaged, lastly it has an orb of pure energy that is able to fire out large homing orbs of dark energy that deals catastrophic damage",
-    "details": "It was around long before the first stars. note the idea for the orb was made by the creator of the exotic mod. lore: Primordial has been around for who knows how long, it has ravaged countless planets turning them in the waste lands, before it then crashed landed on the planet of the Terretux. little is known about what happen after this, but the Terretux galaxy soon went dark, as its stars died off, and the Terretux and Primordial are now here to be found.",
     "singleTarget": true,
 	"lightRadius": 350,
 	"groundLayer": 75,
@@ -132,8 +129,6 @@
            "statusDuration": 10,
            "status": {
            "name": "quantux1-lock",
-           "localizedName": "Quantux Locked",
-           "description": "you are unable to do anything",
            "disarm": true,
            "reloadMultiplier": 0.3,
            "speedMultiplier": -1,
@@ -193,8 +188,6 @@
            "statusDuration": 10,
            "status": {
            "name": "quantux2-lock",
-           "localizedName": "Quantux Locked",
-           "description": "you are unable to do anything",
            "disarm": true,
            "reloadMultiplier": 0.3,
            "speedMultiplier": -1,
@@ -384,7 +377,6 @@
     },
      "effect": {
       "name": "quantux-power",
-      "localizedName": "Quantux Power",
       "speedMultiplier": 1.5,
       "effect": "none"
     },

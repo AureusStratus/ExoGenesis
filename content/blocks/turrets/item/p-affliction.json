@@ -1,7 +1,4 @@
 {
-"localizedName": "Affliction",
-"description": "[purple]Fires triple beams that can pierce enemies and inflict enemies with runic burn. Discharges purple lightning as well.",
-"details": "I might be coming down with something.",
 "type": "ItemTurret",
 "size": 7,
 "health": 1400,
@@ -39,9 +36,7 @@
   "lightningCone": 20,
   "lightningLengthRand": 13,
   "status": {
-    "localizedName": "Runic Burn",
     "name": "quantux-burn",
-    "description": "Burns away atoms",
     "damage": 5,
     "effect": "sapped",
     "speedMultiplier": 0.52,

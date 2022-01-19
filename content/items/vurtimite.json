@@ -1,7 +1,4 @@
 {
-    "localizedName": "Vurtimite",
-    "description": "[purple]A material with slight warping properties that is commonly found on the dark and destroyed surface of the Purtuxians home planet. used in various Purtuxian tech.",
-    "details": "Very odd but very useful.",
     "cost": 1,
     "explosiveness": 0.05,
     "radioactivity": 0.05,

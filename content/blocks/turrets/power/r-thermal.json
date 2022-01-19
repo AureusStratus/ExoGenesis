@@ -1,8 +1,6 @@
 {
 "category": "turret",
 "type": "LiquidTurret",
-"localizedName": "Thermal",
-"description": "A turret used on volceru to care for the children but has been proven quite useful in warfare against less molten beings. Fires a stream of slag.",
 "size": 3,
 "range": 160,
 "health": 1100,

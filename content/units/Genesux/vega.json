@@ -1,6 +1,4 @@
 {
-    "localizedName": "Vega",
-    "description": "Fires energy spikes and is paired with two orb guns that fire multiple homing energy orbs.",
     "research": {
     "parent": "kentaurus",
     "requirements": [

@@ -1,6 +1,4 @@
     {
-  "localizedName": "Oort",
-  "description": "An extension of the Orion. Fires a barrage of energy asteroids and is paired with laser weapons. Heals nearby allies with healing pulse and repair weapons.",
   "research": {
   "parent": "b-kuiper",
   "requirements": [

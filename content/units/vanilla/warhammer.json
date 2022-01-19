@@ -1,6 +1,5 @@
 {
 "name": "Warhammer",
-"description": "[orange]The assault class titan unit. A massive heavy fire power unit equipped with plasma cannons and can shoot a barrage of missiles and bullets. Powers itself with a built in reactor that will fire a devastating laser. Can buff allies.",
 "research": {
 "parent": "king",
 "requirements": [
@@ -15,7 +14,6 @@
 ]
 },
 "type": "mech",
-"details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Bring the war to them.",
 "lightRadius": 200,
 "armor": 65,
 "rotateSpeed": 0.8,
@@ -101,7 +99,7 @@
     "absorbable": false,
     "lightColor": "F3E979FF",
 	"frontColor": "FFFFFFF",
-  	"backColor": "F3E979FF",
+  	"backColor": "F3E979FF"
 	}
   },
   {
@@ -266,8 +264,6 @@
       "type": "mindustry.entities.abilities.StatusFieldAbility",
       "effect": {
       "name": "tyrannical-outburst",
-      "localizedName": "Outburst",
-      "description": "an unimaginable rage consumes you.",
       "speedMultiplier": 1.7,
       "damageMultiplier": 1.7,
       "reloadMultiplier": 1.7,
@@ -302,7 +298,6 @@
       },
       "effect": {
       "name": "militarian-buff",
-      "localizedName": "Militarian Buff",
       "speedMultiplier": 1.1,
       "damageMultiplier": 1.37,
       "reloadMultiplier": 1.15,

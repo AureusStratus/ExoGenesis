@@ -1,6 +1,5 @@
 {
 "name": "Heat",
-"description": "[red]A small and very durable unit created by the Solrans. equipped with one singular gun.",
 "outlineColor": "313131FF",
 "research": {
 "parent": "dagger",

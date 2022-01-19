@@ -1,6 +1,4 @@
 {
-    "localizedName": "Disrespect",
-    "description": "[gold]A small spider unit that has a built-in flame thrower that can deal lots of damage against units",
     "research": {
     "parent": "challenge",
     "requirements": [

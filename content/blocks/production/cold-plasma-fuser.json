@@ -1,6 +1,4 @@
 {	
-  "localizedName": "Cold Plasma Fuser",
-	"description": "[cyan]Infuses materials together with a cold energy to form a powerful metal.",
 	"type": "GenericCrafter",
 	"drawer": {
   "type": "drawArcSmelter",

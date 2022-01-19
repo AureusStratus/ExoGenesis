@@ -1,7 +1,5 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Obliterator",
-	"description": "[purple]Like the devastator, the obliterator can shoot mines that can quite literally obliterate ground units.",
 	"health": 400,
 	"size": 4,
 	"targetGround": "true",

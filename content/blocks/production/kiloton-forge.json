@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Kiloton Forge",
-    "description": "A bigger Ton Forge that can produce an abundance of Osmium. Takes a bit more materials and uses Pyratite to aid in the creation of Osmium.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

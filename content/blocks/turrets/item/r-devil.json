@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.2,
-    "description": "[red]A double barrel turret used by the solrans for there early days of warfare. Can shoot various ammunition.",
-    "localizedName": "Devil",
     "size": 2,
     "health": 240,
     "reloadTime": 34,

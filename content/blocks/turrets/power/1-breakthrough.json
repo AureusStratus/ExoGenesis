@@ -1,7 +1,5 @@
 {
 	"type": "LaserTurret",
-	"localizedName": "BreakThrough",
-	"description": "A much more powerful upgrade to the meltdown.",
 	"size": 5,
 	"health": 180,
 	"reloadTime": 130,

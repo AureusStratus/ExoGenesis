@@ -1,6 +1,5 @@
 {
 "name": "Thyme",
-"description":"l nearby unit",
 "research": "aster",
 "type": "legs",
 "outlineColor": "34353EFF",
@@ -10,7 +9,7 @@
 "rotateSpeed": 2.5,
 "canDrown": false,
 "hitSize": 38,
-"buildSpeed": 3.6
+"buildSpeed": 3.6,
 "legCount": 8,
 "legMoveSpace": 1,
 "legLength": 37,
@@ -100,7 +99,7 @@
     "shots": 1, 
     "recoil": 3,
     "shake": 0.5,
-    "shootY": 5
+    "shootY": 5,
     "ejectEffect": "casing2",
     "velocityRnd": 0.2,
     "shootSound": "shoot",
@@ -213,7 +212,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D99300",
     "sizeFrom": 23,
-    "sizeTo": 1,
+    "sizeTo": 1
     },
     "speed": 6,
     "shrinkY": 0,

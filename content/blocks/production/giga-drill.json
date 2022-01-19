@@ -1,7 +1,5 @@
 {
 	"type": "Drill",
-	"localizedName": "Goliath Drill",
-	"description": "You thought The Airblast Drill was the ultimate one? The Goliath Drill begs to differ.",
 	"size": 9,
 	"tier": 14,
 	"rotateSpeed": 4,

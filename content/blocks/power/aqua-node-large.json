@@ -1,7 +1,6 @@
 {
   "type": "PowerNode",
   "name": "Large Aqua Node",
-  "description": "A large power node capable of being placed on deep water, and has more range and connections than a normal node. Used for ocean-based defense.",
   "size": 2,
   "health": 100,
   "laserRange": 9.5,

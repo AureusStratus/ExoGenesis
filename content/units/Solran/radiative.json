@@ -1,6 +1,5 @@
 {
 "name": "Radiative",
-"description":"[red]A highly durbale unit. Fires two large plasma spheres at enemies as well as peircing plasma spikes.",
 "research": {
 "parent": "photosphere",
 "requirements": [

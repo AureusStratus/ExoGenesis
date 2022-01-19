@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "A basic [#A9D8FFFF]Genesuxian[] turret. Fires astrolite bullets.",
-    "localizedName": "Astral",
     "size": 1,
     "health": 240,
     "reloadTime": 35,

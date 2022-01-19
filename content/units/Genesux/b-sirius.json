@@ -1,7 +1,4 @@
 {
-  "localizedName": "Sirius",
-  "description": "paired with cold plasma lasers that iflict freezing on enemies and fires a devastating laser. buffs allies close to it and uses a force shield to protect itself and allies",
-  "details": "Created way back using some blue prints from a faild experiment ment to use the power of a mini star.",
   "research": {
   "parent": "b-oort",
   "requirements": [
@@ -343,8 +340,6 @@
         },
         "effect": {
         "name": "star-powered",
-        "localizedName": "Star Powered",
-        "description": "You are being powered by a mini neutron star.",
         "reloadMultiplier": 1.1,
         "speedMultiplier": 1.2,
         "effect": {

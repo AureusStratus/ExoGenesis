@@ -1,6 +1,4 @@
 {
-        "localizedName": "Conflict",
-	"description": "[gold] A small and fast flying unit created by the elecians this units is equipped with a shock rocket launcher that helps at dealing with groups of enemies  note this line of units are made to fight units and are not great at attacking structures",
     "research": {
     "parent": "dagger",
     "requirements": [

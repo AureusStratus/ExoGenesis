@@ -1,6 +1,4 @@
 {
-    "localizedName": "Strife",
-    "description": "[gold]The strife is equipped with shock rockets and a stronger power flame thrower",
     "research": {
     "parent": "disrespect",
     "requirements": [

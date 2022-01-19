@@ -1,8 +1,6 @@
 {    
     "type": "Wall",
-    "description": "Protects structures from enemy projectiles. Absorbs lasers and electric arcs. Blocks automatic power connections. Used for deep water defense",
 "placeableLiquid": "true",
-    "localizedName": "Large Aqua plastanium Wall",
     "health": 2080,
     "insulated": true,
     "absorbLasers": true,

@@ -1,5 +1,4 @@
 {
-    "localizedName": "Gacrux",
     "research": {
     "parent": "majoris",
     "requirements": [
@@ -9,7 +8,6 @@
     ]
     },
     "type": "flying",
-	"description": "Fires piercing cold energy bolts.",
     "lowAltitude": true,
     "speed": 1.8,
     "accel": 0.1,

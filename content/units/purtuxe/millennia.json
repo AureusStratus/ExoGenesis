@@ -1,5 +1,4 @@
 {
-    "localizedName": "Millennia",
     "research": {
     "parent": "century",
     "requirements": [
@@ -8,7 +7,6 @@
     "silicon/400"
     ]
     },
-    "description": "[purple]The upgrade to the century, this unit is equipped with upgraded anomaly blasters, and it has a built-in laser blaster",
     "type": "mech",
     "flying": false,
     "speed": 0.50,

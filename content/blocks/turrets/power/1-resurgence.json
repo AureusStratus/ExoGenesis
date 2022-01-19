@@ -1,7 +1,5 @@
 {
 	"type": "LaserTurret",
-	"localizedName": "Resurgence",
-	"description": "A Gemini Regiment turret. Fires a beam of plasma at enemies.",
 	"size": 2,
 	"health": 180,
 	"reloadTime": 40,

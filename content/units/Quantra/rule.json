@@ -1,7 +1,6 @@
 {
 "name": "Rule",
 "research": "dagger",
-"description": "[acid]A small mech unit created by the Quantra, this unit doesn't have any weapons but it can realses pulse waves of gamma energy that corrodeds things around, it this also causes it to discharge lightning",
 "type": "mech",
 "armor": 3,
 "hitSize": 11,

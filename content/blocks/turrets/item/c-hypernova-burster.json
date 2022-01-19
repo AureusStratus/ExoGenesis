@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Hypernova",
-	"description": "A super weapon created by the [#A9D8FFFF]Genesuxians[], and an extension of the Kilonova turret. Used for the intended to destroy enemy fleets and deal catastropic to a planets surface. Generates immense amounts of energy and fires a devastating hyper dense, energy core that deals catastrophic damage. Uses either Siravaxa Metal or a Calamity Crystals as ammunition. Consumes great amounts of power.",
-	"details": "After the reawakening of Sagittarius the Genesuxians soon quickly expanded out as Sagittarius is influence on the genesux grew stronger, but deep in the core a presence has awoken. The first Genesuxian.",
 	"size": 12,
 	"health": 8789000,
 	"reloadTime": 750,
@@ -1088,8 +1085,6 @@
         "spin": 9,
         "status": {
         "name": "celestial-blaze",
-        "localizedName": "Celestial Blaze",
-        "description": "You are being burnt away by starlight",
         "healthMultiplier": 0.6,
         "speedMultiplier": 0.9,
         "damageMultiplier": 0.6,

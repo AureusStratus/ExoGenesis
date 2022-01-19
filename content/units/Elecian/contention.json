@@ -1,7 +1,4 @@
 {
-        "localizedName": "Contention",
-        "description": "[gold], it has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
-        "details": "And in a thunderous bang all are gone",
     "research": {
     "parent": "disaccord",
     "requirements": [
@@ -159,9 +156,7 @@
       "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
     "status": {
-    "localizedName": "Division",
     "name": "division",
-    "description": "you have been weakened",
     "effect": "absorb",
     "permanent": true,
     "color": "F3E979FF",

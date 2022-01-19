@@ -1,6 +1,4 @@
 {
-"description": "You are being melted.",
-"localizedName": "Molten",
 "speedMultiplier": 0.7,
 "show": true,
 "effect": "melting",

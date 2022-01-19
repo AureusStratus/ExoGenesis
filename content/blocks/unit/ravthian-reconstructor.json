@@ -1,7 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Ravthian Recontructor",
-	"description": "What did it cost?...", 
 	"size": 11,
 	"constructTime": 3000,
 	"consumes": {

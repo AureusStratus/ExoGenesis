@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Phase Loom",
-    "description": "An upgrade of the Phase Weaver able to produce more Phase Fabric but requires more materials and uses a bit of Silicon in the process.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 3,

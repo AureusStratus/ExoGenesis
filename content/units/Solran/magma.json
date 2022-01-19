@@ -1,6 +1,5 @@
 {
 "name": "Magma",
-"description":"[red]Fires four volatile plasma orbs that deals great damage apon impact.",
 "research": {
 "parent": "molten",
 "requirements": [

@@ -1,8 +1,5 @@
 {
     "type": "PowerTurret",
-    "description": "A Lyra Regiment turret. Fires bursts of piercing energy bolts",
-    "details": "The lyra Regiment are the developers of the specialist units and turrets and they also produce nuclear tech and various other structures.",
-    "localizedName": "Sight",
     "size": 4,
     "health": 480,
     "reloadTime": 98,

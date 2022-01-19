@@ -1,6 +1,4 @@
 {
-    "localizedName": "Magnapinna",
-    "description": "[green]ts enemies and strctures. has two energy missile launchers at the back.",
     "research": {
     "parent": "mariana",
     "requirements": [

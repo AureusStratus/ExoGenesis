@@ -1,7 +1,4 @@
 {
-    "localizedName": "Universalis",
-    "description": "The Armada class titan unit. A massive [#]Genesuxian[] invasion battle ship. Slow moving and paired with cold plasma gunners and artillery. fires a massive cold energy laser from its core and generates a lightning field. Spawns swarms of drones.",
-    "details": "The Stars have aline and your enemies will perish.",
     "singleTarget": true,
     "drawShields": false,
     "research": {
@@ -325,8 +322,6 @@
     "reload": 50,
     "status": {
     "name": "energy-instability",
-    "localizedName": "Energy Instability",
-    "description": "energies the atoms of units making them unstable.",
     "effectChance": 0.6,
     "transitionDamage": 25,
     "affinities": ["tarred", "melting", "corroded", "freezing", "blasted", "slow", "unmoving", "burning", "wet", "muddy", "sapped", "overclock", "disarmed", "shielded", "shocked", "electrified", "spore-slowed", "overdrive"],

@@ -1,7 +1,5 @@
 {
 	"type": "LaserTurret",
-	"localizedName": "Uprise",
-	"description": "A Taurus Regiment heavy laser turret. Fire A plasma beam that frags into splasm spikes.",
 	"size": 8,
 	"unitSort": "strongest",
 	"health": 8660,

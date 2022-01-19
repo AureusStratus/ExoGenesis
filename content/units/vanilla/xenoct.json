@@ -1,7 +1,4 @@
 {
-  "localizedName": "Xenoct",
-  "description": "[purple]The specialist class titan. The xenoct is massive titan unit made to combat powerful enemies. Fires orbs of unstable nuclear energy that deal massive splash damage and inflicts sapping inferno. Has rapidly firing frontal laser weapons. Has powerful purple meltdowns.",
-  "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Toxic to the core.",
     "research": {
     "parent": "toxicity",
     "requirements": [

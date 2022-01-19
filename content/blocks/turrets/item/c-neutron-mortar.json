@@ -1,7 +1,5 @@
 {
-    "localizedName": "Neutron Mortar",
     "type": "ItemTurret",
-    "description": "A bigger and more powerful extensions of the stellar. Fires large mortal rounds at enemies dealing massive damage.",
 	"reloadTime": 165,
 	"range": 540,
 	"spread": 10,
@@ -24,9 +22,7 @@
     "lifetime": 80,
     "splashDamage" : 3800,
     "splashDamageRadius" : 70,	
-"status": "exogenesis-high-energy-blast",
-"statusDuration": 120,
-	"homingPower": 0.020,
+	"homingPower": 0.0200,
     "homingRange": 128,
     "hitSound": "plasmaboom",
     "width": 40,

@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "[#73FFAEFF]A powerful energy turret that fires balls of gamma plasma that explode on impact. Also frags.",
-	"localizedName": "Nullifier",
 	"size": 7,
 	"health": 5660,
 	"range": 500,

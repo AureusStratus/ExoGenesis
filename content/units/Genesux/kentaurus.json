@@ -1,7 +1,5 @@
 {
-    "localizedName": "Kentaurus",
     "type": "flying",
-	"description": "Fires lasers and builds swarms of drones capable of taking down medium sized bases.",
     "research": {
     "parent": "gacrux",
     "requirements": [

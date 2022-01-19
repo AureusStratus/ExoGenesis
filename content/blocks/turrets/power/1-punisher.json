@@ -1,7 +1,5 @@
 {
     "type": "PowerTurret",
-    "localizedName": "Punisher",
-	"description": "A Gemini Regiment turret. Fires energy rockets that pierce and home in on units.",
     "size": 3,
     "health": 360,
     "range": 200,

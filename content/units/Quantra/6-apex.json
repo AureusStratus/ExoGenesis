@@ -1,7 +1,4 @@
 {
-    "localizedName": "Apex",
-    "description": "[acid]The base breaker class titan unit, the apex is equipped with gauss cannons and four meltdowns mounts, it also has two energy missile launchers, its able to build like the prime it can also hold large amounts of resources. also has a large atomizer cannon",
-    "details": "Stand your ground and make them pay",
     "research": "5-prime",
     "type": "naval",
     "armor": 46,

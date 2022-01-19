@@ -1,9 +1,6 @@
 {
-    "localizedName": "Colossus",
     "controller": "builderAI",
     "type": "payload",
-    "description": "[green]The protecter class titan unit. The colossus is massive titan unit made to defend against powerful enemies, a gaint air support that has a powerful energy field ability aswell as it can regenerate itself. has a powerful shield.",
-    "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines made for war. Protect at all costs.",
     "singleTarget": true,
     "drawShields": false,
     "fallSpeed": 0.006,
@@ -61,8 +58,6 @@
     "activeEffect": "none",
      "effect": {
       "name": "octane-charge",
-      "localizedName": "Octane charge",
-      "description": "you are being powered by healing energy",
       "buildSpeedMultiplier": 1.7,
       "healthMultiplier": 1.7,
       "damage": -10,
@@ -88,8 +83,6 @@
       "statusDuration": 300,
       "status": {
       "name": "octane-blasted",
-      "localizedName": "Octane energy",
-      "description": "You've been hit with immense healing power.",
       "reloadMultiplier": 0.2,
       "buildSpeedMultiplier": 0.2,
       "speedMultiplier": 0.2,

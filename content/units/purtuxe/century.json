@@ -1,5 +1,4 @@
 {
-    "localizedName": "Century",
     "research": {
     "parent": "decade",
     "requirements": [
@@ -8,7 +7,6 @@
     "silicon/400"
     ]
     },
-    "description": "[purple]The upgrade to the decade, this unit is equipped with upgraded anomaly blasters. Has small sappers",
     "type": "mech",
     "flying": false,
     "speed": 0.53,

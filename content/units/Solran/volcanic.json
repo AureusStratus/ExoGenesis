@@ -1,6 +1,4 @@
 {
-    "localizedName": "Volcanic",
-    "description": "[red]A large tank equiped with a double barrle cannon that fires powerful shell that deal massive damage.",
     "research": {
     "parent": "eruption",
     "requirements": [

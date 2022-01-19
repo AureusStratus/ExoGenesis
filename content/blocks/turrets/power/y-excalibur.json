@@ -1,6 +1,4 @@
 {
-"localizedName": "Blitz",
-"description": "[yellow]A rapidly firing triple barrel laser turret which can easily cut down enemies.",
 "type": "PowerTurret",
 "size": 4,
 "health": 1000,

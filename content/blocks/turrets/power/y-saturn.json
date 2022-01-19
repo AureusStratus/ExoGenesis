@@ -1,8 +1,5 @@
 {
     "type": "PowerTurret",
-    "description": "[gold]A large energy turret used by the Elecians. Fires peircing bullets at enemies which fragments in to smaller homing projectiles.",
-    "details": "A deadly beauty",
-    "localizedName": "Saturn",
     "size": 8,
     "health": 8660,
     "reloadTime": 150,

@@ -1,6 +1,4 @@
 {
-    "localizedName": "Pteris",
-    "description": "[#73FFAEFF] mine",
     "type": "mech",
     "outlineColor": "34353EFF",
     "research": {
@@ -56,7 +54,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D99300",
     "sizeFrom": 7,
-    "sizeTo": 7,
+    "sizeTo": 7
     },
     "speed": 6,
     "shrinkY": 0,

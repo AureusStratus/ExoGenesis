@@ -1,7 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Helixian Reconstructor",
-	"description": "Upgrades otherworldly units in to there second tier.",
 	"size": 3,
 	"constructTime": 600,
 	"consumes": {

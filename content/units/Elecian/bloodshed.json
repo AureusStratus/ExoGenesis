@@ -1,7 +1,4 @@
 {
-    "localizedName": "Bloodshed",
-    "description": "[gold]The attacker class titan unit, its flame thrower deals massive damage and now shoot lightning as well and it has much more range it is equipped with two gunners and two laser mounts to assist it in combat against units",
-    "details": "created long ago when war first landed on there planet Bloodshed was made to combat this new potential treat but here minds where taken over by War and rendered the original purpose of this useless buts it now used as way to take over weaker civilizations.",
     "research": {
     "parent": "assault",
     "requirements": [

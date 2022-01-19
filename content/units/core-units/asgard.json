@@ -1,6 +1,4 @@
 {
-        "localizedName": "Asgard",
-    	"description": "[gold] A fast nimble unit that can fire homing energy orbs to defend its core",
         "speed": 3,
      	"isCounted": false,
      	"lowAltitude": true,

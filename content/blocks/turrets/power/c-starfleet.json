@@ -1,8 +1,6 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "A basic [#9D8FFFF]Genesux[] energy turret. Fires a barrage of energy stars",
-    "localizedName": "Starfleet",
     "size": 1,
     "health": 240,
     "reloadTime": 35,

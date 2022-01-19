@@ -1,6 +1,4 @@
 {
-"localizedName": "Fury",
-"description": "[red]One of the earliest laser turrets the Solran had ever made. A powerful but slow firing laser turret that uses short fusion bursts to create lasers.",
 "type": "PowerTurret",
 "size": 2,
 "health": 300,

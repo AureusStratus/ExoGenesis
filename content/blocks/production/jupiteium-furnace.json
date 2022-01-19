@@ -4,8 +4,6 @@
 	"type": "DrawSmelter",
 	"flameColor": "88a4ff"
 	},
-	"localizedName": "Jupiteium Furnace",
-	"description": "Rapidly decays Thorium and melts it together with Titanium and Silicon to form Jupiteium.",
 	"health": 360,
 	"liquidCapacity": 60,
 	"size": 3,

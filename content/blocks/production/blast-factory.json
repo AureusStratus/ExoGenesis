@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Blast Factory",
-    "description": "An upgrade of the blast mixer able to produce more Blast Compound, but needs more materials to create it.",
     "type": "GenericCrafter",
 	"size": 3,
 	"hasPower": true,

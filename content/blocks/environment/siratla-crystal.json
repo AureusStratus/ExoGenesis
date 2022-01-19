@@ -1,6 +1,5 @@
 {
 "type": "Floor",
-"localizedName": "Siratla Crystal",
 "itemDrop": "astrolite",
 "playerUnmineable": true,
 "emitLight": true,

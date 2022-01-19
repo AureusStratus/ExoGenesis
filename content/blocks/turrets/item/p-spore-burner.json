@@ -1,7 +1,5 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Anomaly Flamer",
-	"description": "[purple]A flame thrower turret that uses vurtimite primarly as its fuel source",
 	"size": 1,
 	"health": 100,
 	"range": 50,

@@ -1,6 +1,4 @@
 {
-    "localizedName": "Eruption",
-    "description": "[red]A powerful and heavily armored tank equipped with plasma throw weapon that fires plasma spheres that apon impact realses slag due to the ground melting.",
     "research": {
     "parent": "lava",
     "requirements": [

@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[red]One of the very first Solran turrets. Ignites coal and realses a hot spike.",
-    "localizedName": "Pyro",
     "size": 1,
     "health": 140,
     "reloadTime": 70,

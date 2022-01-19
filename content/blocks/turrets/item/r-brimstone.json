@@ -1,7 +1,5 @@
 {
-	"localizedName": "BrimStone",
 	"type": "itemTurret",
-	"description": "[red]Created when the warfare against the cold star beings known as the Genesuxians. Fires a powerful bullet from various ammunation.",
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "reloadTime": 185,

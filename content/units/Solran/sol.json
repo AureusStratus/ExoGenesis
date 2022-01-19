@@ -7,7 +7,6 @@
 "silicon/200"
 ]
 },
-"description": "[red]A small and very durable unit created by the Solrans. Possess plasma flamethrowers that sets fire to whatever it hits. Immune to burning and melting.",
 "type": "mech",
 "armor": 7,
 "commandLimit": 8,

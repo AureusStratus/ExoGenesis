@@ -1,7 +1,5 @@
 {
  "type": "TractorBeamTurret",
- "localizedName": "Resist",
- "description": "A small Gemini Regiment turret that pulls in units and damages them.",
  "range": 100,
  "size": 1,
  "health": 300,

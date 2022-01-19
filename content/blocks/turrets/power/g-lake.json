@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "[#73FFAEFF]An ocean defense turret used for defense on deep waters. Fires energy tridents.",
-	"localizedName": "Lake",
 	"size": 3,
 	"health": 1500,
 	"maxAmmo": 50,

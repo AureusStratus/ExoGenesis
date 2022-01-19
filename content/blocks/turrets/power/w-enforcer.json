@@ -1,8 +1,6 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.3,
-    "localizedName": "Enforcer",
-	"description": "[white]A powerful energy turret that rapidly fires point bullets dealing massive damage",
     "size": 3,
     "health": 360,
     "range": 500,

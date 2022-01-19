@@ -1,6 +1,4 @@
 {
-  "localizedName": "Toxicity",
-  "description": "[purple]A specialist class unit built for powerful assault attacks. Can fire devastating homing nuclear energy orbs that can easily destroy almost anything it impacts and it frags in to smaller energy bullets. Equipped with energy guns that fire multiple bullets.",
     "research": {
     "parent": "toxopid",
     "requirements": [
@@ -73,8 +71,6 @@
   "sprite" : "circle-bullet",
   "status" : {
   "name": "nuclear-toxicity",
-  "localizedName": "Nuclear Toxicity",
-  "description": "your life force is burning draining",
   "reloadMultiplier": 0.5,
   "healthMultiplier": 0.5,
   "speedMultiplier": 0.5,

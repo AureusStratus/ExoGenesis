@@ -1,7 +1,4 @@
 {
-    "localizedName": "Speed",
-    "description": "[purple] An extremely fast naval unit created by the purtuxians, this unit is equipped with four sappers that it uses in combat",
-    "details": "i am speed",
     "research": "dagger",
     "type": "naval",
     "speed": 2,

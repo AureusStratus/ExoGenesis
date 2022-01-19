@@ -1,7 +1,5 @@
     {
 "name": "plasma-vaporisation",
-"localizedName": "Plasma Vaporisation",
-"description": "Burns away at a units atoms. Doesnt effect high tier solran units.",
 "reloadMultiplier": 0.5,
 "speedMultiplier": 0.7,
 "effectChance": 0.5,

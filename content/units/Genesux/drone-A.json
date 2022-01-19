@@ -1,7 +1,5 @@
 {
-        "localizedName": "Attack Drone",
         "type": "flying",
-	    "description": "A small attack drone.",
         "lowAltitude": true,
         "speed": 2.4,
         "accel": 0.1,

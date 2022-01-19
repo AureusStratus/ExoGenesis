@@ -1,7 +1,5 @@
 {
 	"type": "ImpactReactor",
-	"localizedName": "Gamma Force Reactor",
-	"description": "[#73FFAEFF]Uses radioactive materials to generate ring of gamma energy that produces large amounts energy at peak efficiency . \n[red]Warning: Keep away from critical infrastructure.",
 	"health": 1200,
 	"itemCapacity": 200,
 	"size": 5,

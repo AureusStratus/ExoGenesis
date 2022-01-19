@@ -1,7 +1,4 @@
 {
-    "localizedName": "Balaenoptera",
-    "description": "[orange]The destroyer class titan unit. The balaenoptera is massive titan unit made to combat powerful enemies. A massiva naval battle ship thats equipped with a massive cannon capable of peircing enemies and buildings, it also has two missile launchers and four artillery cannons in the front that have masisive range. Builds minkus.",
-    "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines  made for war. Make your enemies and the water gods fear you.",
     "research": {
     "parent": "orca",
     "requirements": [

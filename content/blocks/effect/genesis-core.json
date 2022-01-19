@@ -1,6 +1,4 @@
 {
-	"localizedName": "Genesis Core",
-	"description": "A large core that is more armored than a standard core and has a bit more storage.",
 	"type": "CoreBlock",
 	"health": 9870,
 	"size": 7,
