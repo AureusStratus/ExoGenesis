@@ -1,6 +1,5 @@
 {
 "name": "Order",
-"description": "[acid]The order is the upgrade to the law, and it can now shoot pulses of gamma energy that can peirce through one tile",
 "type": "mech",
 "research": "law",
 "armor": 8,

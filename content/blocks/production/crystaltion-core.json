@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Crystaltion Core",
-    "description": " melts titanium, graphite and lead togther to form metallic crystalline material. Forms a bit of silicon as by-product.",
 	"type": "GenericCrafter",
 	"drawer": {
     "type": "DrawRotator",

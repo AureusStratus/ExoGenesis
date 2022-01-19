@@ -8,7 +8,6 @@
 ]
 },
 "controller": "SuicideAI",
-"description": "[gold]A fast small unit that will explode when near any structures or unit.",
 "type": "mech",
 "mechSideSway": 0.25,
 "armor": 1,

@@ -1,6 +1,5 @@
 {
 "name": "Solstice",
-"description": "[red]A prototype unit made by the Solrans to aid in the on going galactic war. Equipped with powerful fusion powered laser cannons that shoot two lasers, also has two fusion shotguns that aid in close ranged combat. Has fusion pulse ability that ignite nearby enemies and damages structures.",
 "research": "assembly",
 "type": "mech",
 "armor": 28,
@@ -118,8 +117,6 @@
     "lifetime": 0,
     "status": {
     "name": "superheated",
-    "localizedName": "Superheated",
-    "description": "you are rapidly melting.",
     "damage": 0.7,
     "opposites": ["wet", "freezing"],
     "transitionDamage": 9,

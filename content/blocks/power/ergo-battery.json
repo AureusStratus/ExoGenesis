@@ -1,7 +1,5 @@
 {
-	"localizedName": "Ergo Battery",
 	"type": "battery",
-	"description": "Uses Alpha Steel cells to store large amounts of power, but requires lots of resources to build.",
 	"size": 6,
 	"absorbLasers": true,
 	"fullLightColor": "79F2EEFF",

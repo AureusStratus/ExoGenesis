@@ -1,7 +1,5 @@
 {
     "type": "PowerTurret",
-    "description": "[purple]An A.A energy turret that fires energy cluster bombs at air born units",
-    "localizedName": "Vortex",
     "size": 3,
     "health": 840,
     "reloadTime": 60,

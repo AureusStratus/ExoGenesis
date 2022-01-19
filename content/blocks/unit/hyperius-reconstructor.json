@@ -1,7 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Hyperius Recontructor",
-	"description": "Upgrades units to there 5th tier.",
 	"size": 9,
 	"constructTime": 2000,
 	"consumes": {

@@ -1,7 +1,5 @@
 {
 "type": "TractorBeamTurret",
-"localizedName": "Attractor",
-"description": "An upgraded parallax has a stronger pull and more range.",
 "targetGround": false,
 "shootLength": 10,
 "rotateSpeed": 8,

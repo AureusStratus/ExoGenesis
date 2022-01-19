@@ -1,7 +1,4 @@
 {
-  "localizedName": "Eternity",
-  "description": "[purple]The Eternal titan unit. Fires devastating black holes bullets from its mysterious energy sphere as well as small energy orbs. Equipped with powerful railguns that can devastate enemies. Uses a powerful energy source to zap and debuff enemies. also heals its self over time",
-  "details": "After the devastation of the Terretuxian race from the first activation of the ragnaroc the survivors retreated to depths of the böötas void and built these units to protect the last of them for aslong as possible so they could return to utopia they once lived in. An eternity spent.",
     "research": {
     "parent": "epoch",
     "requirements": [
@@ -919,8 +916,6 @@
   	"length" : 600,
   	"status": {
     "name": "atomic-decay",
-    "localizedName": "Atomic Decay",
-    "description": "Decays the atoms of enemy units untill there is nothing left.",
     "speedMultiplier": 0.85,
     "damageMultiplier": 0.85,
     "reloadMultiplier": 0.85,
@@ -980,8 +975,6 @@
     "statusDuration": 600,
 	"status": {
     "name": "eternity",
-    "localizedName": "Eternity",
-    "description": "An eternity you shall spend.",
     "speedMultiplier": 0.15,
     "reloadMultiplier": 0.15,
     "effect": {

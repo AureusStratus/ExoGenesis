@@ -1,6 +1,4 @@
    { 
-    "localizedName": "Sapping Inferno",
-    "description": "your life force is being burnt away",
     "reloadMultiplier": 0.4,
     "healthMultiplier": 0.6,
     "speedMultiplier": 0.6,

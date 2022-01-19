@@ -1,7 +1,4 @@
 {
-    "localizedName": "Polaris",
-    "description": "A [#A9D8FFFF]Genesuxian[] railgun that primarily uses omega alloy, which it shoots at devastating speeds.",
-    "details": "May god forgive you... but I won't.",
 	"type": "ItemTurret",
 	"size": 5,
 	"health": 850,

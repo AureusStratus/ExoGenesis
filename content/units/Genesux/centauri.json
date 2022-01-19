@@ -1,6 +1,4 @@
 {
-    "localizedName": "Centauri",
-    "description": "An extension of the Vega. Paired with cold plasma gunners and fires a barrage of cold plasma energy spheres.",
     "research": {
     "parent": "vega",
     "requirements": [

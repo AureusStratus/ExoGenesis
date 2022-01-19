@@ -1,7 +1,5 @@
 {
     "type": "PowerTurret",
-    "description": "A long ranged [#A9D8FFFF]Genesux[] heavy turret. Charges up, then fires high velocity proectile dealing massive damage.",
-    "localizedName": "Constellation",
     "size": 8,
     "health": 8660,
     "reloadTime": 300,
@@ -105,7 +103,7 @@
         "lightningLengthRand": 13,
         "lightningLength": 25,
 		"lightningDamage": 150,
-        "status": "exogenesis-high-energy-blast",
+        "status": "slow",
         "statusDuration": 300,
         "height": 38,
         "width": 38,

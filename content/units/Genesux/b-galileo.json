@@ -1,6 +1,4 @@
 {
-    "localizedName": "Galileo",
-    "description": "Rapidly fires cold energy bolts at enemies.",
     "type": "legs",
     "research": {
     "parent": "a-orion",

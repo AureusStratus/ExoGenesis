@@ -1,7 +1,5 @@
 {
 "type": "MendProjector",
-"localizedName": "Singularium Wall",
-"description": "[purple]An advanced wall with the capability to heal its self.",
 "health": 4000,
 "size": 1,
 "hasPower": false,

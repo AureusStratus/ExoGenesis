@@ -1,6 +1,5 @@
 {
 "name": "Photosphere",
-"description": "[red]A durable unit that rapidly fires projectiles at enemies. Possess plasma flamethrowers.",
 "research": {
 "parent": "corona",
 "requirements": [

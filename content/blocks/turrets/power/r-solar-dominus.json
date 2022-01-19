@@ -1,8 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Solar Dominus",
-	"description": "[red]A powerful energy turret used by the Solrans to devastate army's. Fires 3 spiked energy bullets that then shatter in to smaller ones and then thos fragments shatter in to smaller onces hitting a oarge area.",
-	"details": "Smuther your enemies in your hatred.",
 	"size": 8,
 	"health": 8660,
 	"reloadTime": 350,

@@ -1,6 +1,5 @@
 {
 "name": "Core",
-"description": "[red]unit that fires three plasma laser at enemies and structures. Fires multiple plasma spikes.",
 "research": {
 "parent": "radiative",
 "requirements": [

@@ -1,7 +1,5 @@
 {
-	"localizedName": "Nexus",
 	"type": "itemTurret",
-	"description": "A heavy [#A9D8FFFF]Genesuxian[] turret and an extention of the Cosmos turret.Rapidly fires high velocity rounds.",
 	"health": 8660,
 	"shots": 1,
     "shootShake": 3,

@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Voltirium Forge",
-    "description": "Melts together metals to create a highly advanced alloy.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

@@ -1,7 +1,5 @@
 {
 "type": "PointDefenseTurret",
-"localizedName": "Sever",
-"description": "An upgraded segment has more range and is a bit faster then normal segment.",
 "shootLength": 10,
 "reloadTime": 7,
 "rotateSpeed": 8,

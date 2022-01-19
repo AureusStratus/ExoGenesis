@@ -1,6 +1,4 @@
 {
-    "localizedName": "Peak",
-    "description": "[acid] Equipped with two gamma artillery cannons and two energy missile launchers",
     "research": "2-falx",
     "type": "naval",
     "speed": 0.85,

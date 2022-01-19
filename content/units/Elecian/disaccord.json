@@ -1,6 +1,4 @@
 {
-        "localizedName": "Disaccord",
-        "description": "[gold] This unit is force to be reckoned with its is equipped with a vela like laser and 2 laser mounts and 1 missile launcher and 2 artillery cannons and it has a low health shield to block some attacks",
     "research": {
     "parent": "disagreement",
     "requirements": [

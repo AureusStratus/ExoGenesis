@@ -1,6 +1,5 @@
 {
 "name": "Irradiated",
-"description": "A permanent status effect that deals small amounts of damage to the unit and slightly debuffs them. You are now radioactive",
 "permanent": true,
 "effect": {
 "type": "ParticleEffect",

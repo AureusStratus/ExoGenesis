@@ -1,6 +1,4 @@
 {
-    "localizedName": "Lava",
-    "description": "[red]A large tank equiped with a double barrle cannon that fires powerful shell that deal massive damage.",
     "research": {
     "parent": "magma",
     "requirements": [

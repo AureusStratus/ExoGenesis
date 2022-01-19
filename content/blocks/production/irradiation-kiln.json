@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Irradiation Kiln",
-	"description": "[#73FFAEFF]Uses mini gamma ray bursts to irradiate and melt materials to create Gamma Alloy. Requires water.",
 	"type": "GenericCrafter",
 	"drawer": {
 	"type": "drawArcSmelter",

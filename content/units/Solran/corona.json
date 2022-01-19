@@ -1,6 +1,5 @@
 {
 "name": "Corona",
-"description": "[red]A durable unit that first plasma balls at enemies and structures.",
 "research": {
 "parent": "sol",
 "requirements": [

@@ -1,8 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Advancer Recontructor",
-	"description": "Upgrades units to a higher tier.",
-	"details": "After the Sharded got invaded by a Genesuxian coloration fleet they soon realized they weren't alone anymore, They retrieving the remains of a fallen titan unit they soon created titans of there own.",
 	"size": 11,
 	"constructTime": 8000,
 	"liquidCapacity": 380,

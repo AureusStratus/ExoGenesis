@@ -1,6 +1,4 @@
 {
-    "localizedName": "Glaucus",
-    "description": "[green]A support naval built to weaken energy based defences as well as disrupt or destroy power lines or sources. Equipped with power emp bullet cannons that fire a spread of small emp bullets that can make quick work or power based structures and turrets. Has four front plasma flamethrowers that are uncontrollable but auto targets enemies and strctures. has two energy missile launchers at the back.",
     "research": {
     "parent": "navanax",
     "requirements": [

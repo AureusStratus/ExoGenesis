@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.3,
-    "description": "An extension of the Astral turret. Fires astrolite bullets that shatter in to shrapnel on impact.",
-    "localizedName": "Cosmos",
     "size": 2,
     "health": 480,
     "reloadTime": 65,

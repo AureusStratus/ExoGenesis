@@ -1,7 +1,5 @@
 {
-        "localizedName": "Laser Drone",
         "type": "flying",
-	    "description": "A small laser drone..",
         "lowAltitude": true,
         "speed": 2,
         "accel": 0.02,

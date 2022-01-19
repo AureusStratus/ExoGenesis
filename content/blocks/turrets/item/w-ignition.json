@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[white]A smaller and cheaper version of the fuse.",
-    "localizedName": "Ignition",
     "size": 1,
     "health": 140,
     "reloadTime": 45,

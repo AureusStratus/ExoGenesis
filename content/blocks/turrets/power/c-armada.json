@@ -1,8 +1,6 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.3,
-    "description": "An extension of the starfleet. Fires a barrage of homing energy stars",
-    "localizedName": "Armada",
 	"size": 2,
 	"health": 500,
     "reloadTime": 35,

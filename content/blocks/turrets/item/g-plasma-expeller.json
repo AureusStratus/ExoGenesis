@@ -1,7 +1,5 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Plasma Expeller",
-	"description": "[#73FFAEFF]A flame thrower turret that uses plastanium or xanium at superheated temperatures to create green hot plasma.",
 	"size": 4,
 	"health": 1600,
 	"range": 100,

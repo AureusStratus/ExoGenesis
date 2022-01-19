@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "[yellow]An A.A energy turret that shoots large energy bullets that home in on air units, dealing massive amounts of damage on impact.",
-	"localizedName": "Zero Point",
 	"size": 4,
 	"health": 4360,
 	"range": 800,

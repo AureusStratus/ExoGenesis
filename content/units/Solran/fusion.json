@@ -1,6 +1,5 @@
 {
 "name": "Fusion",
-"description": "[red]A power and large unit equipped with powerful plasma flamethrowers that leave nothing behind. has multiple heavy gunners.",
 "research": {
 "parent": "core",
 "requirements": [

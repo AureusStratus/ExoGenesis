@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.9,
-    "description": "Fires powerful energized bullets at enemies in an odd way.",
-    "localizedName": "Nebula",
     "size": 4,
     "health": 1600,
     "reloadTime": 70,

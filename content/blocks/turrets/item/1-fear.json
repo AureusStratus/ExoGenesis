@@ -1,7 +1,4 @@
 {
-    "localizedName": "Fear",
-    "description": "A long ranged railgun produced by the Taurus Regiment. Fires powerful attacks of either surge or phase.",
-    "details": "Your doom is near.",
 	"type": "ItemTurret",
 	"size": 8,
 	"unitSort": "strongest",
@@ -389,7 +386,7 @@
 			},
 	"requirements": [
 		"titanium/1750",
-        "thorium/2400"
+        "thorium/2400",
         "voltirium-alloy/1500",
         "plastanium/2650",
         "copper/4950",

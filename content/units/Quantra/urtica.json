@@ -1,6 +1,5 @@
 {
 "name": "Urtica",
-"description":"[acid]The System unit is quite durable it has two gamma bullet gunners, and it now has gamma artillery guns that can make quick work of enemy groups, it can also heal nearby unit",
 "research": "aster",
 "type": "mech",
 "armor": 7,
@@ -64,7 +63,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D99300",
     "sizeFrom": 10,
-    "sizeTo": 10,
+    "sizeTo": 10
     },
     "speed": 6,
     "shrinkY": 0,
@@ -120,7 +119,7 @@
     "shots": 2, 
     "recoil": 3,
     "shake": 0.5,
-    "shootY": 5
+    "shootY": 5,
     "ejectEffect": "casing2",
     "velocityRnd": 0.2,
     "shootSound": "shoot",

@@ -1,7 +1,5 @@
 {
 	"type": "LaserTurret",
-	"localizedName": "Ember",
-	"description": "[red]Created during the area of technological advanced ments in fusion and plasma technology. Fires a concentrated beam of plasma at enemies.",
 	"size": 5,
 	"health": 1900,
 	"reloadTime": 220,

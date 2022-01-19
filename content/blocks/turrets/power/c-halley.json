@@ -1,7 +1,5 @@
 {
     "type": "PowerTurret",
-    "description": "An energy turret which fires large homing energy comets.",
-    "localizedName": "Halley",
     "size": 4,
     "health": 1600,
     "reloadTime": 70,

@@ -1,6 +1,4 @@
 {
-        "localizedName": "Guardian",
-    	"description": "[#73FFAEFF]The defender of the quantum core. Can command large amounts of units and has an unmatched mining speed. Can deploy gamma bombs.",
         "speed": 1.8,
      	"isCounted": false,
         "mineSpeed": 20,

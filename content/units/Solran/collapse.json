@@ -1,7 +1,6 @@
 {
 "name": "Collapse",
 "type": "legs",
-"description": "[red]The solar titan unit. A massive four legged unit that fires volatile star core that apon impact collapse and explodes in a devastating explosion. Fires powerfull cluster artillery shells. Units nearby will ignite from the heat radiating fromits star core. Can induce a small supernova using its star core. Can walk over most terrain.",
 "research": {
 "parent": "fusion",
 "requirements": [
@@ -328,8 +327,6 @@
   "sprite" : "exogenesis-star-core-bullet",
   "status": {
   "name": "solar1-flare",
-  "localizedName": "Solar Flare",
-  "description": "The heat of the suns surface.",
   "reloadMultiplier": 0.5,
   "speedMultiplier": 0.7,
   "effectChance": 0.5,

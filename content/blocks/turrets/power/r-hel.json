@@ -1,8 +1,6 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[red]The first powered Solran turret. Slow fire rate but deals great damage.",
-    "localizedName": "Hel",
     "size": 1,
     "health": 240,
     "reloadTime": 60,

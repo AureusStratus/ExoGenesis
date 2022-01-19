@@ -1,6 +1,5 @@
 {
 "name": "King",
-"description": "[orange]An assault mech built to destroy and attack. Equipped with powerful meltdown weapons that can make quick work of structures and enemies also is equip with shock gunners.",
 "research": {
 "parent": "reign",
 "requirements": [

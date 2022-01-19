@@ -1,7 +1,5 @@
 {	
-    "localizedName": "Fuser Oven",
     "researchCostMultiplier": 0.1,
-    "description": "[gold]Fuses together materials with heat and electric arcs to create Oltuxium.",
     "type": "GenericCrafter",
 	"size": 2,
 	"hasPower": true,

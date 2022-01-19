@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Crystallizer",
-    "description": "[cyan]Compresses and energises Graphite with cold plasma to form a crystal like mineral.",
     "size": 2,
     "type": "GenericCrafter",
 	"drawer": {

@@ -1,8 +1,6 @@
 {   
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "description": "A tough wall that has abortion properties.",
-    "localizedName": "Huge gamma wall",
     "health": 26100,
     "size": 3,
     "insulated": true,

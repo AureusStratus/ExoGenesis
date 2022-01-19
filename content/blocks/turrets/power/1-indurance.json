@@ -1,7 +1,4 @@
 {
-"localizedName": "Indurance",
-"description": "A Gemini Regiment turret. A rapid turret that shoots energy lasers",
-"details": "The Gemini Regiment are the supportive and defensive developers of the Sharded corporation. They specialised in supportive and defencive technology but often made there own turrets.",
 "type": "PowerTurret",
 "size": 4,
 "health": 1000,

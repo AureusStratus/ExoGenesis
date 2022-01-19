@@ -1,6 +1,4 @@
 {
-    "localizedName": "Era",
-    "description": "[purple]The upgrade to the eon, it is equipped with a railgun similar to the omuras, it is also equipped with anomaly blasters and two gunners to help it in combat, it can also generate a small anomaly energy sphere that slowly implode in to a pulse that damage enemies",
     "research": {
     "parent": "eon",
     "requirements": [

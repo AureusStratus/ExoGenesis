@@ -1,7 +1,5 @@
 {
-	"localizedName": "Dread",
 	"type": "itemTurret",
-	"description": "A Taurus Regiment heavy assault turret. Fires large and powerful bullets with various capabilities.",
 	"health": 8660,
     "coolantMultiplier": 1.5,
     "reloadTime": 10,

@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "[acid]A weapon used by the quantra to defend ther home world form outside threats. Fires powerfull gamma plasma orbs that shatter in to tridents.",
-	"localizedName": "Neptune",
 	"size": 11,
 	"health": 10000,
 	"reloadTime": 400,

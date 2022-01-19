@@ -1,8 +1,5 @@
 {
     "type": "ItemTurret",
-    "localizedName": "Project Jupiter",
-    "description": "[yellow]A large and powerful magnetic accelerator cannon that can launch projectiles with extreme force.",
-    "details": "This turret was created long ago when Elecians found a really early design of it was found on a long dead star system near the proxima centauri system old ruins of the dead civilization said that there home was called earth and this turret was created by someone named dark. The power of the largest planet now beihg fired at your foes.",
     "health": 8660,
     "size": 8,
     "reloadTime": 50,

@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Ionizer",
-    "description": "[#73FFAEFF]Ionizes materials with radiation to create Valvanite.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

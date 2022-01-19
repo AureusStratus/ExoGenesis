@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-    "description": "[white]Equalize the battle field with this massive turret. It can shoot different projectiles depending on its ammunition. It takes a large amount of resource to build. This weapon was created to fight off power units.",
-	"localizedName": "Equilibrium",
-	"details": "Equalize the battlefield.",
 	"size": 14,
 	"health": 143600,
 	"range": 800,
@@ -76,8 +73,6 @@
 		"backColor": "C2FF70FF",
         "statusDuration": 1300,
         "status": {
-        "localizedName": "Gamma Burn",
-        "description": "gamma energy is melting you",
         "name": "gamma-burn",
         "damage": 1.8,
         "effect": {
@@ -125,8 +120,6 @@
         "collidesAir": true,
         "statusDuration": 1300,
         "status": {
-        "localizedName": "Armor Broken",
-        "description": "Your armor has been broken",
         "name": "armor-break",
         "effect": "blastsmoke",
         "permanent": true,
@@ -142,9 +135,7 @@
         "lightRadius": 140,
         "lightColor": "322252FF",
         "status": {
-        "localizedName": "Void",
         "name": "void",
-        "description": "The power of a singularity is warping you",
         "transitionDamage": 36,
         "affinities": ["slow", "unmoving"],
         "damage": 0.8,
@@ -288,8 +279,6 @@
            "shootEffect": "massiveExplosion",
            "colors": ["DE4136AA", "FF5845FF", "FFC1BBFF"],
            "status": {
-              "localizedName": "Blazing",
-              "description": "The heat is to much.",
               "name": "blazing",
               "damage": 1.3,
               "effect": "burning",
@@ -351,8 +340,6 @@
       "length": 280,
       "statusDuration": 1300,
       "status": {
-      "localizedName": "Omni Blasted",
-      "description": "You have been hit with potent energy.",
       "name": "omni-blast",
       "effect": "lightningCharge",
       "permanent": false,

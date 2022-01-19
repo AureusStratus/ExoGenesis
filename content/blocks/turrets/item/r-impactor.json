@@ -1,7 +1,5 @@
 {
-	"localizedName": "Impactor",
 	"type": "itemTurret",
-	"description": "[red]The Solrans made many powerful turrets for either warfare amongst themselves or for warfare against other galactic races. The impactor uses terrestrial materials or ores to create asteriod bullets that it launches at targets dealing large amounts of damage . ",
     "coolantMultiplier": 0.9,
     "ammoPerShot": 30,
     "ammoCapacity": 90,

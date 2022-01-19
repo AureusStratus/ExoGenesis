@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "[yellow]An ion-based ground turret. shoots ionized particles at units dealing massive damage.",
-	"localizedName": "Ionic Pinpointer",
 	"size": 4,
 	"health": 3180,
 	"reloadTime": 140,

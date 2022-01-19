@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Cold Plasmathrower",
-	"description": "A flamethrower that primarily uses cold energy to create subzero flames.",
 	"size": 4,
 	"health": 1600,
 	"range": 130,

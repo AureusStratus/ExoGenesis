@@ -1,6 +1,4 @@
 {
-    "localizedName": "Twilight",
-    "description": "[orange]A assault class air unit dedicated to attacking and destroying. Equipped with two powerful back cannons that can pierce structures and units and also are immune to point defense. Has two front gunners that rapidly fire bullets but is highly inaccurate at long range but can easily make quick work of groups of enemies or walls, they also are immunemto point defence.",
     "singleTarget": true,
     "drawShields": false,
     "research": {
@@ -67,7 +65,7 @@
     "shootEffect": "shootBig2",
     "despawnEffect": "flakExplosion",
     "trailParam": 5,
-    "trailLength": 13
+    "trailLength": 13,
     "trailWidth": 2,
     "knockback": 0.5,
     "statusDuration": 80,
@@ -105,7 +103,7 @@
     "shootEffect": "shootBig2",
     "despawnEffect": "flakExplosion",
     "trailParam": 5,
-    "trailLength": 13
+    "trailLength": 13,
     "trailWidth": 2,
     "knockback": 0.5,
     "statusDuration": 80,

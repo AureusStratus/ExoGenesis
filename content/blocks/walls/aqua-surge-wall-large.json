@@ -1,8 +1,6 @@
 {    
     "type": "Wall",
 "placeableLiquid": "true",
-    "description": "Protects structures from enemy projectiles, periodically releasing electric arcs upon contact. Used for deep water defense",
-    "localizedName": "Large Aqua Surge Wall",
     "lightningChance": 0.05,
     "health": 3680,
     "size": 2,

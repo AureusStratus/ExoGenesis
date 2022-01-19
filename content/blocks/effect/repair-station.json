@@ -1,7 +1,5 @@
 {
     "type": "MendProjector",
-    "description": "A bigger mend projector that is more powerful and has a greater range.",
-    "localizedName": "Repair Station",
     "health": 960,
     "size": 3,
     "hasPower": true,

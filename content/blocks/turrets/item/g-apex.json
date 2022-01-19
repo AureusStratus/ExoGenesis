@@ -1,8 +1,5 @@
 {
 	"type": "ItemTurret",
-	"localizedName": "Apec",
-	"details": "Slice and dice or home and explode.",
-	"description": "[#73FFAEFF]The atomic partical energizer cannon also known as apec superchargers atoms with gamma radiation, then it uses magnetic forces to fire it out either a gamma energy pulse or a sphere of xegon plasma depending on the ammunation.",
 	"size": 8,
 	"health": 8660,
 	"range": 580,

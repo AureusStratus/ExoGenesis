@@ -1,8 +1,5 @@
  {
 	"type": "ItemTurret",
-	"description": "[red]One of the most powerful heavy turrets the Solrans had to offer. A massive laser cannon that superheats its ammunition to the point of fusion and then realses it in the form of a devastating laser.",
-	"localizedName": "Aftershock",
-	"details": "Melt your foes",
 	"size": 8,
 	"accurateDelay": true,
 	"health": 8660,

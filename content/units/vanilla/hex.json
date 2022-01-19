@@ -1,8 +1,6 @@
 {
-    "localizedName": "Hex",
     "controller": "DefenderAI",
     "type": "payload",
-    "description": "[green]A massive air unit dedicated to protecting and assisting. Equipped with a powerful shield an energy field ability that can debuff, heal units and structures and can deal damage to nearby enemies units and structures.",
     "singleTarget": true,
     "drawShields": false,
     "fallSpeed": 0.006,

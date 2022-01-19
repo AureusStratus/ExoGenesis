@@ -1,7 +1,5 @@
 {
 	"type": "NuclearReactor",
-	"localizedName": "Neutron Reactor",
-	"description": "Energies Astrolite induce a decay of the Astrolite making it heat up fast and decay in to neutrons and producing power at the same time.",
 	"health": 1200,
 	"itemCapacity": 30,
 	"liquidCapacity": 30,

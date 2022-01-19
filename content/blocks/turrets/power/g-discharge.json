@@ -1,7 +1,5 @@
 {
     "type": "PowerTurret",
-    "localizedName": "Discharge",
-    "description": "[#73FFAEFF]Discharges gamma lightning that corrodes enemies.",
     "targetAir": true,
     "targetGround": true,
     "hasPower": true,
@@ -40,7 +38,7 @@
         "lead/650",
         "silicon/250",
         "xanium/400",
-        "gamma-green/200"
+        "gamma-green/200",
         "plastanium/350",
         "osmium/100"
     ],

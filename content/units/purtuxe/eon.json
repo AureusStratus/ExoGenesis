@@ -1,6 +1,4 @@
 {
-    "localizedName": "Eon",
-    "description": "[purple]The upgrade to the Millennia, this unit is is equipped with powerful anomaly blasters, two sappers and a built-in weapon",
     "research": {
     "parent": "millennia",
     "requirements": [

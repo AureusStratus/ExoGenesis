@@ -1,7 +1,5 @@
 {
     "type": "ItemTurret",
-    "description": "[#73FFAEFF]Fires three bullets that are made from radioactive materials that have different capabilities",
-    "localizedName": "Tsar",
     "size": 7,
     "health": 280,
     "reloadTime": 12,

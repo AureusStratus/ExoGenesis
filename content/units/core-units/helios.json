@@ -1,6 +1,5 @@
 {
 "name": "Helios",
-"description": "[red]The defender of the bulwark core. It is durable and equipped with artillery weapons that realse slag on impact.",
 "type": "mech",
 "boostMultiplier": 2,
 "canBoost": true,

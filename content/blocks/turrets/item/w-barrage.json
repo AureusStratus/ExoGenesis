@@ -1,7 +1,5 @@
 {
     "type": "ItemTurret",
-    "description": "An upgrade salvo thta can fire a barrage of bullets",
-    "localizedName": "Barrage",
     "size": 3,
     "health": 240,
     "reloadTime": 58,

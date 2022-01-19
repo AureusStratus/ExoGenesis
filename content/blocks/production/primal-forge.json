@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Nuclear Fusion Furnace",
-    "description": "[red]Superheats materials to the point of fusion to create Sigma Iron.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",
@@ -20,8 +18,8 @@
 			"items": [
 		        "copper/3",
 			"lead/3",
-			"titanium/4"
-			"volcanite/5",
+			"titanium/4",
+			"volcanite/5"
 			]
 		}
 	},

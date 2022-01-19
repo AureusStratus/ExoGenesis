@@ -1,7 +1,5 @@
 {
-    "localizedName": "Retaliator",
     "type": "PowerTurret",
-    "description": "A Gemini Regiment heavy energy turret. Fires a cluster of emp energy bullets that slow down enemies and boosts allie power structures",
 	"reloadTime": 71,
 	"unitSort": "strongest",
 	"range": 350,

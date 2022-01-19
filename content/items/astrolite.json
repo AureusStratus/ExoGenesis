@@ -1,6 +1,4 @@
 {
-    "localizedName": "Astrolite",
-    "description": "[cyan]A mineral that is commonly found on the cold world of the Genesuxians. Used in various Genesuxian tech and crafting.",
     "cost": 1,
     "lowPriority": true,
     "charge": 0.1,

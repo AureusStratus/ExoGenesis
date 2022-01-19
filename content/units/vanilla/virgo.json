@@ -1,6 +1,4 @@
 {
-    "localizedName": "Virgo",
-    "description": "[green]The heavy support class titan. A massive heavy support unit equipped with the most advanced energy destroyer railgun cannon sharded has to offer. Along side its main weapon it has two energy cores it uses to power its weaponry system. It can fire energy missles qnd lasers from these two core, it also can fire disk that has an emp effect. Has a large and powerful shield and can heal nearby allies.",
     "research": {
     "parent": "stella",
     "requirements": [
@@ -14,7 +12,6 @@
     "silicon/1800"
     ]
     },
-    "details": "After a crippling attack from other life forms the sharded has work tirelessly to reverse engineer there tech to create powerful machines  made for war. Look up to sky and see the glory we are part off. The mono, nova and meteor lines where some of the best units the Gemini deviation had to offer to sharded, there technology has proven to be very useful as there very adopted to using healing and energy technology. Hopefully the Taurus and Lyra deviation can also hold up on there technology aswell. ",
     "groundLayer": 75,
     "singleTarget": true,
     "drawShields": false,

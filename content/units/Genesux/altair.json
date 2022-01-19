@@ -1,6 +1,4 @@
 {
-    "localizedName": "Altair",
-    "description": "An extension of Centauri. Paired with cold plasma gunners. Fires a cold energy core which explodes into cold energy bolts.",
     "research": {
     "parent": "centauri",
     "requirements": [

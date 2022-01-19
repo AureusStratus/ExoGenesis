@@ -1,6 +1,4 @@
     {
-  "localizedName": "Eros",
-  "description": "",
   "research": {
   "parent": "b-sirius",
   "requirements": [
@@ -27,7 +25,7 @@
 	"legCount": 8,
 	"legLength": 70,
     "legBaseOffset": 3,
-    "legLengthScl": 1  
+    "legLengthScl": 1,
     "legMoveSpace": 0.8,
   
     "landShake": 1.0,
@@ -344,7 +342,7 @@
     "interp": "swingOut",
     "lifetime": 140,
     "colorFrom": "66B1FFFF",
-    "colorTo": "66B1FFFF"
+    "colorTo": "66B1FFFF",
     "cone": 360
     },
     {

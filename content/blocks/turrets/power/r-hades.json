@@ -1,8 +1,5 @@
 {
 	"type": "LaserTurret",
-	"localizedName": "Hades",
-	"description": "Burn them down to there last atoms. A Plasma laser super weapon created by the [#FF5845FF]Solveara[]. Uses internal fusion reactors and energy to create beams of hyperheated plasma that can vaporize almost anything in its way. Uses large amounts of power and coolant.",
-	"details": "A weapon created for warfare and destruction. The weapons creation was a few decades after the [#FF5845FF]Solveara[] ran into [#A9D8FFFF]Genesux and [#F3E979FF]Elecian[] forces, They used there most powerful tech along side pieces of Asthenos they found near its crash site, the resulting weapon could burn away large fields and ignite the air.",
 	"size": 13,
 	"health": 1000000,
 	"reloadTime": 300,

@@ -1,6 +1,4 @@
 {
-    "localizedName": "Orca",
-    "description": "[orange]An assault unit built to destroy and attack. Equipped with four rocket launchers two big ones wnd two smalls that can fire swarms of missiles at enemies and structures. Has a meltdown weapon equipped to its back and can make quick work of things.",
     "research": {
     "parent": "omura",
     "requirements": [

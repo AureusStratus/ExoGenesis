@@ -1,6 +1,5 @@
 {
 "name": "Xegon Fier",
-"description": "A plasma like fire commonly found around the mouths of valvanite volcanos. You are being burnt away by radioactive flames.",
 "effect": {
 "type": "MultiEffect",
 "effects": [

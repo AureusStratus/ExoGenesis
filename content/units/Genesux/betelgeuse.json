@@ -1,6 +1,4 @@
 {
-    "localizedName": "Betelgeuse",
-    "description": "The heavy assault class titan unit. A behemoth of a [#A9D8FFFF]Genesux[] equipped with larges cannons and heavy artillery. Can fire piercing energy bolts from its core. Buffs nearby allies and uses a large force shield.",
     "research": {
     "parent": "b-eros",
     "requirements": [
@@ -11,7 +9,6 @@
     "silicon/9670"
     ]
     },
-    "details": "Show them what the power of a far away star can do",
     "groundLayer": 75,
 	"canDrown": false,
     "singleTarget": true,
@@ -470,8 +467,6 @@
         },
         "effect": {
         "name": "elders-energy",
-        "localizedName": "Elders Energy",
-        "description": "The power of the ancient elders are assisting you.",
         "speedMultiplier": 1.12,
         "damageMultiplier": 2.23,
         "reloadMultiplier": 1.75,

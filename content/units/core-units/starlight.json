@@ -1,6 +1,4 @@
 {
-    "localizedName": "Starlight",
-    "description": "[blue]The defender of the genesis core. Equipped with laser weapons and a shield to help it defend its core.",
     "type": "legs",
 	"speed": 1.4,
 	"outlineColor": "464A59FF",

@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"description": "A Lyra Regiment turret that manifests bolts of energy that move in-words towards the targeted enemy.",
-	"localizedName": "Seeker",
 	"size": 5,
 	"health": 3180,
 	"reloadTime": 25,

@@ -1,9 +1,7 @@
 {
-        "localizedName": "Comet",
         "type": "payload",
         "canHeal": true,
         "controller": "RepairAI",
-	    "description": "[lime]The upgrade to the asteroid, it is able to pick up units and block and posses healing laser cannons along with a more power energy orb",
     "research": "asteroid",
         "lowAltitude": true,
         "speed": 1,

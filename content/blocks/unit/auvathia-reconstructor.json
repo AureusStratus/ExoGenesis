@@ -1,7 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Auvathia Recontructor",
-	"description": "Upgrades units to the titan tier.",
 	"size": 14,
 	"constructTime": 6000,
 	"consumes": {

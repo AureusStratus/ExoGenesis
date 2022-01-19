@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Anomalous Furnace",
-    "description": "[purple]Infuses melted materials with anomalous energy to create Rutuxium.",
 	"type": "GenericCrafter",
     "drawer": "drawWeave",
 	"size": 3,

@@ -1,6 +1,4 @@
  {
-    "localizedName": "Kuiper",
-    "description": "Uses a prototype star core to attack and heal allies and structures.",
     "type": "legs",
     "groundLayer": 75,
     "research": {

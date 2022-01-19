@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Furnace",
-    "description": "An upgrade of the kiln able to produce more Metaglass, but at the cost of more materials.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

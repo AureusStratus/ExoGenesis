@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
-    "description": "[#73FFAEFF]Fires energized bullets of valvanite.",
-    "localizedName": "Ioner",
     "size": 1,
     "health": 240,
     "reloadTime": 20,

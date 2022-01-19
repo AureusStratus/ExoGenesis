@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Blast Compressor",
-    "description": "Mixes together Blast Compound, Pyratite and Coal to create a highly explosive compound, Azidoazide.",
 	"type": "GenericCrafter",
 	"size": 4,
 	"hasPower": true,

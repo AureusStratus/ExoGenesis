@@ -1,8 +1,5 @@
 {
-	"localizedName": "Phantom",
 	"type": "itemTurret",
-	"description": "A Taurus Regiment Turret which is direct upgrade to the Spectre. Shoots powerful bullets that can shock, burn, or slow enemies depending on what ammunition is used.",
-	"details": "The Taurus Regiment are the developers off alot of Shardeds turrets and units they special in assault forces.",
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "reloadTime": 6.5,
@@ -34,7 +31,7 @@
             "frontColor": "E66F57FF",
             "backColor": "C85C51FF",
             "shootEffect": "shootPyraFlame",
-            "despawnEffect": "blastExplosion"
+            "despawnEffect": "blastExplosion",
             "hitEffect": "blastExplosion"
         
         },
@@ -51,7 +48,7 @@
             "backColor": "A16570FF",
             "status": "slow",
             "shootEffect": "shootPyraFlame",
-            "despawnEffect": "flakExplosion"
+            "despawnEffect": "flakExplosion",
             "hitEffect": "flakExplosion"
 
         },
@@ -68,7 +65,7 @@
             "frontColor": "F3E979FF",
             "backColor": "D99F6BFF",
             "shootEffect": "shootPyraFlame",
-            "despawnEffect": "flakExplosionBig"
+            "despawnEffect": "flakExplosionBig",
             "hitEffect": "flakExplosionBig",
             "lightning": 4,
             "lightningDamage": 44,

@@ -1,7 +1,5 @@
 {
 	"type": "PowerTurret",
-	"localizedName": "Vision",
-	"description": "A Lyra Regiment heavy specialist turret. Fires unstable energy cores that apon impact collapse into singularity that pulls in nearby units and damages them",
 	"size": 8,
 	"health": 8660,
 	"range": 500,

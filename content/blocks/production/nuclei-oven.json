@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Nuclei Oven",
-    "description": "Induces nuclear fusion in thorium and creates titanium as by-product.",
     "type": "GenericCrafter",
 	"drawer": {
 	"type": "DrawSmelter",

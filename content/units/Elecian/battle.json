@@ -1,7 +1,4 @@
 {
-    "localizedName": "Battle",
-    "description": "[gold], it has a low health shield and it is equipped with a surge missile, peircing pulse guns and it has destructive main weapon that shoots a plasma sphere that has small chance of cutting a units health in half",
-    "details": "After the reawakening of War the Elecians quickly worship the being treating it as god and savor and this resulted in the creaton of this unit modeled after there new god, they used this unit to cripple the communication and power of other weaker civilizations.",
     "rotateSpeed": 1.3,
     "research": {
     "parent": "contention",
@@ -485,9 +482,7 @@
     "backColor": "F3E979FF",
     "statusDuration": 180,
     "status": {
-    "localizedName": "System Crash",
     "name": "system-crash",
-    "description": "Overloads and crashes the systems of units make them temporary shut down.",
     "effect": {
     "type": "ParticleEffect",
     "line": true,

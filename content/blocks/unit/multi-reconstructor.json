@@ -1,7 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName":"Multi Reconstructor",
-	"description": "Upgrades units to there 3rd tier.",
 	"size": 5,
 	"constructTime": 800,
 	"consumes": {

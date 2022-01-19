@@ -1,8 +1,5 @@
 {
 	"type": "Reconstructor",
-	"localizedName": "Complexer Recontructor",
-	"description": "Upgrades sharded units to titan tier tier.",
-	"details": "Just a place holder",
 	"size": 14,
 	"constructTime": 8000,
 	"liquidCapacity": 380,

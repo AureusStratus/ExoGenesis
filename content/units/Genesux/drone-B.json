@@ -1,7 +1,5 @@
 {
-        "localizedName": "Bomber Drone",
         "type": "flying",
-	    "description": "A small bomber drone.",
         "lowAltitude": false,
         "speed": 2.0,
         "accel": 0.1,

@@ -1,8 +1,5 @@
 {    
     "type": "ForceProjector",
-    "description": "[cyan]A powerful shield projector used by the Genesuxians to defend important infrastructure and their important and ancient elders.",
-    "details": "Used to protect the ancient elders of the Genesuxian race they must be protected or else their race will fall.",
-    "localizedName": "Nova Aegis",
     "health": 3800,
     "shieldHealth": 58000,
     "size": 7,

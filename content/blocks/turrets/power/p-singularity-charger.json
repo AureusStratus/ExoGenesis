@@ -1,7 +1,4 @@
 {
-"localizedName": "Singularity Charger",
-"description": "[purple]Creates a unstable micro singularity that it fire out at enemies dealing massive damage.",
-"details":"It shoots singularitys.",
 "type": "PowerTurret",
 "size": 7,
 "health": 1000,
@@ -63,9 +60,7 @@
     "type": "BasicBulletType",
     "sprite": "circle-bullet",
     "status": {
-    "localizedName": "Singularity Warped",
     "name": "singularity-warped",
-    "description": "The power of a singularity is warping you",
     "transitionDamage": 36,
     "affinities": ["slow", "unmoving"],
     "damage": 0.2,

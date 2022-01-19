@@ -1,7 +1,5 @@
 {
-    "localizedName": "Demon",
     "type": "ItemTurret",
-    "description": "[red]An early heavy artillery that predates the war between volut and gratun regions. Fires devastating a artillery that shatters in to a bombardment of artillery.",
 	"reloadTime": 300,
 	"range": 300,
 	"restitution": 0.2,

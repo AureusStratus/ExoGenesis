@@ -1,7 +1,4 @@
 {
-    "localizedName": "Anomaly",
-    "description": "[purple]A prototype unit created by the Purtuxians the aid in on going galactic war. Equipped with long ranged assault weapons that use dark matter to fire devastating projectiles that have anomalous effects, also has two energy gunners at the front to aid in closer combat. Can apply a status to nearby allies",
-    "details": "This unit holds dangerous tech.",
     "research": "assembly",
     "groundLayer": 75,
     "lightRadius": "145",
@@ -169,8 +166,6 @@
 	"length" : 600,
 	"status": {
     "name": "anomaly",
-    "localizedName": "Anomaly",
-    "description": "You are being overcharged with neutron star energy.",
     "speedMultiplier": 0.35,
     "damageMultiplier": 0.35,
     "reloadMultiplier": 0.75,
@@ -244,8 +239,6 @@
         },
         "effect": {
         "name": "assistance",
-        "localizedName": "Assistance",
-        "description": "You are being overcharged with neutron star energy.",
         "speedMultiplier": 1.35,
         "damageMultiplier": 1.35,
         "reloadMultiplier": 1.75,

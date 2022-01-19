@@ -1,6 +1,4 @@
 {	
-    "localizedName": "Neutron Plasma Forge",
-	"description": "[cyan]Simulates the extreme pressure and gravity of neutron stars to create lots of omega metal with neutron plasma.",
 	"type": "GenericCrafter",
 	"drawer": {
 	"type": "drawArcSmelter",
