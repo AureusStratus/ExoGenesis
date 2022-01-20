@@ -20,6 +20,8 @@
     "speed": 3,
     "type":"ArtilleryBulletType",
     "lifetime": 80,
+"status": "exogenesis-high-energy-blast",
+"statusDuration": 200,
     "splashDamage" : 3800,
     "splashDamageRadius" : 70,	
 	"homingPower": 0.0200,
