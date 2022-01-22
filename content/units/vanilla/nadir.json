@@ -2,7 +2,7 @@
         "singleTarget": true,
         "lowAltitude": true,
         "research": {
-        "parent": "dagger",
+        "parent": "twilight",
         "requirements": [
         "graphite/1220",
         "surge-alloy/1200",
