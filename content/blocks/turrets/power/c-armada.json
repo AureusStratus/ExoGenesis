@@ -79,8 +79,8 @@
     },
     "requirements": [
         "astrolite/300",
-        "silicon/250",
-        "graphite/300"
+        "silicon/200",
+        "graphite/200"
     ],
     "category": "turret",
     "research": "c-starfleet"
