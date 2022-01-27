@@ -3,6 +3,7 @@
 	"groundLayer": 75,
 	"lightRadius": 350,
     "type": "legs",
+        "drownTimeMultiplier": 99999999999999,
 	"speed": 0.38,
 	"canDrown": false,
 	"hitSize": 94,
