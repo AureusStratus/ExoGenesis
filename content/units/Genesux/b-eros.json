@@ -10,6 +10,7 @@
   ]
   },
     "groundLayer": 75,
+    "outlineColor": "464A59FF",
     "drawShields": false,
     "type": "legs",
     "speed": 0.32,
@@ -24,6 +25,7 @@
 	"rotateSpeed": 1.5,
 	"legCount": 8,
 	"legLength": 70,
+ "legExtension": -12,
     "legBaseOffset": 3,
     "legLengthScl": 1,
     "legMoveSpace": 0.8,
@@ -41,6 +43,8 @@
 	"immunities": [
 		"burning", 
 		"melting",
+   "slow",
+   "exogenesis-high-energy-blast",
 		"freezing"
 	],
 	"weapons": [
@@ -154,7 +158,7 @@
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
-    "damage": 90,
+    "damage": 70,
     "width": 6.5,
     "length": 300,
     "drawSize": 470,
@@ -361,13 +365,13 @@
     },
     "type": "empBulletType",
     "sprite": "circle-bullet",
-    "status": "freezing",
+    "status": "exogenesis-high-energy-blast",
     "timeIncrease": 0,
     "powerDamageScl": 1,
     "powerSclDecrease": 0.1,
     "unitDamageScl": 0.5,
     "lightRadius": 100,
-    "statusDuration": 1000,
+    "statusDuration": 300,
     "hitSound": "plasmaboom",
     "hitColor": "A9D8FFFF",
     "trailColor": "66B1FFFF",
