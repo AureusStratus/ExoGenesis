@@ -52,6 +52,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D993FF"   
     },
+	"speed": 100,
 	"maxRange": 300
 }
 }
