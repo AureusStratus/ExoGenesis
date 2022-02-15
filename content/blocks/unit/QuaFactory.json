@@ -12,7 +12,8 @@
 		{"item": "silicon", "amount": 20},
 		{"item": "valvanite", "amount": 20},
 		{"item": "titanium", "amount": 10}
-       }
+       ],
+	"time": 300
 }
 ],
     "requirements": [
