@@ -7,16 +7,12 @@
 },
 "plans": [
 {
-    "unit": "rule",
+    "unit": "pteris",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
-		{"item": "valvanite", "amount": 50},
+		{"item": "valvanite", "amount": 20},
 		{"item": "titanium", "amount": 10}
-       ],
-    "time": 540
-  },
- {
-    "unit": "1-arco",
+       ]  "time": 541-arco",
     	"requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "metaglass", "amount": 50},
