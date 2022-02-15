@@ -12,18 +12,11 @@
 		{"item": "silicon", "amount": 20},
 		{"item": "valvanite", "amount": 20},
 		{"item": "titanium", "amount": 10}
-       ]  "time": 541-arco",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "metaglass", "amount": 50},
-		{"item": "valvanite", "amount": 10}
-       ],
-    "time": 540
-  }
+       }
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 180},
+	{"item": "lead", "amount": 180},
 	{"item": "valvanite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
