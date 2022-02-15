@@ -13,6 +13,7 @@
 		{"item": "valvanite", "amount": 20},
 		{"item": "titanium", "amount": 10}
        }
+}
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
