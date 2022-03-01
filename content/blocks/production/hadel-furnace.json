@@ -27,7 +27,7 @@
 			"items": [
                "surge-alloy/10",
                "thorium/10",
-               "azuid-azide/5",
+               "blast-compound/5",
                "volcanite/15",
                "osmium/8"
 			]
@@ -36,12 +36,12 @@
 	"requirements": [
         "primal-red/500",
         "plastanium/430",
-        "jupiteium/300",
+        "thorium/300",
         "titanium/300",
         "silicon/730",
         "osmium/530"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
+	"research": "primal-forge",
 	"outputItem": "primal-red/15"
 }
