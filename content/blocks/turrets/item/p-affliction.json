@@ -1,0 +1,58 @@
+{
+"type": "ItemTurret",
+"size": 7,
+"health": 1400,
+"range": 280,
+"reloadTime": 30,
+"shootSound": "laser",
+"rotateSpeed": 1,
+"shootCone": 20,
+"shootShake": 1.5,
+"cooldown": 0.03,
+"shots": 3,
+"targetAir": true,
+"targetGround": true,
+"heatColor": "A170F4FF",
+"recoilAmount": 4,
+"ammoTypes": {
+  "rutuxium": {
+  "type": "LaserBulletType",
+  "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
+  "length": 290,
+  "width": 30,
+  "damage": 345,
+  "collidesTiles": true,
+  "lightColor": "A170F4FF",
+  "lightRadius": 10,
+  "shootEffect": "sapExplosion",
+  "smokeEffect": "smokeCloud",
+  "sideAngle": 25,
+  "sideWidth": 0,
+  "sideLength": 0,
+  "lightning": 3,
+  "lightningColor": "BF92F9FF",
+  "lightningDamage": 16,
+  "lightningLength": 29,
+  "lightningCone": 20,
+  "lightningLengthRand": 13,
+  "status": {
+    "name": "quantux-burn",
+    "damage": 5,
+    "effect": "sapped",
+    "speedMultiplier": 0.52,
+    "reloadMultiplier": 0.30,
+    "damageMultiplier": 0.70
+    }
+  }
+},
+    "requirements": [
+    "surge-alloy/580",
+    "thorium/460",
+    "silicon/520",
+	"osmium/850",
+	"silicon/600",
+	"rutuxium/430"
+    ],
+    "category": "turret",
+    "research": "p-rebound"
+}

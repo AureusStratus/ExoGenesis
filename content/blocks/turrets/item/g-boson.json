@@ -1,0 +1,103 @@
+{
+    "type": "ItemTurret",
+    "researchCostMultiplier": 0.2,
+    "size": 2,
+    "health": 240,
+    "reloadTime": 124,
+    "range": 230,
+    "inaccuracy": 1,
+    "shots": 1,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 0.08,
+    "recoilAmount": 0.7,
+    "restitution": 0.06,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "ammoTypes": {
+        "valvanite": {
+        "type": "BasicBulletType",
+        "sprite": "large-bomb",
+        "absorbable": true,
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "width": 25,
+        "spin": 8,
+        "height": 25,
+        "speed": 4,
+        "lifetime": 70,
+        "damage": 40,
+        "status": "corroded",
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF"
+        },
+        "frontColor": "FFFFFFF",
+        "backColor": "73FFAEFF",
+        "fragBullets": 3,
+        "fragCone": 30,
+        "fragBullet": {
+        "type": "BasicBulletType",
+        "sprite": "large-bomb",
+        "absorbable": true,
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "width": 15,
+        "spin": 8,
+        "height": 15,
+        "speed": 4,
+        "lifetime": 50,
+        "damage": 20,
+        "splashDamage": 20,
+        "splashDamageRadius": 30,
+        "status": "corroded",
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "57D993FF"
+        },
+        "frontColor": "FFFFFFF",
+        "backColor": "73FFAEFF"
+            }
+        }
+    },
+    "requirements": [
+        "graphite/30",
+        "valvanite/50",
+        "silicon/80",
+        "copper/130"
+    ],
+    "category": "turret",
+    "research": "g-ioner"
+}
