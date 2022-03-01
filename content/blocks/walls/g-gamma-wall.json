@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "buildCostMultiplier": 0.1,
+    "health": 2900,
+    "size": 1,
+    "insulated": true,
+    "absorbLasers": true,
+    "requirements": [
+		    {"item": "gamma-green", "amount": 108},
+            {"item": "plastanium", "amount": 26}
+    ],
+    "category": "defense",
+    "research": "surge-wall"
+}

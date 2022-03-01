@@ -1,0 +1,14 @@
+{   
+    "type": "Wall",
+    "buildCostMultiplier": 0.1,
+    "health": 26100,
+    "size": 3,
+    "insulated": true,
+    "absorbLasers": true,
+    "requirements": [
+		    {"item": "gamma-green", "amount": 258},
+            {"item": "plastanium", "amount": 46}
+    ],
+    "category": "defense",
+    "research": "g-large-gamma-wall"
+}

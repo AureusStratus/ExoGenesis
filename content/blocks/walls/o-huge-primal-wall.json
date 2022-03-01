@@ -1,0 +1,12 @@
+{	
+	"type": "Wall",
+    "buildCostMultiplier": 0.1,
+    "health": 58500,
+    "size": 3,
+    "requirements": [
+		{"item": "primal-red", "amount": 700},
+        {"item": "osmium", "amount": 500}
+    ],
+    "category": "defense",
+    "research": "o-large-primal-wall"
+}
