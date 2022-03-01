@@ -62,6 +62,6 @@
     "phase-fabric/100"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
+	"research": "fission-furnace",
 	"outputItem": "rutuxium/8"
 }
