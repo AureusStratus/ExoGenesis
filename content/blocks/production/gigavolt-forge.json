@@ -42,6 +42,6 @@
         "titanium/300"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
+	"research": "alpha-forge",
 	"outputItem": "alpha-yellow/15"
 }
