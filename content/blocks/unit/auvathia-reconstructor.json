@@ -14,7 +14,7 @@
         "titanium/3600",
         "plastanium/3320",
         "silicon/4420",
-        "xanium/2230",
+        "thorium/2230",
         "surge-alloy/3570",
         "osmium/3800"
 			]
@@ -22,11 +22,11 @@
 	},
 	"requirements": [
         "surge-alloy/2130",
-        "jupiteium/3020",
+        "copper/3020",
         "thorium/2420",
         "plastanium/2130",
         "titanium/3020",
-        "xanium/4120",
+        "metaglass/4120",
         "silicon/3530",
         "graphite/5670",
         "lead/4000"
