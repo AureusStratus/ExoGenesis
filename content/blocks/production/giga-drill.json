@@ -26,7 +26,7 @@
 		{ "item": "plastanium", "amount": 750 },
 		{ "item": "osmium", "amount": 500 },
 		{ "item": "surge-alloy", "amount": 285 },
-		{ "item": "jupiteium", "amount": 558 }
+		{ "item": "thorium", "amount": 558 }
 	],
 	"category": "production",
 	"research": "blast-drill"
