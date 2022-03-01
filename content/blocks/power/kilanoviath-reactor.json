@@ -20,7 +20,7 @@
 			"items": [
                "omega-blue/20",
                "surge-alloy/15",
-               "xanium/15"
+               "plastanium/15"
 			]
 	},
 		"liquid": {
@@ -31,9 +31,8 @@
 	"requirements": [
         "plastanium/400",
         "silicon/1300",
-        "jupiteium /1000",
         "metaglass/800",
-        "xanium/480",
+        "thorium/480",
         "osmium/2000",
         "omega-blue/1200",
         "titanium/900"
