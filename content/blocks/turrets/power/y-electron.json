@@ -1,0 +1,92 @@
+{
+    "type": "PowerTurret",
+    "researchCostMultiplier": 0.1,
+    "size": 1,
+    "health": 240,
+    "reloadTime": 28,
+    "range": 180,
+    "inaccuracy": 0,
+    "shots": 1,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 0.08,
+    "recoilAmount": 0.7,
+    "restitution": 0.06,
+    "rotateSpeed": 5,
+    
+	"chargeTime": 25,
+	"chargeMaxDelay": 10,
+	"chargeEffects": 2,
+	"chargeBeginEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 0,
+    "sizeTo": 3,
+    "length": 0,
+    "lifetime": 25,
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF",
+    "cone": 360
+},
+	"chargeEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 30,
+    "length": 45,
+    "cone": 30,
+    "lenFrom": 10,
+    "lenTo": 0,
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF"
+	},
+	
+    "shootSound": "lasershoot",
+    "powerUse": 1,
+    "hasPower": true,
+    "shootType": {
+        "type": "BasicBulletType",
+        "sprite": "exogenesis-electric-pulse",
+        "absorbable": false,
+        "hittable": false,
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "speed": 4,
+        "lifetime": 100,
+        "damage": 24,
+        "pierce": true,
+        "maxRange": 180,
+        "status": "slow",
+        "statusDuration": 20,
+        "height": 9,
+        "width": 9,
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "FFDA45FF",
+        "colorTo": "F3E979FF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "FFDA45FF",
+        "colorTo": "F3E979FF"
+        },
+        "frontColor": "F3E979FF",
+        "backColor": "FFDA45FF"
+    },
+    "requirements": [
+		"silicon/27",
+		"lead/104"
+    ],
+    "category": "turret",
+    "research": "y-proton"
+}
