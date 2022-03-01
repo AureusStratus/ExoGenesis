@@ -7,7 +7,7 @@
 		"items": {
 			"items": [
 				{"item": "osmium", "amount": 890},
-				{"item": "xanium", "amount": 850},
+				{"item": "thorium", "amount": 850},
 				{"item": "surge-alloy", "amount": 920},
 				{"item": "silicon", "amount": 1920},
 				{"item": "plastanium", "amount": 1380}
@@ -15,7 +15,7 @@
 		}
 	},
 	"requirements": [
-		{"item": "jupiteium", "amount": 850},
+		{"item": "thorium", "amount": 850},
 		{"item": "plastanium", "amount": 680},
 	    {"item": "titanium", "amount": 750},
 		{"item": "silicon", "amount": 1200},
