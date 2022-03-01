@@ -37,13 +37,13 @@
 		}
 	},
 	"requirements": [
-        "jupiteium/600",
-        "xanium/500",
+        "thorium/600",
+        "plastanium/500",
         "gamma-green/800",
         "metaglass/500",
         "silicon/1000",
         "lead/1000"
 	],
 	"category": "production",
-	"research": "giga-drill"
+	"research": "blast-drill"
 }
