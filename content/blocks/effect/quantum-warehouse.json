@@ -7,7 +7,7 @@
 "category": "effect",
 "requirements": [
   "osmium/700",
-  "jupiteium/200",
+  "thorium/200",
   "titanium/400",
   "gamma-green/100"
 ]
