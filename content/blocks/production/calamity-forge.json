@@ -157,7 +157,7 @@
 			"items": [
                "omega-blue/150",
                "surge-alloy/100",
-               "xanium/50",
+               "plastanium/50",
                "astrolite/100",
                "osmium/100"
 			]
@@ -166,9 +166,9 @@
 	"requirements": [
         "omega-blue/3000",
         "astrolite/4000",
-        "jupiteium/3400",
+        "thorium/3400",
         "titanium/1200",
-        "xanium/2300",
+        "plastanium/2300",
         "phase-fabric/2300",
         "surge-alloy/3000",
         "silicon/5000",
