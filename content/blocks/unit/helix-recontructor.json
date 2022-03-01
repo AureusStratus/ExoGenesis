@@ -21,7 +21,6 @@
 	"upgrades": [
         ["decade", "century"],
         ["speed", "agility"],
-        ["meteor", "asteroid"],
 		["a-orion", "b-galileo"],
 		["majoris", "gacrux"],
 		["sol", "corona"],
