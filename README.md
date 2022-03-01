@@ -8,11 +8,7 @@ A mod that adds a lot more content to the game.
 `note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
 
 ## The mod adds: 
-`Items`: 19
-<br>`maps`: 2
-<br>`Blocks`: 185
-<br>`Turrets`: 78
-<br>`units`: 78
+alot of stuff
 
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
