@@ -17,8 +17,8 @@
 		"power": 80.0,
 		"items": {
 			"items": [
-				{"item": "jupiteium", "amount": 15},
-				{"item": "azuid-azide", "amount": 15}
+				{"item": "blast-compound", "amount": 15},
+				{"item": "thorium", "amount": 15}
 			]
 	},
 		"liquid": {
