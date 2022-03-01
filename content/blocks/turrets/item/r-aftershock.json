@@ -294,7 +294,7 @@
     "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"    
 	},
-    "status": "exogenesis-surge-charge",
+    "status": "shocked",
     "statusDuration": 300,
     "width": 70,
     "lifetime": 30,
