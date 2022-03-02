@@ -58,7 +58,7 @@
   "shootSound": "laser",
     "bullet": { 
 	"type": "LaserBulletType",
-	"status": "exogenesis-surge-charge",
+	"status": "shocked",
 	"statusDuration": 100,
 	"length": 300,
 	"damage": 1500,
