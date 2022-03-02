@@ -1,17 +1,4 @@
 {
-    "research": {
-    "parent": "bulwark-core",
-    "requirements": [
-    "volcanite/2620",
-    "surge-alloy/4000",
-    "jupiteium/5400",
-    "xanium/3500",
-    "plastanium/4040",
-    "primal-red/3750",
-    "osmium/5440",
-    "silicon/8670"
-    ]
-    },
     "singleTarget": true,
 	"lightRadius": 300,
     "type": "legs",
