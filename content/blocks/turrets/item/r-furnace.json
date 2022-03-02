@@ -290,7 +290,7 @@
     "surge-alloy": {
 	"type": "MissileBulletType",
 	"speed": 5,
-	"status": "exogenesis-surge-charge",
+	"status": "shocked",
 	"statusDuration": 100,
 	"damage": 1000,
 	"splashDamage": 300,
