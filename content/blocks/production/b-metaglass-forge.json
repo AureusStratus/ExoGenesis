@@ -1,0 +1,33 @@
+{	
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "A9D8FFFF"
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 50,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+               "sand/3",
+               "astrolite/1",
+               "lead/2"
+			]
+		}
+	},
+	"requirements": [
+        "plastanium/100",
+        "astrolite/200",
+        "silicon/200",
+        "lead/200"
+	],
+	"category": "crafting",
+	"research": "b-metaglass-smelter",
+	"outputItem": "metaglass/5"
+}

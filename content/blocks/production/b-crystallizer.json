@@ -1,0 +1,40 @@
+{	
+    "size": 2,
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "A9D8FFFF"
+	},
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 40,
+	"craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 6,
+    "lifetime": 50,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+               "graphite/1"
+			]
+		}
+	},
+	"requirements": [
+        "copper/20",
+        "lead/100"
+	],
+	"category": "crafting",
+	"research": "b-pressure",
+	"outputItem": "astrolite/2"
+}

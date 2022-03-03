@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "pressuriser",
+  "description": "t",
+  "health": 200,
+  "size": 2,
+  "craftTime": 90,
+  "craftEffect": "smokeCloud",   
+  "hasItem": true,
+  "updateEffect": "none",
+  "consumes": {
+  "items": {
+    "items": [
+      "coal/2"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/25",
+    "copper/60"
+  ],
+  "category": "crafting",
+  "research": "duo",
+  "outputItem": "graphite/2"
+}

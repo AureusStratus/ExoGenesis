@@ -1,0 +1,71 @@
+{
+  "type": "GenericCrafter",
+  "name": "Crusher",
+  "description": "t",
+  "health": 700,
+  "size": 3,
+  "craftTime": 60,
+  "craftEffect": {
+    "type": "MultiEffect",
+	"effects": [
+	{
+    "type": "ParticleEffect",
+    "particles": 4,
+    "length": 15,
+    "lifetime": 15,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 4.5,
+    "sizeTo": 0
+	},
+	{
+    "type": "ParticleEffect",
+    "particles": 3,
+    "length": 20,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 3.5,
+    "sizeTo": 0
+	},
+	{
+    "type": "ParticleEffect",
+    "particles": 2,
+    "length": 25,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 2,
+    "sizeTo": 0
+	}
+	]
+    },    
+  "hasItem": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 1.4,
+  "items": {
+    "items": [
+      "astrolite/2"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/80",
+    "astrolite/120",
+    "silicon/30",
+    "graphite/40"
+  ],
+  "category": "crafting",
+  "research": "b-pressure",
+  "outputItem": "graphite/4"
+}
