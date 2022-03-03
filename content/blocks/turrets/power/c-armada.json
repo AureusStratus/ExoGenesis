@@ -1,6 +1,8 @@
 {
     "type": "PowerTurret",
     "researchCostMultiplier": 0.3,
+    "squareSprite": false,
+    "outlineColor": "36363CFF",
 	"size": 2,
 	"health": 500,
     "reloadTime": 35,
@@ -78,8 +80,8 @@
         "sprite": "exogenesis-energy-partical"
     },
     "requirements": [
-        "astrolite/300",
-        "silicon/200",
+        "astrolite/100",
+        "silicon/100",
         "graphite/200"
     ],
     "category": "turret",

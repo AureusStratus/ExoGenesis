@@ -24,7 +24,7 @@
         "shootEffect": {
         "type": "ParticleEffect",
         "particles": 1,
-        "sizeFrom": 6,
+        "sizeFrom": 3.5,
         "sizeTo": 0,
         "length": 0,
         "spin": 3,
@@ -80,8 +80,8 @@
     },
     "requirements": [
         "copper/30",
-        "astrolite/100"
+        "lead/100"
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "c-astral"
 }

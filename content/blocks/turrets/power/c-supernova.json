@@ -65,7 +65,7 @@
     "lightColor": "A9D8FFFF",
     "region": "exogenesis-wide",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "A9D8FFFF"
+    "colorTo": "66B1FFFF"
     },
     {
     "type": "ParticleEffect",
@@ -79,7 +79,7 @@
     "lightColor": "A9D8FFFF",
     "region": "exogenesis-tall",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "A9D8FFFF"
+    "colorTo": "66B1FFFF"
     },
     {
     "type": "ParticleEffect",
@@ -90,7 +90,7 @@
     "lifetime": 135,
     "lightColor": "A9D8FFFF",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "A9D8FFFF",
+    "colorTo": "66B1FFFF",
     "cone": 360
     },
     {
@@ -321,7 +321,7 @@
     "homingPower": 0.00567,
     "splashDamageRadius": 54,
     "splashDamage": 276,
-    "frontColor": "A9D8FFFF",
+    "frontColor": "E1F2FFFF",
     "backColor": "66B1FFFF",
 	"fragBullets": 8,
 	"fragLifeMin": 0.6,
@@ -377,8 +377,8 @@
         "osmium/400",
         "omega-blue/600",
         "silicon/800",
-        "astrolite/600"
+        "stellar-steel/600"
 	],
 	"category": "turret",
-	"research": "c-halley"
+	"research": "c-astrology"
 }

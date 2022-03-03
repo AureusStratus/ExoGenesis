@@ -1,5 +1,7 @@
 {
     "type": "PowerTurret",
+    "squareSprite": false,
+    "outlineColor": "36363CFF",
     "size": 8,
     "health": 8660,
     "reloadTime": 300,
@@ -442,13 +444,12 @@
         }
         },
         "requirements": [
-        "thorium/600",
-        "lead/930",
-        "silicon/500",
+        "stellar-steel/800",
+        "silicon/800",
         "osmium/600",
-        "titanium/800",
-        "omega-blue/800"
+        "plastanium/1000",
+        "omega-blue/2200"
     ],
     "category": "turret",
-    "research": "c-armada"
+    "research": "c-supernova"
 }

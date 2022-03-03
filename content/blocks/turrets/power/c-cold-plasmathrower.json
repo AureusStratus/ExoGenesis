@@ -1,5 +1,7 @@
 {
 	"type": "PowerTurret",
+    "squareSprite": false,
+    "outlineColor": "36363CFF",
 	"size": 4,
 	"health": 1600,
 	"range": 130,
@@ -146,7 +148,7 @@
 	},
 	"requirements": [
         "thorium/570",
-        "astrolite/600",
+        "stellar-steel/600",
         "omega-blue/400",
         "silicon/500"
 	],
