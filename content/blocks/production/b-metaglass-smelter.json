@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "health": 5,
-  "size": 200,
+  "size": 2,
   "hasItems": true,
   "craftTime": 28,
   "craftEffect": "smeltsmoke",
