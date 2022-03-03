@@ -1,0 +1,212 @@
+{
+    "type": "flying",
+     "flying": true,
+ 	"speed": 3,
+	"outlineColor": "464A59FF",
+ "lowAltitude": true,
+	"hitSize": 34,
+	"health": 2100,
+  "accel": 0.4,
+  "drag": 0.26,
+    "engineSize": 6,
+    "engineOffset": 8,
+	"isCounted": false,
+    "mineSpeed": 20,
+    "buildSpeed": 7.6,
+    "mineTier": 7,
+    "itemCapacity": 140,
+	"armor": 8,
+	"faceTarget": true,
+	"singleTarget": true,
+	"range": 180,
+	"targetAir": true,
+	"rotateSpeed": 3,
+	"immunities": [
+		"burning", 
+		"exogenesis-neutron-overcharge",
+		"melting",
+		"freezing"
+	],
+	"weapons": [
+	    {
+  "name": "cold-plasma-shotgun",
+  "x": 14,
+  "y": 1.5,
+  "reload": 60,
+  "top": true,
+  "rotate": true,
+  "shootY": 6,
+  "rotateSpeed": 4,
+  "recoil": 2,
+  "inaccuracy": 10,
+  "shots": 5,
+  "shotDelay": 3,
+  "shootSound": "laser",
+  "bullet": {
+	"shootEffect": "none",
+    "type": "LaserBulletType",
+    "length": 200,
+    "width": 13,
+    "damage": 65,
+    "buildingDamageMultiplier": 0.12,
+    "lightColor": "A9D8FFFF",
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 4,
+    "lifetime": 20,
+    "offset": 50,
+    "length": 55,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "colors": ["66B1FFFF", "A9D8FFFF", "FFFFFF"],
+    "sideAngle": 25,
+    "sideLength": 0,
+    "sideWidth": 0
+    }
+    }
+    ],
+    "abilities": [
+    {
+     "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "effect": "exogenesis-neutron-overcharge",
+      "parentizeEffects": true,
+      "effectY": 23,
+      "activeEffect": {
+      "type": "multiEffect",
+      "followParent": true,
+      "rotWithParent": true,
+      "effects": [
+      {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "sizeFrom": 7,
+      "sizeTo": 0,
+      "length": 0,
+      "interp": "swingIn",
+      "lifetime": 10,
+      "region": "exogenesis-energy-partical-back",
+      "colorFrom": "FFFFFFF",
+      "colorTo": "FFFFFFF"
+      },
+      {
+      "type": "ParticleEffect",
+      "particles": 1,
+      "sizeFrom": 12,
+      "sizeTo": 0,
+      "length": 0,
+      "interp": "swingIn",
+      "lifetime": 10,
+      "region": "exogenesis-energy-partical-back",
+      "colorFrom": "66B1FFFF",
+      "colorTo": "66B1FFFF"
+      }
+      ]
+      },
+      "range" : 100,
+      "reload" : 5,
+      "duration" : 5
+    },
+    {
+  "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "effect": "none",
+      "effectY": -9,
+      "effectX": -15,
+      "activeEffect": {
+      "type": "multiEffect",
+      "effects": [
+      {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "length": 0.01,
+    "lifetime": 60,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "66B1FF80",
+    "lightOpacity": 0.3
+       }
+      ]
+      },
+      "range" : 1,
+      "reload" : 1,
+      "duration" : 5
+    },
+    {
+  "type": "mindustry.entities.abilities.StatusFieldAbility",
+      "effect": "none",
+      "effectY": -9,
+      "effectX": 15,
+      "activeEffect": {
+      "type": "multiEffect",
+      "effects": [
+      {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "length": 0.01,
+    "lifetime": 60,
+    "colorFrom": "66B1FFFF",
+    "colorTo": "66B1FF80",
+    "lightOpacity": 0.3
+       }
+      ]
+      },
+      "range" : 1,
+      "reload" : 1,
+      "duration" : 5
+    },
+    {
+    "type": "EnergyFieldAbility",
+    "shootSound": "none",
+    "healEffect": "none",
+    "color": "66B1FFFF",
+    "maxTargets": 1,
+    "layer": 101,
+    "healPercent": 0.1,
+    "damage": 20,
+    "range": 0,
+    "rotateSpeed": 5,
+    "sectors": 6,
+    "y": -9,
+    "x": -15,
+    "hitBuildings": true,
+    "sectorRad": 0.11,
+    "effectRadius": 1,
+    "reload": 50,
+    "status": "none"
+    },
+    {
+    "type": "EnergyFieldAbility",
+    "shootSound": "none",
+    "healEffect": "none",
+    "color": "66B1FFFF",
+    "maxTargets": 1,
+    "layer": 101,
+    "healPercent": 0.1,
+    "damage": 20,
+    "range": 0,
+    "rotateSpeed": 5,
+    "sectors": 6,
+    "y": -9,
+    "x": 15,
+    "hitBuildings": true,
+    "sectorRad": 0.11,
+    "effectRadius": 1,
+    "reload": 50,
+    "status": "none"
+            },
+            {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 50,
+            "regen": 4,
+            "max": 750,
+            "cooldown": 70
+            }
+        ]
+}
