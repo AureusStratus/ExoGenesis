@@ -1,0 +1,10 @@
+{  
+    "localizedName": "[#66B1FFFF]Genesux",
+    "description": "The Genesux faction.",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+    "research": "core-shard"
+}

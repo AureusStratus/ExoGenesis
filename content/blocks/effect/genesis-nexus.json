@@ -1,0 +1,17 @@
+{
+	"type": "CoreBlock",
+	"health": 9870,
+	"size": 7,
+	"itemCapacity": 19500,
+	"unitCapModifier": 30,
+    "researchCostMultiplier": 0.06,
+    "unitType": "starlight",
+	"requirements": [
+		{ "item": "astrolite", "amount": 4200 },
+		{ "item": "metaglass", "amount": 4900},
+		{ "item": "titanium", "amount": 6000 },
+		{ "item": "stellar-steel", "amount": 1000 }
+	],
+  "category": "effect",
+	"research": "genesis-central"
+}
