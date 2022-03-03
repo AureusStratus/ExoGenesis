@@ -16,6 +16,62 @@
 	"rotateSpeed": 0.90,
 	"inaccuracy": 0,
     "ammoTypes": {
+            "thorium": {
+            "status": "slow",
+			"statusDuration": "100",
+            "speed": 18,
+            "sprite": "exogenesis-gauss-bullet",
+            "trailColor": "CB8EBFFF",
+            "trailParam": 4,
+            "trailLength": 13,
+            "trailWidth": 4,
+            "trailEffect": "none",
+            "shrinkY": 0,
+            "shrinkX": 0,
+            "height": 30,
+            "width": 23,
+            "damage": 375,
+            "lifetime": 25,
+            "knockback": 4.8,
+            "hitSize": 12,
+            "despawnEffect": {
+            "type": "multiEffect",
+            "effects": [
+            {
+            "type": "ExplosionEffect",  
+            "waveColor": "CB8EBFFF",
+            "sparkColor": "CB8EBFFF",
+            "smokes": 0,
+            "waveLife":	20,
+            "waveStroke": 5.1,	
+            "waveRad": 55,
+            "waveRadBase": 2.0,
+            "sparkLen": 20,
+            "sparks": 10
+            }
+            ]
+            },
+            "hitEffect": {
+            "type": "multiEffect",
+            "effects": [
+            {
+            "type": "ExplosionEffect",  
+            "waveColor": "CB8EBFFF",
+            "sparkColor": "CB8EBFFF",
+            "smokes": 0,
+            "waveLife":	20,
+            "waveStroke": 5.1,	
+            "waveRad": 55,
+            "waveRadBase": 2.0,
+            "sparkLen": 20,
+            "sparks": 10
+            }
+            ]
+            },
+		   "frontColor": "F9A3C7FF",
+		   "backColor": "CB8EBFFF",
+            "shootEffect": "shootPyraFlame"
+            },
             "omega-blue": {
             "status": "freezing",
 			"statusDuration": "100",
@@ -153,60 +209,15 @@
             "lightningCone": 360,
             "lightningLengthRand": 19,
             "lightningLength": 12
-            },
-            "surge-alloy": {
-            "status": "shocked",
-			"statusDuration": "100",
-            "speed": 18,
-            "sprite": "exogenesis-gauss-bullet",
-            "trailColor": "F3E979FF",
-            "trailParam": 4,
-            "trailLength": 13,
-            "trailWidth": 4,
-            "trailEffect": "none",
-            "shrinkY": 0,
-            "shrinkX": 0,
-            "height": 30,
-            "width": 23,
-            "lifetime": 25,
-            "damage": 465,
-            "knockback": 3,
-            "hitSize": 12,
-            "frontColor": "FFFFFFFF",
-            "backColor": "F3E979FF",
-            "shootEffect": "instShoot",
-            "hitEffect": "instBomb",
-            "despawnEffect": "instBomb",
-            "lightning": 5,
-            "lightningDamage": 18,
-            "lightningCone": 360,
-            "lightningLengthRand": 25,
-            "lightningLength": 13,
-            "fragBullets": 3,
-	        "fragAngle": 80,
-	        "fragBullet": {
-            "type": "ShrapnelBulletType",
-            "status": "shocked",
-            "lightColor": "F3E979FF",
-            "statusDuration": 30,
-            "serrations": 0,
-            "lifetime": 15,
-            "length": 52,
-            "width": 17,
-            "fromColor": "F3E979FF",
-            "toColor": "D99F6BFF",
-            "damage": 100
-	       }
-        }
+            }
     },  
 	"requirements": [
-        "thorium/520",
-        "astrolite/1250",
+        "stellar-steel/1320",
         "silicon/870",
         "osmium/700",
         "titanium/860",
-        "omega-blue/870"
+        "omega-blue/2000"
 	],
 	"category": "turret",
-	"research": "c-neutron-mortar"
+	"research": "c-nebula"
 }

@@ -118,13 +118,12 @@
 		"power": 80
 			},
 	"requirements": [
-        "thorium/520",
+        "stellar-steel/520",
         "omega-blue/550",
         "silicon/1000",
         "osmium/500",
-        "surge-alloy/410",
         "metaglass/500"
 	],
 	"category": "turret",
-	"research": "c-cosmos"
+	"research": "c-stellar"
 }

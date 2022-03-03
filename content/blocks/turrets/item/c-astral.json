@@ -1,6 +1,8 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.1,
+    "squareSprite": false,
+    "outlineColor": "36363CFF",
     "size": 1,
     "health": 240,
     "reloadTime": 35,
@@ -41,7 +43,7 @@
         "lifetime": 36,
         "interp": "circleOut",
         "sizeInterp": "pow5Out",
-        "cone": 20,
+        "cone": 360,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF",
         "sizeFrom": 4.5,
@@ -50,23 +52,13 @@
         {
         "type": "ParticleEffect",
         "particles": 1,
-        "sizeFrom": 15,
+        "sizeFrom": 10,
         "sizeTo": 0,
         "length": 0,
         "lightColor": "73FFAEFF",
         "lifetime": 30,
         "layer": 109,
         "region": "exogenesis-star",
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF"
-        },
-        {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 30,
-        "strokeFrom": 3.5,
-        "strokeTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
         }
@@ -163,10 +155,10 @@
     },
     "requirements": [
         "lead/20",
-        "astrolite/60"
+        "copper/60"
     
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "team-genesux"
 
 }

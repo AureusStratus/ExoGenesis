@@ -1428,12 +1428,12 @@
 	    "astrolite/10000",
         "thorium/7000",
         "titanium/7750",
-        "lead/8300",
+        "stellar-steel/8300",
         "omega-blue/6800",
-        "calamity-crystal/800",
+        "calamity-crystal/600",
         "plastanium/3750",
         "osmium/4800"
 	],
 	"category": "turret",
-	"research": "duo"
+	"research": "b-kilonova"
 }

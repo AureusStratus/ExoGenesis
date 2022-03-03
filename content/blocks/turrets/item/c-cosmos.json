@@ -1,6 +1,8 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.3,
+    "squareSprite": false,
+    "outlineColor": "36363CFF",
     "size": 2,
     "health": 480,
     "reloadTime": 65,
@@ -92,7 +94,7 @@
     },
     "requirements": [
         "silicon/60",
-        "astrolite/170",
+        "astrolite/60",
         "lead/230"
     ],
     "category": "turret",
