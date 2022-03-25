@@ -10,7 +10,6 @@
         "gamma-green/2000",
         "alpha-yellow/2000",
         "omega-blue/2000",
-        "rutuxium/2000",
         "titanium/3600",
         "plastanium/3320",
         "silicon/4420",
@@ -35,7 +34,6 @@
 		["fusion", "collapse"],
 		["b-eros", "b-atlas"],
 		["altair", "universalis"],
-		["epoch", "eternity"],
 		["contention", "battle"],
 		["assault", "bloodshed"]
 	],
