@@ -21,8 +21,6 @@
 		{"item": "thorium", "amount": 380}
 	],
 	"upgrades": [
-		["millennia", "eon"],
-		["pace", "dash"],
 		["b-kuiper", "b-oort"],
 		["kentaurus", "vega"],
 		["photosphere", "radiative"],
