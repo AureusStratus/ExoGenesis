@@ -19,8 +19,6 @@
 		{"item": "lead", "amount": 160}
 	],
 	"upgrades": [
-        ["decade", "century"],
-        ["speed", "agility"],
 		["a-orion", "b-galileo"],
 		["majoris", "gacrux"],
 		["sol", "corona"],
