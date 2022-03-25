@@ -22,8 +22,6 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
-		["eon", "era"],
-		["dash", "zoom"],
 		["b-oort", "b-sirius"],
 		["vega", "centauri"],
 		["radiative", "core"],
