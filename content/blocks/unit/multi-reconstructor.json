@@ -20,8 +20,6 @@
 		{"item": "thorium", "amount": 100}
 	],
 	"upgrades": [
-        ["century", "millennia"],
-        ["agility", "pace"],
 		["b-galileo", "b-kuiper"],
 		["gacrux", "kentaurus"],
 		["corona", "photosphere"],
