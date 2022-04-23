@@ -60,7 +60,7 @@
     "bullet": {
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",
-    "hitEffect": "blastExplosion"
+    "hitEffect": "blastExplosion",
     "despawnHit": true,   
     "damage": 45,
     "speed": 5,
