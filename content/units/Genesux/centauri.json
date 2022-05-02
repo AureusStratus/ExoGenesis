@@ -163,8 +163,6 @@
             "cooldown": 260
 	},
 	    {
-    "abilities": [
-        {
     "type": "EnergyFieldAbility",
     "healEffect": {
     "type": "ParticleEffect",
