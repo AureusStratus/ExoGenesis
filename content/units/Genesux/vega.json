@@ -71,7 +71,7 @@
     "length": 0,
     "spin": 8,
     "interp": "swing",
-    "lifetime": 280,
+    "lifetime": 300,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
@@ -84,7 +84,7 @@
     "length": 0,
     "spin": 6,
     "interp": "swing",
-    "lifetime": 280,
+    "lifetime": 300,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
@@ -290,12 +290,12 @@
     "lifetime": 40,
     "offset": 50,
     "length": 0,
-    "sizeFrom": 12,
+    "sizeFrom": 8,
     "sizeTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
     },   
-    "trailInterval": 3,	
+    "trailInterval": 6,	
     "trailChance": 1,
 }
     }
