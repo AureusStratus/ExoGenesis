@@ -209,8 +209,8 @@
     "shootSound": "laser",
     "bullet": { 
    "type": "EmpBulletType",
-    "width": 13,
-    "height": 13,
+    "width": 10,
+    "height": 10,
     "sprite": "circle-bullet",
     "frontColor": "FFFFFF",
     "backColor": "A9D8FFFF",
@@ -274,8 +274,8 @@
     {
     "type": "WaveEffect",
     "lifetime": 60,
-    "sizeFrom": 80,
-    "sizeTo": 80,
+    "sizeFrom": 60,
+    "sizeTo": 60,
     "strokeFrom": 4,
     "strokeTo": 0,
     "colorFrom": "66B1FFFF",
@@ -287,15 +287,15 @@
    "trailEffect": {
     "type": "ParticleEffect",
     "particles": 1,
-    "lifetime": 40,
+    "lifetime": 30,
     "offset": 50,
     "length": 0,
-    "sizeFrom": 8,
+    "sizeFrom": 5,
     "sizeTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
     },   
-    "trailInterval": 6,	
+    "trailInterval": 9,	
     "trailChance": 1,
 }
     }
