@@ -184,7 +184,7 @@
     "damage": 18,
     "healPercent": 0.3,
     "range": 170,
-    "y": -4,
+    "y": -6,
     "sectors": 4,
     "rotateSpeed": 1.3,
     "hitBuildings": true,
