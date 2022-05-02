@@ -31,8 +31,8 @@
 	"weapons": [
 	   {
     "name": "cold-plasma-gunner",
-    "x": 11,
-    "y": 7,
+    "x": 14,
+    "y": 12,
     "shootY": 9,
     "rotateSpeed": 4,
     "reload": 12,
@@ -93,7 +93,7 @@
   },
   {
   "name": "cold-plasma-gunner",
-    "x": 20,
+    "x": 25,
     "y": -13,
     "shootY": 9,
     "rotateSpeed": 4,
@@ -286,6 +286,38 @@
             "regen": 8,
             "max": 4000,
             "cooldown": 260
-            }
-        ]
-}
+	},
+	    {
+    "abilities": [
+        {
+    "type": "EnergyFieldAbility",
+    "healEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 20,
+    "offset": 50,
+    "length": 55,
+    "cone": -360,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"  
+    },
+    "statusDuration": 300,
+    "status": "freezing",
+    "color": "A9D8FFFF",
+    "maxTargets": 15,
+    "damage": 18,
+    "healPercent": 0.3,
+    "range": 170,
+    "y": -4,
+    "sectors": 4,
+    "rotateSpeed": 1.3,
+    "hitBuildings": true,
+    "sectorRad": 0.11,
+    "effectRadius": 6.5,
+    "reload": 12
+   }
+ ]
+ }
