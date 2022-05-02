@@ -57,6 +57,37 @@
     "status": "exogenesis-high-energy-blast",
     "statusDuration": 50,
     "incendChance": 0,
+    "chargeShootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 22,
+    "sizeTo": 0,
+    "length": 0,
+    "spin": 8,
+    "interp": "swing",
+    "lifetime": 200,
+    "region": "exogenesis-star",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "A9D8FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 32,
+    "sizeTo": 0,
+    "length": 0,
+    "spin": 6,
+    "interp": "swing",
+    "lifetime": 200,
+    "region": "exogenesis-star",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "A9D8FFFF"
+    }
+    ]
+    },    
     "hitEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -160,7 +191,7 @@
        }
 	   },
 	   {
-    "name": "orb-SG",
+    "name": "ocold-plasma-artillery",
     "top": true,
     "rotate": true,
     "rotateSpeed": 4,
@@ -250,24 +281,8 @@
     ]
     },
     "trailColor": "A9D8FFFF",
-    "trailParam": 6,
-    "trailLength": 14,
-    "trailWidth": 3,
-    "trailChance": 0.6,
-    "trailEffect": {
-    "type": "ParticleEffect",
-    "particles": 13,
-    "length": 8.5,
-    "baseLength": 2.5,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "cone": 360,
-    "offset": 5,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFAA",
-    "sizeFrom": 5,
-    "sizeTo": 0
-			}
+    "trailInterval": 3,	
+    "trailChance": 1,
 }
     }
   ]
