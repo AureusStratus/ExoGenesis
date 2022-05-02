@@ -60,14 +60,18 @@
     "colorTo": "A9D8FFFF"
     },
     "shootEffect": {
-    "type": "WaveEffect",
+     "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
     "lifetime": 15,
-    "sizeFrom": 0,
-    "sizeTo": 25,
-    "strokeFrom": 4,
+    "length": 45,
+    "cone": -30,
+    "strokeFrom": 2.5,
     "strokeTo": 0,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF"   
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
     },
     "keepVelocity": false,
     "pierce": true,
