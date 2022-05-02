@@ -9,7 +9,7 @@
     ]
     },
     "lowAltitude": true,
-    "speed": 1,
+    "speed": 1.6,
     "accel": 0.1,
     "drag": 0.02,
     "flying": true,
