@@ -71,7 +71,7 @@
     "length": 0,
     "spin": 8,
     "interp": "swing",
-    "lifetime": 300,
+    "lifetime": 330,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
@@ -84,7 +84,7 @@
     "length": 0,
     "spin": 6,
     "interp": "swing",
-    "lifetime": 300,
+    "lifetime": 330,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
