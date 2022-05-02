@@ -255,9 +255,9 @@
     "lenFrom": 6,
     "lenTo": 0,
     "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    {    
+    "colorTo": "66B1FFFF"   
     },
+    {
     "type": "ParticleEffect",
     "particles": 1,
     "lifetime": 60,
@@ -267,8 +267,8 @@
     "sizeTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
-    {    
     },
+    {
     "type": "WaveEffect",
     "lifetime": 60,
     "sizeFrom": 80,
