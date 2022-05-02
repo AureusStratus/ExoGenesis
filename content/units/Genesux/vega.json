@@ -8,7 +8,7 @@
     "silicon/2800"
     ]
     },
-    "speed": 0.8,
+    "speed": 1.2,
     "rotateSpeed": 1.6,
     "accel": 0.02,
     "drag": 0.018,
