@@ -48,8 +48,8 @@
     "bullet": { 
     "type": "ContinuousLaserBulletType",
     "damage": 56,
-    "width": 12,
-    "length": 250,
+    "width": 9,
+    "length": 220,
     "drawSize": 350,
     "lifetime": 200,
     "despawnEffect": "smokeCloud",
