@@ -31,8 +31,8 @@
 	"weapons": [
 	   {
     "name": "cold-plasma-gunner",
-    "x": 14,
-    "y": 12,
+    "x": 10,
+    "y": 13,
     "shootY": 9,
     "rotateSpeed": 4,
     "reload": 12,
@@ -151,131 +151,6 @@
       "colorTo": "66B1FFFF"
       },
       "shootEffect": "shootSmall"
-    }
-  },
-  {
-  "name": "centauri-weapon",
-  "x": 0,
-  "y": 0,
-  "mirror": false,
-  "top": false,
-  "shake": 0,
-  "shootCone": 20,
-  "inaccuracy": 8,
-  "shots": 5,
-  "shootY": 27,
-  "reload": 440,
-  "recoil": 0,
-  "soundPitchMin": 0.95,
-  "soundPitchMax": 1.05,
-  "chargeSound": "lasercharge2",
-      "shootSound": "plasmaboom",
-      "firstShotDelay": 35,
-      "bullet": {
-      "despawnEffect": {
-      "type": "ParticleEffect",
-      "line": true,
-      "particles": 15,
-      "lifetime": 20,
-      "offset": 30,
-      "length": 35,
-      "cone": -360,
-      "lenFrom": 5,
-      "lenTo": 0,
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "66B1FFFF"
-      },
-      "hitEffect": {
-      "type": "ParticleEffect",
-      "line": true,
-      "particles": 15,
-      "lifetime": 20,
-      "offset": 30,
-      "length": 35,
-      "cone": -360,
-      "lenFrom": 5,
-      "lenTo": 0,
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "66B1FFFF"
-      },
-    "shootEffect": {
-    "type": "multiEffect",
-    "lifetime": 110,
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 25,
-    "offset": 50,
-    "lifetime": 32,
-    "length": 45,
-    "baseLength": -45,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 7,
-    "length": 0,
-    "lifetime": 35,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF",
-    "cone": 360
-    },
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 35,
-    "offset": 40,
-    "lifetime": 37,
-    "length": 55,
-    "baseLength": -55,
-    "cone": -360,
-    "lenFrom": 7,
-    "lenTo": 0,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF"
-    }
-    ]
-    },
-    "keepVelocity": true,
-    "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
-    "damage": 155,
-    "width": 10,
-    "height": 10,
-    "speed": 3.2,
-    "frontColor": "A9D8FFFF",
-    "backColor": "66B1FFFF",
-    "trailChance": 1,
-    "trailEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "length": 0,
-    "lifetime": 20,
-    "sizeFrom": 8,
-    "region": "exogenesis-plasma-back",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    "lifetime": 105,
-    "homingDelay": 10,
-  	"homingPower": 0.00656,
-	"homingRange": 120,
-	"splashDamageRadius": 20,
-	"splashDamage": 30,
-	"lightningColor": "66B1FFFF",
-    "lightning": 4,
-    "lightningDamage": 28,
-    "lightningLength": 5,
-    "lightningCone": 360,
-    "lightningLengthRand": 8
-    
     }
   }
      ],
