@@ -194,7 +194,7 @@
        }
 	   },
 	   {
-    "name": "cold-plasma-artillery",
+    "name": "cold-plasma-gunner",
     "top": true,
     "rotate": true,
     "rotateSpeed": 4,
