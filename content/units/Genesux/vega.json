@@ -43,12 +43,13 @@
   "shootSound": "beam",
   "chargeSound": "lasercharge",
   "firstShotDelay": 100,
+  "parentizeEffects": true,       
   "continuous": true,
     "bullet": { 
     "type": "ContinuousLaserBulletType",
     "damage": 56,
     "width": 12,
-    "length": 200,
+    "length": 250,
     "drawSize": 350,
     "lifetime": 200,
     "despawnEffect": "smokeCloud",
@@ -58,6 +59,8 @@
     "statusDuration": 50,
     "incendChance": 0,
     "chargeShootEffect": {
+    "followParent": true,
+    "rotWithParent": true,
     "type": "multiEffect",
     "effects": [
     {
@@ -68,7 +71,7 @@
     "length": 0,
     "spin": 8,
     "interp": "swing",
-    "lifetime": 200,
+    "lifetime": 280,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
@@ -81,7 +84,7 @@
     "length": 0,
     "spin": 6,
     "interp": "swing",
-    "lifetime": 200,
+    "lifetime": 280,
     "region": "exogenesis-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
@@ -191,7 +194,7 @@
        }
 	   },
 	   {
-    "name": "ocold-plasma-artillery",
+    "name": "cold-plasma-artillery",
     "top": true,
     "rotate": true,
     "rotateSpeed": 4,
@@ -206,8 +209,8 @@
     "shootSound": "laser",
     "bullet": { 
    "type": "EmpBulletType",
-    "width": 17,
-    "height": 17,
+    "width": 13,
+    "height": 13,
     "sprite": "circle-bullet",
     "frontColor": "FFFFFF",
     "backColor": "A9D8FFFF",
@@ -218,7 +221,7 @@
     "splashDamageRadius": 50,
     "shrinkY": 0,
     "shrinkX": 0,
-    "radius": 80,
+    "radius": 120,
     "hitPowerEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -262,11 +265,11 @@
     "particles": 1,
     "lifetime": 60,
     "offset": 50,
-    "length": 55,
-    "sizeFrom": 6,
+    "length": 0,
+    "sizeFrom": 12,
     "sizeTo": 0,
     "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
+    "colorTo": "A9D8FFFF"
     },
     {
     "type": "WaveEffect",
@@ -281,6 +284,17 @@
     ]
     },
     "trailColor": "A9D8FFFF",
+   "trailEffect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "lifetime": 40,
+    "offset": 50,
+    "length": 0,
+    "sizeFrom": 12,
+    "sizeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },   
     "trailInterval": 3,	
     "trailChance": 1,
 }
