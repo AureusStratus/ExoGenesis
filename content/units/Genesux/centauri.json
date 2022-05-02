@@ -11,7 +11,7 @@
     },
     "singleTarget": true,
     "drawShields": false,
-    "speed": 0.7,
+    "speed": 0.9,
     "accel": 0.02,
     "drag": 0.02,
     "rotateSpeed": 1,
