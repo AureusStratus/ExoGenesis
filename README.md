@@ -10,10 +10,10 @@ A mod that adds a lot more content to the game.
 `note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
 
 ## The mod adds: 
-A lot of stuff, including many new units, turrets, four more factions and more
+A lot of stuff, including many new units, turrets, five factions and more
 
 ## Mod races/factions 
-Exogenesis contains five different races each with there own lore, weapons, defense, and units.
+Exogenesis contains five different races each with their own lore, weapons, defenses, and units.
 
 `Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
@@ -21,9 +21,9 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this is a Binary System with Alphandax and Betanax, but there are planets orbiting, anyways moving on we have these creatures, they are comprised of molten rock and material they get from under the volcanos and lava oceans of there planet Volceru, they get titanium and multiple igna-rocks and they fuse them together to get a strong material that they use to form their absolute monsters, other satelites/planets in this Binary System include, Furnius and Siten.
 
-`Elecian`: They are found in the "Vanstarius System", they live on a gassy planet with 3/4 satelites, other planets in this system also have satelites, the other planets are, Ravu, Duris. Mineus, although Duris and Mineus dont have satelites we will still include them, the Eleciams are monsters at destruction and show no mercy, their technology are very advanced and are un-matched in there will to fight, they are very strong and can pack quite a punch, wether you have walls or not, the material that they use are unknown and are probably an alloy made out of titanium and some other material.
+`Elecian`: They are found in the "Vanstarius System" where they live on a gassy planet with 3/4 satelites, and other planets in this system also have satelites. The other planets are Ravu, Duris and Mineus, although Duris and Mineus don't have satelites we will still include them. The Eleciams are monsters when it comes to destruction and show no mercy. Their technology is very advanced and they are unmatched in their will to fight. They are very strong and can pack quite a punch, whether you have walls or not. The material that they use is unknown and is probably an alloy made out of titanium and some other material.
 
-`Terretux`: deep Bootes Void, in galaxy long dead there lies a fallen empire, destroyed by a cataclysmic event. Astronomeers from Serpulo call it the "Forgotten Empire". This species originated from the "Erten system", with planets surrounding it such as Xeantra and Celtus. They are powered by Pure Dark Energy and an unknown form of energy, which  they use to create their strong and strange materials to create weapons and technology yet to be understood. What could have happened to this great empire?
+`Terretux`: Deep in the Bootes Void, in galaxy long dead, there lies a fallen empire, destroyed by a cataclysmic event. Astronomeers from Serpulo call it the "Forgotten Empire". This species originated from the "Erten system", with planets surrounding it such as Xeantra and Celtus. They are powered by Pure Dark Energy and an unknown form of energy, which  they use to create their strong and strange materials to create weapons and technology yet to be understood. What could have happened to this great empire?
 
 `Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they aren't observed as much as the others but have developed underwater and on islands and shores, they live in a radioactive area of an ocean. They somehow get enough materials to make a variety naval weapons, and they will also invent other weapons that can  devastate everything.
 
