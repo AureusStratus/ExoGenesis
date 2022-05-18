@@ -25,7 +25,7 @@ Exogenesis contains five different races each with their own lore, weapons, defe
 
 `Terretux`: Deep in the Bootes Void, in galaxy long dead, there lies a fallen empire, destroyed by a cataclysmic event. Astronomeers from Serpulo call it the "Forgotten Empire". This species originated from the "Erten system", with planets surrounding it such as Xeantra and Celtus. They are powered by Pure Dark Energy and an unknown form of energy, which  they use to create their strong and strange materials to create weapons and technology yet to be understood. What could have happened to this great empire?
 
-`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they aren't observed as much as the others but have developed underwater and on islands and shores, they live in a radioactive area of an ocean. They somehow get enough materials to make a variety naval weapons, and they will also invent other weapons that can  devastate everything.
+`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", and although they aren't observed as much as the others, they've developed underwater and on islands and shores. They live in a radioactive area of an ocean. They somehow get enough materials to make a variety naval weapons, and they will also invent other weapons that can devastate anything.
 
 ## Screenshots
 ![unknown-14](https://user-images.githubusercontent.com/68311340/118233805-7227c080-b460-11eb-99cd-5ab35cecb273.png)
