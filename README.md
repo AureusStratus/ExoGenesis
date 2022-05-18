@@ -10,7 +10,7 @@ A mod that adds a lot more content to the game.
 `note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
 
 ## The mod adds: 
-alot of stuff
+A lot of stuff, including many new units, turrets, four more factions and more
 
 ## Mod races/factions 
 Exogenesis contains five different races each with there own lore, weapons, defense, and units.
@@ -23,9 +23,9 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Elecian`: They are found in the "Vanstarius System", they live on a gassy planet with 3/4 satelites, other planets in this system also have satelites, the other planets are, Ravu, Duris. Mineus, although Duris and Mineus dont have satelites we will still include them, the Eleciams are monsters at destruction and show no mercy, their technology are very advanced and are un-matched in there will to fight, they are very strong and can pack quite a punch, wether you have walls or not, the material that they use are unknown and are probably an alloy made out of titanium and some other material.
 
-`Terretux`: deep Bootes Void, in galaxy long dead there lies a fallen empire, destroyed by a cataclysmic event. Astronomeers from Serpulo call it the "Forgotten empire", this species originated from the "Erten system", with planets surrounding it such as Xeantra and Celtus, They are powered by Pure Dark Energy and an unknown form of energy, they use their strong and strange materials to create weapons and technology yet understood. What had happen to this great empire?.
+`Terretux`: deep Bootes Void, in galaxy long dead there lies a fallen empire, destroyed by a cataclysmic event. Astronomeers from Serpulo call it the "Forgotten Empire". This species originated from the "Erten system", with planets surrounding it such as Xeantra and Celtus. They are powered by Pure Dark Energy and an unknown form of energy, which  they use to create their strong and strange materials to create weapons and technology yet to be understood. What could have happened to this great empire?
 
-`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they arent observed as much as the others but have developed underwater and on islands and shores, they live in an radioactive biome of an ocean, they somehow get their materials to make several naval weapons, they will also invent other weapons that devastate everything.
+`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they aren't observed as much as the others but have developed underwater and on islands and shores, they live in a radioactive area of an ocean. They somehow get enough materials to make a variety naval weapons, and they will also invent other weapons that can  devastate everything.
 
 ## Screenshots
 ![unknown-14](https://user-images.githubusercontent.com/68311340/118233805-7227c080-b460-11eb-99cd-5ab35cecb273.png)
