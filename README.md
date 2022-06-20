@@ -7,17 +7,17 @@ Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
 
-`note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
+`Note`: The plasma orb trail idea originally came from the Exotic mod as well as the energy sphere ability on my primordial and earth unit
 
 ## The mod adds: 
-alot of stuff
+A lot of neat stuff, including five new factions, tons of new blocks, lore, and more!
 
 ## Mod races/factions 
-Exogenesis contains five different races each with there own lore, weapons, defense, and units.
+Exogenesis contains five different races each with their own lore, weapons, defenses, and units.
 
 `Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
-`Genesux`: In the "Siravax System" they lay in the sub-zero temperature planet called "Siratla", other planets in the system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like nothing is gonna stop them from achieving it.
+`Genesux`: In the "Siravax System" they inhabit the sub-zero temperature planet named "Siratla", and while there is another planet in the system that is comrpised of Siratla Stone and Crystals (Ruxt), Vantax is a Gas Planet. these three specific planets also have multiple satelites (moons) surrounding them. The star is Siravax and the Genesux are comprised of cold energy and Siratla stone; they are a type of lithiod, these beings are strong, and their weapons and creations are made out of metalic material formed from various metals and cold energy. Little is understood of their ultimate goal, but it seems like nothing is going to stop them from achieving it.
 
 `Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this is a Binary System with Alphandax and Betanax, but there are planets orbiting. Moving on we have these creatures; they are comprised of molten rock and material they get from under the volcanoes and lava oceans of their planet Volceru, they can also get titanium and multiple igna-rocks which they fuse them together to get a strong material that they use to form their absolute monsters. Other satelites/planets in this Binary System include Furnius and Siten.
 
