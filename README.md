@@ -1,6 +1,6 @@
 # Exogenesis
 
-My discord Aureus#6109
+My discord: Aureus#6109
 
 Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
 
@@ -19,7 +19,7 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Genesux`: In the "Siravax System" they lay in the sub-zero temperature planet called "Siratla", other planets in the system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like nothing is gonna stop them from achieving it.
 
-`Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this is a Binary System with Alphandax and Betanax, but there are planets orbiting, anyways moving on we have these creatures, they are comprised of molten rock and material they get from under the volcanos and lava oceans of there planet Volceru, they get titanium and multiple igna-rocks and they fuse them together to get a strong material that they use to form their absolute monsters, other satelites/planets in this Binary System include, Furnius and Siten.
+`Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this is a Binary System with Alphandax and Betanax, but there are planets orbiting. Moving on we have these creatures; they are comprised of molten rock and material they get from under the volcanoes and lava oceans of their planet Volceru, they can also get titanium and multiple igna-rocks which they fuse them together to get a strong material that they use to form their absolute monsters. Other satelites/planets in this Binary System include Furnius and Siten.
 
 `Elecian`: They are found in the "Vanstarius System", they live on a gassy planet with 3/4 satelites, other planets in this system also have satelites, the other planets are, Ravu, Duris. Mineus, although Duris and Mineus dont have satelites we will still include them, the Eleciams are monsters at destruction and show no mercy, their technology are very advanced and are un-matched in there will to fight, they are very strong and can pack quite a punch, wether you have walls or not, the material that they use are unknown and are probably an alloy made out of titanium and some other material.
 
