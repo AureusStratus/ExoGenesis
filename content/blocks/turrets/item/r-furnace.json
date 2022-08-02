@@ -22,7 +22,7 @@
 "shots": 3,
 "targetAir": true,
 "targetGround": true,
-"heatColor": "5B4CB0FF",
+"heatColor": "e5666666",
 "recoilAmount": 3,
 "ammoTypes": {
 	"thorium": {
