@@ -6,12 +6,12 @@
 "liquidCapacity": 80,
     "requirements": [
     "silicon/6",
-    "titanium/5",
+    "stellar-steel/5",
     "phase-fabric/10",
     "omega-blue/15",
-    "surge-alloy/10",
+    "terrilium/10",
     "metaglass/20"
     ],
-"research": "plated-conduit",
+"research": "team-genesux",
 "category": "liquid"
 }
