@@ -1,8 +1,9 @@
-{
+ {
     "type": "flying",
      "flying": true,
  	"speed": 3,
 	"outlineColor": "464A59FF",
+"engineColor": "A9D8FFFF",
  "lowAltitude": true,
 	"hitSize": 34,
 	"health": 2100,
@@ -10,7 +11,8 @@
   "drag": 0.26,
     "engineSize": 6,
     "engineOffset": 8,
-	"isCounted": false,
+   "trailColor": "A9D8FFFF",
+   "trailLength": 6,
     "mineSpeed": 20,
     "buildSpeed": 7.6,
     "mineTier": 7,
@@ -21,6 +23,96 @@
 	"range": 180,
 	"targetAir": true,
 	"rotateSpeed": 3,
+        "parts": [
+         {
+        "type": "shapePart",
+        "hollow": true,
+        "circle": true,
+        "y": -10,
+        "layer": 110,
+        "color": "66B1FFff",
+        "stroke": 2,
+        "strokeTo": 2,
+        "radiusTo": 8,
+        "radius": 8
+        },
+        {
+         "type": "FlarePart",
+          "color2": "FFFFFF",
+          "color1": "66B1FFff",
+          "y": -10,
+          "followRotation": true,
+          "stroke": 2,
+          "radius": 7
+         },
+        {
+        "type": "HaloPart",
+        "y": -10,
+        "radius": 3,
+        "tri": true,
+        "layer": 110,
+        "color": "66B1FFff",
+        "haloRadius": 17,
+        "haloRadiusTo": 17,
+        "haloRotateSpeed": -1,
+        "haloRotation": 90,
+        "shapeRotation": 180,
+        "stroke": 0,
+        "strokeTo": 2,
+        "shapes": 2,
+        "triLengthTo": 6,
+        "triLength": 6
+           },
+           {
+        "type": "HaloPart",
+        "y": -10,
+        "radius": 3,
+        "tri": true,
+        "layer": 110,
+        "color": "66B1FFff",
+        "haloRadius": 17,
+        "haloRotateSpeed": -1,
+        "haloRotation": 90,
+        "haloRadiusTo": 17,
+        "stroke": 0,
+        "strokeTo": 2,
+        "shapes": 2,
+        "triLengthTo": 10,
+        "triLength": 10
+        },
+        {
+        "type": "HaloPart",
+        "y": -10,
+        "radius": 2.4,
+        "tri": true,
+        "layer": 110,
+        "color": "66B1FFff",
+        "haloRotateSpeed": -1,
+        "haloRadius": 8,
+        "haloRadiusTo": 8,
+        "stroke": 0,
+        "strokeTo": 2,
+        "shapes": 2,
+        "triLengthTo": 9,
+        "triLength": 9
+           },
+           {
+        "type": "HaloPart",
+        "y": -10,
+        "radius": 2.4,
+        "tri": true,
+        "layer": 110,
+        "color": "66B1FFff",
+        "haloRotateSpeed": 1,
+        "haloRadius": 8,
+        "haloRadiusTo": 8,
+        "stroke": 0,
+        "strokeTo": 2,
+        "shapes": 2,
+        "triLengthTo": 9,
+        "triLength": 9
+}
+         ],
 	"immunities": [
 		"burning", 
 		"exogenesis-neutron-overcharge",
@@ -29,44 +121,26 @@
 	],
 	"weapons": [
 	    {
-  "name": "cold-plasma-shotgun",
-  "x": 14,
+  "name": "stars",
+  "x": 17,
   "y": 1.5,
+  "baseRotation": -90,
   "reload": 60,
   "top": true,
-  "rotate": true,
+  "rotate": false,
   "shootY": 6,
-  "rotateSpeed": 4,
+   "shootCone": 180,
   "recoil": 2,
   "inaccuracy": 10,
-  "shots": 5,
-  "shotDelay": 3,
-  "shootSound": "laser",
-  "bullet": {
-	"shootEffect": "none",
-    "type": "LaserBulletType",
-    "length": 200,
-    "width": 13,
-    "damage": 65,
-    "buildingDamageMultiplier": 0.12,
-    "lightColor": "A9D8FFFF",
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 4,
-    "lifetime": 20,
-    "offset": 50,
-    "length": 55,
-    "cone": -360,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
+  "shoot": {
+   "type": "shootPattern",
+    "shots": 2,
+    "shotDelay": 3
     },
-    "colors": ["66B1FFFF", "A9D8FFFF", "FFFFFF"],
-    "sideAngle": 25,
-    "sideLength": 0,
-    "sideWidth": 0
+    "shootSound": "laser",
+    "bullet": {
+     "type": "basicBulletType",
+     "spawnUnit": "exogenesis-starlit-missile"
     }
     }
     ],
@@ -76,37 +150,7 @@
       "effect": "exogenesis-neutron-overcharge",
       "parentizeEffects": true,
       "effectY": 23,
-      "activeEffect": {
-      "type": "multiEffect",
-      "followParent": true,
-      "rotWithParent": true,
-      "effects": [
-      {
-      "type": "ParticleEffect",
-      "particles": 1,
-      "sizeFrom": 7,
-      "sizeTo": 0,
-      "length": 0,
-      "interp": "swingIn",
-      "lifetime": 10,
-      "region": "exogenesis-energy-partical-back",
-      "colorFrom": "FFFFFFF",
-      "colorTo": "FFFFFFF"
-      },
-      {
-      "type": "ParticleEffect",
-      "particles": 1,
-      "sizeFrom": 12,
-      "sizeTo": 0,
-      "length": 0,
-      "interp": "swingIn",
-      "lifetime": 10,
-      "region": "exogenesis-energy-partical-back",
-      "colorFrom": "66B1FFFF",
-      "colorTo": "66B1FFFF"
-      }
-      ]
-      },
+      "activeEffect": "none",
       "range" : 100,
       "reload" : 5,
       "duration" : 5

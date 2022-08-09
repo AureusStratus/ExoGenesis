@@ -1,6 +1,6 @@
 {
         "speed": 3,
-     	"isCounted": false,
+
      	"lowAltitude": true,
         "mineSpeed": 6,
         "buildSpeed": 2.5,
@@ -14,9 +14,8 @@
         "armor": 3,
         "engineSize": 3,
         "engineOffset": 12.5,
+       "engineColor": "F3E979FF",
         "range": 140,
-        "targetAir": true,
-        "commandLimit": 12,
         "faceTarget": true,
 	    "weapons": [
 	   {
@@ -27,13 +26,17 @@
     "y": 0,
     "shootY": 14,
     "reload": 90,
-    "firstShotDelay": 60,
+"shoot": {
+    "firstShotDelay": 60
+},
+  "shootStatus": "unmoving",
+  "shootStatusDuration": 60,
     "shootSound": "laser",
     "parentizeEffects": true,
     "bullet": {
     "recoil": 2,
     "sprite": "exogenesis-spear",
-    "shootEffect": {
+    "chargeEffect": {
     "followParent": true,
     "rotWithParent": true,
     "type": "multiEffect",
@@ -167,7 +170,7 @@
     "type": "EmpBulletType",
     "shrinkX": 0,
     "shrinkY": 0,
-    "damage": 70,
+    "damage": 90,
     "speed": 13,
     "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
