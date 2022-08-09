@@ -1,9 +1,9 @@
 {
 "type": "GenericCrafter",
 "size": 3,
-"craftTime": 180,
+"craftTime": 80,
 "hasPower": true,
-"liquidCapacity": 50,
+"liquidCapacity": 100,
 	"drawer": {
 	"type": "DrawMulti",
         "drawers": [
@@ -20,22 +20,19 @@
 	  }
     ]
     },
-"outputLiquid": "osmilium-liquid/2",
+"outputLiquid": "hydrogen/1",
 "consumes": {
-  "power": 3,
-    "items": [
-    "osmium/2"
-    ],
+  "power": 6,
     "liquids": [
-    "cryofluid/2"
+    "cold-plasma/1"
     ]
 },
 "requirements": [
   "lead/100",
-  "silicon/85",
-  "titanium/55",
-  "osmium/60"
+  "silicon/100",
+  "stellar-steel/80",
+  "astrolite/60"
 ],
 "category": "crafting",
-"research": "cryofluid-mixer"
+"research": "b-cold-plasma-chamber"
 }

@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "health": 5,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 28,
+  "craftEffect": "none",
+  "drawer": {
+  "type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+        "type": "DrawLiquidRegion",
+        "suffix": "-liquid"
+	  }
+    ]
+    },
+  "hasPower": true,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 0.70,
+    "items": [
+      "astrolite/1"
+    ],
+    "liquids": [
+    "water/0.7"
+    ]
+  },
+  "requirements": [
+    "lead/50",
+    "graphite/40",
+    "astrolite/80"
+  ],
+  "category": "crafting",
+  "research": "b-silicon-oven",
+  "outputLiquid": "cold-plasma/0.5"
+}

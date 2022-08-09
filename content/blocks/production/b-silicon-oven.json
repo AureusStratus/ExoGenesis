@@ -3,7 +3,7 @@
   "health": 200,
   "size": 2,
   "hasItems": true,
-  "craftTime": 40,
+  "craftTime": 80,
   "craftEffect": {
    "type": "multiEffect",
     "effects": [
