@@ -9,18 +9,27 @@
 "silicon/400"
 ]
 },
-"type": "mech",
+"type": "tank",
+ "faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 34,
+"width": 10,
+"height": 34
+}
+],
+"singleTarget": flase,
+"omniMovement": flase,
+"rotateSpeed": 1.8,
 "armor": 12,
 "hitSize": 25,
-"commandLimit": 6,
 "rotateShooting": false,
-"mechStepParticles": false,
-"mechStepShake": 0,
 "speed": 1.1,
 "flying": false,
 "health": 700,
-"mechFrontSway": 0,
-"mechSideSway": 0,
 "range": 250,
 "immunities": [
 		"melting",
@@ -38,7 +47,6 @@
   "recoil": 4,
   "rotate": true,
   "rotateSpeed": 4,
-  "shots": 1,
   "shootSound": "railgun",
   "ejectEffect": "none",
   "bullet": {
@@ -80,7 +88,6 @@
     }
     ]
     },
-	"updateEffectSeg": 17,
 	"updateEffect": {
     "type": "ParticleEffect",
     "particles": 1,

@@ -1,15 +1,15 @@
 {
 "name": "Sol",
 "research": {
-"parent": "dagger",
+"parent": "SolFactory",
 "requirements": [
 "volcanite/100",
 "silicon/200"
 ]
 },
+  "outlineColor": "313131FF",
 "type": "mech",
 "armor": 7,
-"commandLimit": 8,
 "speed": 0.5,
 "hitSize": 8,
 "flying": false,
@@ -29,10 +29,13 @@
     "mirror": true,
     "alternate": true,
     "shootY": 3,
-    "shots": 2,
+     "shoot": {
+    "type": "shootPattern",
+  "shotDelay": 4,
+  "shots": 2
+    },
     "recoil": 1.5,
     "rotate": false,
-    "shotDelay": 4,
 	"inaccuracy" : 7, 
     "shootSound": "flame",
     "shootCone": 18,

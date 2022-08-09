@@ -21,9 +21,8 @@
 "hitSize": 50,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.8,
-"commandLimit": 5,
 "mechStepParticles": true,
-"mechStepShake": 5,
+"mechLandShake": 5,
 "singleTarget": true,
 "speed": 0.24,
 "health": 66000,
@@ -44,13 +43,14 @@
   "recoil": 0,
   "rotateSpeed": 0.6,
   "rotate": true,
-  "shootCone": 20,
+  "layerOffset": -0.001,
   "shake": 2,
+"shoot": {
+  "shots": 5
+    },
   "inaccuracy": 4,
-  "shots": 5,
   "shootY": 25,
   "shootSound": "flame",
-  "ejectEffect": "none",
   "cooldownTime": 40,
   "bullet": {
     "type": "BasicBulletType",
@@ -67,7 +67,7 @@
     "effects": [
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 4,
     "sizeFrom": 5,
     "sizeTo": 1,
     "length": 140,
@@ -81,7 +81,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 4,
     "sizeFrom": 6,
     "sizeTo": 1,
     "length": 100,
@@ -95,7 +95,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 4,
     "sizeFrom": 6,
     "sizeTo": 1.5,
     "length": 110,
@@ -108,7 +108,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 4,
     "sizeFrom": 6,
     "sizeTo": 1.5,
     "length": 120,
@@ -127,7 +127,7 @@
     "effects": [
     {
     "type": "ParticleEffect",
-    "particles": 20,
+    "particles": 7,
     "sizeFrom": 5,
     "sizeTo": 1,
     "length": 160,
@@ -140,7 +140,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 20,
+    "particles": 7,
     "sizeFrom": 7,
     "sizeTo": 1,
     "length": 180,
@@ -186,7 +186,6 @@
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
     "rotate": true,
     "rotateSpeed": 3,
     "shootY": 8,
@@ -246,7 +245,6 @@
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
     "rotate": true,
     "rotateSpeed": 3,
     "shootY": 8,

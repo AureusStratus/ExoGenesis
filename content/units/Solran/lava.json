@@ -14,13 +14,12 @@
 	"hitSize": 41,
 	"health": 9800,
     "mechStepParticles": false,
-    "mechStepShake": 0,
+    "mechLandShake": 0,
     "mechFrontSway": 0,
     "mechSideSway": 0,
 	"armor": 24,
 	"canDrown": false,
-    "rotateShooting": false,
-    "singleTarget": true,
+    "singleTarget": false,
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1.5,
@@ -208,70 +207,6 @@
 	"shootEffect": "none",
 	"trailEffect": "none"
     }
-    }
-    ],
-    "abilities": [
-    {
-    "type": "MoveLightningAbility",
-    "minSpeed": 0.10,
-    "maxSpeed": 1,
-    "damage": 0,
-    "chance": 0.98,
-    "length": 1,
-    "color": "00000000",
-    "parentizeEffects": true,
-    "shootEffect": {
-    "type": "multiEffect",
-    "layer": 61,
-    "followParent": true,
-    "rotWithParent": true,
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 1,
-    "length": 0,
-    "region": "exogenesis-lava-track2",
-    "lifetime": 6,
-    "sizeFrom": 27,
-    "sizeTo": 27,
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-     }
-    ]
-    },
-    "shootSound": "none"
-    },
-    {
-    "type": "MoveLightningAbility",
-    "minSpeed": 0.10,
-    "maxSpeed": 1,
-    "damage": 0,
-    "chance": 1,
-    "length": 1,
-    "color": "00000000",
-    "parentizeEffects": true,
-    "shootEffect": {
-    "type": "multiEffect",
-    "layer": 61,
-    "followParent": true,
-    "rotWithParent": true,
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 1,
-    "length": 0,
-    "region": "exogenesis-lava-track1",
-    "lifetime": 6,
-    "sizeFrom": 27,
-    "sizeTo": 27,
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-     }
-    ]
-    },
-    "shootSound": "none"
     }
  ]
 }
