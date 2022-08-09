@@ -1,18 +1,67 @@
 {	
-    "localizedName": "Calamity Forge",
-    "description": "[#74C2E8FF]An Ancient forge. This forge cannot be deconstructed after its built. Condenses down large amounts of cold plasma and energy to create a powerful crystal.",
-    "details": "A very ancient forge. It seems to have unknown markings on it aswell and uses unknown technology not from this dimension the only translatable think was on the forge was, bring apon a calamity. Founded in an old abandoned unknown ship with extra-universal technology.",
  "type": "GenericCrafter",
 	"destructible": true,
 	"drawer": {
-	"type": "DrawSmelter",
-	"flameRadius": 6.0,
-    "flameRadiusIn": 2.0,
+	"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+         "type": "DrawFlame",
+    "flameRadius": 7.2,
+    "flameRadiusIn": 4.0,
     "flameRadiusScl": 6.5,
     "flameRadiusMag": 3.0,
     "flameRadiusInMag": 1.0,
 	"flameColor": "74C2E8FF"
-	},
+	  },
+    {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+    "alpha": 0.4,
+    "blending": "additive",
+    "particleSize": 5,
+    "reverse": true,
+    "particleRad": 23,
+    "particles": 22,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 60
+    },
+    {
+    "type": "DrawParticles",
+    "color": "66B1FFFF",
+    "alpha": 0.4,
+    "reverse": true,
+    "blending": "additive",
+    "particleSize": 6,
+    "particleRad": 12,
+    "particles": 22,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 80
+     },
+       {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow1", 
+       "glowScale": 10,
+       "color": "66B1FF90"
+     },
+       {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow2",
+         "glowScale": 7,
+       "color": "66B1FF90"
+     },
+       {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow3",
+         "glowScale": 4,
+       "color": "66B1FF90"
+	  }
+    ]
+    },
 	"size": 6,
 	"hasPower": true,
 	"hasItems": true,
@@ -42,10 +91,10 @@
     "type": "ExplosionEffect",
     "waveColor": "66B1FFFF", 
     "sparkColor": "66B1FFFF", 
-    "smokes": 20,
-    "smokeSize": 4.7,	 
-    "smokeSizeBase": 1.6, 
-    "smokeRad":	36,	 
+    "smokes": 30,
+    "smokeSize": 2.7,	 
+    "smokeSizeBase": 8.6, 
+    "smokeRad":	66,	 
     "waveLife":	30, 
     "waveStroke": 4.1,	 
     "waveRad": 85, 
@@ -157,10 +206,10 @@
 		"power": 80,
 		"items": {
 			"items": [
-               "omega-blue/150",
-               "stellar-steel/200",
-               "astrolite/200",
-               "osmium/100"
+               "omega-blue/50",
+               "stellar-steel/60",
+               "tungsten/60",
+               "osmium/40"
 			]
 		}
 	},
@@ -168,11 +217,11 @@
         "omega-blue/3000",
         "astrolite/4000",
         "thorium/3400",
-        "titanium/1200",
+        "tungsten/1200",
         "stellar-steel/300",
         "silicon/5000",
         "osmium/3000"
 	],
 	"category": "crafting",
-	"outputItem": "calamity-crystal/1"
+	"outputItem": "blue-titan-alloy/2"
 }

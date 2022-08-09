@@ -62,9 +62,17 @@
     }
   ]
   },
-  "drawer": {
-  "type": "DrawSmelter",
+"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+      {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
   "flameColor": "A9D8FFFF"
+    }
+  ]
   },
   "hasPower": true,
   "hasLiquids": false,
@@ -72,7 +80,7 @@
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,
   "consumes": {
-  "power": 0.65,
+  "power": 4.65,
   "items": {
     "items": [
       "astrolite/3",
@@ -81,9 +89,9 @@
    }
   },
   "requirements": [
-    "titanium/140",
-    "metaglass/80",
-    "plastanium/40",
+    "lead/140",
+    "graphite/80",
+    "terrilium/40",
     "stellar-steel/140",
     "silicon/80"
   ],
