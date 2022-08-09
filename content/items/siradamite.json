@@ -1,0 +1,11 @@
+{
+    "cost": 1,
+    "color": "A9D8FFFF",
+     "hardness": 5,
+    "research": {
+    "parent": "astrolite",
+    "requirements": [
+    "astrolite/200"
+  ]
+  }
+}
