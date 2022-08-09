@@ -1,0 +1,51 @@
+{
+"type": "ConsumeGenerator",
+"displayEfficiency": false,
+"minEfficiency": 1,
+"health": 1400,
+"size": 2,
+"powerProduction": 4.5,
+"liquidCapacity": 65,
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+      {
+     "type": "DrawRegion",
+       "suffix": "-bottom"
+        },
+        {
+     "type": "DrawParticles",
+    "color": "66B1FFFF",
+    "alpha": 0.4,
+     "blending": "additive",
+     "particleSize": 4,
+    "particleRad": 6,
+    "particles": 23,
+    "fadeMargin": 1,
+    "rotateScl": 4,
+    "particleLife": 40
+	  },
+        {
+        "type": "DrawDefault"
+        },
+     {
+ "type": "DrawGlowRegion",
+ "suffix": "-glow",
+  "color": "66B1FFFF"
+	  }
+    ]
+    },
+"consumes": {
+        "liquids": ["exogenesis-cold-plasma/1"]
+	},
+	"requirements": [
+        "silicon/600",
+        "stellar-steel/500",
+        "osmium/150",
+        "lead/600"
+],
+"category": "power",
+"research": "b-astrum-generator",
+"ambientSound": "hum",
+"ambientSoundVolume": 0.25
+}
