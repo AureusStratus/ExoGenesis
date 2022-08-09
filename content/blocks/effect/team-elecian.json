@@ -1,6 +1,6 @@
 {  
-    "localizedName": "[#66B1FFFF]Genesux",
-    "description": "The Genesux faction.",
+    "localizedName": "[#FFF861FF]Elecian",
+    "description": "The Elecian faction.",
     "alwaysUnlocked": true,
     "buildVisibility": "editorOnly",
     "type": "LightBlock",
@@ -8,7 +8,7 @@
     "size": 2,
    "research": {
   "root": true,
-  "name": "[#66B1FFFF]Genesux",
+  "name": "[#FFF861FF]Elecian",
   "requiresUnlock": false
 }
 }

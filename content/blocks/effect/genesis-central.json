@@ -10,7 +10,8 @@
     "unitType": "twinkle",
 	"requirements": [
     "copper/700",
-    "astrolite/300",
+    "astrolite/700",
+   "graphite/300",
     "lead/800"
 	],
   "category": "effect",

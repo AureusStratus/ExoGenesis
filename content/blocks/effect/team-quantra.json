@@ -1,6 +1,6 @@
 {  
-    "localizedName": "[#66B1FFFF]Genesux",
-    "description": "The Genesux faction.",
+    "localizedName": "[#73FFAEFF]Quantra",
+    "description": "The Quantra faction.",
     "alwaysUnlocked": true,
     "buildVisibility": "editorOnly",
     "type": "LightBlock",
@@ -8,7 +8,7 @@
     "size": 2,
    "research": {
   "root": true,
-  "name": "[#66B1FFFF]Genesux",
+  "name": "[#73FFAEFF]Quantra",
   "requiresUnlock": false
 }
 }
