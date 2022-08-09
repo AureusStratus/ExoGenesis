@@ -2,11 +2,13 @@
 	"type": "PowerTurret",
 	"size": 5,
 	"health": 880,
-	"reloadTime": 30,
+	"reload": 30,
 	"range": 200,
-  "shootLength": 6,
-    "shots": 10,
-    "burstSpacing": 10,
+  "shootY": 6,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "shootEffect": {
     "type": "ParticleEffect",
     "particles": 5,
@@ -19,16 +21,18 @@
     "sizeFrom": 5,
     "sizeTo": 0
     },
-	"targetAir" : true, 
-	"targetGround" : true,
-	"shootCone" : 60,
-	"spread" : 15,
-	"recoilAmount" : 1.5,
-	"restitution" : 0.04, 
+"shoot": {
+    "type": "ShootPattern",
+    "shots": 10,
+    "shotDelay": 10
+    },
+	"recoil" : 1.5,
 	"rotateSpeed": 5,
 	
 	"shootSound" : "laser",
-	"powerUse": 60,
+"consumes" : {
+		"power": 60
+		},
 	"hasPower" : true,
 	"shootType": {
 		"type" : "BasicBulletType",
@@ -36,7 +40,7 @@
 		"status": "exogenesis-irradiated",
 		"damage": 80,
 		"height" : 13,
-   "spin": 7,
+                "spin": 7,
 		"width" : 13,
 		"hitSize": 10,
 		"speed": 7,

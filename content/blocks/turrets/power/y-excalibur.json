@@ -3,20 +3,24 @@
 "size": 4,
 "health": 1000,
 "range": 240,
-"reloadTime": 17,
+"reload": 17,
 "shootSound": "laser",
 "rotateSpeed": 4,
-"shootCone": 20,
-"shootShake": 1.5,
-"cooldown": 0.03,
-"spread": 9,
-"alternate": true,
-"shots": 3,
-"targetAir": true,
-"targetGround": true,
+"shake": 1.5,
 "heatColor": "5B4CB0FF",
-"recoilAmount": 2,
-"powerUse": 7,
+"recoil": 2,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+"shoot": {
+"type": "shootAlternate",
+   "shots": 1,
+"spread": 9
+},
+ "consumes" : {
+		"power": 7
+		},
 "shootType": {
   "type": "LaserBulletType",
     "colors":["ECD36FAA", "F3E979FF", "FFFFFF"],

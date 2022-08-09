@@ -3,21 +3,28 @@
 	"size": 8,
 	"health": 8660,
 	"range": 800,
-	"reloadTime" : 380,
-	"shots" : 1,
-	"targetAir" : true, 
-	"targetGround" : true,
-	"shootCone" : 1,
-	"recoilAmount" : 4,
-	"restitution" : 0.08, 
+	"reload" : 380,
+	"recoil" : 4,
 	"rotateSpeed": 2,
-	"shootShake" : 2,
-
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
 	"shootSound": "release",
 	"chargeSound": "lasercharge",
-	"chargeTime" : 80,
-	"chargeEffects" : 1,
-	"chargeBeginEffect": {
+        "shoot": {
+        "firstShotDelay": 80
+    },
+    "consumes" : {
+		"power": 40
+		},
+	"hasPower" : true,
+	"shootType" : { 
+	"chargeEffect": {
+	    "type": "MultiEffect",
+	    "lifetime": 80,
+	    "effects": [
+{
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 0,
@@ -28,10 +35,6 @@
     "colorTo": "73FFAEFF",
     "cone": 360
 },
-	"chargeEffect": {
-	    "type": "MultiEffect",
-	    "lifetime": 80,
-	    "effects": [
 	   {     
         "type": "WaveEffect",
         "lifetime": 80,
@@ -57,9 +60,6 @@
 	   ]
 	},
 
-    "powerUse" : 40,
-	"hasPower" : true,
-	"shootType" : {
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-plasma",
 		"hitSound": "plasmaboom",
@@ -259,7 +259,6 @@
 		"frontColor": "FFFFFFFF",
 		"backColor": "73FFAEFF",
 		"fragBullets": 12,
-		"fragCone": 40,
 		"fragBullet": {
 		"type": "basicBulletType",
 		"sprite" : "exogenesis-electric-pulse",

@@ -3,16 +3,16 @@
 "size": 2,
 "health": 300,
 "range": 120,
-"reloadTime": 120,
+"reload": 120,
 "shootSound": "laser",
 "rotateSpeed": 3,
-"shootShake": 2.5,
-"cooldown": 0.03,
-"shots": 1,
-"targetAir": true,
-"targetGround": true,
+"shake": 2.5,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
 "heatColor": "5B4CB0FF",
-"recoilAmount": 2,
+"recoil": 2,
 "shootType": {
   "type": "LaserBulletType",
   "colors": ["FF5845FF", "FFC1BBFF", "FFFFFFF"],
@@ -50,14 +50,6 @@
   "sideAngle": 25,
   "sideWidth": 15,
   "sideLength": 0
-  },
-    "consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.4
-	}
 	},
     "requirements": [
         "copper/90",

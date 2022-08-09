@@ -3,18 +3,18 @@
     "researchCostMultiplier": 0.2,
     "size": 2,
     "health": 240,
-    "reloadTime": 64,
+    "reload": 64,
     "range": 200,
-    "inaccuracy": 1,
-    "shots": 1,
-    "targetAir": false,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 3,
     "shootSound": "laser",
-    "powerUse": 2,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
+"consumes" : {
+		"power": 2
+		},
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",

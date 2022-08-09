@@ -3,46 +3,22 @@
     "researchCostMultiplier": 0.2,
     "size": 2,
     "health": 240,
-    "reloadTime": 58,
+    "reload": 58,
     "range": 200,
-    "inaccuracy": 0,
-    "shots": 1,
     "targetAir": false,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+   "recoil": 2,
     "rotateSpeed": 3,
-    
-	"chargeTime": 35,
-	"chargeMaxDelay": 10,
-	"chargeEffects": 3,
-	"chargeBeginEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 0,
-    "sizeTo": 4,
-    "length": 0,
-    "lifetime": 30,
-    "colorFrom": "FFDA45FF",
-    "colorTo": "F3E979FF",
-    "cone": 360
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+        "shoot": {
+"firstShotDelay": 35
 },
-	"chargeEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 20,
-    "length": 45,
-    "cone": 40,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "FFDA45FF",
-    "colorTo": "F3E979FF"
-	},
-	
+	"consumes" : {
+		"power": 4
+		},
     "shootSound": "lasershoot",
-    "powerUse": 4,
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",

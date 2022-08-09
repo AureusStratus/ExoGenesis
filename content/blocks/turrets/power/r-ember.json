@@ -2,14 +2,17 @@
 	"type": "LaserTurret",
 	"size": 5,
 	"health": 1900,
-	"reloadTime": 220,
+	"reload": 220,
 	"range": 250,
-	"shots" : 1,
-	"targetAir" : true, 
-	"targetGround" : true,
-	"powerUse": 28,
+"consumes" : {
+		"power": 28
+		},
     "update": true,
     "hasPower": true,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
     "shootEffect": {
     "type": "multiEffect",
     "effects": [
@@ -40,12 +43,10 @@
     }
     ]
     },
-    "shootShake": 4,
-    "firingMoveFract": 0.5,
+    "shake": 4,
     "shootDuration": 400,
     "shootSound": "beam",
-	"recoilAmount" : 2,
-	"restitution" : 0.04, 
+	"recoil" : 2,
 	"rotateSpeed": 2,
 	
     "shootType" : {
@@ -70,7 +71,6 @@
     },
     "drawSize": 260,
     "fragBullets": 1,
-    "fragCone": 360,
     "fragBullet": {
 	"type" : "basicBulletType",
 	"sprite" : "exogenesis-peircer",
@@ -116,14 +116,6 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF"
     }
-	},
-	"consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": false,
-	"update": true,
-	"amount": 0.4
-	}
 	},
 	"requirements": [
         "thorium/600",

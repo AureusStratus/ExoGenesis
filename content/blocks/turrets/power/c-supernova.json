@@ -2,16 +2,18 @@
 	"type": "PowerTurret",
 	"size": 5,
 	"health": 3880,
-	"reloadTime": 300,
-	"cooldown": 0.0076,
-	"restitution": 0.08,
+	"reload": 300,
 	"range": 300,
 	"heatColor": "FFFFFFF ",
-	"shots" : 1,
-	"targetAir" : true, 
-	"recoilAmount": 5,
-	"targetGround" : true,
-	"powerUse": 63,
+	"recoil": 5,
+	"consumes" : {
+		"power": 63
+         },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
+    "moveWhileCharging": true,
     "update": true,
     "hasPower": true,
     "shootEffect": {
@@ -47,66 +49,64 @@
     ]
     },
     "chargeSound": "lasercharge2",
-	"chargeTime": 130,
-	"chargeEffects": 1,
-	"chargeBeginEffect": {
-    "type": "multiEffect",
-    "lifetime": 130,
-    "effects": [
-    {
+"shoot": {
+  "firstShotDelay": 130
+},
+   
+  
+  "shake": 4,
+  "shootSound": "coolplasmaboom",
+	"rotateSpeed": 4,
+    "shootType" : {
+    "type": "empBulletType",
+     "sprite" : "exogenesis-plasma",
+"trailChance": 1,
+        "trailRotation": true,
+        "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 10,
+        "sizeTo": 4,
+        "length": 0,
+        "lifetime": 15,
+        "colorFrom": "66B1FFFF",
+        "colorTo": "66B1FF00"
+        },
+    "status": "exogenesis-high-energy-blast",
+    "timeIncrease": 0,
+    "powerDamageScl": 1,
+    "powerSclDecrease": 0.1,
+    "unitDamageScl": 0.5,
+    "lightRadius": 60,
+    "statusDuration": 200,
+ "bulletInterval": 6,
+    "intervalBullet": {
+  "type": "ContinuousFlameBulletType",
+    "damage": 40,
+    "width": 5.5,
+"drawFlare": false,
+     "hitEffect": {
     "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 2,
-    "sizeTo": 25,
-    "length": 0,
-    "spin": 7,
-    "layer": 109,
-    "lifetime": 135,
-    "lightColor": "A9D8FFFF",
-    "region": "exogenesis-wide",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 65,
+    "cone": -360,
+    "strokeFrom": 2.5,
+    "strokeTo": 0,
+    "lenFrom": 8,
+    "lenTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
     },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 2,
-    "sizeTo": 17,
-    "length": 0,
-    "spin": -7,
-    "layer": 109,
-    "lifetime": 135,
-    "lightColor": "A9D8FFFF",
-    "region": "exogenesis-tall",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
+    "divisions": 20,
+    "length": 45,
+    "drawSize": 350,
+    "lifetime": 10,
+    "status": "exogenesis-high-energy-blast",
+    "statusDuration": 150
     },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 10,
-    "length": 0,
-    "lifetime": 135,
-    "lightColor": "A9D8FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF",
-    "cone": 360
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 6,
-    "length": 0,
-    "lifetime": 135,
-    "lightColor": "A9D8FFFF",
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-    }
-    ]
-    },
-    "chargeEffect": {
+  "chargeEffect": {
     "type": "multiEffect",
     "lifetime": 150,
     "effects": [
@@ -163,28 +163,62 @@
     "lenTo": 5,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
+ },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 2,
+    "sizeTo": 25,
+    "length": 0,
+    "spin": 7,
+    "layer": 109,
+    "lifetime": 135,
+    "lightColor": "A9D8FFFF",
+    "region": "exogenesis-wide",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 2,
+    "sizeTo": 17,
+    "length": 0,
+    "spin": -7,
+    "layer": 109,
+    "lifetime": 135,
+    "lightColor": "A9D8FFFF",
+    "region": "exogenesis-tall",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 10,
+    "length": 0,
+    "lifetime": 135,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF",
+    "cone": 360
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 6,
+    "length": 0,
+    "lifetime": 135,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "FFFFFFF",
+    "colorTo": "FFFFFFF"
     }
     ]
   },
-  "shootShake": 4,
-  "shootSound": "coolplasmaboom",
-	"rotateSpeed": 4,
-    "shootType" : {
-    "type": "empBulletType",
-    "sprite": "circle-bullet",
-    "status": "exogenesis-high-energy-blast",
-    "timeIncrease": 0,
-    "powerDamageScl": 1,
-    "powerSclDecrease": 0.1,
-    "unitDamageScl": 0.5,
-    "lightRadius": 60,
-    "statusDuration": 200,
     "hitSound": "plasmaboom",
     "hitColor": "A9D8FFFF",
-    "trailColor": "66B1FFFF",
-    "trailParam": 5,
-    "trailLength": 16,
-    "trailWidth": 5,
     "shrinkY": 0,
     "shrinkX": 0,
     "lightning": 7,
@@ -193,11 +227,12 @@
     "lightningCone": 360,
     "lightningLengthRand": 11,
     "lightningLength": 5,
+
     "speed": 3,
     "lifetime": 120,
     "damage": 3685,
-    "height": 22,
-    "width": 22,
+    "height": 25,
+    "width": 25,
     "radius": 60,
     "hitPowerEffect": {
     "type": "ParticleEffect",
@@ -234,7 +269,6 @@
     "lifetime": 25,
     "sizeFrom": 0,
     "sizeTo": 100,
-    "baseLength": 10,
     "strokeFrom": 7,
     "strokeTo": 0,
     "colorFrom": "A9D8FF10",
@@ -316,7 +350,6 @@
     }
     ]
     },
-    "trailEffect": "none",
     "homingRange": 70,
     "homingPower": 0.00567,
     "splashDamageRadius": 54,
@@ -325,7 +358,6 @@
     "backColor": "66B1FFFF",
 	"fragBullets": 8,
 	"fragLifeMin": 0.6,
-	"fragCone": 360,
 	"fragBullet": {
     "type": "basicBulletType",
     "sprite": "exogenesis-energy-partical",
@@ -373,12 +405,12 @@
 	}
 	},
 	"requirements": [
-        "plastanium/400",
+        "terrilium/400",
         "osmium/400",
-        "omega-blue/600",
+        "siratla-diamond/300",
         "silicon/800",
         "stellar-steel/600"
 	],
 	"category": "turret",
-	"research": "c-astrology"
+	"research": "c-nebula"
 }

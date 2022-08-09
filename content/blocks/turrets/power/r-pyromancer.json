@@ -1,11 +1,15 @@
 {
 "type": "powerTurret",
-"reloadTime": 5,
-"recoilAmount": 0,
+"reload": 5,
+"recoil": 0,
 "rotateSpeed": 20,
 "range": 280,
-"shootCone": 30,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
 "consumes": {
+"power": 38,
 "liquid": {
 "liquid": "slag",
 "optional": true,
@@ -14,12 +18,10 @@
 }
 },
 "inaccuracy": 15,
-"shootLength": 0,
-"velocityInaccuracy": 0.33,
+"shootY": 0,
+"velocityRnd": 0.33,
 "heatColor": "FF5845FF", 
-"cooldown": 0.030,
 "size": 6,
-"shots": 1,
 "shootEffect": {
     "type": "multiEffect",
     "effects": [
@@ -61,9 +63,6 @@
     }
     ]
     },
-    "targetAir": true,
-    "targetGround": true,
-    "powerUse": 38,
     "hasPower": true,
     "shootType": {
   "type": "BasicBulletType",
