@@ -20,20 +20,19 @@
       "items": {
         "items": [
           "omega-blue/3",
-          "phase-fabric/10"
+          "terrilium/10"
         ],
         "booster": true,
     	  "optional": true
       }
     },
     "requirements": [
-        "phase-fabric/800",
         "omega-blue/700",
-        "plastanium/730",
-        "titanium/600",
+        "terrilium/730",
+        "stellar-steel/600",
         "silicon/1230",
-        "surge-alloy/830"
+        "graphite/830"
     ],
     "category": "effect",
-    "research": "force-projector"
+    "research": "team-genesux"
 }
