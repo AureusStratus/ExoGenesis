@@ -1,0 +1,21 @@
+{
+        "name": "star-powered",
+        "localizedName": "Star Powered",
+        "description": "You are being powered by a mini neutron star.",
+        "reloadMultiplier": 1.1,
+        "speedMultiplier": 1.2,
+        "effect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 10,
+        "length": 35,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+        },
+        "damage": -2.5
+
+    }
