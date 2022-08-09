@@ -7,8 +7,6 @@ Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
 
-`note`: The plasma orb trail idea originally came from the exotic mod as well as the energy sphere ability on my primordial, and earth unit
-
 ## The mod adds: 
 alot of stuff
 
