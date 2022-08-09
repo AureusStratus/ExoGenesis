@@ -1,0 +1,5 @@
+{
+"type": "OreBlock",
+"wallOre": true,
+"itemDrop": "siradamite"
+}

@@ -4,6 +4,7 @@
 "playerUnmineable": true,
 "emitLight": true,
 "lightRadius": 14,
+"lightOpacity": 14,
 "lightColor": "A9D8FFFF",
 "status": "freezing",
 "attributes": {
