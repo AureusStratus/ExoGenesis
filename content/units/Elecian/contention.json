@@ -25,7 +25,7 @@
         "engineSize": 7.8,
         "lowAltitude": true,
         "targetAir": true,
-        "commandLimit": 10,
+       "engineColor": "F3E979FF",
 	    "weapons": [
 	   {
   "name": "alpha-rocket",
@@ -35,14 +35,18 @@
     "top": true,
     "x": 0,
     "y": -4,
-    "reload": 48,
+   "reload": 12,
+"shoot": {
+"type": "ShootAlternate",
+"shots": 1,
+"barrels": 3,
+ "spread": 3
+},
     "recoil": 3,
-    "shots": 8,
     "shootY": 2,
-    "spacing": 10,
     "inaccuracy": 7,
     "xRand": 8,
-    "shotDelay": 1,
+   
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
@@ -81,8 +85,12 @@
     "reload": 45,
     "recoil": 4,
     "inaccuracy": 5,
-    "shots": 3,
-    "shotDelay": 4,
+"shoot": {
+"type": "ShootPattern",
+"shots": 3,
+ "shotDelay": 4
+},
+
     "shootSound": "laser",
     "rotate": true,
     "bullet": {

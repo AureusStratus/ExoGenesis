@@ -32,13 +32,10 @@
     "legMoveSpace": 1.1,
     "legLength": 32,
     "legBaseOffset": 16,
-    "legTrns": 0.62,
-    "landShake": 1.0,
     "legSpeed": 0.01,
     "rippleScale": 3.5,
     "legSplashDamage": 56,
     "legSplashRange": 30,
-	"visualElevation": 0.75,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [
@@ -56,7 +53,6 @@
     "shootY": 13,
     "reload": 265,
     "recoil": 4,
-    "shots": 1,
     "shootSound": "railgun",
     "rotate": false,
     "bullet": {
@@ -137,7 +133,9 @@
     "recoil": 2.6,
     "rotate": true,
     "rotateSpeed": 2,
+    "shoot": {
     "shots": 2, 
+    },
     "bullet": {
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",
@@ -174,7 +172,9 @@
     "recoil": 2.6,
     "rotate": true,
     "rotateSpeed": 2,
+    "shoot": {
     "shots": 2, 
+    },
     "bullet": {
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",

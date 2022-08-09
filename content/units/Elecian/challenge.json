@@ -11,7 +11,6 @@
 "type": "mech",
 "mechSideSway": 0.25,
 "armor": 1,
-"commandLimit": 6,
 "speed": 1.6,
 "hitSize": 12,
 "flying": false,

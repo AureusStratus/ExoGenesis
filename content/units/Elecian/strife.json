@@ -7,7 +7,6 @@
     "silicon/400"
     ]
     },
-    "commandLimit": 8,
     "type": "legs",
 	"speed": 0.52,
 	"hitSize": 17,
@@ -21,11 +20,9 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 7,
-    "legTrns": 0.6,
 	"legCount": 4,
 	"legMoveSpace": 1.6,
 	"legLength": 15,
-	"visualElevation": 0.65,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [
@@ -41,10 +38,13 @@
     "x": 0,
     "y": 0,
     "shootY": 8,
-    "shots": 3,
     "recoil": 1.5,
     "rotate": false,
+"shoot": {
+"type": "shootPattern",
+ "shots": 3,
     "shotDelay": 5,
+}
 	"inaccuracy" : 12, 
     "shootSound": "flame",
     "shootCone": 25,
