@@ -1,51 +1,4 @@
-{
-    "health": "8789000",
-    "type": "powerTurret",
-    "reload": 740,
-    "recoil": 0,
-    "rotateSpeed": 0,
-    "canOverdrive": false,
-    "acceptsCoolant": false,
-    "shootCone": 720,
-    "shootEffect": {
-    "type": "multiEffect",
-    "lifetime": 40,
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 14,
-    "sizeTo": 1,
-    "length": 0,
-    "layer": 110,
-    "interp": "swingIn",
-    "lifetime": 180,
-    "colorFrom": "180F2AFF",
-    "colorTo": "180F2AFF",
-    "cone": 360
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 20,
-    "sizeTo": 1,
-    "length": 0,
-    "lifetime": 180,
-    "interp": "swingIn",
-    "layer": 109,
-    "colorFrom": "A170F4FF",
-    "colorTo": "A170F4FF",
-    "cone": 360
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 40,
-    "sizeTo": 2,
-    "length": 0,
-    "spin": 0.7,
-    "lifetime": 180,
-    "interp": "swingIn",  
+{s,  
     "layer": 109,
     "region": "exogenesis-wide",
     "colorFrom": "A170F4FF",
@@ -328,7 +281,7 @@
       "colorFrom": "9B61FFFF",
       "colorTo": "9B61FFFF"
       },
-      "damage": 300,
+      "damage": 30000,
       "speedMultiplier": 0.50,
       "healthMultiplier": 0.50,
       "reloadMultiplier": 0.50,
@@ -336,14 +289,9 @@
     }
 },
 "requirements": [
-    "surge-alloy/13750",
-    "phase-fabric/8000",
-	"thorium/9600",
-	"plastanium/7500",
-    "vurtimite/7200",
-    "rutuxium/10000",
-	"titanium/8000",
-	"osmium/9300"
+  
+	"titanium/1",
+	
 ],
 "category": "turret",
 "research": "eternity-core"
