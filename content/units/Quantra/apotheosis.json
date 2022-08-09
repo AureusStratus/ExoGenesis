@@ -2,7 +2,6 @@
     "research": "gamma-core",
     "type": "naval",
     "armor": 100,
-    "commandLimit": 6,
     "targetAir": true,
     "lightRadius": 320,
     "range": 560,
@@ -14,13 +13,13 @@
     "drag": 0.5,
     "lightColor": "73FFAEFF",
     "outlineColor": "34353EFF",
+    "naval": true,
     "outlineRadius": 4,
     "rotateSpeed": 0.5,
-    "trailX": 67.0,
-    "trailY": -89.0,
+    "waveTrailX": 67.0,
+    "waveTrailY": -89.0,
     "trailScl": 5.8,
     "trailLength": 150.0,
-    "rotateShooting": false,
   	"immunities": [
     "tarred",
     "melting",
@@ -30,6 +29,7 @@
     "slow",
     "burning",
     "wet",
+ 
     "muddy",
     "sapped", 
     "disarmed",
@@ -48,8 +48,6 @@
     "y": 45,
     "shootY": 8,
     "reload": 1,
-    "recoil": 0,
-    "shake": 1,
     "rotate": true,
     "shootSound": "laser",
     "laserColor": "73FFAEFF",
@@ -87,8 +85,6 @@
     "y": 20,
     "shootY": 8,
     "reload": 1,
-    "recoil": 0,
-    "shake": 1,
     "rotate": true,
     "shootSound": "laser",
     "laserColor": "73FFAEFF",
@@ -126,8 +122,6 @@
     "y": 1,
     "shootY": 8,
     "reload": 1,
-    "recoil": 0,
-    "shake": 1,
     "rotate": true,
     "shootSound": "laser",
     "laserColor": "73FFAEFF",
@@ -227,7 +221,6 @@
     "y": 0,
     "shootY": 0,
     "reload": 365,
-    "shots": 1,
     "shootSound": "apoth-gauss",
     "rotateSpeed": 5,
     "rotate": true,
@@ -411,24 +404,22 @@
     "x": 0,
     "y": 0,
     "shootY": 0,
-    "ejectEffect": "none",
     "rotate": true,
     "shootStatus": "unmoving",
     "shootStatusDuration": 400,
     "rotateSpeed": 0.9,
     "mirror": false,
-    "shots": 1,
     "reload": 745,
-    "recoil": 0,
     "shake": 5,
-    "shootCone": 20,
     "cooldownTime": 145,
-    "firstShotDelay": 120,
+    "shoot": {
+    "firstShotDelay": 120
+    },
     "chargeSound": "pulse",
     "shootSound": "beam",
     "continuous": true,
     "bullet": { 
-    "shootEffect": {
+    "chargeEffect": {
     "type": "multiEffect",
     "lifetime": 120,
     "effects": [
@@ -519,48 +510,6 @@
     "lightColor": "73FFAEFF",
     "buildingDamageMultiplier": 3,
     "shake": 0.9,
-    "despawnEffect": "none",
-    "smokeEffect": "none",
-    "status": {
-    "name": "crystallization2",
-    "speedMultiplier": 0.80,
-    "reloadMultiplier": 0.80,
-    "effectChance": 1,
-    "damage": 8,
-    "show": false,
-    "transitionDamage": 200,
-    "opposites": [ "corroded"],
-    "affinities": [ "freezing", "blasted"],
-    "effect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 35,
-    "sizeFrom": 0,
-    "sizeTo": 5,
-    "sides": 4,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "57D993FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "region": "exogenesis-shape2",
-    "interp": "swing",
-    "lifetime": 14,
-    "length": 0,
-    "sizeFrom": 0,
-    "sizeTo": 6,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF"
-    }
-    ]
-    }
-    },
-    "statusDuration": 100,
     "hitEffect": {
     "type": "multiEffect",
     "effects": [
@@ -602,15 +551,12 @@
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
     "rotate": true,
     "rotateSpeed": 2,
     "shootY": 19,
     "reload": 127,
     "recoil": 4,
     "shake": 1,
-    "shootCone": 20,
-    "ejectEffect": "casing2",
     "shootSound": "laserblast",
     "bullet": { 
     "type": "EmpBulletType",
@@ -809,7 +755,6 @@
     "trailLength": 16,
     "trailInterval": 13,
     "trailWidth": 6,
-    "scaleVelocity": true,
     "lightningColor": "73FFAEFF",
     "lightning": 8,
     "lightningDamage": 78,
@@ -829,7 +774,7 @@
     "unitDamageScl": 0.3,
     "status": "electrified",
     "statusDuration": 100,
-    "BuildingDamageMultiplier": 6,
+    "buildingDamageMultiplier": 6,
     "speed": 4,
     "width": 30,
     "height": 30,
@@ -874,39 +819,6 @@
         "reload": 300
         },
         {
-        "type": "StatusFieldAbility",
-        "activeEffect": {
-        "type": "ParticleEffect",
-        "particles": 5,
-        "offset": 20,
-        "region": "exogenesis-shape2",
-        "lifetime": 14,
-        "length": 55,
-        "sizeFrom": 5,
-        "sizeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        "effect": {
-        "name": "apotheosis-presence",
-        "effect": {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "region": "exogenesis-shape2",
-        "lifetime": 14,
-        "length": 0,
-        "sizeFrom": 0,
-        "sizeTo": 5,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        "damage": -25
-        },
-        "range": 300,
-        "reload": 1,
-        "duration": 5
-        },
-        {
         "type": "EnergyFieldAbility",
         "statusDuration": 150,
         "shootSound": "none",
@@ -921,45 +833,7 @@
         "hitBuildings": true,
         "sectorRad": 0.13,
         "effectRadius": 11,
-        "reload": 100,
-        "status": {
-        "name": "crystallization",
-        "speedMultiplier": 0.80,
-        "reloadMultiplier": 0.80,
-        "effectChance": 1,
-        "damage": 8,
-        "transitionDamage": 200,
-        "opposites": [ "corroded"],
-        "affinities": [ "freezing", "blasted"],
-        "effect": {
-        "type": "multiEffect",
-        "effects": [
-        {
-        "type": "WaveEffect",
-        "lifetime": 35,
-        "sizeFrom": 0,
-        "sizeTo": 5,
-        "sides": 4,
-        "strokeFrom": 4,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
-        },
-        {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "region": "exogenesis-shape2",
-        "interp": "swing",
-        "lifetime": 14,
-        "length": 0,
-        "sizeFrom": 0,
-        "sizeTo": 6,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        }
-        ]
-        }
-       }
+        "reload": 100
      }
    ]
 }

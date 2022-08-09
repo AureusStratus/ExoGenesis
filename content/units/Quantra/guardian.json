@@ -1,6 +1,5 @@
 {
         "speed": 1.8,
-     	"isCounted": false,
         "mineSpeed": 20,
         "outlineColor": "3F414EFF",
         "buildSpeed": 3.7,
@@ -15,18 +14,19 @@
         "armor": 4,
         "faceTarget": false,
         "engineOffset": 8.5,
-        "commandLimit": 10,
-        
+        "engineColor": "73FFAEFF",
         "targetAir": true,
 	    "weapons": [
 	   {
   "name": "gaurdian-weapon",
+      "x": 0,
+    "y": -7,
     "shootCone": 25,
     "mirror": false,
     "alternate": false,
-    "x": 0,
-    "y": -7,
-    "shots": 6,
+ "shoot": {
+    "shots": 6
+},
     "velocityRnd": 0.6,
     "reload": 50,
     "ignoreRotation": true,
