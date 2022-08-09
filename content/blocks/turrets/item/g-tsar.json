@@ -2,19 +2,22 @@
     "type": "ItemTurret",
     "size": 7,
     "health": 280,
-    "reloadTime": 12,
+    "reload": 12,
     "range": 300,
-    "inaccuracy": 3,
-    "spread": 8,
-    "alternate": true,
-    "shootShake": 2,
-    "shots": 4,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 4.5,
-    "restitution": 0.06,
+    "shake": 2,
+   "inaccuracy": 4,
+    "recoil": 4.5,
     "rotateSpeed": 2,
+    "shoot": {
+         "type": "ShootAlternate",
+"barrels": 4,
+"spread": 8,
+"shots": 1
+         },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "shootSound": "shootBig",
     "ammoTypes": {
         "thorium": {
@@ -201,7 +204,6 @@
         },
         "smokeEffect": "none",
         "fragBullets": 3,
-		"fragCone": 40,
 		"fragBullet": {
 		"type": "LaserBulletType",
         "length": 150,

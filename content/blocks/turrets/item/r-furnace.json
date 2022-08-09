@@ -3,11 +3,10 @@
 "size": 6,
 "health": 4680,
 "range": 300,
-"reloadTime": 100,
+"reload": 100,
 "shootSound": "bang",
 "rotateSpeed": 2.5,
-"shootShake": 4.5,
-"cooldown": 0.03,
+"shake": 4.5,
 "consumes": {
 "liquid": {
 "liquid": "slag",
@@ -16,14 +15,19 @@
 "amount": 0.4
 }
 },
-"inaccuracy": 6,
+  "inaccuracy": 6,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
+     "shoot": {
+         "type": "ShootAlternate",
 "spread": 11,
-"alternate": true,
-"shots": 3,
-"targetAir": true,
-"targetGround": true,
-"heatColor": "e5666666",
-"recoilAmount": 3,
+"barrels": 3,
+"shots": 1
+         },
+"heatColor": "5B4CB0FF",
+"recoil": 3,
 "ammoTypes": {
 	"thorium": {
 	"type": "MissileBulletType",
@@ -266,7 +270,6 @@
 	"weaveScale": 0,
     "weaveMag": 0,
     "fragBullets": 9,
-	"fragCone": 360,
 	"fragBullet": {
     "type": "BasicBulletType",
     "speed": 5,
@@ -530,7 +533,6 @@
 	"weaveScale": 0,
     "weaveMag": 0,
     "fragBullets": 5,
-	"fragCone": 70,
 	"fragBullet": {
 	"type": "LaserBulletType",
     "length": 150,
@@ -801,7 +803,6 @@
     "weaveMag": 0,
     "fragBullets": 7,
     "fragAngle": 10,
-	"fragCone": 60,
 	"fragBullet": {
     "damage": 400,
 	"status": "slow",

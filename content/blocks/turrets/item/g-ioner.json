@@ -3,14 +3,17 @@
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 240,
-    "reloadTime": 20,
+    "reload": 20,
     "range": 180,
-    "inaccuracy": 1,
-    "shots": 2,
+    "shoot": {
+    "type": "ShootAlternate",
     "spread": 3,
-    "alternate": true,
-    "targetAir": true,
-    "targetGround": true,
+    "shots": 2
+    },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "shootEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -23,9 +26,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "73FFAEFF"
     },
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 5,
     "shootSound": "sap",
     "hasPower": true,
@@ -71,5 +72,5 @@
         "copper/140"
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "g-tau"
 }

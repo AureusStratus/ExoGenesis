@@ -2,15 +2,17 @@
 	"type": "itemTurret",
 	"health": 1900,
     "coolantMultiplier": 1.0,
-    "reloadTime": 185,
-    "restitution": 0.1,
+    "reload": 185,
     "ammoUseEffect": "casing4",
     "range": 450,
-    "recoilAmount": 7,
-    "shootShake": 5,
-    "shots": 1,
+    "recoil": 7,
+    "shake": 5,
     "size":  5,
     "shootSound": "shootBig",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
     "ammoTypes": {
     "volcanite": {
     "speed": 7,

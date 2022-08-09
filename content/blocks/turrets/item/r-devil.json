@@ -3,17 +3,21 @@
     "researchCostMultiplier": 0.2,
     "size": 2,
     "health": 240,
-    "reloadTime": 34,
+    "reload": 30,
     "range": 140,
     "maxAmmo": 20,
-    "shots": 2,
-    "alternate": true,
-    "spread": 7,
-    "targetAir": true,
-    "targetGround": true,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    
+    "recoil": 0.7,
     "rotateSpeed": 3,
+     "shoot": {
+         "type": "ShootAlternate",
+         "shots": 1,
+         "spread": 7
+         },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
     "shootSound": "shoot",
     "ammoTypes": {
         "copper": {

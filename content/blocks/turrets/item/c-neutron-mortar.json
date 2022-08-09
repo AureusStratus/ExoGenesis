@@ -1,20 +1,20 @@
 {
     "type": "ItemTurret",
-	"reloadTime": 165,
+	"reload": 165,
 	"range": 540,
-	"spread": 10,
-	"restitution": 0.2,
-	"shootCone": 15,
 	"heatColor": "A9D8FFFF",
 	"size": 7,
 	"maxAmmo": "48",
 	"health": 2650,
 	"rotateSpeed": 1,
-	"shootShake": 4,
-	"shots": 1,
+	"shake": 4,
 	"shootSound": "artillery",
 	"ammoPerShot": 6,
-    "recoilAmount": 5,
+    "recoil": 5,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
 	"ammoTypes": {
     "omega-blue": {
     "speed": 3,
@@ -31,7 +31,7 @@
     "height": 40,
     "trailParam": 5,
     "trailLength": 13,
-    "trailWidth": 6,
+    "trailWidth": 8,
     "trailInterval": 30,
     "trailChance": 0,
     "trailRotation": true,
@@ -81,91 +81,6 @@
     ]
     },
     "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 45,
-    "sizeTo": 0,
-    "length": 0,
-    "spin": 3,
-    "interp": "swing",
-    "lifetime": 60,
-    "region": "exogenesis-star",
-    "lightColor": "A9D8FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "length": 125,
-    "cone": -360,
-    "lenFrom": 9,
-    "lenTo": 0,
-    "strokeFrom": 6,
-    "strokeTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 60,
-    "spin": 5,
-    "region": "exogenesis-star",
-    "interp": "circleOut",
-    "layer": 106,
-    "sizeFrom": 8,
-    "sizeTo": 1,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FF10"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 40,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 140,
-    "interp": "swing",
-    "layer": 106,
-    "sizeFrom": 27,
-    "sizeTo": 15,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FF10"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 20,
-    "sizeFrom": 0,
-    "sizeTo": 65,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lightColor": "A9D8FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 20,
-    "sizeFrom": 0,
-    "sizeTo": 85,
-    "strokeFrom": 6,
-    "strokeTo": 0,
-    "lightColor": "A9D8FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    }
-    ]
-    },
-    "despawnEffect": {
     "type": "multiEffect",
     "effects": [
     {
@@ -353,12 +268,12 @@
     }
     },
 	"requirements": [
-        "plastanium/470",
+        "terrilium/470",
         "astrolite/540",
-        "silicon/520",
+        "tungsten/400",
         "osmium/360",
         "stellar-steel/800"
 	],
 	"category": "turret",
-	"research": "c-polaris"
+	"research": "c-cosmos"
 }

@@ -2,17 +2,22 @@
     "type": "ItemTurret",
     "health": 8789000,
     "size": 12,
-    "reloadTime": 250,
+    "reload": 250,
     "range": 700,
     "heatColor": "F3E979FF",
-    "recoilAmount": 13,
-    "shootLength": 0,
-    "shootShake": 6,
+    "recoil": 13,
+    "shootY": 0,
+    "shake": 6,
     "ammoUseEffect": "casing4",
-    "inaccuracy": 0,
-    "burstSpacing": 4,
-    "shots": 2,
-    "spread": 0,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+ "shoot": {
+   "type":"shootPattern",
+ "shotDelay": 4,
+  "shots": 2
+         },
     "rotateSpeed": 1,
     "shootSound": "jupiterShoot",
 	"ammoTypes": {
@@ -23,7 +28,7 @@
             "damage": 8260,
             "drag": 0.006,
             "status": "slow",
-            "duration": 100,
+            "statusDuration": 100,
             "width": 30,
             "height": 47,
 	    "frontColor": "C28590FF",
@@ -101,7 +106,6 @@
             "backColor": "EDF2A8FF",
             "fragBullets": 10,
             "fragVelocityMin": 4,
-            "fragCone": 360,
             "fragLifeMin": 1,
 	        "fragBullet": {
 	        "type": "BasicBulletType",

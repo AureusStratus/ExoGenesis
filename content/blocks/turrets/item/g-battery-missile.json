@@ -2,18 +2,23 @@
 	"type": "ItemTurret",
 	"health": 1200,
 	"size": 3,
-	"reloadTime": 17,
+	"reload": 3,
 	"range": 265,
-	"recoilAmount": 2,
-	"shootShake": 4,
-	"ammoUseEffect": "none",
-	"inaccuracy": 10,
-	"shots": 7,
-	"burstSpacing": 4,
-	"spread": 5,
-	"xRand": 8,
+	"recoil": 2,
+	"shake": 4,
+    "inaccuracy": 10,
+    "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 5,
+    "spread": 5,
+    "shots": 1
+    },
 	"rotateSpeed": 6,
 	"shootSound": "missile",
+	"drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
         "ammoTypes": {  
 		"blast-compound": {
 		    "type": "MissileBulletType",

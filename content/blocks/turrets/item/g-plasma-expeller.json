@@ -3,14 +3,20 @@
 	"size": 4,
 	"health": 1600,
 	"range": 100,
-	"reloadTime" : 10,
-	"burstSpacing": 5,
-	"shots" : 3,
+	"reload" : 10,
+    "shoot": {
+         "type": "ShootPattern",
+"shotDelay": 5,
+"shots": 3
+         },
 	"targetAir" : false, 
-	"targetGround" : true,
 	"shootCone" : 20,
-	"recoilAmount" : 0,
+	"recoil" : 0,
 	"inaccuracy" : 12, 
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
 	"rotateSpeed": 4.0,
 	"shootSound": "flame2",
 

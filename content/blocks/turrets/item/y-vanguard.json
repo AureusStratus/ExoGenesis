@@ -2,19 +2,22 @@
 	"type": "ItemTurret",
 	"size": 3,
 	"health": 1500,
-	"reloadTime": 50,
+	"reload": 50,
 	"range": 170,
 	"maxAmmo": 300,
-	"inaccuracy": 5,
-	"velocityInaccuracy": 0.2,
-	"shots" : 25,
-
+"shoot": {
+"type": "shootSpread",
+   "shots": 35,
+"spread" : 0.5
+},
+"inaccuracy": 5,
+"velocityRnd": 0.2,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
 	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 0.01,
-	"spread" : 0.5,
-	"recoilAmount" : 3,
-	"restitution" : 0.6,
+	"recoil" : 3,
 	"rotateSpeed": 3,
 	"shootSound" : "shotgun",
 	"ammoPerShot": 24,
