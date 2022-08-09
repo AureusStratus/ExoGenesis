@@ -3,21 +3,20 @@
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 140,
-    "reloadTime": 70,
+    "reload": 70,
     "range": 70,
-    "shots": 1,
     "targetAir": false,
-    "targetGround": true,
-    "shootCone": 10,
-    "spread": 1,
-    "recoilAmount": 3,
-    "restitution": 0.5,
+    "recoil": 3,
     "rotateSpeed": 5,
     "shootSound": "shotgun",
     "ammoPerShot": 2,
     "ammoTypes": {
         "coal": {
             "type": "shrapnelBulletType",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
             "lifetime": 19,
             "damage": 48,
             "serrations": 3,
@@ -36,5 +35,5 @@
 		{ "item": "volcanite", "amount": 34 }
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "team-soletux"
 }

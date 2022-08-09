@@ -1,22 +1,20 @@
 {
-"name": "Heat",
 "outlineColor": "313131FF",
-"research": {
-"parent": "dagger",
-"requirements": [
-"volcanite/100",
-"silicon/200"
-]
-},
-"type": "mech",
+"type": "tank",
 "armor": 8,
 "hitSize": 15,
-"mechStepParticles": false,
-"mechStepShake": 0,
-"mechFrontSway": 0,
-"mechSideSway": 0,
-"rotateShooting": false,
-"commandLimit": 8,
+"squareShape": true,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 24,
+"width": 10,
+"height": 24
+}
+],
+"singleTarget": false,
+"omniMovement": false,
+"rotateSpeed": 1.8,
 "speed": 1.3,
 "flying": false,
 "health": 300,
@@ -29,7 +27,6 @@
 "weapons": [
   {
   "name": "heat-weapon",
-    "shootCone": 15,
     "mirror": false,
     "x": 0,
     "y": 0,

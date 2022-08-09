@@ -3,12 +3,14 @@
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 240,
-    "reloadTime": 34,
+    "reload": 34,
     "range": 180,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "inaccuracy": 1,
-    "shots": 1,
     "targetAir": false,
-    "targetGround": true,
     "shootEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -21,12 +23,12 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "73FFAEFF"
     },
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 5,
     "shootSound": "sap",
-    "powerUse": 1,
+"consumes" : {
+		"power": 1
+		},
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
@@ -75,5 +77,5 @@
         "lead/140"
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "team-quantra"
 }

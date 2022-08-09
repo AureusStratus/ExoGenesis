@@ -1,9 +1,17 @@
 {	
     "researchCostMultiplier": 0.1,
     "type": "GenericCrafter",
-	"drawer": {
-	"type": "DrawSmelter",
+		"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+         {
+        "type": "DrawDefault"
+        },
+        {
+	"type": "DrawFlame",
 	"flameColor": "ffc099"
+}
+]
 	},
 	"size": 2,
 	"hasPower": true,

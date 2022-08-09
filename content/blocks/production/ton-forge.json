@@ -1,8 +1,16 @@
 {	
     "type": "GenericCrafter",
-	"drawer": {
-	"type": "DrawSmelter",
+		"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+         {
+        "type": "DrawDefault"
+        },
+        {
+	"type": "DrawFlame",
 	"flameColor": "E3EFF2FF"
+}
+]
 	},
 	"size": 4,
 	"hasPower": true,

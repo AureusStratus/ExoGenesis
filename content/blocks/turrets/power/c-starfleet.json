@@ -3,19 +3,23 @@
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 240,
-    "reloadTime": 35,
+    "reload": 35,
     "range": 180,
+    "xRand": 6,
+    "shoot": {
+    "type": "shootPattern",
     "shots": 4,
-    "burstSpacing": 3,
-    "targetAir": true,
-    "targetGround": true,
-    "xRand": 12,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "shotDelay": 3
+	},
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
     "rotateSpeed": 5,
     "shootSound": "laser",
-    "powerUse": 1,
+	"consumes" : {
+		"power": 1
+         },
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
@@ -45,7 +49,7 @@
         "trailWidth": 1.5,
         "trailEffect": "none",
         "status": "freezing",
-        "damage": 4,
+        "damage": 8,
         "homingPower": 0.0789,
         "homingRange": 150,
         "despawnEffect": {

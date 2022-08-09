@@ -19,9 +19,8 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "lead", "amount": 180},
-	{"item": "valvanite", "amount": 180},
-	{"item": "titanium", "amount": 160}
+	{"item": "valvanite", "amount": 180}
 ],
 "category": "units",
-"research": "ground-factory"
+"research": "team-quantra"
 }

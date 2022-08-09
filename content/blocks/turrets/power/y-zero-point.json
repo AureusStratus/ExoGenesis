@@ -3,34 +3,34 @@
 	"size": 4,
 	"health": 4360,
 	"range": 800,
-	"reloadTime" : 280,
+	"reload" : 280,
 	"inaccuracy": 2,
-	"shots" : 1,
-	"targetAir" : true, 
 	"targetGround" : false,
-	"shootCone" : 1,
-	"spread" : 2,
-	"recoilAmount": 4,
-	"restitution": 0.08, 
+	"recoil": 4,
+        "shake": 2,
 	"rotateSpeed": 6,
-	"shootShake": 2,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
 
 	"shootSound": "laser",
 	"chargeSound": "lasercharge2",
-	"chargeTime" : 90,
-	"chargeMaxDelay" : 10,
-	"chargeEffects" : 1,
+       "shoot": {
+"firstShotDelay": 90
+},
+
+"consumes" : {
+		"power": 30
+		},
+	"hasPower" : true,
+	"shootType" : {
+		"type" : "flakBulletType",
+		"sprite" : "large-bomb",
 	"chargeEffect": {
-    "type": "WaveEffect",
-    "lifetime": 75,
-    "sizeFrom": 50,
-    "sizeTo": 0,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "FFDA45FF",
-    "colorTo": "F3E979FF"
-	},
-	"chargeBeginEffect": {
+"type": "MultiEffect",
+    "effects": [
+{
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 1,
@@ -41,12 +41,18 @@
     "colorTo": "F3E979FF",
     "cone": 360
 	},
-
-    "powerUse" : 30,
-	"hasPower" : true,
-	"shootType" : {
-		"type" : "flakBulletType",
-		"sprite" : "large-bomb",
+    {
+    "type": "WaveEffect",
+    "lifetime": 75,
+    "sizeFrom": 50,
+    "sizeTo": 0,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "FFDA45FF",
+    "colorTo": "F3E979FF"
+}
+]
+	},
 		"explodeRange": 80,
 		"damage": 400,	
 		"splashDamage" : 900,

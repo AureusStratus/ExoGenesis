@@ -22,9 +22,9 @@
     "armor": 50,
     "engineOffset": 54,
     "engineSize": 6,
+  "engineColor": "F3E979FF",
     "lowAltitude": true,
     "targetAir": true,
-    "commandLimit": 10,
 	"weapons": [
 	   {
 	"name": "big-shock-artillery",
@@ -34,7 +34,9 @@
     "rotateSpeed": 1.6,
     "reload": 45,
     "recoil": 3,
+   "shoot": {
     "shots": 4,
+   },
     "velocityRnd": 0.34,
     "inaccuracy": 8,
     "shootSound": "artillery",
@@ -125,14 +127,17 @@
     "top": true,
     "x": 0,
     "y": -18,
-    "reload": 48,
+   "reload": 12,
+"shoot": {
+"type": "ShootAlternate",
+"shots": 1,
+"barrels": 3,
+ "spread": 3
+},
     "recoil": 3,
-    "shots": 8,
     "shootY": 2,
-    "spacing": 10,
     "inaccuracy": 7,
     "xRand": 8,
-    "shotDelay": 1,
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
@@ -172,7 +177,6 @@
     "rotateSpeed": 1.2,
     "reload": 65,
     "recoil": 4,
-    "shots": 1,
     "shootSound": "railgun",
     "rotate": true,
     "bullet": {
@@ -256,13 +260,15 @@
   "heatColor": "FFFFFF",
   "shootStatusDuration": 130,
   "shootStatus": "unmoving",
-  "firstShotDelay": 120,
+"shoot": {
+ "firstShotDelay": 120
+},
   "soundPitchMin": 1,
   "chargeSound": "lasercharge",
     "shootSound": "ascends",
     "bullet": {
     "type": "EmpBulletType",
-    "shootEffect": {
+    "chargeEffect": {
     "type": "multiEffect",
     "lifetime": 120,
     "effects": [

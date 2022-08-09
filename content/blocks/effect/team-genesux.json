@@ -6,5 +6,9 @@
     "type": "LightBlock",
     "health": 800,
     "size": 2,
-    "research": "core-shard"
+   "research": {
+  "root": true,
+  "name": "[#66B1FFFF]Genesux",
+  "requiresUnlock": false
+}
 }

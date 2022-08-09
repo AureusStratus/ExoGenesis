@@ -3,19 +3,18 @@
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 240,
-    "reloadTime": 24,
+    "reload": 24,
     "range": 250,
-    "maxAmmo": 48,
-    "inaccuracy": 1,
-    "shots": 1,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 5,
     "shootSound": "lasershoot",
-    "powerUse": 1,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+   "consumes" : {
+		"power": 1
+		},
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
@@ -70,5 +69,5 @@
 		"copper/70"
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "team-elecian"
 }

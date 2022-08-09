@@ -11,7 +11,7 @@
 "type": "mech",
 "armor": 9,
 "hitSize": 13,
-"commandLimit": 6,
+    "outlineColor": "313131FF",
 "speed": 0.4,
 "flying": false,
 "health": 620,
@@ -29,7 +29,6 @@
   "alternate": true,
   "top": false,
   "mirror": true,
-  "shots": 1,
   "shootSound": "laser",
   "ejectEffect": "casing1",
   "bullet": {

@@ -4,9 +4,9 @@
     "charge": 0.9,
     "color": "FFF861FF",
     "research": {
-    "parent": "surge-alloy",
+    "parent": "oltuxium",
     "requirements": [
-    "surge-alloy/200"
+    "oltuxium/200"
   ]
   }
 }

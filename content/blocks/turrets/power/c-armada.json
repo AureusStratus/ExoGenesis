@@ -5,19 +5,24 @@
     "outlineColor": "36363CFF",
 	"size": 2,
 	"health": 500,
-    "reloadTime": 35,
+    "reload": 35,
     "range": 200,
+    "shoot": {
+    "type": "shootPattern",
     "shots": 4,
-    "burstSpacing": 3,
-    "targetAir": true,
-    "targetGround": true,
+    "shotDelay": 3
+	},
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
     "xRand": 12,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 4,
     "shootSound": "laser",
-    "powerUse": 4,
+	"consumes" : {
+		"power": 4
+         },
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",

@@ -12,9 +12,9 @@
         "armor": 5,
         "itemCapacity": 0,
         "engineOffset": 8,
+       "engineColor": "73FFAEFF",
         "range": 200,
         "targetAir": true,
-        "commandLimit": 8,
         "faceTarget": true,
 	    "weapons": [
 	   {

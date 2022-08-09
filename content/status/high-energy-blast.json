@@ -1,6 +1,4 @@
 {
-"name": "High Energy Blast",
-"description": ".",
 "effect": {
 "type": "MultiEffect",
 "effects": [
@@ -10,14 +8,14 @@
 "particles": 2,
 "lifetime": 30,
 "length": 45,
-"lightColor": "DBFFBDFF",
+"lightColor": "66B1FFFF",
 "cone": -360,
 "strokeFrom": 2,
 "strokeTo": 0,
 "lenFrom": 8,
 "lenTo": 0,
-"colorFrom": "DBFFBDFF",
-"colorTo": "DBFFBDFF"
+"colorFrom": "66B1FFFF",
+"colorTo": "66B1FFFF"
 },
 {
 "type": "ParticleEffect",
@@ -25,14 +23,14 @@
 "particles": 3,
 "lifetime": 30,
 "length": 35,
-"lightColor": "DBFFBDFF",
+"lightColor": "66B1FFFF",
 "cone": -360,
 "strokeFrom": 2,
 "strokeTo": 0,
 "lenFrom": 7,
 "lenTo": 0,
-"colorFrom": "DBFFBDFF",
-"colorTo": "DBFFBDFF"
+"colorFrom": "66B1FFFF",
+"colorTo": "66B1FFFF"
 },
 {
 "type": "ParticleEffect",
@@ -40,14 +38,14 @@
 "particles": 4,
 "lifetime": 30,
 "length": 25,
-"lightColor": "DBFFBDFF",
+"lightColor": "66B1FFFF",
 "cone": -360,
 "strokeFrom": 2,
 "strokeTo": 0,
 "lenFrom": 5,
 "lenTo": 0,
-"colorFrom": "DBFFBDFF",
-"colorTo": "DBFFBDFF"
+"colorFrom": "66B1FFFF",
+"colorTo": "66B1FFFF"
 }
 ]
 },

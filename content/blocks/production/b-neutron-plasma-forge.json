@@ -1,107 +1,76 @@
 {	
 	"type": "GenericCrafter",
 	"drawer": {
-	"type": "drawArcSmelter",
-    "flameColor": "66B1FFFF",
-    "midColor": "A9D8FFFF",
-    "flameRad": 4,
-    "circleSpace": 2.6,
-    "circleStroke": 1.3,
-    "alpha": 5,
-    "particleRad": 15,
-    "particles": 60,
-    "particleLen": 5,
-    "particleStroke": 1.1,
+        "type": "DrawMulti",
+        "drawers": [
+        {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+        },
+        {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+    "alpha": 0.4,
+     "blending": "additive",
+     "particleSize": 5,
+    "particleRad": 12,
+    "particles": 36,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 60
+	  },
+  {
+    "type": "DrawParticles",
+    "color": "66B1FFFF",
+    "alpha": 0.4,
+     "blending": "additive",
+     "particleSize": 7,
+    "particleRad": 12,
+    "particles": 36,
+    "fadeMargin": 1,
+    "rotateScl": 7,
     "particleLife": 80
-	},
+	  },
+        {
+        "type": "DrawDefault"
+        },
+       {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow",
+       "color": "66B1FF90"
+      }
+    ]
+    },
 	"size": 5,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 80,
-	"craftTime": 250,
-	"craftEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 7,
-    "sizeTo": 0,
-    "length": 0,
-    "interp": "swingIn",
-    "layer": 109,
-    "lifetime": 105,
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 12,
-    "sizeTo": 0,
-    "length": 0,
-    "interp": "swingIn",
-    "layer": 109,
-    "lifetime": 105,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 28,
-    "sizeTo": 0,
-    "length": 0,
-    "spin": 5,
-    "interp": "swingIn",
-    "layer": 109,
-    "lifetime": 105,
-    "region": "exogenesis-wide",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 28,
-    "sizeTo": 0,
-    "length": 0,
-    "spin": -5,
-    "interp": "swingIn",
-    "layer": 109,
-    "lifetime": 105,
-    "region": "exogenesis-tall",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    }
-	]
-	},
+	"craftTime": 35,
+	"craftEffect": "none",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 3,
-		"items": {
-			"items": [
-                "titanium/10",
-                "silicon/10",
-                "astrolite/15",
-                "surge-alloy/10"
-			]
-	},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.5
-		}
+		"power": 7,
+		"items": ["dytrix/10"],
+		"liquids": [
+		"hydrogen/1", 
+		 "axinian/1"
+		]
 	},
 	"requirements": [
         "omega-blue/120",
-        "plastanium/200",
+        "terrilium/200",
         "stellar-steel/100",
-        "titanium/200",
+        "tungsten/200",
         "silicon/150",
         "osmium/80"
 	],
 	"category": "crafting",
 	"research": "b-cold-plasma-fuser",
-	"outputItem": "omega-blue/15"
+	"outputItems": [
+"omega-blue/2", 
+"tungsten/2", 
+"osmium/1", 
+"stellar-steel/1"
+]
 }

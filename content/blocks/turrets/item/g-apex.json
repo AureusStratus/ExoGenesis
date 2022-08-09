@@ -3,23 +3,31 @@
 	"size": 8,
 	"health": 8660,
 	"range": 580,
-	"reloadTime" : 210,
+	"reload" : 210,
 
-	"shots" : 1,
 	"targetAir" : false, 
-	"targetGround" : true,
 	"heatColor": "73FFAEFF",
-	"recoilAmount" : 6,
-	"restitution" : 0.08, 
+	"recoil" : 6,
 	"rotateSpeed": 1.0,
-	"shootShake" : 10,
-
+	"shake" : 10,
+    "shoot": {
+    "firstShotDelay": 80
+    },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
 	"shootSound": "matter",
 	"chargeSound": "grinding",
-	"chargeTime" : 80,
-	"chargeMaxDelay" : 10,
-	"chargeEffects" : 1,
-	"chargeBeginEffect": {
+	"ammoTypes": {
+        "gamma-green": {
+		"type" : "BasicBulletType",
+		"sprite" : "exogenesis-electric-pulse", 
+	"chargeEffect": {
+	"type": "MultiEffect",
+	"lifetime": 80,
+	"effects": [
+{
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 10,
@@ -31,10 +39,6 @@
     "colorTo": "73FFAEFF",
     "cone": 360
     },
-	"chargeEffect": {
-	"type": "MultiEffect",
-	"lifetime": 80,
-	"effects": [
 	{     
     "type": "ParticleEffect",
     "line": true,
@@ -61,10 +65,6 @@
 	}
 	]
 	},
-	"ammoTypes": {
-        "gamma-green": {
-		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-electric-pulse",
         "trailChance": 1,
         "trailEffect": {
         "type": "ParticleEffect",
@@ -275,6 +275,48 @@
         "plastanium": {
 		"type" : "BasicBulletType",
 		"sprite" : "exogenesis-plasma",
+	"chargeEffect": {
+	"type": "MultiEffect",
+	"lifetime": 80,
+	"effects": [
+{
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 10,
+    "sizeTo": 1,
+    "interp": "bounceOut",
+    "length": 0,
+    "lifetime": 80,
+     "colorFrom": "DBFFBDFF",
+        "colorTo": "DBFFBDFF",
+    "cone": 360
+    },
+	{     
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 30,
+    "length": 45,
+    "offset": 4,
+    "baseLength": -45,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+   "colorFrom": "DBFFBDFF",
+        "colorTo": "B6FC7D10"
+	},
+	{     
+    "type": "WaveEffect",
+    "lifetime": 70,
+    "sizeFrom": 65,
+    "sizeTo": 0,
+    "strokeFrom": 0,
+    "strokeTo": 7,
+     "colorFrom": "DBFFBDFF",
+        "colorTo": "B6FC7D10"
+	}
+	]
+	},
         "trailChance": 1,
         "trailRotation": true,
         "trailEffect": {

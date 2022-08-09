@@ -1,7 +1,13 @@
 {	
 	"type": "GenericCrafter",
-	"drawer": {
-	"type": "drawArcSmelter",
+		"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+	"type": "drawArcSmelt",
     "flameColor": "73FFAEFF",
     "midColor": "57D993FF",
     "flameRad": 2,
@@ -13,6 +19,8 @@
     "particleLen": 5,
     "particleStroke": 1.1,
     "particleLife": 80
+}
+]
 	},
 	"size": 5,
 	"hasPower": true,

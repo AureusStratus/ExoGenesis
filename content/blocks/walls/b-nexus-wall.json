@@ -9,9 +9,9 @@
     "size": 1,
     "requirements": [
         {"item": "omega-blue", "amount": 146},
-        {"item": "phase-fabric", "amount": 78}
+        {"item": "astrolite", "amount": 78}
          
     ],
     "category": "defense",
-    "research": "surge-wall"
+    "research": "team-genesux"
 }

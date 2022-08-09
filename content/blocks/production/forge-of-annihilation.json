@@ -3,14 +3,36 @@
 "breakable": false,
 	"destructible": true,
 	"drawer": {
-	"type": "DrawSmelter",
+   "type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+	"type": "DrawFlame",
 	"flameRadius": 12,
     "flameRadiusIn": 8,
     "flameRadiusScl": 8.5,
     "flameRadiusMag": 2.7,
     "flameRadiusInMag": 2.0,
 	"flameColor": "FF5845FF"
-	},
+	  },
+     {
+ "type": "drawArcSmelt",
+  "flameColor": "FF5845FF",
+  "midColor": "FF5845FF",
+  "flameRad": 1.6,
+  "circleSpace": 2,
+  "circleStroke": 0.9,
+  "alpha": 2,
+  "particleRad": 30,
+  "particles": 38,
+  "particleLen": 7,
+  "particleStroke": 2.2,
+  "particleLife": 80
+	  }
+    ]
+    },
 	"size": 8,
 	"hasPower": true,
 	"hasItems": true,
@@ -19,7 +41,6 @@
 	"craftTime": 500,
 	"craftEffect": {
 	"type": "multiEffect",
-    "baseRotation": 90,
     "effects": [
     {
     "type": "ParticleEffect",
@@ -27,6 +48,7 @@
     "sizeFrom": 32,
     "sizeTo": 32,
     "length": 0,
+  "offset": 90,
     "lifetime": 500,
     "region": "exogenesis-forge-of-annihilation-effect",
     "lightOpacity": 0,
@@ -50,6 +72,7 @@
     "sizeFrom": 5,
     "sizeTo": 1,
     "length": 160,
+  "offset": 90,
     "lifetime": 135,
     "lightOpacity": 0,
     "interp": "fastSlow",
@@ -63,6 +86,7 @@
     "sizeFrom": 7,
     "sizeTo": 1,
     "length": 180,
+  "offset": 90,
     "lifetime": 145,
     "lightOpacity": 0,
     "interp": "circleOut",
@@ -78,6 +102,7 @@
     "sizeTo": 1,
     "length": 140,
     "lifetime": 85,
+  "offset": 90,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
     "lightColor": "FF5845FF",
@@ -91,6 +116,7 @@
     "sizeFrom": 7,
     "sizeTo": 1,
     "length": 100,
+  "offset": 90,
     "lifetime": 80,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
@@ -106,6 +132,7 @@
     "sizeTo": 1.5,
     "length": 110,
     "lifetime": 95,
+  "offset": 90,
     "interp": "fastSlow",
     "lightColor": "FF5845FF",
     "colorFrom": "FFDCD8FF",
@@ -119,6 +146,7 @@
     "sizeTo": 1.5,
     "length": 120,
     "lifetime": 105,
+  "offset": 90,
     "interp": "fastSlow",
     "lightColor": "FF5845FF",
     "colorFrom": "FFDCD8FF",

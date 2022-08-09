@@ -7,7 +7,6 @@
 "outlineColor": "34353EFF",
 "hitSize": 24,
 "mechFrontSway": 0.55,
-"commandLimit": 8,
 "buildSpeed": 2.6,
 "speed": 0.72,
 "flying": false,
@@ -28,7 +27,6 @@
   "shootY": 6,
   "recoil": 1,
   "cooldownTime": 58,
-  "shots": 1,
   "shootSound": "laser",
   "ejectEffect": "none",
   "bullet": {

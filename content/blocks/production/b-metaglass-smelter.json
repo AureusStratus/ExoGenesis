@@ -6,9 +6,17 @@
   "craftTime": 28,
   "craftEffect": "smeltsmoke",
   "drawer": {
-  "type": "DrawSmelter",
-  "flameColor": "ffc099"
-  },
+  "type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+        "type": "DrawFlame",
+	"flameColor": "ffc099"
+	  }
+    ]
+    },
   "hasPower": true,
   "hasLiquids": false,
   "updateEffect": "none",

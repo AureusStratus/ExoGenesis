@@ -1,10 +1,8 @@
 {
   "type": "GenericCrafter",
-  "name": "Crusher",
-  "description": "t",
   "health": 700,
   "size": 3,
-  "craftTime": 60,
+  "craftTime": 200,
   "craftEffect": {
     "type": "MultiEffect",
 	"effects": [
@@ -49,23 +47,18 @@
 	}
 	]
     },    
-  "hasItem": true,
   "updateEffect": "none",
   "consumes": {
-  "power": 1.4,
-  "items": {
-    "items": [
-      "astrolite/2"
-      ]
-    }
+  "power": 10.4,
+    "items": ["siradamite/6"]
   },
   "requirements": [
-    "lead/80",
-    "astrolite/120",
-    "silicon/30",
-    "graphite/40"
+    "lead/250",
+    "tungsten/260",
+    "omega-blue/200",
+    "astrolite/400"
   ],
   "category": "crafting",
-  "research": "b-pressure",
-  "outputItem": "graphite/4"
+  "research": "b-cold-plasma-fuser",
+  "outputItem": "siratla-diamond/1"
 }

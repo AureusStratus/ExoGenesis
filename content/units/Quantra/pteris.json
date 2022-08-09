@@ -2,7 +2,7 @@
     "type": "mech",
     "outlineColor": "34353EFF",
     "research": {
-    "parent": "dagger",
+    "parent": "QuaFactory",
     "requirements": [
     "valvanite/100",
     "silicon/200"
@@ -14,24 +14,19 @@
     "health": 560,
     "buildSpeed": 0.5,
     "armor": 1,
-    "commandLimit": 8,
 
     "weapons": [
     {
     "name": "disk-launcher",
     "top": false,
     "shootY": 2,
-    "shots": 1,
-    "shootCone": 10,
     "reload": 60,
     "x": -6.5,
     "alternate": true,
     "mirror": true,
-    "ejectEffect": "none",
     "recoil": 2,
     "shootSound": "laser",
     "bullet": { 
-    "colors":["50A385B0", "57D993FF", "73FFAEFF", "FFFFFFF"],
     "type": "basicBulletType",
     "sprite": "exogenesis-disk-bullet",
     "damage": 18,

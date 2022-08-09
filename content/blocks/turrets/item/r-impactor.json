@@ -2,13 +2,11 @@
 	"type": "itemTurret",
     "coolantMultiplier": 0.9,
     "ammoPerShot": 30,
-    "ammoCapacity": 90,
-    "reloadTime": 260,
-    "restitution": 0.1,
+    "reload": 260,
     "ammoUseEffect": "casing4",
     "range": 500,
-    "recoilAmount": 8,
-    "shootShake": 10,
+    "recoil": 8,
+    "shake": 10,
     "consumes": {
 	"liquid": {
 	"liquid": "slag",
@@ -17,8 +15,11 @@
 	"amount": 0.7
 	}
 	},
-    "shots": 1,
     "size":  7,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
     "shootSound": "shootBig",
     "ammoTypes": {
     "graphite": {
@@ -295,7 +296,6 @@
     "frontColor": "95ABD9FF",
     "backColor": "FFFFFFF",
     "fragBullets": 9,
-	"fragCone": 360,
 	"fragBullet": {
     "type": "basicBulletType",
     "speed": 5,
@@ -636,7 +636,6 @@
     "splashDamage": 1000,
     "splashDamageRadius": 50,
     "fragBullets": 13,
-	"fragCone": 360,
 	"fragBullet": {
     "type": "basicBulletType",
     "speed": 5,
@@ -978,7 +977,6 @@
     "splashDamage": 1500,
     "splashDamageRadius": 50,
     "fragBullets": 13,
-	"fragCone": 360,
 	"fragBullet": {
     "type": "basicBulletType",
     "speed": 5,

@@ -1,18 +1,20 @@
 {
     "type": "ItemTurret",
-	"reloadTime": 300,
+	"reload": 300,
 	"range": 300,
-	"restitution": 0.2,
 	"minRange": 70,
 	"size": 3,
 	"maxAmmo": "50",
 	"health": 2650,
 	"rotateSpeed": 2,
-	"shootShake": 4,
-	"shots": 1,
+	"shake": 4,
 	"shootSound": "artillery",
 	"ammoPerShot": 10,
-    "recoilAmount": 5,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
+    "recoil": 5,
 	"ammoTypes": {
     "coal": {
     "speed": 2.5,
@@ -36,7 +38,6 @@
     "hitSize": 16,
     "fragBullets": 15,
     "fragLifeMin": 0.1,
-    "fragCone": 360,
 	"fragBullet": {
 	"speed": 2.5,
     "type":"ArtilleryBulletType",
@@ -83,7 +84,6 @@
     "hitSize": 16,
     "fragBullets": 15,
     "fragLifeMin": 0.1,
-    "fragCone": 360,
 	"fragBullet": {
 	"speed": 2.5,
     "type":"ArtilleryBulletType",
@@ -216,7 +216,6 @@
     "hitSize": 16,
     "fragBullets": 15,
     "fragLifeMin": 0.1,
-    "fragCone": 360,
 	"fragBullet": {
 	"speed": 2.5,
     "type":"ArtilleryBulletType",

@@ -16,7 +16,7 @@
     "engineOffset": 5.5,
     "range": 140,
     "targetAir": false,
-    "commandLimit": 5,
+"engineColor": "F3E979FF"
     "circleTarget": true,
 	"weapons": [
 		{

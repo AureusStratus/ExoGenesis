@@ -14,23 +14,13 @@
 		{"item": "lead", "amount": 10}
        ],
     "time": 580
-  },
-  {
-    "unit": "heat",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 20},
-		{"item": "titanium", "amount": 10}
-       ],
-    "time": 580
   }
 ],
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
-	{"item": "volcanite", "amount": 180},
-	{"item": "titanium", "amount": 160}
+	{"item": "volcanite", "amount": 180}
 ],
 "category": "units",
-"research": "ground-factory"
+"research": "team-soletux"
 }

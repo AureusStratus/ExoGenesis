@@ -1,0 +1,22 @@
+{
+	"type": "battery",
+	"size": 1,
+	"absorbLasers": true,
+	"fullLightColor": "79F2EEFF",
+	"emptyLightColor": "565666FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+	"canOverdrive": false,
+	"health": 120,
+	"consumes": {
+		"powerBuffered": 300
+	},
+	"category": "power",
+	"research": "battery",
+	"requirements": [
+        "copper/15",
+        "astrolite/15"	
+	]
+}

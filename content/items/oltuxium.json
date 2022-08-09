@@ -3,9 +3,9 @@
     "charge": 0.09,
     "color": "E09430FF",
     "research": {
-    "parent": "silicon",
+    "parent": "team-elecian",
     "requirements": [
-    "silicon/200"
+    "lead/200"
   ]
   }
 }

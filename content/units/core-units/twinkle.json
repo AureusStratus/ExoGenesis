@@ -1,15 +1,12 @@
 {
-    "localizedName": "Twinkle",
-    "description": "The defender of the gen core. Fires swarms of tiny stars.",
     "type": "legs",
 	"speed": 2.4,
 	"outlineColor": "414452FF",
 	"hitSize": 18,
 	"health": 560,
-	"isCounted": false,
     "mineSpeed": 9,
     "buildSpeed": 4.2,
-    "mineTier": 3.5,
+    "mineTier": 3,
     "itemCapacity": 60,
 	"armor": 5,
 	"faceTarget": true,
@@ -17,15 +14,24 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 3,
-    "legBaseOffset": 2,
-    "legTrns": 0.38,
+    "legBaseOffset": 4,
+    "legContinuousMove": true,
 	"legCount": 4,
-	"legPairOffset": 3,
-	"legMoveSpace": 1.4,
-	"legLength": 17,
-	"visualElevation": 0.67,
+	"legPairOffset": 2,
+	"legLength": 18,
 	"allowLegStep": true,
 	"hovering": true,
+    "parts": [
+         {
+         "type": "FlarePart",
+          "color2": "FFFFFF",
+          "color1": "A9D8FFFF",
+          "y": 18,
+          "followRotation": true,
+          "stroke": 3,
+          "radius": 6
+         }
+],
 	"immunities": [
 		"burning", 
 		"overclock",
@@ -44,8 +50,11 @@
   "rotateSpeed": 4,
   "recoil": 2,
   "inaccuracy": 360,
-  "shots": 3,
-  "shotDelay": 2,
+"shoot": {
+"type": "shootPattern",
+    "shots": 3,
+    "shotDelay": 2
+},
   "shootSound": "sap",
   "bullet": {
   "type": "basicBulletType",
@@ -100,25 +109,7 @@
       "effect": "overclock",
       "parentizeEffects": true,
       "effectY": 13,
-      "activeEffect": {
-      "type": "multiEffect",
-      "followParent": true,
-      "rotWithParent": true,
-      "effects": [
-      {
-      "type": "ParticleEffect",
-      "particles": 1,
-      "sizeFrom": 10,
-      "sizeTo": 0,
-      "length": 0,
-      "interp": "swingIn",
-      "lifetime": 10,
-      "region": "exogenesis-energy-partical-back",
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "A9D8FFFF"
-      }
-      ]
-      },
+      "activeEffect": "none",
       "range" : 70,
       "reload" : 5,
       "duration" : 5

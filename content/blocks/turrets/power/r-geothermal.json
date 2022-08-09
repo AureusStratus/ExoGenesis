@@ -4,12 +4,18 @@
 "size": 4,
 "range": 200,
 "health": 1100,
-"reloadTime": 200,
-"shots": 7,
-"shootCone": 20,
+"reload": 200,
+"shoot": {
+"type": "shootPattern",
+   "shots": 7
+},
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
 "shootSound": "shotgun",
 "inaccuracy": 7,
-"velocityInaccuracy": 0.3,
+"velocityRnd": 0.3,
 "shootEffect": {
     "type": "multiEffect",
     "effects": [
@@ -143,7 +149,6 @@
     "frontColor": "FFFFFFF",
     "fragBullets": 10,
     "fragLifeMin": 1,
-    "fragCone": 360,
 	"fragBullet": {
 	"type": "LiquidBulletType",
 	"liquid": "slag",

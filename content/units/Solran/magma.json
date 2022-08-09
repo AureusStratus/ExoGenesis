@@ -9,17 +9,23 @@
 ]
 },
 "outlineColor": "313131FF",
-"type": "mech",
 "armor": 17,
-"mechStepParticles": false,
-"mechStepShake": 0,
-"rotateSpeed": 2.8,
+"type": "tank",
+ "faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 34,
+"width": 10,
+"height": 34
+}
+],
+"singleTarget": flase,
+"omniMovement": flase,
+"rotateSpeed": 1.8,
 "hitSize": 31,
-"commandLimit": 6,
-"mechFrontSway": 0,
-"mechSideSway": 0,
-"rotateShooting": false,
-"singleTarget": true,
 "speed": 0.9,
 "health": 4800,
 "range": 185,
@@ -39,9 +45,11 @@
     "shake": 2,
     "rotate": true,
     "rotateSpeed": 5,
-    "shots": 4,
-    "shotDelay": 3,
-    "xRand": 4,
+"shoot": {
+"type": "shootPattern",
+  "shotDelay": 3,
+  "shots": 4
+    },
     "inaccuracy": 6,
     "shootSound": "laser",
     "shootCone": 45,

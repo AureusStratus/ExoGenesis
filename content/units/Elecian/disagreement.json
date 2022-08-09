@@ -19,9 +19,8 @@
         "engineOffset": 21,
         "engineSize": 5.8,
         "lowAltitude": true,
+ "engineColor": "F3E979FF"
         "range": 140,
-        "targetAir": true,
-        "commandLimit": 10,
 	    "weapons": [
 	   {
   "name": "shock-artillery",
@@ -101,16 +100,18 @@
     "alternate": false,
     "mirror": false,
     "top": true,
-    "x": 0,
     "y": -6.5,
-    "reload": 48,
     "recoil": 3,
-    "shots": 4,
     "shootY": 2,
-    "spacing": 10,
     "inaccuracy": 7,
     "xRand": 8,
-    "shotDelay": 1,
+  "reload": 12,
+"shoot": {
+"type": "ShootAlternate",
+"shots": 1,
+"barrels": 3,
+ "spread": 3
+},
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {

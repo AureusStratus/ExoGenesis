@@ -4,7 +4,7 @@
     "charge": 0.1,
     "color": "74C2E8FF",
     "research": {
-    "parent": "graphite",
+    "parent": "team-genesux",
     "requirements": [
     "graphite/200"
     ]

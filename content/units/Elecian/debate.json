@@ -19,8 +19,7 @@
         "engineSize": 3,
         "lowAltitude": true,
         "range": 140,
-        "targetAir": true,
-        "commandLimit": 10,
+            "engineColor": "F3E979FF"
 	    "weapons": [
 	   {
   "name": "surge-bolter",
@@ -56,7 +55,9 @@
     "reload": 18,
     "shootSound": "missile",
     "recoil": 2.6,
-    "shots": 2, 
+    "shoot": {
+    "shots": 2
+   },
     "bullet": {
     "type": "MissileBulletType",
     "shootEffect": "shootHealYellow",

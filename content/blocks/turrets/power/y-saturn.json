@@ -2,24 +2,32 @@
     "type": "PowerTurret",
     "size": 8,
     "health": 8660,
-    "reloadTime": 150,
+    "reload": 150,
     "range": 400,
-    "inaccuracy": 0,
-    "shots": 1,
     "targetAir": true,
-    "targetGround": true,
-    "shootCone": 2,
-    "spread": 1,
-    "recoilAmount": 2.5,
-    "restitution": 0.04,
+    "recoil": 2.5,
     "rotateSpeed": 1,
     "shootSound": "railgun",
     
     "chargeSound": "lasercharge2",
-	"chargeTime": 65,
-	"chargeMaxDelay": 10,
-	"chargeEffects": 1,
-	"chargeBeginEffect": {
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+	"shoot": {
+  "firstShotDelay": 65
+},
+"consumes" : {
+		"power": 36
+		},
+    "hasPower": true,
+    "shootType": {
+        "type": "BasicBulletType",
+        "sprite": "exogenesis-peircer",
+	"chargeEffect": {
+ "type": "multiEffect",
+    "effects": [
+{
     "type": "ParticleEffect",
     "particles": 1,
     "sizeFrom": 10,
@@ -30,7 +38,7 @@
     "colorTo": "FFFFFF",
     "cone": 360
 },
-	"chargeEffect": {
+    {
     "type": "WaveEffect",
     "lifetime": 60,
     "sizeFrom": 45,
@@ -39,13 +47,10 @@
     "strokeTo": 5,
     "colorFrom": "F3E979FF",
     "colorTo": "FFFFFF"
+}
+]
 	},
 	
-    "powerUse": 20,
-    "hasPower": true,
-    "shootType": {
-        "type": "BasicBulletType",
-        "sprite": "exogenesis-peircer",
         "absorbable": false,
         "pierceCap": 3,
         "pierce": false,

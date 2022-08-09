@@ -1,0 +1,10 @@
+{
+    "cost": 4,
+    "color": "A9D8FFFF",
+    "research": {
+    "parent": "stellar-steel",
+    "requirements": [
+    "stellar-steel/200"
+  ]
+  }
+}

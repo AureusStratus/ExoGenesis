@@ -4,7 +4,7 @@
     "radioactivity": 0.05,
     "color": "6748A1FF",
     "research": {
-    "parent": "lead",
+    "parent": "team-qauntra",
     "requirements": [
     "lead/200"
   ]

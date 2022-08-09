@@ -8,9 +8,9 @@
     "unitType": "starlight",
 	"requirements": [
 		{ "item": "astrolite", "amount": 4200 },
-		{ "item": "metaglass", "amount": 4900},
-		{ "item": "titanium", "amount": 6000 },
-		{ "item": "stellar-steel", "amount": 1000 }
+		{ "item": "omega-blue", "amount": 1200},
+		{ "item": "tungsten", "amount": 3000 },
+		{ "item": "stellar-steel", "amount": 2000 }
 	],
   "category": "effect",
 	"research": "genesis-central"

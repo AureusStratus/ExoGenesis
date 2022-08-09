@@ -18,7 +18,7 @@
         "engineOffset": 7.8,
         "range": 140,
         "targetAir": true,
-        "commandLimit": 8,
+ "engineColor": "F3E979FF"
         "faceTarget": true,
 	    "weapons": [
 	   {

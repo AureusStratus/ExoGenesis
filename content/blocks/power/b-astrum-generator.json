@@ -1,0 +1,33 @@
+{
+"type": "ConsumeGenerator",
+"displayEfficiency": false,
+"minEfficiency": 1,
+"health": 500,
+"size": 1,
+"powerProduction": 4.5,
+"itemCapacity": 10,
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+      {
+        "type": "DrawDefault"
+        },
+     {
+ "type": "DrawGlowRegion",
+ "suffix": "-glow",
+  "color": "66B1FFFF"
+	  }
+    ]
+    },
+    "consumes": {
+    "items": ["astrolite/1"]
+	},
+	"requirements": [
+        "astrolite/30",
+        "lead/15"
+],
+"category": "power",
+"research": "genesis-central",
+"ambientSound": "hum",
+"ambientSoundVolume": 0.25
+}

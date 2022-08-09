@@ -4,26 +4,41 @@
 	"outlineColor": "414452FF",
 	"hitSize": 28,
 	"health": 1160,
-	"isCounted": false,
     "mineSpeed": 12,
     "buildSpeed": 5.6,
-    "mineTier": 5,
+    "mineTier": 4,
     "itemCapacity": 110,
 	"armor": 8,
 	"faceTarget": true,
 	"range": 180,
 	"flying": false,
-	"targetAir": true,
 	"rotateSpeed": 3,
-    "legBaseOffset": 9,
-    "legTrns": 0.68,
+    "legBaseOffset": 13,
+    
 	"legCount": 6,
-	"legMoveSpace": 0.8,
-	"maxStretch": 1.4,
-	"legLength": 30,
-	"visualElevation": 0.67,
+    "legMoveSpace": 1,
+    "legLength": 21,
+    "legExtension": -10,
+    "legSpeed": 0.2,
+    "legLengthScl": 0.96,
+    "rippleScale": 2,
+  "legContinuousMove": true,
+    "legSplashDamage": 22,
+    "legSplashRange": 30,
+	
 	"allowLegStep": true,
 	"hovering": true,
+"parts": [
+         {
+         "type": "FlarePart",
+          "color2": "FFFFFF",
+          "color1": "A9D8FFFF",
+          "y": 18,
+          "followRotation": true,
+          "stroke": 3,
+          "radius": 12
+         }
+],
 	"immunities": [
 		"burning", 
 		"overclock",
@@ -42,8 +57,11 @@
   "rotateSpeed": 4,
   "recoil": 2,
   "inaccuracy": 10,
-  "shots": 4,
-  "shotDelay": 3,
+"shoot": {
+"type": "shootPattern",
+    "shots": 4,
+    "shotDelay": 3
+},
   "shootSound": "shoot",
   "bullet": {
   "type": "basicBulletType",
@@ -92,7 +110,7 @@
   "trailWidth": 2,
   "buildingDamageMultiplier": 0.20,
   "lifetime": 40,
-  "damage": 50,
+  "damage": 40,
   "statusDuration": 90,
   "status": "freezing",
   "speed": 6,
@@ -109,25 +127,7 @@
       "effect": "overclock",
       "parentizeEffects": true,
       "effectY": 18,
-      "activeEffect": {
-      "type": "multiEffect",
-      "followParent": true,
-      "rotWithParent": true,
-      "effects": [
-      {
-      "type": "ParticleEffect",
-      "particles": 1,
-      "sizeFrom": 10,
-      "sizeTo": 0,
-      "length": 0,
-      "interp": "swingIn",
-      "lifetime": 10,
-      "region": "exogenesis-energy-partical-back",
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "A9D8FFFF"
-      }
-      ]
-      },
+      "activeEffect": "none",
       "range" : 100,
       "reload" : 5,
       "duration" : 5

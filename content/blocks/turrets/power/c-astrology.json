@@ -1,6 +1,4 @@
 {
-    "localizedName": "Astrology",
-    "description": "Fires a barrage of stars which home in.",
     "type": "PowerTurret",
     "researchCostMultiplier": 0.5,
     "squareSprite": false,
@@ -8,19 +6,24 @@
 	"size": 3,
 	"heatColor": "A9D8FFFF",
 	"health": 500,
-    "reloadTime": 80,
+    "reload": 80,
     "range": 200,
+    "shoot": {
+    "type": "shootPattern",
     "shots": 4,
-    "burstSpacing": 3,
+    "shotDelay": 3
+	},
     "inaccuracy": 100,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 2.7,
     "rotateSpeed": 3,
     "shootSound": "laser",
-    "powerUse": 11,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
+	"consumes" : {
+		"power": 11
+         },
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
@@ -110,7 +113,6 @@
         "shrinkX": 0,
         "sprite": "exogenesis-energy-partical",
     "fragBullets": 1,
-	"fragCone": 0,
 	"fragBullet": {
 	    "type": "BasicBulletType",
         "speed": 6,

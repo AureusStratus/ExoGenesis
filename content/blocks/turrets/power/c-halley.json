@@ -1,84 +1,85 @@
 {
-    "type": "PowerTurret",
+    "type": "ContinuousTurret",
     "squareSprite": false,
     "outlineColor": "36363CFF",
     "size": 4,
     "health": 1600,
-    "reloadTime": 70,
+    "reload": 70,
     "range": 300,
-    "shots": 1,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 2,
-    "spread": 1,
-    "recoilAmount": 2,
-    "restitution": 0.04,
     "rotateSpeed": 4,
-    "shootSound": "laser",
-    "powerUse": 7,
-    
-	"chargeTime": 25,
-	"chargeEffects": 1,
-	"chargeEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 7,
-    "lifetime": 20,
-    "offset": 50,
-    "length": 65,
-    "baseLength": -65,
-    "cone": 360,
-    "interp": "pow3In",
-    "sizeInterp": "pow5Out",    
-    "strokeFrom": 0,
-    "strokeTo": 1.6,    
-    "lenFrom": 0,
-    "lenTo": 6,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-	},
-	"chargeBeginEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 1,
-    "sizeTo": 5,
-    "length": 0,
-    "lifetime": 25,
-    "colorFrom": "66B1FFFF",
-    "colorTo": "A9D8FFFF",
-    "cone": 360
-	},
-	
-    "shootType": {
-        "type": "basicBulletType",
-        "sprite": "circle-bullet",
+    "shootY": 13,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-",
+         "parts": [
+         {
+         "type": "shapePart",
+         "y": 13,
+        "hollow": true,
+        "circle": true,
+        "layer": 110,
+         "color": "66B1FFff",
+         "stroke": 0,
+        "strokeTo": 1.4,
+        "radiusTo": 7,
+         "radius": 7
+     },
+        {
+         "type": "RegionPart",
+         "layer": -1,
+          "colorTo": "66B1FF90",
+          "color": "A9D8FF00",
+         "progress": "warmup",
+         "blending": "additive",
+         "outline": false,
+         "suffix": "-glow"
+        },
+        {
+        "type": "HaloPart",
+        "y": 13,
+        "radius": 2.6,
+        "tri": true,
+        "layer": 110,
+        "color": "66B1FFff",
+        "haloRotateSpeed": 0.7,
+        "haloRadius": 7,
+        "haloRadiusTo": 7,
+        "stroke": 0,
+        "strokeTo": 2,
+         "shapes": 4,
+        "triLengthTo": 10,
+         "triLength": 0
+        }
+        ]
+        },
+        "shootSound": "laser",
+	"consumes" : {
+	"power": 17
+         },
+        "shootType": {
+        "type": "PointLaserBulletType",
+        "sprite": "exogenesis-c-halley-laser",
         "status": "freezing",
-        "speed": 4,
-        "lifetime": 100,
-        "damage": 685,
-        "shrinkY": 0,
-        "shrinkX": 0,
-        "height": 15,
-        "width": 15,
-        "hitEffect": {
+        "damage": 85,
+        "drawSize": 1500,
+        "beamEffect": {
         "type": "multiEffect",
         "effects": [
         {
         "type": "ParticleEffect",
-        "particles": 20,
+        "particles": 6,
         "length": 40,
         "lifetime": 36,
         "interp": "circleOut",
-        "cone": 30,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF",
-        "sizeFrom": 6.5,
+        "sizeFrom": 3.5,
         "sizeTo": 0
         },
         {
         "type": "ParticleEffect",
         "line": true,
-        "particles": 19,
+        "particles": 5,
         "lifetime": 20,
         "length": 75,
         "cone": -360,
@@ -86,123 +87,20 @@
         "lenTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
-        },
-        {
-        "type": "WaveEffect",
-        "lifetime": 20,
-        "sizeFrom": 0,
-        "sizeTo": 50,
-        "strokeFrom": 4,
-        "strokeTo": 0,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF"
         }
         ]
         },
-    "trailEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 4,
-    "sizeFrom": 5,
-    "sizeTo": 1,
-    "length": 20,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF",
-    "cone": 10
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "sizeFrom": 6,
-    "sizeTo": 1,
-    "length": 10,
-    "lifetime": 25,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF",
-    "cone": 20
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 4,
-    "sizeFrom": 6,
-    "sizeTo": 1.5,
-    "length": 15,
-    "lifetime": 30,
-    "interp": "fastSlow",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF",
-    "cone": 25
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 4,
-    "sizeFrom": 6,
-    "sizeTo": 1.5,
-    "length": 15,
-    "lifetime": 40,
-    "interp": "fastSlow",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF",
-    "cone": 17
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 3,
-    "sizeFrom": 5,
-    "sizeTo": 1,
-    "length": 25,
-    "lifetime": 40,
-    "interp": "fastSlow",
-    "colorFrom": "66B1FFFF",
-    "colorTo": "66B1FF80",
-    "cone": 10
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 3,
-    "sizeFrom": 7,
-    "sizeTo": 1,
-    "length": 30,
-    "lifetime": 50,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "colorFrom": "66B1FFFF",
-    "colorTo": "66B1FF80",
-    "cone": 10
-    }
-    ]
-    },
-    "trailChance": 1,
-    "trailRotation": true,
-        "trailColor": "66B1FFFF",
-        "trailParam": 3,
-        "trailLength": 13,
-        "trailWidth": 5,
-        "homingRange": 200,
-        "homingPower": 0.0567,
         "splashDamageRadius": 54,
-        "splashDamage": 26,
-        "frontColor": "FFFFFFF",
-        "backColor": "66B1FFFF"
+        "splashDamage": 10,
+        "color": "E1F2FFFF"
     },
     "requirements": [
         "stellar-steel/300",
-        "thorium/340",
-        "omega-blue/400",
+        "dytrix/340",
+        "siratla-diamond/150",
         "osmium/360",
         "silicon/430"
     ],
     "category": "turret",
-    "research": "c-stellar"
+    "research": "c-astrology"
 }

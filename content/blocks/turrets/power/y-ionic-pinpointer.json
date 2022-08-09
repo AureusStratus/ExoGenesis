@@ -2,22 +2,27 @@
 	"type": "PowerTurret",
 	"size": 4,
 	"health": 3180,
-	"reloadTime": 140,
+	"reload": 140,
 	"range": 280,
-	"inaccuracy": 0,
-	"shots" : 3,
-	"burstSpacing": 5,
-	
+	"inaccuracy": 4,
 	"targetAir" : false, 
-	"targetGround" : true,
 	"shootCone" : 2,
-	"spread" : 0,
-	"recoilAmount" : 1.5,
-	"restitution" : 0.04, 
+	"recoil" : 1.5,
 	"rotateSpeed": 8,
 	"shootSound" : "railgun",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+"shoot": {
+"type": "shootPattern",
+   "shots": 3,
+"shotDelay": 3
+},
 
-    "powerUse" : 18,
+   "consumes" : {
+		"power": 18
+		},
     "hasPower" : true,
     "shootType" : {
 	"type" : "pointBulletType",

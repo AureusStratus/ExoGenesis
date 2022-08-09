@@ -21,8 +21,8 @@
 		{"item": "thorium", "amount": 380}
 	],
 	"upgrades": [
-		["b-kuiper", "b-oort"],
-		["kentaurus", "vega"],
+		["b03-kuiper", "b04-oort"],
+		["b03-kentaurus", "b04-vega"],
 		["photosphere", "radiative"],
 		["magma", "lava"],
 		["aster", "urtica"],

@@ -6,7 +6,6 @@
   "size": 2,
   "craftTime": 90,
   "craftEffect": "smokeCloud",   
-  "hasItem": true,
   "updateEffect": "none",
   "consumes": {
   "items": {
@@ -20,6 +19,6 @@
     "copper/60"
   ],
   "category": "crafting",
-  "research": "duo",
+  "research": "team-genesux",
   "outputItem": "graphite/2"
 }

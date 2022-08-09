@@ -1,5 +1,4 @@
 {
-"name": "Collapse",
 "type": "legs",
 "research": {
 "parent": "fusion",
@@ -13,6 +12,7 @@
 ]
 },
 "armor": 30,
+"outlineColor": "313131FF",
 "rotateSpeed": 1.3,
 "hitSize": 60,
 "range": 120,
@@ -21,17 +21,14 @@
 "legPairOffset": 6,
 "legLength": 48,
 "legExtension": 8,
-"legBaseOffset": 2,
-"landShake": 6.1,
+"legBaseOffset": 2
 "legSpeed": 0.8,
 "legLengthScl": 1,
 "rippleScale": 5,
 "legSplashDamage": 200,
 "legSplashRange": 65,
-"visualElevation": 0.75,
 "allowLegStep": true,
 "hovering": true,
-"commandLimit": 5,
 "singleTarget": true,
 "speed": 0.22,
 "health": 250000,
@@ -52,8 +49,11 @@
   "top": false,
   "rotate": false,
   "shootY": 0,
-  "shots": 1,
-  "firstShotDelay": 130,
+
+"shoot": {
+ "firstShotDelay": 130
+    },
+
   "shake": 20,
   "chargeSound": "chargeup",
   "shootSound": "jupiterImpact",
@@ -162,7 +162,7 @@
     "hitSound": "jupiterImpact",
 	"absorbable": false,
 	"trailEffect": "none",
-	"shootEffect": {
+	"chargeEffect": {
     "type": "multiEffect",
     "lifetime": 120,
     "followParent": true,
@@ -315,13 +315,10 @@
   "top": false,
   "recoil": 3,
   "shake": 3,
-  "shots": 1,
   "shootY": 38,
   "inaccuracy": 2,
-  "shotDelay": 3,
   "cooldownTime": 168, 
   "shootSound": "plasmaboom",
-  "ejectEffect": "casing1",
   "bullet": {
   "type": "BasicBulletType",
   "sprite" : "exogenesis-star-core-bullet",
@@ -706,14 +703,12 @@
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
     "rotate": true,
     "rotateSpeed": 2,
     "shootY": 14,
     "reload": 80,
     "recoil": 4,
     "shake": 3,
-    "ejectEffect": "casing2",
     "shootSound": "artillery",
     "bullet": {
     "type": "ArtilleryBulletType",
@@ -760,7 +755,6 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF",
     "fragBullets": 12,
-    "fragCone": 360,
 	"fragBullet": {
     "type": "ArtilleryBulletType",
     "hitEffect": {

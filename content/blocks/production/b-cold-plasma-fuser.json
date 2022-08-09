@@ -1,55 +1,53 @@
 {	
-  "localizedName": "Cold Plasma Fuser",
-	"description": "Infuses materials together with a cold energy to form a powerful metal.",
 	"type": "GenericCrafter",
-	"drawer": {
-  "type": "drawArcSmelter",
-  "flameColor": "66B1FFFF",
-  "midColor": "A9D8FFFF",
-  "flameRad": 1.6,
-  "circleSpace": 2,
-  "circleStroke": 0.9,
-  "alpha": 2,
-  "particleRad": 10,
-  "particles": 32,
-  "particleLen": 5,
-  "particleStroke": 0.9,
-  "particleLife": 80
-	},
+		"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+      {
+     "type": "DrawRegion",
+       "suffix": "-bottom"
+        },
+        {
+     "type": "DrawParticles",
+    "color": "66B1FFFF",
+    "alpha": 0.4,
+     "blending": "additive",
+     "particleSize": 5,
+    "particleRad": 8,
+    "particles": 36,
+    "fadeMargin": 1,
+    "rotateScl": 4,
+    "particleLife": 50
+	  },
+        {
+        "type": "DrawDefault"
+        }, 
+     {
+ "type": "DrawGlowRegion",
+ "suffix": "-glow",
+  "color": "66B1FFFF"
+	  }
+    ]
+    },
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 30,
-	"craftTime": 150,
-	"craftEffect": {
-	"type": "WaveEffect",
-    "lifetime": 60,
-    "sizeFrom": 0,
-    "sizeTo": 20,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-	},
+	"craftTime": 80,
+	"craftEffect": "none",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-                        "titanium/3",
-                        "copper/3",
-			"astrolite/5",
-			"silicon/4"
-			]
-		}
+		"power": 8,
+            "liquids": ["hydrogen/1"],
+			"items": ["astrolite/2"]
 	},
 	"requirements": [
-	   "silicon/100",
-		"titanium/160",
-		"thorium/140",
-		"plastanium/160",
-   "astrolite/440"
+	    "silicon/100",
+		"stellar-steel/160",
+		"osmium/140",
+		"terrilium/160",
+        "astrolite/440"
 	],
 	"category": "crafting",
 	"research": "b-silicon-kiln",

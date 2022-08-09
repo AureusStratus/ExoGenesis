@@ -7,18 +7,17 @@
 },
 "plans": [
 {
-    "unit": "majoris",
+    "unit": "b01-majoris",
     	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "astrolite", "amount": 10},
-		{"item": "titanium", "amount": 20}
+		{"item": "silicon", "amount": 25},
+		{"item": "astrolite", "amount": 15}
        ],
     "time": 400
   },
   {
-    "unit": "a-orion",
+    "unit": "b01-orion",
     	"requirements": [
-		{"item": "silicon", "amount": 20},
+		{"item": "silicon", "amount": 10},
 		{"item": "astrolite", "amount": 20},
 		{"item": "graphite", "amount": 10}
        ],
@@ -28,9 +27,8 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
-	{"item": "astrolite", "amount": 180},
-	{"item": "titanium", "amount": 160}
+	{"item": "astrolite", "amount": 180}
 ],
 "category": "units",
-"research": "ground-factory"
+"research": "team-genesux"
 }

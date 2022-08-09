@@ -9,7 +9,7 @@
 				{"item": "silicon", "amount": 640},
 				{"item": "osmium", "amount": 540},
 				{"item": "titanium", "amount": 480},
-				{"item": "thorium", "amount": 250}
+				{"item": "lead", "amount": 250}
 			]
 		}
 	},
@@ -17,11 +17,11 @@
 		{"item": "osmium", "amount": 350},
 		{"item": "silicon", "amount": 180},
 		{"item": "metaglass", "amount": 280},
-		{"item": "thorium", "amount": 100}
+		{"item": "titanium", "amount": 100}
 	],
 	"upgrades": [
-		["b-galileo", "b-kuiper"],
-		["gacrux", "kentaurus"],
+		["b02-galileo", "b03-kuiper"],
+		["b02-gacrux", "b03-kentaurus"],
 		["corona", "photosphere"],
 		["molten", "magma"],
 		["irises", "aster"],

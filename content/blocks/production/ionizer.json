@@ -1,8 +1,16 @@
 {	
     "type": "GenericCrafter",
-	"drawer": {
-	"type": "DrawSmelter",
+		"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+       {
+        "type": "DrawDefault"
+        },
+        {
+	"type": "DrawFlame",
 	"flameColor": "73FFAEFF"
+}
+]
 	},
 	"size": 2,
 	 "researchCostMultiplier": 0.1,
@@ -38,6 +46,6 @@
         "lead/120"
 	],
 	"category": "crafting",
-	"research": "graphite-press",
+	"research": "team-qauntra",
 	"outputItem": "valvanite/2"
 }

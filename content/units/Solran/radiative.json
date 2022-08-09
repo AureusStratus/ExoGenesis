@@ -15,10 +15,9 @@
 "canDrown": false,
 "hitSize": 38,
 "mechFrontSway": 1,
-"commandLimit": 6,
 "mechLegColor": "313131FF",
 "mechStepParticles": true,
-"mechStepShake": 2,
+"mechLandShake": 2,
 "singleTarget": true,
 "speed": 0.30,
 "health": 9500,
@@ -37,9 +36,12 @@
   "top": false,
   "recoil": 3,
   "shake": 3,
-  "shots": 2,
   "inaccuracy": 2,
+"shoot": {
+"type": "shootPattern",
   "shotDelay": 3,
+  "shots": 2
+    },
   "cooldownTime": 78, 
   "shootSound": "plasmaboom",
   "ejectEffect": "casing1",
@@ -174,7 +176,9 @@
   "reload": 28,
   "alternate": true,
   "top": true,
-  "shots": 3,
+"shoot": {
+  "shots": 3
+    },
   "shootSound": "laser",
   "ejectEffect": "casing1",
   "bullet": {

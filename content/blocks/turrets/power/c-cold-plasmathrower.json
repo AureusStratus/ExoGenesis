@@ -5,22 +5,28 @@
 	"size": 4,
 	"health": 1600,
 	"range": 130,
-	"cooldown": 0.0076,
-	"restitution": 0.08,
-	"reloadTime" : 6,
+	"reload" : 6,
 	"heatColor": "FFFFFFF",
-	"shots" : 4,
-	"shootLength": 3,
+	"shootY": 3,
 	"hasPower": true,
 	"targetAir" : false, 
-	"targetGround" : true,
-	"shootCone" : 20,
-	"recoilAmount" : 0,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+    },
+	"recoil" : 0,
 	"inaccuracy" : 5, 
 	"rotateSpeed": 4.0,
+        "shoot": {
+        "type": "shootPattern",
+        "shots": 4,
+        "shotDelay": 1
+	},
 	"shootSound": "flame",
-    "powerUse": 10,
-  
+
+  	"consumes" : {
+		"power": 10
+         },
 	"shootType": {
     "type": "BasicBulletType",
     "status": "freezing",
@@ -36,7 +42,7 @@
     "effects": [
     {
     "type": "ParticleEffect",
-    "particles": 7,
+    "particles": 2,
     "sizeFrom": 5,
     "sizeTo": 1,
     "length": 140,
@@ -50,7 +56,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 7,
+    "particles": 2,
     "sizeFrom": 6,
     "sizeTo": 1,
     "length": 100,
@@ -64,7 +70,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 7,
+    "particles": 2,
     "sizeFrom": 6,
     "sizeTo": 1.5,
     "length": 110,
@@ -77,7 +83,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 7,
+    "particles": 2,
     "sizeFrom": 6,
     "sizeTo": 1.5,
     "length": 120,
@@ -96,7 +102,7 @@
     "effects": [
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 3,
     "sizeFrom": 5,
     "sizeTo": 1,
     "length": 160,
@@ -109,7 +115,7 @@
     },
     {
     "type": "ParticleEffect",
-    "particles": 10,
+    "particles": 3,
     "sizeFrom": 7,
     "sizeTo": 1,
     "length": 180,
@@ -147,7 +153,7 @@
     "pierceBuilding": true
 	},
 	"requirements": [
-        "thorium/570",
+        "dytrix/570",
         "stellar-steel/600",
         "omega-blue/400",
         "silicon/500"

@@ -4,10 +4,16 @@
 "size": 3,
 "range": 160,
 "health": 1100,
-"reloadTime": 3.5,
-"shots": 2,
+"reload": 3.5,
+"shoot": {
+"shots": 2
+},
 "inaccuracy": 0.7,
-"velocityInaccuracy": 0.4,
+"velocityRnd": 0.4,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
 "shootEffect": "hitMeltdown",
 "ammoTypes": {
   "slag": {
@@ -20,7 +26,6 @@
     "drag": 0.07,
     "orbSize": 5,
     "fragBullets": 3,
-    "fragCone": 360,
 	"fragBullet": {
 	"type": "LiquidBulletType",
 	"liquid": "slag",

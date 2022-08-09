@@ -3,21 +3,24 @@
     "researchCostMultiplier": 0.2,
     "size": 2,
     "health": 240,
-    "reloadTime": 64,
+    "reload": 64,
     "range": 270,
     "inaccuracy": 12,
-    "burstSpacing": 5,
-    "shots": 5,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 20,
-    "recoilAmount": 1,
-    "restitution": 0.06,
+    "recoil": 1,
     "rotateSpeed": 2,
     "shootSound": "lasershoot",
-    
-
-    "powerUse": 6,
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "elecian-"
+    },
+    "shoot": {
+"type": "shootPattern",
+   "shots": 5,
+"shotDelay": 5
+},
+"consumes" : {
+		"power": 6
+		},
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",

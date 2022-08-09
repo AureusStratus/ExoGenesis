@@ -1,68 +1,80 @@
 {
-    "type": "ItemTurret",
+    "type": "ContinuousLiquidTurret",
     "researchCostMultiplier": 0.7,
     "size": 3,
     "health": 480,
-    "reloadTime": 65,
-    "range": 260,
-    "maxAmmo": 10,
-    "inaccuracy": 1,
-    "shots": 1,
-    "targetAir": true,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "reload": 65,
+    "shootY": 0,
+    "range": 130,
+    "liquidConsumed": 1,
     "rotateSpeed": 2,
+    "shoot": {
+"type": "shootSpread",
+   "shots": 3,
+"spread" : 16
+},
     "shootSound": "laser",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-",
+         "parts": [
+   {
+         "type": "RegionPart",
+         "suffix": "-front",
+         "moveX": 2,
+         "moveRot": -5,
+         "moveY": 1,
+         "mirror": true,
+         "progress": "warmup"
+         },
+         {
+         "type": "RegionPart",
+         "mirror": true,
+         "progress": "warmup",
+         "children": [
+         {
+         "type": "RegionPart",
+         "suffix": "-bottom",
+         "moveX": 2,
+         "moveRot": 2,
+         "mirror": true,
+         "progress": "warmup"
+         }
+         ],
+         "moveX": 1.7,
+         "moveRot": -5,
+         "suffix": "-body"
+         }
+         ]
+         },
     "ammoTypes": {
-        "astrolite": {
-        "type": "basicBulletType",
-        "sprite": "exogenesis-energy-partical",
-        "absorbable": true,
-        "shrinkY": 0,
-        "shrinkX": 0,
-        "spin": 8,
-        "speed": 3,
-        "lifetime": 94,
-        "status": "freezing",
-        "damage": 20,
-        "splashDamageRadius": 45,
-        "splashDamage": 80,
-        "statusDuration": 30,
-        "height": 21,
-        "width": 21,
-        "trailColor": "66B1FFFF",
-        "trailParam": 5,
-        "trailLength": 13,
-        "trailWidth": 3,
-        "trailEffect": "none",
-        "hitEffect": {
-        "type": "ParticleEffect",
-        "particles": 30,
-        "length": 60,
-        "lifetime": 46,
-        "interp": "circleOut",
-        "cone": 360,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF",
-        "sizeFrom": 5,
-        "sizeTo": 0
-        },
-        "despawnEffect": {
-        "type": "ParticleEffect",
-        "particles": 30,
-        "length": 60,
-        "lifetime": 46,
-        "interp": "circleOut",
-        "cone": 360,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF",
-        "sizeFrom": 5,
-        "sizeTo": 0
-        },
-        "frontColor": "A9D8FFFF",
-        "backColor": "66B1FFFF"
+        "cold-plasma": {
+      "type": "ContinuousFlameBulletType",
+    "colors": ["66B1FFAA", "66B1FFff", "A9D8FFFF", "E1F2FFFF"],
+    "damage": 10,
+    "flareWidth": 5,
+    "flareLength": 48,
+    "flareColor": "A9D8FFFF",
+    "width": 5.5,
+     "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 65,
+    "cone": -360,
+    "strokeFrom": 2.5,
+    "strokeTo": 0,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    "divisions": 20,
+    "length": 130,
+    "drawSize": 350,
+    "status": "freezing",
+    "statusDuration": 150
         }
     },
     "requirements": [

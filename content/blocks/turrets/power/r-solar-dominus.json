@@ -2,17 +2,32 @@
 	"type": "PowerTurret",
 	"size": 8,
 	"health": 8660,
-	"reloadTime": 350,
+	"reload": 350,
 	"range": 380,
-	"shots": 3,
-	"targetAir": true, 
-	"targetGround": true,
-	"shootCone": 30,
-	"spread": 30,
-	"powerUse": 83,
+"shoot": {
+"type": "shootSpread",
+   "shots": 3,
+"spread": 30
+},
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "solran-"
+    },
+	"consumes" : {
+		"power": 83
+		},
     "update": true,
     "hasPower": true,
-    "shootEffect": {
+    "shake": 6,
+    "shootSound": "plasmaboom",
+	"recoil" : 6.5,
+	"rotateSpeed": 1.5,
+	
+    "shootType" : {
+        "type": "basicBulletType",
+        "sprite": "exogenesis-circle-spike",
+        "status": "melting",
+   "shootEffect": {
     "type": "ParticleEffect",
     "particles": 1,
     "length": 0,
@@ -25,17 +40,6 @@
     "colorFrom": "FF5845FF",
     "colorTo": "DE4136Dff"
     },
-    "shootShake": 6,
-    "shootSound": "plasmaboom",
-    "cooldown": 0.02,
-	"recoilAmount" : 6.5,
-	"restitution" : 0.04, 
-	"rotateSpeed": 1.5,
-	
-    "shootType" : {
-        "type": "basicBulletType",
-        "sprite": "exogenesis-circle-spike",
-        "status": "melting",
         "lightRadius": 20,
         "statusDuration": 130,
         "collidesGround": "false",
@@ -94,7 +98,6 @@
         "backColor": "FF5845FF",
 	    "fragBullets": 5,
 	    "fragAngle": 30,
-	    "fragCone": 360,
 	    "fragBullet": {
         "type": "BasicBulletType",
         "spin": 2.5,
@@ -158,7 +161,6 @@
         "backColor": "FF5845FF",
 	    "fragBullets": 5,
 	    "fragAngle": 5,
-	    "fragCone": 360,
 	    "fragBullet": {
         "type": "BasicBulletType",
         "spin": 2.5,

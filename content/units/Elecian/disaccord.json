@@ -21,8 +21,7 @@
         
         "engineSize": 7,
         "lowAltitude": true,
-        "targetAir": true,
-        "commandLimit": 10,
+      "engineColor": "F3E979FF"
 	    "weapons": [
 	   {
   "name": "shock-artillery",
@@ -30,7 +29,6 @@
     "mirror": true,
     "alternate": true,
     "x": 14,
-    "y": 0,
     "reload": 60,
     "recoil": 3,
     "ejectEffect": "casing2",
@@ -101,7 +99,9 @@
     "cooldownTime": 250,
     "parentizeEffects": true,
     "shootStatusDuration": 120,
-    "firstShotDelay": 110,
+"shoot": {
+    "firstShotDelay": 110
+},
     "bullet": {
     "type": "ContinuousLaserBulletType",
     "damage": 50,
@@ -239,14 +239,17 @@
     "top": true,
     "x": 0,
     "y": -8.5,
-    "reload": 48,
+     "reload": 12,
+"shoot": {
+"type": "ShootAlternate",
+"shots": 1,
+"barrels": 3,
+ "spread": 3
+},
     "recoil": 3,
-    "shots": 8,
     "shootY": 2,
-    "spacing": 10,
     "inaccuracy": 7,
     "xRand": 8,
-    "shotDelay": 1,
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {

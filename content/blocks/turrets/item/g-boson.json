@@ -3,17 +3,16 @@
     "researchCostMultiplier": 0.2,
     "size": 2,
     "health": 240,
-    "reloadTime": 124,
+    "reload": 124,
     "range": 230,
-    "inaccuracy": 1,
-    "shots": 1,
     "targetAir": false,
-    "targetGround": true,
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
+    "recoil": 0.7,
     "rotateSpeed": 3,
     "shootSound": "laser",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "ammoTypes": {
         "valvanite": {
         "type": "BasicBulletType",
@@ -51,7 +50,6 @@
         "frontColor": "FFFFFFF",
         "backColor": "73FFAEFF",
         "fragBullets": 3,
-        "fragCone": 30,
         "fragBullet": {
         "type": "BasicBulletType",
         "sprite": "large-bomb",

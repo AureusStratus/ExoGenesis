@@ -45,9 +45,17 @@
     }
   ]
   },
-  "drawer": {
-  "type": "DrawSmelter",
+ "drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
   "flameColor": "A9D8FFFF"
+     }
+  ]
   },
   "hasPower": true,
   "hasLiquids": false,

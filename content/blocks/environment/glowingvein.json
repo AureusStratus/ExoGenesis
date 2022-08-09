@@ -1,8 +1,9 @@
 {
 "type": "Floor",
 "emitLight": true,
-"lightRadius": 8,
+"lightRadius": 2,
 "lightColor": "A9D8FFFF",
+"liquidDrop": "cold-plasma",
 "attributes": {
   "heat": -2.5
 },

@@ -1,0 +1,10 @@
+{    
+    "type": "Wall",
+    "health": 550,
+    "size": 1,
+    "requirements": [
+     "stellar-steel/6"
+    ],
+    "category": "defense",
+    "research": "astrolite-wall"
+}

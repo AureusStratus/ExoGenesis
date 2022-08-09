@@ -3,7 +3,7 @@
     "radioactivity": 0.3,
     "color": "7AC27CFF",
     "research": {
-    "parent": "lead",
+    "parent": "team-quantra",
     "requirements": [
     "lead/200"
   ]

@@ -1,18 +1,24 @@
 {
     "type": "PowerTurret",
-    "targetAir": true,
-    "targetGround": true,
     "hasPower": true,
-    "powerUse": 20,
     "health": 2500,
     "size": 3,
-    "inaccuracy": 0,
-    "reloadTime": 15,
-    "shots": 6,
-    "recoilAmount": 4,
-    "shootCone": 2,
+ "consumes" : {
+		"power": 20
+		},
+    "reload": 15,
+	
+   
+    "recoil": 4,
     "rotateSpeed": 5,
     "range": 200,
+ "shoot": {
+ "shots": 6
+    },
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
     "shootEffect": {
     "type": "ParticleEffect",
     "line": true,

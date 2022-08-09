@@ -22,8 +22,6 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
-		["b-oort", "b-sirius"],
-		["vega", "centauri"],
 		["radiative", "core"],
 		["lava", "eruption"],
 		["urtica", "thymus"],

@@ -2,12 +2,20 @@
 	"type": "PowerTurret",
 	"size": 4,
 	"health": 880,
-	"reloadTime": 10,
+	"reload": 10,
 	"range": 200,
-
+ "consumes" : {
+		"power": 20
+		},
 	"inaccuracy": 2,
-	"alternate": true,
-    "shots": 2,
+   "shoot": {
+    "type": "shootAlternate",
+"spread": 16
+	},
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "quantra-"
+    },     
 	"shootEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -20,15 +28,10 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D993FF"
 	},
-	"targetAir" : true, 
-	"spread": 16,
-	"targetGround" : true,
-	"recoilAmount" : 1.5,
-	"restitution" : 0.04, 
+	"recoil" : 1.5,
 	"rotateSpeed": 3,
 	
 	"shootSound" : "laser",
-	"powerUse": 30,
 	"hasPower" : true,
 	"shootType": {
 	"type" : "BasicBulletType",

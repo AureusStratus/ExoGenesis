@@ -11,6 +11,7 @@
 ]
 },
 "type": "mech",
+"outlineColor": "313131FF",
 "armor": 19,
 "mechLegColor": "313131FF",
 "rotateSpeed": 2.0,
@@ -18,9 +19,8 @@
 "hitSize": 42,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.6,
-"commandLimit": 5,
 "mechStepParticles": true,
-"mechStepShake": 3,
+"mechLandShake": 3,
 "singleTarget": true,
 "speed": 0.28,
 "health": 50000,
@@ -39,9 +39,12 @@
   "alternate": true,
   "top": false,
   "recoil": 3,
+"shoot": {
+"type": "ShootSpread",
+  "spread": 4,
+  "shots": 3
+    },
   "shake": 2,
-  "shots": 3,
-  "spacing": 4,
   "shootY": 22,
   "shootSound": "shotgun",
   "ejectEffect": "casing1",
@@ -122,12 +125,13 @@
   "reload": 28,
   "alternate": true,
   "top": true,
-  "shootCone": 20,
-  "shots": 3,
+"shoot": {
+"type": "shootPattern",
   "shotDelay": 4,
+  "shots": 3
+    },
   "inaccuracy": 3,
   "shootSound": "laser",
-  "ejectEffect": "casing1",
   "bullet": {
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-peircer",

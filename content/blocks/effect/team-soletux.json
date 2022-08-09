@@ -1,0 +1,14 @@
+{  
+    "localizedName": "[#66B1FFFF]Soletux",
+    "description": "The Soletux faction.",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+   "research": {
+  "root": true,
+  "name": "[#66B1FFFF]Soletux",
+  "requiresUnlock": false
+}
+}

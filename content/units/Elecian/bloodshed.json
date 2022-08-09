@@ -11,7 +11,6 @@
     ]
     },
     "groundLayer": 75,
-    "commandLimit": 8,
     "type": "legs",
 	"canDrown": false,
 	"speed": 0.34,
@@ -28,7 +27,6 @@
 	"targetAir": true,
 	"legSpeed": 0.16,
 	"legBaseOffset": 10,
-    "legTrns": 0.6,
 	"legCount": 8,
     "legPairOffset": 3,
 	"legMoveSpace": 0.8,
@@ -36,10 +34,8 @@
 	"legLength": 75,
 	"rippleScale": 3,
 	"legLengthScl": 0.93,
-	"landShake": 2,
     "legSplashDamage": 60,
     "legSplashRange": 35,
-	"visualElevation": 0.65,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [
@@ -54,11 +50,13 @@
     "mirror": false,
     "x": 0,
     "y": 0,
-    "shootY": 19,
-    "shots": 5,
     "recoil": 1.5,
     "rotate": false,
+ "shoot": {
+     "type": "ShootPattern",
     "shotDelay": 5,
+    "shots": 5
+    },
 	"inaccuracy" : 9, 
     "shootSound": "flame",
     "shootCone": 20,
@@ -172,7 +170,6 @@
     "recoil": 1.5,
     "shake": 1,
     "rotate": false,
-    "shots": 5,
     "shootSound": "flame2",
     "shootCone": 45,
 	"bullet": {
