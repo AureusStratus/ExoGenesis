@@ -27,9 +27,8 @@
     "requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
-	{"item": "oltuxium", "amount": 180},
-	{"item": "titanium", "amount": 160}
+	{"item": "oltuxium", "amount": 180}
 ],
 "category": "units",
-"research": "ground-factory"
+"research": "team-elecian"
 }

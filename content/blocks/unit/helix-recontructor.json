@@ -8,19 +8,18 @@
 			"items": [
 				{"item": "silicon", "amount": 80},
 				{"item": "graphite", "amount": 120},
-				{"item": "osmium", "amount": 80}
+				{"item": "metaglass", "amount": 80}
 			]
 		}
 	},
 	"requirements": [
-		{"item": "osmium", "amount": 250},
 		{"item": "silicon", "amount": 240},
 		{"item": "graphite", "amount": 180},
 		{"item": "lead", "amount": 160}
 	],
 	"upgrades": [
-		["a-orion", "b-galileo"],
-		["majoris", "gacrux"],
+		["b01-orion", "b02-galileo"],
+		["b01-majoris", "b02-gacrux"],
 		["sol", "corona"],
 		["heat", "molten"],
 		["pteris", "irises"],

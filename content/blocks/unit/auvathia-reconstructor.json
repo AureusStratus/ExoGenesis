@@ -9,7 +9,6 @@
         "primal-red/2000",
         "gamma-green/2000",
         "alpha-yellow/2000",
-        "omega-blue/2000",
         "titanium/3600",
         "plastanium/3320",
         "silicon/4420",
@@ -32,8 +31,6 @@
 	],
 	"upgrades": [
 		["fusion", "collapse"],
-		["b-eros", "b-atlas"],
-		["altair", "universalis"],
 		["contention", "battle"],
 		["assault", "bloodshed"]
 	],
