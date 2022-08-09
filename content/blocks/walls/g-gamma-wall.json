@@ -7,8 +7,8 @@
     "absorbLasers": true,
     "requirements": [
 		    {"item": "gamma-green", "amount": 108},
-            {"item": "plastanium", "amount": 26}
+            {"item": "valvanite", "amount": 26}
     ],
     "category": "defense",
-    "research": "surge-wall"
+    "research": "team-quantra"
 }

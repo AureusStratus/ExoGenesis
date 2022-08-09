@@ -7,7 +7,7 @@
     "absorbLasers": true,
     "requirements": [
 		    {"item": "gamma-green", "amount": 378},
-            {"item": "plastanium", "amount": 56}
+            {"item": "valvanite", "amount": 56}
     ],
     "category": "defense",
     "research": "g-huge-gamma-wall"

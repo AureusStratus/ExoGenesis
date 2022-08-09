@@ -9,7 +9,7 @@
     "size": 2,
     "requirements": [
         {"item": "omega-blue", "amount": 268},
-        {"item": "phase-fabric", "amount": 88}
+        {"item": "astrolite", "amount": 88}
     ],
     "category": "defense",
     "research": "b-nexus-wall"
