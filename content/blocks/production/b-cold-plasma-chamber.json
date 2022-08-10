@@ -19,7 +19,7 @@
     ]
     },
   "hasPower": true,
-  "hasLiquids": false,
+  "hasLiquids": true,
   "updateEffect": "none",
   "consumes": {
   "power": 0.70,
