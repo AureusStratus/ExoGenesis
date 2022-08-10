@@ -16,6 +16,7 @@
         },
         {
         "type": "DrawLiquidRegion",
+        "drawLiquid": "hydrogen",
         "suffix": "-liquid"
 	  }
     ]

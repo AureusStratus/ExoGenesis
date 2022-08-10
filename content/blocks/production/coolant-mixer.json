@@ -16,6 +16,7 @@
         },
         {
         "type": "DrawLiquidRegion",
+        "drawLiquid": "osmilium-liquid",
         "suffix": "-liquid"
 	  }
     ]
