@@ -3,6 +3,7 @@
     "type": "powerTurret",
     "reload": 740,
     "recoil": 0,
+    "buildVisibility": "editorOnly",
     "rotateSpeed": 0,
     "canOverdrive": false,
     "acceptsCoolant": false,
