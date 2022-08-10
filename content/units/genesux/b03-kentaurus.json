@@ -32,7 +32,7 @@
     "rotate": false,
     "alternate": false,
     "shoot": {
-    "shots": 2
+    "shots": 8
     },
     "velocityRnd": 0.6,
     "reload": 5,
