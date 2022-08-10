@@ -1,5 +1,5 @@
 {  
-    "localizedName": "[#66B1FFFF]Soletux",
+    "localizedName": "[#FF5845FF]Soletux",
     "description": "The Soletux faction.",
     "alwaysUnlocked": true,
     "buildVisibility": "editorOnly",
@@ -8,7 +8,7 @@
     "size": 2,
    "research": {
   "root": true,
-  "name": "[#66B1FFFF]Soletux",
+  "name": "[#FF5845FF]Soletux",
   "requiresUnlock": false
 }
 }
