@@ -3,6 +3,7 @@
 "size": 3,
 "craftTime": 80,
 "hasPower": true,
+"hasLiquids": true,
 "liquidCapacity": 100,
 	"drawer": {
 	"type": "DrawMulti",
