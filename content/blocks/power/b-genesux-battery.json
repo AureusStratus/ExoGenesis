@@ -1,6 +1,6 @@
 {
 	"type": "battery",
-	"size": 1,
+	"size": 2,
 	"absorbLasers": true,
 	"fullLightColor": "79F2EEFF",
 	"emptyLightColor": "565666FF",
