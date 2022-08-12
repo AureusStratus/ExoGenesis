@@ -4,7 +4,7 @@
 "minEfficiency": 1,
 "health": 500,
 "size": 1,
-"powerProduction": 4.5,
+"powerProduction": 0.5,
 "itemCapacity": 10,
 	"drawer": {
 	"type": "DrawMulti",
