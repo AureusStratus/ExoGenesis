@@ -6,7 +6,7 @@
     "reload": 65,
     "shootY": 0,
     "range": 130,
-    "liquidConsumed": 1,
+    "liquidConsumed": 1.8,
     "rotateSpeed": 2,
     "shoot": {
 "type": "shootSpread",
