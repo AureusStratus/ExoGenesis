@@ -1,7 +1,7 @@
 {
 "name": "Challenge",
 "research": {
-"parent": "dagger",
+"parent": "EleFactory",
 "requirements": [
 "oltuxium/100",
 "silicon/200"
