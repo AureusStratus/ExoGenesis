@@ -20,7 +20,7 @@
     "hitSize": 60,
     "health": 190000,
     "armor": 70,
-    "drag": 80,
+    "drag": 0.2,
     "drownTimeMultiplier": 20,
     "flying": false,
     "targetAir": true,
