@@ -1,7 +1,7 @@
 {
 "type": "OreBlock",
 "oreDefault": true,	
-"oreScale": 22.45,
-"oreThreshold": 0.47,
+"oreScale": 54.88,
+"oreThreshold": 0.88,
 "itemDrop": "siradamite"
 }
