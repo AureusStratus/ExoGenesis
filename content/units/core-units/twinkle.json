@@ -18,7 +18,7 @@
     "legContinuousMove": true,
 	"legCount": 4,
 	"legPairOffset": 2,
-	"legLength": 18,
+	"legLength": 22,
 	"allowLegStep": true,
 	"hovering": true,
     "parts": [
@@ -26,7 +26,7 @@
          "type": "FlarePart",
           "color2": "FFFFFF",
           "color1": "A9D8FFFF",
-          "y": 18,
+          "y": 6,
           "followRotation": true,
           "stroke": 3,
           "radius": 6
