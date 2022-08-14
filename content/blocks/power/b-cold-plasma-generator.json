@@ -1,5 +1,7 @@
 {
 "type": "ConsumeGenerator",
+"localizedName": "Cold plasma generator",
+"description": "Uses cold plasma to generate power",
 "displayEfficiency": false,
 "minEfficiency": 1,
 "health": 1400,
