@@ -1,5 +1,7 @@
 {
 "type": "ConsumeGenerator",
+"localizedName": "Astrum genertor",
+"description": "Uses the faint cold energy coming off astrolite to generate power:,
 "displayEfficiency": false,
 "minEfficiency": 1,
 "health": 500,
