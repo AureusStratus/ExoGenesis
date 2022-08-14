@@ -1,7 +1,7 @@
 {
         "type": "flying",
         "lowAltitude": false,
-        "research": "b-mining-drone-builder",
+        "research": "mining-drone-builder",
         "defaultController": "minerAI",
         "mineItems": [
         "astrolite",
