@@ -1,5 +1,7 @@
 {
         "type": "flying",
+        "localizedName": "Mining drone builder",
+        "description": "Genesux often relay on arms of drones, for transport, mining, or attacking",
         "lowAltitude": false,
         "research": "mining-drone-builder",
         "defaultController": "minerAI",
