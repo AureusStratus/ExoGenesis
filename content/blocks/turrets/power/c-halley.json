@@ -55,7 +55,7 @@
         "shootSound": "laser",
 	"consumes" : {
 	"power": 17
-        "liquids": ["Cold-plasma/1.1"],
+        "liquids": ["cold-plasma/1.1"],
          },
         "shootType": {
         "type": "PointLaserBulletType",
