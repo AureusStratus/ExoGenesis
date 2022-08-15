@@ -51,7 +51,7 @@
         "cold-plasma": {
       "type": "ContinuousFlameBulletType",
     "colors": ["66B1FFAA", "66B1FFff", "A9D8FFFF", "E1F2FFFF"],
-    "damage": 10,
+    "damage": 7,
     "flareWidth": 5,
     "flareLength": 48,
     "flareColor": "A9D8FFFF",
