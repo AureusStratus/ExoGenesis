@@ -1,5 +1,7 @@
 {
 "type": "GenericCrafter",
+ "localizedName": "cold plasmic splitter",
+ "description": "Splits cold plasma into hydrogen",	
 "size": 3,
 "craftTime": 80,
 "hasPower": true,
