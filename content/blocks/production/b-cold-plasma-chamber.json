@@ -27,7 +27,7 @@
       "astrolite/1"
     ],
     "liquids": [
-    "water/0.1"
+    "water/0.15"
     ]
   },
   "requirements": [
@@ -37,5 +37,5 @@
   ],
   "category": "crafting",
   "research": "b-silicon-oven",
-  "outputLiquid": "cold-plasma/0.5"
+  "outputLiquid": "cold-plasma/0.15"
 }
