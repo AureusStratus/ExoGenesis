@@ -22,7 +22,7 @@
 	  }
     ]
     },
-"outputLiquids": ["hydrogen/0.3", ["axinian/0.3],
+"outputLiquids": ["hydrogen/0.3", "axinian/0.3"],
 "consumes": {
   "power": 6,
     "liquids": [
