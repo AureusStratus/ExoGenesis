@@ -12,7 +12,7 @@
     "type": "drawTurret",
     "basePrefix": "genesux-"
     },
-        "moveWhileCharging": true,
+        "moveWhileCharging": false,
 		"consumes" : {
 		"power": 90
 		},
