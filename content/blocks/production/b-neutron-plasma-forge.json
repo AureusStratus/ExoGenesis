@@ -65,11 +65,11 @@
         "silicon/150",
         "osmium/80"
 	],
+	"envRequired": 0,
 	"category": "crafting",
 	"research": "b-cold-plasma-fuser",
 	"outputItems": [
 "omega-blue/2", 
-"tungsten/2", 
 "osmium/1", 
 "stellar-steel/1"
 ]
