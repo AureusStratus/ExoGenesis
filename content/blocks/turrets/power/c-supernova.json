@@ -6,6 +6,7 @@
 	"range": 300,
 	"heatColor": "FFFFFFF ",
 	"recoil": 5,
+	"moveWhileCharging": false,
 	"consumes" : {
 		"power": 63
          },
