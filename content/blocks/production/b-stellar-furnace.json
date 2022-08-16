@@ -80,6 +80,7 @@
     "astrolite/140",
     "silicon/80"
   ],
+  "envRequired": 0,
   "category": "crafting",
   "research": "b-silicon-oven",
 	"outputItems": [
