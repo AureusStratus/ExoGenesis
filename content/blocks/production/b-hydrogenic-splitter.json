@@ -16,17 +16,17 @@
         "type": "DrawDefault"
         },
         {
-        "type": "DrawLiquidRegion",
-        "drawLiquid": "hydrogen",
+        "type": "DrawLiquid",
+        "drawLiquid": "cold-plasma",
         "suffix": "-liquid"
 	  }
     ]
     },
-"outputLiquid": "hydrogen/1",
+"outputLiquids": ["hydrogen/0.3", "axinian/0.3],
 "consumes": {
   "power": 6,
     "liquids": [
-    "cold-plasma/1"
+    "cold-plasma/0.6"
     ]
 },
 "requirements": [
