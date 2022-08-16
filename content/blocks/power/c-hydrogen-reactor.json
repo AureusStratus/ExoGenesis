@@ -61,7 +61,7 @@
     },
 	"consumes": {
 		"power": 80.0,
-		"liquids": ["hydrogen/7"]
+		"liquids": ["hydrogen/3"]
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 1000 },
