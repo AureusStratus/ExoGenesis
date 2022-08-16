@@ -24,11 +24,11 @@
 	  }
     ]
     },
-"outputLiquids": ["hydrogen/0.4"],
+"outputLiquids": ["hydrogen/0.2"],
 "consumes": {
   "power": 6,
     "liquids": [
-    "cold-plasma/0.4"
+    "cold-plasma/0.2"
     ]
 },
 "requirements": [
