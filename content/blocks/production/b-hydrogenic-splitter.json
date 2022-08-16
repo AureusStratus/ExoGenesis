@@ -13,14 +13,14 @@
         {
         "type": "DrawRegion",
        "suffix": "-bottom"
-        },
-        {
-        "type": "DrawDefault"
-        },
+	 },
         {
         "type": "DrawLiquidTile",
         "drawLiquid": "cold-plasma",
         "suffix": "-liquid"
+        },
+        {
+        "type": "DrawDefault"
 	  }
     ]
     },
