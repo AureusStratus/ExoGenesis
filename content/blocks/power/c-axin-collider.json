@@ -33,7 +33,7 @@
 	"consumes": {
 		"power": 120.0,
 		"items": ["omega-blue/20", "terrilium/15"],
-		"liquids": ["exogenesis-axinian/8"]
+		"liquids": ["exogenesis-axinian/0.3"]
 	},
 	"requirements": [
         "terrilium/400",
