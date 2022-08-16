@@ -30,7 +30,7 @@
     "shootCone": 20,
     "recoil": 3,
     "rotateSpeed": 2,
-    "shootSound": "laser",
+    "shootSound": "shotgun",
 	"ammoTypes": {
     "omega-blue": {
     "type": "basicBulletType",
