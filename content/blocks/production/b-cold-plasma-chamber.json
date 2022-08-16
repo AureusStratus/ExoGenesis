@@ -16,8 +16,7 @@
         "type": "DrawDefault"
         },
         {
-        "type": "DrawLiquidRegion",
-	"alpha": 0.7,
+        "type": "DrawLiquidTile",
         "drawLiquid": "cold-plasma",
         "suffix": "-liquid"
 	  }
