@@ -34,7 +34,7 @@
     "layerOffset": -0.001,
     "x": 17,
     "y": 0,
-    "shootY": 16,
+    "shootY": 18,
     "rotate": true,
     "rotateSpeed": 0.3,
     "cooldownTime": 90,
