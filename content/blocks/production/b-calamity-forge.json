@@ -222,6 +222,7 @@
         "silicon/5000",
         "osmium/3000"
 	],
+	"envRequired": 0,
 	"category": "crafting",
 	"outputItem": "blue-titan-alloy/2"
 }
