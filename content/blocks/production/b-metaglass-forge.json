@@ -34,6 +34,7 @@
         "tungsten/70",
         "lead/200"
 	],
+	"envRequired": 0,
 	"category": "crafting",
 	"research": "b-stellar-furnace",
 	"outputItem": "terrilium/2"
