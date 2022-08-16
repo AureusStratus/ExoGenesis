@@ -37,6 +37,7 @@
   "stellar-steel/80",
   "astrolite/60"
 ],
+"envRequired": 0,	
 "category": "crafting",
 "research": "b-cold-plasma-chamber"
 }
