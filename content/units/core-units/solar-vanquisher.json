@@ -39,7 +39,7 @@
     "rotateSpeed": 0.3,
     "cooldownTime": 90,
     "rotationLimit": 30,
-    "shootSound": "laser",
+    "shootSound": "beam",
     "alwaysContinuous": true,
     "continuous": true,
     "bullet": {
@@ -47,8 +47,6 @@
     "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
     "damage": 30,
     "flareWidth": 0,
-    "flareLength": 48,
-    "flareColor": "ff8517ff",
     "width": 6,
      "hitEffect": {
     "type": "ParticleEffect",
