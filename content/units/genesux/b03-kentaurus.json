@@ -56,7 +56,7 @@
     "despawnShake": 3,
     "hitSound": "plasmaboom",
     "sprite": "exogenesis-energy-partical",
-    "splashDamage": 80,
+    "splashDamage": 50,
     "splashDamageRadius": 35,
     "spin": 3,
     "keepVelocity": false,
@@ -105,8 +105,8 @@
     }
     ]    
     },
-    "width": 17,
-    "height": 17,
+    "width": 27,
+    "height": 27,
     "lifetime": 30,
     "frontColor": "FFFFFFF",
     "mixColorTo": "A9D8FFFF",
