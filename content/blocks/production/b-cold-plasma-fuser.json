@@ -49,6 +49,7 @@
 		"terrilium/160",
         "astrolite/440"
 	],
+	"envRequired": 0,
 	"category": "crafting",
 	"research": "b-silicon-kiln",
 	"outputItem": "omega-blue/2"
