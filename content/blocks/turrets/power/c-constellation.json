@@ -450,7 +450,6 @@
         "terrilium/1000",
         "siratla-diamond/2000"
     ],
-	"envRequired": 0,
     "category": "turret",
     "research": "c-polaris"
 }
