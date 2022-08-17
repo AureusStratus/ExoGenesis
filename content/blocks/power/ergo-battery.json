@@ -11,15 +11,15 @@
 	"canOverdrive": false,
 	"health": 5000,
 	"consumes": {
-		"powerBuffered": 837000
+		"powerBuffered": 40000
 	},
 	"category": "power",
 	"research": "battery",
 	"requirements": [
 		{ "item": "titanium", "amount": 280 },
 		{ "item": "silicon", "amount": 480 },
-		{ "item": "alpha-yellow", "amount": 290 },
-		{ "item": "phase-fabric", "amount": 520 },
-		{ "item": "surge-alloy", "amount": 100 }
+		{ "item": "omega-blue", "amount": 290 },
+		{ "item": "terrilium", "amount": 520 },
+		{ "item": "stellar-steel", "amount": 100 }
 	]
 }
