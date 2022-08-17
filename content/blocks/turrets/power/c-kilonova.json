@@ -402,6 +402,7 @@
         "siratla-diamond/1200",
         "astrolite/800"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-supernova"
 }
