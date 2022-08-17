@@ -412,6 +412,7 @@
         "silicon/800",
         "stellar-steel/600"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-nebula"
 }
