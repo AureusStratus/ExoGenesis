@@ -784,7 +784,7 @@
 			},
 	"requirements": [
 	    "silicon/10000",
-	    "tungsten/4000",
+	    "urbium/4000",
         "dytrix/7000",
         "siradamite/7750",
         "stellar-steel/8300",
@@ -792,8 +792,6 @@
         "blue-titan-alloy/1000",
         "osmium/4800"
 	],
-	"envRequired": 1,
-	"enDisabled": 4,
 	"category": "turret",
 	"research": "c-constellation"
 }
