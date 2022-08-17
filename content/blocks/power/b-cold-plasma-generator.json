@@ -38,12 +38,11 @@
     ]
     },
 "consumes": {
-        "liquids": ["exogenesis-cold-plasma/1"]
+        "liquids": ["exogenesis-cold-plasma/0.18"]
 	},
 	"requirements": [
         "silicon/600",
         "stellar-steel/500",
-        "osmium/150",
         "lead/600"
 ],
 "envRequired": 0,
