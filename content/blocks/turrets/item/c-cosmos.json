@@ -131,6 +131,8 @@
         "astrolite/60",
         "lead/230"
     ],
+    "envRequired": 0,
+    "enDisabled": 4,
     "category": "turret",
     "research": "c-astral"
 }
