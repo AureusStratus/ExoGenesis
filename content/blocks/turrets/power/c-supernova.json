@@ -84,6 +84,7 @@
     "intervalBullet": {
   "type": "ContinuousFlameBulletType",
     "damage": 40,
+        "colors": ["66B1FFAA", "66B1FFff", "A9D8FFFF", "FFFFFF"],
     "width": 5.5,
 "drawFlare": false,
      "hitEffect": {
