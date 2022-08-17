@@ -21,7 +21,7 @@
     "legExtension": -10,
     "legSpeed": 0.2,
     "legLengthScl": 0.96,
-    "rippleScale": 2,
+    "rippleScale": 0.7,
   "legContinuousMove": true,
     "legSplashDamage": 22,
     "legSplashRange": 30,
