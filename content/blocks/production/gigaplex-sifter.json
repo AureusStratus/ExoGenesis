@@ -1,6 +1,6 @@
 {
     "localizedName": "Giga-plex Sifter",
-    "description": "A massive separator, which sifts through large amounts of slag pulling out many materials, such as osmium, thorium, tungsten and dytrix.",
+    "description": "A massive separator, which sifts through large amounts of slag pulling out many materials, such as osmium, thorium, urbium and dytrix.",
 	"type": "Separator",
 	"size": 9,
     "liquidCapacity": 300,
@@ -23,7 +23,7 @@
   "titanium/800"
 	],
 	"category": "crafting",
-	"research": "gigaton forge",
+	"research": "gigaton-forge",
 	"envRequired": 0,
 	"results": [
   "lead/3",
@@ -31,7 +31,7 @@
   "osmium/1",
   "graphite/2",
   "titanium/1",
-  "tungsten/1",
+  "urbium/1",
   "thorium/2",
   "dytrix/2"
 	]
