@@ -757,14 +757,13 @@
 	"requirements": [
 	"astrolite/10000",
         "thorium/7000",
-        "tungsten/7750",
+        "urbium/7750",
         "stellar-steel/8300",
         "siratla-diamond/6800",
         "blue-titan-alloy/1000",
         "terrilium/3750",
         "osmium/4800"
 	],
-	"envRequired": 0,
 	"category": "turret",
 	"research": "c-kilonova"
 }
