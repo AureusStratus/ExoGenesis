@@ -84,7 +84,7 @@
   "category": "crafting",
   "research": "b-silicon-oven",
 	"outputItems": [
-"tungsten/2", 
+"silicon/1, 
 "stellar-steel/2"
 ]
 }
