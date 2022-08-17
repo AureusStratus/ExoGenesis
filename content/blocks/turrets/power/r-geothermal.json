@@ -3,6 +3,7 @@
 "type": "LiquidTurret",
 "size": 4,
 "range": 200,
+"outlineColor": "1B1B1BFF",	
 "health": 1100,
 "reload": 200,
 "shoot": {
