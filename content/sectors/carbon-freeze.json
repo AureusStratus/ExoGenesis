@@ -5,7 +5,7 @@
 "captureWave": 56,
 "difficulty": 8,
 "research": {
-  "parent": "nuclearComplex"
+  "parent": "extractionOutpost"
 }
 }
 
