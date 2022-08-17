@@ -5,6 +5,7 @@
     "health": 240,
     "reload": 60,
     "recoil": 2,
+    "outlineColor": "1B1B1BFF",
     "rotateSpeed": 5,
     "shootSound": "sap",
     "drawer": {
