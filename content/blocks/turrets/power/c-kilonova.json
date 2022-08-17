@@ -395,14 +395,13 @@
     "backColor": "66B1FFFF"
 	},
 	"requirements": [
-        "tungsten/600",
+        "urbium/600",
         "stellar-steel/400",
         "silicon/1000",
         "osmium/600",
         "siratla-diamond/1200",
         "astrolite/800"
 	],
-	"envRequired": 0,
 	"category": "turret",
 	"research": "c-supernova"
 }
