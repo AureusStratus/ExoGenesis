@@ -3,6 +3,7 @@
 	"size": 13,
 	"health": 1000000,
  "heatColor": "FF5845FF",
+	"outlineColor": "1B1B1BFF",
 	"reload": 300,
 	"range": 550,
 	"shootSound": "laserbig",
