@@ -1,0 +1,11 @@
+{
+"localizedName": "Terraformed",
+"description": "A terrformed zone. The Cruz seem to avoid this place."
+"sector": 214,
+"captureWave": 56,
+"difficulty": 8,
+"research": {
+  "parent": "nuclearComplex"
+}
+}
+
