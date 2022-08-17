@@ -22,7 +22,7 @@
     "shootSound": "plasmaboom",
 	"recoil" : 6.5,
 	"rotateSpeed": 1.5,
-	
+	"outlineColor": "1B1B1BFF",
     "shootType" : {
         "type": "basicBulletType",
         "sprite": "exogenesis-circle-spike",
