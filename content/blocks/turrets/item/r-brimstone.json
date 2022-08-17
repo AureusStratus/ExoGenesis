@@ -3,6 +3,7 @@
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "reload": 185,
+    "outlineColor": "1B1B1BFF",
     "ammoUseEffect": "casing4",
     "range": 450,
     "recoil": 7,
