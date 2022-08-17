@@ -31,7 +31,7 @@
 	"requirements": [
         "stellar-steel/100",
         "astrolite/200",
-        "tungsten/70",
+        "urbium/70",
         "lead/200"
 	],
 	"envRequired": 0,
