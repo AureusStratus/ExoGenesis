@@ -5,6 +5,7 @@
     "health": 140,
     "reload": 70,
     "range": 70,
+    "outlineColor": "1B1B1BFF",
     "targetAir": false,
     "recoil": 3,
     "rotateSpeed": 5,
