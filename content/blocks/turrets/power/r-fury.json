@@ -2,6 +2,7 @@
 "type": "PowerTurret",
 "size": 2,
 "health": 300,
+	"outlineColor": "1B1B1BFF",
 "range": 120,
 "reload": 120,
 "shootSound": "laser",
