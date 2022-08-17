@@ -70,7 +70,7 @@
         "type": "ParticleEffect",
         "particles": 6,
         "length": 40,
-        "lifetime": 36,
+        "lifetime": 56,
         "interp": "circleOut",
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF",
@@ -81,7 +81,7 @@
         "type": "ParticleEffect",
         "line": true,
         "particles": 5,
-        "lifetime": 20,
+        "lifetime": 55,
         "length": 75,
         "cone": -360,
         "lenFrom": 8,
@@ -102,6 +102,7 @@
         "osmium/360",
         "silicon/430"
     ],
+    "envRequired": 0,
     "category": "turret",
     "research": "c-astrology"
 }
