@@ -128,7 +128,7 @@
         {
         "type": "HaloPart",
         "y": -21,
-        "radius": 3,
+        "radius": 4,
         "tri": true,
         "tri": true,
         "layer": 110,
@@ -196,7 +196,7 @@
         {
         "type": "HaloPart",
         "y": -21,
-        "radius": 2.4,
+        "radius": 5.4,
         "tri": true,
         "layer": 110,
         "color": "66B1FFff",
@@ -205,14 +205,14 @@
         "haloRadiusTo": 15,
         "stroke": 0,
         "strokeTo": 3,
-        "shapes": 2,
-        "triLengthTo": 9,
-        "triLength": 9
+        "shapes": 3,
+        "triLengthTo": 6,
+        "triLength": 6
            },
            {
         "type": "HaloPart",
         "y": -21,
-        "radius": 2.4,
+        "radius": 5.4,
         "tri": true,
         "layer": 110,
         "color": "66B1FFff",
@@ -221,9 +221,9 @@
         "haloRadiusTo": 15,
         "stroke": 0,
         "strokeTo": 3,
-        "shapes": 2,
-        "triLengthTo": 9,
-        "triLength": 9
+        "shapes": 3,
+        "triLengthTo": 6,
+        "triLength": 6
 },
  {
        "type": "RegionPart",
