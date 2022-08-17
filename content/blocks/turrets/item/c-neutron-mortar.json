@@ -269,13 +269,11 @@
     },
 	"requirements": [
         "terrilium/470",
-        "astrolite/540",
-        "tungsten/400",
+        "thorium/540",
+        "urbium/400",
         "osmium/360",
         "stellar-steel/800"
 	],
-	"envRequired": 0,
-	"enDisabled": 4,
 	"category": "turret",
 	"research": "c-cosmos"
 }
