@@ -158,6 +158,7 @@
         "omega-blue/400",
         "silicon/500"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-stellar"
 }
