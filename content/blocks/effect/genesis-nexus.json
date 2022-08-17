@@ -7,9 +7,9 @@
     "researchCostMultiplier": 0.06,
     "unitType": "starlight",
 	"requirements": [
-		{ "item": "astrolite", "amount": 4200 },
+		{ "item": "thorium", "amount": 4200 },
 		{ "item": "omega-blue", "amount": 1200},
-		{ "item": "tungsten", "amount": 3000 },
+		{ "item": "urbium", "amount": 3000 },
 		{ "item": "stellar-steel", "amount": 2000 }
 	],
 	"envRequired": 0,
