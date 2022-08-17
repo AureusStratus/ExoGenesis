@@ -4,6 +4,7 @@
 "health": 4680,
 "range": 300,
 "reload": 100,
+"outlineColor": "1B1B1BFF",
 "shootSound": "bang",
 "rotateSpeed": 2.5,
 "shake": 4.5,
