@@ -3,6 +3,7 @@
 "reload": 5,
 "recoil": 0,
 "rotateSpeed": 20,
+"outlineColor": "1B1B1BFF",
 "range": 280,
     "drawer": {
     "type": "drawTurret",
