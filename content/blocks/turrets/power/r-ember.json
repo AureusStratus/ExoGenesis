@@ -4,9 +4,10 @@
 	"health": 1900,
 	"reload": 220,
 	"range": 250,
-"consumes" : {
-		"power": 28
-		},
+    "consumes" : {
+    "power": 28
+    },
+    "outlineColor": "1B1B1BFF",
     "update": true,
     "hasPower": true,
     "drawer": {
