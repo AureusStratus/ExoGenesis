@@ -1,15 +1,15 @@
 {
     "type": "ItemTurret",
-	"reload": 165,
+	"reload": 265,
 	"range": 540,
 	"heatColor": "A9D8FFFF",
 	"size": 7,
 	"maxAmmo": "48",
 	"health": 2650,
 	"rotateSpeed": 1,
-	"shake": 4,
+	"shake": 8,
 	"shootSound": "artillery",
-	"ammoPerShot": 6,
+	"ammoPerShot": 20,
     "recoil": 5,
     "drawer": {
     "type": "drawTurret",
@@ -274,6 +274,7 @@
         "osmium/360",
         "stellar-steel/800"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-cosmos"
 }
