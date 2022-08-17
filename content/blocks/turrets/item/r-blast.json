@@ -4,7 +4,7 @@
 	"health": 1600,
 	"range": 300,
 	"reload" : 250,
-
+        "outlineColor": "1B1B1BFF",
 	"recoil" : 3,
 	"heatColor": "CB1D1DFF",
 	"rotateSpeed": 4.0,
