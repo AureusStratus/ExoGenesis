@@ -12,6 +12,7 @@
 		{ "item": "tungsten", "amount": 3000 },
 		{ "item": "stellar-steel", "amount": 2000 }
 	],
+	"envRequired": 0,
   "category": "effect",
 	"research": "genesis-central"
 }
