@@ -58,7 +58,7 @@
     "colorFrom": "73FFAEFF",
     "colorTo": "57D993FF"
     },
-    "lifetime": 60,
+    "lifetime": 30,
     "despawnEffect": {
     "type": "MultiEffect",
 	"effects": [
