@@ -1,6 +1,7 @@
  {
 	"type": "ItemTurret",
 	"size": 8,
+	"outlineColor": "1B1B1BFF",
 	"accurateDelay": true,
 	"health": 8660,
 	"range": 500,
