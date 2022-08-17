@@ -6,7 +6,7 @@
     "reload": 30,
     "range": 140,
     "maxAmmo": 20,
-    
+    "outlineColor": "1B1B1BFF",
     "recoil": 0.7,
     "rotateSpeed": 3,
      "shoot": {
