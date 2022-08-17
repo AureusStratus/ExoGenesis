@@ -5,6 +5,7 @@
     "reload": 260,
     "ammoUseEffect": "casing4",
     "range": 500,
+    "outlineColor": "1B1B1BFF",
     "recoil": 8,
     "shake": 10,
     "consumes": {
