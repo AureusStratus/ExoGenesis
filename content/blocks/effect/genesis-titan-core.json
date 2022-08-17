@@ -8,7 +8,7 @@
     "researchCostMultiplier": 0.03,
     "unitType": "stardust-voyager",
 	"requirements": [
-	    "terrilium/2400",
+	"terrilium/2400",
         "dytrix/4180",
         "osmium/2000",
         "blue-titan-alloy/200",
