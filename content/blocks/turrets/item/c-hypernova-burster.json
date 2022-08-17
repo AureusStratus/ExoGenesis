@@ -791,6 +791,7 @@
         "omega-blue/6800",
         "blue-titan-alloy/1000",
         "osmium/4800"
+        "envRequired": 0,
 	],
 	"category": "turret",
 	"research": "c-constellation"
