@@ -755,7 +755,7 @@
         "backColor": "66B1FFFF"
 	    },
 	"requirements": [
-	    "astrolite/10000",
+	"astrolite/10000",
         "thorium/7000",
         "tungsten/7750",
         "stellar-steel/8300",
@@ -764,6 +764,7 @@
         "terrilium/3750",
         "osmium/4800"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-kilonova"
 }
