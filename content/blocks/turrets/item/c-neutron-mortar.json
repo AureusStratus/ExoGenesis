@@ -275,6 +275,7 @@
         "stellar-steel/800"
 	],
 	"envRequired": 0,
+	"enDisabled": 4,
 	"category": "turret",
 	"research": "c-cosmos"
 }
