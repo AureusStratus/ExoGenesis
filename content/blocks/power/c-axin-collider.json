@@ -44,6 +44,7 @@
         "omega-blue/1200",
         "stellar-steel/900"
 	],
+	"envRequired": 0,
 	"category": "power",
     "loopSound": "pulse",
     "loopSoundVolume": 2,
