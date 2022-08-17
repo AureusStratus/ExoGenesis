@@ -141,6 +141,7 @@
         "osmium/420",
         "silicon/340"
     ],
+    "envRequired": 0,
     "category": "turret",
     "research": "c-cosmos"
 }
