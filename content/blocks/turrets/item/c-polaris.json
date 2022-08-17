@@ -33,7 +33,7 @@
             "particles": 1,
             "length": 0,
             "lifetime": 25,
-            "sizeFrom": 20,
+            "sizeFrom": 35,
             "region": "exogenesis-blue-pierce",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
@@ -124,8 +124,8 @@
 		}
 	},
 	"consumes" : {
-		"power": 80
-			},
+	"power": 80
+	},
 	"requirements": [
         "stellar-steel/520",
         "omega-blue/550",
@@ -133,6 +133,7 @@
         "osmium/500",
         "siradamite/500"
 	],
+	"envRequired": 0,
 	"category": "turret",
 	"research": "c-halley"
 }
