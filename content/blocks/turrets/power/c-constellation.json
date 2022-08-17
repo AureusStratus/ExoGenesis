@@ -15,7 +15,7 @@
     "basePrefix": "genesux-"
     },
    	"consumes" : {
-	"power": 37
+	"power": 67
     },
     "chargeSound": "lasercharge",
     "shoot": {
@@ -450,6 +450,7 @@
         "terrilium/1000",
         "siratla-diamond/2000"
     ],
+	"envRequired": 0,
     "category": "turret",
     "research": "c-polaris"
 }
