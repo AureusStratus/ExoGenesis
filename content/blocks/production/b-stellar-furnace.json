@@ -83,8 +83,8 @@
   "envRequired": 0,
   "category": "crafting",
   "research": "b-silicon-oven",
-	"outputItems": [
-"silicon/1, 
-"stellar-steel/2"
-]
+  "outputItems": [
+  "silicon/1", 
+  "stellar-steel/2"
+  ]
 }
