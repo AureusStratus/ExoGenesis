@@ -29,7 +29,7 @@
 "shoot": {
     "firstShotDelay": 60
 },
-  "shootStatus": "unmoving",
+    "shootStatus": "unmoving",
   "shootStatusDuration": 60,
     "shootSound": "laser",
     "parentizeEffects": true,
