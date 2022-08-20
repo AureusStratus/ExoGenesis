@@ -5,7 +5,13 @@
 	"reload": 220,
 	"range": 250,
     "consumes" : {
-    "power": 28
+    "power": 28,
+	"liquid": {
+	"liquid": "slag",
+	"optional": true,
+	"update": false,
+	"amount": 0.4
+	}    
     },
     "outlineColor": "1B1B1BFF",
     "update": true,
