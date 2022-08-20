@@ -22,7 +22,7 @@
     "engineSize": 3.4,
     "range": 150,
     "targetAir": true,
-    "faceTarget": true,
+    "faceTarget": false,
 	"weapons": [
 	    {
 	 "x": 11.5,
@@ -35,10 +35,10 @@
     "shots": 8
     },
     "velocityRnd": 0.6,
-    "reload": 5,
+    "reload": 75,
     "ignoreRotation": true,
     "shootSound": "plamsadrop",
-    "inaccuracy": 23,
+    "inaccuracy": 29,
     "bullet": {
     "damage": 10,
     "speed": -1.5,
@@ -105,8 +105,8 @@
     }
     ]    
     },
-    "width": 27,
-    "height": 27,
+    "width": 37,
+    "height": 37,
     "lifetime": 30,
     "frontColor": "FFFFFFF",
     "mixColorTo": "A9D8FFFF",
