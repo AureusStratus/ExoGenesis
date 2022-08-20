@@ -2,7 +2,7 @@
         "type": "flying",
         "lowAltitude": false,
         "defaultController": "minerAI",
-        "speed": 6.0,
+        "speed": 4.0,
         "mineItems": [
         "titanium",
         "thorium",
