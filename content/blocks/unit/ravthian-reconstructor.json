@@ -25,6 +25,8 @@
 		{"item": "surge-alloy", "amount": 1280}
 	],
 	"upgrades": [
+		["b05-sirius", "b06-eros"],
+		["b05-centauri", "b06-altair"],
 		["core", "fusion"],
 		["eruption", "volcanic"],
 		["hostile", "assault"],
