@@ -22,6 +22,7 @@
     "engineSize": 3.4,
     "range": 150,
     "targetAir": true,
+    "circleTarget": true,
     "faceTarget": false,
 	"weapons": [
 	    {
