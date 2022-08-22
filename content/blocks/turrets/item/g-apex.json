@@ -3,43 +3,122 @@
 	"size": 8,
 	"health": 8660,
 	"range": 580,
-	"reload" : 210,
+	"reload" : 310,
 
 	"targetAir" : false, 
-	"heatColor": "73FFAEFF",
 	"recoil" : 6,
-	"rotateSpeed": 1.0,
+	"rotateSpeed": 1.5,
+        "moveWhileCharging": false,
 	"shake" : 10,
-    "shoot": {
-    "firstShotDelay": 80
-    },
-    "drawer": {
-    "type": "drawTurret",
-    "basePrefix": "quantra-"
-    },     
+        "smoothReloadSpeed": 0.15,
+        "shootWarmupSpeed": 0.05,
+        "minWarmup": 0.8,
+        "shoot": {
+        "firstShotDelay": 80
+        },
+        "drawer": {
+        "type": "drawTurret",
+         "basePrefix": "quantra-"
+         "parts": [
+         {
+         "type": "RegionPart",
+         "colorTo": "BCFF73AA",
+         "color": "BCFF7300",
+         "progress": "warmup",
+         "blending": "additive",
+         "layerOffset": 0.002,
+         "moveY": -7,
+         "outline": false,
+         "suffix": "-radiation-glow"
+         },
+         { 
+        "type": "RegionPart",
+         "progress": "warmup",
+         "moveY": -7,
+         "outlineLayerOffset": 0.001,
+         "suffix": "-body"
+          },
+         { 
+        "type": "RegionPart",
+         "mirror": true,
+         "under": true,
+         "progress": "warmup",
+          "moves": [
+         {
+         "type": "PartMove",
+         "progress": "recoil",
+         "rot": -7
+         }
+         ],
+         "layerOffset": -0.001,
+         "moveRot": -19,
+         "moveY": -9,
+          "moveX": 14,
+          "x": 15,
+         "suffix": "-wing-large"
+         },
+         { 
+        "type": "RegionPart",
+         "mirror": true,
+         "under": true,
+         "progress": "warmup",
+         "layerOffset": -0.001,
+         "moveRot": 9,
+         "moveY": 12,
+          "moveX": 3,
+          "x": 15,
+          "moves": [
+         {
+         "type": "PartMove",
+          "progress": "recoil",
+         "X": -9
+         }
+         ],
+         "suffix": "-wingmain"
+          },
+          {
+          "type": "RegionPart",
+          "mirror": true,
+          "progress": "warmup",
+          "moves": [
+         {
+         "type": "PartMove",
+         "progress": "recoil",
+         "Y": -8
+         "rot": -6
+         }
+         ],
+          "x": 15,
+          "under": true,
+         "suffix": "-wingmain"
+        }
+        ]
+        },     
 	"shootSound": "matter",
 	"chargeSound": "grinding",
 	"ammoTypes": {
         "gamma-green": {
-		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-electric-pulse", 
+	"type" : "BasicBulletType",
+	"sprite" : "exogenesis-plasma",
+        "scaleLife": true,
 	"chargeEffect": {
 	"type": "MultiEffect",
 	"lifetime": 80,
+        "rotWithParent": true,
+        "followParent": true,
 	"effects": [
-{
+       {
     "type": "ParticleEffect",
     "particles": 1,
-    "sizeFrom": 10,
-    "sizeTo": 1,
-    "interp": "bounceOut",
+    "sizeFrom": 1,
+    "sizeTo": 20,
+    "interp": "swing",
     "length": 0,
     "lifetime": 80,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF",
-    "cone": 360
+    "colorFrom": "BCFF73FF",
+    "colorTo": "BCFF73FF"
     },
-	{     
+    {     
     "type": "ParticleEffect",
     "line": true,
     "particles": 15,
@@ -50,270 +129,18 @@
     "cone": -360,
     "lenFrom": 20,
     "lenTo": 0,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF"
+    "colorFrom": "BCFF73FF",
+    "colorTo": "BCFF73B0"
 	},
 	{     
     "type": "WaveEffect",
     "lifetime": 70,
-    "sizeFrom": 65,
+    "sizeFrom": 95,
     "sizeTo": 0,
     "strokeFrom": 0,
     "strokeTo": 7,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF"
-	}
-	]
-	},
-        "trailChance": 1,
-        "trailEffect": {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "sizeFrom": 25,
-        "sizeTo": 25,
-        "region": "exogenesis-pulse-trail",
-        "length": 0,
-        "lifetime": 15,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAE00"
-        },
-		"damage": 8500,	
-        "trailRotation": true,
-		"absorbable": false,
-		"height" : 46,
-		"width" : 46,
-		"status": "exogenesis-irradiated",
-	    "hitShake" : 5,
-		"hitSize": 35,
-		"speed": 6,
-		"buildingDamageMultiplier": 0.3,
-		"homingPower": 0.0289,
-		"homingRange": 180,
-		"lifetime" : 100,
-		"shrinkX": 0,
-		"shrinkY": 0,
-        "hitEffect": {
-        "type": "multiEffect",
-        "effects": [
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0.5,
-        "particles": 5,
-        "length": 100,
-        "baseLength": 30,
-        "lifetime": 80,
-        "interp": "exp5",
-        "lightColor": "73FFAEFF",
-        "sizeFrom": 24,
-        "sizeTo": 13,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D99310"
-        },
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0.5,
-        "particles": 5,
-        "length": 150,
-        "baseLength": 30,
-        "lifetime": 90,
-        "interp": "exp5",
-        "lightColor": "73FFAEFF",
-        "sizeFrom": 27,
-        "sizeTo": 19,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D99310"
-        },
-        {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 35,
-        "lifetime": 30,
-        "length": 145,
-        "offset": 40,
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "cone": -360,
-        "lenFrom": 20,
-        "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-	    },
-	    {     
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 100,
-        "lightColor": "73FFAEFF",
-        "interp": "circleOut",
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 80,
-        "lightColor": "73FFAEFF",
-        "interp": "circleOut",
-        "strokeFrom": 7,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        }
-        ]
-        },
-        "despawnEffect": {
-        "type": "multiEffect",
-        "effects": [
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0.5,
-        "particles": 5,
-        "length": 100,
-        "baseLength": 30,
-        "lifetime": 80,
-        "interp": "exp5",
-        "lightColor": "73FFAEFF",
-        "sizeFrom": 24,
-        "sizeTo": 13,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D99310"
-        },
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0.5,
-        "particles": 5,
-        "length": 150,
-        "baseLength": 30,
-        "lifetime": 90,
-        "interp": "exp5",
-        "lightColor": "73FFAEFF",
-        "sizeFrom": 27,
-        "sizeTo": 19,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D99310"
-        },
-        {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 35,
-        "lifetime": 30,
-        "length": 145,
-        "offset": 40,
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "cone": -360,
-        "lenFrom": 20,
-        "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-	    },
-	    {     
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 100,
-        "lightColor": "73FFAEFF",
-        "interp": "circleOut",
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 80,
-        "lightColor": "73FFAEFF",
-        "interp": "circleOut",
-        "strokeFrom": 7,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        }
-        ]
-        },
-		"shootEffect": {
-		"type": "multiEffect",
-        "effects": [
-        {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 100,
-        "interp": "circleOut",
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 80,
-        "interp": "circleOut",
-        "strokeFrom": 7,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        }
-        ]
-		},
-		"pierce": true,
-        "lightColor": "73FFAEFF",
-        "frontColor": "FFFFFFFF",
-		"backColor": "73FFAEFF"
-        },
-        "plastanium": {
-		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-plasma",
-	"chargeEffect": {
-	"type": "MultiEffect",
-	"lifetime": 80,
-	"effects": [
-{
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 10,
-    "sizeTo": 1,
-    "interp": "bounceOut",
-    "length": 0,
-    "lifetime": 80,
-     "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
-    "cone": 360
-    },
-	{     
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 30,
-    "length": 45,
-    "offset": 4,
-    "baseLength": -45,
-    "cone": -360,
-    "lenFrom": 20,
-    "lenTo": 0,
-   "colorFrom": "DBFFBDFF",
-        "colorTo": "B6FC7D10"
-	},
-	{     
-    "type": "WaveEffect",
-    "lifetime": 70,
-    "sizeFrom": 65,
-    "sizeTo": 0,
-    "strokeFrom": 0,
-    "strokeTo": 7,
-     "colorFrom": "DBFFBDFF",
-        "colorTo": "B6FC7D10"
+     "colorFrom": "BCFF73FF",
+    "colorTo": "BCFF73B0"
 	}
 	]
 	},
@@ -323,44 +150,106 @@
         "type": "ParticleEffect",
         "particles": 1,
         "sizeFrom": 20,
-        "sizeTo": 10,
+        "sizeTo": 13,
         "length": 0,
-        "lifetime": 15,
-        "colorFrom": "B6FC7DFF",
-        "colorTo": "B6FC7D00"
+        "lifetime": 20,
+        "colorFrom": "BCFF73FF",
+        "colorTo": "BCFF7300"
         },
-		"damage": 2000,	
-		"statusDuration": 150,
-		"status": "exogenesis-xegon-fier",
-		"absorbable": false,
-		"splashDamage" : 7400,
-		"splashDamageRadius" : 90,	
-		"height" : 35,
-		"width" : 35,
-		"spin": 7,
-	    "hitShake" : 5,
-		"speed": 3,
-		"hitSize": 30,
-		"lifetime" : 160,
-		"buildingDamageMultiplier": 0.3,
-		"shrinkX": 0,
-		"shrinkY": 0,
+	"statusDuration": 150,
+	"status": "exogenesis-xegon-fier",
+	"absorbable": false,
+	"splashDamage" : 7400,
+        "collides": false,
+        "scaledSplashDamage" : true,
+	"splashDamageRadius" : 90,	
+	"height" : 35,
+	"width" : 35,
+	"spin": 7,
+	"hitShake" : 12,
+	"speed": 3,
+	"hitSize": 30,
+	"lifetime" : 160,
+	"buildingDamageMultiplier": 0.7,
+	"shrinkX": 0,
+	"shrinkY": 0,
         "hitEffect": {
         "type": "multiEffect",
         "effects": [
         {
         "type": "ParticleEffect",
+        "region": "exogenesis-raysingle",
+        "lightOpacity": 0.5,
+        "particles": 1,
+        "length": 0,
+        "randLength": false,
+        "useRotation": false,
+        "casingFlip": true,
+        "lifetime": 200,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "BCFF73FF",
+        "sizeFrom": 224,
+        "sizeTo": 1,
+        "colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73B0"
+        },
+        {
+         "type": "ParticleEffect",
+      "lifetime": 200,
+      "length": 0,
+      "sizeFrom": 65,
+      "sizeTo": 0,
+      "spin": 1,
+      "interp": "circleOut",
+      "sizeInterp": "pow5In",
+      "particles": 1,
+      "region": "exogenesis-plasma-gas1",
+      "colorFrom": "BCFF73FF",
+      "colorTo": "BCFF73FF"
+      },
+      {
+      "type": "ParticleEffect",
+      "lifetime": 200,
+      "length": 0,
+      "sizeFrom": 85,
+      "sizeTo": 0,
+      "interp": "circleOut",
+      "sizeInterp": "pow5In",
+      "spin": 2,
+      "particles": 1,
+      "region": "exogenesis-plasma-gas2",
+      "colorFrom": "BCFF73AA",
+      "colorTo": "BCFF73AA"
+      },
+      {
+      "type": "ParticleEffect",
+      "lifetime": 200,
+      "length": 0,
+      "sizeFrom": 105,
+      "sizeTo": 0,
+      "interp": "circleOut",
+      "sizeInterp": "pow5In",
+      "spin": 3,
+      "particles": 1,
+      "region": "exogenesis-plasma-gas3",
+      "colorFrom": "BCFF7390",
+      "colorTo": "BCFF7390"
+       }
+       {
+        "type": "ParticleEffect",
         "lightOpacity": 0.5,
         "particles": 30,
         "length": 130,
         "baseLength": 30,
-        "lifetime": 80,
-        "interp": "exp5",
-        "lightColor": "DBFFBDFF",
+        "lifetime": 180,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "BCFF73FF",
         "sizeFrom": 24,
         "sizeTo": 1,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "B6FC7D10"
+        "colorFrom": "BCFF73FF",
+        "colorTo": "7FD957B0"
         },
         {
         "type": "ParticleEffect",
@@ -368,41 +257,42 @@
         "particles": 20,
         "length": 150,
         "baseLength": 30,
-        "lifetime": 90,
-        "interp": "fade",
+        "lifetime": 130,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
         "lightColor": "DBFFBDFF",
         "sizeFrom": 30,
-        "sizeTo": 23,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "B6FC7D10"
+        "sizeTo": 0,
+         "colorFrom": "BCFF73FF",
+        "colorTo": "7FD957B0"
         },
         {
         "type": "ParticleEffect",
         "line": true,
         "particles": 35,
-        "lifetime": 30,
+        "lifetime": 60,
         "length": 175,
         "offset": 40,
         "strokeFrom": 5,
         "strokeTo": 0,
-        "lightColor": "DBFFBDFF",
+        "lightColor": "BCFF73FF",
         "cone": -360,
         "lenFrom": 20,
         "lenTo": 0,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "B6FC7DFF"
+        "colorFrom": "BCFF73FF",
+        "colorTo": "7FD957FF"
         },
         {
         "type": "ParticleEffect",
         "particles": 40,
         "offset": 50,
         "length": 250,
-        "lifetime": 50,
+        "lifetime": 70,
         "interp": "pow3In",
         "sizeInterp": "pow5Out",
         "cone": 360,
-	    "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
         "sizeFrom": 8,
         "sizeTo": 1
         },
@@ -411,13 +301,13 @@
         "particles": 40,
         "offset": 50,
         "length": 300,
-        "lifetime": 60,
+        "lifetime": 90,
         "interp": "pow3In",
         "sizeInterp": "pow5Out",
         "cone": 360,
-	    "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
-        "sizeFrom": 8,
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
+        "sizeFrom": 9,
         "sizeTo": 1
         },
         {
@@ -425,13 +315,13 @@
         "particles": 40,
         "offset": 50,
         "length": 350,
-        "lifetime": 70,
+        "lifetime": 110,
         "interp": "pow3In",
         "sizeInterp": "pow5Out",
         "cone": 360,
-	    "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
-        "sizeFrom": 8,
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
+        "sizeFrom": 11,
         "sizeTo": 1
         },
         {
@@ -443,8 +333,8 @@
         "interp": "pow3In",
         "sizeInterp": "pow5Out",
         "cone": 360,
-	    "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
         "sizeFrom": 8,
         "sizeTo": 1
         },
@@ -453,53 +343,196 @@
         "lifetime": 35,
         "sizeFrom": 0,
         "sizeTo": 200,
-        "lightColor": "DBFFBDFF",
+        "lightColor": "BCFF73FF",
         "interp": "circleOut",
-        "strokeFrom": 14,
+        "strokeFrom": 19,
         "strokeTo": 0,
-        "colorFrom": "DBFFBDAA",
-        "colorTo": "DBFFBDAA"
+ 	"colorFrom": "BCFF73AA",
+        "colorTo": "BCFF73AA"
 	    },
 	    {     
         "type": "WaveEffect",
         "lifetime": 25,
         "sizeFrom": 0,
         "sizeTo": 130,
-        "lightColor": "DBFFBDFF",
+        "lightColor": "BCFF73FF",
         "interp": "circleOut",
-        "strokeFrom": 5,
+        "strokeFrom": 10,
         "strokeTo": 0,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF"
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
         },
         {
         "type": "WaveEffect",
         "lifetime": 25,
         "sizeFrom": 0,
         "sizeTo": 100,
-        "lightColor": "DBFFBDFF",
+        "lightColor": "BCFF73FF",
         "interp": "circleOut",
         "strokeFrom": 7,
         "strokeTo": 0,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF"
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
         }
         ]
         },
-		"shootEffect": {
-		"type": "multiEffect",
+	"shootEffect": {
+	"type": "multiEffect",
         "effects": [
         {
-		"type": "ParticleEffect",
+	"type": "ParticleEffect",
         "particles": 30,
         "offset": 50,
         "length": 100,
         "lifetime": 50,
-        "interp": "pow3In",
-        "sizeInterp": "pow5Out",
         "cone": 360,
-	    "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF",
+	"colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF",
+        "sizeFrom": 11,
+        "sizeTo": 1
+		},
+		{
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 100,
+        "lightColor": "BCFF73FF",
+        "interp": "circleOut",
+        "strokeFrom": 7,
+        "strokeTo": 0,
+        "colorFrom": "BCFF73FF",
+        "colorTo": "BCFF73FF"
+        }
+        ]
+        },
+	 "frontColor": "FFFFFFFF",
+	"backColor": "BCFF73FF"
+	},
+        "thorium": {
+        "type" : "BasicBulletType",
+	"sprite" : "exogenesis-plasma",
+        "scaleLife": true,
+	"chargeEffect": {
+	"type": "MultiEffect",
+	"lifetime": 80,
+         "rotWithParent": true,
+        "followParent": true,
+	"effects": [
+       {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 20,
+    "interp": "swing",
+    "length": 0,
+    "lifetime": 80,
+    "colorFrom": "BF92F9FF",
+    "colorTo": "BF92F9FF"
+    },
+    {     
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 30,
+    "length": 45,
+    "offset": 4,
+    "baseLength": -45,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "BF92F9FF",
+    "colorTo": "BF92F9B0"
+	},
+	{     
+    "type": "WaveEffect",
+    "lifetime": 70,
+    "sizeFrom": 95,
+    "sizeTo": 0,
+    "strokeFrom": 0,
+    "strokeTo": 7,
+     "colorFrom": "BF92F9FF",
+    "colorTo": "BF92F9B0"
+	}
+	]
+	},
+        "trailChance": 1,
+        "trailRotation": true,
+        "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 17,
+        "sizeTo": 14,
+        "length": 0,
+        "lifetime": 20,
+        "colorFrom": "BF92F9FF",
+        "colorTo": "BF92F900"
+        },
+	"collides": false,	
+	"statusDuration": 100,
+	"status": "blasted",
+	"absorbable": false,
+	"splashDamage" : 1400,
+        "scaledSplashDamage": true,
+	"splashDamageRadius": 60,	
+	"height" : 26,
+	"width" : 26,
+	"hitShake" : 12,
+	"speed": 3,
+	"hitSize": 30,
+	"lifetime" : 160,
+	"buildingDamageMultiplier": 0.3,
+	"shrinkX": 0,
+	"shrinkY": 0,
+        "hitEffect": "reactorExplosion",
+	"shootEffect": {
+	"type": "multiEffect",
+        "effects": [
+        {
+	"type": "ParticleEffect",
+        "particles": 30,
+        "offset": 50,
+        "length": 100,
+        "lifetime": 50,
+        "cone": 360,
+        "colorFrom": "BF92F9FF",
+        "colorTo": "BF92F9FF",
+        "sizeFrom": 11,
+        "sizeTo": 1
+		},
+		{
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 100,
+        "lightColor": "BF92F9FF",
+        "interp": "circleOut",
+        "strokeFrom": 7,
+        "strokeTo": 0,
+        "colorFrom": "BF92F9FF",
+        "colorTo": "BF92F9FF"
+        }
+        ]
+        },
+	"frontColor": "FFFFFF",
+        "backColor": "BF92F9FF"
+        },
+        "valvanite": {
+        "type": "BasicBulletType",
+        "shrinkY": 0.3,
+        "shrinkX": 0.3,
+        "damage": 60,
+        "shootEffect": {
+	"type": "multiEffect",
+        "effects": [
+        {
+	"type": "ParticleEffect",
+        "particles": 30,
+        "offset": 50,
+        "length": 100,
+        "lifetime": 50,
+        "cone": 360,
+          "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
         "sizeFrom": 8,
         "sizeTo": 1
 		},
@@ -508,22 +541,100 @@
         "lifetime": 25,
         "sizeFrom": 0,
         "sizeTo": 100,
-        "lightColor": "DBFFBDFF",
+        "lightColor": "BF92F9FF",
         "interp": "circleOut",
-        "strokeFrom": 7,
+        "strokeFrom": 11,
         "strokeTo": 0,
-        "colorFrom": "DBFFBDFF",
-        "colorTo": "DBFFBDFF"
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
         }
         ]
         },
-		"frontColor": "DBFFBDFF",
-		"backColor": "B6FC7DFF"
-		}
+"chargeEffect": {
+	"type": "MultiEffect",
+	"lifetime": 80,
+         "rotWithParent": true,
+        "followParent": true,
+	"effects": [
+       {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 1,
+    "sizeTo": 14,
+    "interp": "swing",
+    "length": 0,
+    "lifetime": 80,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
+    },
+    {     
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 30,
+    "length": 45,
+    "offset": 4,
+    "baseLength": -45,
+    "cone": -360,
+    "lenFrom": 20,
+    "lenTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEB0"
+	},
+	{     
+    "type": "WaveEffect",
+    "lifetime": 70,
+    "sizeFrom": 95,
+    "sizeTo": 0,
+    "strokeFrom": 0,
+    "strokeTo": 7,
+     "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEB0"
+	}
+	]
+	},
+      "spawnBullets": [
+    {
+    "fragBullets": 18,
+    "fragRandomSpread": 0,
+    "fragVelocityMin": 0.75,
+    "fragSpread": 4,
+    "fragBullet": {
+    "damage": 60,
+    "buildingDamageMultiplier": 0.3,
+    "shrinkX": 0,
+    "shrinkY": 0,
+    "speed": 6.5,
+    "height" : 26,
+    "width" : 20,
+    "type": "BasicBulletType",
+    "sprite": "large-orb",
+    "bulletInterval": 1,
+    "intervalBullet": {
+       "type": "LightningBulletType",
+    "status": "corroded",
+	"lightningColor": "73FFAEFF",
+	"damage": 48,
+    "lightningLength": 10
+    },
+    "scaleLife": true,
+    "lifetime": 90,
+    "trailColor": "73FFAEFF",
+    "trailLength": 8,
+    "trailWidth": 3.5,
+    "frontColor": "FFFFFF",
+    "backColor": "73FFAEFF"
+    },
+    "type": "BulletType",
+    "lifetime": 0
+        }
+        ],
+        "instantDisappear": true
+            }
 	},
 	"consumes" : {
-		"power": 20
-			},
+	"power": 50
+	},
 	"requirements": [
         "lead/1250",
         "osmium/400",
