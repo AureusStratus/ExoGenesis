@@ -54,7 +54,7 @@
   },
   "requirements": [
     "lead/250",
-    "tungsten/260",
+    "urbium/260",
     "omega-blue/200",
     "astrolite/400"
   ],
