@@ -162,7 +162,7 @@
 	"splashDamage" : 7400,
         "collides": false,
         "scaledSplashDamage" : true,
-	"splashDamageRadius" : 90,	
+	"splashDamageRadius" : 110,	
 	"height" : 35,
 	"width" : 35,
 	"spin": 7,
