@@ -1,6 +1,6 @@
 {
         "type": "flying",
-        "localizedName": "Mining drone builder",
+        "localizedName": "Mining drone",
         "description": "Genesux often relay on arms of drones, for transport, mining, or attacking",
         "lowAltitude": false,
         "research": "mining-drone-builder",
