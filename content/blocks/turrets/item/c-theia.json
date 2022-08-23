@@ -56,7 +56,7 @@
 		   "frontColor": "F9A3C7FF",
 		   "backColor": "CB8EBFFF"
             },
-            "tungsten": {
+            "dytrix": {
 	    "pierceArmor": true,
             "speed": 18,
             "trailColor": "8EE1FFFF",
