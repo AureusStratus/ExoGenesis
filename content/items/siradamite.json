@@ -1,7 +1,7 @@
 {
     "cost": 1,
     "color": "A9D8FFFF",
-     "hardness": 5,
+     "hardness": 4,
     "research": {
     "parent": "astrolite",
     "requirements": [
