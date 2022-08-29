@@ -131,7 +131,7 @@
     "lightningLength": 5,
     "speed": 3.5,
     "lifetime": 140,
-    "damage": 4560,
+    "damage": 1560,
     "height": 28,
     "width": 28,
     "radius": 100,
@@ -389,8 +389,8 @@
     "status": "exogenesis-high-energy-blast",
     "statusDuration": 150
     },
-    "splashDamageRadius": 54,
-    "splashDamage": 476,
+    "splashDamageRadius": 74,
+    "splashDamage": 2476,
     "frontColor": "E1F2FFFF",
     "backColor": "66B1FFFF"
 	},
