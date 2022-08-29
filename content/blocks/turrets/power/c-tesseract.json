@@ -15,7 +15,7 @@
     "shootWarmupSpeed": 0.07,
 	"consumes" : {
 	"power": 200
-	"liquids": ["exogenesis-axanian/3.52"],
+	"liquids": ["exogenesis-axanian/1.52"],
     },
     "drawer": {
     "type": "drawTurret",
@@ -745,13 +745,9 @@
         "absorbable": false,
         "speed": 28,
         "lifetime": 45,
-        "damage": 40000,
+        "damage": 14000,
         "height": 45,
         "width": 32,
-        "homingRange": 280,
-        "homingPower": 0.07,
-        "splashDamageRadius": 80,
-        "splashDamage": 7000,
         "frontColor": "E1F2FFFF",
         "backColor": "66B1FFFF"
 	    },
