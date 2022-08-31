@@ -7,6 +7,9 @@
 "reload": 120,
 "shootSound": "laser",
 "rotateSpeed": 3,
+"consumes" : {
+		"power": 4
+         },
 "shake": 2.5,
     "drawer": {
     "type": "drawTurret",
