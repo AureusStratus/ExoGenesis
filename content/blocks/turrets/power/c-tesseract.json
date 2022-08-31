@@ -15,7 +15,7 @@
     "shootWarmupSpeed": 0.07,
 	"consumes" : {
 	"power": 200
-	"liquids": ["exogenesis-axanian/1.52"],
+	"liquids": ["exogenesis-axinian/1.52"],
     },
     "drawer": {
     "type": "drawTurret",
