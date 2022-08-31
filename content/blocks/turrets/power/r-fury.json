@@ -8,7 +8,7 @@
 "shootSound": "laser",
 "rotateSpeed": 3,
 "consumes" : {
-		"power": 4
+		"power": 8
          },
 "shake": 2.5,
     "drawer": {
