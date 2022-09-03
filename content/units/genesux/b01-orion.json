@@ -120,7 +120,7 @@
          ],
     "top": false,
     "rotate": false,
-    "shootSound": "laser",
+    "shootSound": "blaster",
     "shootCone": 45,
     "bullet": {
     "type": "EmpBulletType",
