@@ -141,7 +141,7 @@
   "cooldownTime": 390,
   "soundPitchMin": 1,
     "chargeSound": "lasercharge",
-    "shootSound": "coolplasmaboom",
+    "shootSound": "shootSmite",
     "bullet": {
     "keepVelocity": false,
     "chargeEffect": {
