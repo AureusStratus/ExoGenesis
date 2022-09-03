@@ -50,5 +50,11 @@
     ],
     "category": "turret",
     "shootSound": "spark",
-	"research": "g-gloun"
+  "research": {
+  "parent": "g-gloun",
+  "objectives": [
+  "g-gloun",
+  "g-ioner"
+  ]
+}
 }
