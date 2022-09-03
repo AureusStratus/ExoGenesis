@@ -38,7 +38,7 @@
     "reload": 12,
     "recoil": 2,
     "inaccuracy": 3,
-    "shootSound": "bang",
+    "shootSound": "shootAlt",
     "mirror": true,
     "alternate": true,
     "rotate": true,
