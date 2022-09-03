@@ -483,7 +483,7 @@
     "recoil": 2,
     "shake": 2,
     "rotate": true,
-    "shootSound": "shootBig",
+    "shootSound": "pulseBlast",
     "shootCone": 45,
 	"bullet": {
    "type": "EmpBulletType",
@@ -599,7 +599,7 @@
     "recoil": 2,
     "shake": 2,
     "rotate": true,
-    "shootSound": "shootBig",
+    "shootSound": "pulseBlast",
     "shootCone": 45,
 	"bullet": {
    "type": "EmpBulletType",
@@ -715,7 +715,7 @@
     "recoil": 2,
     "shake": 2,
     "rotate": true,
-    "shootSound": "shootBig",
+    "shootSound": "pulseBlast",
     "shootCone": 45,
 	"bullet": {
    "type": "EmpBulletType",
