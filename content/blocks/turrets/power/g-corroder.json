@@ -31,7 +31,7 @@
 	"recoil" : 1.5,
 	"rotateSpeed": 3,
 	
-	"shootSound" : "laser",
+	"shootSound" : "blaster",
 	"hasPower" : true,
 	"shootType": {
 	"type" : "BasicBulletType",
