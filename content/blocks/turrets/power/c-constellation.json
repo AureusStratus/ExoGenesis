@@ -9,7 +9,7 @@
     "recoil": 5,
     "moveWhileCharging": false,
     "rotateSpeed": 0.8,
-    "shootSound": "laserblast",
+    "shootSound": "shootSmite",
     "drawer": {
     "type": "drawTurret",
     "basePrefix": "genesux-"
