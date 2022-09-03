@@ -10,7 +10,7 @@
 	"inaccuracy": 2,
    "shoot": {
     "type": "shootAlternate",
-"spread": 16
+"spread": 17
 	},
     "drawer": {
     "type": "drawTurret",
