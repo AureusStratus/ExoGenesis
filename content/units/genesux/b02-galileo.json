@@ -56,7 +56,7 @@
  "smoothReloadSpeed": 0.15,
   "shootWarmupSpeed": 0.05,
   "minWarmup": 0.9,
-    "shootSound": "laser",
+    "shootSound": "bolt",
  "parts": [
          {
          "type": "FlarePart",
