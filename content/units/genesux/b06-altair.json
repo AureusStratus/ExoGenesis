@@ -39,7 +39,6 @@
     "maxRange": 180,
     "aimDst": 140,
     "engineSize": 6,
-    "lowAltitude": flase,
 	"weapons": [
 	   {
   "name": "starshooter-mount",
@@ -60,7 +59,7 @@
 },
   "layerOffset": -0.001,
     "inaccuracy": 8,
-    "shootSound": "plasmaboom",
+    "shootSound": "bolt",
     "mirror": true,
     "alternate": true,
     "rotate": true,
