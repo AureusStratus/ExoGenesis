@@ -63,7 +63,7 @@
   "shootCone": 20,
   "cooldownTime": 145,
   "heatColor": "66B1FFFF",
-  "shootSound": "shootBig",
+  "shootSound": "malignShoot",
 "shoot": {
 "type": "shootSpread",
     "shots": 3,
