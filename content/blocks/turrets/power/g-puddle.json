@@ -16,12 +16,12 @@
 	"restitution" : 0.08, 
 	"shootSound" : "laser",
 
-    "powerUse" : 1,
+        "powerUse" : 1,
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-trident",
-		"damage": 20,	
+		"damage": 8,	
 		"height" : 20,
 		"width" : 11,			
 		"speed": 4,
