@@ -6,7 +6,7 @@
 	"outlineColor": "1B1B1BFF",
 	"reload": 300,
 	"range": 550,
-	"shootSound": "laserbig",
+	"shootSound": "torch",
 "consumes" : {
 		"power": 90
 		},
