@@ -23,7 +23,7 @@
 	"shootType" : {
 		"type" : "basicBulletType",
 		"sprite" : "exogenesis-trident",
-		"damage": 50,	
+		"damage": 16,	
 		"height" : 28,
 		"width" : 15,			
 		"speed": 4,
