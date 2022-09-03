@@ -7,9 +7,6 @@
 		"power": 20
 		},
     "reload": 15,
-	
-   
-    "recoil": 4,
     "rotateSpeed": 5,
     "range": 200,
  "shoot": {
@@ -36,7 +33,7 @@
     "status": "corroded",
 	"lightningColor": "73FFAEFF",
 	"lightningCone": 1,
-	"damage": 38,
+	"damage": 18,
     "lightningLength": 30,
     "collidesAir": true
 	},
