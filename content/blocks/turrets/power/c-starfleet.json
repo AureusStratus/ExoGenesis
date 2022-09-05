@@ -4,7 +4,7 @@
     "size": 1,
     "health": 240,
     "reload": 35,
-    "range": 100,
+    "range": 82,
     "xRand": 6,
     "shoot": {
     "type": "shootPattern",
@@ -38,7 +38,7 @@
         "colorFrom": "A9D8FFFF",
         "colorTo": "A9D8FFFF"
         },
-        "lifetime": 28,
+        "lifetime": 20,
         "frontColor": "A9D8FFFF",
         "backColor": "66B1FFFF",
         "trailColor": "66B1FFFF",
