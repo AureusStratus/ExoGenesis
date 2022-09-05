@@ -169,7 +169,7 @@
         "trailWidth": 2,
         "trailEffect": "none",
         "status": "freezing",
-        "damage": 80,
+        "damage": 55,
         "homingPower": 0.5,
         "homingRange": 170,
         "width": 28,
