@@ -32,7 +32,7 @@
     "status": "freezing",
     "statusDuration": 50,
     "speed": 5,
-    "damage": 55,
+    "damage": 35,
     "hitSize": 9,
     "width": 0.1,
     "height": 0.1,
