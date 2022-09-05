@@ -49,7 +49,7 @@
         "trailWidth": 1.5,
         "trailEffect": "none",
         "status": "freezing",
-        "damage": 8,
+        "damage": 5,
         "homingPower": 0.0789,
         "homingRange": 150,
         "despawnEffect": {
