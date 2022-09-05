@@ -13,7 +13,7 @@
    "shots": 3,
 "spread" : 16
 },
-    "shootSound": "laser",
+    "shootSound": "torch",
     "drawer": {
     "type": "drawTurret",
     "basePrefix": "genesux-",
@@ -51,7 +51,7 @@
         "cold-plasma": {
       "type": "ContinuousFlameBulletType",
     "colors": ["66B1FFAA", "66B1FFff", "A9D8FFFF", "E1F2FFFF"],
-    "damage": 7,
+    "damage": 8,
     "flareWidth": 5,
     "flareLength": 48,
     "flareColor": "A9D8FFFF",
