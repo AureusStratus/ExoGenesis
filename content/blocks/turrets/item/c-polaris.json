@@ -17,7 +17,7 @@
 	"ammoTypes":	{
 		"omega-blue": {
 			"type" : "railBulletType",
-			"damage": 3150,
+			"damage": 1450,
 			"status": "freezing",
 			"length" : 600,
 			"lightningColor": "A9D8FFFF",
