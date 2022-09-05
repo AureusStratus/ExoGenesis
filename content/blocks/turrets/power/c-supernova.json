@@ -2,7 +2,7 @@
 	"type": "PowerTurret",
 	"size": 5,
 	"health": 3880,
-	"reload": 300,
+	"reload": 340,
 	"range": 300,
 	"heatColor": "FFFFFFF ",
 	"recoil": 5,
