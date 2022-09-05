@@ -131,7 +131,7 @@
     "lightningLength": 5,
     "speed": 3.5,
     "lifetime": 140,
-    "damage": 1560,
+    "damage": 860,
     "height": 28,
     "width": 28,
     "radius": 100,
@@ -390,7 +390,7 @@
     "statusDuration": 150
     },
     "splashDamageRadius": 74,
-    "splashDamage": 2476,
+    "splashDamage": 1076,
     "frontColor": "E1F2FFFF",
     "backColor": "66B1FFFF"
 	},
