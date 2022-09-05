@@ -6,7 +6,7 @@
     "size": 4,
     "health": 1600,
     "reload": 70,
-    "range": 120,
+    "range": 105,
     "velocityRnd": 0.25,
     "shoot": {
     "type": "shootSpread",
