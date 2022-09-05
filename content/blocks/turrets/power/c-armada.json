@@ -18,7 +18,7 @@
     },
     "xRand": 12,
     "recoil": 0.7,
-    "rotateSpeed": 4,
+    "rotateSpeed": 7,
     "shootSound": "laser",
 	"consumes" : {
 		"power": 4
@@ -51,7 +51,7 @@
         "trailWidth": 1.5,
         "trailEffect": "none",
         "status": "freezing",
-        "damage": 20,
+        "damage": 11,
         "homingPower": 0.0789,
         "homingRange": 150,
         "despawnEffect": {
