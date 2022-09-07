@@ -89,7 +89,7 @@
     "backColor": "66B1FFFF",
     "lifetime": 35,
     "speed": 18,
-    "damage": 90,
+    "damage": 60,
     "trailRotation": true,
     "shrinkY": 0,
     "shrinkX": 0,
