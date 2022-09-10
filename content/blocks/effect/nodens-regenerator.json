@@ -2,6 +2,7 @@
     "type": "MendProjector",
     "health": 3960,
     "size": 7,
+     "researchCostMultiplier": 0.5,
     "hasPower": true,
     "baseColor": "98ffa9",
     "phaseColor": "ffd59e",
