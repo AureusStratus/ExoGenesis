@@ -1,5 +1,6 @@
 {
 "type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
  "localizedName": "cold plasmic splitter",
  "description": "Splits cold plasma into hydrogen",	
 "size": 3,
