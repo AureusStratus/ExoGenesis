@@ -1,6 +1,7 @@
 {
   "type": "GenericCrafter",
   "localizedName": "Cold plasma chamber",
+	 "researchCostMultiplier": 0.5,
   "description": "Creates cold plasma under very cold and spefic conditions, with the use of water and astrolite",
   "health": 5,
   "size": 2,
