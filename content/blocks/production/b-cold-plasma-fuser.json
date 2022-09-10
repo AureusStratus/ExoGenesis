@@ -1,5 +1,6 @@
 {	
 	"type": "GenericCrafter",
+	 "researchCostMultiplier": 0.5,
 		"drawer": {
 	"type": "DrawMulti",
         "drawers": [
