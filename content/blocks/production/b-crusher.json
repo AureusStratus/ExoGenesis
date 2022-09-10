@@ -2,6 +2,7 @@
   "type": "GenericCrafter",
   "health": 700,
   "size": 3,
+  "researchCostMultiplier": 0.5,
   "craftTime": 200,
   "craftEffect": {
     "type": "MultiEffect",
