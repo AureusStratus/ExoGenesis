@@ -1,5 +1,6 @@
 {
 "type": "ConsumeGenerator",
+"researchCostMultiplier": 0.2,
 "localizedName": "Cold plasma generator",
 "description": "Uses cold plasma to generate power",
 "displayEfficiency": false,
