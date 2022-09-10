@@ -1,6 +1,7 @@
 {
 	"type": "ImpactReactor",
 	"health": 1200,
+	 "researchCostMultiplier": 0.5,
 	"itemCapacity": 200,
 	"size": 5,
 	"lightRadius": 30,
