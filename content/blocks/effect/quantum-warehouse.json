@@ -1,6 +1,7 @@
 {
 "type": "StorageBlock",
 "size": 6,
+  "researchCostMultiplier": 0.5, 
 "health": 3000,
 "itemCapacity": 8500,
 "research": "gamma-core",
