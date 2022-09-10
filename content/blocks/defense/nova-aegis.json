@@ -1,5 +1,6 @@
 {    
     "type": "ForceProjector",
+    "researchCostMultiplier": 0.5,
     "health": 3800,
     "shieldHealth": 58000,
     "size": 7,
