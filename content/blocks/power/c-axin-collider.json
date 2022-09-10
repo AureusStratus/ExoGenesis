@@ -1,6 +1,7 @@
 {
 	"type": "ImpactReactor",
 	"health": 10000,
+	 "researchCostMultiplier": 0.5,
 	"itemCapacity": 300,
 	"liquidCapacity": 800,
 	"size": 9,
