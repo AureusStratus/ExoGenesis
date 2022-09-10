@@ -13,6 +13,7 @@
     ]
     },
 	"size": 3,
+	 "researchCostMultiplier": 0.5,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 20,
