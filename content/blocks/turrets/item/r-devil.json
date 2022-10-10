@@ -82,9 +82,9 @@
 	}
 	},
     "requirements": [
-        "copper/150",
-        "volcanite/90",
-        "lead/70"
+        "beryllium/140",
+	 "graphite/80",
+        "volcanite/90"
     ],
     "category": "turret",
     "research": "r-pyro"
