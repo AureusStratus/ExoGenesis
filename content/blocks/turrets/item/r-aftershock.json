@@ -563,11 +563,10 @@
 	},
 	"requirements": [
         "silicon/1200",
-        "osmium/800",
+        "beryllium/800",
         "thorium/800",
-        "plastanium/1200",
-        "surge-alloy/1600",
-        "primal-red/3500"
+        "tungsten/800",
+        "primal-red/1000"
 	],
 	"category": "turret",
 	"research": "r-blast"
