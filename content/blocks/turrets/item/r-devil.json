@@ -20,7 +20,7 @@
     },
     "shootSound": "shoot",
     "ammoTypes": {
-        "copper": {
+        "beryllium": {
         "type": "BasicBulletType",
         "speed": 4,
         "lifetime": 57,
