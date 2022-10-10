@@ -850,10 +850,10 @@
     "requirements": [
         "volcanite/450",
         "thorium/600",
-        "osmium/800",
+        "tungsten/800",
         "primal-red/700",
         "silicon/700",
-        "copper/430"
+        "beryllium/430"
     ],
     "category": "turret",
     "research": "r-brimstone"
