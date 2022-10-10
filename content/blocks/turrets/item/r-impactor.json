@@ -704,7 +704,7 @@
     "backColor": "FF8142FF"
 	}
     },
-    "osmium": {
+    "tungsten": {
     "type": "BasicBulletType",
     "sprite": "exogenesis-impactor",
     "speed": 7,
