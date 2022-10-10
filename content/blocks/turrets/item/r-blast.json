@@ -76,10 +76,10 @@
 	}
 	},
 	"requirements": [
-	    "titanium/450",
-        "osmium/400",
+	 "beryllium/450",
+        "tungsten/400",
         "primal-red/400",
-        "titanium/160",
+        "volcanite/160",
         "silicon/260"
 	],
 	"category": "turret",
