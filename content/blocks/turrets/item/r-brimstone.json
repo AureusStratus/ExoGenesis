@@ -601,11 +601,11 @@
 	}
 	},
 	"requirements": [
-	    "osmium/350",
+	"tungsten/350",
         "silicon/790",
         "thorium/470",
         "volcanite/800",
-        "titanium/500",
+        "beryllium/800",
         "primal-red/600"
 	],
 	"category": "turret",
