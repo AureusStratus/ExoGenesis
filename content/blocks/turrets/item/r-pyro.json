@@ -32,8 +32,8 @@
         }
     },
     "requirements": [
-		{ "item": "copper", "amount": 50 },
-		{ "item": "volcanite", "amount": 34 }
+		{ "item": "beryllium", "amount": 50 },
+		{ "item": "volcanite", "amount": 50 }
     ],
     "category": "turret",
     "research": "team-soletux"
