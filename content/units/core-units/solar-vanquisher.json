@@ -39,7 +39,7 @@
     "rotateSpeed": 0.3,
     "cooldownTime": 90,
     "rotationLimit": 30,
-    "shootSound": "beam",
+    "shootSound": "torch",
     "alwaysContinuous": true,
     "continuous": true,
     "bullet": {
