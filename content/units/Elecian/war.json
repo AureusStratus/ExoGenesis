@@ -317,7 +317,7 @@
             "length": 0,
             "lifetime": 30,
             "sizeFrom": 45,
-            "region": "exogenesis-rail-diamond",
+            "region": "exogenesis-wide",
             "colorFrom": "F3E979FF",
             "colorTo": "D99F6BFF"
               },
@@ -339,7 +339,7 @@
             "length": 0,
             "lifetime": 25,
             "sizeFrom": 20,
-            "region": "exogenesis-rail-diamond",
+            "region": "exogenesis-wide",
              "colorFrom": "F3E979FF",
             "colorTo": "D99F6BFF"
 	    },
