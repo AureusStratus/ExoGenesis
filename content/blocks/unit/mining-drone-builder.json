@@ -9,9 +9,10 @@
 {
     "unit": "drone-m",
 "requirements": [
-    "silicon/30"
+    "silicon/50",
+    "siradamite/30"	
     ],
-    "time": 300
+    "time": 2700
   },
   {
     "unit": "drone-m2",
@@ -20,7 +21,7 @@
  "osmium/100",
  "stellar-steel/200"
        ],
-    "time": 600
+    "time": 4200
   }
 ],
     "requirements": [
