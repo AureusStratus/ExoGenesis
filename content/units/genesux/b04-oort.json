@@ -13,9 +13,9 @@
     "type": "legs",
     "speed": 0.42,
 	"hitSize": 52,
-	"health": 12000,
+	"health": 6000,
 	"faceTarget": true,
-	"armor": 7,
+	"armor": 5,
 	"drag": 0.2,
 	"range": 180,
 	"outlineColor": "36363c",
@@ -131,7 +131,7 @@
 "shoot": { 
 "type": "shootPattern",
 "firstShotDelay": 90,
-    "shots": 8
+    "shots": 3
 },
   "velocityRnd": 0.22,
   "inaccuracy": 10,
