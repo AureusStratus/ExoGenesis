@@ -16,7 +16,7 @@
  "engineColor": "A9D8FFFF",
     "flying": true,
     "health": 2000,
-    "armor": 3,
+    "armor": 4,
     "hitSize": 29,
     "engineOffset": 14,
     "engineSize": 3.4,
