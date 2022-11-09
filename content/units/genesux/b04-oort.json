@@ -13,7 +13,7 @@
     "type": "legs",
     "speed": 0.42,
 	"hitSize": 52,
-	"health": 6000,
+	"health": 5500,
 	"faceTarget": true,
 	"armor": 5,
 	"drag": 0.2,
@@ -66,7 +66,7 @@
     "type": "LaserBulletType",
     "length": 200,
     "width": 20,
-    "damage": 100,
+    "damage": 60,
     "lightColor": "A9D8FFFF",
     "hitEffect": {
     "type": "ParticleEffect",
