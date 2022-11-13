@@ -1,6 +1,8 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.2,
+    "envEnabled": -1,
+    "envDisabled": 4,
     "size": 2,
     "health": 240,
     "reload": 30,
