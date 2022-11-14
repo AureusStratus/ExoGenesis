@@ -13,6 +13,8 @@
 ]
 	},
 	"size": 3,
+	"envEnabled": -1,
+        "envDisabled": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
@@ -35,8 +37,8 @@
 		{"item": "silicon", "amount": 160},
 		{"item": "volcanite", "amount": 450},
 		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "plastanium", "amount": 140}
+		{"item": "graphite", "amount": 160},
+		{"item": "tungsten", "amount": 140}
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
