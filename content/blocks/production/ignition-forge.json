@@ -34,6 +34,6 @@
         "graphite/120"
 	],
 	"category": "crafting",
-	"research": "graphite-press",
+	"research": "silicon-arc-furnace",
 	"outputItem": "volcanite/2"
 }
