@@ -41,7 +41,7 @@
 		{"item": "tungsten", "amount": 140}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "silicon-arc-furnace",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2
