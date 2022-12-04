@@ -41,7 +41,7 @@
 		{"item": "tungsten", "amount": 140}
 	],
 	"category": "crafting",
-	"research": "ignition-forge ",
+	"research": "ignition-forge",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2
