@@ -41,7 +41,7 @@
 		{"item": "tungsten", "amount": 140}
 	],
 	"category": "crafting",
-	"research": "silicon-arc-furnace",
+	"research": "ignition-forge ",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2
