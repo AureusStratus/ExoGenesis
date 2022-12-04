@@ -24,14 +24,14 @@
 		"power": 2,
 		"items": {
 			"items": [
-               "coal/1",
+               "beryllium/1",
                "graphite/2"
 			]
 		}
 	},
 	"requirements": [
-        "copper/80",
-        "lead/120"
+        "beryllium/80",
+        "graphite/120"
 	],
 	"category": "crafting",
 	"research": "graphite-press",
