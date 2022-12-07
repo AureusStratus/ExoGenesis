@@ -1,0 +1,23 @@
+{
+ "type": "TractorBeamTurret",
+ "range": 100,
+ "size": 1,
+ "health": 300,
+ "targetGround": true,
+ "shootLength": 6,
+ "force": -15,
+ "damage": 0.1,
+ "laserColor": "84F491FF",
+ "laserWidth": 0.6,
+ "statusDuration": 10,
+ "status": "electrified",
+ "consumes": {
+  "power": 1.2
+},
+ "category": "turret",
+ "research": "arc",
+ "requirements": [
+  "lead/40",
+  "silicon/60"
+  ]
+}

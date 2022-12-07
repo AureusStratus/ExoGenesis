@@ -1,0 +1,24 @@
+{
+"type": "TractorBeamTurret",
+"targetGround": false,
+"shootLength": 10,
+"rotateSpeed": 8,
+"range": 300,
+"size": 3,
+"health": 1200,
+"force": 32,
+"scaledForce": 22,
+"damage": 0.5,
+"laserWidth": 1.1,
+"consumes": {
+  "power": 5.2
+},
+"category": "turret",
+"research": "parallax",
+"requirements": [
+  "silicon/450",
+  "metaglass/200",
+  "titanium/185",
+  "plastanium/235"
+  ]
+}
