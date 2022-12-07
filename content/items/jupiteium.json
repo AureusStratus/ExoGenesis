@@ -1,0 +1,14 @@
+{    
+    "Description": "A radioactive material used for nuclear fuel, ammunition and in construction of structures.",
+    "hardness": 6,
+    "radioactivity": 1.2,
+    "explosiveness": 0.2,
+    "cost": 5,
+    "color": "A16570FF",
+    "research": {
+    "parent": "thorium",
+    "requirements": [
+    "thorium/200"
+  ]
+  }
+}

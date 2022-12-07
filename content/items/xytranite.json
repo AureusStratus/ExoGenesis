@@ -1,0 +1,12 @@
+{
+    "cost": 6,
+    "radioactivity": 3,
+    "explosiveness": 8,
+    "color": "BA52FFFF",
+    "research": {
+    "parent": "thorium",
+    "requirements": [
+    "thorium/600"
+  ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "cost": 1,
+    "color": "7AC27CFF",
+    "research": {
+    "parent": "plastanium",
+    "requirements": [
+    "plastanium/200"
+  ]
+  }
+}

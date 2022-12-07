@@ -1,0 +1,13 @@
+{
+    "cost": 9,
+    "hardness": 8,
+    "charge": 8,
+    "radioactivity": 1.8,
+    "color": "8894FFFF",
+    "research": {
+    "parent": "surge-alloy",
+    "requirements": [
+    "surge-alloy/600"
+  ]
+  }
+}
