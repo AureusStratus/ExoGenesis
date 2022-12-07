@@ -1,0 +1,19 @@
+{
+  "type": "PowerNode",
+  "name": "Aqua Node",
+  "size": 1,
+  "health": 50,
+  "laserRange": 6,
+  "maxNodes": 10,
+  "hasPower": true,
+  "placeableLiquid": "true",
+  "laserColor1": "FFFFFFFF",
+  "laserColor2": "CCE7FFFF",
+  "category": "power",
+  "requirements": [
+    { "item": "copper", "amount": 1},
+    { "item": "lead", "amount": 3},
+    { "item": "metaglass", "amount": 2}
+  ],
+  "research": "power-node"
+}

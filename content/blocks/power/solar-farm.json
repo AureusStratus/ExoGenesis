@@ -1,0 +1,17 @@
+{
+	"type": "SolarGenerator",
+	"size": 8,
+  "name": "Solar Farm",
+	"hasPower": true,
+	"powerProduction": 24,
+	"requirements": [
+		{ "item": "metaglass", "amount": 200 },
+		{ "item": "phase-fabric", "amount": 70 },
+		{ "item": "titanium", "amount": 220 },
+		{ "item": "surge-alloy", "amount": 40 },
+		{ "item": "silicon", "amount": 380 }
+	],
+	"category": "power",
+	"research": "solar-panel"
+    
+}

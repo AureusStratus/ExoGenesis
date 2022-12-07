@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "Alpha Network",
+  "size": 4,
+  "health": 500,
+  "laserRange": 46,
+  "maxNodes": 20,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    { "item": "phase-fabric", "amount": 200},
+    { "item": "titanium", "amount": 200},
+    { "item": "silicon", "amount": 370},
+    { "item": "surge-alloy", "amount": 150}
+  ],
+  "research": "surge-tower"
+}
