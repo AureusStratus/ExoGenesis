@@ -1,0 +1,32 @@
+{
+	"type": "Drill",
+	"size": 9,
+	"tier": 14,
+	"rotateSpeed": 4,
+	"drillTime": 30,
+	"liquidBoostIntensity": 3,
+	"drawRim": true,
+	"warmupSpeed": 0.0478,
+	"updateEffectChance": 0.05,
+	"hasLiquids": true,
+	"liquidCapacity": 25,
+	"expanded": true,
+	"consumes": {
+		"power": 15,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.31,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 850 },
+		{ "item": "titanium", "amount": 370 },
+		{ "item": "plastanium", "amount": 750 },
+		{ "item": "surge-alloy", "amount": 285 },
+		{ "item": "jupiteium", "amount": 558 }
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

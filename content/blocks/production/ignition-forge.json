@@ -1,7 +1,7 @@
 {	
     "researchCostMultiplier": 0.1,
     "type": "GenericCrafter",
-		"drawer": {
+     "drawer": {
    "type": "DrawMulti",
         "drawers": [
          {
@@ -21,19 +21,19 @@
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
-		"power": 2,
+		"power": 1,
 		"items": {
-			"items": [
+	       "items": [
                "beryllium/1",
                "graphite/2"
 			]
 		}
 	},
 	"requirements": [
-        "beryllium/80",
-        "graphite/120"
+        "beryllium/50",
+        "graphite/70"
 	],
 	"category": "crafting",
-	"research": "silicon-arc-furnace",
+	"research": "graphite-press",
 	"outputItem": "volcanite/2"
 }

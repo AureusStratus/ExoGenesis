@@ -4,6 +4,10 @@
    "type": "DrawMulti",
         "drawers": [
         {
+       "type": "DrawRegion",
+       "suffix": "-bottom"
+	 },
+        {
         "type": "DrawDefault"
         },
         {
@@ -19,6 +23,10 @@
     "particleLen": 5,
     "particleStroke": 1.1,
     "particleLife": 80
+ },
+        {
+  "type": "DrawRegion",
+       "suffix": "-top"
 }
 ]
 	},

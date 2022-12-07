@@ -1,0 +1,32 @@
+{	
+    "type": "GenericCrafter",
+	"drawer": {
+	"type": "DrawSmelter",
+	"flameColor": "ffc099"
+	},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+               "sand/5",
+               "lead/5"
+			]
+		}
+	},
+	"requirements": [
+        "plastanium/130",
+        "titanium/320",
+        "silicon/230",
+        "lead/300"
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"outputItem": "metaglass/5"
+}

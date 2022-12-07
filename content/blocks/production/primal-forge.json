@@ -1,47 +1,62 @@
 {	
-    "type": "GenericCrafter",
-		"drawer": {
-   "type": "DrawMulti",
+    "type": "HeatCrafter",
+	"drawer": {
+	"type": "DrawMulti",
         "drawers": [
-       {
-        "type": "DrawDefault"
+      {
+     "type": "DrawRegion",
+       "suffix": "-bottom"
         },
         {
-	"type": "DrawFlame",
-	"flameColor": "F66332FF"
-}
-]
-	},
+     "type": "DrawParticles",
+    "color": "f25555",
+    "alpha": 0.4,
+     "blending": "additive",
+     "particleSize": 3,
+    "particleRad": 6,
+    "particles": 8,
+    "fadeMargin": 1,
+    "rotateScl": 4,
+    "particleLife": 30
+       },
+       {
+        "type": "DrawPlasma",
+    "suffix": "-plasma-",
+	"plasma1": "F66332FF",
+	"plasma2": "f25555"
+	 },
+    {
+       "type": "DrawDefault"
+	}
+        ]
+        },
 	"size": 3,
-	"envEnabled": -1,
-        "envDisabled": 4,
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 20,
+        "heatRequirement": 15,
 	"craftTime": 150,
-	"craftEffect": "massiveExplosion",
+	"craftEffect": "none",
 	"updateEffect": "none",
 	"consumes": {
 		"power": 2,
 		"items": {
 			"items": [
-		        "copper/3",
-			"lead/3",
-			"titanium/4",
-			"volcanite/5"
+		        "silicon/1",
+			"tungsten/2",
+			"volcanite/1"
 			]
 		}
 	},
 	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "volcanite", "amount": 450},
-		{"item": "thorium", "amount": 140},
-		{"item": "graphite", "amount": 160},
-		{"item": "tungsten", "amount": 140}
+		{"item": "silicon", "amount": 120},
+		{"item": "volcanite", "amount": 80},
+		{"item": "tungsten", "amount": 80},
+		{"item": "oxide", "amount": 80}
 	],
 	"category": "crafting",
-	"research": "ignition-forge",
+	"research": "alloy-smelter",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2
