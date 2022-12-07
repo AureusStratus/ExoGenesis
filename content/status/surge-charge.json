@@ -1,0 +1,9 @@
+{
+"reloadMultiplier": 0.8,
+"speedMultiplier": 0.8,
+"effectChance": 0.5,
+"damage": 0.7,
+"transitionDamage": 1,
+"affinities": ["wet", "shocked"],
+"effect": "absorb"
+}

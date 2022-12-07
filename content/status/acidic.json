@@ -1,0 +1,22 @@
+{
+"description": "You are being rapidly corroded .",
+"localizedName": "Acidic",
+"speedMultiplier": 0.8,
+"show": true,
+"effectChance": 0.4,
+"effect": {
+  "type": "ParticleEffect",
+  "particles": 2,
+  "length": 0,
+  "lifetime": 45,
+  "lightOpacity": 0,
+  "colorFrom": "a1b46e",
+  "colorTo": "a1b46e80",
+  "sizeFrom": 3,
+  "sizeTo": 0   
+},
+"opposites": ["wet"],
+"affinities": ["corroded"],
+"transitionDamage": 3,
+"damage": 0.44
+}
