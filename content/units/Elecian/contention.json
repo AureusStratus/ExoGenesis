@@ -163,13 +163,7 @@
       "hitSound": "shockBoom",
       "frontColor": "FFFFFFF",
     "backColor": "F3E979FF",
-    "status": {
-    "name": "division",
-    "effect": "absorb",
-    "permanent": true,
-    "color": "F3E979FF",
-    "healthMultiplier": 0.5
-    },
+    "status": "exogenesis-division",
       "hittable": false,
       "reflectable": false,
       "absorbable": false,
