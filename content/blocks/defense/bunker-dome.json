@@ -1,0 +1,38 @@
+{    
+    "type": "ForceProjector",
+    "health": 1800,
+    "shieldHealth": 20000,
+    "size": 6,
+    "liquidCapacity": 30,
+    "itemCapacity": 30,
+    "hasPower": true,
+    "canOverdrive": true,
+    "phaseUseTime": 470,
+    "phaseShieldBoost": 4000,
+    "phaseRadiusBoost": 100,
+    "solid": true,
+    "radius": 200,
+    "cooldownNormal": 2.12,
+    "cooldownLiquid": 1.7,
+    "cooldownBrokenBase": 2.35,
+    "consumes": {
+      "power": 26,
+      "items": {
+        "items": [
+          "phase-fabric/10"
+        ],
+        "booster": true,
+    	  "optional": true
+      }
+    },
+    "requirements": [
+        "phase-fabric/500",
+        "xanium/300",
+        "plastanium/430",
+        "titanium/300",
+        "silicon/730",
+        "surge-alloy/530"
+    ],
+    "category": "effect",
+    "research": "iron-dome"
+}
