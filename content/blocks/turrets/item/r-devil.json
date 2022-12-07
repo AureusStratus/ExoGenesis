@@ -1,8 +1,6 @@
 {
     "type": "ItemTurret",
     "researchCostMultiplier": 0.2,
-    "envEnabled": -1,
-    "envDisabled": 4,
     "size": 2,
     "health": 240,
     "reload": 30,
@@ -26,7 +24,7 @@
         "type": "BasicBulletType",
         "speed": 4,
         "lifetime": 57,
-        "damage": 35,
+        "damage": 39,
         "height": 16,
         "width": 12,
         "trailParam": 5,
@@ -40,7 +38,7 @@
         "graphite": {
         "type": "BasicBulletType",
         "speed": 4,
-        "damage": 25,
+        "damage": 29,
         "lifetime": 57,
         "height": 16,
         "width": 12,
@@ -59,7 +57,7 @@
         "volcanite": {
         "type": "BasicBulletType",
         "speed": 4,
-        "damage": 50,
+        "damage": 53,
         "knockback": 1.8,
         "lifetime": 57,
 	    "frontColor": "FFFFFFF",
@@ -84,9 +82,9 @@
 	}
 	},
     "requirements": [
-        "beryllium/140",
+        "beryllium/100",
 	 "graphite/80",
-        "volcanite/90"
+        "volcanite/40"
     ],
     "category": "turret",
     "research": "r-pyro"

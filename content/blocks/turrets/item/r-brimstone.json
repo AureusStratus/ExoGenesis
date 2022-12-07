@@ -1,7 +1,5 @@
 {
 	"type": "itemTurret",
-	"envEnabled": -1,
-        "envDisabled": 4,
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "reload": 185,

@@ -1,7 +1,5 @@
 {
 "type": "ItemTurret",
-"envEnabled": -1,
- "envDisabled": 4,
 "size": 6,
 "health": 4680,
 "range": 300,

@@ -1,7 +1,5 @@
 {
     "type": "ItemTurret",
-    "envEnabled": -1,
-    "envDisabled": 4,
     "researchCostMultiplier": 0.1,
     "size": 1,
     "health": 140,
@@ -21,7 +19,7 @@
     "basePrefix": "solran-"
     },
             "lifetime": 19,
-            "damage": 48,
+            "damage": 27,
             "serrations": 3,
             "fromColor": "FF8142FF",
             "toColor": "7e7e7e",
@@ -35,7 +33,7 @@
     },
     "requirements": [
 		{ "item": "beryllium", "amount": 50 },
-		{ "item": "volcanite", "amount": 50 }
+		{ "item": "volcanite", "amount": 20 }
     ],
     "category": "turret",
     "research": "team-soletux"

@@ -1,7 +1,5 @@
  {
 	"type": "ItemTurret",
-	"envEnabled": -1,
-        "envDisabled": 4
 	"size": 8,
 	"outlineColor": "1B1B1BFF",
 	"accurateDelay": true,
@@ -573,6 +571,7 @@
 	"category": "turret",
 	"research": "r-blast"
     }
+
 
 
 

@@ -1,7 +1,5 @@
 {
     "type": "ItemTurret",
-	"envEnabled": -1,
-        "envDisabled": 4,
 	"reload": 300,
 	"range": 300,
 	"minRange": 70,

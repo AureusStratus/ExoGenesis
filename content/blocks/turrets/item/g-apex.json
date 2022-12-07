@@ -412,8 +412,9 @@
 	},
         "thorium": {
         "type" : "BasicBulletType",
-	"sprite" : "exogenesis-plasma",
-        "scaleLife": true,
+        "instantDisappear": true,
+        "reloadMultiplier": 1.5,
+         "spawnUnit": "big-thorium-missile",
 	"chargeEffect": {
 	"type": "MultiEffect",
 	"lifetime": 80,
@@ -457,35 +458,7 @@
 	}
 	]
 	},
-        "trailChance": 1,
-        "trailRotation": true,
-        "trailEffect": {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "sizeFrom": 17,
-        "sizeTo": 14,
-        "length": 0,
-        "lifetime": 20,
-        "colorFrom": "BF92F9FF",
-        "colorTo": "BF92F900"
-        },
-	"collides": false,	
-	"statusDuration": 100,
-	"status": "blasted",
-	"absorbable": false,
-	"splashDamage" : 1400,
-        "scaledSplashDamage": true,
-	"splashDamageRadius": 60,	
-	"height" : 26,
-	"width" : 26,
-	"hitShake" : 12,
-	"speed": 3,
-	"hitSize": 30,
-	"lifetime" : 160,
-	"buildingDamageMultiplier": 0.3,
-	"shrinkX": 0,
-	"shrinkY": 0,
-        "hitEffect": "reactorExplosion",
+        "hitEffect": "none",
 	"shootEffect": {
 	"type": "multiEffect",
         "effects": [
@@ -514,9 +487,7 @@
         "colorTo": "BF92F9FF"
         }
         ]
-        },
-	"frontColor": "FFFFFF",
-        "backColor": "BF92F9FF"
+        }
         },
         "valvanite": {
         "type": "BasicBulletType",
