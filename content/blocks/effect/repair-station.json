@@ -1,0 +1,34 @@
+{
+    "type": "MendProjector",
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "baseColor": "84f491",
+    "phaseColor": "ffd59e",
+    "healPercent": 44,
+    "phaseBoost": 6,
+    "range": 155,
+    "reload": 350,
+    "phaseRangeBoost": 30,
+    "itemCapacity": 20,
+    "useTime": 450,
+    "consumes": {
+		"power": 18,
+		"items": {
+			"items": [
+				{"item": "phase-fabric", "amount": 2}
+			],
+			"booster": true,
+			"optional": true
+		}
+    },
+    "requirements": [
+		{"item": "lead", "amount": 200},
+		{"item": "xanium", "amount": 340},
+		{"item": "titanium", "amount": 400},
+		{"item": "silicon", "amount": 380},
+		{"item": "phase-fabric", "amount": 610}
+    ],
+    "category": "effect",
+    "research": "mend-projector"
+}
