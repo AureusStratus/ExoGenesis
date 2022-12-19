@@ -10,7 +10,12 @@
 	"spread": 4,
          "consumes": {
           "power": 34
-	"liquids": ["cryofluid/0.4"]
+	"liquid": {
+	"liquid": "cryofluid",
+	"optional": false,
+	"update": false,
+	"amount": 0.4
+	}
 	},
     "coolantMultiplier": 1.0,
     "update": true,
