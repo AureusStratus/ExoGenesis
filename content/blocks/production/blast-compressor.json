@@ -1,6 +1,5 @@
 {	
 	"type": "GenericCrafter",
-        "localizedName": "Blast compressor",
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": false,
@@ -14,9 +13,9 @@
 		"power": 2,
 		"items": {
 		"items": [
-               "pyratite/4",
-               "blast-compound/4",
-               "coal/1"
+	           "pyratite/4",
+	           "blast-compound/4",
+	           "coal/1"
 		]
 		}
 	},
