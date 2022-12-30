@@ -8,7 +8,7 @@
     "range": 420,
     "inaccuracy": 3,
     "recoilAmount": 10,
-    "coolant": {"consumeCoolant": 1.5},
+    "coolant": {"type": "ConsumeCoolant","consumeCoolant": 1.5},
     "alternate": true,
     "shootShake": 4,
      "shoot": {
