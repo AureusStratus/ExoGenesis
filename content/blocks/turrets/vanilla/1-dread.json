@@ -7,7 +7,7 @@
     "ammoEjectBack": 2,
     "range": 420,
     "inaccuracy": 3,
-    "recoilAmount": 5,
+    "recoilAmount": 10,
     
     "alternate": true,
     "shootShake": 4,
@@ -30,7 +30,7 @@
     "reloadMultiplier" : 1.2
     "pierce": "true",
     "lifetime": 35,
-    "damage": 200,
+    "damage": 400,
     "knockback": 8,
     "trailColor": "CB8EBFFF",
     "trailLength": 10,
