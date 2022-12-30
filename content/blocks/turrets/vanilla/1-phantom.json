@@ -1,11 +1,11 @@
 {
 	"type": "itemTurret",
-	"health": 1900,
+	"health": 8000,
     "coolantMultiplier": 1.0,
     "reload": 6.5,
     "restitution": 0.1,
     "ammoUseEffect": "casing3",
-    "range": 300,
+    "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 4,
     "shoot": {
@@ -20,13 +20,14 @@
     "shootSound": "shootBig",
     "ammoTypes": {
           "blast-compound": {
+		"ammoMultiplier": 2
             "status": "burning",
 	        "statusDuration": "800",
-            "speed": 6,
+            "speed": 10,
             "height": 18,
             "width": 15,
-            "lifetime": 50,
-            "damage": 100,
+            "lifetime": 32,
+            "damage": 110,
             "splashDamage": 55,
             "splashDamageRadius": 16,
             "knockback": 1.8,
@@ -38,12 +39,29 @@
             "hitEffect": "blastExplosion"
         
         },
-        "jupiteium": {
-            "speed": 6,
+	              "thorium": {
+            "speed": 10,
+	    "pierce": "true",
+		"pierceCap" : 2
             "height": 18,
             "width": 15,
+            "lifetime": 32,
+            "damage": 100,
+            "splashDamage": 55,
+            "splashDamageRadius": 16,
+            "knockback": 1.8,
+            "hitSize": 12,
+            "frontColor": "E66F57FF",
+            "backColor": "C85C51FF",
+        
+        },
+        "jupiteium": {
+            "speed": 10,
+            "height": 18,
+            "width": 15,
+		"ammoMultiplier": 3
             "pierce": "true",
-            "lifetime": 50,
+            "lifetime": 32,
             "damage": 150,
             "knockback": 2.0,
             "hitSize": 12,
@@ -58,15 +76,16 @@
         "surge-alloy": {
             "status": "shocked",
 	        "statusDuration": "700",
-            "speed": 6,
+		"ammoMultiplier": 2
+            "speed": 10,
             "height": 18,
             "width": 15,
-            "lifetime": 50,
+            "lifetime": 32,
             "damage": 200 ,
             "knockback": 1.8,
             "hitSize": 12,
             "frontColor": "F3E979FF",
-            "backColor": "D99F6BFF",
+            "backColor": "D99F6BFF"
             "shootEffect": "shootPyraFlame",
             "despawnEffect": "flakExplosionBig",
             "hitEffect": "flakExplosionBig",
@@ -79,11 +98,13 @@
         }
     },  
 	"requirements": [
+	"copper/1100",
+	"plastanium/222",
 	    "thorium/350",
         "silicon/790",
         "jupiteium/470",
-        "titanium/600",
-        "surge-alloy/700"
+        "titanium/640",
+        "surge-alloy/600"
 	],
 	"category": "turret",
 	"research": "spectre"
