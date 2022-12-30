@@ -8,6 +8,7 @@
     "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 4,
+	    "coolant": {"consumeCoolant": 1.2},
     "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,
