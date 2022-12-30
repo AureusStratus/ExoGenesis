@@ -2,7 +2,7 @@
 	"type": "itemTurret",
 	"health": 8000,
     "coolantMultiplier": 1.0,
-    "reload": 6.5,
+    "reload": 7,
     "restitution": 0.1,
     "ammoUseEffect": "casing3",
     "range": 320,
