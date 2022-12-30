@@ -1,11 +1,11 @@
 {
 	"type": "itemTurret",
-	"health": 8660,
+	"health": 28800,
     "coolantMultiplier": 1.5,
-    "reload": 10,
+    "reload": 9,
     "ammoUseEffect": "casing3",
     "ammoEjectBack": 2,
-    "range": 220,
+    "range": 420,
     "inaccuracy": 3,
     "recoilAmount": 5,
     
@@ -23,14 +23,15 @@
     "ammoTypes": {
     "thorium": {
     "sprite": "exogenesis-gauss-bullet",
-    "speed": 8,
+    "speed": 12,
     "height": 42,
     "width": 25,
     "ammoMultiplier": 4,
+    "reloadMultiplier" : 1.2
     "pierce": "true",
-    "lifetime": 25,
-    "damage": 500,
-    "knockback": 15,
+    "lifetime": 35,
+    "damage": 200,
+    "knockback": 8,
     "trailColor": "CB8EBFFF",
     "trailLength": 10,
     "trailWidth": 4.5,
@@ -251,15 +252,15 @@
     },
     "status": "blasted"
     },
-    "metaglass": {
+    "osmium": {
     "sprite": "exogenesis-gauss-bullet",
-    "speed": 8,
+    "speed": 12,
     "height": 42,
     "width": 25,
-    "ammoMultiplier": 4,
+    "ammoMultiplier": 2,
     "pierce": "true",
     "lifetime": 35,
-    "damage": 800,
+    "damage": 777,
     "trailColor": "C9DDE3Ff",
     "trailLength": 10,
     "trailWidth": 4.5,
@@ -484,13 +485,14 @@
     "sprite": "exogenesis-gauss-bullet",
     "status": "exogenesis-surge-charge",
 	"statusDuration": "100",
-    "speed": 8,
+    "speed": 14,
     "height": 42,
     "width": 25,
     "ammoMultiplier": 4,
+	    "rangeChange": 70,
     "lifetime": 35,
-    "damage": 1000 ,
-    "knockback": 25,
+    "damage": 999,
+    "knockback": 20,
     "trailColor": "F3E979FF",
     "trailLength": 10,
     "trailWidth": 4.5,
@@ -718,8 +720,8 @@
     "voltirium-alloy": {
     "type": "BasicBulletType",
     "sprite": "exogenesis-gauss-bullet",
-    "speed": 8,
-    "damage": 2700,
+    "speed": 16,
+    "damage": 2500,
     "height": 42,
     "width": 25,
     "trailColor": "8894FFFF",
@@ -941,7 +943,8 @@
     }
     ]
     },
-    "lifetime": 55,
+    "lifetime": 35,
+    "rangeChange" : 140
     "fragBullets": 10,
     "fragVelocityMin": 4,
     "fragCone": 360,
@@ -964,12 +967,15 @@
     }
     },  
 	"requirements": [
+		        "copper/2300"
+		"plastanium/700"
         "silicon/1700",
         "jupiteium/1400",
+	"graphite/700"
         "thorium/2400",
         "titanium/2500",
-        "voltirium-alloy/1500",
-        "surge-alloy/3000"
+        "voltirium-alloy/1450",
+        "surge-alloy/1444"
 	],
 	"category": "turret",
 	"research": "1-phantom"
