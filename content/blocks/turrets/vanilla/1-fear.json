@@ -381,7 +381,7 @@
     "height": 0.01
 	}
 		},
-        "voltrium-alloy": {
+        "voltirium-alloy": {
             "type" : "pointBulletType",
             "damage": 14000,
             "shootEffect": "instShoot",
