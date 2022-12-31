@@ -1,7 +1,7 @@
 {
 	"type": "LaserTurret",
 	"size": 5,
-	"health": 180,
+	"health": 8100,
 	"reload": 130,
 	"range": 285,
 	"targetAir" : true, 
@@ -31,11 +31,12 @@
 	"rotateSpeed": 2,
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 200,
+      "damage": 130,
       "width": 11,
       "length": 290,
       "status": "melting",
       "statusDuration": 50,
+      "damageInterval": 4,
       "oscScl": 2,
       "oscMag":	3,
       "hitEffect": {
@@ -69,8 +70,9 @@
 	},
 
 	"requirements": [
-	    "titanium/600",
-        "surge-alloy/700",
+	 "graphite/600",
+        "surge-alloy/650",
+	"lead/1000",
         "copper/1000",
         "silicon/700",
         "jupiteium/540"
