@@ -97,9 +97,9 @@
     "hitEffect": "blastExplosion",
     "shootEffect": "shootBig2",
     "despawnEffect": "blastExplosion",
-    "lifetime": 70,
+    "lifetime": 35,
     "damage": 24,
-    "speed": 4,
+    "speed": 8,
     "width": 5,
     "height": 10
    }
