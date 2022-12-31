@@ -1,15 +1,15 @@
 {
 	"type": "ItemTurret",
 	"size": 8,
-	"health": 8660,
-	"maxAmmo": 20,
+	"health": 19200,
+	"maxAmmo": 60,
 	"ammoPerShot" : 20,
 	"reload": 500,
 	"range": 1000,
 	"shootLength": 8,
 	"coolantUsage": 3,
 	"ammoUseEffect": "casing3Double",
-	"coolantMultiplier": 0.5,
+	"coolantMultiplier": 0.2,
 	"targetAir" : true, 
 	"targetGround" : true, 
 	"recoilAmount" : 6,
@@ -23,6 +23,7 @@
 	"ammoTypes":	{
 	"surge-alloy": {
 	"type" : "pointBulletType",
+	"ammoMultiplier": 1,
 	"damage": 6000,
 	"shootEffect": "instShoot",
 	"status": "exogenesis-surge-charge",
@@ -148,6 +149,7 @@
 	"phase-fabric": {
 	"type" : "pointBulletType",
 	"damage": 10000,
+	"ammoMultiplier": 1,
     "shootEffect": {
     "type": "multiEffect",
     "effects": [
@@ -377,11 +379,146 @@
     "statusDuration": 100,
     "width": 0.01,
     "height": 0.01
+	},
+	"voltrium-alloy": {
+	"type" : "pointBulletType",
+	"damage": 14000,
+	"shootEffect": "instShoot",
+	"status": "melting",
+    "rangeChange": 200,
+    "ammoMultiplier": 1,
+	"statusDuration": 100,
+	"hitEffect": {
+	"type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 50,
+    "lifetime": 50,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "colorFrom": "8894ffff",
+    "colorTo": "616dadff"
+    },
+    {
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 40,
+    "lifetime": 40,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "colorFrom": "8894ffff",
+    "colorTo": "616dadff"
+    },
+    { 
+    "type": "ParticleEffect",
+    "lightOpacity": 0,
+    "particles": 10,
+    "length": 30,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "sizeFrom": 2.5,
+    "sizeTo": 0,
+    "colorFrom": "8894ffff",
+    "colorTo": "616dadff"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "offset": 20,
+    "lifetime": 30,
+    "length": 100,
+    "baseLength": -15,
+    "cone": -360,
+    "lenFrom": 10,
+    "lenTo": 10,
+    "colorFrom": "8894ffff",
+    "colorTo": "616dad"
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 75,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lightColor": "8894ffff",
+    "colorFrom": "8894ffff",
+    "colorTo": "616dadff"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 35,
+    "sizeTo": 0,
+    "length": 0,
+    "interp": "swingIn",
+    "lifetime": 25,
+    "region": "exogenesis-star",
+    "lightColor": "8894ffff",
+    "colorFrom": "8894ffff",
+    "colorTo": "8894ffff"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 12,
+    "sizeTo": 0,
+    "length": 0,
+    "interp": "swingIn",
+    "lifetime": 25,
+    "region": "exogenesis-star",
+    "lightColor": "8894ffff",
+    "colorFrom": "FFFFFFF",
+    "colorTo": "FFFFFFF"
+    }
+    ]
+	},
+	"speed": 1000,
+	"hitShake": 7,
+	"trailSpacing": 30,
+	"colorFrom": "8894ffff",
+    "colorTo": "616dadff",
+	"hitColor": "8894ffff",
+	"trailEffect": { 
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 35,
+    "sizeFrom": 45,
+    "region": "exogenesis-wide",
+    "colorFrom": "8894ffff",
+    "colorTo": "616dadff"
+	},
+    "fragBullet": {
+        "buildingDamageMultiplier": 0.50,
+        "instantDisappear": true,
+        "type": "EmpBulletType",
+        "lightOpacity": 0,
+        "splashDamage": 2700,
+        "splashDamageRadius": 120,
+        "hitColor": "FFD59E00",
+        "radius": 120,
+        "hitPowerEffect": "none"
+    },
+	"despawnEffect": "none",
+	"splashDamageRadius": 1,
+	"buildingDamageMultiplier": 0.50
 	}
 		}
 	},
 	"consumes" : {
-		"power": 70
+		"power": 70,
+		"coolant": {"amount": 2}
 			},
 	"requirements": [
 		"titanium/1750",
