@@ -719,6 +719,7 @@
     },
     "voltirium-alloy": {
     "type": "BasicBulletType",
+    "reloadMultiplier": 0.9
     "sprite": "exogenesis-gauss-bullet",
     "speed": 16,
     "damage": 2500,
@@ -727,7 +728,7 @@
     "trailColor": "8894FFFF",
     "trailLength": 10,
     "trailWidth": 4.5,
-    "ammoMultiplier": 4,
+    "ammoMultiplier": 2,
     "frontColor": "FFFFFFFF",
     "backColor": "8894FFFF",
     "shootEffect": {
