@@ -76,10 +76,11 @@
 	},
 
 	"requirements": [
-	    "titanium/1600",
+	    "graphite/1600",
         "surge-alloy/3000",
         "voltirium-alloy/1500",
         "copper/2300",
+	"lead/2200"
         "silicon/1700",
         "jupiteium/1300"
 	],
