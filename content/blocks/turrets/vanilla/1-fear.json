@@ -12,7 +12,7 @@
 	"coolantMultiplier": 0.2,
 	"targetAir" : true, 
 	"targetGround" : true, 
-	"recoilAmount" : 6,
+	"recoilAmount" : 24,
 	"shootShake" : 6,
 	"inaccuracy": 0,
 	"restitution" : 0.009,
