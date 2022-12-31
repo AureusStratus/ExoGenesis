@@ -2,7 +2,7 @@
 	"type": "LaserTurret",
 	"size": 8,
 	"unitSort": "strongest",
-	"health": 8660,
+	"health": 17280,
 	"reload": 170,
 	"range": 345,
 	"shots" : 1,
@@ -34,7 +34,8 @@
 	"rotateSpeed": 2,
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 300,
+      "damage": 410,
+      "damageInterval": 3,
       "width": 13,
       "oscScl": 2,
       "oscMag":	5,
