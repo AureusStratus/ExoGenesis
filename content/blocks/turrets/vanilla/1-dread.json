@@ -1,14 +1,14 @@
 {
 	"type": "itemTurret",
 	"health": 28800,
-    "coolantMultiplier": 0.5,
+    "coolantMultiplier": 0.2,
     "reload": 9,
     "ammoUseEffect": "casing3",
     "ammoEjectBack": 2,
     "range": 420,
     "inaccuracy": 3,
     "recoilAmount": 10,
-	    "consumes": {"coolant": {"amount": 1.5}},
+	    "consumes": {"coolant": {"amount": 1}},
     "alternate": true,
     "shootShake": 4,
      "shoot": {
