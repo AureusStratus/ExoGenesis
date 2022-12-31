@@ -489,7 +489,7 @@
     "speed": 14,
     "height": 42,
     "width": 25,
-    "ammoMultiplier": 4,
+    "ammoMultiplier": 3,
 	    "rangeChange": 70,
     "lifetime": 35,
     "damage": 999,
