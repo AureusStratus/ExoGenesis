@@ -9,6 +9,7 @@
 	"shootLength": 8,
 	"coolantUsage": 3,
 	"ammoUseEffect": "casing3Double",
+	"liquidCapacity": 240,
 	"coolantMultiplier": 0.2,
 	"targetAir" : true, 
 	"targetGround" : true, 
