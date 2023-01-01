@@ -10,7 +10,7 @@
     ]
     },
     "singleTarget": true,
-    "faceTarget": false,
+    "faceTarget": true,
     "outlineColor": "36363c",
     "drawShields": false,
     "speed": 0.75,
