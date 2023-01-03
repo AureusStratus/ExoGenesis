@@ -1,9 +1,9 @@
 {
 "type": "PowerTurret",
 "size": 4,
-"health": 1000,
+"health": 2000,
 "range": 200,
-"reload": 15,
+"reload": 20,
 "shootSound": "laser",
 "rotateSpeed": 4,
 "shootShake": 1.5,
@@ -17,16 +17,17 @@
 },
 "targetAir": true,
 "targetGround": true,
-"recoilAmount": 4,
+"recoilAmount": 8,
  "consumes": {
-     "power": 17
+     "power": 17,
+     "coolant": {"amount": 0.5}
      },
 "shootType": {
   "type": "LaserBulletType",
   "colors":["84F49170", "84F491FF", "FFFFFF"],
   "length": 200,
   "width": 25,
-  "damage": 100,
+  "damage": 160,
   "hitEffect": "hitMeltHeal",
   "lightColor": "84F491FF",
   "shootEffect": "hitEmpSpark",
@@ -39,7 +40,8 @@
         "thorium/400",
         "genvunite/340",
         "silicon/600",
-        "copper/430"
+        "titanium/340"
+        "copper/450"
     ],
     "category": "turret",
     "research": "1-punisher"
