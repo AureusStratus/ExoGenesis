@@ -2,9 +2,9 @@
 	"type": "LaserTurret",
 	"size": 8,
 	"unitSort": "strongest",
-	"health": 17280,
+	"health": 28800,
 	"reload": 170,
-	"range": 345,
+	"range": 360,
 	"shots" : 1,
         "heatColor": "FFFFFFF",
 	"targetAir" : true, 
@@ -39,7 +39,7 @@
       "width": 13,
       "oscScl": 2,
       "oscMag":	5,
-      "length": 350,
+      "length": 370,
       "status": "melting",
       "largeHit": true,
       "statusDuration": 50,
@@ -76,11 +76,12 @@
 	},
 
 	"requirements": [
-	    "graphite/1600",
-        "surge-alloy/3000",
+	    "graphite/2000",
+        "surge-alloy/1200",
         "voltirium-alloy/1500",
-        "copper/2300",
-	"lead/2200"
+        "copper/2500",
+	"lead/2500",
+	"plastanium/1000"
         "silicon/1700",
         "jupiteium/1300"
 	],
