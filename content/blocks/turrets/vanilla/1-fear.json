@@ -486,6 +486,11 @@
             ]
             },
             "speed": 1000,
+			"lightning": 12,
+			"lightningLength": 10,
+			"lightningLengthRand": 10,
+			"lightningDamage": 300,
+			"lightningColor": "8894ffff",
             "hitShake": 7,
             "trailSpacing": 30,
             "colorFrom": "8894ffff",
@@ -501,6 +506,7 @@
             "colorFrom": "8894ffff",
             "colorTo": "616dadff"
             },
+	    "fragBullets":1,
             "fragBullet": {
                 "buildingDamageMultiplier": 0.50,
                 "instantDisappear": true,
@@ -525,8 +531,9 @@
 		"titanium/1750",
         "thorium/2400",
         "voltirium-alloy/1500",
+	"metaglass/840",
         "plastanium/2650",
-        "copper/4950",
+        "copper/4800",
         "surge-alloy/3000",
 		"silicon/2000"
 	],
