@@ -1,14 +1,14 @@
 {
     "type": "PowerTurret",
     "size": 3,
-    "health": 360,
-    "range": 200,
+    "health": 2340,
+    "range": 300,
     "shootLength": 5,
     "reload": 125,
     "shoot": {
     "type": "ShootSpread",
-    "spread": 7,
-    "shots": 3
+    "spread": 9,
+    "shots": 5
     },
     "targetAir": true,
     "targetGround": true,
@@ -16,15 +16,17 @@
     "recoilAmount": 4,
     "shootShake": 2.5,
     "restitution": 0.05,
-    "shootSound": "shotgun",
+    "shootSound": "shockBlast",
     "hasPower": true,
+     "coolantMultiplier": 5,
      "consumes": {
-     "power": 14
+     "power": 14,
+     "coolant": {"amount": 0.2}
      },
     "shootType": {
 	"type" : "basicBulletType",
-	"sprite": "missile",
-	"damage": 60,
+	"sprite": "missile-large",
+	"damage": 72,
 	"height" : 18,
 	"width" : 9,
 	"speed": 6,
@@ -45,11 +47,11 @@
     "fragVelocityMax": 0.9,
 	"fragBullet": {
 	"type" : "basicBulletType",
-	"sprite": "missile",
-	"damage": 80,
+	"sprite": "missile-large",
+	"damage": 84,
 	"height" : 18,
 	"width" : 9,
-	"speed": 6,
+	"speed": 8,
 	"lifetime" : 60,
 	"hitEffect": "hitMeltHeal",
 	"despawnEffect": "hitMeltHeal",
