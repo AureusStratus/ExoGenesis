@@ -1,15 +1,15 @@
 {
     "type": "ItemTurret",
     "size": 3,
-    "health": 240,
-    "reload": 58,
-    "range": 200,
-    "inaccuracy": 2,
+    "health": 1800,
+    "reload": 45,
+    "range": 240,
+    "inaccuracy": 0,
     "ammoUseEffect": "casing2",
     "ammoEjectBack": 3,
     "shoot": {
     "type": "ShootPattern",
-    "shotDelay": 5,
+    "shotDelay": 3,
     "shots": 5
     },
     "targetAir": true,
@@ -24,8 +24,8 @@
     "ammoTypes": {
         "titanium": {
             "type": "BasicBulletType",
-            "speed": 5,
-            "lifetime": 60,
+            "speed": 8,
+            "lifetime": 30,
             "damage": 40,
             "status": "freezing",
             "statusDuration": 100,
@@ -42,9 +42,9 @@
         },
         "thorium": {
             "type": "BasicBulletType",
-            "speed": 5,
+            "speed": 8,
             "damage": 60,
-            "lifetime": 60,
+            "lifetime": 30,
             "height": 26,
             "width": 14,
             "knockback": 2.4,
@@ -59,10 +59,11 @@
         },
         "surge-alloy": {
         "type": "BasicBulletType",
-        "speed": 5,
-        "damage": 84,
-        "knockback": 0.8,
-        "lifetime": 60,
+        "speed": 10,
+	"rangeChange": 60,
+        "damage": 96,
+        "knockback": 1.2,
+        "lifetime": 30,
         "height": 26,
         "width": 14,
 	    "lightning": 3,
@@ -78,11 +79,12 @@
         }
     },
     "requirements": [
-        "thorium/400",
+	"copper/600"
+        "thorium/180",
         "titanium/400",
-        "silicon/380",
+        "silicon/350",
         "plastanium/360",
-        "graphite/600"
+        "graphite/400"
     ],
     "category": "turret",
     "research": "salvo"
