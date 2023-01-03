@@ -6,6 +6,8 @@
     "range": 240,
     "inaccuracy": 0,
     "ammoUseEffect": "casing2",
+    "coolantMultiplier": 3
+    "consumes": {"coolant": {"amount": 0.2}},
     "ammoEjectBack": 3,
     "shoot": {
     "type": "ShootPattern",
