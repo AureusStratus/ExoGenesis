@@ -1,7 +1,7 @@
 {
 "type": "PowerTurret",
 "size": 4,
-"health": 2000,
+"health": 3200,
 "range": 200,
 "reload": 20,
 "shootSound": "laser",
@@ -18,10 +18,10 @@
 "targetAir": true,
 "targetGround": true,
 "recoilAmount": 8,
- "coolantMultiplier":5,
+ "coolantMultiplier":4,
  "consumes": {
      "power": 17,
-     "coolant": {"amount": 0.2}
+     "coolant": {"amount": 0.4}
      },
 "shootType": {
   "type": "LaserBulletType",
@@ -43,6 +43,7 @@
         "silicon/600",
         "titanium/340"
         "copper/450"
+        "grahite/240"
     ],
     "category": "turret",
     "research": "1-punisher"
