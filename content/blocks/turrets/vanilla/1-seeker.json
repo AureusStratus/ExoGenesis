@@ -1,14 +1,16 @@
 {
 	"type": "PowerTurret",
 	"size": 5,
-	"health": 3180,
+	"health": 8750,
 	"reload": 25,
-	"range": 300,
+	"range": 320,
   "recoilAmount": 0,
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone" : 25,
 	"restitution" : 0.04, 
+	"coolantMultiplier": 2
+	"consumes": {"coolant": {"amount": 0.4}},
 	"rotateSpeed": 3,
 	"shootSound" : "laser",
 	"shootEffect": {
@@ -106,6 +108,7 @@
     "height": 0.1,
     "width": 0.1,
     "lifetime": 30,
+	"lightRadius":0,
     "collidesAir": false,
     "collidesTiles": false,
     "collidesGround": false,
@@ -172,11 +175,12 @@
 	}
 	},
 	"requirements": [
-        "copper/750",
-        "titanium/500",
+        "copper/1500",
+        "titanium/750",
+	"surge-alloy/275"	
         "xanium/460",
         "xytranite/700",
-        "silicon/800"
+        "silicon/900"
 	],
 	"category": "turret",
 	"research": "1-sight"
