@@ -224,9 +224,9 @@
         "silicon/2000",
         "plastanium/2000",
         "thorium/2000",
-        "xanium/3000",
+        "xanium/1500",
         "voltirium-alloy/1400",
-        "xytranite/3200"
+        "xytranite/2400"
 	],
 	"category": "turret",
 	"research": "1-seeker"
