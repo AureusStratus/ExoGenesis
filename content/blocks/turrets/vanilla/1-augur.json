@@ -9,7 +9,6 @@
 	"coolantUsage": 1.2,
 	"ammoUseEffect": "casing3Double",
 	"coolantMultiplier": 0.5,
-	"consumes": {"coolant": {"amount": 1}},
 	"liquidCapacity": 90,
 	"targetAir" : true, 
 	"targetGround" : true, 
@@ -42,7 +41,8 @@
 		}
 	},
 	"consumes" : {
-		"power": 20
+		"power": 20,
+		"coolant": {"amount": 1}
 			},
 	"requirements": [
 	"titanium/750",
