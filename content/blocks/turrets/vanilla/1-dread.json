@@ -723,7 +723,7 @@
     "reloadMultiplier": 0.9
     "sprite": "exogenesis-gauss-bullet",
     "speed": 16,
-    "damage": 2500,
+    "damage": 2850,
     "height": 42,
     "width": 25,
     "trailColor": "8894FFFF",
@@ -957,7 +957,7 @@
 	"height" : 12,
 	"width" : 12,
 	"lifetime": 20,
-	"damage" : 100,
+	"damage" : 130,
 	"frontColor": "FFFFFFFF",
     "backColor": "8894FFFF",
 	"pierce": true,
