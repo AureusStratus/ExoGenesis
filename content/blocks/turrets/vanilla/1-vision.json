@@ -7,9 +7,9 @@
 	"inaccuracy": 0,
 	"hasPower": true,
 	"coolantMultiplier": 1.2,
-	"consumes": {"coolant": {"amount": 0.5}},
         "consumes": {
-	"power": 160
+	"power": 160,
+	"coolant": {"amount": 0.5}
 	},
 	"targetAir" : true, 
 	"targetGround" : true,
