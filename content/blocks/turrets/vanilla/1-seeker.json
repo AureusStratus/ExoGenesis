@@ -10,7 +10,6 @@
 	"shootCone" : 25,
 	"restitution" : 0.04, 
 	"coolantMultiplier": 2
-	"consumes": {"coolant": {"amount": 0.4}},
 	"rotateSpeed": 3,
 	"shootSound" : "laser",
 	"shootEffect": {
@@ -92,7 +91,8 @@
     ]
 	},
      "consumes": {
-     "power": 28
+     "power": 28,
+     "coolant": {"amount": 0.4}
      },
     "hasPower" : true,
     "shootType" : {
