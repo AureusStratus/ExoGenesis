@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"size": 5,
-	"health": 850,
+	"health": 7000,
 	"maxAmmo": 150,
 	"ammoPerShot" : 10,
 	"reload": 400,
@@ -43,12 +43,13 @@
 		"power": 20
 			},
 	"requirements": [
-		"titanium/750",
+	"titanium/750",
         "thorium/460",
         "plastanium/650",
+	"metaglass/400",
         "copper/950",
         "surge-alloy/860",
-		"silicon/1000"
+	"silicon/1000"
 	],
 	"category": "turret",
 	"research": "foreshadow"
