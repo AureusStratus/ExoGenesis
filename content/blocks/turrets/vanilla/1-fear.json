@@ -145,7 +145,7 @@
 	"splashDamageRadius": 1,
 	"buildingDamageMultiplier": 0.50
 	},
-	"voltirium-alloy: {
+	"voltirium-alloy": {
 	"type" : "pointBulletType",
 	"damage": 10000,
     "shootEffect": {
