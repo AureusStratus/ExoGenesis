@@ -46,7 +46,7 @@
 	"height" : 22,
 	"width" : 17,
 	"speed": 7,
-	"lifetime" : 45,
+	"lifetime" : 48,
 	"pierceBuilding": true,
 	"hitEffect": {
     "type": "ParticleEffect",
