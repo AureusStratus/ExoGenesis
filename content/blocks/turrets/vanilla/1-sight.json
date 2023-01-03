@@ -1,9 +1,9 @@
 {
     "type": "PowerTurret",
     "size": 4,
-    "health": 480,
-    "reload": 98,
-    "range": 230,
+    "health": 2880,
+    "reload": 100,
+    "range": 350,
     "shootLength": 3,
     "inaccuracy": 7,
      "shoot": {
@@ -28,23 +28,25 @@
     "colorFrom": "BF92F9FF",
     "colorTo": "665C9Fff"
     },
-    "recoilAmount": 4.5,
+    "recoilAmount": 9,
     "restitution": 0.04,
     "rotateSpeed": 3,
-    "shootSound": "laser",
+    "shootSound": "bolt",
+	"coolantMultiplier": 3,
      "consumes": {
      "power": 24
+	     "coolant": {"amount": 0.4}
      },
     "hasPower": true,
     "shootType": {
 	"type" : "basicBulletType",
 	"sprite" : "exogenesis-peircer",
 	"status": "sapped",
-	"damage": 300,
+	"damage": 280,
 	"height" : 22,
 	"width" : 17,
-	"speed": 6,
-	"lifetime" : 60,
+	"speed": 7,
+	"lifetime" : 45,
 	"pierceBuilding": true,
 	"hitEffect": {
     "type": "ParticleEffect",
