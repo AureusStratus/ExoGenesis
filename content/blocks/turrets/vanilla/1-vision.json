@@ -1,12 +1,13 @@
 {
 	"type": "PowerTurret",
 	"size": 8,
-	"health": 8660,
+	"health": 26880,
 	"range": 500,
 	"reload" : 230,
-	"inaccuracy": 2,
-	"shots" : 1,
+	"inaccuracy": 0,
 	"hasPower": true,
+	"coolantMultiplier": 1.2,
+	"consumes": {"coolant": {"amount": 0.5}},
         "consumes": {
 	"power": 160
 	},
@@ -21,13 +22,14 @@
 	"type": "BasicBulletType",
     "sprite": "circle-bullet",
     "lightRadius": 80,
+	"layer":90,
     "lightColor": "BF92F9FF",
     "status": "exogenesis-nuclear-toxicity",
     "statusDuration": 100,
-    "speed": 6,
+    "speed": 10,
     "hitSound": "plasmaboom",
-    "lifetime": 110,
-    "damage": 500,
+    "lifetime": 50,
+    "damage": 650,
     "shrinkX": 0,
     "shrinkY": 0,
     "scaleVelocity": true,
@@ -189,9 +191,9 @@
     "absorbable": false,
     "hittable": false,
     "lightning": 1,
-    "lightningDamage": 100,
+    "lightningDamage": 120,
     "lightningLength": 9,
-    "lightningLengthRand": 17,
+    "lightningLengthRand": 18,
     "lightningColor": "BF92F9FF",
     "splashDamage": 50, 
     "splashDamageRadius": 80,
@@ -218,12 +220,13 @@
     }
 	},
 	"requirements": [
+	"copper/2700"	
         "silicon/2000",
         "plastanium/2000",
         "thorium/2000",
         "xanium/3000",
-        "voltirium-alloy/1500",
-        "xytranite/3000"
+        "voltirium-alloy/1400",
+        "xytranite/3200"
 	],
 	"category": "turret",
 	"research": "1-seeker"
