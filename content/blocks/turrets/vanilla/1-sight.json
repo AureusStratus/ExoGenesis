@@ -32,7 +32,7 @@
     "restitution": 0.04,
     "rotateSpeed": 3,
     "shootSound": "bolt",
-	"coolantMultiplier": 3,
+	"coolantMultiplier": 2,
      "consumes": {
      "power": 24
 	     "coolant": {"amount": 0.4}
