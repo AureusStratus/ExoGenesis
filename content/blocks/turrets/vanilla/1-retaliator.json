@@ -6,15 +6,17 @@
     "inaccuracy": 10,
     "recoilAmount": 4,
 	"size": 8,
-	"health": 8660,
+	"health": 21650,
 	"shootShake": 4,
  "velocityInaccuracy": 0.3,
         "shoot": {
     "shots": 7
     },
 	"shootSound": "plasmaboom",
+	"coolantMultiplier" : 1,
      "consumes": {
-     "power": 45
+     "power": 45,	
+     "coolant": {"amount": 1}
      },
     "shootType" : {
        "type": "EmpBulletType",
@@ -50,12 +52,13 @@
         "sprite": "circle-bullet"
         },
 	"requirements": [
+	"copper/2000"
 	    "titanium/1600",
         "silicon/1700",
         "thorium/2400",
-        "plastanium/3000",
+        "plastanium/2800",
         "voltirium-alloy/1500",
-        "genvunite/3000"
+        "genvunite/2100"
 	],
 	"category": "turret",
 	"research": "1-avenger"
