@@ -1,8 +1,8 @@
 {
         "localizedName": "Neutron Overcharge",
-        "speedMultiplier": 1.35,
-        "damageMultiplier": 1.35,
-        "reloadMultiplier": 1.75,
+        "speedMultiplier": 1.30,
+        "damageMultiplier": 1.45,
+        "reloadMultiplier": 1.6,
         "effect": {
         "type": "ParticleEffect",
         "line": true,
