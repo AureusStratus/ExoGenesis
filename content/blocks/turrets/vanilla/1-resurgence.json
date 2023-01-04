@@ -1,7 +1,7 @@
 {
 	"type": "LaserTurret",
 	"size": 2,
-	"health": 180,
+	"health": 720,
 	"reload": 40,
 	"range": 85,
   "shootLength": 10,
@@ -9,10 +9,7 @@
 	"targetGround" : true,
  "consumes": {
  "power": 4
-	"liquid": {
-	"liquid": "water",
-	"amount": 0.2
-	}
+     "coolant": {"amount": 0.2}
 	},
     "update": true,
     "hasPower": true,
@@ -42,6 +39,7 @@
 	},
 
 	"requirements": [
+	"graphite/80"
 	    "titanium/200",
         "copper/400",
         "silicon/200"
