@@ -1,8 +1,8 @@
 {
  "type": "TractorBeamTurret",
- "range": 100,
+ "range": 160,
  "size": 1,
- "health": 300,
+ "health": 400,
  "targetGround": true,
  "shootLength": 6,
  "force": -15,
@@ -12,11 +12,12 @@
  "statusDuration": 10,
  "status": "electrified",
  "consumes": {
-  "power": 1.2
+  "power": 2
 },
  "category": "turret",
  "research": "arc",
  "requirements": [
+  "copper/70"
   "lead/40",
   "silicon/60"
   ]
