@@ -3,7 +3,7 @@
 	"size": 5,
 	"health": 8750,
 	"reload": 25,
-	"range": 320,
+	"range": 400,
   "recoilAmount": 0,
 	"targetAir" : true, 
 	"targetGround" : true,
