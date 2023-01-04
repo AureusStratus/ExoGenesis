@@ -147,7 +147,7 @@
 	"splashDamageRadius": 1,
 	"buildingDamageMultiplier": 0.50
 	},
-	"phase-fabric": {
+	"voltirium-alloy": {
 	"type" : "pointBulletType",
 	"damage": 10000,
 	"ammoMultiplier": 1,
