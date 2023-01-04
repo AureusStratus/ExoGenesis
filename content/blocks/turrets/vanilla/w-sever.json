@@ -3,20 +3,20 @@
 "shootLength": 10,
 "reload": 7,
 "rotateSpeed": 8,
-"range": 220,
+"range": 256,
 "size": 3,
-"health": 1200,
-"bulletDamage": 50,
+"health": 3000,
+"bulletDamage": 75,
 "consumes": {
-  "power": 10.2
+  "power": 10
 },
 "category": "turret",
 "research": "segment",
 "requirements": [
-  "silicon/450",
+  "silicon/480",
   "thorium/240",
   "xanium/500",
-  "phase-fabric/185",
-  "plastanium/265"
+  "phase-fabric/200",
+  "plastanium/300"
   ]
 }
