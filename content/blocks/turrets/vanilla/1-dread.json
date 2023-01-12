@@ -722,7 +722,7 @@
     "speed": 8,
     "height": 42,
     "width": 25,
-    "ammoMultiplier": 4,
+    "ammoMultiplier": 40,
     "lifetime": 4,
     "damage": 2700,
     "trailColor": "8894FFFF",
@@ -943,7 +943,6 @@
     }
     ]
     },
-    "lifetime": 55,
     "fragBullets": 10,
     "fragVelocityMin": 4,
     "fragCone": 360,
