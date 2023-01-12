@@ -492,6 +492,7 @@
 	"lifetime": 30,
 	"damage" : 50,
 	"shrinkY": 1,
+	"despawnEffect": "none",
 	"frontColor": "E2F5FBFf",
     "backColor": "C9DDE3Ff",
 	"pierce": true,
