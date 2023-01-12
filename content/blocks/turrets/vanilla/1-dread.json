@@ -5,7 +5,7 @@
     "reload": 10,
     "ammoUseEffect": "casing3",
     "ammoEjectBack": 2,
-    "range": 220,
+    "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 5,
     
