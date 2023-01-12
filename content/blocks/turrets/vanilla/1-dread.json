@@ -491,7 +491,7 @@
 	"width" : 6,
 	"lifetime": 30,
 	"damage" : 50,
-	"shrinkY": 12
+	"shrinkY": 12,
 	"frontColor": "E2F5FBFf",
     "backColor": "C9DDE3Ff",
 	"pierce": true,
