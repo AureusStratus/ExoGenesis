@@ -487,9 +487,9 @@
     "fragLifeMin": 0.3,
 	"fragBullet": {
 	"type": "BasicBulletType",
-	"height" : 12,
-	"width" : 6,
-	"lifetime": 30,
+	"height" : 28,
+	"width" : 12,
+	"lifetime": 60,
 	"damage" : 50,
 	"shrinkY": 1,
 	"despawnEffect": "none",
