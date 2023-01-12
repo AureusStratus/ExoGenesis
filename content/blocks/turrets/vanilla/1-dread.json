@@ -720,14 +720,14 @@
     "voltirium-alloy": {
     "sprite": "exogenesis-gauss-bullet",
     "speed": 8,
-    "lifetime": 4,
-    "damage": 2700,
     "height": 42,
     "width": 25,
+    "ammoMultiplier": 4,
+    "lifetime": 4,
+    "damage": 2700,
     "trailColor": "8894FFFF",
     "trailLength": 10,
     "trailWidth": 4.5,
-    "ammoMultiplier": 4,
     "frontColor": "FFFFFFFF",
     "backColor": "8894FFFF",
     "shootEffect": {
