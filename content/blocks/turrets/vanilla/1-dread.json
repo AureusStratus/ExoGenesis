@@ -482,22 +482,19 @@
     },
     "knockback": 15,
     "fragBullets": 30,
-    "fragVelocityMin": 8,
+    "fragVelocityMin": 16,
     "fragCone": 360,
     "fragLifeMin": 0.3,
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"height" : 6,
 	"width" : 6,
-	"lifetime": 5,
+	"lifetime": 10,
 	"damage" : 50,
 	"frontColor": "E2F5FBFf",
     "backColor": "C9DDE3Ff",
 	"pierce": true,
-	"pierceBuilding": true,
-	"splashDamage" : 150,
-	"splashDamageRadius" : 16,	
-    "hitEffect": "flakExplosion"
+	"pierceBuilding": true,	
 	}
     },
     "surge-alloy": {
