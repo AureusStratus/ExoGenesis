@@ -28,7 +28,8 @@
     "width": 25,
     "ammoMultiplier": 4,
     "pierce": "true",
-    "lifetime": 25,
+    "lifetime": 55,
+    "rangeChange": 120,
     "damage": 500,
     "knockback": 15,
     "trailColor": "CB8EBFFF",
@@ -479,7 +480,7 @@
     }
     ]
     },
-    "knockback": 30
+    "knockback": 15
     },
     "surge-alloy": {
     "sprite": "exogenesis-gauss-bullet",
@@ -489,9 +490,9 @@
     "height": 42,
     "width": 25,
     "ammoMultiplier": 4,
-    "lifetime": 35,
+    "lifetime": 40,
     "damage": 1000 ,
-    "knockback": 25,
+    "knockback": 20,
     "trailColor": "F3E979FF",
     "trailLength": 10,
     "trailWidth": 4.5,
