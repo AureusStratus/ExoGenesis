@@ -724,6 +724,7 @@
     "damage": 2700,
     "height": 42,
     "width": 25,
+    "lifetime": 40,
     "trailColor": "8894FFFF",
     "trailLength": 10,
     "trailWidth": 4.5,
