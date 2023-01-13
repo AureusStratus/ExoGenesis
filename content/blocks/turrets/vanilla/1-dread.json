@@ -8,7 +8,12 @@
     "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 5,
-    
+    "coolantMultiplier": 15,
+    "consumes": {
+      "coolant": {
+        "amount": 0.1
+      }
+    }
     "alternate": true,
     "shootShake": 4,
      "shoot": {
