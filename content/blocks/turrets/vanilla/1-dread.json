@@ -265,6 +265,40 @@
     "lightColor": "E2F5FBFf",
     "colorFrom": "E2F5FBFf",
     "colorTo": "C9DDE3Ff"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 15,
+    "lifetime": 30,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 100,
+    "cone": -360,
+    "strokeTo": 0,
+    "strokeFrom": 3,
+    "sizeFrom": 12,
+    "sizeTo": 12,
+    "lightColor": "F9A3C7FF",
+    "colorFrom": "F9A3C7FF",
+    "colorTo": "CB8EBFFF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 30,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 120,
+    "cone": -40,
+    "strokeTo": 0,
+    "strokeFrom": 2.5,
+    "sizeFrom": 20,
+    "sizeTo": 20,
+    "lightColor": "F9A3C7FF",
+    "colorFrom": "F9A3C7FF",
+    "colorTo": "CB8EBFFF"
     }
     ]
     },    
@@ -320,40 +354,6 @@
     "sizeTo": 0,
     "colorFrom": "787878",
     "colorTo": "787878d8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 100,
-    "cone": -360,
-    "strokeTo": 0,
-    "strokeFrom": 3,
-    "sizeFrom": 12,
-    "sizeTo": 12,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 120,
-    "cone": -40,
-    "strokeTo": 0,
-    "strokeFrom": 2.5,
-    "sizeFrom": 20,
-    "sizeTo": 20,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
     }
     ]
     },
@@ -409,40 +409,6 @@
     "sizeTo": 0,
     "colorFrom": "787878",
     "colorTo": "787878d8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 100,
-    "cone": -360,
-    "strokeTo": 0,
-    "strokeFrom": 3,
-    "sizeFrom": 12,
-    "sizeTo": 12,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 120,
-    "cone": -40,
-    "strokeTo": 0,
-    "strokeFrom": 2.5,
-    "sizeFrom": 20,
-    "sizeTo": 20,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
     }
     ]
     },
