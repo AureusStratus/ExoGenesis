@@ -279,9 +279,9 @@
     "strokeFrom": 3,
     "sizeFrom": 12,
     "sizeTo": 12,
-    "lightColor": "F9A3C7FF",
-    "colorFrom": "F9A3C7FF",
-    "colorTo": "CB8EBFFF"
+    "lightColor": "E2F5FBFf",
+    "colorFrom": "E2F5FBFf",
+    "colorTo": "C9DDE3Ff"
     },
     { 
     "type": "ParticleEffect",
@@ -296,9 +296,9 @@
     "strokeFrom": 2.5,
     "sizeFrom": 20,
     "sizeTo": 20,
-    "lightColor": "F9A3C7FF",
-    "colorFrom": "F9A3C7FF",
-    "colorTo": "CB8EBFFF"
+    "lightColor": "E2F5FBFf",
+    "colorFrom": "E2F5FBFf",
+    "colorTo": "C9DDE3Ff"
     }
     ]
     },    
@@ -414,13 +414,13 @@
     },
     "knockback": 5,
     "fragBullets": 30,
-    "fragVelocityMin": 4,
+    "fragVelocityMin": 6,
     "fragCone": 360,
     "fragLifeMin": 0.3,
 	"fragBullet": {
 	"type": "BasicBulletType",
-	"height" : 28,
-	"width" : 12,
+	"height" : 24,
+	"width" : 6,
 	"lifetime": 60,
 	"damage" : 50,
 	"shrinkY": 1,
