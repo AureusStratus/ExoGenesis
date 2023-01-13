@@ -8,7 +8,7 @@
     "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 5,
-    "coolantMultiplier": 10,
+    "coolantMultiplier": 1,
     "consumes": {
       "coolant": {
         "amount": 1
