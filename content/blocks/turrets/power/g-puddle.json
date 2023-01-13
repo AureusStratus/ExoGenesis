@@ -28,7 +28,7 @@
 		"collidesTiles": true,
 		"collidesGround": true,
 		"collidesAir": false,
-		"lifetime" : 100,
+		"lifetime" : 105,
 		"homingPower": 0.00769,
 		"homingRange": 68,
 		"shrinkX": 0,
