@@ -223,7 +223,7 @@
     "speed": 8,
     "height": 42,
     "width": 25,
-    "reloadMultiplier": 0.5,
+    "reloadMultiplier": 1.5,
     "ammoMultiplier": 4,
     "pierce": false,
     "lifetime": 55,
