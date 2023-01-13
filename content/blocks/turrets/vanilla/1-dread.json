@@ -11,7 +11,7 @@
     "coolantMultiplier": 1,
     "consumes": {
       "coolant": {
-        "amount": 1
+        "amount": 0.2
       }
     }
     "alternate": true,
