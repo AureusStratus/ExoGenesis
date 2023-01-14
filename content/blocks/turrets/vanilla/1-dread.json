@@ -8,7 +8,12 @@
     "range": 320,
     "inaccuracy": 3,
     "recoilAmount": 5,
-    
+    "coolantMultiplier": 10,
+    "consumes": {
+      "coolant": {
+        "amount": 0.2
+      }
+    }
     "alternate": true,
     "shootShake": 4,
      "shoot": {
@@ -223,10 +228,11 @@
     "speed": 8,
     "height": 42,
     "width": 25,
+    "reloadMultiplier": 1.5,
     "ammoMultiplier": 4,
     "pierce": false,
     "lifetime": 55,
-    "damage": 300,
+    "damage": 75,
     "rangeChange": 120,
     "trailColor": "C9DDE3Ff",
     "trailLength": 10,
@@ -258,40 +264,6 @@
     "interp": "circleOut",
     "length": 120,
     "cone": -360,
-    "strokeTo": 0,
-    "strokeFrom": 2.5,
-    "sizeFrom": 20,
-    "sizeTo": 20,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 100,
-    "cone": -360,
-    "strokeTo": 0,
-    "strokeFrom": 3,
-    "sizeFrom": 12,
-    "sizeTo": 12,
-    "lightColor": "E2F5FBFf",
-    "colorFrom": "E2F5FBFf",
-    "colorTo": "C9DDE3Ff"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 10,
-    "lifetime": 30,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 120,
-    "cone": -40,
     "strokeTo": 0,
     "strokeFrom": 2.5,
     "sizeFrom": 20,
