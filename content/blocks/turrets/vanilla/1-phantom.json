@@ -1,10 +1,10 @@
 {
 	"type": "itemTurret",
 	"health": 1900,
-    "coolantMultiplier": 2.5,
+    "coolantMultiplier": 1.6,
     "consumes": {
       "coolant": {
-        "amount": 1.2
+        "amount": 1.25
       }
     },
     "reload": 6.5,
