@@ -31,8 +31,8 @@
     "lifetime": 37.5,
     "damage": 100,
     "pierce": "true"
-    "frontColor": "E66F57FF",
-    "backColor": "C85C51FF",
+    "frontColor": "F9A3C7FF",
+    "backColor": "CB8EBFFF",
     "shootEffect": {
     "type": "multiEffect",
     "effects": [
@@ -40,7 +40,7 @@
     "type": "ParticleEffect",
     "particles": 1,
     "length": 0,
-    "lifetime": 5,
+    "lifetime": 10,
     "interp": "swingIn",
     "region": "exogenesis-spikething",
     "offsetX": 8,
