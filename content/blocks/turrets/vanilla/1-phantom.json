@@ -29,7 +29,7 @@
     "height": 25,
     "width": 18,
     "lifetime": 37.5,
-    "damage": 100,
+    "damage": 180,
     "pierce": "true"
     "frontColor": "F9A3C7FF",
     "backColor": "CB8EBFFF",
