@@ -40,11 +40,11 @@
     "type": "ParticleEffect",
     "particles": 1,
     "length": 0,
-    "lifetime": 15,
+    "lifetime": 5,
     "interp": "swingIn",
     "region": "exogenesis-spikething",
     "offsetX": 8,
-    "sizeFrom": 25,
+    "sizeFrom": 15,
     "sizeTo": 1,
     "colorFrom": "F9A3C7FF",
     "colorTo": "CB8EBFFF"
