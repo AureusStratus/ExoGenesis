@@ -11,10 +11,10 @@
     "ammoUseEffect": "casing3",
     "range": 300,
     "inaccuracy": 3,
-    "recoilAmount": 4,
+    "recoilAmount": 8,
     "shoot": {
     "type": "ShootAlternate",
-    "barrels": 2,
+    "barrels": 4,
     "spread": 14,
     "shots": 1
     },
