@@ -92,6 +92,7 @@
     "lightningLengthRand": 12,
     "lightningLength": 5,
     "collidesAir": true
+      }
     }
     },  
 	"requirements": [
@@ -104,4 +105,4 @@
 	"category": "turret",
 	"research": "spectre"
 }
-}
+
