@@ -3,12 +3,11 @@
 	"health": 1900,
     "coolantMultiplier": 1.0,
     "consumes": {
-    	"coolant": {
-	    "amount": 0.1
-	}
+      "coolant": {
+        "amount": 0.1
+      }
     },
     "reload": 6.5,
-    "restitution": 0.1,
     "ammoUseEffect": "casing3",
     "range": 300,
     "inaccuracy": 3,
@@ -24,24 +23,37 @@
     "shootCone": 24,
     "shootSound": "shootBig",
     "ammoTypes": {
-    "blast-compound": {
-    "status": "burning",
-	"statusDuration": "800",
-    "speed": 6,
-    "height": 18,
-    "width": 15,
-    "lifetime": 50,
+
+    "thorium": {
+    "speed": 8,
+    "height": 25,
+    "width": 18,
+    "lifetime": 37.5,
     "damage": 100,
-    "splashDamage": 55,
-    "splashDamageRadius": 16,
-    "knockback": 1.8,
-    "hitSize": 12,
+    "pierce": "true"
     "frontColor": "E66F57FF",
     "backColor": "C85C51FF",
-    "shootEffect": "shootPyraFlame",
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 15,
+    "interp": "swingIn",
+    "region": "exogenesis-spikething",
+    "offsetX": 8,
+    "sizeFrom": 25,
+    "sizeTo": 1,
+    "colorFrom": "F9A3C7FF",
+    "colorTo": "CB8EBFFF"
+    }
+    ]
     "despawnEffect": "blastExplosion",
     "hitEffect": "blastExplosion"
     },
+
     "jupiteium": {
     "speed": 6,
     "height": 18,
@@ -58,6 +70,7 @@
     "despawnEffect": "flakExplosion",
     "hitEffect": "flakExplosion"
     },
+
     "surge-alloy": {
     "status": "shocked",
 	"statusDuration": "700",
