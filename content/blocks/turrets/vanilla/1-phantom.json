@@ -161,6 +161,7 @@
     "fragVelocityMin": 8,
     "fragVelocityMax": 8,
     "fragSpread": 10,
+    "fragRandomSpread": 30,
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"height" : 36,
