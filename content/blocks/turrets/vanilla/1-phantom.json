@@ -57,7 +57,7 @@
     "type": "WaveEffect",
     "lifetime": 25,
     "sizeFrom": 0,
-    "sizeTo": 25,
+    "sizeTo": 5,
     "strokeFrom": 3,
     "strokeTo": 0,
     "lightColor": "F9A3C7FF",
