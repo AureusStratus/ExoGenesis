@@ -283,9 +283,9 @@
     "backColor": "D99F6BFF",
     "lightning": 6,
     "lightningDamage": 86,
-    "lightningCone": 360,
-    "lightningLengthRand": 12,
-    "lightningLength": 12,
+    "lightningCone": 100,
+    "lightningLengthRand": 8,
+    "lightningLength": 4,
     "collidesAir": true
     "shootEffect": {
     "type": "multiEffect",
