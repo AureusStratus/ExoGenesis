@@ -163,10 +163,11 @@
     "fragRandomSpread": 30,
 	"fragBullet": {
 	"type": "BasicBulletType",
-	"height" : 36,
-	"width" : 36,
+	"height": 36,
+	"width": 36,
+	"speed": 8,
 	"lifetime": 25,
-	"damage" : 280,
+	"damage": 280,
 	"shrinkY": 0.5,
 	"despawnEffect": {
         "type": "multiEffect",
