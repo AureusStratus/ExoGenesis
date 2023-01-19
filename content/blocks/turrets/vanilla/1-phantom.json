@@ -203,28 +203,91 @@
         "lightColor": "000000FF",
         "colorFrom": "BF92F900",
         "colorTo": "BF92F9FF"
+        },
+	{
+        "type": "ParticleEffect",
+        "lightOpacity": 0,
+        "particles": 20,
+        "length": 40,
+        "lifetime": 40,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "sizeFrom": 4,
+        "sizeTo": 0,
+        "colorFrom": "787878",
+        "colorTo": "787878d8"
+        },
+        { 
+        "type": "ParticleEffect",
+        "lightOpacity": 0,
+        "particles": 20,
+        "length": 30,
+        "lifetime": 30,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "sizeFrom": 2.5,
+        "sizeTo": 0,
+        "colorFrom": "787878",
+        "colorTo": "787878d8"
         }
         ]
         },
         "hitEffect": {
         "type": "multiEffect",
         "effects": [
+	{
+        "type": "WaveEffect",
+        "lifetime": 45,
+        "sizeFrom": 0,
+        "sizeTo": 32,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "lightColor": "000000FF",
+        "colorFrom": "BF92F900",
+        "colorTo": "BF92F9FF"
+        },
         { 
         "type": "ParticleEffect",
         "line": true,
-        "particles": 16,
-        "lifetime": 75,
+        "particles": 7,
+        "lifetime": 125,
         "offset": 60,
         "interp": "circleOut",
-        "length": 20,
+        "length": 15,
         "cone": -360,
-        "strokeTo": 0,
         "strokeFrom": 3,
+        "strokeTo": 0,
         "sizeFrom": 24,
         "sizeTo": 24,
         "lightColor": "000000FF",
         "colorFrom": "BF92F900",
         "colorTo": "BF92F9FF"
+        },
+	{
+        "type": "ParticleEffect",
+        "lightOpacity": 0,
+        "particles": 20,
+        "length": 40,
+        "lifetime": 40,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "sizeFrom": 4,
+        "sizeTo": 0,
+        "colorFrom": "787878",
+        "colorTo": "787878d8"
+        },
+        { 
+        "type": "ParticleEffect",
+        "lightOpacity": 0,
+        "particles": 20,
+        "length": 30,
+        "lifetime": 30,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "sizeFrom": 2.5,
+        "sizeTo": 0,
+        "colorFrom": "787878",
+        "colorTo": "787878d8"
         }
         ]
         }
@@ -239,7 +302,6 @@
     "width": 18,
     "lifetime": 37.5,
     "damage": 220,
-    "pierce": "true"
     "frontColor": "F3E979FF",
     "backColor": "D99F6BFF",
     "lightning": 6,
