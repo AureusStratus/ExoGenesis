@@ -247,7 +247,7 @@
     "lightningCone": 100,
     "lightningLengthRand": 8,
     "lightningLength": 4,
-    "lightningColor": "FFFFFFFF",
+    "lightningColor": "F3E979FF",
     "collidesAir": true
     "shootEffect": {
     "type": "multiEffect",
