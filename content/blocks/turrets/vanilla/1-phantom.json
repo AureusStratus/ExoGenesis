@@ -63,6 +63,23 @@
     "lightColor": "F9A3C7FF",
     "colorFrom": "F9A3C7FF",
     "colorTo": "CB8EBFFF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 3,
+    "lifetime": 10,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 25,
+    "cone": -360,
+    "strokeTo": 0,
+    "strokeFrom": 3,
+    "sizeFrom": 12,
+    "sizeTo": 12,
+    "lightColor": "F9A3C7FF",
+    "colorFrom": "F9A3C7FF",
+    "colorTo": "CB8EBFFF"
     }
     ]
     },
@@ -76,6 +93,23 @@
     "sizeTo": 25,
     "strokeFrom": 3,
     "strokeTo": 0,
+    "lightColor": "F9A3C7FF",
+    "colorFrom": "F9A3C7FF",
+    "colorTo": "CB8EBFFF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 3,
+    "lifetime": 10,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 25,
+    "cone": -360,
+    "strokeTo": 0,
+    "strokeFrom": 3,
+    "sizeFrom": 12,
+    "sizeTo": 12,
     "lightColor": "F9A3C7FF",
     "colorFrom": "F9A3C7FF",
     "colorTo": "CB8EBFFF"
