@@ -171,7 +171,7 @@
 	"splashDamageRadius": 48,
 	"speed": 8,
 	"lifetime": 25,
-	"damage": 25,
+	"damage": 100,
 	"shrinkY": 0.5,
 	"despawnEffect": {
         "type": "multiEffect",
@@ -227,47 +227,8 @@
         "colorTo": "BF92F9FF"
         }
         ]
-        },	
-	"fragBullets": 15,
-	"fragVelocityMin": 0.2,
-	"fragRandomSpread": 360,
-	    "fragBullet": {
-            "type": "BasicBulletType",
-	    "height": 12,
-	    "width": 8,
-            "speed": 4,
-	    "pierce": true,
-	    "pierceBuilding": true,
-	    "lifetime": 15,
-	    "damage": 45,
-	    "shrinkY": 1,
-	    "despawnEffect": "none",
-            "hitEffect": {
-            "type": "multiEffect",
-            "effects": [
-            { 
-            "type": "ParticleEffect",
-            "line": true,
-            "particles": 16,
-            "lifetime": 75,
-            "offset": 60,
-            "interp": "circleOut",
-            "length": 20,
-            "cone": -360,
-            "strokeTo": 0,
-            "strokeFrom": 3,
-            "sizeFrom": 24,
-            "sizeTo": 24,
-            "lightColor": "000000FF",
-            "colorFrom": "BF92F900",
-            "colorTo": "BF92F9FF"
-            }
-            ]
-            },
-	    "frontColor": "000000FF",
-            "backColor": "BF92F9FF",
-	    }
-	    }
+        }
+	}
     },
 
     "surge-alloy": {
@@ -286,6 +247,7 @@
     "lightningCone": 100,
     "lightningLengthRand": 8,
     "lightningLength": 4,
+    "lightningColor": "F3E979FF",
     "collidesAir": true
     "shootEffect": {
     "type": "multiEffect",
