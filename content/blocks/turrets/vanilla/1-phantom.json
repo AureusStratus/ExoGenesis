@@ -167,7 +167,7 @@
         "backColor": "BF92F9FF",
 	"height": 36,
 	"width": 36,
-	"splashDamage": 155,
+	"splashDamage": 325,
 	"splashDamageRadius": 48,
 	"speed": 8,
 	"lifetime": 25,
@@ -239,7 +239,7 @@
 	    "pierce": true,
 	    "pierceBuilding": true,
 	    "lifetime": 15,
-	    "damage": 15,
+	    "damage": 45,
 	    "shrinkY": 1,
 	    "despawnEffect": "none",
             "hitEffect": {
