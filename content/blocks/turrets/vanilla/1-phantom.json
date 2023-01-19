@@ -151,20 +151,21 @@
     "sizeFrom": 24,
     "sizeTo": 24,
     "lightColor": "000000FF",
-    "colorFrom": "BF92F900",
+    "colorFrom": "BF92F922",
     "colorTo": "BF92F9FF"
     }
     ]
     },
     "fragBullets": 30,
-    "fragVelocityMin": 6,
+    "fragVelocityMin": 4,
     "fragVelocityMax": 6,
-    "fragRandomSpread": 30,
+    "fragRandomSpread": 60,
+    "fragSpread": 15
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"height" : 12,
 	"width" : 12,
-	"lifetime": 30,
+	"lifetime": 32,
 	"damage" : 50,
 	"shrinkY": 0.5,
 	"despawnEffect": {
@@ -223,9 +224,7 @@
         ]
         },
 	"frontColor": "000000FF",
-        "backColor": "BF92F9FF",
-	"pierce": true,
-	"pierceBuilding": true,	
+        "backColor": "BF92F9FF",	
 	}
     },
 
