@@ -151,16 +151,15 @@
     "sizeFrom": 24,
     "sizeTo": 24,
     "lightColor": "000000FF",
-    "colorFrom": "BF92F922",
+    "colorFrom": "BF92F900",
     "colorTo": "BF92F9FF"
     }
     ]
     },
     "fragBullets": 30,
     "fragVelocityMin": 4,
-    "fragVelocityMax": 6,
+    "fragVelocityMax": 8,
     "fragRandomSpread": 60,
-    "fragSpread": 15
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"height" : 12,
