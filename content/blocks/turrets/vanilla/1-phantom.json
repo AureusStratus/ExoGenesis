@@ -158,8 +158,8 @@
     ]
     },
     "fragBullets": 3,
-    "fragVelocityMin": 8,
-    "fragVelocityMax": 8,
+    "fragVelocityMin": 1,
+    "fragVelocityMax": 1,
     "fragSpread": 10,
     "fragRandomSpread": 30,
 	"fragBullet": {
