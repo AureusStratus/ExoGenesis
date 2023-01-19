@@ -273,24 +273,93 @@
     "surge-alloy": {
     "status": "shocked",
 	"statusDuration": "700",
-    "speed": 6,
-    "height": 18,
-    "width": 15,
-    "lifetime": 50,
-    "damage": 200 ,
-    "knockback": 1.8,
-    "hitSize": 12,
+    "speed": 8,
+    "height": 25,
+    "width": 18,
+    "lifetime": 37.5,
+    "damage": 220,
+    "pierce": "true"
     "frontColor": "F3E979FF",
     "backColor": "D99F6BFF",
-    "shootEffect": "shootPyraFlame",
-    "despawnEffect": "flakExplosionBig",
-    "hitEffect": "flakExplosionBig",
-    "lightning": 4,
-    "lightningDamage": 44,
+    "lightning": 6,
+    "lightningDamage": 86,
     "lightningCone": 360,
     "lightningLengthRand": 12,
-    "lightningLength": 5,
+    "lightningLength": 12,
     "collidesAir": true
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 10,
+    "interp": "swingIn",
+    "region": "exogenesis-spikething",
+    "offsetX": 8,
+    "sizeFrom": 15,
+    "sizeTo": 1,
+    "colorFrom": "F3E979FF",
+    "colorTo": "D99F6BFF"
+    }
+    ]
+    },
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 5,
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "lightColor": "F3E979FF",
+    "colorFrom": "F3E979FF",
+    "colorTo": "D99F6BFF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 35,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 10,
+    "cone": -360,
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "sizeFrom": 24,
+    "sizeTo": 24,
+    "lightColor": "F3E979FF",
+    "colorFrom": "F3E979FF",
+    "colorTo": "D99F6BFF"
+    }
+    ]
+    },
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 16,
+    "lifetime": 75,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 20,
+    "cone": -360,
+    "strokeTo": 0,
+    "strokeFrom": 3,
+    "sizeFrom": 24,
+    "sizeTo": 24,
+    "lightColor": "F3E979FF",
+    "colorFrom": "F3E979FF",
+    "colorTo": "D99F6BFF"
+    }
+    ]
+    },
     }
     },  
 	"requirements": [
