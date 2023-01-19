@@ -110,7 +110,7 @@
     "speed": 8,
     "height": 25,
     "width": 18,
-    "lifetime": 37.5,
+    "lifetime": 7.5,
     "damage": 240,
     "pierce": "true"
     "frontColor": "000000FF",
@@ -133,39 +133,7 @@
     }
     ]
     },
-    "despawnEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 5,
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "lightColor": "000000FF",
-    "colorFrom": "BF92F900",
-    "colorTo": "BF92F9FF"
-    },
-    { 
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 7,
-    "lifetime": 35,
-    "offset": 60,
-    "interp": "circleOut",
-    "length": 10,
-    "cone": -360,
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "sizeFrom": 24,
-    "sizeTo": 24,
-    "lightColor": "000000FF",
-    "colorFrom": "BF92F900",
-    "colorTo": "BF92F9FF"
-    }
-    ]
-    },
+    "despawnEffect": "none",
     "hitEffect": {
     "type": "multiEffect",
     "effects": [
@@ -188,6 +156,77 @@
     }
     ]
     },
+    "fragBullets": 30,
+    "fragVelocityMin": 6,
+    "fragCone": 10,
+    "fragLifeMin": 0.3,
+	"fragBullet": {
+	"type": "BasicBulletType",
+	"height" : 24,
+	"width" : 24,
+	"lifetime": 30,
+	"damage" : 50,
+	"shrinkY": 0.5,
+	"despawnEffect": {
+        "type": "multiEffect",
+        "effects": [
+        {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 5,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "lightColor": "000000FF",
+        "colorFrom": "BF92F900",
+        "colorTo": "BF92F9FF"
+        },
+        { 
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 35,
+        "offset": 60,
+        "interp": "circleOut",
+        "length": 10,
+        "cone": -360,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "sizeFrom": 24,
+        "sizeTo": 24,
+        "lightColor": "000000FF",
+        "colorFrom": "BF92F900",
+        "colorTo": "BF92F9FF"
+        }
+        ]
+        },
+        "hitEffect": {
+        "type": "multiEffect",
+        "effects": [
+        { 
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 16,
+        "lifetime": 75,
+        "offset": 60,
+        "interp": "circleOut",
+        "length": 20,
+        "cone": -360,
+        "strokeTo": 0,
+        "strokeFrom": 3,
+        "sizeFrom": 24,
+        "sizeTo": 24,
+        "lightColor": "000000FF",
+        "colorFrom": "BF92F900",
+        "colorTo": "BF92F9FF"
+        }
+        ]
+        },
+	"frontColor": "000000FF",
+        "backColor": "BF92F9FF",
+	"pierce": true,
+	"pierceBuilding": true,	
+	}
     },
 
     "surge-alloy": {
