@@ -163,6 +163,8 @@
     "fragRandomSpread": 10,
 	"fragBullet": {
 	"type": "BasicBulletType",
+	"frontColor": "000000FF",
+        "backColor": "BF92F9FF",
 	"height": 36,
 	"width": 36,
 	"splashDamage": 50,
@@ -225,17 +227,14 @@
         "colorTo": "BF92F9FF"
         }
         ]
-        },
-	"frontColor": "000000FF",
-        "backColor": "BF92F9FF",	
-	},
+        },	
 	"fragBullets": 15,
 	"fragVelocityMin": 0.2,
-	"fragSpread": 5,
+	"fragRandomSpread": 360,
 	    "fragBullet": {
             "type": "BasicBulletType",
 	    "height": 12,
-	    "width": 12,
+	    "width": 6,
             "speed": 8,
 	    "pierce": true,
 	    "pierceBuilding": true,
