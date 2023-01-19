@@ -160,7 +160,7 @@
     "fragBullets": 3,
     "fragVelocityMin": 1,
     "fragSpread": 10,
-    "fragRandomSpread": 30,
+    "fragRandomSpread": 10,
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"height": 36,
@@ -174,7 +174,7 @@
         "effects": [
         {
         "type": "WaveEffect",
-        "lifetime": 25,
+        "lifetime": 45,
         "sizeFrom": 0,
         "sizeTo": 5,
         "strokeFrom": 3,
@@ -187,7 +187,7 @@
         "type": "ParticleEffect",
         "line": true,
         "particles": 7,
-        "lifetime": 35,
+        "lifetime": 65,
         "offset": 60,
         "interp": "circleOut",
         "length": 10,
