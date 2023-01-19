@@ -157,13 +157,13 @@
     ]
     },
     "fragBullets": 30,
-    "fragVelocityMin": 6,
-    "fragCone": 10,
-    "fragLifeMin": 0.3,
+    "fragVelocityMin": 8,
+    "fragVelocityMax": 8,
+    "fragSpread": 0.5,
 	"fragBullet": {
 	"type": "BasicBulletType",
-	"height" : 24,
-	"width" : 24,
+	"height" : 12,
+	"width" : 12,
 	"lifetime": 30,
 	"damage" : 50,
 	"shrinkY": 0.5,
