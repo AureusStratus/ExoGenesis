@@ -107,20 +107,87 @@
     },
     },
     "xytranite": {
-    "speed": 6,
-    "height": 18,
-    "width": 15,
-    "pierce": "true",
-    "lifetime": 50,
-    "damage": 150,
-    "knockback": 2.0,
-    "hitSize": 12,
-    "frontColor": "C28590FF",
-    "backColor": "A16570FF",
-    "status": "slow",
-    "shootEffect": "shootPyraFlame",
-    "despawnEffect": "flakExplosion",
-    "hitEffect": "flakExplosion"
+    "speed": 8,
+    "height": 25,
+    "width": 18,
+    "lifetime": 37.5,
+    "damage": 240,
+    "pierce": "true"
+    "frontColor": "000000FF",
+    "backColor": "BF92F9FF",
+    "shootEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0,
+    "lifetime": 10,
+    "interp": "swingIn",
+    "region": "exogenesis-spikething",
+    "offsetX": 8,
+    "sizeFrom": 15,
+    "sizeTo": 1,
+    "colorFrom": "BF92F900",
+    "colorTo": "BF92F9FF"
+    }
+    ]
+    },
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 5,
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "lightColor": "000000FF",
+    "colorFrom": "BF92F900",
+    "colorTo": "BF92F9FF"
+    },
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 35,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 10,
+    "cone": -360,
+    "strokeFrom": 3,
+    "strokeTo": 0,
+    "sizeFrom": 24,
+    "sizeTo": 24,
+    "lightColor": "000000FF",
+    "colorFrom": "BF92F900",
+    "colorTo": "BF92F9FF"
+    }
+    ]
+    },
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    { 
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 16,
+    "lifetime": 75,
+    "offset": 60,
+    "interp": "circleOut",
+    "length": 20,
+    "cone": -360,
+    "strokeTo": 0,
+    "strokeFrom": 3,
+    "sizeFrom": 24,
+    "sizeTo": 24,
+    "lightColor": "000000FF",
+    "colorFrom": "BF92F900",
+    "colorTo": "BF92F9FF"
+    }
+    ]
+    },
     },
 
     "surge-alloy": {
