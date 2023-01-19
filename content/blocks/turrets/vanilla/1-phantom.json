@@ -167,7 +167,7 @@
         "backColor": "BF92F9FF",
 	"height": 36,
 	"width": 36,
-	"splashDamage": 85,
+	"splashDamage": 155,
 	"splashDamageRadius": 48,
 	"speed": 8,
 	"lifetime": 25,
