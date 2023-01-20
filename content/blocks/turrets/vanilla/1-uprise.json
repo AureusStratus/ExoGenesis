@@ -7,19 +7,16 @@
 	"range": 345,
 	"shots" : 1,
         "heatColor": "FFFFFFF",
-	"targetAir" : true, 
+	"targetAir" : true,
 	"targetGround" : true,
 	"shootCone" : 40,
-    "coolantMultiplier": 1.0,
+    "coolantMultiplier": 0.7518796992,
     "consumes": {
           "power": 48
-	"liquid": {
-	"liquid": "cryofluid",
-	"optional": false,
-	"update": false,
-	"amount": 0.7
-	}
-	},
+	  "coolant": {
+	      "amount": 0.7
+	  }
+    },
     "update": true,
     "hasPower": true,
     "shootEffect": "shootBigSmoke2",
