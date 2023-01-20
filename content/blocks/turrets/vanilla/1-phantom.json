@@ -214,8 +214,8 @@
         "sizeInterp": "pow5In",
         "sizeFrom": 4,
         "sizeTo": 0,
-        "colorFrom": "786491FF",
-        "colorTo": "67567DFF"
+        "colorFrom": "786491DD",
+        "colorTo": "67567DDD"
         },
         { 
         "type": "ParticleEffect",
@@ -227,8 +227,8 @@
         "sizeInterp": "pow5In",
         "sizeFrom": 2.5,
         "sizeTo": 0,
-        "colorFrom": "786491FF",
-        "colorTo": "67567DFF"
+        "colorFrom": "786491DD",
+        "colorTo": "67567DDD"
         }
         ]
         },
@@ -273,8 +273,8 @@
         "sizeInterp": "pow5In",
         "sizeFrom": 4,
         "sizeTo": 0,
-        "colorFrom": "786491FF",
-        "colorTo": "67567DFF"
+        "colorFrom": "786491DD",
+        "colorTo": "67567DDD"
         },
         { 
         "type": "ParticleEffect",
@@ -286,8 +286,8 @@
         "sizeInterp": "pow5In",
         "sizeFrom": 2.5,
         "sizeTo": 0,
-        "colorFrom": "786491FF",
-        "colorTo": "67567DFF"
+        "colorFrom": "786491DD",
+        "colorTo": "67567DDD"
         }
         ]
         }
