@@ -10,7 +10,6 @@
 	"targetAir" : true,
 	"targetGround" : true,
 	"shootCone" : 40,
-    "coolantMultiplier": 0.475,
     "coolantUsage": 0.5,
     "consumes": {
           "power": 48
