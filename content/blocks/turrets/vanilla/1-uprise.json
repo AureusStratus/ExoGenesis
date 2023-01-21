@@ -26,7 +26,7 @@
     "shootSound": "laserbig",
     "loopSound": "beam",
     "loopSoundVolume": 4.5,
-    "recoilAmount" : 7.5,
+    "recoilAmount" : 10.5,
     "restitution" : 0.04, 
     "rotateSpeed": 2,
     "shootType" : {
