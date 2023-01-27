@@ -29,7 +29,7 @@
 	"rotateSpeed": 2,
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 200,
+      "damage": 300,
       "width": 11,
       "length": 290,
       "status": "melting",
