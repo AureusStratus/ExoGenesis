@@ -32,7 +32,6 @@
     "alternate": false,
     "top": false, 
     "layerOffset": -0.001,
-    "pierceCap": 2,
     "x": 17,
     "y": 0,
     "shootY": 18,
@@ -48,6 +47,7 @@
     "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
     "damage": 30,
     "flareWidth": 0,
+    "pierceCap": 2,
     "width": 6,
      "hitEffect": {
     "type": "ParticleEffect",
