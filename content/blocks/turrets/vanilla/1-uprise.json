@@ -31,7 +31,7 @@
     "rotateSpeed": 2,
     "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 400,
+      "damage": 500,
       "width": 13,
       "oscScl": 2,
       "oscMag":	5,
