@@ -32,6 +32,7 @@
     "alternate": false,
     "top": false, 
     "layerOffset": -0.001,
+    "pierceCap": 2,
     "x": 17,
     "y": 0,
     "shootY": 18,
