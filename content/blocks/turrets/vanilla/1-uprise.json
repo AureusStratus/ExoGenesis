@@ -31,14 +31,14 @@
     "rotateSpeed": 2,
     "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 300,
+      "damage": 400,
       "width": 13,
       "oscScl": 2,
       "oscMag":	5,
       "length": 350,
       "status": "melting",
       "largeHit": true,
-      "statusDuration": 50,
+      "statusDuration": 1800,
       "hitEffect": {
       "type": "ParticleEffect",
       "particles": 6,
