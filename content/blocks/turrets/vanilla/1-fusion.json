@@ -5,6 +5,7 @@
     "size": 5,
     "health": 1900,
     "range": 200,
+    "pierceCap": 5,
     "smoothReloadSpeed": 0.15,
     "shootWarmupSpeed": 0.05,
     "minWarmup": 0.8,
