@@ -5,7 +5,6 @@
     "size": 5,
     "health": 1900,
     "range": 200,
-    "pierceCap": 5,
     "smoothReloadSpeed": 0.15,
     "shootWarmupSpeed": 0.05,
     "minWarmup": 0.8,
@@ -273,6 +272,7 @@
     "hydrogen": {
     "type": "ContinuousFlameBulletType",
     "colors": ["5040d290", "6a72f6aa", "7ba2f6", "a9d4f6", "f3faff"],
+    "pierceCap": 5,
     "damage": 230,
     "status": "exogenesis-hydrogen-flash",
     "statusDuration": 240,
