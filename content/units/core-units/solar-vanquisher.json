@@ -47,6 +47,7 @@
     "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
     "damage": 30,
     "flareWidth": 0,
+    "pierceCap": 2,
     "width": 6,
      "hitEffect": {
     "type": "ParticleEffect",

@@ -634,9 +634,10 @@
     },
     "lightning": 7,
     "lightningDamage": 100,
-    "lightningCone": 360,
+    "lightningCone": 100,
     "lightningLengthRand": 20,
-    "lightningLength": 10
+    "lightningLength": 10,
+    "lightningColor": "F3E979FF"
     },
     "voltirium-alloy": {
     "sprite": "exogenesis-gauss-bullet",

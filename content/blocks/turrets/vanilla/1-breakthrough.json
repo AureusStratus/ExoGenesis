@@ -1,22 +1,20 @@
 {
 	"type": "LaserTurret",
 	"size": 5,
-	"health": 180,
+	"health": 1900,
 	"reload": 130,
 	"range": 285,
 	"targetAir" : true, 
 	"targetGround" : true,
 	"shootCone": 40,
 	"spread": 4,
-         "consumes": {
-          "power": 34
-	"liquid": {
-	"liquid": "cryofluid",
-	"optional": false,
-	"update": false,
-	"amount": 0.4
-	}
-	},
+       "coolantUsage": 0.71,
+    "consumes": {
+          "power": 24
+	  "coolant": {
+	      "amount": 1.0
+	  }
+    },
     "coolantMultiplier": 1.0,
     "update": true,
     "hasPower": true,
@@ -27,15 +25,15 @@
     "shootSound": "laserbig",
     "loopSound": "beam",
     "loopSoundVolume": 3.5,
-	"recoilAmount" : 1.5,
+	"recoilAmount" : 8.5,
 	"rotateSpeed": 2,
       "shootType" : {
       "type": "ContinuousLaserBulletType",
-      "damage": 200,
+      "damage": 300,
       "width": 11,
       "length": 290,
       "status": "melting",
-      "statusDuration": 50,
+      "statusDuration": 720,
       "oscScl": 2,
       "oscMag":	3,
       "hitEffect": {
@@ -55,17 +53,6 @@
       "incendChance": 10,
       "incendSpread": 7,
       "incendAmount": 4,
-      "spaceMag": 40,
-      "fragBullets": 1,
-	 "fragBullet": {
-        "type": "ShrapnelBulletType",
-        "serrations": 1,
-        "status": "melting",
-        "length": 12,
-        "width": 17,
-        "toColor": "ffb98b",
-        "damage": 60
-   }
 	},
 
 	"requirements": [
