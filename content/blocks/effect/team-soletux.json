@@ -8,6 +8,7 @@
     "size": 2,
    "research": {
   "root": true,
+  "planet":  "erekir"     
   "name": "[#FF5845FF]Soletux",
   "requiresUnlock": false
 }
