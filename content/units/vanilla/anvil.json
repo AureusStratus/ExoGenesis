@@ -56,6 +56,7 @@
     "bullet": {
     "type": "ContinuousFlameBulletType",
     "colors": ["ec7458aa", "ec7458ff", "ff9c5a", "ffffffff"],
+    "pierceCap": 4,
     "damage": 50,
     "flareWidth": 0,
     "width": 9,
