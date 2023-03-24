@@ -1,7 +1,7 @@
 {
     "cost": 2,
      "hardness": 4,
-    "localizedName": "Stellar Steel",
+    "localizedName": "stellar-steel",
     "color": "66B1FFFF",
     "research": {
     "parent": "astrolite",
