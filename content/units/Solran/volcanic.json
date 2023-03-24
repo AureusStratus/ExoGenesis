@@ -1,15 +1,5 @@
 {
     "research": {
-    "parent": "eruption",
-    "requirements": [
-   "volcanite/1220",
-"surge-alloy/1000",
-"plastanium/940",
-"primal-red/850",
-"osmium/1240",
-"silicon/1300"
-    ]
-    },
    "type": "tank",
  "faceTarget": false,
 "squareShape": true,
@@ -22,8 +12,8 @@
 "height": 34
 }
 ],
-"singleTarget": flase,
-"omniMovement": flase,
+"singleTarget": false,
+"omniMovement": false,
 "rotateSpeed": 1,
     "outlineColor": "313131FF",
 	"speed": 0.43,
