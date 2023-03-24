@@ -13,9 +13,6 @@
     "type": "drawTurret",
     "basePrefix": "solran-"
     },
-	"consumes" : {
-		"power": 83
-		},
     "update": true,
     "hasPower": true,
     "shake": 6,
@@ -27,6 +24,7 @@
         "type": "basicBulletType",
         "sprite": "exogenesis-circle-spike",
         "status": "melting",
+"buildingDamageMultiplier": 0.1,
    "shootEffect": {
     "type": "ParticleEffect",
     "particles": 1,
@@ -225,15 +223,22 @@
 	"update": false,
 	"amount": 0.4
 	}
+	"power": 83
 	},
 	"requirements": [
-	    "silicon/1000",
-        "osmium/800",
-        "thorium/800",
-        "titanium/1750",
-        "surge-alloy/1000",
-        "primal-red/3560"
+	"silicon/500",
+        "beryllium/800",
+        "tungsten/600",
+        "thorium/500",
+        "graphite/800",
+        "primal-red/600"
 	],
 	"category": "turret",
-	"research": "r-impactor"
+	"research": {
+        "parent": "r-pyromancer"
+        "objectives": [
+        "r-brimstone",
+        "r-ember"
+  ]
+}
 }

@@ -1,19 +1,15 @@
 {
-	"type": "LaserTurret",
-	"size": 5,
-	"health": 1900,
-	"reload": 220,
-	"range": 250,
+    "type": "LaserTurret",
+    "size": 5,
+    "health": 1900,
+    "reload": 220,
+    "range": 250,
     "consumes" : {
-    "power": 28,
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.4
-	}    
+    "power": 22,
     },
-    "outlineColor": "1B1B1BFF",
+    "heatRequirement": 14,
+    "maxHeatEfficiency": 1,
+    "outlineColor": "252525",
     "update": true,
     "hasPower": true,
     "drawer": {
@@ -51,87 +47,42 @@
     ]
     },
     "shake": 4,
-    "shootDuration": 400,
-    "shootSound": "beam",
-	"recoil" : 2,
-	"rotateSpeed": 2,
-	
+    "shootSound": "laserbig",
+    "loopSound": "beam",
+    "loopSoundVolume": 3.5,
+    "recoil" : 3,
+    "rotateSpeed": 1.5,
+    "cooldownTime": 280,
+    "shootDuration": 300
     "shootType" : {
+"buildingDamageMultiplier": 0.3,
     "type": "ContinuousLaserBulletType",
-    "damage": 250,
-    "width": 7,
+    "damage": 125,
     "length": 250,
-    "status": "exogenesis-molten1",
-    "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
-    "statusDuration": 60,
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 18,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FFFFFFFF"
-    },
-    "drawSize": 260,
-    "fragBullets": 1,
-    "fragBullet": {
-	"type" : "basicBulletType",
-	"sprite" : "exogenesis-peircer",
-	"status": "melting",
-	"damage": 20,
-	"height" : 10,
-	"width" : 10,
-	"hitSize": 5,
-	"speed": 5,
-	"lifetime" : 30,
-	"pierceBuilding": true,
-	"pierceCap": 7,
-	"hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 18,
-    "length": 35,
-    "cone": -30,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FFFFFFFF"
-	},
-	"despawnEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 18,
-    "length": 35,
-    "cone": -30,
-    "lenFrom": 10,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FFFFFFFF"
-	},
-	"pierce": true,
-	"trailParam": 5,
-	"trailLength": 10,
-    "trailWidth": 3,
-	"trailEffect": "none",
-	"trailColor": "FF5845FF",
-    "backColor": "FF5845FF",
-    "frontColor": "FFC1BBFF"
-    }
+    "width": 7.5,
+    "hitEffect": "hitMeltdown",
+    "drawSize": 300,
+    "shake": 1,
+    "status": "melting",
+    "statusDuration": 80,
+    "despawnEffect": "smokeCloud",
+    "smokeEffect": "smokeCloud",
+     "colors": ["ff4951AA", "ff5547", "ff875c", "FFffffFF"]
 	},
 	"requirements": [
         "thorium/600",
-        "volcanite/700",
+        "volcanite/300",
         "primal-red/600",
-        "titanium/450",
-        "silicon/670",
-        "copper/600"
+        "tungsten/450",
+        "silicon/400",
+        "beryllium/600"
 	],
 	"category": "turret",
-	"research": "r-geothermal"
+	"research": {
+       "parent": "r-geothermal"
+        "objectives": [
+        "r-fury",
+        "r-demon"
+  ]
+}
 }

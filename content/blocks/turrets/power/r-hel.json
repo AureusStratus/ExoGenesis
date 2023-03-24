@@ -7,7 +7,7 @@
     "recoil": 2,
     "outlineColor": "1B1B1BFF",
     "rotateSpeed": 5,
-    "shootSound": "sap",
+    "shootSound": "blaster",
     "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"
@@ -32,6 +32,7 @@
         "shrinkY": 0,
         "shrinkX": 0,
         "speed": 2,
+"buildingDamageMultiplier": 0.7,
         "lifetime": 60,
         "damage": 40,
         "status": "melting",
@@ -79,7 +80,7 @@
 	}
 	},
     "requirements": [
-        "copper/30",
+        "beryllium/30",
         "volcanite/130"
     ],
     "category": "turret",
