@@ -51,6 +51,7 @@
     },
 "ammoTypes": {
   "slag": {
+"buildingDamageMultiplier": 0.3,
 	"type" : "basicBulletType",
 	"sprite" : "circle-bullet",
 	"status": "exogenesis-molten1",
@@ -163,11 +164,10 @@
 },
 "research": "r-thermal",
 "requirements": [
-  "metaglass/120",
   "graphite/300",
   "primal-red/400",
   "titanium/500",
-  "lead/500",
+  "beryllium/500",
   "volcanite/400"
   ]
 }
