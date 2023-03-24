@@ -11,13 +11,14 @@
     "rotateSpeed": 5,
     "shootSound": "shotgun",
     "ammoPerShot": 2,
-    "ammoTypes": {
-        "coal": {
-            "type": "shrapnelBulletType",
-    "drawer": {
+   "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"
     },
+    "ammoTypes": {
+        "beryllium": {
+    "type": "shrapnelBulletType",
+"buildingDamageMultiplier": 0.7,
             "lifetime": 19,
             "damage": 27,
             "serrations": 3,
