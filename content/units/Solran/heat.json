@@ -1,21 +1,22 @@
 {
-"outlineColor": "313131FF",
+"outlineColor": "252525FF",
 "type": "tank",
 "armor": 8,
-"hitSize": 15,
+"hitSize": 12,
 "squareShape": true,
 "treadPullOffset": 8,
 "treadRects": [
 {
-"x": 24,
-"width": 10,
-"height": 24
+"x": 7,
+"y": -26,
+"width": 14,
+"height": 51
 }
 ],
 "singleTarget": false,
 "omniMovement": false,
 "rotateSpeed": 1.8,
-"speed": 1.3,
+"speed": 1,
 "flying": false,
 "health": 300,
 "range": 120,
@@ -23,7 +24,7 @@
     "melting",
     "burning",
     "blasted"
-		],
+],
 "weapons": [
   {
   "name": "heat-weapon",
@@ -31,86 +32,43 @@
     "x": 0,
     "y": 0,
     "rotate": true,
+    "inaccuracy": 9,
     "rotateSpeed": 5,
-    "reload": 30,
-    "recoil": 3,
-    "shootSound": "bang",
+    "cooldownTime": 30,
+    "shootY": 8,
+    "reload": 5,
+    "recoil": 1.5,
+    "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-glow",
+    "layer": -1,
+    "mirror": true,
+    "blending": "additive",
+    "color": "ff2302",
+    "colorTo": "ff2302",
+    "outline": false,            
+    "mirror": true,
+    "progress": "warmup"
+    }
+    ],
+    "shootSound": "shoot",
     "bullet": {
     "type": "basicBulletType",
+    "sprite" : "missile-large",
     "shootEffect": "shootBig2",
-    "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 20,
-    "offset": 30,
-    "length": 80,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 2,
-    "strokeTo": 0,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 13,
-    "length": 30,
-    "baseLength": 10,
-    "lifetime": 20,
-    "sizeFrom": 6,
-    "sizeTo": 2,
-    "colorFrom": "787878",
-    "colorTo": "78787810"
-    }
-    ]
-    },
-    "despawnEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 20,
-    "offset": 30,
-    "length": 80,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 2,
-    "strokeTo": 0,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 13,
-    "length": 30,
-    "baseLength": 10,
-    "lifetime": 20,
-    "sizeFrom": 6,
-    "sizeTo": 2,
-    "colorFrom": "787878",
-    "colorTo": "78787810"
-    }
-    ]
-    },
-    "lifetime": 50,
+    "hitEffect": "hitBulletSmall",
+    "despawnHit": true,
+    "lifetime": 18,
     "damage": 20,
-    "speed": 6,
-    "status": "blasted",
-    "statusDuration": 50,
-    "width": 12,
-    "height": 16,
-    "backColor": "FF5845FF",
-    "frontColor": "FFC1BBFF"
+    "speed": 6.6,
+    "trailLength": 8,
+    "trailWidth": 1.5,
+    "width": 4,
+    "height": 9,
+    "trailColor": "ff7048",
+    "backColor": "ff7048",
+    "frontColor": "ffcea0",
      }
   }
 ]
