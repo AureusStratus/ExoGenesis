@@ -1,0 +1,31 @@
+{
+"localizedName": "Soletux Rebuilder",
+"description": "upgrades Soletux units to third tier",
+"category": "units"
+	"type": "Reconstructor",
+	"size": 5,
+	"constructTime": 3600,
+	"consumes": {
+	"power": 5,
+	"items": {
+	"items": [
+	"silicon/100",
+	"thorium/80",
+	"volcanite/100"
+	]
+	}
+	},
+	
+	"upgrades": [
+		["corona", "photosphere"],
+		["molten", "magma"]
+	],
+"research": "soletux-reconstructor",
+   "requirements": [
+        "thorium/250",
+        "tungsten/200",
+        "silicon/400",
+        "volcanite/400",
+        "oxide/200",
+	]
+}

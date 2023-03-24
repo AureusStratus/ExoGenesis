@@ -1,26 +1,34 @@
 {
 "type": "UnitFactory",
-"researchCostMultiplier": 0.3,
 "size": 3,
+"configurable": false,
+"fogRadius": 3,
+"category": "units"
 "consumes": {
-"power": 5
+"power": 2
 },
 "plans": [
 {
     "unit": "sol",
     	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 20},
-		{"item": "lead", "amount": 10}
+        "silicon/40",
+        "volcanite/60"
        ],
-    "time": 580
+    "time": 2400
+  },
+{
+    "unit": "heat",
+    	"requirements": [
+        "silicon/40",
+        "volcanite/60"
+       ],
+    "time": 2400
   }
 ],
-    "requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "graphite", "amount": 180},
-	{"item": "volcanite", "amount": 180}
-],
-"category": "units",
-"research": "team-soletux"
+"research": "team-soletux",
+"requirements": [
+	{"item": "silicon", "amount": 80},
+	{"item": "beryllium", "amount": 200},
+	{"item": "volcanite", "amount": 80}
+]
 }
