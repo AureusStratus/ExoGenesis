@@ -22,8 +22,6 @@
 	"upgrades": [
 		["b02-galileo", "b03-kuiper"],
 		["b02-gacrux", "b03-kentaurus"],
-		["corona", "photosphere"],
-		["molten", "magma"],
 		["irises", "aster"],
 		["disrespect", "strife"],
 		["dispute", "debate"]
