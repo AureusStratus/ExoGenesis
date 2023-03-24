@@ -24,8 +24,7 @@
 	"upgrades": [
 		["b04-oort", "b05-sirius"],
 		["b04-vega", "b05-centauri"],
-		["radiative", "core"],
-		["lava", "eruption"],
+
 		["urtica", "thymus"],
 		["combat", "hostile"],
 		["disagreement", "disaccord"]
