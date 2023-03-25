@@ -242,7 +242,7 @@
     "controllable": false,
     "autoTarget": true,
     "shoot": {
-    "shots": 2,
+    "shots": 2
     },
     "rotate": true,
     "rotateSpeed": 2,
@@ -389,7 +389,7 @@
     "y": -24,
     "autoTarget": true,
      "shoot": {
-    "shots": 2,
+    "shots": 2
     },
     "rotate": true,
     "rotateSpeed": 2,
@@ -527,4 +527,5 @@
     }
     }
  ]
+}
 }
