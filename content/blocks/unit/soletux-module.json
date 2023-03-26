@@ -1,0 +1,19 @@
+{
+"localizedName": "Soletux upgrade module",
+"description": "Builds high tier Soletux  tank units.",
+"type": "UnitAssemblerModule",
+"researchCostMultiplier": 0.74,
+"category": "units"
+"size": 5,
+"tier": 2,
+"consumes": {
+"power": 5
+},
+"research": "soletux-rebuilder",
+    "requirements": [
+    "primal-red/600",
+    "silicon/500",
+    "thorium/500",
+    "oxide/200"
+]
+}

@@ -1,13 +1,7 @@
 {
 "name": "Sol",
-"research": {
-"parent": "SolFactory",
-"requirements": [
-"volcanite/100",
-"silicon/200"
-]
-},
-  "outlineColor": "313131FF",
+"outlineColor": "252525FF",
+"mechLegColor": "252525FF",
 "type": "mech",
 "armor": 7,
 "speed": 0.5,
@@ -25,7 +19,7 @@
     "x": 5.5,
     "y": 0,
     "reload": 7,
-    "top": false,
+    "top": true,
     "mirror": true,
     "alternate": true,
     "shootY": 3,
@@ -54,9 +48,9 @@
     "length": 80,
     "lifetime": 25,
     "interp": "circleOut",
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF",
+    "colorTo": "ff7048",
     "cone": 10
     },
     "smokeEffect": "none",
@@ -74,8 +68,9 @@
     "cone": -30,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "lightColor": "ff7048",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
 	},
 	"pierce": true,
 	"incendAmount": 5

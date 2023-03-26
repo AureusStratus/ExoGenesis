@@ -1,11 +1,11 @@
 {    
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "health": 6400,
+    "health": 2000,
     "size": 1,
     "requirements": [
-		{"item": "primal-red", "amount": 300},
-        {"item": "osmium", "amount": 150}
+    "primal-red/10",
+    "tungsten/10"
     ],
     "category": "defense",
     "research": "team-soletux"

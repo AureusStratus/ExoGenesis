@@ -2,9 +2,9 @@
 	"type": "ItemTurret",
 	"size": 4,
 	"health": 1600,
-	"range": 300,
+	"range": 200,
 	"reload" : 250,
-        "outlineColor": "1B1B1BFF",
+        "outlineColor": "252525",
 	"recoil" : 3,
 	"heatColor": "CB1D1DFF",
 	"rotateSpeed": 4.0,
@@ -18,39 +18,33 @@
          "firstShotDelay": 30
          },
 	"ammoTypes": {
-    "blast-compound": {
-	"type": "LaserBulletType",
-	"hitEffect": "hitMeltdown",
-	"status": "melting",
-	"statusDuration": 100,
-	"hitSize": 8,
-    "width": 30,
-	"lifetime": 30,
-	"length": 300,
+    "beryllium": {
+   "buildingDamageMultiplier": 0.3,
+    "type": "LaserBulletType",
+    "hitEffect": "hitMeltdown",
+    "status": "melting",
+    "statusDuration": 100,
+    "hitSize": 8,
+    "width": 60,
+    "lifetime": 30,
+    "length": 200,
     "sideAngle": 90,
     "sideLength": 40,
     "sideWidth": 1,
-	"damage": 400,
-    "lightningSpacing": 25,
-    "lightningLength": 8,
-    "lightningDelay": 1.1,
-    "lightningLengthRand": 5,
-    "lightningDamage": 70,
-    "lightningAngleRand": 8,
-    "lightColor": "FF5845FF",
-    "lightningColor": "FF5845FF",
+    "damage": 200,
     "shootEffect": "blastExplosion",
-    "colors": ["FF5845FF", "FFC1BBFF", "FFFFFFF"]
+    "colors": ["55d494aa", "b1dd7e", "FFFFFFF"]
     },
     "thorium": {
+"buildingDamageMultiplier": 0.3,
     "type": "LaserBulletType",
     "hitEffect": "thoriumShoot",
     "status": "melting",
     "statusDuration": 100,
     "hitSize": 8,
-    "width": 30,
+    "width": 60,
     "lifetime": 30,
-    "length": 300,
+    "length": 200,
     "sideAngle": 90,
     "sideLength": 40,
     "sideWidth": 1,
@@ -64,17 +58,11 @@
     "lightColor": "F9A3C7FF",
     "lightningColor": "F9A3C7FF",
     "shootEffect": "thoriumShoot",
-    "colors": ["CB8EBFff", "F9A3C7FF", "FFE0EDFF"]
+    "colors": ["CB8EBFaa", "F9A3C7FF", "FFE0EDFF"]
            }
         },
-    "consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.4
-	}
-	},
+        "heatRequirement": 7,
+        "maxHeatEfficiency": 1.5,
 	"requirements": [
 	 "beryllium/450",
         "tungsten/400",
@@ -83,5 +71,5 @@
         "silicon/260"
 	],
 	"category": "turret",
-	"research": "r-demon"
+	"research": "r-fury"
     }

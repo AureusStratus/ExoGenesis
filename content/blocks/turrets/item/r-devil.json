@@ -6,7 +6,7 @@
     "reload": 30,
     "range": 140,
     "maxAmmo": 20,
-    "outlineColor": "1B1B1BFF",
+    "outlineColor": "252525",
     "recoil": 0.7,
     "rotateSpeed": 3,
      "shoot": {
@@ -21,6 +21,7 @@
     "shootSound": "shoot",
     "ammoTypes": {
         "beryllium": {
+"buildingDamageMultiplier": 0.3,
         "type": "BasicBulletType",
         "speed": 4,
         "lifetime": 57,
@@ -31,11 +32,14 @@
         "trailLength": 8,
         "trailWidth": 3,
         "knockback": 0.5,
+        "backColor": "b1dd7e"
+        "trailColor": "b1dd7e",
         "hitEffect": "hitBulletSmall",
         "despawnEffect": "hitBulletSmall",
         "smokeEffect": "none"
         },
         "graphite": {
+"buildingDamageMultiplier": 0.7,
         "type": "BasicBulletType",
         "speed": 4,
         "damage": 29,
@@ -55,14 +59,12 @@
         "backColor": "6B77A1FF"
         },
         "volcanite": {
+"buildingDamageMultiplier": 0.7,
         "type": "BasicBulletType",
         "speed": 4,
         "damage": 53,
         "knockback": 1.8,
         "lifetime": 57,
-	    "frontColor": "FFFFFFF",
-        "backColor": "403F3FFF",
-        "trailColor": "403F3FFF",
         "trailParam": 5,
         "trailLength": 8,
         "trailWidth": 3,

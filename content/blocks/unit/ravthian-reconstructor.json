@@ -7,7 +7,6 @@
 		"items": {
 			"items": [
 				{"item": "alpha-yellow", "amount":1000},
-				{"item": "primal-red", "amount": 1000},
 				{"item": "gamma-green", "amount": 1000},
 				{"item": "osmium", "amount": 1500},
 				{"item": "phase-fabric", "amount": 1720},
@@ -27,8 +26,6 @@
 	"upgrades": [
 		["b05-sirius", "b06-eros"],
 		["b05-centauri", "b06-altair"],
-		["core", "fusion"],
-		["eruption", "volcanic"],
 		["hostile", "assault"],
 		["disaccord", "contention"]
 	],

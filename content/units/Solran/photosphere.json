@@ -14,7 +14,8 @@
 "mechFrontSway": 0.55,
 "speed": 0.36,
 "flying": false,
-    "outlineColor": "313131FF",
+"outlineColor": "252525FF",
+"mechLegColor": "252525FF",
 "health": 1300,
 "range": 120,
 "immunities": [
@@ -46,13 +47,13 @@
     "lifetime": 15,
     "offset": 30,
     "length": 40,
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "strokeFrom": 4,
     "strokeTo": 0,
     "lenFrom": 5,
     "lenTo": 5,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+   "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     },
     {
     "type": "ParticleEffect",
@@ -79,13 +80,13 @@
     "lifetime": 15,
     "offset": 30,
     "length": 40,
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "strokeFrom": 4,
     "strokeTo": 0,
     "lenFrom": 5,
     "lenTo": 5,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     },
     {
     "type": "ParticleEffect",
@@ -103,15 +104,19 @@
     },
     "pierce": true,
     "pierceCap": 1,
-    "lifetime": 50,
+    "lifetime": 30,
     "damage": 50,
     "speed": 6,
+    "trailLength": 8,
+    "trailWidth": 2.5,
+    "trailEffect": "none",
     "status": "blasted",
-    "statusDuration": 100,
+    "statusDuration": 60,
     "width": 12,
     "height": 16,
-    "backColor": "FF5845FF",
-    "frontColor": "FFC1BBFF"
+    "trailColor": "ff7048",
+    "backColor": "ff7048",
+    "frontColor": "ffcea0",
     }
     },
     {
@@ -148,9 +153,9 @@
     "length": 80,
     "lifetime": 25,
     "interp": "circleOut",
-    "lightColor": "FF5845FF",
-    "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF",
+    "lightColor": "ff7048",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     "cone": 10
     },
     "smokeEffect": "none",
@@ -168,8 +173,8 @@
     "cone": -30,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
 	},
 	"pierce": true,
 	"incendAmount": 5

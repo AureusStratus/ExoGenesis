@@ -1,11 +1,11 @@
 {    
     "type": "Wall",
     "buildCostMultiplier": 0.1,
-    "health": 104000,
+    "health": 32000,
     "size": 4,
     "requirements": [
-		{"item": "primal-red", "amount": 900},
-        {"item": "osmium", "amount": 800}
+    "primal-red/160",
+    "tungsten/160"
     ],
     "category": "defense",
     "research": "o-huge-primal-wall"

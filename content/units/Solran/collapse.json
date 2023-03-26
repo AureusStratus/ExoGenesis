@@ -1,16 +1,5 @@
 {
 "type": "legs",
-"research": {
-"parent": "fusion",
-"requirements": [
-"volcanite/1920",
-"surge-alloy/1300",
-"plastanium/1040",
-"primal-red/950",
-"osmium/1440",
-"silicon/1670"
-]
-},
 "armor": 30,
 "outlineColor": "313131FF",
 "rotateSpeed": 1.3,

@@ -11,15 +11,15 @@
 "type": "mech",
 "armor": 9,
 "hitSize": 13,
-    "outlineColor": "313131FF",
+"outlineColor": "252525FF",
 "speed": 0.4,
 "flying": false,
 "health": 620,
 "range": 120,
 "immunities": [
-		"burning",
-		"melting"
-		],
+"burning",
+"melting"
+],
 "weapons": [
   {
   "name": "plasma-gun",
@@ -34,7 +34,7 @@
   "bullet": {
     "type": "BasicBulletType",
 	"sprite" : "circle-bullet",
-    "status": "melting",
+        "status": "melting",
 	"statusDuration": 300,
 	"damage": 16,	
 	"splashDamage": 15,
@@ -42,31 +42,20 @@
 	"height": 9,
 	"width": 9,			
 	"speed": 6,
-	"lifetime": 30,
+	"lifetime": 20,
 	"shrinkX": 0,
 	"shrinkY": 0,
-	"lightColor": "FFC1BBFF",
+	"lightColor": "ff7048",
     "hitEffect": {
     "type": "ParticleEffect",
     "particles": 15,
-    "length": 40,
+    "length": 26,
     "lifetime": 36,
     "interp": "circleOut",
     "cone": 360,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
-    "sizeFrom": 5,
-    "sizeTo": 0
-    },
-    "despawnEffect": {
-    "type": "ParticleEffect",
-    "particles": 15,
-    "length": 40,
-    "lifetime": 36,
-    "interp": "circleOut",
-    "cone": 360,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
+   "lightColor": "ff7048",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     "sizeFrom": 5,
     "sizeTo": 0
     },
@@ -83,8 +72,9 @@
     "interp": "circleOut",
     "cone": 360,
     "offset": 3,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
+    "lightColor": "ff7048",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     "sizeFrom": 3,
     "sizeTo": 0
 	},
@@ -96,13 +86,14 @@
     "interp": "circleOut",
     "cone": 20,
     "offset": 20,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
+   "lightColor": "ff7048",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048",
     "sizeFrom": 4,
     "sizeTo": 0
 	},
-    "frontColor": "FFC1BBFF",
-    "backColor": "FF5845FF"
+    "backColor": "ff7048",
+    "frontColor": "ffcea0",
      }
   }
 ]

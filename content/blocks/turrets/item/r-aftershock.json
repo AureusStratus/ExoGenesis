@@ -21,7 +21,7 @@
          {
         "type": "RegionPart",
          "suffix": "-barrel",
-         "moveRot": -7.7,
+         "moveRot": -9.7,
            "progress": {
           "type": "charge",
           "op": "blend",
@@ -39,7 +39,7 @@
           "other": "recoil",
           "amount": 0.5
           },
-         "moveRot": -9.7,
+         "moveRot": -11.7,
          "layerOffset": 0.001,
             "moveX": 3,
          "moveY": -3,
@@ -48,7 +48,7 @@
          {
         "type": "RegionPart",
          "suffix": "-wing",
-         "moveRot": -12,
+         "moveRot": -15,
            "moveX": 3,
          "moveY": -3,
           "progress": {
@@ -79,6 +79,7 @@
 	"ammoTypes": {
     "primal-red": {
 	"type": "LaserBulletType",
+       "buildingDamageMultiplier": 0.1,
 	"chargeEffect": {
 	"type": "multiEffect",
     "effects": [
@@ -221,14 +222,14 @@
 	},
 	"status": "exogenesis-molten1",
 	"statusDuration": 300,
-    "width": 70,
+    "width": 120,
 	"lifetime": 30,
 	"drawSize": 430,
 	"length": 500,
     "sideAngle": 30,
     "sideWidth": 1.5,
     "sideLength": 100,
-	"damage": 10000,
+	"damage": 6000,
     "lightningSpacing": 30,
     "lightningLength": 10,
     "lightningDelay": 0.6,
@@ -236,7 +237,7 @@
     "lightningDamage": 50,
     "lightningAngleRand": 0.1,
     "lightningType": {
-    "damage": 400,
+    "damage": 200,
     "width": 6.5,
     "type": "ShrapnelBulletType",
     "lifetime": 20,
@@ -320,10 +321,11 @@
     }
     ]
     },
-    "colors": ["FF5845FF", "FFC1BBFF", "FFFFFFF"]
+    "colors": ["FF5845aa", "FFC1BBFF", "FFFFFFF"]
     },
     "surge-alloy": {
     "type": "LaserBulletType",
+"buildingDamageMultiplier": 0.1,
 "chargeEffect": {
 	"type": "multiEffect",
     "effects": [
@@ -466,25 +468,25 @@
 	},
     "status": "shocked",
     "statusDuration": 300,
-    "width": 70,
+    "width": 120,
     "lifetime": 30,
     "drawSize": 430,
     "length": 500,
     "sideAngle": 30,
     "sideWidth": 1.5,
     "sideLength": 100,
-    "damage": 8760,
+    "damage": 5760,
     "lightningSpacing": 35,
     "lightningLength": 18,
     "lightningDelay": 1.1,
     "lightningLengthRand": 5,
-    "lightningDamage": 100,
+    "lightningDamage": 50,
     "lightningAngleRand": 10,
     "lightningType": {
     "type": "lightningBulletType",
     "lightning": 1,
     "hitEffect": "none",
-    "lightningDamage": 100,
+    "lightningDamage": 50,
     "lightningColor": "F3E979FF",
     "lightningCone": 360,
     "lightningLengthRand": 11,
@@ -549,7 +551,7 @@
     }
     ]
     },
-	"colors": ["D99F6Bff", "F3E979FF", "ffffff"]
+	"colors": ["D99F6Baa", "F3E979FF", "ffffff"]
     }
     },
     "consumes": {
@@ -561,6 +563,8 @@
 	"amount": 0.4
 	}
 	},
+        "heatRequirement": 20,
+        "maxHeatEfficiency": 2,
 	"requirements": [
         "silicon/1200",
         "beryllium/800",
@@ -569,8 +573,14 @@
         "primal-red/1000"
 	],
 	"category": "turret",
-	"research": "r-blast"
-    }
+	"research": {
+        "parent": "r-pyromancer"
+        "objectives": [
+        "r-blast",
+        "r-ember"
+  ]
+}
+}
 
 
 

@@ -6,7 +6,6 @@
 		"power": 58,
 		"items": {
 			"items": [
-        "primal-red/2000",
         "gamma-green/2000",
         "alpha-yellow/2000",
         "titanium/3600",
@@ -30,7 +29,6 @@
         "lead/4000"
 	],
 	"upgrades": [
-		["fusion", "collapse"],
 		["contention", "battle"],
 		["assault", "bloodshed"]
 	],

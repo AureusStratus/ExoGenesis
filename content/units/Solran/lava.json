@@ -8,17 +8,26 @@
     "silicon/800"
     ]
     },
-    "type": "mech",
-    "outlineColor": "313131FF",
-	"speed": 0.7,
-	"hitSize": 41,
+    "type": "tank",
+ "faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 27,
+"y": -67
+"width": 26,
+"height": 134
+}
+],
+"singleTarget": false,
+"omniMovement": false,
+"outlineColor": "252525FF",
+	"speed": 0.67,
+	"hitSize": 29,
 	"health": 9800,
-    "mechStepParticles": false,
-    "mechLandShake": 0,
-    "mechFrontSway": 0,
-    "mechSideSway": 0,
 	"armor": 24,
-	"canDrown": false,
     "singleTarget": false,
 	"flying": false,
 	"targetAir": true,
@@ -31,30 +40,50 @@
 	],
 	"weapons": [
 	 {
-  "name": "lava-weapon-L",
+  "name": "lava-weapon",
   "x": 0,
   "y": 0,
   "ejectEffect": "casing3",
-  "mirror": true,
-  "alternate": true,
+  "mirror": flase,
   "top": true,
   "rotate": true,
-  "layerOffset": 2,
-  "rotateSpeed": 3.5,
+  "rotateSpeed": 2.5,
   "shake": 4,
-  "shootY": 31,
-  "reload": 25,
+  "shootY": 21,
+  "cooldownTime": 60
+    "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-glow",
+    "layer": -1,
+    "mirror": true,
+    "blending": "additive",
+    "color": "ff2302aa",
+    "colorTo": "ff2302aa",
+    "outline": false,            
+    "mirror": true,
+    "progress": "warmup"
+    }
+   ],
+  "reload": 95,
+   "shoot": {
+"type": "shootSpread",
+    "shots": 3,
+    "spread": 6
+},
   "recoil": 4,
-  "shootSound": "shootBig",
+  "shootSound": "mediumCannon",
     "bullet": {
 	"type" : "basicBulletType",
-	"sprite" : "exogenesis-gauss-bullet",
+	 "sprite" : "missile-large",
 	"status": "exogenesis-molten1",
-	"damage": 400,
-	"height" : 20,
-	"width" : 20,
-	"speed": 6,
-	"lifetime" : 65,
+	"damage": 120,
+	"height" : 16,
+	"width" : 9,
+        "shrinkX": 0,
+	"shrinkY": 0,
+	"speed": 5,
+	"lifetime" : 35,
 	"hitEffect": {
     "type": "multiEffect",
     "effects": [
@@ -62,101 +91,57 @@
     "type": "ParticleEffect",
     "line": true,
     "particles": 15,
-    "lifetime": 40,
+    "lifetime": 30,
     "interp": "circleOut",
     "offset": 30,
     "length": 50,
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "strokeFrom": 4,
     "strokeTo": 0,
     "lenFrom": 10,
     "lenTo": 10,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     },
     {
     "type": "ParticleEffect",
-    "particles": 45,
+    "particles": 16,
     "length": 55,
     "baseLength": 10,
     "lifetime": 100,
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "interp": "circleOut",
     "cone": 360,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF584510",
-    "sizeFrom": 12,
-    "sizeTo": 5
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
+    "sizeFrom": 6,
+    "sizeTo": 2
     },
     {
     "type": "WaveEffect",
-    "lifetime": 50,
+    "lifetime": 30,
     "sizeFrom": 0,
-    "sizeTo": 80,
+    "sizeTo": 40,
     "strokeFrom": 3,
     "strokeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     }
     ]
     },
-    "despawnEffect": {
+   "despawnHit": true,
+   "shootEffect": {
     "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 15,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "offset": 30,
-    "length": 50,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lenFrom": 10,
-    "lenTo": 10,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 45,
-    "length": 55,
-    "baseLength": 10,
-    "lifetime": 100,
-    "lightColor": "FF5845FF",
-    "interp": "circleOut",
-    "cone": 360,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF584510",
-    "sizeFrom": 12,
-    "sizeTo": 5
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 50,
-    "sizeFrom": 0,
-    "sizeTo": 80,
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    }
-    ]
-    },
-	"shootEffect": {
-	"type": "multiEffect",
     "effects": [
     {
 	"type": "ParticleEffect",
     "particles": 15,
     "length": 80,
     "lifetime": 36,
-    "interp": "circleOut",
+    "lightColor": "ff7048",
     "cone": 20,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF",
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     "sizeFrom": 3,
     "sizeTo": 0
     },
@@ -168,45 +153,18 @@
     "region": "exogenesis-tall",
     "sizeFrom": 36,
     "sizeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     }
     ]
 	},
 	"trailParam": 5,
 	"trailLength": 19,
-    "trailWidth": 4,
-	"trailEffect": "none",
-	"trailColor": "FF5845FF",
-    "backColor": "FF5845FF",
-    "frontColor": "FFC1BBFF"
+    "trailWidth": 2.6,
+    "trailColor": "ff7048",
+    "backColor": "ff7048",
+    "frontColor": "ffcea0",
     }
-	 },
-    {
-  "name": "lava-weapon-body",
-  "x": 0,
-  "y": 0,
-  "mirror": false,
-  "top": true,
-  "layerOffset": 3,  
-  "shootY": 31,
-  "reload": 55,
-  "rotate": true,
-  "rotateSpeed": 3.5,
-  "recoil": 0,
-  "shootSound": "none",
-    "bullet": {
-	"type" : "basicBulletType",
-	"damage": 0,
-	"height" : 0.001,
-	"width" : 0.001,
-	"speed": 6,
-	"lifetime" : 65,
-	"hitEffect": "none",
-    "despawnEffect": "none",
-	"shootEffect": "none",
-	"trailEffect": "none"
-    }
-    }
+   }
  ]
 }

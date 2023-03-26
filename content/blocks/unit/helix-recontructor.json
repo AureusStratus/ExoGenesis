@@ -20,8 +20,6 @@
 	"upgrades": [
 		["b01-orion", "b02-galileo"],
 		["b01-majoris", "b02-gacrux"],
-		["sol", "corona"],
-		["heat", "molten"],
 		["pteris", "irises"],
 		["challenge", "disrespect"],
 		["conflict", "dispute"]

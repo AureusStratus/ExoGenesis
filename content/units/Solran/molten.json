@@ -1,6 +1,6 @@
 {
-"name": "Molten",
-"outlineColor": "313131FF",
+"localizedName": "Molten",
+"outlineColor": "252525FF",
 "research": {
 "parent": "heat",
 "requirements": [
@@ -13,24 +13,24 @@
  "faceTarget": false,
 "squareShape": true,
 "treadFrames": 18,
-"treadPullOffset": 8,
+"treadPullOffset": 3,
 "treadRects": [
 {
-"x": 34,
-"width": 10,
-"height": 34
+"x": 13,
+"y": -38,
+"width": 17,
+"height": 76
 }
 ],
-"singleTarget": flase,
-"omniMovement": flase,
+"singleTarget": false,
+"omniMovement": false,
 "rotateSpeed": 1.8,
 "armor": 12,
-"hitSize": 25,
+"hitSize": 18,
 "rotateShooting": false,
-"speed": 1.1,
+"speed": 0.8,
 "flying": false,
 "health": 700,
-"range": 250,
 "immunities": [
 		"melting",
 		"blasted",
@@ -41,78 +41,57 @@
   "name": "molten-weapon",
   "x": 0,
   "y": 0,
-  "reload": 58,
   "mirror": false,
   "top": true,
-  "recoil": 4,
+  "recoil": 0,
   "rotate": true,
-  "rotateSpeed": 4,
-  "shootSound": "railgun",
-  "ejectEffect": "none",
-  "bullet": {
-	"type" : "RailBulletType",
-  	"damage": 50,
-  	"length" : 250,
-  	"status": "melting",
-	"statusDuration": 80,
-	"hitEffect": {
-    "type": "multiEffect",
-    "effects": [
+  "shootY": 0,
+  "rotateSpeed": 3,
+    "shootSound": "torch",
+    "alwaysContinuous": true,
+    "parts": [
     {
-     "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 40,
-    "offset": 30,
-    "length": 80,
-    "cone": -30,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lenFrom": 5,
-    "lenTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 10,
-    "length": 40,
-    "baseLength": 10,
-    "lifetime": 40,
-    "sizeFrom": 6,
-    "sizeTo": 2,
-    "colorFrom": "787878",
-    "colorTo": "78787810"
+    "type": "RegionPart",
+    "suffix": "-glow",
+    "layer": -1,
+    "mirror": true,
+    "blending": "additive",
+    "color": "ff2302",
+    "colorTo": "ff2302",
+    "outline": false,            
+    "mirror": true,
+    "progress": "warmup"
     }
-    ]
+   ],
+    "continuous": true,
+    "bullet": {
+    "type": "ContinuousFlameBulletType",
+    "colors": ["ed1e27aa", "d70a0a90", "ff7048", "ffcea0", "FFFFFFFF"],
+    "damage": 4,
+    "flareWidth": 4.5,
+    "flareLength": 28,
+    "flareColor": "ff7048",
+    "width": 4,
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 65,
+    "cone": -360,
+    "strokeFrom": 2.5,
+    "strokeTo": 0,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "ffcea0",
+    "colorTo": "d70a0a"
     },
-	"updateEffect": {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "lifetime": 34,
-    "length": 0,
-    "region": "exogenesis-wide",
-    "sizeFrom": 10,
-    "sizeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-	},
-	"pierceEffect" : {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "lifetime": 34,
-    "length": 0,
-    "region": "exogenesis-blue-pierce",
-    "sizeFrom": 6,
-    "sizeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-	},
-	"pierce": true,
-	"pierceBuilding": true,
-	"pierceDamageFactor": 0.1
+    "divisions": 20,
+    "length": 67,
+    "drawSize": 350,
+    "lifetime": 220,
+    "status": "melting",
+    "statusDuration": 150
     }
   }
 ]

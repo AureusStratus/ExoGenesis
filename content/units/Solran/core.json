@@ -11,9 +11,10 @@
 ]
 },
 "type": "mech",
-"outlineColor": "313131FF",
+"outlineColor": "252525",
+"mechLegColor": "252525",
 "armor": 19,
-"mechLegColor": "313131FF",
+
 "rotateSpeed": 2.0,
 "canDrown": false,
 "hitSize": 42,
@@ -44,6 +45,19 @@
   "spread": 4,
   "shots": 3
     },
+  "parts": [
+    {
+    "type": "RegionPart",
+    "suffix": "-glow",
+    "layer": -1,
+    "mirror": true,
+    "blending": "additive",
+    "color": "ff2302",
+    "colorTo": "ff2302",
+    "outline": false,            
+    "mirror": true
+    }
+   ],
   "shake": 2,
   "shootY": 22,
   "shootSound": "shotgun",
@@ -55,11 +69,11 @@
     "width": 32,
     "damage": 125,
     "lifetime": 25,
-    "lightColor": "FF5845FF",
+    "lightColor": "ff7048",
     "sideAngle": 25,
     "sideLength": 1,
     "sideWidth": 1,
-    "colors": ["FF5845FF", "FFC1BBFF", "FFFFFF"],
+    "colors": ["ff7048", "ffcea0", "FFFFFF"],
     "status": "exogenesis-molten1",
     "statusDuration": 50,
     "hitEffect": {
@@ -72,8 +86,8 @@
     "cone": -360,
     "lenFrom": 5,
     "lenTo": 0,
-    "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
       },
     "shootEffect": {
     "type": "multiEffect",
@@ -87,8 +101,8 @@
     "lifetime": 25,
     "layer": 109,
     "region": "exogenesis-tall",
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     },
     {
     "type": "ParticleEffect",
@@ -108,75 +122,74 @@
     "length": 0,
     "layer": 109,
     "lifetime": 25,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+     "colorFrom": "ffcea0",
+    "colorTo": "ff7048"
     }
     ]
     },
     "incendChance": 0.4,
     "incendSpread": 5,
     "incendAmount": 1
-	   }
+	}
     },
-	{
-  "name": "scourge-shock",
+{
+  "name": "solar-artillery",
   "x": 15.5,
   "y": -5,
-  "reload": 28,
-  "alternate": true,
-  "top": true,
-"shoot": {
-"type": "shootPattern",
-  "shotDelay": 4,
-  "shots": 3
+     "top": true,
+    "mirror": true,
+    "alternate": true,
+    "rotate": true,
+    "rotateSpeed": 2,
+    "shootY": 8,
+    "reload": 10,
+    "recoil": 3,
+    "shake": 0.5,
+    "ejectEffect": "casing2",
+    "shootSound": "shootBig",
+    "bullet": { 
+    "type": "basicBulletType",
+    "shootEffect": "shootBig2",
+    "hitEffect": {
+    "type": "ExplosionEffect",  
+    "waveColor": "ff7048",
+    "sparkColor": "ff7048",
+    "smokes": 6,
+    "smokeSize": 3.7,	
+    "smokeSizeBase": 1.6,
+    "smokeRad":	26,	
+    "waveLife":	20,
+    "waveStroke": 2.1,	
+    "waveRad": 25,
+    "waveRadBase": 2.0,
+    "sparkLen": 6,
+    "sparks": 5   
     },
-  "inaccuracy": 3,
-  "shootSound": "laser",
-  "bullet": {
-		"type" : "basicBulletType",
-		"sprite" : "exogenesis-peircer",
-		"status": "melting",
-		"damage": 50,
-		"height" : 12,
-		"width" : 12,
-		"hitSize": 5,
-		"speed": 5,
-		"lifetime" : 45,
-		"pierceBuilding": true,
-		"pierceCap": 5,
-		"hitEffect": {
-		"type": "ParticleEffect",
-        "particles": 6,
-        "sizeFrom": 5,
-        "sizeTo": 0,
-        "length": 20,
-        "lifetime": 15,
-        "interp": "circleOut",
-        "colorFrom": "FFC1BBFF",
-        "colorTo": "FF5845FF",
-        "cone": 360   
-		},
-		"despawnEffect": {
-		"type": "ParticleEffect",
-        "particles": 6,
-        "sizeFrom": 5,
-        "sizeTo": 0,
-        "length": 20,
-        "lifetime": 15,
-        "interp": "circleOut",
-        "colorFrom": "FFC1BBFF",
-        "colorTo": "FF5845FF",
-        "cone": 360   
-		},
-		"shootEffect": "hitMeltdown",
-		"pierce": true,
-		"trailParam": 5,
-		"trailLength": 19,
-        "trailWidth": 3,
-		"trailEffect": "none",
-		"trailColor": "FF5845FF",
-        "backColor": "FF5845FF",
-        "frontColor": "FFC1BBFF"
+    "despawnEffect": {
+    "type": "ExplosionEffect",  
+    "waveColor": "ff7048",
+    "sparkColor": "ff7048",
+    "smokes": 6,
+    "smokeSize": 3.7,	
+    "smokeSizeBase": 1.6,
+    "smokeRad":	26,	
+    "waveLife":	20,
+    "waveStroke": 2.1,	
+    "waveRad": 25,
+    "waveRadBase": 2.0,
+    "sparkLen": 6,
+    "sparks": 5      
+    },
+    "lifetime": 35,
+    "damage": 40,
+    "speed": 6,
+    "status": "blasted",
+    "statusDuration": 100,
+    "width": 12,
+    "height": 17,
+    "trailColor": "ff7048",
+    "backColor": "ff7048",
+    "frontColor": "ffcea0",
         }
         }
     ]
