@@ -1,10 +1,11 @@
 {
 "name": "Magma",
+"template": "ErekirUnitType",
 "research": {
 "parent": "molten",
 "requirements": [
 "volcanite/300",
-"lead/340",
+"berylium/340",
 "silicon/400"
 ]
 },
