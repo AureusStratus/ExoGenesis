@@ -1,13 +1,12 @@
 {
 "name": "Fusion",
+"template": "ErekirUnitType",
 "research": {
 "parent": "core",
 "requirements": [
 "volcanite/1220",
-"surge-alloy/1000",
-"plastanium/940",
-"primal-red/850",
-"osmium/1240",
+"tungsten/940",
+"primal-red/850"
 "silicon/1300"
 ]
 },
