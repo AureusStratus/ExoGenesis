@@ -10,6 +10,7 @@
 "silicon/1300"
 ]
 },
+"template": "ErekirUnitType",
 "type": "mech",
 "armor": 23,
 "rotateSpeed": 2.0,
