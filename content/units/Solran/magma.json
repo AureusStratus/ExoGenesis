@@ -5,7 +5,7 @@
 "parent": "molten",
 "requirements": [
 "volcanite/300",
-"berylium/340",
+"beryllium/340",
 "silicon/400"
 ]
 },
