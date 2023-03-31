@@ -1,11 +1,12 @@
 {
 "name": "Radiative",
+"template": "ErekirUnitType",
 "research": {
 "parent": "photosphere",
 "requirements": [
 "volcanite/500",
-"plastanium/400",
-"lead/640",
+"tungsten/400",
+"beryillium/400",
 "silicon/800"
 ]
 },
