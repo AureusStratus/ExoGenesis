@@ -1,5 +1,6 @@
 {
 "name": "Sol",
+"template": "ErekirUnitType",
 "outlineColor": "252525FF",
 "mechLegColor": "252525FF",
 "type": "mech",
