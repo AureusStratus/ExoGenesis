@@ -1,12 +1,13 @@
 {
 "localizedName": "Molten",
 "outlineColor": "252525FF",
+"template": "ErekirUnitType",
 "research": {
 "parent": "heat",
 "requirements": [
 "volcanite/300",
-"lead/340",
-"silicon/400"
+"beryllium/340",
+"silicon/100"
 ]
 },
 "type": "tank",
