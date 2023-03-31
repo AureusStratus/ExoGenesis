@@ -1,6 +1,7 @@
 {
 "outlineColor": "252525FF",
 "type": "tank",
+"template": "ErekirUnitType",   
 "armor": 8,
 "hitSize": 12,
 "squareShape": true,
