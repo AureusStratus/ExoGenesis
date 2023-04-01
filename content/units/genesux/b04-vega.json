@@ -1,6 +1,6 @@
 {
     "research": {
-    "parent": "kentaurus",
+    "parent": "b03-kentaurus",
     "requirements": [
     "astrolite/2500",
     "terrilium/2400",
