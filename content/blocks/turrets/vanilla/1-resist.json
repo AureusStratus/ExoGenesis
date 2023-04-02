@@ -1,5 +1,6 @@
 {
  "type": "TractorBeamTurret",
+ "researchCostMultiplier": 0.1,
  "range": 100,
  "size": 1,
  "health": 300,
