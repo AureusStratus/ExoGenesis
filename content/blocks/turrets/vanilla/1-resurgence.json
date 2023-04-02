@@ -1,5 +1,6 @@
 {
 	"type": "LaserTurret",
+	"researchCostMultiplier": 0.1,
 	"size": 2,
 	"health": 180,
 	"reload": 40,
