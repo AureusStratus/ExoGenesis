@@ -3,7 +3,7 @@
 "type": "tank",
 "template": "ErekirUnitType",   
 "research": {
-"parent": "SolranFactory",
+"parent": "SolFactory",
 "requirements": [
 "volcanite/100",
 "beryllium/100"
