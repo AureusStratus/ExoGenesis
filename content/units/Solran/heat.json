@@ -2,6 +2,13 @@
 "outlineColor": "252525FF",
 "type": "tank",
 "template": "ErekirUnitType",   
+"research": {
+"parent": "SolranFactory",
+"requirements": [
+"volcanite/100",
+"beryllium/100"
+]
+},    
 "armor": 8,
 "hitSize": 12,
 "squareShape": true,
