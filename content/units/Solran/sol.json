@@ -4,6 +4,13 @@
 "outlineColor": "252525FF",
 "mechLegColor": "252525FF",
 "type": "mech",
+"research": {
+"parent": "SolFactory",
+"requirements": [
+"volcanite/100",
+"beryllium/100"
+]
+},    
 "armor": 7,
 "speed": 0.5,
 "hitSize": 8,
