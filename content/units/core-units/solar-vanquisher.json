@@ -1,5 +1,6 @@
 {
 "type": "mech",
+"fogRadius": 35,  
 "boostMultiplier": 1.8,
 "canBoost": true,
 "mineSpeed": 8,
