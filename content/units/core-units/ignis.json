@@ -2,6 +2,7 @@
 "type": "mech",
 "template": "ErekirUnitType",
 "boostMultiplier": 4,
+"fogRadius": 20,
 "canBoost": true,
 "mineSpeed": 5,
 "buildSpeed": 1.3,
