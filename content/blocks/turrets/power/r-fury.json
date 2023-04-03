@@ -1,5 +1,6 @@
 {
 "type": "PowerTurret",
+"researchCostMultiplier": 0.3,	
 "size": 2,
 "health": 300,
 "outlineColor": "1B1B1BFF",
