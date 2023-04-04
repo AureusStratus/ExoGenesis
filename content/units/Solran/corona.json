@@ -1,10 +1,11 @@
 {
 "name": "Corona",
+"template": "ErekirUnitType",   
 "research": {
 "parent": "sol",
 "requirements": [
 "volcanite/300",
-"lead/340",
+"beryllium/340",
 "silicon/400"
 ]
 },
