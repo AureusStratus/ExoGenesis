@@ -159,6 +159,7 @@
     },
     "fragBullets": 3,
     "fragVelocityMin": 1,
+    "fragRandomSpread": 45,
     "fragSpread": 15,
 	"fragBullet": {
 	"type": "BasicBulletType",
