@@ -159,8 +159,7 @@
     },
     "fragBullets": 3,
     "fragVelocityMin": 1,
-    "fragSpread": 10,
-    "fragRandomSpread": 10,
+    "fragSpacing": 15,
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"frontColor": "000000FF",
