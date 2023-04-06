@@ -5,7 +5,7 @@
 	"maxAmmo": 150,
 	"ammoPerShot" : 10,
 	"reload": 400,
-	"range": 600,
+	"range": 760,
 	"coolantUsage": 1.2,
 	"ammoUseEffect": "casing3Double",
 	"coolantMultiplier": 0.5,
