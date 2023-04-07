@@ -1,7 +1,7 @@
 {
 "name": "Core",
 "research": {
-    "parent": "lava",
+    "parent": "radiative",
     "requirements": [
     "volcanite/700",
     "primal-red/400",
