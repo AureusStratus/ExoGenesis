@@ -3,6 +3,16 @@
  "template": "TankUnitType"
  "faceTarget": false,
 "squareShape": true,
+"research": {
+    "parent": "lava",
+    "requirements": [
+    "volcanite/700",
+    "primal-red/400,
+    "tungsten/600",
+    "beryllium/900",
+    "silicon/1000"
+    ]
+    },
 "treadFrames": 18,
 "treadPullOffset": 2,
 "treadRects": [
