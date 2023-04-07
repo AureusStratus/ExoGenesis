@@ -1,15 +1,15 @@
 {
 "name": "Core",
 "research": {
-"parent": "radiative",
-"requirements": [
-"volcanite/820",
-"surge-alloy/700",
-"plastanium/740",
-"lead/940",
-"silicon/1000"
-]
-},
+    "parent": "lava",
+    "requirements": [
+    "volcanite/700",
+    "primal-red/400",
+    "tungsten/600",
+    "beryllium/900",
+    "silicon/1000"
+    ]
+    },
 "type": "mech",
 "outlineColor": "252525",
 "mechLegColor": "252525",
