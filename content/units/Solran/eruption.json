@@ -7,7 +7,7 @@
     "parent": "lava",
     "requirements": [
     "volcanite/700",
-    "primal-red/400,
+    "primal-red/400",
     "tungsten/600",
     "beryllium/900",
     "silicon/1000"
