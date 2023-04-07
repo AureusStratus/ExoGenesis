@@ -3,8 +3,9 @@
     "parent": "magma",
     "requirements": [
     "volcanite/500",
-    "plastanium/400",
-    "lead/640",
+    "thorium/400",
+    "tungsten/300",
+    "beryllium/640",
     "silicon/800"
     ]
     },
