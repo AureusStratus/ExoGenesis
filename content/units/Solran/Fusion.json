@@ -1,13 +1,14 @@
 {
 "research": {
-"parent": "core",
-"requirements": [
-"volcanite/1220",
-"tungsten/940",
-"primal-red/850"
-"silicon/1300"
-]
-},
+    "parent": "core",
+    "requirements": [
+    "volcanite/1300",
+    "primal-red/600",
+    "tungsten/900",
+    "beryllium/1300",
+    "silicon/1200"
+    ]
+    },
 "template": "ErekirUnitType",
 "type": "mech",
 "armor": 23,
