@@ -36,7 +36,7 @@
     "spin": 5,
     "healPercent": 0.5,
     "collidesTeam": true,
-    "buildingDamageMultiplier": 0.25,
+    "buildingDamageMultiplier": 1.25,
     "splashDamage": 30,
     "splashDamageRadius": 26,
     "shrinkY": -0.6,
