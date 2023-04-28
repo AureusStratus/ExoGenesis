@@ -36,14 +36,14 @@
     "bullet": {
     "type": "basicBulletType",
     "sprite": "exogenesis-large-disk-bullet",
-    "damage": 280,
-    "splashDamage": 50,
-    "splashDamageRadius": 35,
+    "damage": 80,
+    "splashDamage": 60,
+    "splashDamageRadius": 45,
     "collidesTeam": true,
     "healPercent": 1,
     "pierceCap": 8,
     "spin": 6,
-    "buildingDamageMultiplier": 0.60,
+    "buildingDamageMultiplier": 1.30,
     "pierceBuilding": true,
     "pierce": true,
     "trailEffect": {
