@@ -35,6 +35,7 @@
      "hitEffect": "blastExplosion",
     "despawnHit": true,     
     "damage": 25,
+    "buildingDamageMultiplier": 0.5,
     "speed": 5,
     "keepVelocity": false,
    "frontColor": "FFFFFFF",
