@@ -56,7 +56,7 @@
 		{"item": "oxide", "amount": 80}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "ignition-forge",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2
