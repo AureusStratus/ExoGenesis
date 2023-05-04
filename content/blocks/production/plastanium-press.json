@@ -10,7 +10,7 @@
 	"craftEffect": "formsmoke",
 	"updateEffect": "plasticburn",
 	"consumes": {
-		"power": 4,
+		"power": 8,
 		"items": {
 			"items": [
                "lead/2",
