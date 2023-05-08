@@ -18,9 +18,9 @@
 	"power": 2,
 	"items": {
 	"items": [
-	{"item": "thorium", "amount": 10},
-	{"item": "titanium", "amount": 5},
-	{"item": "silicon", "amount": 5}
+	{"item": "thorium", "amount": 6},
+	{"item": "titanium", "amount": 4},
+	{"item": "silicon", "amount": 4}
 	]
 	},
 	"liquid": {
@@ -31,7 +31,7 @@
 	
 	"outputItem": {
 	"item": "jupiteium",
-	"amount": 6
+	"amount": 4
 	},
 	
 	"requirements": [
