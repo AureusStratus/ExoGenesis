@@ -21,10 +21,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 850 },
-		{ "item": "titanium", "amount": 370 },
+		{ "item": "silicon", "amount": 1050 },
+		{ "item": "titanium", "amount": 1070 },
 		{ "item": "plastanium", "amount": 750 },
-		{ "item": "surge-alloy", "amount": 285 },
+		{ "item": "surge-alloy", "amount": 585 },
 		{ "item": "jupiteium", "amount": 558 }
 	],
 	"category": "production",
