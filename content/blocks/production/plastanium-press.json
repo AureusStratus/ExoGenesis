@@ -13,13 +13,13 @@
 		"power": 8,
 		"items": {
 			"items": [
-               "lead/2",
-               "titanium/5"
+               "lead/4",
+               "titanium/6"
 			]
 	},
 		"liquid": {
 			"liquid": "oil",
-			"amount": 0.5
+			"amount": 0.8
 		}
 	},
 	"requirements": [
