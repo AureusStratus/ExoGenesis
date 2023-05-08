@@ -43,6 +43,6 @@
 	"research": "alloy-smelter",
 	"outputItem": {
 		"item": "alpha-yellow",
-		"amount": 2
+		"amount": 1
 	}
 }
