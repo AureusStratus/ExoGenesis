@@ -21,10 +21,10 @@
 	"consumes": {
 		"power": 1,
 		"items": [
-               "silicon/9",
+               "silicon/6",
                "titanium/6",
-               "copper/8",
-               "lead/8"
+               "copper/4",
+               "lead/4"
 			]
 	},
 	"requirements": [
@@ -36,5 +36,5 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": "surge-alloy/6"
+	"outputItem": "surge-alloy/3"
 }
