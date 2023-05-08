@@ -26,6 +26,6 @@
         "health": 100,
         "hitSize": 8,
         "armor": 1,
-        "itemCapacity": 12,
+        "itemCapacity": 8,
         "engineOffset": 6
 }
