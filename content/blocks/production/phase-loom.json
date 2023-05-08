@@ -29,7 +29,7 @@
 		"items": {
 			"items": [
                "sand/10",
-               "thorium/14",
+               "thorium/6",
                "silicon/6"
 			]
 		}
@@ -44,5 +44,5 @@
 	],
 	"category": "crafting",
 	"research": "phase-weaver",
-	"outputItem": "phase-fabric/6"
+	"outputItem": "phase-fabric/3"
 }
