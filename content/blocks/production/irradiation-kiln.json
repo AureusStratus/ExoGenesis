@@ -54,15 +54,15 @@
 		"power": 5,
 		"items": {
 			"items": [
-                "surge-alloy/10",
-                "plastanium/5",
-                "valvanite/15",
-                "thorium/8"
+                "surge-alloy/5",
+                "plastanium/10",
+                "valvanite/10",
+                "thorium/5"
 			]
 	},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.1
+			"amount": 0.4
 		}
 	},
 	"requirements": [
@@ -75,5 +75,5 @@
 	],
 	"category": "crafting",
 	"research": "gamma-forge",
-	"outputItem": "gamma-green/10"
+	"outputItem": "gamma-green/5"
 }
