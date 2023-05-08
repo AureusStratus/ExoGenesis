@@ -3,7 +3,7 @@
   "health": 200,
   "size": 2,
   "hasItems": true,
-  "craftTime": 80,
+  "craftTime": 95,
   "craftEffect": {
    "type": "multiEffect",
     "effects": [
@@ -66,7 +66,7 @@
   "power": 0.65,
   "items": {
     "items": [
-      "astrolite/1",
+      "astrolite/2",
       "sand/1"
     ]
    }
