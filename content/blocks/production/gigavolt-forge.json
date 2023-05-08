@@ -34,8 +34,8 @@
 		"power": 5,
 		"items": {
 			"items": [
-               "surge-alloy/10",
-               "silicon/6",
+               "surge-alloy/5",
+               "silicon/5",
                "oltuxium/15",
                "plastanium/10"
 			]
@@ -51,5 +51,5 @@
 	],
 	"category": "crafting",
 	"research": "alpha-forge",
-	"outputItem": "alpha-yellow/15"
+	"outputItem": "alpha-yellow/5"
 }
