@@ -24,7 +24,7 @@
         "shrinkX": 0,
         "speed": 4,
         "lifetime": 15,
-        "damage": 5,
+        "damage": 11,
         "trailColor": "66B1FFFF",
         "trailParam": 2,
         "trailLength": 8,
