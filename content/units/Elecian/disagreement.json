@@ -100,6 +100,7 @@
     "alternate": false,
     "mirror": false,
     "top": true,
+    "x": 0,
     "recoil": 3,
     "shootY": 2,
     "inaccuracy": 7,
