@@ -23,7 +23,8 @@
   	  }
       ]
       },
-  "outputLiquids": ["hydrogen/0.2"],
+  "outputLiquids": ["hydrogen/0.4", "water/0.05"],
+  "dumpExtraLiquid": true,
   "consumes": {
     "power": 6,
       "liquids": [
