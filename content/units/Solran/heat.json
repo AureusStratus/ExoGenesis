@@ -9,7 +9,7 @@
 "beryllium/100"
 ]
 },    
-"armor": 10,
+"armor": 12,
 "hitSize": 12,
 "squareShape": true,
 "treadPullOffset": 8,
@@ -27,7 +27,7 @@
 "rotateSpeed": 1.8,
 "speed": 1,
 "flying": false,
-"health": 900,
+"health": 950,
 "range": 160,
 "immunities": [
     "melting",
