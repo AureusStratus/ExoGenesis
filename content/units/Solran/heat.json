@@ -23,10 +23,11 @@
 ],
 "singleTarget": false,
 "omniMovement": false,
+"rotateMoveFirst": true,
 "rotateSpeed": 1.8,
 "speed": 1,
 "flying": false,
-"health": 850,
+"health": 900,
 "range": 120,
 "immunities": [
     "melting",
