@@ -11,17 +11,17 @@
 {
     "unit": "sol",
     	"requirements": [
-        "silicon/40",
-        "volcanite/60"
+        "silicon/60",
+        "volcanite/80"
        ],
     "time": 2400
   },
 {
     "unit": "heat",
     	"requirements": [
-        "silicon/40",
-        "volcanite/40",
-	"graphite/20"
+        "silicon/60",
+        "volcanite/60",
+	"graphite/30"
        ],
     "time": 2400
   }
