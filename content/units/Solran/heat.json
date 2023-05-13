@@ -9,7 +9,7 @@
 "beryllium/100"
 ]
 },    
-"armor": 8,
+"armor": 10,
 "hitSize": 12,
 "squareShape": true,
 "treadPullOffset": 8,
@@ -26,7 +26,7 @@
 "rotateSpeed": 1.8,
 "speed": 1,
 "flying": false,
-"health": 300,
+"health": 850,
 "range": 120,
 "immunities": [
     "melting",
@@ -68,7 +68,7 @@
     "hitEffect": "hitBulletSmall",
     "despawnHit": true,
     "lifetime": 18,
-    "damage": 20,
+    "damage": 30,
     "speed": 6.6,
     "trailLength": 8,
     "trailWidth": 1.5,
