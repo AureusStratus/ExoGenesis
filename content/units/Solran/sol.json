@@ -11,11 +11,11 @@
 "beryllium/100"
 ]
 },    
-"armor": 7,
+"armor": 8,
 "speed": 0.5,
 "hitSize": 8,
 "flying": false,
-"health": 230,
+"health": 700,
 "range": 50,
 "immunities": [
 		"burning",
@@ -45,7 +45,7 @@
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 5,
-    "damage": 6,
+    "damage": 25,
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {
