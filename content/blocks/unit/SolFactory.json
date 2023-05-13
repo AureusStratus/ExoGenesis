@@ -1,7 +1,7 @@
 {
 "type": "UnitFactory",
 "size": 3,
-"configurable": false,
+"configurable": true,
 "fogRadius": 3,
 "category": "units"
 "consumes": {
@@ -20,7 +20,8 @@
     "unit": "heat",
     	"requirements": [
         "silicon/40",
-        "volcanite/60"
+        "volcanite/40",
+	"graphite/20"
        ],
     "time": 2400
   }
