@@ -40,11 +40,11 @@
     "x": 0,
     "y": 0,
     "rotate": true,
-    "inaccuracy": 9,
+    "inaccuracy": 4,
     "rotateSpeed": 5,
     "cooldownTime": 30,
     "shootY": 8,
-    "reload": 20,
+    "reload": 10,
     "recoil": 1.5,
     "parts": [
     {
