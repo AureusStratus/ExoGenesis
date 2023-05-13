@@ -15,7 +15,7 @@
 "speed": 0.5,
 "hitSize": 8,
 "flying": false,
-"health": 700,
+"health": 900,
 "range": 50,
 "immunities": [
 		"burning",
