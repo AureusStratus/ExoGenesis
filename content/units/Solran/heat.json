@@ -44,7 +44,7 @@
     "rotateSpeed": 5,
     "cooldownTime": 30,
     "shootY": 8,
-    "reload": 5,
+    "reload": 20,
     "recoil": 1.5,
     "parts": [
     {
