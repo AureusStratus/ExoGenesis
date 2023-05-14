@@ -24,8 +24,7 @@
    "requirements": [
         "beryllium/200",
         "tungsten/100",
-        "silicon/150",
-        "volcanite/100",
-        "oxide/40",
+        "silicon/100",
+        "volcanite/80"
 	]
 }
