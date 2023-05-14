@@ -20,7 +20,7 @@
 		["corona", "photosphere"],
 		["molten", "magma"]
 	],
-"research": "soletux-reconstructor",
+"research": "soletux-recontructor",
    "requirements": [
         "thorium/250",
         "tungsten/200",
