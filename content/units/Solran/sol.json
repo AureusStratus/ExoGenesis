@@ -16,7 +16,7 @@
 "hitSize": 8,
 "flying": false,
 "health": 900,
-"range": 50,
+"range": 40,
 "immunities": [
 		"burning",
 		"melting"
@@ -45,7 +45,7 @@
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 5,
-    "damage": 15,
+    "damage": 9,
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {
@@ -62,7 +62,7 @@
     "cone": 10
     },
     "smokeEffect": "none",
-    "lifetime": 10,
+    "lifetime": 8,
 	"despawnEffect": "none",
     "hittable": false,
     "reflectable": false,
