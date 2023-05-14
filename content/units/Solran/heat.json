@@ -70,7 +70,7 @@
     "hitEffect": "hitBulletSmall",
     "despawnHit": true,
     "lifetime": 22.85714286,
-    "damage": 8,
+    "damage": 12,
     "speed": 7,
     "trailLength": 8,
     "trailWidth": 1.5,
