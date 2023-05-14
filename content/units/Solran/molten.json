@@ -69,7 +69,7 @@
     "bullet": {
     "type": "ContinuousFlameBulletType",
     "colors": ["ed1e27aa", "d70a0a90", "ff7048", "ffcea0", "FFFFFFFF"],
-    "damage": 8,
+    "damage": 32,
     "flareWidth": 4.5,
     "flareLength": 28,
     "flareColor": "ff7048",
@@ -93,6 +93,7 @@
     "drawSize": 350,
     "lifetime": 220,
     "status": "melting",
+    "pierceCap": 4,
     "statusDuration": 150
     }
   }
