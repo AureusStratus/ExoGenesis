@@ -25,13 +25,14 @@
 ],
 "singleTarget": false,
 "omniMovement": false,
+"rotateMoveFirst": true,
 "rotateSpeed": 1.8,
 "armor": 12,
 "hitSize": 18,
 "rotateShooting": false,
 "speed": 0.8,
 "flying": false,
-"health": 700,
+"health": 2400,
 "immunities": [
 		"melting",
 		"blasted",
@@ -68,9 +69,9 @@
     "bullet": {
     "type": "ContinuousFlameBulletType",
     "colors": ["ed1e27aa", "d70a0a90", "ff7048", "ffcea0", "FFFFFFFF"],
-    "damage": 4,
+    "damage": 8,
     "flareWidth": 4.5,
-    "flareLength": 28,
+    "flareLength": 80,
     "flareColor": "ff7048",
     "width": 4,
     "hitEffect": {
