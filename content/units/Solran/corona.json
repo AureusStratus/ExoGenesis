@@ -10,12 +10,12 @@
 ]
 },
 "type": "mech",
-"armor": 11,
+"armor": 9,
 "hitSize": 13,
 "outlineColor": "252525FF",
 "speed": 0.54,
 "flying": false,
-"health": 3200,
+"health": 1300,
 "range": 120,
 "immunities": [
 "burning",
