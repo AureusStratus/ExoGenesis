@@ -10,12 +10,12 @@
 ]
 },
 "type": "mech",
-"armor": 9,
+"armor": 11,
 "hitSize": 13,
 "outlineColor": "252525FF",
 "speed": 0.54,
 "flying": false,
-"health": 620,
+"health": 3200,
 "range": 120,
 "immunities": [
 "burning",
@@ -37,7 +37,7 @@
 	"sprite" : "circle-bullet",
         "status": "melting",
 	"statusDuration": 300,
-	"damage": 20,	
+	"damage": 25,	
 	"splashDamage": 15,
 	"splashDamageRadius": 20,	
 	"height": 9,
