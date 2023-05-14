@@ -54,7 +54,7 @@
     "sizeFrom": 5,
     "sizeTo": 0,
     "length": 80,
-    "lifetime": 10,
+    "lifetime": 20,
     "interp": "circleOut",
     "lightColor": "ff7048",
     "colorFrom": "FFDCD8FF",
@@ -62,7 +62,7 @@
     "cone": 10
     },
     "smokeEffect": "none",
-    "lifetime": 12,
+    "lifetime": 10,
 	"despawnEffect": "none",
     "hittable": false,
     "reflectable": false,
