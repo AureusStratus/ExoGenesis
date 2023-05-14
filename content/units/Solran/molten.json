@@ -79,7 +79,7 @@
     "line": true,
     "particles": 7,
     "lifetime": 10,
-    "length": 80,
+    "length": 800,
     "cone": -360,
     "strokeFrom": 2.5,
     "strokeTo": 0,
