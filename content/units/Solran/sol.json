@@ -45,7 +45,7 @@
     "type": "BasicBulletType",
     "collidesAir": true,
     "speed": 5,
-    "damage": 25,
+    "damage": 15,
     "width": 0.1,
     "height": 0.1,
     "shootEffect": {
@@ -54,7 +54,7 @@
     "sizeFrom": 5,
     "sizeTo": 0,
     "length": 80,
-    "lifetime": 25,
+    "lifetime": 10,
     "interp": "circleOut",
     "lightColor": "ff7048",
     "colorFrom": "FFDCD8FF",
