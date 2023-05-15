@@ -1,45 +1,45 @@
-{	
-    "type": "GenericCrafter",
-		"drawer": {
-   "type": "DrawMulti",
-        "drawers": [
-        {
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
         "type": "DrawDefault"
-        },
-        {
-	"type": "DrawFlame",
-	"flameColor": "E3EFF2FF"
-}
-]
-	},
-	"size": 6,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 50,
-	"craftTime": 320,
-	"craftEffect": "shockwave",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 5,
-		"items": {
-			"items": [
-                "lead/10",
-                "blast-compound/4",
-                "silicon/9",
-                "titanium/7"
-			]
-		}
-	},
-	"requirements": [
-        "metaglass/260",
-        "plastanium/430",
-        "thorium/340",
-        "titanium/200",
-        "silicon/400",
-        "osmium/330"
-	],
-	"category": "crafting",
-	"research": "ton-forge",
-	"outputItem": "osmium/30"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "E3EFF2FF"
+      }
+    ]
+  },
+  "size": 6,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "itemCapacity": 50,
+  "craftTime": 320,
+  "craftEffect": "shockwave",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 5,
+    "items": {
+      "items": [
+        "lead/10",
+        "blast-compound/4",
+        "silicon/9",
+        "titanium/7"
+      ]
+    }
+  },
+  "requirements": [
+    "metaglass/260",
+    "plastanium/430",
+    "thorium/340",
+    "titanium/200",
+    "silicon/400",
+    "osmium/330"
+  ],
+  "category": "crafting",
+  "research": "ton-forge",
+  "outputItem": "osmium/30"
 }

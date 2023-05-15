@@ -1,12 +1,12 @@
-{    
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "health": 2000,
-    "size": 1,
-    "requirements": [
+{
+  "type": "Wall",
+  "buildCostMultiplier": 0.1,
+  "health": 2000,
+  "size": 1,
+  "requirements": [
     "primal-red/10",
     "tungsten/10"
-    ],
-    "category": "defense",
-    "research": "team-soletux"
+  ],
+  "category": "defense",
+  "research": "team-soletux"
 }

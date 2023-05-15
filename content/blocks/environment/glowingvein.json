@@ -1,11 +1,11 @@
 {
-"type": "Floor",
-"emitLight": true,
-"lightRadius": 2,
-"lightColor": "A9D8FFFF",
-"liquidDrop": "cold-plasma",
-"attributes": {
-  "heat": -2.5
-},
-"variants": 6
+  "type": "Floor",
+  "emitLight": true,
+  "lightRadius": 2,
+  "lightColor": "A9D8FFFF",
+  "liquidDrop": "cold-plasma",
+  "attributes": {
+    "heat": -2.5
+  },
+  "variants": 6
 }

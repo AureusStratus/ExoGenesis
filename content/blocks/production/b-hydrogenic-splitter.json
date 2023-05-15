@@ -6,30 +6,33 @@
   "hasPower": true,
   "hasLiquids": true,
   "liquidCapacity": 100,
-  	"drawer": {
-  	"type": "DrawMulti",
-          "drawers": [
-          {
-          "type": "DrawRegion",
-         "suffix": "-bottom"
-  	 },
-          {
-          "type": "DrawLiquidTile",
-          "drawLiquid": "cold-plasma",
-          "suffix": "-liquid"
-          },
-          {
-          "type": "DrawDefault"
-  	  }
-      ]
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
       },
-  "outputLiquids": ["hydrogen/0.4", "water/0.05"],
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "cold-plasma",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "outputLiquids": [
+    "hydrogen/0.4",
+    "water/0.05"
+  ],
   "dumpExtraLiquid": true,
   "consumes": {
     "power": 6,
-      "liquids": [
+    "liquids": [
       "cold-plasma/0.2"
-      ]
+    ]
   },
   "requirements": [
     "lead/100",
@@ -37,7 +40,7 @@
     "stellar-steel/80",
     "astrolite/60"
   ],
-  "envRequired": 0,	
+  "envRequired": 0,
   "category": "crafting",
   "research": "b-cold-plasma-chamber"
 }

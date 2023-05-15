@@ -11,9 +11,18 @@
   "laserColor2": "CCE7FFFF",
   "category": "power",
   "requirements": [
-    { "item": "copper", "amount": 1},
-    { "item": "lead", "amount": 3},
-    { "item": "metaglass", "amount": 2}
+    {
+      "item": "copper",
+      "amount": 1
+    },
+    {
+      "item": "lead",
+      "amount": 3
+    },
+    {
+      "item": "metaglass",
+      "amount": 2
+    }
   ],
   "research": "power-node"
 }

@@ -1,12 +1,12 @@
 {
-    "cost": 7,
-    "hardness": 8,
-    "charge": 0.3,
-    "color": "A9D8FFFF",
-    "research": {
+  "cost": 7,
+  "hardness": 8,
+  "charge": 0.3,
+  "color": "A9D8FFFF",
+  "research": {
     "parent": "surge-alloy",
     "requirements": [
-    "surge-alloy/200"
-  ]
+      "surge-alloy/200"
+    ]
   }
 }

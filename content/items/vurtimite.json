@@ -1,12 +1,12 @@
 {
-    "cost": 1,
-    "explosiveness": 0.05,
-    "radioactivity": 0.05,
-    "color": "6748A1FF",
-    "research": {
+  "cost": 1,
+  "explosiveness": 0.05,
+  "radioactivity": 0.05,
+  "color": "6748A1FF",
+  "research": {
     "parent": "team-qauntra",
     "requirements": [
-    "lead/200"
-  ]
+      "lead/200"
+    ]
   }
 }

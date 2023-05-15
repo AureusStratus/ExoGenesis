@@ -1,12 +1,12 @@
 {
-    "hardness": 4,
-    "cost": 7,
-    "radioactivity": 2,
-    "color": "73FFAEFF",
-    "research": {
+  "hardness": 4,
+  "cost": 7,
+  "radioactivity": 2,
+  "color": "73FFAEFF",
+  "research": {
     "parent": "siradamite",
     "requirements": [
-    "siradamite/150"
-  ]
+      "siradamite/150"
+    ]
   }
 }

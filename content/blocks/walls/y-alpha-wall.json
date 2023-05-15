@@ -1,17 +1,23 @@
-{    
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "lightningSound": "spark",
-    "lightningChance": 0.60,
-    "lightningColor": "F3E979FF",
-    "lightningDamage": 48,
-    "lightningLength":28,
-    "health": 2520,
-    "size": 1,
-    "requirements": [
-        {"item": "alpha-yellow", "amount": 95},
-        {"item": "surge-alloy", "amount": 65}
-    ],
-    "category": "defense",
-    "research": "surge-wall"
+{
+  "type": "Wall",
+  "buildCostMultiplier": 0.1,
+  "lightningSound": "spark",
+  "lightningChance": 0.60,
+  "lightningColor": "F3E979FF",
+  "lightningDamage": 48,
+  "lightningLength": 28,
+  "health": 2520,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "alpha-yellow",
+      "amount": 95
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 65
+    }
+  ],
+  "category": "defense",
+  "research": "surge-wall"
 }

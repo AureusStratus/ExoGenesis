@@ -1,13 +1,13 @@
 {
-    "cost": 7,
-    "hardness": 8,
-    "flammability": 0.4,
-    "explosiveness": 0.6,
-    "color": "E04031FF",
-    "research": {
+  "cost": 7,
+  "hardness": 8,
+  "flammability": 0.4,
+  "explosiveness": 0.6,
+  "color": "E04031FF",
+  "research": {
     "parent": "surge-alloy",
     "requirements": [
-    "surge-alloy/200"
-  ]
+      "surge-alloy/200"
+    ]
   }
 }

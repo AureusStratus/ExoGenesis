@@ -1,12 +1,12 @@
-{	
-	"type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "health": 18000,
-    "size": 3,
-    "requirements": [
+{
+  "type": "Wall",
+  "buildCostMultiplier": 0.1,
+  "health": 18000,
+  "size": 3,
+  "requirements": [
     "primal-red/90",
     "tungsten/90"
-    ],
-    "category": "defense",
-    "research": "o-large-primal-wall"
+  ],
+  "category": "defense",
+  "research": "o-large-primal-wall"
 }

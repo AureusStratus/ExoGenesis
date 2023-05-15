@@ -1,80 +1,78 @@
 {
-    "type": "ItemTurret",
-	"reload": 40,
-	"range": 120,
-	"size": 3,
-	"maxAmmo": 50,
-        "outlineColor": "252525",
-	"health": 2650,
-	"rotateSpeed": 2,
-	"shake": 4,
-	"shootSound": "shotgun",
-	"ammoPerShot": 10,
-    "drawer": {
+  "type": "ItemTurret",
+  "reload": 40,
+  "range": 120,
+  "size": 3,
+  "maxAmmo": 50,
+  "outlineColor": "252525",
+  "health": 2650,
+  "rotateSpeed": 2,
+  "shake": 4,
+  "shootSound": "shotgun",
+  "ammoPerShot": 10,
+  "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"
-    },
-    "shoot": {
+  },
+  "shoot": {
     "type": "shootSpread",
     "shots": 3,
     "spread": 24
-     },
-    "recoil": 4,
-    "ammoTypes": {
+  },
+  "recoil": 4,
+  "ammoTypes": {
     "beryllium": {
-"buildingDamageMultiplier": 0.3,
-    "type": "shrapnelBulletType",
-    "damage": 70,
-    "toColor": "b1dd7e",
-    "length": 120,
-    "width": 24,
-    "hitEffect": "hitMeltdown",
-    "shootEffect": "hitMeltdown",
-    "smokeEffect": "hitBulletBig"
-	},
+      "buildingDamageMultiplier": 0.3,
+      "type": "shrapnelBulletType",
+      "damage": 70,
+      "toColor": "b1dd7e",
+      "length": 120,
+      "width": 24,
+      "hitEffect": "hitMeltdown",
+      "shootEffect": "hitMeltdown",
+      "smokeEffect": "hitBulletBig"
+    },
     "thorium": {
-"buildingDamageMultiplier": 0.7,
-    "type": "shrapnelBulletType",
-     "damage": 120,
-    "toColor": "F9A3C7FF",
-    "length": 120,
-    "width": 24,
-    "hitEffect": "thoriumShoot",
-    "shootEffect": "thoriumShoot",
-    "pierce": true,
-    "smokeEffect": "hitBulletBig"
+      "buildingDamageMultiplier": 0.7,
+      "type": "shrapnelBulletType",
+      "damage": 120,
+      "toColor": "F9A3C7FF",
+      "length": 120,
+      "width": 24,
+      "hitEffect": "thoriumShoot",
+      "shootEffect": "thoriumShoot",
+      "pierce": true,
+      "smokeEffect": "hitBulletBig"
     },
     "surge-alloy": {
-"buildingDamageMultiplier": 0.7,
-    "type": "shrapnelBulletType",
-    "damage": 170,
-    "toColor": "F3E979FF",
-    "length": 120,
-    "width": 24,
-    "lightningLength": 6,
-    "lightningLengthRand": 12,
-    "lightningDamage": 30,
-    "lightningColor": "F3E979FF",
-    "hitEffect": "hitMeltdown",
-    "shootEffect": "hitMeltdown",
-    "pierce": true,
-    "smokeEffect": "hitBulletBig"
+      "buildingDamageMultiplier": 0.7,
+      "type": "shrapnelBulletType",
+      "damage": 170,
+      "toColor": "F3E979FF",
+      "length": 120,
+      "width": 24,
+      "lightningLength": 6,
+      "lightningLengthRand": 12,
+      "lightningDamage": 30,
+      "lightningColor": "F3E979FF",
+      "hitEffect": "hitMeltdown",
+      "shootEffect": "hitMeltdown",
+      "pierce": true,
+      "smokeEffect": "hitBulletBig"
     }
-    },
-    "consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.4
-	}
-	},
-	"requirements": [
-        "graphite/400",
-        "beryllium/500",
-        "volcanite/300",
-        "tungsten/300"
-	],
-	"category": "turret",
-	"research": "r-devil"
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "slag",
+    "amount": 0.4
+  },
+  "coolantMultiplier": 2,
+  "requirements": [
+    "graphite/400",
+    "beryllium/500",
+    "volcanite/300",
+    "tungsten/300"
+  ],
+  "category": "turret",
+  "research": "r-devil"
 }

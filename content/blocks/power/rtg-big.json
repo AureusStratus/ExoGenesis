@@ -1,59 +1,76 @@
 {
-"type": "ConsumeGenerator",
-"localizedName": "Mass Decay Plant",
-"description": "An off branch of the RTG. It is capable of generating as much power.",
-"health": 400,
-"size": 4,
-"powerProduction": 18.5,
-"drawer": {
-"type": "DrawMulti",
-"drawers": [
+  "type": "ConsumeGenerator",
+  "localizedName": "Mass Decay Plant",
+  "description": "An off branch of the RTG. It is capable of generating as much power.",
+  "health": 400,
+  "size": 4,
+  "powerProduction": 18.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
       {
-     "type": "DrawRegion",
-       "suffix": "-bottom"
-        },
-        {
-     "type": "DrawParticles",
-    "color": "BF92F9FF",
-    "alpha": 0.4,
-     "blending": "additive",
-     "particleSize": 4,
-    "particleRad": 11,
-    "particles": 43,
-    "fadeMargin": 0.8,
-    "rotateScl": 4,
-    "particleLife": 40
-	  },
-        {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "BF92F9FF",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 4,
+        "particleRad": 11,
+        "particles": 43,
+        "fadeMargin": 0.8,
+        "rotateScl": 4,
+        "particleLife": 40
+      },
+      {
         "type": "DrawDefault"
-        },
-     {
- "type": "DrawGlowRegion",
- "suffix": "-glow",
-  "color": "BF92F9FF"
-	  }
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "BF92F9FF"
+      }
     ]
+  },
+  "hasItems": true,
+  "itemCapacity": 50,
+  "itemDuration": 740,
+  "randomlyExplode": false,
+  "generateEffect": "fireballsmoke",
+  "consumes": {
+    "items": [
+      "thorium/5"
+    ]
+  },
+  "minItemEfficiency": 0.1,
+  "requirements": [
+    {
+      "item": "thorium",
+      "amount": 500
     },
-"hasItems": true,
-"itemCapacity": 50,
-"itemDuration": 740,
-"randomlyExplode": false,
-"generateEffect": "fireballsmoke",
-"consumes": {
-  "items": ["thorium/5"]
-},
-"minItemEfficiency": 0.1,
-	"requirements": [
-		{ "item": "thorium", "amount": 500 },
-		{ "item": "silicon", "amount": 690 },
-		{ "item": "phase-fabric", "amount": 670 },
-		{ "item": "titanium", "amount": 780 },
-		{ "item": "plastanium", "amount": 600 }
-],
-"category": "power",
-"research": "rtg-generator",
-"loopSound": "hum",
-"loopSoundVolume": 1.95,
-"ambientSound": "machine",
-"ambientSoundVolume": 0.25
+    {
+      "item": "silicon",
+      "amount": 690
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 670
+    },
+    {
+      "item": "titanium",
+      "amount": 780
+    },
+    {
+      "item": "plastanium",
+      "amount": 600
+    }
+  ],
+  "category": "power",
+  "research": "rtg-generator",
+  "loopSound": "hum",
+  "loopSoundVolume": 1.95,
+  "ambientSound": "machine",
+  "ambientSoundVolume": 0.25
 }

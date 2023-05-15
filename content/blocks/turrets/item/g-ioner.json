@@ -1,20 +1,20 @@
 {
-    "type": "ItemTurret",
-    "researchCostMultiplier": 0.1,
-    "size": 1,
-    "health": 240,
-    "reload": 20,
-    "range": 180,
-    "shoot": {
+  "type": "ItemTurret",
+  "researchCostMultiplier": 0.1,
+  "size": 1,
+  "health": 240,
+  "reload": 20,
+  "range": 180,
+  "shoot": {
     "type": "ShootAlternate",
     "spread": 3,
     "shots": 2
-    },
-    "drawer": {
+  },
+  "drawer": {
     "type": "drawTurret",
     "basePrefix": "quantra-"
-    },     
-    "shootEffect": {
+  },
+  "shootEffect": {
     "type": "ParticleEffect",
     "line": true,
     "particles": 5,
@@ -25,23 +25,23 @@
     "lenTo": 0,
     "colorFrom": "73FFAEFF",
     "colorTo": "73FFAEFF"
-    },
-    "recoil": 0.7,
-    "rotateSpeed": 5,
-    "shootSound": "sap",
-    "hasPower": true,
-    "ammoTypes": {
-        "valvanite": {
-        "type": "LaserBoltBulletType",
-        "shrinkY": 0.1,
-        "shrinkX": 0.1,
-        "speed": 5,
-        "lifetime": 40,
-        "damage": 9,
-        "status": "corroded",
-        "height": 5,
-        "width": 2,
-        "hitEffect": {
+  },
+  "recoil": 0.7,
+  "rotateSpeed": 5,
+  "shootSound": "sap",
+  "hasPower": true,
+  "ammoTypes": {
+    "valvanite": {
+      "type": "LaserBoltBulletType",
+      "shrinkY": 0.1,
+      "shrinkX": 0.1,
+      "speed": 5,
+      "lifetime": 40,
+      "damage": 9,
+      "status": "corroded",
+      "height": 5,
+      "width": 2,
+      "hitEffect": {
         "type": "ParticleEffect",
         "line": true,
         "particles": 5,
@@ -52,8 +52,8 @@
         "lenTo": 0,
         "colorFrom": "73FFAEFF",
         "colorTo": "73FFAEFF"
-        },
-        "despawnEffect": {
+      },
+      "despawnEffect": {
         "type": "WaveEffect",
         "lifetime": 25,
         "sizeFrom": 0,
@@ -62,15 +62,15 @@
         "strokeTo": 0,
         "colorFrom": "73FFAEFF",
         "colorTo": "73FFAEFF"
-        },
-        "frontColor": "FFFFFFF",
-        "backColor": "73FFAEFF"
-            }
-    },
-    "requirements": [
-        "valvanite/20",
-        "copper/140"
-    ],
-    "category": "turret",
-    "research": "g-tau"
+      },
+      "frontColor": "FFFFFFF",
+      "backColor": "73FFAEFF"
+    }
+  },
+  "requirements": [
+    "valvanite/20",
+    "copper/140"
+  ],
+  "category": "turret",
+  "research": "g-tau"
 }

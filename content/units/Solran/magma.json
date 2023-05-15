@@ -1,83 +1,131 @@
 {
-"name": "Magma",
-"template": "ErekirUnitType",
-"research": {
-"parent": "molten",
-"requirements": [
-"volcanite/300",
-"beryllium/340",
-"silicon/400"
-]
-},
-"outlineColor": "252525FF",
-"armor": 17,
-"type": "tank",
- "faceTarget": false,
-"squareShape": true,
-"treadFrames": 18,
-"treadPullOffset": 5,
-"treadRects": [
-{
-"x": 16,
-"y": -56,
-"width": 24,
-"height": 112
-}
-],
-"singleTarget": false,
-"omniMovement": false,
-"rotateSpeed": 1.8,
-"hitSize": 24,
-"speed": 0.73,
-"health": 4800,
-"immunities": [
-"melting",
-"blasted",
-"burning"
-],
-"weapons": [
-  {
-    "name": "magma-weapon",
-    "reload": 30,
-    "mirror": false,
-    "x": 0,
-    "y": 0,
-    "shootY": 12,
-    "shake": 2,
-    "rotate": true,
-    "rotateSpeed": 5,
-    "shoot": {
-    "type": "ShootAlternate",
-    "barrels": 2,
-    "spread": 9,
-    "shots": 1
-    },
-    "shootSound": "shotgun",
-    "shootCone": 45,
-	"bullet": {
-        "status": "melting",	
-        "damage": 80,
-        "width": 25,
-        "type": "ShrapnelBulletType",
-        "lifetime": 18,
-        "length": 90,
-        "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 7,
-        "lifetime": 10,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "ffcea0",
-        "colorTo": "ff7048"
-	},
-        "serrations": 4,
-        "fromColor": "ffcea0",
-        "toColor": "ff7048",
-        "shootEffect": "explosion",
+  "name": "Magma",
+  "template": "ErekirUnitType",
+  "research": {
+    "parent": "soletux-rebuilder",
+    "research": "soletux-rebuilder"
+  },
+  "outlineColor": "252525FF",
+  "armor": 15,
+  "type": "tank",
+  "faceTarget": false,
+  "squareShape": true,
+  "treadFrames": 18,
+  "treadPullOffset": 5,
+  "treadRects": [
+    {
+      "x": 16,
+      "y": -56,
+      "width": 24,
+      "height": 112
     }
+  ],
+  "singleTarget": false,
+  "omniMovement": false,
+  "rotateMoveFirst": true,
+  "rotateSpeed": 1.8,
+  "hitSize": 24,
+  "speed": 0.73,
+  "health": 5300,
+  "immunities": [
+    "melting",
+    "blasted",
+    "burning"
+  ],
+  "weapons": [
+    {
+      "name": "magma-weapon",
+      "layerOffset": 1,
+      "reload": 30,
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+      "shootY": 16,
+      "shake": 2,
+      "rotate": true,
+      "rotateSpeed": 5,
+      "recoils": 2,
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-center",
+          "under": false,
+          "mirror": false,
+          "layerOffset": 0.001,
+          "outlineLayerOffset": -0.002,
+          "x": 0,
+          "y": 0,
+          "progress": "recoil"
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-barrel-l",
+          "under": false,
+          "mirror": false,
+          "layerOffset": -0.001,
+          "x": 0,
+          "y": 0,
+          "moveY": -4,
+          "progress": "recoil",
+          "recoilIndex": 1
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-barrel-r",
+          "under": false,
+          "mirror": false,
+          "layerOffset": -0.001,
+          "x": 0,
+          "y": 0,
+          "moveY": -4,
+          "progress": "recoil",
+          "recoilIndex": 0
+        }
+      ],
+      "shoot": {
+        "type": "ShootAlternate",
+        "barrels": 2,
+        "spread": 10,
+        "shots": 1
+      },
+      "shootSound": "shotgun",
+      "shootCone": 45,
+      "bullet": {
+        "maxRange": 130,
+        "instantDisappear": true,
+        "keepVelocity": false,
+        "fragBullets": 3,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "fragRandomSpread": 0,
+        "fragSpread": 7,
+        "fragBullet": {
+          "keepVelocity": false,
+          "status": "melting",
+          "damage": 40,
+          "width": 18,
+          "type": "ShrapnelBulletType",
+          "lifetime": 20,
+          "length": 96,
+          "hitEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 7,
+            "lifetime": 10,
+            "length": 25,
+            "cone": -360,
+            "lenFrom": 5,
+            "lenTo": 0,
+            "colorFrom": "ffcea0",
+            "colorTo": "ff7048"
+          },
+          "serrations": 6,
+          "serrationSpacing": 3,
+          "fromColor": "ffcea0",
+          "toColor": "ff7048",
+          "shootEffect": "explosion"
+        }
+      }
     }
-    ]
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "cost": 7,
-    "hardness": 8,
-    "explosiveness": 1000,
-    "charge": 1000,
-    "color": "5DCBF3FF",
-    "research": {
+  "cost": 7,
+  "hardness": 8,
+  "explosiveness": 1000,
+  "charge": 1000,
+  "color": "5DCBF3FF",
+  "research": {
     "parent": "omega-blue",
     "requirements": [
-    "omega-blue/1000"
-  ]
+      "omega-blue/1000"
+    ]
   }
 }

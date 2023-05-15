@@ -1,48 +1,48 @@
-{	
-	"type": "GenericCrafter",
-        "drawer": {
-	"type": "DrawMulti",
-        "drawers": [
-        {
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
         "type": "DrawRegion",
-       "suffix": "-bottom"
-	 },
-        {
+        "suffix": "-bottom"
+      },
+      {
         "type": "DrawWeave"
-        },
-        {
+      },
+      {
         "type": "DrawDefault"
-	}
-        ]
-        },
-	"size": 3,
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 40,
-	"craftTime": 180,
-	"craftEffect": "smeltsmoke",
-	"updateEffect": "none",
-    "ambientSound": "techloop",
-    "ambientSoundVolume": 0.02,
-	"consumes": {
-		"power": 6,
-		"items": {
-			"items": [
-               "sand/10",
-               "thorium/6",
-               "silicon/6"
-			]
-		}
-	},
-	"requirements": [
+      }
+    ]
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "craftTime": 180,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "ambientSound": "techloop",
+  "ambientSoundVolume": 0.02,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        "sand/10",
+        "thorium/6",
+        "silicon/6"
+      ]
+    }
+  },
+  "requirements": [
     "silicon/450",
     "titanium/400",
     "lead/300",
     "plastanium/700",
     "thorium/300",
     "phase-fabric/800"
-	],
-	"category": "crafting",
-	"research": "phase-weaver",
-	"outputItem": "phase-fabric/3"
+  ],
+  "category": "crafting",
+  "research": "phase-weaver",
+  "outputItem": "phase-fabric/3"
 }

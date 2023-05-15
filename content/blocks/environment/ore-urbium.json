@@ -1,7 +1,7 @@
 {
-"type": "OreBlock",
-"oreDefault": true,	
-"oreScale": 28.380953,
-"oreThreshold": 0.882,
-"itemDrop": "urbium"
+  "type": "OreBlock",
+  "oreDefault": true,
+  "oreScale": 28.380953,
+  "oreThreshold": 0.882,
+  "itemDrop": "urbium"
 }

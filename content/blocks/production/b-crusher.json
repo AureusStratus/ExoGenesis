@@ -6,52 +6,54 @@
   "craftTime": 200,
   "craftEffect": {
     "type": "MultiEffect",
-	"effects": [
-	{
-    "type": "ParticleEffect",
-    "particles": 4,
-    "length": 15,
-    "lifetime": 15,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "787878",
-    "colorTo": "66B1FFFF",
-    "sizeFrom": 4.5,
-    "sizeTo": 0
-	},
-	{
-    "type": "ParticleEffect",
-    "particles": 3,
-    "length": 20,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "787878",
-    "colorTo": "66B1FFFF",
-    "sizeFrom": 3.5,
-    "sizeTo": 0
-	},
-	{
-    "type": "ParticleEffect",
-    "particles": 2,
-    "length": 25,
-    "lifetime": 30,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "lightColor": "66B1FFFF",
-    "colorFrom": "787878",
-    "colorTo": "66B1FFFF",
-    "sizeFrom": 2,
-    "sizeTo": 0
-	}
-	]
-    },    
+    "effects": [
+      {
+        "type": "ParticleEffect",
+        "particles": 4,
+        "length": 15,
+        "lifetime": 15,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 4.5,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 3,
+        "length": 20,
+        "lifetime": 20,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 3.5,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 2,
+        "length": 25,
+        "lifetime": 30,
+        "interp": "circleOut",
+        "sizeInterp": "pow5In",
+        "lightColor": "66B1FFFF",
+        "colorFrom": "787878",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 2,
+        "sizeTo": 0
+      }
+    ]
+  },
   "updateEffect": "none",
   "consumes": {
-  "power": 10.4,
-    "items": ["siradamite/6"]
+    "power": 10.4,
+    "items": [
+      "siradamite/6"
+    ]
   },
   "requirements": [
     "lead/250",
