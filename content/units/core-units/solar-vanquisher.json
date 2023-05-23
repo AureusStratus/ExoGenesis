@@ -2,7 +2,7 @@
 "type": "mech",
 "fogRadius": 35,  
 "boostMultiplier": 1.8,
-"canBoost": true,
+"solid": false,
 "mineSpeed": 8,
 "buildSpeed": 1.85,
 "mineTier": 5,
@@ -21,7 +21,7 @@
 "armor": 6,
 "hitSize": 33,
 "mechFrontSway": 0.65,
-"speed": 0.76,
+"speed": 1.66,
 "flying": false,
 "health": 1200,
 "immunities": [
