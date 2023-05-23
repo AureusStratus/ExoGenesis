@@ -3,7 +3,7 @@
 "template": "ErekirUnitType",
 "boostMultiplier": 4,
 "fogRadius": 20,
-"canBoost": true,
+"solid": false,
 "mineSpeed": 5,
 "buildSpeed": 1.3,
 "mineTier": 3,
@@ -20,7 +20,7 @@
 "mineWalls": true,
 "mineHardnessScaling": false,
 "mineFloor": false,
-"speed": 1,
+"speed": 2,
 "health": 500,
 "immunities": [
 "burning"
