@@ -19,7 +19,7 @@
 "mineWalls": true,
 "mineHardnessScaling": false,
 "mineFloor": false,
-"speed": 0.86,
+"speed": 1.86,
 "health": 800,
 "mechFrontSway": 0.35,
 "immunities": [
