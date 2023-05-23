@@ -2,7 +2,7 @@
 "type": "mech",
 "fogRadius": 35,  
 "boostMultiplier": 1.8,
-"solid": false,
+"canBoost": true,
 "mineSpeed": 8,
 "buildSpeed": 1.85,
 "mineTier": 5,
