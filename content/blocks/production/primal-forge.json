@@ -36,7 +36,7 @@
   "hasItems": true,
   "itemCapacity": 20,
   "heatRequirement": 15,
-  "craftTime": 150,
+  "craftTime": 75,
   "craftEffect": "none",
   "updateEffect": "none",
   "consumes": {
@@ -71,6 +71,6 @@
   "research": "ignition-forge",
   "outputItem": {
     "item": "primal-red",
-    "amount": 1
+    "amount": 2
   }
 }

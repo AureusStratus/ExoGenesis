@@ -38,6 +38,7 @@
       "layerOffset": 1,
       "reload": 30,
       "mirror": false,
+      "top": true,
       "x": 0,
       "y": 0,
       "shootY": 16,
@@ -48,83 +49,82 @@
       "parts": [
         {
           "type": "RegionPart",
-          "suffix": "-center",
-          "under": false,
-          "mirror": false,
-          "layerOffset": 0.001,
-          "outlineLayerOffset": -0.002,
-          "x": 0,
-          "y": 0,
-          "progress": "recoil"
-        },
-        {
-          "type": "RegionPart",
           "suffix": "-barrel-l",
-          "under": false,
+          "under": true,
           "mirror": false,
-          "layerOffset": -0.001,
-          "x": 0,
-          "y": 0,
           "moveY": -4,
           "progress": "recoil",
-          "recoilIndex": 1
+          "recoilIndex": 1,
+          "heatProgress": {
+            "type": "recoil",
+            "op": "blend",
+            "amount": 0,
+            "other": 0,
+            "recoilIndex": 1
+          }
         },
         {
           "type": "RegionPart",
           "suffix": "-barrel-r",
-          "under": false,
+          "under": true,
           "mirror": false,
-          "layerOffset": -0.001,
-          "x": 0,
-          "y": 0,
           "moveY": -4,
           "progress": "recoil",
-          "recoilIndex": 0
+          "recoilIndex": 0,
+          "heatProgress": {
+            "type": "recoil",
+            "op": "blend",
+            "amount": 0,
+            "other": 0,
+            "recoilIndex": 0
+          }
         }
       ],
       "shoot": {
-        "type": "ShootAlternate",
-        "barrels": 2,
-        "spread": 10,
-        "shots": 1
+        "type": "ShootMulti",
+        "source": {
+          "type": "ShootAlternate",
+          "barrels": 2,
+          "shots": 1,
+          "spread": 10
+        },
+        "dest": [
+          {
+            "type": "ShootSpread",
+            "shots": 3,
+            "spread": 7
+          }
+        ]
       },
       "shootSound": "shotgun",
       "shootCone": 45,
       "bullet": {
-        "maxRange": 130,
-        "instantDisappear": true,
         "keepVelocity": false,
-        "fragBullets": 3,
-        "fragVelocityMin": 1,
-        "fragVelocityMax": 1,
-        "fragRandomSpread": 0,
-        "fragSpread": 7,
-        "fragBullet": {
-          "keepVelocity": false,
-          "status": "melting",
-          "damage": 40,
-          "width": 18,
-          "type": "ShrapnelBulletType",
-          "lifetime": 20,
-          "length": 96,
-          "hitEffect": {
-            "type": "ParticleEffect",
-            "line": true,
-            "particles": 7,
-            "lifetime": 10,
-            "length": 25,
-            "cone": -360,
-            "lenFrom": 5,
-            "lenTo": 0,
-            "colorFrom": "ffcea0",
-            "colorTo": "ff7048"
-          },
-          "serrations": 6,
-          "serrationSpacing": 3,
-          "fromColor": "ffcea0",
-          "toColor": "ff7048",
-          "shootEffect": "explosion"
-        }
+        "status": "melting",
+        "damage": 40,
+        "width": 18,
+        "type": "ShrapnelBulletType",
+        "lifetime": 20,
+        "length": 96,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 7,
+          "lifetime": 15,
+          "length": 25,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "ffcea0",
+          "colorTo": "ff7048"
+        },
+        "serrations": 6,
+        "serrationSpacing": 3,
+        "fromColor": "ffcea0",
+        "toColor": "ff7048",
+        "despawnEffect": "none",
+        "shootEffect": "none",
+        "smokeEffect": "none"
       }
     }
   ]

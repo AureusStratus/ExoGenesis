@@ -16,6 +16,8 @@
     "amount": 0.5
   },
   "size": 7,
+  "health": 16000,
+  "armor": 40,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"

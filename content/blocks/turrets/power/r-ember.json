@@ -1,7 +1,8 @@
 {
   "type": "LaserTurret",
   "size": 5,
-  "health": 1900,
+  "health": 8000,
+  "armor": 30,
   "reload": 220,
   "range": 250,
   "consumes": {

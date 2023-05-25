@@ -27,7 +27,6 @@
     }
   ],
   "research": "team-soletux",
-  "researchCostMultiplier": 4,
   "requirements": [
     "silicon/80",
     "beryllium/200",

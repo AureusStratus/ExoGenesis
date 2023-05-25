@@ -1,8 +1,10 @@
 {
   "type": "PowerTurret",
   "size": 8,
-  "health": 8660,
+  "health": 16000,
+  "armor": 40,
   "reload": 350,
+  "cooldownTime": 200,
   "range": 380,
   "shoot": {
     "type": "shootSpread",

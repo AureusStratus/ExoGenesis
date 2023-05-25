@@ -1,15 +1,16 @@
 {
   "type": "ItemTurret",
   "reload": 40,
-  "range": 120,
+  "range": 140,
   "size": 3,
   "maxAmmo": 50,
   "outlineColor": "252525",
-  "health": 2650,
+  "health": 4000,
+  "armor": 20,
   "rotateSpeed": 2,
   "shake": 4,
   "shootSound": "shotgun",
-  "ammoPerShot": 10,
+  "ammoPerShot": 5,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"
@@ -17,46 +18,44 @@
   "shoot": {
     "type": "shootSpread",
     "shots": 3,
-    "spread": 24
+    "spread": 12
   },
   "recoil": 4,
   "ammoTypes": {
     "beryllium": {
       "buildingDamageMultiplier": 0.3,
       "type": "shrapnelBulletType",
-      "damage": 70,
+      "damage": 80,
       "toColor": "b1dd7e",
       "length": 120,
       "width": 24,
       "hitEffect": "hitMeltdown",
       "shootEffect": "hitMeltdown",
+      "pierce": true,
+      "smokeEffect": "hitBulletBig"
+    },
+    "tungsten": {
+      "buildingDamageMultiplier": 0.7,
+      "type": "shrapnelBulletType",
+      "damage": 120,
+      "toColor": "768a9a",
+      "length": 180,
+      "rangeChange": 70,
+      "width": 24,
+      "hitEffect": "hitMeltdown",
+      "shootEffect": "hitMeltdown",
+      "pierce": true,
       "smokeEffect": "hitBulletBig"
     },
     "thorium": {
       "buildingDamageMultiplier": 0.7,
       "type": "shrapnelBulletType",
-      "damage": 120,
+      "damage": 220,
       "toColor": "F9A3C7FF",
       "length": 120,
       "width": 24,
       "hitEffect": "thoriumShoot",
       "shootEffect": "thoriumShoot",
-      "pierce": true,
-      "smokeEffect": "hitBulletBig"
-    },
-    "surge-alloy": {
-      "buildingDamageMultiplier": 0.7,
-      "type": "shrapnelBulletType",
-      "damage": 170,
-      "toColor": "F3E979FF",
-      "length": 120,
-      "width": 24,
-      "lightningLength": 6,
-      "lightningLengthRand": 12,
-      "lightningDamage": 30,
-      "lightningColor": "F3E979FF",
-      "hitEffect": "hitMeltdown",
-      "shootEffect": "hitMeltdown",
       "pierce": true,
       "smokeEffect": "hitBulletBig"
     }

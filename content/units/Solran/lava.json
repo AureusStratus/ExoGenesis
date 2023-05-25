@@ -1,7 +1,6 @@
 {
   "research": {
-    "parent": "soletux-tank-reassembly",
-    "research": "soletux-tank-reassembly"
+    "parent": "soletux-tank-reassembly"
   },
   "type": "tank",
   "template": "ErekirUnitType",
@@ -17,6 +16,7 @@
       "height": 134
     }
   ],
+  "crushDamage": 3,
   "singleTarget": false,
   "omniMovement": false,
   "outlineColor": "252525FF",
@@ -39,7 +39,7 @@
       "name": "lava-weapon",
       "x": 0,
       "y": 0,
-      "ejectEffect": "casing3",
+      "ejectEffect": "casing4",
       "mirror": false,
       "top": true,
       "rotate": true,
@@ -62,9 +62,9 @@
       ],
       "reload": 95,
       "shoot": {
-        "type": "shootSpread",
+        "type": "shootPattern",
         "shots": 3,
-        "spread": 6
+        "shotDelay": 5
       },
       "recoil": 4,
       "shootSound": "mediumCannon",
@@ -78,6 +78,8 @@
         "shrinkX": 0,
         "shrinkY": 0,
         "speed": 5,
+        "splashDamage": 60,
+        "splashDamageRadius": 40,
         "lifetime": 35,
         "hitEffect": {
           "type": "multiEffect",

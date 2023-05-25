@@ -16,7 +16,7 @@
     },
     "liquid": {
       "liquid": "hydrogen",
-      "amount": 0.6
+      "amount": 0.25
     }
   },
   "upgrades": [
@@ -30,7 +30,6 @@
     ]
   ],
   "research": "soletux-recontructor",
-  "researchCostMultiplier": 4,
   "requirements": [
     "thorium/250",
     "tungsten/200",

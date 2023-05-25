@@ -21,11 +21,11 @@
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "consumes": {
-    "power": 1,
+    "power": 0.25,
     "items": {
       "items": [
-        "beryllium/1",
-        "graphite/2"
+        "beryllium/2",
+        "sand/6"
       ]
     }
   },
@@ -35,5 +35,5 @@
   ],
   "category": "crafting",
   "research": "team-soletux",
-  "outputItem": "volcanite/2"
+  "outputItem": "volcanite/3"
 }

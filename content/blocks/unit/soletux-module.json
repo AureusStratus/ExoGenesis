@@ -9,9 +9,9 @@
     "power": 5
   },
   "research": {
-    "parent": ["soletux-mech-reassembly", "soletux-tank-reassembly"]
+    "parent": "soletux-rebuilder",
+    "objectives": ["soletux-mech-reassembly", "soletux-tank-reassembly"]
   },
-  "researchCostMultiplier": 4,
   "requirements": [
     "primal-red/600",
     "silicon/500",

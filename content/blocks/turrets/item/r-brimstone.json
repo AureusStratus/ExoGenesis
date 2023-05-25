@@ -1,6 +1,7 @@
 {
   "type": "itemTurret",
-  "health": 1900,
+  "health": 8000,
+  "armor": 30,
   "reload": 98,
   "outlineColor": "252525",
   "ammoUseEffect": "casing4",

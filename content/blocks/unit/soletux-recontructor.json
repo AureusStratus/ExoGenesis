@@ -16,7 +16,7 @@
     },
     "liquid": {
       "liquid": "hydrogen",
-      "amount": 0.2
+      "amount": 0.05
     }
   },
   "upgrades": [
@@ -30,7 +30,6 @@
     ]
   ],
   "research": "SolFactory",
-  "researchCostMultiplier": 4,
   "requirements": [
     "beryllium/200",
     "tungsten/100",

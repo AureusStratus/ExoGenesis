@@ -1,6 +1,9 @@
 {
   "research": {
     "parent": "core",
+    "objectives": [
+      "soletux-module-t2"
+    ],
     "requirements": [
       "volcanite/1300",
       "primal-red/600",

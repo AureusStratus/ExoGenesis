@@ -1,7 +1,8 @@
 {
   "type": "ItemTurret",
   "size": 4,
-  "health": 1600,
+  "health": 800,
+  "armor": 14,
   "range": 200,
   "reload": 250,
   "coolant": {

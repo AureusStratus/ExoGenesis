@@ -4,7 +4,8 @@
   "size": 3,
   "range": 160,
   "outlineColor": "1B1B1BFF",
-  "health": 1100,
+  "health": 3500,
+  "armor": 15,
   "reload": 3.5,
   "shoot": {
     "shots": 2

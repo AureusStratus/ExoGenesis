@@ -30,7 +30,6 @@
     }
   ],
   "research": "soletux-rebuilder",
-  "researchCostMultiplier": 4,
   "requirements": [
     "primal-red/80",
     "volcanite/500",

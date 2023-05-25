@@ -3,6 +3,9 @@
   "template": "ErekirUnitType",
   "research": {
     "parent": "radiative",
+    "objectives": [
+      "soletux-module"
+    ],
     "requirements": [
       "volcanite/700",
       "primal-red/400",

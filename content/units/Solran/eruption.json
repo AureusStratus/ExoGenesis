@@ -5,6 +5,9 @@
   "squareShape": true,
   "research": {
     "parent": "lava",
+    "objectives": [
+      "soletux-module"
+    ],
     "requirements": [
       "volcanite/700",
       "primal-red/400",
@@ -23,6 +26,7 @@
       "height": 210
     }
   ],
+  "crushDamage": 3,
   "singleTarget": false,
   "omniMovement": false,
   "outlineColor": "252525FF",
@@ -33,6 +37,7 @@
   "flying": false,
   "targetAir": true,
   "rotateSpeed": 1,
+  "rotateMoveFirst": true,
   "immunities": [
     "burning",
     "melting",
@@ -55,6 +60,7 @@
       "smoothReloadSpeed": 0.08,
       "shootWarmupSpeed": 0.02,
       "recoil": 2,
+      "heatColor": "#DEDFFFFF",
       "parts": [
         {
           "type": "RegionPart",
@@ -70,6 +76,7 @@
         {
           "type": "RegionPart",
           "suffix": "-side1",
+          "heatColor": "FF8D3BFF",
           "mirror": true,
           "moveY": 5.5,
           "moves": [
@@ -85,6 +92,7 @@
         {
           "type": "RegionPart",
           "suffix": "-side",
+          "heatColor": "E03600FF",
           "mirror": true,
           "moveY": -4.5,
           "moveX": 3.5,
@@ -119,7 +127,16 @@
               "rot": -9
             }
           ],
-          "progress": "warmup"
+          "progress": "warmup",
+          "heatProgress": {
+            "blending": "additive",
+            "type": "warmup",
+            "other": {
+              "type": "warmup",
+              "op": "min",
+              "other": "heat"
+            }
+          }
         },
         {
           "type": "RegionPart",
@@ -142,7 +159,16 @@
               "rot": -9
             }
           ],
-          "progress": "warmup"
+          "progress": "warmup",
+          "heatProgress": {
+            "blending": "additive",
+            "type": "warmup",
+            "other": {
+              "type": "warmup",
+              "op": "min",
+              "other": "heat"
+            }
+          }
         },
         {
           "type": "RegionPart",
@@ -165,7 +191,16 @@
               "rot": -9
             }
           ],
-          "progress": "warmup"
+          "progress": "warmup",
+          "heatProgress": {
+            "blending": "additive",
+            "type": "warmup",
+            "other": {
+              "type": "warmup",
+              "op": "min",
+              "other": "heat"
+            }
+          }
         }
       ],
       "shootSound": "largeCannon",
@@ -300,7 +335,7 @@
             }
           ]
         },
-        "trailLength": 8,
+        "trailLength": 16,
         "trailWidth": 5,
         "trailColor": "ff7048",
         "backColor": "ff7048",

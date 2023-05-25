@@ -2,7 +2,7 @@
   "type": "PowerNode",
   "name": "Aqua Node",
   "size": 1,
-  "health": 50,
+  "health": 40,
   "laserRange": 6,
   "maxNodes": 10,
   "hasPower": true,

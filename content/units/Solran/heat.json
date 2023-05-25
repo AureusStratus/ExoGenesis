@@ -35,15 +35,17 @@
     {
       "name": "heat-weapon",
       "mirror": false,
+      "top": true,
       "x": 0,
       "y": 0,
+      "layerOffset": 1,
       "rotate": true,
-      "inaccuracy": 4,
+      "inaccuracy": 5,
       "rotateSpeed": 5,
       "cooldownTime": 30,
       "shootY": 8,
       "reload": 10,
-      "recoil": 1.5,
+      "recoil": 0.2,
       "parts": [
         {
           "type": "RegionPart",
@@ -55,14 +57,20 @@
           "colorTo": "ff2302",
           "outline": false,
           "progress": "warmup"
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-barrel",
+          "under": true,
+          "moves": [
+            {
+              "type": "PartMove",
+              "progress": "recoil",
+              "y": -1.5
+            }
+          ]
         }
       ],
-      "shoot": {
-        "type": "ShootAlternate",
-        "barrels": 3,
-        "spread": 1,
-        "shots": 3
-      },
       "shootSound": "shoot",
       "bullet": {
         "type": "basicBulletType",
@@ -71,7 +79,8 @@
         "hitEffect": "hitBulletSmall",
         "despawnHit": true,
         "lifetime": 22.85714286,
-        "damage": 5,
+        "damage": 15,
+        "pierceArmor": true,
         "speed": 7,
         "trailLength": 8,
         "trailWidth": 1.5,
@@ -84,8 +93,3 @@
     }
   ]
 }
- 
-
-
-
-

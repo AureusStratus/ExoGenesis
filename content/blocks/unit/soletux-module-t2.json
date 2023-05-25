@@ -9,7 +9,6 @@
     "power": 5
   },
   "research": "soletux-module",
-  "researchCostMultiplier": 4,
   "requirements": [
     "primal-red/1200",
     "silicon/1000",

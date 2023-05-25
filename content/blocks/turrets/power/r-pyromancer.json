@@ -1,5 +1,7 @@
 {
   "type": "PowerTurret",
+  "health": 8000,
+  "armor": 15,
   "recoil": 0,
   "shootCone": 360,
   "rotateSpeed": 0,
