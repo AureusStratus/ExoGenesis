@@ -1,6 +1,6 @@
 # Exogenesis
 
-My discord Aureus#6109
+My discord AureusAltirius#6109
 
 Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
 
