@@ -3,7 +3,7 @@
 "template": "ErekirUnitType",
 "boostMultiplier": 3,
 "fogRadius": 30,
-"hovering": false,
+"hovering": true,
 "mineSpeed": 7,
 "buildSpeed": 1.7,
 "mineTier": 4,
