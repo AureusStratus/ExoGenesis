@@ -1,10 +1,10 @@
 {
-    "cost": 1,
-    "color": "403F3FFF",
-    "research": {
+  "cost": 1,
+  "color": "403F3FFF",
+  "research": {
     "parent": "graphite",
     "requirements": [
-    "graphite/200"
-  ]
+      "graphite/200"
+    ]
   }
 }

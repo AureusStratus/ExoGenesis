@@ -1,12 +1,12 @@
 {
-    "cost": 2,
-     "hardness": 4,
-    "localizedName": "Stellar Steel",
-    "color": "66B1FFFF",
-    "research": {
+  "cost": 2,
+  "hardness": 4,
+  "localizedName": "Stellar Steel",
+  "color": "66B1FFFF",
+  "research": {
     "parent": "astrolite",
     "requirements": [
-    "astrolite/200"
-  ]
+      "astrolite/200"
+    ]
   }
 }

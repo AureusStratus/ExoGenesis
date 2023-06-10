@@ -1,0 +1,16 @@
+{
+  "type": "BeamNode",
+  "name": "Hydro-Beam Tower",
+  "size": 3,
+  "health": 810,
+  "range": 23,
+  "placeableLiquid": "true",
+  "category": "power",
+  "requirements": [
+    "silicon/10",
+    "beryllium/30",
+    "oxide/10",
+    "tungsten/18"
+  ],
+  "research": "hydro-beam-node"
+}

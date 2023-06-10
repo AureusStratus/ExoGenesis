@@ -1,23 +1,23 @@
-{	
-    "type": "GenericCrafter",
-		"drawer": {
-   "type": "DrawMulti",
-        "drawers": [
-       {
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
         "type": "DrawDefault"
-        },
-        {
-	"type": "DrawFlame",
-	"flameColor": "73FFAEFF"
-}
-]
-	},
-	"size": 2,
-	 "researchCostMultiplier": 0.1,
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 10,
-	"craftEffect": {
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "73FFAEFF"
+      }
+    ]
+  },
+  "size": 2,
+  "researchCostMultiplier": 0.1,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
     "length": 20,
@@ -29,23 +29,23 @@
     "sizeTo": 2,
     "colorTo": "73FFAEFF",
     "colorFrom": "73FFAEFF"
-    },
-	"craftTime": 40,
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-               "lead/1",
-               "copper/2"
-			]
-		}
-	},
-	"requirements": [
-        "copper/90",
-        "lead/120"
-	],
-	"category": "crafting",
-	"research": "team-quantra",
-	"outputItem": "valvanite/2"
+  },
+  "craftTime": 40,
+  "updateEffect": "none",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        "lead/1",
+        "copper/2"
+      ]
+    }
+  },
+  "requirements": [
+    "copper/90",
+    "lead/120"
+  ],
+  "category": "crafting",
+  "research": "team-quantra",
+  "outputItem": "valvanite/2"
 }

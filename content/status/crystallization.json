@@ -1,16 +1,21 @@
 {
-        "name": "crystallization",
-        "speedMultiplier": 0.80,
-        "reloadMultiplier": 0.80,
-        "effectChance": 1,
-        "damage": 8,
-        "transitionDamage": 200,
-        "opposites": [ "corroded"],
-        "affinities": [ "freezing", "blasted"],
-        "effect": {
-        "type": "multiEffect",
-        "effects": [
-        {
+  "name": "crystallization",
+  "speedMultiplier": 0.80,
+  "reloadMultiplier": 0.80,
+  "effectChance": 1,
+  "damage": 8,
+  "transitionDamage": 200,
+  "opposites": [
+    "corroded"
+  ],
+  "affinities": [
+    "freezing",
+    "blasted"
+  ],
+  "effect": {
+    "type": "multiEffect",
+    "effects": [
+      {
         "type": "WaveEffect",
         "lifetime": 35,
         "sizeFrom": 0,
@@ -20,8 +25,8 @@
         "strokeTo": 0,
         "colorFrom": "73FFAEFF",
         "colorTo": "57D993FF"
-        },
-        {
+      },
+      {
         "type": "ParticleEffect",
         "particles": 1,
         "region": "exogenesis-shape2",
@@ -32,7 +37,7 @@
         "sizeTo": 6,
         "colorFrom": "73FFAEFF",
         "colorTo": "73FFAEFF"
-        }
-        ]
-        }
-       }
+      }
+    ]
+  }
+}

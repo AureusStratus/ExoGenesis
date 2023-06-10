@@ -1,12 +1,12 @@
 {
-    "hardness": 8,
-    "cost": 7,
-    "charge": 0.9,
-    "color": "FFF861FF",
-    "research": {
+  "hardness": 8,
+  "cost": 7,
+  "charge": 0.9,
+  "color": "FFF861FF",
+  "research": {
     "parent": "oltuxium",
     "requirements": [
-    "oltuxium/200"
-  ]
+      "oltuxium/200"
+    ]
   }
 }

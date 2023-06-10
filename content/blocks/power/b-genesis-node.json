@@ -8,7 +8,7 @@
   "laserColor2": "74C2E8FF",
   "category": "power",
   "requirements": [
-   "lead/5",
+    "lead/5",
     "astrolite/1"
   ],
   "research": "genesis-central"

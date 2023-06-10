@@ -8,8 +8,8 @@
   "laserColor2": "74C2E8FF",
   "category": "power",
   "requirements": [
-   "lead/13",
-   "silicon/3",
+    "lead/13",
+    "silicon/3",
     "astrolite/5"
   ],
   "research": "b-genesis-node"

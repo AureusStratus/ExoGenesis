@@ -1,6 +1,6 @@
 {
-    "name": "system-crash",
-    "effect": {
+  "name": "system-crash",
+  "effect": {
     "type": "ParticleEffect",
     "line": true,
     "particles": 6,
@@ -11,13 +11,16 @@
     "lenFrom": 5,
     "lenTo": 0,
     "colorFrom": "f3e979",
-    "colorTo": "D99F6BFF"   
-    },
-    "affinities": ["electrified", "shocked"],
-    "transitionDamage": 3,
-    "disarm": true,
-    "healthMultiplier": 0.9,
-    "damageMultiplier": 0.0001,
-    "buildSpeedMultiplier": 0.0001,
-    "speedMultiplier": 0.0001
+    "colorTo": "D99F6BFF"
+  },
+  "affinities": [
+    "electrified",
+    "shocked"
+  ],
+  "transitionDamage": 3,
+  "disarm": true,
+  "healthMultiplier": 0.9,
+  "damageMultiplier": 0.0001,
+  "buildSpeedMultiplier": 0.0001,
+  "speedMultiplier": 0.0001
 }

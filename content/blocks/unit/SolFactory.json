@@ -1,34 +1,35 @@
 {
-"type": "UnitFactory",
-"size": 3,
-"configurable": false,
-"fogRadius": 3,
-"category": "units"
-"consumes": {
-"power": 2
-},
-"plans": [
-{
-    "unit": "sol",
-    	"requirements": [
-        "silicon/40",
-        "volcanite/60"
-       ],
-    "time": 2400
+  "type": "UnitFactory",
+  "size": 3,
+  "configurable": true,
+  "fogRadius": 3,
+  "category": "units",
+  "consumes": {
+    "power": 2
   },
-{
-    "unit": "heat",
-    	"requirements": [
-        "silicon/40",
-        "volcanite/60"
-       ],
-    "time": 2400
-  }
-],
-"research": "team-soletux",
-"requirements": [
-	{"item": "silicon", "amount": 80},
-	{"item": "beryllium", "amount": 200},
-	{"item": "volcanite", "amount": 80}
-]
+  "plans": [
+    {
+      "unit": "sol",
+      "requirements": [
+        "silicon/60",
+        "volcanite/80"
+      ],
+      "time": 2400
+    },
+    {
+      "unit": "heat",
+      "requirements": [
+        "silicon/60",
+        "volcanite/60",
+        "graphite/30"
+      ],
+      "time": 2400
+    }
+  ],
+  "research": "team-soletux",
+  "requirements": [
+    "silicon/80",
+    "beryllium/200",
+    "volcanite/80"
+  ]
 }

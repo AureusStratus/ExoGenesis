@@ -1,23 +1,23 @@
-{	
-    "size": 2,
-    "type": "GenericCrafter",
-	"drawer": {
-	"type": "DrawMulti",
-        "drawers": [
-          {
+{
+  "size": 2,
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
         "type": "DrawDefault"
-        },
-        {
+      },
+      {
         "type": "DrawFlame",
-	"flameColor": "A9D8FFFF"
-	  }
+        "flameColor": "A9D8FFFF"
+      }
     ]
-    },
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 10,
-	"craftTime": 40,
-	"craftEffect": {
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 40,
+  "craftEffect": {
     "type": "ParticleEffect",
     "line": true,
     "particles": 6,
@@ -28,21 +28,21 @@
     "lenTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
-	},
-	"updateEffect": "none",
-	"consumes": {
-		"power": 0.3,
-		"items": {
-			"items": [
-               "graphite/1"
-			]
-		}
-	},
-	"requirements": [
-        "copper/20",
-        "lead/100"
-	],
-	"category": "crafting",
-	"research": "team-genesux",
-	"outputItem": "astrolite/1"
+  },
+  "updateEffect": "none",
+  "consumes": {
+    "power": 0.3,
+    "items": {
+      "items": [
+        "graphite/1"
+      ]
+    }
+  },
+  "requirements": [
+    "copper/20",
+    "lead/100"
+  ],
+  "category": "crafting",
+  "research": "team-genesux",
+  "outputItem": "astrolite/1"
 }

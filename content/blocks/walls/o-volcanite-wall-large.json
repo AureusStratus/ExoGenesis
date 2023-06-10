@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "buildCostMultiplier": 1.5,
+  "health": 4000,
+  "armor": 15,
+  "size": 2,
+  "variants": 5,
+  "requirements": [
+    "volcanite/40",
+    "beryllium/40"
+  ],
+  "category": "defense",
+  "research": "o-volcanite-wall"
+}

@@ -1,81 +1,101 @@
 {
-	"type": "ImpactReactor",
-	 "researchCostMultiplier": 0.5,
-	"health": 1200,
-	"size": 5,
-	"lightColor": "EBFFFEFF",
-	"baseExplosiveness": 5000,
-    "explosionRadius": 200,
-    "explosionDamage": 5000,
-	"hasLiquids": true,
-	"powerProduction": 170,
-	"warmupSpeed": 0.001,
-	"itemDuration": 380,
-	"drawer": {
-        "type": "DrawMulti",
-        "drawers": [
-        {
-       "type": "DrawRegion",
-       "suffix": "-bottom"
-        },
-        {
+  "type": "ImpactReactor",
+  "researchCostMultiplier": 0.5,
+  "health": 1200,
+  "size": 5,
+  "lightColor": "EBFFFEFF",
+  "baseExplosiveness": 5000,
+  "explosionRadius": 200,
+  "explosionDamage": 5000,
+  "hasLiquids": true,
+  "powerProduction": 170,
+  "warmupSpeed": 0.001,
+  "itemDuration": 380,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
         "type": "DrawParticles",
         "color": "66B1FFFF",
-    "alpha": 0.4,
-    "blending": "additive",
-    "particleSize": 5,
-    "reverse": true,
-    "particleRad": 12,
-    "particles": 36,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 60
-    },
-    {
-    "type": "DrawParticles",
-    "color": "66B1FFFF",
-    "alpha": 0.4,
-    "reverse": true,
-    "blending": "additive",
-    "particleSize": 7,
-    "particleRad": 12,
-    "particles": 36,
-    "fadeMargin": 1,
-    "rotateScl": 7,
-    "particleLife": 80
-    },
-    {
-    "type": "DrawPlasma",
-    "suffix": "-plasma-",
-	"plasma1": "5a58c4",
-	"plasma2": "7382f0"
-	 },
-    {
-    "type": "DrawDefault"
-    },
-    {
-    "type": "DrawGlowRegion",
-    "suffix": "-glow",
-    "color": "66B1FF90"
-    }
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 5,
+        "reverse": true,
+        "particleRad": 12,
+        "particles": 36,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 60
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+        "alpha": 0.4,
+        "reverse": true,
+        "blending": "additive",
+        "particleSize": 7,
+        "particleRad": 12,
+        "particles": 36,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 80
+      },
+      {
+        "type": "DrawPlasma",
+        "suffix": "-plasma-",
+        "plasma1": "5a58c4",
+        "plasma2": "7382f0"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "66B1FF90"
+      }
     ]
+  },
+  "consumes": {
+    "power": 80.0,
+    "liquids": [
+      "hydrogen/3"
+    ]
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 1000
     },
-	"consumes": {
-		"power": 80.0,
-		"liquids": ["hydrogen/3"]
-	},
-	"requirements": [
-		{ "item": "lead", "amount": 1000 },
-		{ "item": "osmium", "amount": 700 },
-		{ "item": "terrilium", "amount": 300 },
-		{ "item": "silicon", "amount": 470 },
-		{ "item": "stellar-steel", "amount": 450 },
-		{ "item": "omega-blue", "amount": 600 }
-	],
-	"category": "power",
-    "loopSound": "pulse",
-    "loopSoundVolume": 1.0,
-	"research": "neutron-reactor",
-	"ambientSound": "hum",
-	"ambientSoundVolume": 0.85
+    {
+      "item": "osmium",
+      "amount": 700
+    },
+    {
+      "item": "terrilium",
+      "amount": 300
+    },
+    {
+      "item": "silicon",
+      "amount": 470
+    },
+    {
+      "item": "stellar-steel",
+      "amount": 450
+    },
+    {
+      "item": "omega-blue",
+      "amount": 600
+    }
+  ],
+  "category": "power",
+  "loopSound": "pulse",
+  "loopSoundVolume": 1.0,
+  "research": "neutron-reactor",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.85
 }

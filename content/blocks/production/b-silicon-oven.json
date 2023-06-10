@@ -5,57 +5,57 @@
   "hasItems": true,
   "craftTime": 95,
   "craftEffect": {
-   "type": "multiEffect",
+    "type": "multiEffect",
     "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 40,
-    "sizeFrom": 0,
-    "sizeTo": 13,
-    "strokeFrom": 3.5,
-    "strokeTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 15,
-    "sizeTo": 0,
-    "length": 0,
-    "lightColor": "73FFAEFF",
-    "lifetime": 30,
-    "layer": 109,
-    "region": "exogenesis-star",
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "length": 0,
-    "lightColor": "73FFAEFF",
-    "lifetime": 30,
-    "layer": 109,
-    "region": "exogenesis-star",
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-    }
-  ]
+      {
+        "type": "WaveEffect",
+        "lifetime": 40,
+        "sizeFrom": 0,
+        "sizeTo": 13,
+        "strokeFrom": 3.5,
+        "strokeTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 15,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "length": 0,
+        "lightColor": "73FFAEFF",
+        "lifetime": 30,
+        "layer": 109,
+        "region": "exogenesis-star",
+        "colorFrom": "FFFFFFF",
+        "colorTo": "FFFFFFF"
+      }
+    ]
   },
- "drawer": {
-   "type": "DrawMulti",
-        "drawers": [
-        {
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
         "type": "DrawDefault"
-        },
-        {
-  "type": "DrawFlame",
-  "flameColor": "A9D8FFFF"
-     }
-  ]
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "A9D8FFFF"
+      }
+    ]
   },
   "hasPower": true,
   "hasLiquids": false,

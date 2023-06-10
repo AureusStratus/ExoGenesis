@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "buildCostMultiplier": 1.5,
+  "health": 1000,
+  "armor": 15,
+  "size": 1,
+  "variants": 5,
+  "requirements": [
+    "volcanite/10",
+    "beryllium/10"
+  ],
+  "category": "defense",
+  "research": "team-soletux"
+}

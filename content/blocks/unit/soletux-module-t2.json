@@ -1,0 +1,19 @@
+{
+  "localizedName": "Soletux T2 upgrade module",
+  "description": "Increases assembler tier when placed next to a construction boundary. Requires power. Can be used as a payload input.",
+  "type": "UnitAssemblerModule",
+  "category": "units",
+  "size": 5,
+  "tier": 2,
+  "consumes": {
+    "power": 5
+  },
+  "research": "soletux-module",
+  "requirements": [
+    "primal-red/1200",
+    "silicon/1000",
+    "thorium/750",
+    "oxide/400",
+    "surge-alloy/250"
+  ]
+}

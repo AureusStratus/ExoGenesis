@@ -1,84 +1,84 @@
 {
-    "localizedName": "Fusion",
-    "description": "Fires a super heated beam of hydrogen plasma to incinrate targets. requires heat and hyrdogen",
-    "type": "ContinuousLiquidTurret",
-    "size": 5,
-    "health": 1900,
-    "range": 200,
-    "smoothReloadSpeed": 0.15,
-    "shootWarmupSpeed": 0.05,
-    "minWarmup": 0.8,
-    "liquidConsumed": 0.6,
-    "consumes" : {
+  "localizedName": "Fusion",
+  "description": "Fires a super heated beam of hydrogen plasma to incinrate targets. requires heat and hyrdogen",
+  "type": "ContinuousLiquidTurret",
+  "size": 5,
+  "health": 1900,
+  "range": 200,
+  "smoothReloadSpeed": 0.15,
+  "shootWarmupSpeed": 0.05,
+  "minWarmup": 0.8,
+  "liquidConsumed": 0.6,
+  "consumes": {
     "power": 28
-    },
-    "outlineColor": "36363CFF",
-    "update": true,
-     "recoilTime": 100,
-    "cooldownTime": 240,
-    "shootY": 3,
-    "hasPower": true,
-    "shootEffect": {
-     "type": "multiEffect",
+  },
+  "outlineColor": "36363CFF",
+  "update": true,
+  "recoilTime": 100,
+  "cooldownTime": 240,
+  "shootY": 3,
+  "hasPower": true,
+  "shootEffect": {
+    "type": "multiEffect",
     "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 12,
-    "length": 100,
-    "lifetime": 55,
-    "line": true,
-    "cone": 40,
-    "lenFrom": 8,
-    "lenTo": 2,
-    "strokeFrom": 3,
-    "strokeTo": 0.5,
-    "colorFrom": "8ca9e8",
-    "colorTo": "6a72f6"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 21,
-    "length": 100,
-    "lifetime": 35,
-    "line": true,
-    "cone": 70,
-    "lenFrom": 8,
-    "lenTo": 5,
-    "strokeFrom": 3,
-    "strokeTo": 0.5,
-    "colorFrom": "8ca9e8",
-    "colorTo": "6a72f6"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 24,
-    "length": 140,
-    "lifetime": 25,
-    "line": true,
-    "cone": 40,
-    "lenFrom": 10,
-    "lenTo": 10,
-    "strokeFrom": 3,
-    "strokeTo": 0.5,
-    "colorFrom": "8ca9e8",
-    "colorTo": "6a72f6"
-    }
+      {
+        "type": "ParticleEffect",
+        "particles": 12,
+        "length": 100,
+        "lifetime": 55,
+        "line": true,
+        "cone": 40,
+        "lenFrom": 8,
+        "lenTo": 2,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 21,
+        "length": 100,
+        "lifetime": 35,
+        "line": true,
+        "cone": 70,
+        "lenFrom": 8,
+        "lenTo": 5,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 24,
+        "length": 140,
+        "lifetime": 25,
+        "line": true,
+        "cone": 40,
+        "lenFrom": 10,
+        "lenTo": 10,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+      }
     ]
-    },
-    "loopSound": "torch",
-    "loopSoundVolume": 2.5,
-    "drawer": {
+  },
+  "loopSound": "torch",
+  "loopSoundVolume": 2.5,
+  "drawer": {
     "type": "drawTurret",
     "basePrefix": "reinforced-",
-      "parts": [
-        {
+    "parts": [
+      {
         "type": "HaloPart",
         "y": -11,
         "x": -8,
-         "haloRotation": -54.3,
+        "haloRotation": -54.3,
         "shapeRotation": 183,
         "radius": 3.7,
-         "layer": 110,
+        "layer": 110,
         "tri": true,
         "colorTo": "8ca9e8",
         "color": "8ca9e800",
@@ -87,165 +87,165 @@
         "haloRadiusTo": 0,
         "stroke": 0,
         "strokeTo": 2,
-         "shapes": 1,
+        "shapes": 1,
         "triLengthTo": 18,
-         "triLength": 0
-         },
-          {
-         "type": "FlarePart",
-          "color2": "FFFFFF",
-          "color1": "8ca9e8",
-          "y": -1.5,
-          "layer": 110,
-          "progress": "warmup",
-          "stroke": 2,
-          "radius": 2,
-          "radiusTo": 8.5
-         },
-         {
+        "triLength": 0
+      },
+      {
+        "type": "FlarePart",
+        "color2": "FFFFFF",
+        "color1": "8ca9e8",
+        "y": -1.5,
+        "layer": 110,
+        "progress": "warmup",
+        "stroke": 2,
+        "radius": 2,
+        "radiusTo": 8.5
+      },
+      {
         "type": "HaloPart",
         "y": -11,
         "x": 8,
         "haloRotation": 54.3,
         "shapeRotation": 183,
         "radius": 3.7,
-         "layer": 110,
+        "layer": 110,
         "tri": true,
-       "colorTo": "8ca9e8",
-         "color": "8ca9e800",
+        "colorTo": "8ca9e8",
+        "color": "8ca9e800",
         "haloRotateSpeed": 0,
         "haloRadius": 0,
         "haloRadiusTo": 0,
         "stroke": 0,
         "strokeTo": 2,
-         "shapes": 1,
+        "shapes": 1,
         "triLengthTo": 18,
-         "triLength": 0
-         },
-         {
-         "type": "RegionPart",
-         "suffix": "-barrel",
-         "moveY": 6,
-          "progress": {
+        "triLength": 0
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "moveY": 6,
+        "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.45
-          },
-         "moveRot": -6.5,
-         "moves": [
-         {
-         "type": "PartMove",
-          "progress": {
-          "type": "warmup",
-          "op": "delay",
-          "amount": 0.50
-          }
-         "x": 2.7
-         }
-         ],
-         "mirror": true
-         },
+        },
+        "moveRot": -6.5,
+        "moves": [
           {
-         "type": "RegionPart",
-         "layerOffset": 60,
-         "colorTo": "8ca9e8",
-         "color": "8ca9e800",
-          "progress": {
+            "type": "PartMove",
+            "progress": {
+              "type": "warmup",
+              "op": "delay",
+              "amount": 0.50
+            },
+            "x": 2.7
+          }
+        ],
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "layerOffset": 60,
+        "colorTo": "8ca9e8",
+        "color": "8ca9e800",
+        "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.25
-          },
-         "outline": false,
-         "suffix": "-exhaust-heat"
         },
-          {
-         "type": "RegionPart",
-         "layerOffset": 60,
-         "colorTo": "8ca9e8",
-         "color": "8ca9e800",
-           "progress": {
+        "outline": false,
+        "suffix": "-exhaust-heat"
+      },
+      {
+        "type": "RegionPart",
+        "layerOffset": 60,
+        "colorTo": "8ca9e8",
+        "color": "8ca9e800",
+        "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.25
-          },
-         "outline": false,
-         "suffix": "-exhaust-glow"
         },
-         {
-         "type": "RegionPart",
-         "mirror": true,
+        "outline": false,
+        "suffix": "-exhaust-glow"
+      },
+      {
+        "type": "RegionPart",
+        "mirror": true,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.45
-          }
-          "layerOffset": -0.003,
-          "outlineLayerOffset": 0.001,
-         "moveX": 1.7,
-         "moveY": -1.7,
-         "suffix": "-large-plate",
-         },
-         {
-         "type": "RegionPart",
-         "mirror": true,
+        },
+        "layerOffset": -0.003,
+        "outlineLayerOffset": 0.001,
+        "moveX": 1.7,
+        "moveY": -1.7,
+        "suffix": "-large-plate"
+      },
+      {
+        "type": "RegionPart",
+        "mirror": true,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.45
-          },
-          "layerOffset": -0.005,
-          "outlineLayerOffset": 0.004,
-          "moveX": 10.5,
-           "moveY": -2.5,
-           "moveRot": -25.5,
-         "suffix": "-side"
-         },
-          {
-         "type": "RegionPart",
-         "mirror": true,
+        },
+        "layerOffset": -0.005,
+        "outlineLayerOffset": 0.004,
+        "moveX": 10.5,
+        "moveY": -2.5,
+        "moveRot": -25.5,
+        "suffix": "-side"
+      },
+      {
+        "type": "RegionPart",
+        "mirror": true,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0.45
-          },
-          "layerOffset": -0.005,
-          "outlineLayerOffset": 0.004,
-          "moveX": 12.5,
-           "moveY": -5.5,
-           "moveRot": -54.5,
-         "suffix": "-side"
-           },
-         {
-         "type": "shapePart",
-         "y": -20,
+        },
+        "layerOffset": -0.005,
+        "outlineLayerOffset": 0.004,
+        "moveX": 12.5,
+        "moveY": -5.5,
+        "moveRot": -54.5,
+        "suffix": "-side"
+      },
+      {
+        "type": "shapePart",
+        "y": -20,
         "hollow": true,
         "circle": true,
         "layer": 110,
-         "color": "8ca9e8",
-         "stroke": 0,
+        "color": "8ca9e8",
+        "stroke": 0,
         "strokeTo": 1.9,
         "radiusTo": 9,
-         "radius": 9
-       },
-         {
-         "type": "shapePart",
-         "y": -20,
+        "radius": 9
+      },
+      {
+        "type": "shapePart",
+        "y": -20,
         "hollow": true,
         "circle": true,
         "layer": 110,
-         "color": "8ca9e8",
-         "stroke": 0,
+        "color": "8ca9e8",
+        "stroke": 0,
         "strokeTo": 1.1,
         "radiusTo": 5,
-         "radius": 5
-     },
-        {
+        "radius": 5
+      },
+      {
         "type": "HaloPart",
         "y": -20,
         "radius": 4.6,
@@ -257,54 +257,59 @@
         "haloRadiusTo": 9,
         "stroke": 0,
         "strokeTo": 2,
-         "shapes": 4,
+        "shapes": 4,
         "triLengthTo": 4,
-         "triLength": 0
-         }
-       ]
-     },
-    "shake": 7,
-    "shootSound": "shockBlast",
-    "recoil": 1,
-    "rotateSpeed": 2,
-	
-    "ammoTypes": {
+        "triLength": 0
+      }
+    ]
+  },
+  "shake": 7,
+  "shootSound": "shockBlast",
+  "recoil": 1,
+  "rotateSpeed": 2,
+  "ammoTypes": {
     "hydrogen": {
-    "type": "ContinuousFlameBulletType",
-    "colors": ["5040d290", "6a72f6aa", "7ba2f6", "a9d4f6", "f3faff"],
-    "pierceCap": 5,
-    "damage": 230,
-    "status": "exogenesis-hydrogen-flash",
-    "statusDuration": 240,
-    "buildingDamageMultiplier": 0.24
-    "width": 10.5,
-    "drawFlare": false,
-    "lifetime": 60,
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 7,
-    "lifetime": 15,
-    "length": 65,
-    "cone": -360,
-    "strokeFrom": 2.5,
-    "strokeTo": 0,
-    "lenFrom": 8,
-    "lenTo": 0,
-    "colorFrom": "8ca9e8",
-    "colorTo": "6a8ef6"
-    },
-    "length": 200,
-    "drawSize": 350
-       }
-	},
-	"requirements": [
-        "thorium/600",
-        "tungsten/450",
-        "phase-fabric/300",
-        "silicon/850",
-        "surge-alloy/400"
-	],
-	"category": "turret",
-	"research": "sublimate"
+      "type": "ContinuousFlameBulletType",
+      "colors": [
+        "5040d290",
+        "6a72f6aa",
+        "7ba2f6",
+        "a9d4f6",
+        "f3faff"
+      ],
+      "pierceCap": 5,
+      "damage": 230,
+      "status": "exogenesis-hydrogen-flash",
+      "statusDuration": 240,
+      "buildingDamageMultiplier": 0.24,
+      "width": 10.5,
+      "drawFlare": false,
+      "lifetime": 60,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 15,
+        "length": 65,
+        "cone": -360,
+        "strokeFrom": 2.5,
+        "strokeTo": 0,
+        "lenFrom": 8,
+        "lenTo": 0,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a8ef6"
+      },
+      "length": 200,
+      "drawSize": 350
+    }
+  },
+  "requirements": [
+    "thorium/600",
+    "tungsten/450",
+    "phase-fabric/300",
+    "silicon/850",
+    "surge-alloy/400"
+  ],
+  "category": "turret",
+  "research": "sublimate"
 }
