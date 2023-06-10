@@ -13,7 +13,6 @@
   "engineColor": "FF8D54FF",
   "engineSize": 4,
   "isCounted": false,
-  "itemCapacity": 30,
   "targetPriority": -1,
   "mineWalls": true,
   "mineHardnessScaling": false,
