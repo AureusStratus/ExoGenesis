@@ -46,7 +46,7 @@
       "shootSound": "shoot",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "missile-large",
+        "sprite" : "missile-large",
         "shootEffect": "shootBig2",
         "hitEffect": "hitBulletSmall",
         "pierceArmor": true,
@@ -62,7 +62,7 @@
         "height": 9,
         "trailColor": "ff7048",
         "backColor": "ff7048",
-        "frontColor": "ffcea0"
+        "frontColor": "ffcea0",
       }
     }
   ]

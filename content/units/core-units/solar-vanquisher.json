@@ -13,6 +13,7 @@
   "engineColor": "FF8D54FF",
   "engineSize": 4,
   "isCounted": false,
+  "itemCapacity": 30,
   "targetPriority": -1,
   "mineWalls": true,
   "mineHardnessScaling": false,
@@ -49,12 +50,7 @@
       "continuous": true,
       "bullet": {
         "type": "ContinuousFlameBulletType",
-        "colors": [
-          "e71507AA",
-          "ff8517ff",
-          "ffda5bff",
-          "fffeebff"
-        ],
+        "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
         "flareWidth": 5.5,
         "flareLength": 28,
         "flareColor": "ff8517ff",

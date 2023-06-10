@@ -59,7 +59,7 @@
               "lenFrom": 5,
               "lenTo": 5,
               "colorFrom": "ffcea0",
-              "colorTo": "ff7048"
+              "colorTo": "ff7048",
             },
             {
               "type": "ParticleEffect",
@@ -92,7 +92,7 @@
               "lenFrom": 5,
               "lenTo": 5,
               "colorFrom": "ffcea0",
-              "colorTo": "ff7048"
+              "colorTo": "ff7048",
             },
             {
               "type": "ParticleEffect",
@@ -111,11 +111,9 @@
         "pierce": true,
         "pierceCap": 1,
         "pierceArmor": true,
-        "buildingDamageMultiplier": 0.25,
+        "collidesTiles": false,
         "lifetime": 20,
         "damage": 20,
-        "splashDamage": 20,
-        "splashDamageRadius": 24,
         "speed": 9,
         "trailLength": 8,
         "trailWidth": 3,
