@@ -46,7 +46,7 @@
       "shootSound": "shoot",
       "bullet": {
         "type": "basicBulletType",
-        "sprite" : "missile-large",
+        "sprite": "missile-large",
         "shootEffect": "shootBig2",
         "hitEffect": "hitBulletSmall",
         "pierceArmor": true,

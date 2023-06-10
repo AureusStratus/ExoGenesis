@@ -8,7 +8,7 @@
   "range": 1000,
   "shootLength": 8,
   "consumes": {
-      "power": 70,
+    "power": 70,
     "coolant": {
       "amount": 0.2
     }

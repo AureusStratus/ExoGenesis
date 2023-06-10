@@ -10,7 +10,10 @@
   },
   "research": {
     "parent": "soletux-rebuilder",
-    "objectives": ["soletux-mech-reassembly", "soletux-tank-reassembly"]
+    "objectives": [
+      "soletux-mech-reassembly",
+      "soletux-tank-reassembly"
+    ]
   },
   "requirements": [
     "primal-red/600",

@@ -49,7 +49,12 @@
       "continuous": true,
       "bullet": {
         "type": "ContinuousFlameBulletType",
-        "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+        "colors": [
+          "e71507AA",
+          "ff8517ff",
+          "ffda5bff",
+          "fffeebff"
+        ],
         "flareWidth": 5.5,
         "flareLength": 28,
         "flareColor": "ff8517ff",
