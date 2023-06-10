@@ -26,7 +26,7 @@
       "height": 210
     }
   ],
-  "crushDamage": 3,
+  "crushDamage": 5,
   "singleTarget": false,
   "omniMovement": false,
   "outlineColor": "252525FF",

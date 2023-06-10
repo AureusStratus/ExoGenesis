@@ -1,7 +1,6 @@
 {
   "type": "mech",
   "fogRadius": 35,
-  "template": "ErekirUnitType",
   "boostMultiplier": 1.8,
   "canBoost": true,
   "mineSpeed": 8,
@@ -14,6 +13,7 @@
   "engineColor": "FF8D54FF",
   "engineSize": 4,
   "isCounted": false,
+  "itemCapacity": 30,
   "targetPriority": -1,
   "mineWalls": true,
   "mineHardnessScaling": false,
@@ -21,7 +21,7 @@
   "armor": 6,
   "hitSize": 33,
   "mechFrontSway": 0.65,
-  "speed": 0.76,
+  "speed": 1.66,
   "flying": false,
   "health": 1200,
   "immunities": [
@@ -50,19 +50,13 @@
       "continuous": true,
       "bullet": {
         "type": "ContinuousFlameBulletType",
-        "colors": [
-          "e71507AA",
-          "ff8517ff",
-          "ffda5bff",
-          "fffeebff"
-        ],
+        "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
         "flareWidth": 5.5,
         "flareLength": 28,
         "flareColor": "ff8517ff",
         "damage": 30,
         "collidesTiles": false,
         "pierceArmor": true,
-        "pierceCap": 3,
         "width": 6,
         "hitEffect": {
           "type": "ParticleEffect",
