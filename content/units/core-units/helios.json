@@ -27,26 +27,6 @@
 ],
 "weapons": [
   {
-  "name": "helios-blaster",
-   "shootCone": 15,
-    "mirror": true,
-    "alternate": true,
-    "top": false, 
-    "outlineLayerOffset": 0.001,
-    "layerOffset": -0.001,
-    "x": -11,
-    "y": 0.4,
-    "shootY": 6,
-    "shots": 2,
-    "reload": 38,
-    "recoil": 2,
-    "shootSound": "shootBig",
-    "bullet": { 
-   "type": "basicBulletType",
-    "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
       "name": "helios-blaster",
       "shootCone": 15,
       "mirror": true,
