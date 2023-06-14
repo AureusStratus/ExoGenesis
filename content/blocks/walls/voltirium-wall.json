@@ -1,0 +1,31 @@
+{
+"localizedName": "Voltirium wall",
+"description": "An advnaced and well armored wall. discharges lightning apon being hit.",
+"type": "Wall",
+"researchCostMultiplier": 0.1,
+"lightningSound": "spark",
+"lightningChance": 0.50,
+"lightningColor": "5f71ee",
+"lightningDamage": 40,
+"lightningLength": 13,
+"health": 1480,
+"armor": 40,
+"flashHit": true,
+"envEnabled": -1
+"envDisabled": 4
+"flashColor": "5f71ee",
+"absorbLasers": true,
+"size": 1,
+"requirements": [
+"voltirium-alloy/6",
+"osmium/2",
+],
+"category": "defense",
+"research": {
+"parent": "reinforced-surge-wall-large",
+"objectives": [
+"reinforced-surge-wall-large",
+"carbide-wall"
+]
+}
+}
