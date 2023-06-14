@@ -9,7 +9,7 @@
     {
       "unit": "drone-m",
       "requirements": [
-        "silicon/60"
+        "silicon/80"
       ],
       "time": 300
     },
