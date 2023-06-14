@@ -1,0 +1,11 @@
+{
+"difficulty": 10,
+"planet": "erekir",
+"sector": 62,
+"research": {
+"parent": "karst",
+"objectives": [
+"smite"
+]
+}
+}

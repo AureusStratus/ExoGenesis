@@ -1,11 +1,18 @@
 {
-  "localizedName": "Terraformed",
-  "description": "A terrformed zone. The Cruz seem to avoid this place.",
-  "sector": 214,
-  "captureWave": 56,
-  "difficulty": 8,
-  "research": {
-    "parent": "extractionOutpost"
-  }
+"localizedName": "Terraformed",
+"description": "A terrformed zone. The Crux seem to avoid this place.. strange."
+"sector": 214,
+"captureWave": 56,
+"difficulty": 8,
+"planet": "serpulo",
+"allowLaunchLoadout": true,
+"allowLaunchSchematics": false,
+"addStartingItems": false
+"overrideLaunchDefaults": true
+"research": {
+"parent": extractionOutpost
+"objectives": [
+"drone-m2"
+]
 }
-
+}
