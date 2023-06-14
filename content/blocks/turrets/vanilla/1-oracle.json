@@ -1,0 +1,370 @@
+{
+"localizedName": "Oracle",
+"description": "A direct upgrade to disperse. now has more ammo varity with differing uses.",
+"type": "ItemTurret",
+"size": 5,
+"squareSprite": false,
+"health": 8750,
+"range": 450,
+"consumes": {
+"coolant": {
+"amount": 0.1
+}
+},
+"outlineColor": "36363CFF"
+"cooldownTime": 90,
+"reload": 6,
+"itemCapacity": 100
+"inaccuracy": 5,
+"shootY": 3,
+"velocityRnd": 0.11,
+"shoot": {
+"type": "ShootMulti",
+"source": {
+"type": "ShootBarrel"
+"barrels": [
+10.75, 13.25, 0,
+4.5, 18.5, 0,
+-4.5, 18.5, 0
+-10.75, 13.25, 0,
+]
+},
+"dest": [
+{
+"type": "ShootPattern",
+"shots": 2
+}
+]
+},
+"drawer": {
+"type": "drawTurret",
+"basePrefix": "reinforced-",
+"parts": [
+{
+"type": "RegionPart",
+"suffix": "-barrel-1",
+"under": true,
+"recoilIndex": 3,
+"progress": "recoil"
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"cooldownTime": 80,
+"other": 0,
+"recoilIndex": 3
+},
+"moveY": -3.5
+},
+{
+"type": "RegionPart",
+"suffix": "-barrel-2",
+"under": true,
+"recoilIndex": 2,
+"progress": "recoil"
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"cooldownTime": 80,
+"other": 0,
+"recoilIndex": 2
+},
+"moveY": -3.5
+},
+{
+"type": "RegionPart",
+"suffix": "-barrel-3",
+"under": true,
+"recoilIndex": 1,
+"progress": "recoil"
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"cooldownTime": 80,
+"other": 0,
+"recoilIndex": 1
+},
+"moveY": -3.5
+},
+{
+"type": "RegionPart",
+"suffix": "-barrel-4",
+"under": true,
+"recoilIndex": 0,
+"progress": "recoil"
+"heatProgress": {
+"type": "recoil",
+"op": "blend",
+"other": "heat",
+"amount": 0.2,
+"cooldownTime": 80,
+"other": 0,
+"recoilIndex": 0
+},
+"moveY": -3.5
+},
+{
+"type": "RegionPart",
+"suffix": "-glow",
+"outline": false,
+"layerOffset": 0.001,
+"blending": "additive",
+"colorTo": "87ceebAA",
+"color": "87ceeb00",
+"mirror": false
+},
+{
+"type": "shapePart",
+"y": -25,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "87ceeb",
+"stroke": 0,
+"rotateSpeed": 1,
+"strokeTo": 0.8,
+"radiusTo": 13,
+"radius": 13
+},
+{
+"type": "shapePart",
+"y": -25,
+"hollow": true,
+"circle": false,
+"sides": 4,
+"layer": 110,
+"color": "87ceeb",
+"stroke": 0,
+"rotateSpeed": 1,
+"strokeTo": 0.8,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "shapePart",
+"y": -25,
+"hollow": true,
+"circle": false,
+"sides": 4,
+"layer": 110,
+"color": "87ceeb",
+"stroke": 0,
+"strokeTo": 2,
+"radiusTo": 5,
+"radius": 5
+},
+{
+"type": "HaloPart",
+"y": -25,
+"radius": 2.6,
+"tri": true,
+"layer": 110,
+"color": "87ceeb",
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 6,
+"triLengthTo": 7,
+"triLength": 0
+}
+{
+"type": "HaloPart",
+"y": -25,
+"radius": 2.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "87ceeb",
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 6,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -25,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "87ceeb",
+"haloRotateSpeed": 2.7,
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+}
+{
+"type": "HaloPart",
+"y": -25,
+"radius": 4.6,
+"tri": true,
+"shapeRotation": 180,
+"layer": 110,
+"color": "87ceeb",
+"haloRotateSpeed": 2.7,
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+}
+]
+},
+"shake": 2,
+"targetGround": false,
+"consumeAmmoOnce": true,
+"shootSound": "shootBig",
+"recoil": 0,
+"recoils": 4,
+"rotateSpeed": 1.2,
+
+"ammoTypes": {
+"beryllium": {
+"damage": 60,
+"buildingDamageMultiplier": 0.3,
+"reloadMultiplier": 1.5,
+"inaccuracy": 4,
+"speed": 11.5,
+"width": 11,
+"height": 24,
+"shrinkY": 0.3,
+"backSprite": "large-bomb-back",
+"sprite": "mine-bullet",
+"collidesGround": false,
+"collidesTiles": false,
+"rangeChange": 120,
+"shootEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "shootBig2"]
+},
+"smokeEffect": "shootSmokeDisperse",
+"backColor": "b1dd7e",
+"trailColor": "b1dd7e",
+"hitColor": "b1dd7e",
+"trailLength": 5,
+"trailWidth": 2.5,
+"trailChance": 0.44,
+"ammoMultiplier": 3,
+"lifetime": 47,
+"trailRotation": "true",
+"trailEffect": "disperseTrail",
+"hitEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "hitBulletColor"]
+},
+"despawnHit": true,
+},
+"tungsten": {
+"damage": 125,
+"buildingDamageMultiplier": 0.3,
+"speed": 9.5,
+"width": 18,
+"height": 24,
+"shrinkY": 0.3,
+"backSprite": "large-bomb-back",
+"sprite": "mine-bullet",
+"collidesGround": false,
+"collidesTiles": false,
+"shootEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "shootBig2"]
+},
+"smokeEffect": "shootSmokeDisperse",
+"backColor": "87ceeb",
+"trailColor": "87ceeb",
+"hitColor": "87ceeb",
+"trailLength": 5,
+"trailWidth": 2.5,
+"trailChance": 0.44,
+"ammoMultiplier": 3,
+"pierceArmor": true,
+"lifetime": 45,
+"rotationOffset": 90,
+"trailRotation": "true",
+"trailEffect": "disperseTrail",
+"hitEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "hitBulletColor"]
+},
+"despawnHit": true,
+},
+"surge-alloy": {
+"damage": 195,
+"reloadMultiplier": 0.8,
+"buildingDamageMultiplier": 0.3,
+"speed": 9.5,
+"width": 18,
+"height": 24,
+"shrinkY": 0.3,
+"backSprite": "large-bomb-back",
+"sprite": "mine-bullet",
+"collidesGround": false,
+"collidesTiles": false,
+"shootEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "shootBig2"]
+},
+"lightningDamage": 50,
+"lightningCone": 360,
+"lightningLengthRand": 6,
+"lightningLength": 3,
+"lightningColor": "f3e979",
+"backColor": "f3e979",
+"trailColor": "f3e979",
+"hitColor": "f3e979",
+"trailLength": 5,
+"trailWidth": 2.5,
+"trailChance": 0.44,
+"ammoMultiplier": 3,
+"lifetime": 45,
+"intervalBullets": 2,
+"bulletInterval": 1,
+"intervalBullet": {
+"type": "LightningBulletType",
+"lightningColor": "f3e979",
+"damage": 20,
+"collidesGround": false,
+"collidesTiles": false,
+"lightningLengthRand": 4,
+"lightningLength": 2
+},
+"rotationOffset": 90,
+"trailRotation": "true",
+"trailEffect": "disperseTrail",
+"hitEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "shootBig2"]
+},
+"despawnHit": true,
+}
+},
+"requirements": [
+"oxide/450",
+"osmium/400",
+"carbide/300",
+"silicon/550",
+"graphite/600",
+"beryllium/800"
+],
+"category": "turret",
+"research": {
+"parent": "disperse",
+"objectives": [
+"afflict"
+]
+}
+}
