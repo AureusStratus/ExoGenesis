@@ -1,0 +1,75 @@
+{
+"type": "missile",
+"template": "MissileUnitType",
+"controller": "MissileAI",
+"lowAltitude": false,
+"speed": 6,
+"homingDelay": 25,
+"rotateSpeed": 3.6,
+"lifetime": 105,
+"targetable": false,
+"physics": false,
+"flying": true,
+"hidden": true,
+"health": 200,
+"hitSize": 4,
+"engineColor": "7ba2f6",
+"outlineRadius": 0,
+"engineSize": 3,
+"engineLayer": 110,
+"drawCell": false,
+"maxRange": 15,
+"trailColor": "7ba2f6",
+"trailLength": 6,
+"parts": [
+{
+"type": "FlarePart",
+"progress": {
+"type": "life",
+"op": "curve",
+"interp": "pow3Out"
+},
+"color1": "7ba2f6",
+"stroke": 5.5,
+"radius": 0,
+"radiusTo": 45
+}
+],
+"weapons": [
+{
+"shootCone": 360,
+"shootOnDeath": true,
+"controllable": true,
+"shootSound": "none",
+"bullet": {
+"killShooter": true,
+"hitEffect": {
+"type": "multiEffect",
+"effects": [
+{
+"type": "ExplosionEffect",  
+"waveColor": "8ca9e8",
+"sparkColor": "8ca9e8",
+"smokes": 12,
+"smokeSize": 4.7,	
+"smokeSizeBase": 1.6,
+"smokeRad": 46,	
+"waveLife": 10,
+"waveStroke": 3.1,	
+"waveRad": 65,
+"waveRadBase": 2.0,
+"sparkLen": 5,
+"sparks": 12 
+}
+]
+},
+"type": "BulletType",
+"damage": 10,
+"buildingDamageMultiplier": 0.6,
+"instantDisappear": true,
+"splashDamageRadius": 58,
+"splashDamage": 140
+}
+}
+]
+}

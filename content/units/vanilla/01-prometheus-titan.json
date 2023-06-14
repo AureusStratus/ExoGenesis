@@ -1,0 +1,20 @@
+{
+"localizedName": "T1-RF Prometheus",
+"description": "An expermental super weapon developed by malis. You've gained access to the [#ffb98b]Rolling Rortress Titan[]",
+"researchCostMultiplier": 0.1,
+"research": {
+"parent": "titan-assembler",
+"requirements": [
+"surge-alloy/50",
+"carbide/50",
+"phase-fabric/50",
+"voltirium-alloy/50"
+]
+},
+"template": "MissileUnitType", 
+"drawBody": false,
+"drawCell": false,
+"type": "missile",
+"hitSize": 1,
+"health": 1
+}

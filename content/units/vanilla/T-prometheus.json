@@ -1,0 +1,525 @@
+{
+"localizedName": "T1-RF Prometheus",
+"description": "The [#ffb98b]Rolling fortress titan[]. The [#ffb98b]T2-RF Prometheus[] is a heavy duty seige unit with thick armoring and high health. main gun is large railgun capable of pirecing structures and units and is armed with four mounted cannons which fire artiliry at enemies and structures. very slow.",
+"details": "One of the first of the erkeir titans developed by [#9681fb]Malis[] in response to something being discovered on Erekir.",
+"type": "tank",
+"template": "ErekirUnitType",
+"research": {
+"parent": "01-prometheus-titan",
+"requirements": [
+]
+},
+"faceTarget": false,
+"squareShape": true,
+"treadFrames": 18,
+"treadPullOffset": 1,
+"treadRects": [
+{
+"x": 65, 
+"y": 70, 
+"width": 131, 
+"height": 180
+},
+{
+"x": 46, 
+"y": -248, 
+"width": 85, 
+"height": 63
+},
+{
+"x": 166, 
+"y": -183.5, 
+"width": 32, 
+"height": 39
+}
+],
+"omniMovement": false,
+"outlineColor": "252525FF",
+"speed": 0.28,
+"hitSize": 110,
+"health": 80000,
+"fogRadius": 80,
+"crushDamage": 1.5,
+"armor": 75,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.45,
+"immunities": [
+"burning", 
+"melting",
+"blasted"
+],
+"weapons": [
+{
+"name": "T-prometheus-cannon",
+"x": 0,
+"y": 0,
+"minWarmup": 0.70,
+"smoothReloadSpeed": 0.08,
+"shootWarmupSpeed": 0.03,
+"mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 200,
+"rotate": true,
+"layerOffset": 1,
+"rotateSpeed": 0.6,
+"shootY": 8,
+"recoil": 3,
+"parts": [
+ {
+"type": "RegionPart",
+"layer": -1,
+"colorTo": "ff0000AA",
+"color": "ff0000AA",
+"outline": false,
+"blending": "additive",
+"suffix": "-glow",
+"progress": "warmup"
+},
+{
+"type": "RegionPart",
+"suffix": "-spine1",
+"mirror": true,
+"under": true,
+"x": 9,
+"y": 54,
+"moves": [
+{
+"type": "PartMove",
+"progress": "recoil",
+"rot": 13
+}
+],
+"progress": {
+"type": "warmup",
+"op": "delay",
+"other": "reload",
+"amount": 0.1
+},
+"moveRot": 50
+},
+{
+"type": "RegionPart",
+"suffix": "-spine1",
+"mirror": true,
+"under": true,
+"x": 9,
+"y": 62,
+"moves": [
+{
+"type": "PartMove",
+"progress": "recoil",
+"rot": 16
+}
+],
+"progress": {
+"type": "warmup",
+"op": "delay",
+"other": "reload",
+"amount": 0.2
+},
+"moveRot": 68
+},
+{
+"type": "RegionPart",
+"suffix": "-spine2",
+"mirror": true,
+"under": true,
+"x": 9,
+"y": 68,
+"moves": [
+{
+"type": "PartMove",
+"progress": "recoil",
+"rot": 18
+}
+],
+"progress": {
+"type": "warmup",
+"op": "delay",
+"other": "reload",
+"amount": 0.3
+},
+"moveRot": 83
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffb98b",
+"stroke": 0,
+"strokeTo": 1.9,
+"radiusTo": 18,
+"radius": 18
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffb98b",
+"stroke": 0,
+"strokeTo": 1.1,
+"radiusTo": 7,
+"radius": 7
+},
+ {
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffb98b",
+"stroke": 0,
+"strokeTo": 0.7,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "ffb98b",
+"haloRotateSpeed": 0.7,
+"haloRadius": 18,
+"haloRadiusTo": 18,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "ffb98b",
+"haloRotateSpeed": -0.7,
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+}
+],
+"shootSound": "desolationimpact",
+"bullet": {
+"type" : "RailBulletType",
+"damage": 1500,
+"length": 530,
+"spawnBullets": [
+{
+"fragBullets": 5,
+"fragRandomSpread": 0,
+"fragSpread": 45,
+"fragBullet": {
+"damage": 200,
+"width": 22.5,
+"type": "ShrapnelBulletType",
+"lifetime": 40,
+"length": 45,
+"hitEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 6,
+"offset": 20,
+"lifetime": 30,
+"length": 65,
+"baseLength": -15,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+"serrations": 0,
+"fromColor": "ffb98b",
+"toColor": "ffb98b"
+},
+"type": "BulletType",
+"lifetime": 0
+}
+],
+"shootEffect": {
+"type": "multiEffect",
+"effects": [
+{
+"type": "ParticleEffect",
+"particles": 7,
+"sizeFrom": 6,
+"sizeTo": 1,
+"length": 140,
+"lifetime": 20,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b",
+"cone": 10
+},
+{
+"type": "WaveEffect",
+"lifetime": 23,
+"sizeFrom": 0,
+"sizeTo": 70,
+"strokeFrom": 6,
+"strokeTo": 0,
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+{
+"type": "WaveEffect",
+"lifetime": 23,
+"sizeFrom": 0,
+"sizeTo": 95,
+"strokeFrom": 4,
+"strokeTo": 0,
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+{
+"type": "ParticleEffect",
+"particles": 7,
+"sizeFrom": 7,
+"sizeTo": 1,
+"length": 100,
+"lifetime": 35,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b",
+"cone": 15
+},
+{
+"type": "ParticleEffect",
+"particles": 7,
+"sizeFrom": 6,
+"sizeTo": 1.5,
+"length": 110,
+"lifetime": 40,
+"interp": "fastSlow",
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b",
+"cone": 15
+},
+{
+"type": "ParticleEffect",
+"particles": 7,
+"sizeFrom": 6,
+"sizeTo": 1.5,
+"length": 120,
+"lifetime": 30,
+"interp": "fastSlow",
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b",
+"cone": 10
+},
+{
+"type": "ParticleEffect",
+"offset": 30,
+"particles": 6,
+"lifetime": 30,
+"baseLength": 65,
+"length": 60,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"cone": -30,
+"line": true,
+"strokeFrom": 2,
+"strokeTo": 0,
+"lenFrom": 8,
+"lenTo": 0,
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+{
+"type": "ParticleEffect",
+"particles": 1,
+"sizeFrom": 80,
+"sizeTo": 20,
+"length": 0,
+"interp": "circleOut",
+"layer": 109,
+"lifetime": 40,
+"region": "exogenesis-tall",
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+}   
+]   
+},
+"pointEffect": { 
+"type": "ParticleEffect",
+"particles": 1,
+"length": 0,
+"lifetime": 35,
+"sizeFrom": 90,
+"region": "exogenesis-wide",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+"pierceEffect": {
+"type": "ParticleEffect",
+"particles": 14,
+"lifetime": 30,
+"length": 82,
+"cone": 30,
+"sizeFrom": 4.3,
+"sizeTo": 0,
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+"hitEffect": {
+"type": "ParticleEffect",
+"particles": 10,
+"lifetime": 30,
+"length": 90,
+"interp": "circleOut",
+"sizeInterp": "pow5In",
+"cone": -30,
+"line": true,
+"strokeFrom": 2,
+"strokeTo": 0,
+"lenFrom": 8,
+"lenTo": 0,
+"lightColor": "ffb98b",
+"colorFrom": "ffb98b",
+"colorTo": "ffb98b"
+},
+"pointEffectSpace": 25,
+"collidesTiles" : true,
+"pierceDamageFactor": 0.3
+}
+},
+{
+"name": "prometheus-machine-gun",
+"top": true,
+"mirror": true,
+"alternate": true,
+"y": 24,
+"x": 30,
+"heatColor": "f9350f",
+"cooldownTime": 80,
+"rotate": true,
+"rotateSpeed": 1.5,
+"inaccuracy": 8,
+"velocityRnd": 0.2,
+"shootY": 8,
+"shoot": {
+"shots": 4
+},
+"parts": [
+{
+"type": "RegionPart",
+"layer": -1,
+"colorTo": "ff0000AA",
+"color": "ff0000AA",
+"outline": false,
+"blending": "additive",
+"suffix": "-glow",
+"progress": "warmup"
+}
+],
+"reload": 60,
+"recoil": 4,
+"shake": 1.8,
+"ejectEffect": "casing2",
+"shootSound": "artillery",
+"bullet": { 
+"type": "ArtilleryBulletType",
+"hitEffect": "massiveExplosion",
+"lifetime": 90,
+"splashDamage": 57,
+"splashDamageRadius": 60,	
+"speed": 4.5,
+"status": "blasted",
+"statusDuration": 60,
+"width": 19,
+"height": 19,
+"shootEffect": {
+"type": "MultiEffect",
+"effects": ["shootBig2", "shootBigSmoke"]
+},
+"trailLength": 10,
+"trailWidth": 3.5,
+"trailColor": "ffb98b",
+"backColor": "ffb98b",
+"frontColor": "FFffffFF"
+}
+},
+{
+"name": "prometheus-machine-gun",
+"top": true,
+"mirror": true,
+"alternate": true,
+"y": -15,
+"x": 38,
+"cooldownTime": 80,
+"heatColor": "f9350f",
+"rotate": true,
+"rotateSpeed": 1.8,
+"inaccuracy": 8,
+"velocityRnd": 0.2,
+"shootY": 8,
+"shoot": {
+"shots": 4
+},
+"parts": [
+{
+"type": "RegionPart",
+"layer": -1,
+"colorTo": "ff0000AA",
+"color": "ff0000AA",
+"outline": false,
+"blending": "additive",
+"suffix": "-glow",
+"progress": "warmup"
+}
+],
+"reload": 60,
+"recoil": 4,
+"shake": 1.5,
+"ejectEffect": "casing2",
+"shootSound": "artillery",
+"bullet": { 
+"type": "ArtilleryBulletType",
+"hitEffect": "massiveExplosion",
+"lifetime": 90,
+"splashDamage": 57,
+"splashDamageRadius": 60,
+"speed": 4.5,
+"status": "blasted",
+"statusDuration": 60,
+"width": 19,
+"height": 19,
+"shootEffect": {
+"type": "MultiEffect",
+"effects": ["shootBig2", "shootBigSmoke"]
+},
+"trailLength": 10,
+"trailWidth": 3.5,
+"trailColor": "ffb98b",
+"backColor": "ffb98b",
+"frontColor": "FFffffFF"
+}
+}
+]
+}
