@@ -8,6 +8,7 @@
 "buildSpeed": 1.3,
 "mineTier": 3,
 "armor": 2,
+"hovering": true,
 "engineOffset": 5,
 "engineColor": "FF8D54FF",
 "engineSize": 2,
