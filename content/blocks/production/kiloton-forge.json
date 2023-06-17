@@ -92,7 +92,6 @@
 ]
 },
 "requirements": [
-"surge-alloy/100",
 "beryllium/400",
 "tungsten/1000",
 "silicon/200",
