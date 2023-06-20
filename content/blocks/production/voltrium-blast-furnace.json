@@ -194,7 +194,7 @@
 "updateEffect": "none",
 "heatRequirement": 25,
 "consumes": {
-"power": 17,
+"power": 6,
 "liquids": [
 "hydrogen/0.05"
 "slag/0.6"
@@ -202,8 +202,8 @@
 "items": [
 "sand/6",
 "thorium/1",
-"osmium/2"
-"surge-alloy/2"
+"osmium/2",
+"surge-alloy/1"
 ]
 },
 "requirements": [
