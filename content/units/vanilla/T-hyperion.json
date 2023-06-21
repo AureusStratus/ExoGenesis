@@ -1,0 +1,419 @@
+{
+"localizedName": "T4-CF Hyperion",
+"description": "n.",
+"details": "One of the first of the erkeir titans developed by [#9681fb]Malis[] in response to something being discovered on Erekir.",
+"type": "hover",
+"template": "ErekirUnitType",
+"research": {
+"parent": "04-hyperion-titan",
+"requirements": [
+]
+},
+"faceTarget": false,
+"squareShape": true,
+"outlineColor": "252525FF",
+"hovering": true,
+"shadowElevation": 0.4,
+"speed": 0.78,
+"hitSize": 90,
+"health": 52000,
+"fogRadius": 60,
+"armor": 45,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 0.8,
+"parts": [
+{
+"type": "HoverPart",
+"radius": 19,
+"phase": 60,
+"color": "ffd37f",
+"circles": 4,
+"layerOffset": -0.001,
+"y": 49,
+"x": 26,
+"mirror": true
+},
+{
+"type": "HoverPart",
+"radius": 9,
+"phase": 30,
+"color": "ffd37f",
+"layerOffset": -0.001,
+"y": 25,
+"x": 48,
+"mirror": true
+},
+{
+"type": "HoverPart",
+"radius": 19,
+"phase": 60,
+"color": "ffd37f",
+"layerOffset": -0.001,
+"circles": 4,
+"y": -49,
+"x": 26,
+"mirror": true
+},
+{
+"type": "HoverPart",
+"radius": 9,
+"phase": 30,
+"color": "ffd37f",
+"layerOffset": -0.001,
+"y": -25,
+"x": 48,
+"mirror": true
+}
+],
+"immunities": [
+"burning", 
+"melting",
+"blasted"
+],
+"weapons": [
+{
+"name": "hyperion-weapon",
+"x": 0,
+"y": 0,
+"mirror": false,
+"cooldownTime": 250,
+"top": true,
+"heatColor": "f9350f",
+"reload": 11,
+"rotate": true,
+"layerOffset": 2,
+"recoil": 0,
+"rotateSpeed": 1,
+"recoils": 4,
+"parts": [
+{
+"type": "RegionPart",
+"suffix": "-barrel-1",
+"progress": "recoil",
+"recoilIndex": 3,
+"under": true,
+"moveY": -6.
+"heatProgress": {
+"type": "recoil",
+"cooldownTime": 50,
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 3
+},
+}
+{
+"type": "RegionPart",
+"suffix": "-barrel-2",
+"progress": "recoil",
+"recoilIndex": 2,
+"under": true,
+"moveY": -6,
+"heatProgress": {
+"type": "recoil",
+"cooldownTime": 50,
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 2
+},
+}
+{
+"type": "RegionPart",
+"suffix": "-barrel-3",
+"progress": "recoil",
+"recoilIndex": 1,
+"under": true,
+"moveY": -6,
+"heatProgress": {
+"type": "recoil",
+"cooldownTime": 50,
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 1
+},
+}
+{
+"type": "RegionPart",
+"suffix": "-barrel-4",
+"progress": "recoil",
+"recoilIndex": 0,
+"under": true,
+"moveY": -6,
+"heatProgress": {
+"type": "recoil",
+"cooldownTime": 50,
+"amount": 0.2,
+"other": 0,
+"recoilIndex": 0
+}
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffd37f",
+"stroke": 0,
+"strokeTo": 1,
+"radiusTo": 18,
+"radius": 18
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffd37f",
+"stroke": 0,
+"strokeTo": 1.1,
+"radiusTo": 7,
+"radius": 7
+},
+{
+"type": "shapePart",
+"y": -36,
+"hollow": true,
+"circle": true,
+"layer": 110,
+"color": "ffd37f",
+"stroke": 0,
+"strokeTo": 0.7,
+"radiusTo": 9,
+"radius": 9
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"layer": 110,
+"color": "ffd37f",
+"haloRotateSpeed": -0.7,
+"haloRadius": 9,
+"haloRadiusTo": 9,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 4,
+"triLengthTo": 4,
+"triLength": 0
+},
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"haloRotation": 90,
+"layer": 110,
+"color": "ffd37f",
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 27,
+"triLength": 0
+}
+{
+"type": "HaloPart",
+"y": -36,
+"radius": 4.6,
+"tri": true,
+"haloRotation": 90,
+"shapeRotation": 180,
+"layer": 110,
+"color": "ffd37f",
+"haloRadius": 12,
+"haloRadiusTo": 12,
+"stroke": 0,
+"strokeTo": 2,
+"shapes": 2,
+"triLengthTo": 4,
+"triLength": 0
+}
+],
+"shoot": {
+"type": "ShootBarrel",
+"shots": 1,
+"barrels": [
+ 19, 48, 0,
+ 6.25, 48, 0,
+-6.25, 48, 0,
+-19, 48, 0
+]
+},
+"shootSound": "shootBig",
+"bullet": {
+"type": "EmpBulletType",
+"sprite": "missile-large",
+"damage": 550,
+"pierceBuilding": false,
+"pierceCap": 1,
+"pierceArmor": true,
+"radius": 0,
+"hitPowerEffect": "none",
+"chainEffect": "none",
+"buildingDamageMultiplier": 0.3,
+"unitDamageScl": 1.5,
+"height": 36,
+"width": 12,
+"shrinkX": 0,
+"shrinkY": 0,
+"speed": 13,
+"lifetime": 32,
+"trailChance": 1,
+"trailInterval": 5,
+"trailRotation": "true",
+"trailEffect": {
+"type": "multiEffect",
+"effects": ["shootHealYellow",]
+},
+"smokeEffect": {
+"type": "multiEffect",
+"effects": [
+{
+"type": "ParticleEffect",
+"line": true,
+"particles": 8,
+"lifetime": 40,
+"interp": "circleOut",
+"offset": 30,
+"cone": 30,
+"length": 60,
+"lightColor": "ffd37f",
+"strokeFrom": 4,
+"strokeTo": 0,
+"lenFrom": 6,
+"lenTo": 6,
+"colorFrom": "ffd37f",
+"colorTo": "ffd37f"
+}
+]
+},
+"lightningDamage": 50,
+"lightningCone": 360,
+"lightningLengthRand": 6,
+"lightningLength": 3,
+"lightningColor": "ffd37f",
+"hitColor": "ffd37f",
+"intervalBullets": 2,
+"intervalRandomSpread": 30,
+"bulletInterval": 1,
+"intervalBullet": {
+"type": "LightningBulletType",
+"lightningColor": "ffd37f",
+"damage": 50,
+"collidesGround": false,
+"collidesTiles": false,
+"lightningLengthRand": 4,
+"lightningLength": 2
+},
+"hitEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "flakExplosionBig", "massiveExplosion"]
+},
+"despawnHit": true,
+"shootEffect": {
+"type": "multiEffect",
+"effects": ["blastExplosion", "colorSparkBig", "shootBigColor"]
+},
+"trailLength": 12,
+"trailWidth": 4,
+"trailColor": "ffd37f",
+"backColor": "ffd37f"
+}
+},
+{
+"name": "hyperion-flak-turret",
+"top": true,
+"mirror": true,
+"alternate": false,
+"layerOffset": 1,
+"y": 20,
+"x": 30,
+"rotationLimit": 40,
+"shootCone": 40,
+"heatColor": "f9350f",
+"cooldownTime": 80,
+"rotate": true,
+"rotateSpeed": 2.5,
+"shoot": {
+"type": "ShootBarrel",
+"barrels": [
+ 3.5, 15, 0,
+-3.5, 15, 0
+]
+},
+"parts": [
+{
+"type": "RegionPart",
+"suffix": "-barrel-l",
+"under": true,
+"recoilIndex": 1,
+"progress": "recoil",
+"moveY": -5
+},
+{
+"type": "RegionPart",
+"suffix": "-barrel-r",
+"under": true,
+"recoilIndex": 0,
+"progress": "recoil",
+"moveY": -5
+}
+],
+"reload": 6,
+"recoils": 2,
+"shake": 1.8,
+"ejectEffect": "casing2",
+"shootSound": "shootBig",
+"bullet": { 
+"type": "basicBulletType",
+"buildingDamageMultiplier": 0.5,
+"hitEffect": "flakExplosion",
+"lifetime": 35,
+"damage": 60
+"splashDamage": 57,
+"splashDamageRadius": 40,
+"speed": 6.5,
+"status": "blasted",
+"statusDuration": 60,
+"width": 13,
+"height": 13,
+"shootEffect": {
+"type": "MultiEffect",
+"effects": ["shootBig2", "shootBigSmoke"]
+},
+"trailLength": 10,
+"trailWidth": 2.5,
+"trailColor": "ffd37f",
+"backColor": "ffd37f"
+"fragBullets": 6,
+"fragLifeMin": 0.3,
+"fragBullet": {
+"type": "basicBulletType",
+"buildingDamageMultiplier": 0.5,
+"hitEffect": "flakExplosion",
+"lifetime": 5,
+"splashDamage": 30,
+"splashDamageRadius": 25,
+"speed": 8.5,
+"status": "blasted",
+"statusDuration": 60,
+"width": 5,
+"height": 9,
+"shootEffect": {
+"type": "MultiEffect",
+"effects": ["shootBig2", "shootBigSmoke"]
+},
+"trailLength": 10,
+"trailWidth": 2.5,
+"trailColor": "ffd37f",
+"backColor": "ffd37f"
+}
+}
+}
+]
+}
