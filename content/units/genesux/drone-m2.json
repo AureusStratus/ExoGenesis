@@ -3,12 +3,12 @@
   "lowAltitude": false,
   "defaultController": "minerAI",
   "speed": 4.0,
+  "research": "drone-m",
   "mineItems": [
     "titanium",
     "thorium",
     "siradamite",
     "urbium",
-    "tungsten",
     "dytrix"
   ],
   "mineSpeed": 15.5,
