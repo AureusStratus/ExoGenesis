@@ -10,7 +10,7 @@
 "addStartingItems": false
 "overrideLaunchDefaults": true
 "research": {
-"parent": extractionOutpost
+"parent": "extractionOutpost",
 "objectives": [
 "drone-m2"
 ]
