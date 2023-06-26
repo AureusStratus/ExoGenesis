@@ -13,12 +13,12 @@ A mod that adds a lot more content to the game.
 a lot of stuff
 
 ## Mod factions 
-Exogenesis contains five differen each with there own lore, weapons, defense, and units.
+Exogenesis contains five different Factions each with there own lore, weapons, defense, and units.
 
-`Genesis Align`: .
+`Genesis Align`: The Genesis Align is a militaristic and powerful AI with the only purpose to expand and conquer. Specializes with ground units and is heavily efficient with resources.
 ![Genesis-Align](https://github.com/AureusStratus/ExoGenesis/assets/68311340/6a229526-6536-4611-a831-9211d473aad8)
 
-`The Resiliency`: .
+`The Resiliency`: The Resiliency was originally a system with the task of heavy defenses and heavy armory, but has now a lone fragment running rogue based on its purposes and is expanding and fighting the other factions viewing all as a threat. specializes in heavy ground forces and heavy-duty weaponry, yet are slower in construction and speed
 ![The-Resiliency](https://github.com/AureusStratus/ExoGenesis/assets/68311340/457e16b1-123b-43e8-a24e-295f64c1a5f6)
 
 `The Empyrean`: .
