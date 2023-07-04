@@ -2,6 +2,7 @@
 "localizedName": "Upgraded Constructor",
 "description": "can build all available 2 by 2 blocks.",
 "type": "Constructor",
+"research": "constructor"
 "size": 3,
 "category": "units",
 "consumes": {
