@@ -1,6 +1,7 @@
 {
 "type": "mech",
-"fogRadius": 35,  
+"fogRadius": 35, 
+"template": "ErekirUnitType",	
 "boostMultiplier": 1.8,
 "canBoost": true,
 "engineOffset": 11.5,
