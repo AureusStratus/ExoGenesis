@@ -9,7 +9,7 @@
     "research": "SolFactory"
   },
   "armor": 8,
-  "speed": 0.5,
+  "speed": 2,
   "hitSize": 8,
   "flying": false,
   "health": 900,
