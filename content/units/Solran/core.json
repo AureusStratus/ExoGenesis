@@ -39,7 +39,7 @@
       "name": "core-fusion",
       "x": 29,
       "y": -0.5,
-      "reload": 120,
+      "reload": 80,
       "alternate": true,
       "top": false,
       "recoil": 3,
