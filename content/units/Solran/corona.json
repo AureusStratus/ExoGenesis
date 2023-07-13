@@ -9,7 +9,7 @@
   "armor": 9,
   "hitSize": 13,
   "outlineColor": "252525FF",
-  "speed": 0.54,
+  "speed": 1.7,
   "flying": false,
   "health": 1300,
   "range": 120,
