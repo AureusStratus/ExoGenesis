@@ -1,55 +1,39 @@
-# Exogenesis
+# Mindustry Java Mod Template
+A Java Mindustry mod template that works on Android and PC. The Kotlin version of this mod can be seen [here](https://github.com/Anuken/MindustryKotlinModTemplate).
 
-My discord AureusAltirius#6109
+## Building for Desktop Testing
 
-Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
+1. Install JDK **17**.
+2. Run `gradlew jar` [1].
+3. Your mod jar will be in the `build/libs` directory. **Only use this version for testing on desktop. It will not work with Android.**
+To build an Android-compatible version, you need the Android SDK. You can either let Github Actions handle this, or set it up yourself. See steps below.
 
-A mod that adds a lot more content to the game.
-<br>I just hope you guys enjoy my mod.
+## Building through Github Actions
 
-## The mod adds:
+This repository is set up with Github Actions CI to automatically build the mod for you every commit. This requires a Github repository, for obvious reasons.
+To get a jar file that works for every platform, do the following:
+1. Make a Github repository with your mod name, and upload the contents of this repo to it. Perform any modifications necessary, then commit and push. 
+2. Check the "Actions" tab on your repository page. Select the most recent commit in the list. If it completed successfully, there should be a download link under the "Artifacts" section. 
+3. Click the download link (should be the name of your repo). This will download a **zipped jar** - **not** the jar file itself [2]! Unzip this file and import the jar contained within in Mindustry. This version should work both on Android and Desktop.
 
-alot of stuff
+## Building Locally
 
-## Mod races/factions
+Building locally takes more time to set up, but shouldn't be a problem if you've done Android development before.
+1. Download the Android SDK, unzip it and set the `ANDROID_HOME` environment variable to its location.
+2. Make sure you have API level 30 installed, as well as any recent version of build tools (e.g. 30.0.1)
+3. Add a build-tools folder to your PATH. For example, if you have `30.0.1` installed, that would be `$ANDROID_HOME/build-tools/30.0.1`.
+4. Run `gradlew deploy`. If you did everything correctlly, this will create a jar file in the `build/libs` directory that can be run on both Android and desktop. 
 
-Exogenesis contains five different races each with there own lore, weapons, defense, and units.
+## Adding Dependencies
 
-`Credits to Đuvent for making both the lore of the factions and the two attack maps`
+Please note that all dependencies on Mindustry, Arc or its submodules **must be declared as compileOnly in Gradle**. Never use `implementation` for core Mindustry or Arc dependencies. 
 
-`Genesux`: In the "Siravax System" they lay in the sub-zero temperature planet called "Siratla", other planets in the
-system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific
-planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold
-energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made
-out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like
-nothing is gonna stop them from achieving it.
+- `implementation` **places the entire dependency in the jar**, which is, in most mod dependencies, very undesirable. You do not want the entirety of the Mindustry API included with your mod.
+- `compileOnly` means that the dependency is only around at compile time, and not included in the jar.
 
-`Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have
-capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this
-is a Binary System with Alphandax and Betanax, but there are planets orbiting, anyways moving on we have these
-creatures, they are comprised of molten rock and material they get from under the volcanos and lava oceans of there
-planet Volceru, they get titanium and multiple igna-rocks and they fuse them together to get a strong material that they
-use to form their absolute monsters, other satelites/planets in this Binary System include, Furnius and Siten.
+Only use `implementation` if you want to package another Java library *with your mod*, and that library is not present in Mindustry already.
 
-`Elecian`: They are found in the "Vanstarius System", they live on a gassy planet with 3/4 satelites, other planets in
-this system also have satelites, the other planets are, Ravu, Duris. Mineus, although Duris and Mineus dont have
-satelites we will still include them, the Eleciams are monsters at destruction and show no mercy, their technology are
-very advanced and are un-matched in there will to fight, they are very strong and can pack quite a punch, wether you
-have walls or not, the material that they use are unknown and are probably an alloy made out of titanium and some other
-material.
+--- 
 
-`Terretux`: deep Bootes Void, in galaxy long dead there lies a fallen empire, destroyed by a cataclysmic event.
-Astronomeers from Serpulo call it the "Forgotten empire", this species originated from the "Erten system", with planets
-surrounding it such as Xeantra and Celtus, They are powered by Pure Dark Energy and an unknown form of energy, they use
-their strong and strange materials to create weapons and technology yet understood. What had happen to this great
-empire?.
-
-`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they arent observed as much as the
-others but have developed underwater and on islands and shores, they live in an radioactive biome of an ocean, they
-somehow get their materials to make several naval weapons, they will also invent other weapons that devastate
-everything.
-
-## Screenshots
-
-![unknown-14](https://user-images.githubusercontent.com/68311340/118233805-7227c080-b460-11eb-99cd-5ab35cecb273.png)
-![unknown-15](https://user-images.githubusercontent.com/68311340/118233809-7358ed80-b460-11eb-8077-b3304aab2e0d.png)
+*[1]* *On Linux/Mac it's `./gradlew`, but if you're using Linux I assume you know how to run executables properly anyway.*  
+*[2]: Yes, I know this is stupid. It's a Github UI limitation - while the jar itself is uploaded unzipped, there is currently no way to download it as a single file.*
