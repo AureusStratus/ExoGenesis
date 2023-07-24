@@ -1,8 +1,0 @@
-{
-  "localizedName": "Acid",
-  "description": "Radioactive water, not much different from water its just not drinkable",
-  "isLiquid": true,
-  "cache": "water",
-  "effect": "exogenesis-acidic",
-  "color": "a1b46e"
-}

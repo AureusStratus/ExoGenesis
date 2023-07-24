@@ -1,7 +1,0 @@
-{
-  "type": "StaticWall",
-  "emitLight": true,
-  "lightRadius": 31,
-  "lightColor": "A9D8FFFF",
-  "variants": 8
-}
