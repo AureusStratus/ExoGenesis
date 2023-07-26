@@ -10,7 +10,7 @@ A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
 
 ## The mod adds: 
-a lot of stuff
+a lot of stuff.
 
 ## Mod factions 
 Exogenesis contains five different Factions each with there own lore, weapons, defense, and units.
