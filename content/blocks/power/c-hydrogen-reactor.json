@@ -9,7 +9,7 @@
   "explosionDamage": 5000,
   "hasLiquids": true,
   "powerProduction": 170,
-  "warmupSpeed": 0.001,
+  "warmupSpeed": 0.003,
   "itemDuration": 380,
   "drawer": {
     "type": "DrawMulti",
@@ -61,7 +61,7 @@
     ]
   },
   "consumes": {
-    "power": 80.0,
+    "power": 110,
     "liquids": [
       "hydrogen/3"
     ]
