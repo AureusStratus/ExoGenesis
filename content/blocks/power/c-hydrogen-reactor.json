@@ -8,7 +8,7 @@
   "explosionRadius": 200,
   "explosionDamage": 5000,
   "hasLiquids": true,
-  "powerProduction": 170,
+  "powerProduction": 200,
   "warmupSpeed": 0.003,
   "itemDuration": 380,
   "drawer": {
@@ -61,7 +61,7 @@
     ]
   },
   "consumes": {
-    "power": 110,
+    "power": 60,
     "liquids": [
       "hydrogen/3"
     ]
