@@ -12,6 +12,7 @@
   "powerProduction": 56,
   "itemDuration": 400,
   "heating": 0.004,
+  "fuelItem": "jupiteium",
   "consumes": {
     "items": {
       "items": [
