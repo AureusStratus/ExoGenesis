@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "size": 2,
+  "size": 3,
   "craftTime": 10,
   "hasPower": true,
   "hasLiquids": true,
