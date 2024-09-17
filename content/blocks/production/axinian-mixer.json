@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "size": 3,
+  "craftTime": 10,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 100,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "axinian",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "outputLiquid": "axinian/1",
+  "consumes": {
+    "power": 2,
+    "liquids": [
+      "cold-plasma/1"
+    ]
+  },
+  "requirements": [
+    "lead/50",
+    "silicon/50",
+    "astrolite/60"
+  ],
+  "envRequired": 0,
+  "category": "crafting",
+  "research": "cryofluid-mixer"
+}
