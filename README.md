@@ -1,6 +1,6 @@
 # Exogenesis
 
-My discord aureusaltirius
+My discord aureusaltirius#0000
 
 Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
 
