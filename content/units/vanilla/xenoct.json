@@ -243,7 +243,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "circle-bullet",
-        "status": "exogenesisOld-nuclear-toxicity",
+        "status": "nuclear-toxicity",
         "statusDuration": 200,
         "lightRadius": 80,
         "lightColor": "BF92F9FF",

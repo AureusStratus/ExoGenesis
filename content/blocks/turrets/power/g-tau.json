@@ -42,7 +42,7 @@
     "trailWidth": 3,
     "lifetime": 40,
     "damage": 18,
-    "status": "exogenesisOld-irradiated",
+    "status": "irradiated",
     "height": 13,
     "width": 13,
     "hitEffect": {

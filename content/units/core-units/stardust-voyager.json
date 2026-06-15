@@ -124,7 +124,7 @@
   ],
   "immunities": [
     "burning",
-    "exogenesisOld-neutron-overcharge",
+    "neutron-overcharge",
     "melting",
     "freezing"
   ],
@@ -149,14 +149,14 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesisOld-starlit-missile"
+        "spawnUnit": "starlit-missile"
       }
     }
   ],
   "abilities": [
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
-      "effect": "exogenesisOld-neutron-overcharge",
+      "effect": "neutron-overcharge",
       "parentizeEffects": true,
       "effectY": 23,
       "activeEffect": "none",

@@ -404,7 +404,7 @@
     },
     "surge-alloy": {
       "sprite": "exogenesisOld-gauss-bullet",
-      "status": "exogenesisOld-surge-charge",
+      "status": "surge-charge",
       "statusDuration": "100",
       "speed": 8,
       "height": 42,

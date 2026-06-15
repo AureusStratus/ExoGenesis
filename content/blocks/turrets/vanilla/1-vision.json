@@ -22,7 +22,7 @@
     "sprite": "circle-bullet",
     "lightRadius": 80,
     "lightColor": "BF92F9FF",
-    "status": "exogenesisOld-nuclear-toxicity",
+    "status": "nuclear-toxicity",
     "statusDuration": 100,
     "speed": 6,
     "hitSound": "plasmaboom",

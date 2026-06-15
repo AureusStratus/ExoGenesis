@@ -69,7 +69,7 @@
         "type": "BasicBulletType",
         "sprite": "circle-bullet",
         "chargeSound": "lasercharge",
-        "status": "exogenesisOld-nuclear-toxicity",
+        "status": "nuclear-toxicity",
         "statusDuration": 300,
         "lightRadius": 50,
         "lightColor": "BF92F9FF",
@@ -266,7 +266,7 @@
       "bullet": {
         "type": "LiquidBulletType",
         "liquid": "acid",
-        "status": "exogenesisOld-acidic",
+        "status": "acidic",
         "lifetime": 50,
         "puddleSize": 8,
         "orbSize": 4.5,

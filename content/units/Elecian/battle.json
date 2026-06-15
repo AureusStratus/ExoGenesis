@@ -489,7 +489,7 @@
         "frontColor": "FFFFFFF",
         "backColor": "F3E979FF",
         "statusDuration": 180,
-        "status": "exogenesisOld-system-crash",
+        "status": "system-crash",
         "hittable": false,
         "reflectable": true,
         "absorbable": false,

@@ -64,7 +64,7 @@
   "shootType": {
     "type": "empBulletType",
     "sprite": "exogenesisOld-plasma",
-    "status": "exogenesisOld-high-energy-blast",
+    "status": "high-energy-blast",
     "trailChance": 1,
     "trailRotation": true,
     "trailEffect": {
@@ -390,7 +390,7 @@
       "length": 80,
       "drawSize": 350,
       "lifetime": 10,
-      "status": "exogenesisOld-high-energy-blast",
+      "status": "high-energy-blast",
       "statusDuration": 150
     },
     "splashDamageRadius": 74,

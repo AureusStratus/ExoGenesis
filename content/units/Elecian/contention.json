@@ -159,7 +159,7 @@
         "hitSound": "shockBoom",
         "frontColor": "FFFFFFF",
         "backColor": "F3E979FF",
-        "status": "exogenesisOld-division",
+        "status": "division",
         "hittable": false,
         "reflectable": false,
         "absorbable": false,

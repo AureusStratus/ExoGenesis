@@ -41,7 +41,7 @@
       "colorTo": "73FFAE00"
     },
     "damage": 50,
-    "status": "exogenesisOld-irradiated",
+    "status": "irradiated",
     "hitEffect": {
       "type": "ParticleEffect",
       "line": true,

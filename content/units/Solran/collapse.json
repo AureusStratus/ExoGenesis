@@ -826,7 +826,7 @@
       "sectorRad": 0,
       "effectRadius": 7,
       "reload": 1,
-      "status": "exogenesisOld-molten1"
+      "status": "molten1"
     },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",

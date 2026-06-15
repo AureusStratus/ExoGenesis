@@ -18,7 +18,7 @@
       "astrolite/12"
     ],
     "liquids": [
-      "exogenesisOld-cold-plasma/1"
+      "cold-plasma/1"
     ]
   },
   "requirements": [

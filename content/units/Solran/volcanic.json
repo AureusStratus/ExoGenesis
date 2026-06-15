@@ -26,7 +26,7 @@
     "immunities": [
       "burning",
       "melting",
-      "exogenesisOld-molten1",
+      "molten1",
       "blasted"
     ],
     "weapons": [
@@ -50,7 +50,7 @@
         "bullet": {
           "type": "basicBulletType",
           "sprite": "exogenesisOld-gauss-bullet",
-          "status": "exogenesisOld-molten1",
+          "status": "molten1",
           "damage": 2000,
           "pierceBuilding": true,
           "pierceCap": 2,
@@ -254,7 +254,7 @@
         "bullet": {
           "type": "BasicBulletType",
           "collidesAir": true,
-          "status": "exogenesisOld-molten1",
+          "status": "molten1",
           "statusDuration": 50,
           "speed": 3.5,
           "damage": 20,
@@ -401,7 +401,7 @@
         "bullet": {
           "type": "BasicBulletType",
           "collidesAir": true,
-          "status": "exogenesisOld-molten1",
+          "status": "molten1",
           "statusDuration": 50,
           "speed": 3.5,
           "damage": 20,

@@ -185,7 +185,7 @@
 ],
 "bullet": {
 "type": "empBulletType",
-"status": "exogenesisOld-high-energy-blast",
+"status": "high-energy-blast",
 "parts": [
 {
 "type": "shapePart",

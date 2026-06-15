@@ -28,7 +28,7 @@
   "range": 300,
   "immunities": [
     "melting",
-    "exogenesisOld-militarian-buff",
+    "militarian-buff",
     "blasted",
     "burning",
     "slow"
@@ -273,7 +273,7 @@
         "colorTo": "FF875BFF",
         "region": "particle"
       },
-      "effect": "exogenesisOld-militarian-buff",
+      "effect": "militarian-buff",
       "range": 165,
       "reload": 264,
       "duration": 160

@@ -93,7 +93,7 @@
     "lifetime": 105,
     "divisions": 20,
     "length": 500,
-    "status": "exogenesisOld-plasma-vaporisation",
+    "status": "plasma-vaporisation",
     "statusDuration": 150,
     "hitEffect": {
       "type": "ParticleEffect",
@@ -138,7 +138,7 @@
         "colorTo": "FFC1BBFF"
       },
       "drawFlare": true,
-      "status": "exogenesisOld-plasma-vaporisation",
+      "status": "plasma-vaporisation",
       "statusDuration": 150
     },
     "drawSize": 660

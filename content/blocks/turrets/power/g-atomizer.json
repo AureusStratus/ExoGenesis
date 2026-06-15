@@ -62,7 +62,7 @@
     "type": "basicBulletType",
     "sprite": "exogenesisOld-plasma",
     "hitSound": "plasmaboom",
-    "status": "exogenesisOld-irradiated",
+    "status": "irradiated",
     "statusDuration": 300,
     "damage": 8700,
     "knockback": 4,

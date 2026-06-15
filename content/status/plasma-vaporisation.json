@@ -8,7 +8,7 @@
   "affinities": [
     "tarred",
     "melting",
-    "exogenesisOld-molten1"
+    "molten1"
   ],
   "effect": {
     "type": "MultiEffect",

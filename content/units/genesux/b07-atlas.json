@@ -265,7 +265,7 @@
     "melting",
     "slow",
     "exogenesisOld-elders-energy",
-    "exogenesisOld-high-energy-blast",
+    "high-energy-blast",
     "freezing"
   ],
   "weapons": [
@@ -369,7 +369,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "exogenesisOld-high-energy-blast",
+        "status": "high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -473,7 +473,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "exogenesisOld-high-energy-blast",
+        "status": "high-energy-blast",
         "statusDuration": 150
       }
     },

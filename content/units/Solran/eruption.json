@@ -207,7 +207,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "exogenesisOld-energy-projectile",
-        "status": "exogenesisOld-molten1",
+        "status": "molten1",
         "damage": 800,
         "pierceBuilding": true,
         "pierceCap": 2,

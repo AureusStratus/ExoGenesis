@@ -107,7 +107,7 @@
     "lightningLengthRand": 6,
     "lightningLength": 15,
     "lightningDamage": 70,
-    "status": "exogenesisOld-high-energy-blast",
+    "status": "high-energy-blast",
     "statusDuration": 300,
     "height": 38,
     "width": 38,

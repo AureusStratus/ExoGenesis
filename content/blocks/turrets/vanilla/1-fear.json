@@ -29,7 +29,7 @@
       "type": "pointBulletType",
       "damage": 6000,
       "shootEffect": "instShoot",
-      "status": "exogenesisOld-surge-charge",
+      "status": "surge-charge",
       "statusDuration": 100,
       "lightning": 8,
       "lightningLength": 17,

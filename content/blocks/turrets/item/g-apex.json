@@ -158,7 +158,7 @@
         "colorTo": "BCFF7300"
       },
       "statusDuration": 150,
-      "status": "exogenesisOld-xegon-fier",
+      "status": "xegon-fier",
       "absorbable": false,
       "splashDamage": 7400,
       "collides": false,

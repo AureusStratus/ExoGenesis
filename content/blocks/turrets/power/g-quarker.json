@@ -36,7 +36,7 @@
   "shootType": {
     "type": "BasicBulletType",
     "sprite": "exogenesisOld-slice",
-    "status": "exogenesisOld-irradiated",
+    "status": "irradiated",
     "damage": 80,
     "height": 13,
     "spin": 7,

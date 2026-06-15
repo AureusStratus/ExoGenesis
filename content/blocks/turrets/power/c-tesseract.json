@@ -16,7 +16,7 @@
   "consumes": {
     "power": 200,
     "liquids": [
-      "exogenesisOld-axinian/1.52"
+      "axinian/1.52"
     ]
   },
   "drawer": {

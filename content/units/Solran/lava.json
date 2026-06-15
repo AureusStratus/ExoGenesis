@@ -31,7 +31,7 @@
   "immunities": [
     "burning",
     "melting",
-    "exogenesisOld-molten1",
+    "molten1",
     "blasted"
   ],
   "weapons": [
@@ -71,7 +71,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "missile-large",
-        "status": "exogenesisOld-molten1",
+        "status": "molten1",
         "damage": 56,
         "height": 16,
         "width": 9,

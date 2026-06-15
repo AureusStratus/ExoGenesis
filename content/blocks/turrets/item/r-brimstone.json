@@ -68,7 +68,7 @@
     "primal-red": {
       "buildingDamageMultiplier": 0.3,
       "type": "BasicBulletType",
-      "status": "exogenesisOld-molten1",
+      "status": "molten1",
       "statusDuration": "100",
       "speed": 7,
       "weaveScale": 2,
