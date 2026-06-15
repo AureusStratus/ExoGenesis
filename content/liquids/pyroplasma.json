@@ -1,4 +1,5 @@
 {
+  "name": "pyroplsma",
   "temperature": 25,
   "viscosity": 1,
   "lightColor": "FF7147FF",

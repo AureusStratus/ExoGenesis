@@ -1,6 +1,7 @@
 {
   "description": "You are being rapidly corroded .",
   "localizedName": "Acidic",
+  "name": "acidic",
   "speedMultiplier": 0.8,
   "show": true,
   "effectChance": 0.4,

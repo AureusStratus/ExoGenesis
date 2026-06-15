@@ -1,4 +1,5 @@
 {
+  "name": "cold-plasma",
   "temperature": -10,
   "viscosity": -1,
   "gas": true,

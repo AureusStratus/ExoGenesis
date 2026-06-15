@@ -49,6 +49,7 @@
       }
     ]
   },
+  "name": "high-energy-blast",
   "damage": 1.2,
   "affinities": [
     "blasted"
