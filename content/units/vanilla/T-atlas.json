@@ -905,7 +905,7 @@
 "shootSound": "laser",
 "bullet": {
 "type": "basicBulletType",
-"spawnUnit": "exogenesisOld-epimetheus-missile"
+"spawnUnit": "epimetheus-missile"
 }
 },
 {

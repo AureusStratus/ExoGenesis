@@ -166,7 +166,7 @@
       "shootCone": 180,
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesisOld-heavy-gen-missile"
+        "spawnUnit": "heavy-gen-missile"
       }
     },
     {
@@ -183,7 +183,7 @@
       "shootCone": 180,
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesisOld-heavy-gen-missile"
+        "spawnUnit": "heavy-gen-missile"
       }
     },
     {
@@ -199,7 +199,7 @@
       "shootCone": 180,
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesisOld-heavy-gen-missile"
+        "spawnUnit": "heavy-gen-missile"
       }
     },
     {

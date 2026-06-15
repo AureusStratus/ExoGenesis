@@ -264,7 +264,7 @@
     "burning",
     "melting",
     "slow",
-    "exogenesisOld-elders-energy",
+    "elders-energy",
     "high-energy-blast",
     "freezing"
   ],
@@ -726,7 +726,7 @@
     {
       "type": "StatusFieldAbility",
       "activeEffect": "none",
-      "effect": "exogenesisOld-elders-energy",
+      "effect": "elders-energy",
       "range": 180,
       "reload": 1,
       "duration": 5

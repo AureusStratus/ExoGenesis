@@ -311,7 +311,7 @@
           }
         ]
       },
-      "effect": "exogenesisOld-star-powered",
+      "effect": "star-powered",
       "range": 165,
       "reload": 1,
       "duration": 5
