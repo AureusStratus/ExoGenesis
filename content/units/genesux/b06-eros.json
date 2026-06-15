@@ -42,7 +42,7 @@
     "burning",
     "melting",
     "slow",
-    "exogenesisOld-high-energy-blast",
+    "high-energy-blast",
     "freezing"
   ],
   "weapons": [
@@ -489,7 +489,7 @@
         },
         "type": "empBulletType",
         "sprite": "exogenesisOld-star-core-bullet",
-        "status": "exogenesisOld-high-energy-blast",
+        "status": "high-energy-blast",
         "timeIncrease": 0,
         "powerDamageScl": 1,
         "powerSclDecrease": 0.1,
@@ -870,7 +870,7 @@
         "trailColor": "66B1FFFF",
         "trailLength": 18,
         "trailWidth": 4.5,
-        "status": "exogenesisOld-high-energy-blast",
+        "status": "high-energy-blast",
         "statusDuration": 150
       }
     },
