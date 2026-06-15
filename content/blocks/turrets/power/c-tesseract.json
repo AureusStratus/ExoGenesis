@@ -16,7 +16,7 @@
   "consumes": {
     "power": 200,
     "liquids": [
-      "exogenesis-axinian/1.52"
+      "exogenesisOld-axinian/1.52"
     ]
   },
   "drawer": {
@@ -503,7 +503,7 @@
   "rotateSpeed": 0.7,
   "shootType": {
     "type": "basicBulletType",
-    "sprite": "exogenesis-energy-projectile",
+    "sprite": "exogenesisOld-energy-projectile",
     "shootEffect": {
       "type": "multiEffect",
       "lifetime": 80,
@@ -590,7 +590,7 @@
           "interp": "circleOut",
           "layer": 109,
           "lifetime": 40,
-          "region": "exogenesis-tall",
+          "region": "exogenesisOld-tall",
           "colorFrom": "66B1FFFF",
           "colorTo": "66B1FFFF"
         },

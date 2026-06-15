@@ -231,7 +231,7 @@
         "width": 35,
         "height": 35,
         "shootEffect": "none",
-        "sprite": "exogenesis-gauss-bullet",
+        "sprite": "exogenesisOld-gauss-bullet",
         "pierceCap": 5,
         "pierce": true,
         "pierceBuilding": true,
@@ -431,7 +431,7 @@
               "lightColor": "73FFAEFF",
               "lifetime": 400,
               "layer": 109,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "57D993FF",
               "colorTo": "73FFAEFF"
             },
@@ -444,7 +444,7 @@
               "lightColor": "73FFAEFF",
               "lifetime": 400,
               "layer": 109,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "57D993FF",
               "colorTo": "73FFAEFF"
             },
@@ -457,7 +457,7 @@
               "sizeTo": 0,
               "length": 200,
               "layer": 109,
-              "region": "exogenesis-shape2",
+              "region": "exogenesisOld-shape2",
               "lightColor": "73FFAEFF",
               "lifetime": 120,
               "colorFrom": "57D993FF",
@@ -475,7 +475,7 @@
               "lifetime": 400,
               "interp": "swing",
               "layer": 109,
-              "region": "exogenesis-square",
+              "region": "exogenesisOld-square",
               "colorFrom": "57D993FF",
               "colorTo": "73FFAEFF",
               "cone": 360
@@ -491,7 +491,7 @@
               "lifetime": 400,
               "interp": "swing",
               "layer": 109,
-              "region": "exogenesis-square",
+              "region": "exogenesisOld-square",
               "colorFrom": "57D993FF",
               "colorTo": "73FFAEFF",
               "cone": 360
@@ -535,7 +535,7 @@
             {
               "type": "ParticleEffect",
               "particles": 6,
-              "region": "exogenesis-shape2",
+              "region": "exogenesisOld-shape2",
               "lifetime": 22,
               "length": 85,
               "sizeFrom": 0,
@@ -623,7 +623,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 45,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "73FFAEFF",
               "colorTo": "73FFAEFF"
             },
@@ -635,7 +635,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 45,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "73FFAEFF",
               "colorTo": "73FFAEFF"
             },
@@ -697,7 +697,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 45,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "73FFAEFF",
               "colorTo": "73FFAEFF"
             },
@@ -709,7 +709,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 45,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "73FFAEFF",
               "colorTo": "73FFAEFF"
             },

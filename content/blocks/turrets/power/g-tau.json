@@ -32,7 +32,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "exogenesisOld-plasma",
     "absorbable": true,
     "shrinkY": 0.1,
     "shrinkX": 0.1,
@@ -42,7 +42,7 @@
     "trailWidth": 3,
     "lifetime": 40,
     "damage": 18,
-    "status": "exogenesis-irradiated",
+    "status": "exogenesisOld-irradiated",
     "height": 13,
     "width": 13,
     "hitEffect": {

@@ -31,7 +31,7 @@
       "ejectEffect": "none",
       "bullet": {
         "type": "FlakBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "exogenesisOld-plasma",
         "collidesTeam": true,
         "healPercent": 0.8,
         "status": "blasted",

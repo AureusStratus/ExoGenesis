@@ -22,7 +22,7 @@
   "hasPower": true,
   "shootType": {
     "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "exogenesisOld-plasma",
     "hitSound": "plasmaboom",
     "chargeEffect": {
       "type": "multiEffect",
@@ -90,7 +90,7 @@
           "offset": 30,
           "sizeFrom": 4,
           "sizeTo": 0,
-          "region": "exogenesis-triangle",
+          "region": "exogenesisOld-triangle",
           "length": 105,
           "lifetime": 30,
           "colorFrom": "73FFAEFF",
@@ -147,7 +147,7 @@
           "offset": 30,
           "sizeFrom": 4,
           "sizeTo": 0,
-          "region": "exogenesis-triangle",
+          "region": "exogenesisOld-triangle",
           "length": 105,
           "lifetime": 30,
           "colorFrom": "73FFAEFF",
@@ -212,7 +212,7 @@
     "fragBullets": 7,
     "fragBullet": {
       "type": "basicBulletType",
-      "sprite": "exogenesis-plasma",
+      "sprite": "exogenesisOld-plasma",
       "status": "corroded",
       "statusDuration": 300,
       "height": 15,

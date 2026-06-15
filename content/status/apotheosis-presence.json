@@ -3,7 +3,7 @@
   "effect": {
     "type": "ParticleEffect",
     "particles": 1,
-    "region": "exogenesis-shape2",
+    "region": "exogenesisOld-shape2",
     "lifetime": 14,
     "length": 0,
     "sizeFrom": 0,

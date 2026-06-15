@@ -24,7 +24,7 @@
   "outlineColor": "1B1B1BFF",
   "shootType": {
     "type": "basicBulletType",
-    "sprite": "exogenesis-circle-spike",
+    "sprite": "exogenesisOld-circle-spike",
     "status": "melting",
     "buildingDamageMultiplier": 0.1,
     "shootEffect": {
@@ -33,7 +33,7 @@
       "length": 0,
       "lifetime": 15,
       "interp": "swingIn",
-      "region": "exogenesis-spikething",
+      "region": "exogenesisOld-spikething",
       "offsetX": 8,
       "sizeFrom": 29,
       "sizeTo": 1,
@@ -104,7 +104,7 @@
       "incendChance": 10,
       "incendSpread": 7,
       "incendAmount": 4,
-      "sprite": "exogenesis-circle-spike",
+      "sprite": "exogenesisOld-circle-spike",
       "status": "melting",
       "statusDuration": 100,
       "splashDamageRadius": 40,
@@ -164,7 +164,7 @@
       "fragBullet": {
         "type": "BasicBulletType",
         "spin": 2.5,
-        "sprite": "exogenesis-circle-spike",
+        "sprite": "exogenesisOld-circle-spike",
         "status": "melting",
         "statusDuration": 100,
         "splashDamageRadius": 40,

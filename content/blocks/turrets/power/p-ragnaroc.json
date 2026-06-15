@@ -48,7 +48,7 @@
         "lifetime": 180,
         "interp": "swingIn",
         "layer": 109,
-        "region": "exogenesis-wide",
+        "region": "exogenesisOld-wide",
         "colorFrom": "A170F4FF",
         "colorTo": "A170F4FF"
       },
@@ -62,7 +62,7 @@
         "interp": "swingIn",
         "lifetime": 180,
         "layer": 109,
-        "region": "exogenesis-tall",
+        "region": "exogenesisOld-tall",
         "colorFrom": "A170F4FF",
         "colorTo": "A170F4FF"
       },
@@ -92,7 +92,7 @@
         "interp": "swingIn",
         "lifetime": 125,
         "layer": 109,
-        "region": "exogenesis-runic-circle",
+        "region": "exogenesisOld-runic-circle",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F4F00",
         "cone": 360
@@ -108,7 +108,7 @@
         "spin": -11,
         "lifetime": 125,
         "layer": 109,
-        "region": "exogenesis-runic-circle",
+        "region": "exogenesisOld-runic-circle",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F4F00",
         "cone": 360
@@ -122,7 +122,7 @@
         "offsetX": 2.5,
         "spin": 1,
         "lifetime": 120,
-        "region": "exogenesis-rune1",
+        "region": "exogenesisOld-rune1",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -135,7 +135,7 @@
         "length": 80,
         "spin": 1,
         "lifetime": 110,
-        "region": "exogenesis-rune2",
+        "region": "exogenesisOld-rune2",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -148,7 +148,7 @@
         "length": 85,
         "spin": 1,
         "lifetime": 100,
-        "region": "exogenesis-rune3",
+        "region": "exogenesisOld-rune3",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -160,7 +160,7 @@
         "length": 90,
         "spin": -1,
         "lifetime": 90,
-        "region": "exogenesis-rune4",
+        "region": "exogenesisOld-rune4",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -172,7 +172,7 @@
         "length": 95,
         "spin": -1,
         "lifetime": 80,
-        "region": "exogenesis-rune5",
+        "region": "exogenesisOld-rune5",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -184,7 +184,7 @@
         "length": 100,
         "spin": -1,
         "lifetime": 70,
-        "region": "exogenesis-rune6",
+        "region": "exogenesisOld-rune6",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       }
@@ -206,7 +206,7 @@
   },
   "hasPower": true,
   "shootType": {
-    "sprite": "exogenesis-wavee",
+    "sprite": "exogenesisOld-wavee",
     "collidesTiles": true,
     "reflectable": false,
     "hittable": false,
@@ -240,7 +240,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesis-rune2",
+          "region": "exogenesisOld-rune2",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -253,7 +253,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesis-rune3",
+          "region": "exogenesisOld-rune3",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -265,7 +265,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesis-rune4",
+          "region": "exogenesisOld-rune4",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -277,7 +277,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesis-rune5",
+          "region": "exogenesisOld-rune5",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -289,7 +289,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesis-rune6",
+          "region": "exogenesisOld-rune6",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"

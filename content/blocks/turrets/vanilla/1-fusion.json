@@ -12,7 +12,7 @@
 "consumes" : {
 "power": 8
 },
-"liquidCapacity": 300
+"liquidCapacity": 300,
 "outlineColor": "36363CFF",
 "update": true,
 "recoilTime": 100,
@@ -161,7 +161,7 @@
 "type": "warmup",
 "op": "delay",
 "amount": 0.50
-}
+},
 "x": 2.7
 }
 ],
@@ -218,7 +218,7 @@
 "op": "blend",
 "other": "heat",
 "amount": 0.45
-}
+},
 "children": [
 {
 "type": "RegionPart",
@@ -241,7 +241,7 @@
 "outlineLayerOffset": 0.001,
 "moveX": 1.7,
 "moveY": -1.7,
-"suffix": "-large-plate",
+"suffix": "-large-plate"
  },
  {
  "type": "RegionPart",
@@ -397,9 +397,9 @@
 "colors": ["5040d260", "597cffaa", "8ca9e8", "aec6ff", "ffffff"],
 "damage": 200,
 "knockback": 3,
-"status": "exogenesis-hydrogen-flash",
+"status": "exogenesisOld-hydrogen-flash",
 "statusDuration": 240,
-"buildingDamageMultiplier": 0.24
+"buildingDamageMultiplier": 0.24,
 "width": 10.5,
 "drawFlare": false,
 "lifetime": 60,
@@ -481,8 +481,8 @@
 }
 ]
 },
-"instantDisappear": true,
-}
+"instantDisappear": true
+},
 "drawSize": 350
  }
 },

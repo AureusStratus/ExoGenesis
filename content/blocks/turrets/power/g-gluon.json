@@ -18,7 +18,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-electric-pulse",
+    "sprite": "exogenesisOld-electric-pulse",
     "absorbable": false,
     "shrinkY": 0.1,
     "shrinkX": 0.1,
@@ -34,14 +34,14 @@
       "particles": 1,
       "sizeFrom": 10,
       "sizeTo": 10,
-      "region": "exogenesis-pulse-trail",
+      "region": "exogenesisOld-pulse-trail",
       "length": 0,
       "lifetime": 15,
       "colorFrom": "73FFAEFF",
       "colorTo": "73FFAE00"
     },
     "damage": 50,
-    "status": "exogenesis-irradiated",
+    "status": "exogenesisOld-irradiated",
     "hitEffect": {
       "type": "ParticleEffect",
       "line": true,

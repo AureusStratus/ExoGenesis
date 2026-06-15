@@ -309,7 +309,7 @@
       "shootSound": "plasmaboom",
       "bullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-star-core-bullet",
+        "sprite": "exogenesisOld-star-core-bullet",
         "status": {
           "name": "solar1-flare",
           "reloadMultiplier": 0.5,
@@ -423,7 +423,7 @@
               "sizeTo": 0,
               "length": 0,
               "spin": 7,
-              "region": "exogenesis-raydouble",
+              "region": "exogenesisOld-raydouble",
               "layer": 108,
               "lifetime": 56,
               "colorFrom": "FF5845FF",
@@ -555,7 +555,7 @@
               "sizeTo": 0,
               "length": 0,
               "spin": 7,
-              "region": "exogenesis-raydouble",
+              "region": "exogenesisOld-raydouble",
               "layer": 108,
               "lifetime": 56,
               "colorFrom": "FF5845FF",
@@ -645,7 +645,7 @@
               "lifetime": 28,
               "spin": 9,
               "layer": 109,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "FF5845FF",
               "colorTo": "FF5845FF"
             },
@@ -658,7 +658,7 @@
               "lifetime": 28,
               "spin": -9,
               "layer": 109,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "FF5845FF",
               "colorTo": "FF5845FF"
             },
@@ -826,7 +826,7 @@
       "sectorRad": 0,
       "effectRadius": 7,
       "reload": 1,
-      "status": "exogenesis-molten1"
+      "status": "exogenesisOld-molten1"
     },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -845,7 +845,7 @@
             "sizeTo": 30,
             "spin": 12,
             "particles": 1,
-            "region": "exogenesis-plasma-gas1",
+            "region": "exogenesisOld-plasma-gas1",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           },
@@ -857,7 +857,7 @@
             "sizeTo": 25,
             "spin": 14,
             "particles": 1,
-            "region": "exogenesis-plasma-gas2",
+            "region": "exogenesisOld-plasma-gas2",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           },
@@ -869,7 +869,7 @@
             "sizeTo": 20,
             "spin": 16,
             "particles": 1,
-            "region": "exogenesis-plasma-gas3",
+            "region": "exogenesisOld-plasma-gas3",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           }
@@ -913,7 +913,7 @@
         "sizeTo": 0,
         "length": 0,
         "spin": 7,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "layer": 108,
         "lifetime": 56,
         "colorFrom": "FF5845FF",
@@ -927,7 +927,7 @@
         "sizeTo": 0,
         "length": 0,
         "spin": -7,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "layer": 108,
         "lifetime": 56,
         "colorFrom": "FF5845FF",

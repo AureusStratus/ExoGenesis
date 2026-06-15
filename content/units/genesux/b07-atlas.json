@@ -264,8 +264,8 @@
     "burning",
     "melting",
     "slow",
-    "exogenesis-elders-energy",
-    "exogenesis-high-energy-blast",
+    "exogenesisOld-elders-energy",
+    "exogenesisOld-high-energy-blast",
     "freezing"
   ],
   "weapons": [
@@ -369,7 +369,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "exogenesis-high-energy-blast",
+        "status": "exogenesisOld-high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -473,7 +473,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "exogenesis-high-energy-blast",
+        "status": "exogenesisOld-high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -547,7 +547,7 @@
                   "length": 0,
                   "lifetime": 30,
                   "interp": "swingIn",
-                  "region": "exogenesis-spikething",
+                  "region": "exogenesisOld-spikething",
                   "offsetX": 3,
                   "sizeFrom": 13,
                   "sizeTo": 1,
@@ -633,7 +633,7 @@
           "length": 0,
           "lifetime": 30,
           "interp": "swingIn",
-          "region": "exogenesis-spikething",
+          "region": "exogenesisOld-spikething",
           "offsetX": 3,
           "sizeFrom": 13,
           "sizeTo": 1,
@@ -726,7 +726,7 @@
     {
       "type": "StatusFieldAbility",
       "activeEffect": "none",
-      "effect": "exogenesis-elders-energy",
+      "effect": "exogenesisOld-elders-energy",
       "range": 180,
       "reload": 1,
       "duration": 5

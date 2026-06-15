@@ -13,7 +13,7 @@
   "affinities": [
     "blasted",
     "burning",
-    "exogenesis-molten1"
+    "exogenesisOld-molten1"
   ],
   "effect": {
     "type": "MultiEffect",

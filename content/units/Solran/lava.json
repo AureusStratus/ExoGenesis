@@ -31,7 +31,7 @@
   "immunities": [
     "burning",
     "melting",
-    "exogenesis-molten1",
+    "exogenesisOld-molten1",
     "blasted"
   ],
   "weapons": [
@@ -71,7 +71,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "missile-large",
-        "status": "exogenesis-molten1",
+        "status": "exogenesisOld-molten1",
         "damage": 56,
         "height": 16,
         "width": 9,
@@ -147,7 +147,7 @@
               "particles": 1,
               "lifetime": 10,
               "length": 0,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "sizeFrom": 36,
               "sizeTo": 0,
               "colorFrom": "ffcea0",

@@ -35,7 +35,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-large-disk-bullet",
+        "sprite": "exogenesisOld-large-disk-bullet",
         "damage": 80,
         "splashDamage": 60,
         "splashDamageRadius": 45,
@@ -52,7 +52,7 @@
           "length": 0,
           "lifetime": 30,
           "spin": 6,
-          "region": "exogenesis-large-disk-trail",
+          "region": "exogenesisOld-large-disk-trail",
           "lightColor": "73FFAEFF",
           "colorFrom": "73FFAEFF",
           "colorTo": "57D99300",

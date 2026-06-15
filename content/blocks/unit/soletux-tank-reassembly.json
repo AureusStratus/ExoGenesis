@@ -16,15 +16,15 @@
       "unit": "lava",
       "requirements": [
         "tungsten-wall-large/13",
-        "exogenesis-heat/6"
+        "exogenesisOld-heat/6"
       ],
       "time": 3600
     },
     {
       "unit": "eruption",
       "requirements": [
-        "exogenesis-o-large-primal-wall/20",
-        "exogenesis-molten/6"
+        "exogenesisOld-o-large-primal-wall/20",
+        "exogenesisOld-molten/6"
       ],
       "time": 10800
     }

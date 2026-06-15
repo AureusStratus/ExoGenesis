@@ -56,7 +56,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "exogenesisOld-peircer",
         "status": "melting",
         "damage": 320,
         "height": 12,
@@ -119,7 +119,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "exogenesisOld-peircer",
         "status": "melting",
         "damage": 320,
         "height": 12,
@@ -182,7 +182,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "exogenesisOld-peircer",
         "status": "melting",
         "damage": 320,
         "height": 12,
@@ -273,7 +273,7 @@
         "lifetime": 105,
         "divisions": 20,
         "length": 300,
-        "status": "exogenesis-plasma-vaporisation",
+        "status": "exogenesisOld-plasma-vaporisation",
         "statusDuration": 150,
         "hitEffect": {
           "type": "ParticleEffect",
@@ -403,7 +403,7 @@
         "splashDamage": 800,
         "splashDamageRadius": 70,
         "speed": 5,
-        "status": "exogenesis-molten1",
+        "status": "exogenesisOld-molten1",
         "statusDuration": 100,
         "width": 21,
         "height": 21,
@@ -525,7 +525,7 @@
         "splashDamage": 800,
         "splashDamageRadius": 70,
         "speed": 5,
-        "status": "exogenesis-molten1",
+        "status": "exogenesisOld-molten1",
         "statusDuration": 100,
         "width": 21,
         "height": 21,
@@ -611,7 +611,7 @@
         "sizeTo": 70,
         "length": 0.01,
         "lifetime": 20,
-        "region": "exogenesis-arcturus-glow",
+        "region": "exogenesisOld-arcturus-glow",
         "colorFrom": "FF5845FF",
         "colorTo": "FF584500",
         "lightOpacity": 0,
@@ -743,7 +743,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": -5,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -757,7 +757,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": -5,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -771,7 +771,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": 5,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -785,7 +785,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": 5,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -799,7 +799,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "baseRotation": 45,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -813,7 +813,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "baseRotation": 45,
-        "region": "exogenesis-raydouble",
+        "region": "exogenesisOld-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"

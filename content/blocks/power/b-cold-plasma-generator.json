@@ -40,7 +40,7 @@
   },
   "consumes": {
     "liquids": [
-      "exogenesis-cold-plasma/0.18"
+      "exogenesisOld-cold-plasma/0.18"
     ]
   },
   "requirements": [

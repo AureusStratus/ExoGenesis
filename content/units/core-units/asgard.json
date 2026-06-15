@@ -34,7 +34,7 @@
       "parentizeEffects": true,
       "bullet": {
         "recoil": 2,
-        "sprite": "exogenesis-spear",
+        "sprite": "exogenesisOld-spear",
         "chargeEffect": {
           "followParent": true,
           "rotWithParent": true,
@@ -89,7 +89,7 @@
               "sizeFrom": 0,
               "sizeTo": 9,
               "length": 0,
-              "region": "exogenesis-spear-effect",
+              "region": "exogenesisOld-spear-effect",
               "interp": "swingOut",
               "lifetime": 70,
               "colorFrom": "FFFFFFF",
@@ -101,7 +101,7 @@
               "sizeFrom": 0,
               "sizeTo": 14,
               "length": 0,
-              "region": "exogenesis-spear-effect",
+              "region": "exogenesisOld-spear-effect",
               "interp": "swingOut",
               "lifetime": 70,
               "colorFrom": "F3E979FF",

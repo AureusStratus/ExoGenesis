@@ -278,7 +278,7 @@
               "length": 0,
               "lifetime": 35,
               "sizeFrom": 60,
-              "region": "exogenesis-blue-pierce",
+              "region": "exogenesisOld-blue-pierce",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -288,7 +288,7 @@
               "length": 0,
               "lifetime": 35,
               "sizeFrom": 80,
-              "region": "exogenesis-rail-pierce2",
+              "region": "exogenesisOld-rail-pierce2",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -316,7 +316,7 @@
               "length": 0,
               "lifetime": 30,
               "sizeFrom": 45,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -326,7 +326,7 @@
               "length": 0,
               "lifetime": 22,
               "sizeFrom": 75,
-              "region": "exogenesis-tall-thin",
+              "region": "exogenesisOld-tall-thin",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             }
@@ -338,7 +338,7 @@
           "length": 0,
           "lifetime": 25,
           "sizeFrom": 20,
-          "region": "exogenesis-wide",
+          "region": "exogenesisOld-wide",
           "colorFrom": "F3E979FF",
           "colorTo": "D99F6BFF"
         },

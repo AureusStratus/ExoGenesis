@@ -98,7 +98,7 @@
   "ammoTypes": {
     "gamma-green": {
       "type": "BasicBulletType",
-      "sprite": "exogenesis-plasma",
+      "sprite": "exogenesisOld-plasma",
       "hitSoundVolume": 5,
       "hitSound": "largeExplosion",
       "scaleLife": true,
@@ -158,7 +158,7 @@
         "colorTo": "BCFF7300"
       },
       "statusDuration": 150,
-      "status": "exogenesis-xegon-fier",
+      "status": "exogenesisOld-xegon-fier",
       "absorbable": false,
       "splashDamage": 7400,
       "collides": false,
@@ -179,7 +179,7 @@
         "effects": [
           {
             "type": "ParticleEffect",
-            "region": "exogenesis-raysingle",
+            "region": "exogenesisOld-raysingle",
             "lightOpacity": 0.5,
             "particles": 1,
             "length": 0,
@@ -205,7 +205,7 @@
             "interp": "circleOut",
             "sizeInterp": "pow5In",
             "particles": 1,
-            "region": "exogenesis-plasma-gas1",
+            "region": "exogenesisOld-plasma-gas1",
             "colorFrom": "BCFF73FF",
             "colorTo": "BCFF73FF"
           },
@@ -219,7 +219,7 @@
             "sizeInterp": "pow5In",
             "spin": 2,
             "particles": 1,
-            "region": "exogenesis-plasma-gas2",
+            "region": "exogenesisOld-plasma-gas2",
             "colorFrom": "BCFF73AA",
             "colorTo": "BCFF73AA"
           },
@@ -233,7 +233,7 @@
             "sizeInterp": "pow5In",
             "spin": 3,
             "particles": 1,
-            "region": "exogenesis-plasma-gas3",
+            "region": "exogenesisOld-plasma-gas3",
             "colorFrom": "BCFF7390",
             "colorTo": "BCFF7390"
           },
@@ -411,7 +411,7 @@
     },
     "thorium": {
       "type": "BasicBulletType",
-      "sprite": "exogenesis-plasma",
+      "sprite": "exogenesisOld-plasma",
       "scaleLife": true,
       "chargeEffect": {
         "type": "MultiEffect",

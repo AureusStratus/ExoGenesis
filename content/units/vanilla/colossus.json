@@ -56,7 +56,7 @@
     {
       "type": "StatusFieldAbility",
       "activeEffect": "none",
-      "effect": "exogenesis-octane-charged",
+      "effect": "exogenesisOld-octane-charged",
       "range": 200,
       "reload": 1,
       "duration": 5
@@ -64,7 +64,7 @@
     {
       "type": "EnergyFieldAbility",
       "statusDuration": 300,
-      "status": "exogenesis-octane-blast",
+      "status": "exogenesisOld-octane-blast",
       "color": "98ffa9ff",
       "maxTargets": 30,
       "damage": 175,

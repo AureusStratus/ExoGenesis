@@ -215,13 +215,13 @@
         "lifetime": 15,
         "length": 0,
         "interp": "swingIn",
-        "region": "exogenesis-tall",
+        "region": "exogenesisOld-tall",
         "sizeFrom": 46,
         "sizeTo": 0,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
       },
-      "status": "exogenesis-molten1",
+      "status": "exogenesisOld-molten1",
       "statusDuration": 300,
       "width": 120,
       "lifetime": 30,
@@ -261,7 +261,7 @@
           "colorTo": "DE4136FF"
         },
         "statusDuration": 90,
-        "status": "exogenesis-molten1"
+        "status": "exogenesisOld-molten1"
       },
       "largeHit": true,
       "lightColor": "FF5845FF",
@@ -302,7 +302,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "lightColor": "FF5845FF",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
@@ -315,7 +315,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "lightColor": "FF5845FF",
             "colorFrom": "FFC1BBFF",
             "colorTo": "FFC1BBFF"
@@ -465,7 +465,7 @@
         "lifetime": 15,
         "length": 0,
         "interp": "swingIn",
-        "region": "exogenesis-tall",
+        "region": "exogenesisOld-tall",
         "sizeFrom": 46,
         "sizeTo": 0,
         "colorFrom": "FF5845FF",
@@ -536,7 +536,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "lightColor": "F3E979FF",
             "colorFrom": "F3E979FF",
             "colorTo": "F3E979FF"
@@ -549,7 +549,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "lightColor": "F3E979FF",
             "colorFrom": "ffffff",
             "colorTo": "ffffff"

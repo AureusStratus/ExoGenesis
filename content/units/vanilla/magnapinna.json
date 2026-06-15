@@ -131,7 +131,7 @@
               "length": 0,
               "spin": 6,
               "lifetime": 70,
-              "region": "exogenesis-emitter-effect",
+              "region": "exogenesisOld-emitter-effect",
               "colorFrom": "98ffa9",
               "colorTo": "98ffAA"
             },

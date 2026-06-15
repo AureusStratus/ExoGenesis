@@ -55,7 +55,7 @@
           "lightColor": "73FFAEFF",
           "lifetime": 30,
           "layer": 109,
-          "region": "exogenesis-star",
+          "region": "exogenesisOld-star",
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
@@ -111,7 +111,7 @@
     "height": 21,
     "shrinkY": 0,
     "shrinkX": 0,
-    "sprite": "exogenesis-energy-partical",
+    "sprite": "exogenesisOld-energy-partical",
     "fragBullets": 1,
     "fragBullet": {
       "type": "BasicBulletType",
@@ -140,7 +140,7 @@
             "lightColor": "73FFAEFF",
             "lifetime": 30,
             "layer": 109,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
           },
@@ -153,7 +153,7 @@
             "lightColor": "73FFAEFF",
             "lifetime": 30,
             "layer": 109,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "colorFrom": "FFFFFFF",
             "colorTo": "FFFFFFF"
           }
@@ -176,7 +176,7 @@
       "height": 28,
       "shrinkY": 0,
       "shrinkX": 0,
-      "sprite": "exogenesis-energy-partical"
+      "sprite": "exogenesisOld-energy-partical"
     }
   },
   "requirements": [

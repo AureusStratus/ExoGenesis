@@ -14,7 +14,7 @@
   },
   "ammoTypes": {
     "thorium": {
-      "sprite": "exogenesis-gauss-bullet",
+      "sprite": "exogenesisOld-gauss-bullet",
       "speed": 20,
       "type": "BasicBulletType",
       "hitSound": "jupiterImpact",
@@ -42,7 +42,7 @@
       "trailParam": 5,
       "trailLength": 9,
       "trailWidth": 5,
-      "sprite": "exogenesis-gauss-bullet",
+      "sprite": "exogenesisOld-gauss-bullet",
       "speed": 22,
       "damage": 3870,
       "width": 25,

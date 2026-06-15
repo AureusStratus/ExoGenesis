@@ -55,7 +55,7 @@
       "buildingDamageMultiplier": 0.3,
       "type": "basicBulletType",
       "sprite": "circle-bullet",
-      "status": "exogenesis-molten1",
+      "status": "exogenesisOld-molten1",
       "damage": 450,
       "height": 18,
       "width": 18,

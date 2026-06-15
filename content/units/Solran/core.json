@@ -80,7 +80,7 @@
           "ffcea0",
           "FFFFFF"
         ],
-        "status": "exogenesis-molten1",
+        "status": "exogenesisOld-molten1",
         "statusDuration": 50,
         "hitEffect": {
           "type": "ParticleEffect",
@@ -106,7 +106,7 @@
               "length": 0,
               "lifetime": 25,
               "layer": 109,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "ffcea0",
               "colorTo": "ff7048"
             },

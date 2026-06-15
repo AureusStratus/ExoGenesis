@@ -282,7 +282,7 @@
 "shootSound": "missileLaunch",
 "bullet": {
 "type": "basicBulletType",
-"spawnUnit": "exogenesis-big-thorium-missile"
+"spawnUnit": "exogenesisOld-big-thorium-missile"
 }
 },
 {

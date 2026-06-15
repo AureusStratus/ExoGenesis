@@ -92,7 +92,7 @@
       "ejectEffect": "casing1",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "exogenesisOld-peircer",
         "status": "melting",
         "damage": 30,
         "height": 12,

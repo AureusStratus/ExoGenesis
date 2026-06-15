@@ -50,7 +50,7 @@
         "length": 0,
         "offset": 90,
         "lifetime": 500,
-        "region": "exogenesis-forge-of-annihilation-effect",
+        "region": "exogenesisOld-forge-of-annihilation-effect",
         "lightOpacity": 0,
         "colorFrom": "FF5845FF",
         "colorTo": "FF584500"

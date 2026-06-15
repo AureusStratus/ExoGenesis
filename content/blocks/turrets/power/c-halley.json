@@ -61,7 +61,7 @@
   },
   "shootType": {
     "type": "PointLaserBulletType",
-    "sprite": "exogenesis-c-halley-laser",
+    "sprite": "exogenesisOld-c-halley-laser",
     "status": "freezing",
     "damage": 65,
     "drawSize": 1500,

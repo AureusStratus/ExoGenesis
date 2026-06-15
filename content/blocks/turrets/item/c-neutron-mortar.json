@@ -20,7 +20,7 @@
       "speed": 3,
       "type": "ArtilleryBulletType",
       "lifetime": 80,
-      "status": "exogenesis-high-energy-blast",
+      "status": "exogenesisOld-high-energy-blast",
       "statusDuration": 200,
       "splashDamage": 3800,
       "splashDamageRadius": 70,
@@ -64,7 +64,7 @@
             "lightColor": "73FFAEFF",
             "lifetime": 30,
             "layer": 109,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
           },
@@ -92,7 +92,7 @@
             "spin": 3,
             "interp": "swing",
             "lifetime": 60,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "lightColor": "A9D8FFFF",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
@@ -119,7 +119,7 @@
             "baseLength": 10,
             "lifetime": 60,
             "spin": 5,
-            "region": "exogenesis-star",
+            "region": "exogenesisOld-star",
             "interp": "circleOut",
             "layer": 106,
             "sizeFrom": 8,
@@ -170,7 +170,7 @@
       "fragAngle": 35,
       "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-star-bullet",
+        "sprite": "exogenesisOld-star-bullet",
         "absorbable": true,
         "shootEffect": {
           "type": "ParticleEffect",
@@ -214,7 +214,7 @@
               "spin": 3,
               "interp": "swing",
               "lifetime": 60,
-              "region": "exogenesis-star",
+              "region": "exogenesisOld-star",
               "lightColor": "A9D8FFFF",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
@@ -244,7 +244,7 @@
               "spin": 3,
               "interp": "swing",
               "lifetime": 60,
-              "region": "exogenesis-star",
+              "region": "exogenesisOld-star",
               "lightColor": "A9D8FFFF",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"

@@ -18,7 +18,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "exogenesisOld-plasma",
     "absorbable": true,
     "shrinkY": 0,
     "shrinkX": 0,
@@ -36,7 +36,7 @@
       "lifetime": 24,
       "sizeFrom": 3,
       "sizeTo": 1,
-      "region": "exogenesis-plasma-back",
+      "region": "exogenesisOld-plasma-back",
       "colorFrom": "FFFFFFFF",
       "colorTo": "FFF68FFF"
     },

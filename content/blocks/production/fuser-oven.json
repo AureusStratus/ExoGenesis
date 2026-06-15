@@ -13,7 +13,7 @@
     "sizeTo": 7,
     "length": 0,
     "lifetime": 60,
-    "region": "exogenesis-fuser-lights",
+    "region": "exogenesisOld-fuser-lights",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E979AA",
     "cone": 360

@@ -351,7 +351,7 @@
       "bullet": {
         "type": "basicBulletType",
         "lifetime": 1,
-        "spawnUnit": "exogenesis-swarmer-missile"
+        "spawnUnit": "exogenesisOld-swarmer-missile"
       }
     },
     {
@@ -377,7 +377,7 @@
       "bullet": {
         "type": "basicBulletType",
         "lifetime": 1,
-        "spawnUnit": "exogenesis-swarmer-missile"
+        "spawnUnit": "exogenesisOld-swarmer-missile"
       }
     }
   ],

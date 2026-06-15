@@ -28,7 +28,7 @@
   "range": 300,
   "immunities": [
     "melting",
-    "exogenesis-militarian-buff",
+    "exogenesisOld-militarian-buff",
     "blasted",
     "burning",
     "slow"
@@ -58,7 +58,7 @@
       "ejectEffect": "none",
       "bullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-pointy-bullet",
+        "sprite": "exogenesisOld-pointy-bullet",
         "damage": 80,
         "height": 14,
         "width": 12,
@@ -273,7 +273,7 @@
         "colorTo": "FF875BFF",
         "region": "particle"
       },
-      "effect": "exogenesis-militarian-buff",
+      "effect": "exogenesisOld-militarian-buff",
       "range": 165,
       "reload": 264,
       "duration": 160

@@ -79,7 +79,7 @@
       ],
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesis-starlit-missile"
+        "spawnUnit": "exogenesisOld-starlit-missile"
       }
     },
     {
@@ -121,7 +121,7 @@
       ],
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "exogenesis-starlit-missile"
+        "spawnUnit": "exogenesisOld-starlit-missile"
       }
     }
   ]

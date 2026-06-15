@@ -226,7 +226,7 @@
               "length": 0,
               "spin": 7,
               "lifetime": 90,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -239,7 +239,7 @@
               "interp": "swingOut",
               "spin": -7,
               "lifetime": 90,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -301,7 +301,7 @@
           ]
         },
         "spin": 3,
-        "sprite": "exogenesis-asteroid-bullet",
+        "sprite": "exogenesisOld-asteroid-bullet",
         "trailColor": "66B1FFFF",
         "trailEffect": "none",
         "trailLength": 16,

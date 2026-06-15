@@ -185,7 +185,7 @@
         "damage": 560,
         "width": 19,
         "height": 19,
-        "sprite": "exogenesis-peircer",
+        "sprite": "exogenesisOld-peircer",
         "pierceCap": 3,
         "pierce": true,
         "shrinkY": 0,
@@ -225,7 +225,7 @@
         "fragBullets": 5,
         "fragBullet": {
           "type": "BasicBulletType",
-          "sprite": "exogenesis-peircer",
+          "sprite": "exogenesisOld-peircer",
           "speed": 5,
           "trailColor": "F3E979FF",
           "trailParam": 5,
@@ -301,7 +301,7 @@
               "length": 0,
               "spin": 11,
               "lifetime": 125,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "D99F6BFF",
               "colorTo": "F3E979FF"
             },
@@ -313,7 +313,7 @@
               "length": 0,
               "spin": -11,
               "lifetime": 125,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "D99F6BFF",
               "colorTo": "F3E979FF"
             }
@@ -376,7 +376,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 40,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -388,7 +388,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 40,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -436,7 +436,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 40,
-              "region": "exogenesis-wide",
+              "region": "exogenesisOld-wide",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -448,7 +448,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 40,
-              "region": "exogenesis-tall",
+              "region": "exogenesisOld-tall",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -489,7 +489,7 @@
         "frontColor": "FFFFFFF",
         "backColor": "F3E979FF",
         "statusDuration": 180,
-        "status": "exogenesis-system-crash",
+        "status": "exogenesisOld-system-crash",
         "hittable": false,
         "reflectable": true,
         "absorbable": false,

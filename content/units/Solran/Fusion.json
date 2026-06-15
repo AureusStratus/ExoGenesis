@@ -58,7 +58,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "collidesAir": true,
-        "status": "exogenesis-molten1",
+        "status": "exogenesisOld-molten1",
         "statusDuration": 50,
         "speed": 6,
         "damage": 40,
