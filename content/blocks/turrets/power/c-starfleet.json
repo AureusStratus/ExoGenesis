@@ -34,7 +34,7 @@
       "spin": 3,
       "interp": "swing",
       "lifetime": 100,
-      "region": "exogenesisOld-star",
+      "region": "star",
       "colorFrom": "A9D8FFFF",
       "colorTo": "A9D8FFFF"
     },
@@ -80,7 +80,7 @@
     "height": 9,
     "shrinkY": 0,
     "shrinkX": 0,
-    "sprite": "exogenesisOld-star-bullet"
+    "sprite": "star-bullet"
   },
   "requirements": [
     "copper/30",

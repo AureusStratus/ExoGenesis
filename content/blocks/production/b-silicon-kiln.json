@@ -16,7 +16,7 @@
         "lightColor": "66B1FFFF",
         "lifetime": 40,
         "layer": 109,
-        "region": "exogenesisOld-star",
+        "region": "star",
         "colorFrom": "FFFFFFF",
         "colorTo": "FFFFFFF"
       },
@@ -29,7 +29,7 @@
         "lightColor": "66B1FFFF",
         "lifetime": 40,
         "layer": 109,
-        "region": "exogenesisOld-star",
+        "region": "star",
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFFF"
       },

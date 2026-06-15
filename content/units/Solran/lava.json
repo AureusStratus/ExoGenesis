@@ -147,7 +147,7 @@
               "particles": 1,
               "lifetime": 10,
               "length": 0,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "sizeFrom": 36,
               "sizeTo": 0,
               "colorFrom": "ffcea0",

@@ -22,7 +22,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesisOld-peircer",
+    "sprite": "peircer",
     "chargeEffect": {
       "type": "multiEffect",
       "effects": [
@@ -91,7 +91,7 @@
     "fragBullets": 15,
     "fragBullet": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-peircer",
+      "sprite": "peircer",
       "absorbable": true,
       "speed": 4,
       "trailColor": "F3E979FF",

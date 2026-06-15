@@ -58,7 +58,7 @@
       "ejectEffect": "none",
       "bullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesisOld-pointy-bullet",
+        "sprite": "pointy-bullet",
         "damage": 80,
         "height": 14,
         "width": 12,

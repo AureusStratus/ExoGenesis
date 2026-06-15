@@ -185,7 +185,7 @@
         "damage": 560,
         "width": 19,
         "height": 19,
-        "sprite": "exogenesisOld-peircer",
+        "sprite": "peircer",
         "pierceCap": 3,
         "pierce": true,
         "shrinkY": 0,
@@ -225,7 +225,7 @@
         "fragBullets": 5,
         "fragBullet": {
           "type": "BasicBulletType",
-          "sprite": "exogenesisOld-peircer",
+          "sprite": "peircer",
           "speed": 5,
           "trailColor": "F3E979FF",
           "trailParam": 5,
@@ -301,7 +301,7 @@
               "length": 0,
               "spin": 11,
               "lifetime": 125,
-              "region": "exogenesisOld-wide",
+              "region": "wide",
               "colorFrom": "D99F6BFF",
               "colorTo": "F3E979FF"
             },
@@ -313,7 +313,7 @@
               "length": 0,
               "spin": -11,
               "lifetime": 125,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "D99F6BFF",
               "colorTo": "F3E979FF"
             }
@@ -376,7 +376,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 40,
-              "region": "exogenesisOld-wide",
+              "region": "wide",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -388,7 +388,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 40,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -436,7 +436,7 @@
               "length": 0,
               "spin": 9,
               "lifetime": 40,
-              "region": "exogenesisOld-wide",
+              "region": "wide",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },
@@ -448,7 +448,7 @@
               "length": 0,
               "spin": -9,
               "lifetime": 40,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "F3E979FF",
               "colorTo": "D99F6BFF"
             },

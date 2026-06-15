@@ -37,7 +37,7 @@
           "spin": 11,
           "lifetime": 80,
           "layer": 109,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "colorFrom": "66B1FFFF",
           "colorTo": "66B1FFFF",
           "cone": 360
@@ -48,7 +48,7 @@
           "length": 0,
           "sizeFrom": 2,
           "sizeTo": 30,
-          "region": "exogenesisOld-wide-thin",
+          "region": "wide-thin",
           "particles": 1,
           "lifetime": 80,
           "colorFrom": "66B1FFFF",
@@ -61,7 +61,7 @@
           "length": 0,
           "sizeFrom": 2,
           "sizeTo": 40,
-          "region": "exogenesisOld-tall-thin",
+          "region": "tall-thin",
           "particles": 1,
           "lifetime": 80,
           "colorFrom": "66B1FFFF",
@@ -130,7 +130,7 @@
           "spin": 4,
           "interp": "swing",
           "lifetime": 60,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "lightColor": "A9D8FFFF",
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
@@ -144,7 +144,7 @@
           "spin": 4,
           "interp": "swing",
           "lifetime": 60,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "lightColor": "A9D8FFFF",
           "colorFrom": "FFFFFFFF",
           "colorTo": "FFFFFFFF"
@@ -161,7 +161,7 @@
           "interp": "pow10Out",
           "lifetime": 70,
           "layer": 109,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
@@ -246,7 +246,7 @@
           "spin": 4,
           "interp": "swing",
           "lifetime": 60,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "lightColor": "A9D8FFFF",
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
@@ -260,7 +260,7 @@
           "spin": 4,
           "interp": "swing",
           "lifetime": 60,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "lightColor": "A9D8FFFF",
           "colorFrom": "FFFFFFFF",
           "colorTo": "FFFFFFFF"
@@ -277,7 +277,7 @@
           "interp": "pow10Out",
           "lifetime": 70,
           "layer": 109,
-          "region": "exogenesisOld-star",
+          "region": "star",
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
@@ -356,7 +356,7 @@
     "fragLifeMin": 0.8,
     "fragBullet": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-gauss-bullet",
+      "sprite": "guass-bullet",
       "absorbable": false,
       "shrinkY": 0,
       "shrinkX": 0,
@@ -386,7 +386,7 @@
             "spin": 3,
             "interp": "swing",
             "lifetime": 80,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "A9D8FFFF",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
@@ -419,7 +419,7 @@
             "spin": 3,
             "interp": "swing",
             "lifetime": 80,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "A9D8FFFF",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"

@@ -22,7 +22,7 @@
         "length": 0,
         "interp": "swingIn",
         "offsetX": 14,
-        "region": "exogenesisOld-wide",
+        "region": "wide",
         "lifetime": 20,
         "colorFrom": "BF92F950",
         "colorTo": "BF92F950"
@@ -35,7 +35,7 @@
         "length": 0,
         "interp": "swingIn",
         "offsetX": 14,
-        "region": "exogenesisOld-wide",
+        "region": "wide",
         "lifetime": 20,
         "colorFrom": "BF92F9FF",
         "colorTo": "BF92F9FF"
@@ -47,7 +47,7 @@
         "sizeTo": 0,
         "interp": "swingIn",
         "offsetX": 14,
-        "region": "exogenesisOld-wide",
+        "region": "wide",
         "length": 0,
         "lifetime": 20,
         "colorFrom": "FFFFFFF",
@@ -124,7 +124,7 @@
       "fragVelocityMin": 1,
       "fragBullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesisOld-peircer",
+        "sprite": "peircer",
         "status": "sapped",
         "damage": 120,
         "height": 17,

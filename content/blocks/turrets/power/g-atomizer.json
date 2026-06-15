@@ -60,7 +60,7 @@
       ]
     },
     "type": "basicBulletType",
-    "sprite": "exogenesisOld-plasma",
+    "sprite": "plasma",
     "hitSound": "plasmaboom",
     "status": "irradiated",
     "statusDuration": 300,
@@ -260,7 +260,7 @@
     "fragBullets": 12,
     "fragBullet": {
       "type": "basicBulletType",
-      "sprite": "exogenesisOld-electric-pulse",
+      "sprite": "electric-pulse",
       "status": "corroded",
       "statusDuration": 300,
       "height": 25,

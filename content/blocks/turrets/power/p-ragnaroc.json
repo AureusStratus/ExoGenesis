@@ -48,7 +48,7 @@
         "lifetime": 180,
         "interp": "swingIn",
         "layer": 109,
-        "region": "exogenesisOld-wide",
+        "region": "wide",
         "colorFrom": "A170F4FF",
         "colorTo": "A170F4FF"
       },
@@ -62,7 +62,7 @@
         "interp": "swingIn",
         "lifetime": 180,
         "layer": 109,
-        "region": "exogenesisOld-tall",
+        "region": "tall",
         "colorFrom": "A170F4FF",
         "colorTo": "A170F4FF"
       },

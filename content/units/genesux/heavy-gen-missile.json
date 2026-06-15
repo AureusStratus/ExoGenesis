@@ -228,7 +228,7 @@
                 "interp": "swing",
                 "lightColor": "66B1FFFF",
                 "lifetime": 30,
-                "region": "exogenesisOld-tall",
+                "region": "tall",
                 "colorFrom": "66B1FFFF",
                 "colorTo": "66B1FFFF"
               }

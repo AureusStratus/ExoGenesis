@@ -260,7 +260,7 @@
     {
       "type": "ShieldArcAbility",
       "radius": 60,
-      "region": "exogenesisOld-b05-sirius-shield",
+      "region": "b05-sirius-shield",
       "regen": 11,
       "drawArc": false,
       "width": 11,

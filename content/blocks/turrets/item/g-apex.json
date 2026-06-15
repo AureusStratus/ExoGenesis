@@ -98,7 +98,7 @@
   "ammoTypes": {
     "gamma-green": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-plasma",
+      "sprite": "plasma",
       "hitSoundVolume": 5,
       "hitSound": "largeExplosion",
       "scaleLife": true,
@@ -205,7 +205,7 @@
             "interp": "circleOut",
             "sizeInterp": "pow5In",
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas1",
+            "region": "plasma-gas1",
             "colorFrom": "BCFF73FF",
             "colorTo": "BCFF73FF"
           },
@@ -219,7 +219,7 @@
             "sizeInterp": "pow5In",
             "spin": 2,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas2",
+            "region": "plasma-gas2",
             "colorFrom": "BCFF73AA",
             "colorTo": "BCFF73AA"
           },
@@ -233,7 +233,7 @@
             "sizeInterp": "pow5In",
             "spin": 3,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas3",
+            "region": "plasma-gas3",
             "colorFrom": "BCFF7390",
             "colorTo": "BCFF7390"
           },
@@ -411,7 +411,7 @@
     },
     "thorium": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-plasma",
+      "sprite": "plasma",
       "scaleLife": true,
       "chargeEffect": {
         "type": "MultiEffect",

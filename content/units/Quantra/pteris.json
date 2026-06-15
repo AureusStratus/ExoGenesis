@@ -27,7 +27,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesisOld-disk-bullet",
+        "sprite": "disk-bullet",
         "damage": 10,
         "splashDamage": 15,
         "splashDamageRadius": 30,
@@ -43,7 +43,7 @@
           "particles": 1,
           "length": 0,
           "lifetime": 20,
-          "region": "exogenesisOld-disk-bullet-back",
+          "region": "disk-bullet-back",
           "lightColor": "73FFAEFF",
           "colorFrom": "73FFAEFF",
           "colorTo": "57D99300",

@@ -88,7 +88,7 @@
               "lightColor": "73FFAEFF",
               "lifetime": 30,
               "layer": 109,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -101,7 +101,7 @@
               "lightColor": "73FFAEFF",
               "lifetime": 30,
               "layer": 109,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "colorFrom": "FFFFFFF",
               "colorTo": "FFFFFFF"
             }
@@ -113,7 +113,7 @@
           "length": 0,
           "lifetime": 25,
           "interp": "swingIn",
-          "region": "exogenesisOld-spikething",
+          "region": "spikething",
           "offsetX": 3,
           "sizeFrom": 10,
           "sizeTo": 1,
@@ -410,7 +410,7 @@
               "spin": 10,
               "interp": "swingOut",
               "lifetime": 160,
-              "region": "exogenesisOld-wide",
+              "region": "wide",
               "colorFrom": "66B1FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -423,7 +423,7 @@
               "spin": -10,
               "interp": "swingOut",
               "lifetime": 160,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "66B1FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -488,7 +488,7 @@
           ]
         },
         "type": "empBulletType",
-        "sprite": "exogenesisOld-star-core-bullet",
+        "sprite": "star-core-bullet",
         "status": "high-energy-blast",
         "timeIncrease": 0,
         "powerDamageScl": 1,
@@ -763,7 +763,7 @@
         "fragLifeMin": 0.2,
         "fragBullet": {
           "type": "basicBulletType",
-          "sprite": "exogenesisOld-energy-partical",
+          "sprite": "energy-partical",
           "hitEffect": {
             "type": "ParticleEffect",
             "line": true,
@@ -783,7 +783,7 @@
             "length": 0,
             "interp": "swingIn",
             "spin": 7,
-            "region": "exogenesisOld-energy-partical-back",
+            "region": "energy-partical-back",
             "sizeFrom": 20,
             "sizeTo": 0,
             "colorFrom": "A9D8FFFF",
@@ -826,7 +826,7 @@
         "type": "EmpBulletType",
         "width": 22,
         "height": 22,
-        "sprite": "exogenesisOld-plasma",
+        "sprite": "plasma",
         "frontColor": "FFFFFF",
         "backColor": "66B1FFFF",
         "lifetime": 120,
@@ -916,7 +916,7 @@
               "lightColor": "73FFAEFF",
               "lifetime": 30,
               "layer": 109,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -929,14 +929,14 @@
               "lightColor": "73FFAEFF",
               "lifetime": 30,
               "layer": 109,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "colorFrom": "FFFFFFF",
               "colorTo": "FFFFFFF"
             }
           ]
         },
         "spin": 3,
-        "sprite": "exogenesisOld-energy-partical",
+        "sprite": "energy-partical",
         "trailColor": "66B1FFFF",
         "trailEffect": "none",
         "trailLength": 16,

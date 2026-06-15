@@ -189,7 +189,7 @@
       "ejectEffect": "none",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesisOld-pointy-bullet",
+        "sprite": "pointy-bullet",
         "damage": 200,
         "collidesTeam": true,
         "healPercent": 20,
@@ -201,7 +201,7 @@
           "particles": 1,
           "length": 0,
           "lifetime": 30,
-          "region": "exogenesisOld-tall",
+          "region": "tall",
           "lightColor": "73FFAEFF",
           "colorFrom": "73FFAEFF",
           "colorTo": "57D99300",

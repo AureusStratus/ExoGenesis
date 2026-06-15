@@ -32,7 +32,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesisOld-plasma",
+    "sprite": "plasma",
     "absorbable": true,
     "shrinkY": 0.1,
     "shrinkX": 0.1,

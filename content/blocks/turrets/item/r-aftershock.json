@@ -215,7 +215,7 @@
         "lifetime": 15,
         "length": 0,
         "interp": "swingIn",
-        "region": "exogenesisOld-tall",
+        "region": "tall",
         "sizeFrom": 46,
         "sizeTo": 0,
         "colorFrom": "FF5845FF",
@@ -302,7 +302,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "FF5845FF",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
@@ -315,7 +315,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "FF5845FF",
             "colorFrom": "FFC1BBFF",
             "colorTo": "FFC1BBFF"
@@ -465,7 +465,7 @@
         "lifetime": 15,
         "length": 0,
         "interp": "swingIn",
-        "region": "exogenesisOld-tall",
+        "region": "tall",
         "sizeFrom": 46,
         "sizeTo": 0,
         "colorFrom": "FF5845FF",
@@ -536,7 +536,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "F3E979FF",
             "colorFrom": "F3E979FF",
             "colorTo": "F3E979FF"
@@ -549,7 +549,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "F3E979FF",
             "colorFrom": "ffffff",
             "colorTo": "ffffff"

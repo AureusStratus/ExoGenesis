@@ -206,7 +206,7 @@
       "shootSound": "largeCannon",
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "exogenesisOld-energy-projectile",
+        "sprite": "energy-projectile",
         "status": "molten1",
         "damage": 800,
         "pierceBuilding": true,
@@ -327,7 +327,7 @@
               "particles": 1,
               "lifetime": 10,
               "length": 0,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "sizeFrom": 42,
               "sizeTo": 0,
               "colorFrom": "ffcea0",

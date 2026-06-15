@@ -503,7 +503,7 @@
   "rotateSpeed": 0.7,
   "shootType": {
     "type": "basicBulletType",
-    "sprite": "exogenesisOld-energy-projectile",
+    "sprite": "energy-projectile",
     "shootEffect": {
       "type": "multiEffect",
       "lifetime": 80,
@@ -590,7 +590,7 @@
           "interp": "circleOut",
           "layer": 109,
           "lifetime": 40,
-          "region": "exogenesisOld-tall",
+          "region": "tall",
           "colorFrom": "66B1FFFF",
           "colorTo": "66B1FFFF"
         },

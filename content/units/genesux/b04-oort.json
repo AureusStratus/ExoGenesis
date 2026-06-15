@@ -226,7 +226,7 @@
               "length": 0,
               "spin": 7,
               "lifetime": 90,
-              "region": "exogenesisOld-wide",
+              "region": "wide",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -239,7 +239,7 @@
               "interp": "swingOut",
               "spin": -7,
               "lifetime": 90,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },

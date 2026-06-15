@@ -107,7 +107,7 @@
 "stroke": 2.5,
 "radius": 0,
 "radiusTo": 65
-}
+},
 {
 "type": "RegionPart",
 "suffix": "-barrel",
@@ -337,7 +337,7 @@
 "lightningCone": 8,
 "lightningLengthRand": 30,
 "damage": 38,
-"lightningLength": 25
+"lightningLength": 25,
 "despawnHit": true,
 "hitEffect": {
 "type":"multiEffect",

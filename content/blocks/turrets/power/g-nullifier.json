@@ -22,7 +22,7 @@
   "hasPower": true,
   "shootType": {
     "type": "basicBulletType",
-    "sprite": "exogenesisOld-plasma",
+    "sprite": "plasma",
     "hitSound": "plasmaboom",
     "chargeEffect": {
       "type": "multiEffect",
@@ -212,7 +212,7 @@
     "fragBullets": 7,
     "fragBullet": {
       "type": "basicBulletType",
-      "sprite": "exogenesisOld-plasma",
+      "sprite": "plasma",
       "status": "corroded",
       "statusDuration": 300,
       "height": 15,

@@ -23,7 +23,7 @@
   "hasPower": true,
   "shootType": {
     "type": "EmpBulletType",
-    "sprite": "exogenesisOld-energy-partical",
+    "sprite": "energy-partical",
     "chargeEffect": {
       "type": "WaveEffect",
       "lifetime": 90,
@@ -37,7 +37,7 @@
     "chargeBeginEffect": {
       "type": "ParticleEffect",
       "particles": 1,
-      "region": "exogenesisOld-energy-partical-back",
+      "region": "energy-partical-back",
       "sizeFrom": 0,
       "sizeTo": 17,
       "interp": "swingOut",
@@ -148,7 +148,7 @@
     "fragBullets": 6,
     "fragBullet": {
       "type": "basicBulletType",
-      "sprite": "exogenesisOld-energy-partical",
+      "sprite": "energy-partical",
       "status": "electrified",
       "trailColor": "84F491FF",
       "trailParam": 5,

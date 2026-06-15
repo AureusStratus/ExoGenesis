@@ -94,7 +94,7 @@
         "damage": 160,
         "width": 18,
         "height": 26,
-        "sprite": "exogenesisOld-peircer",
+        "sprite": "peircer",
         "pierceCap": 3,
         "pierce": true,
         "shrinkY": 0,

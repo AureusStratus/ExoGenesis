@@ -26,7 +26,7 @@
   "shootSound": "shootBig",
   "ammoTypes": {
     "thorium": {
-      "sprite": "exogenesisOld-gauss-bullet",
+      "sprite": "guass-bullet",
       "speed": 8,
       "height": 42,
       "width": 25,
@@ -50,7 +50,7 @@
             "length": 0,
             "lifetime": 15,
             "interp": "swingIn",
-            "region": "exogenesisOld-spikething",
+            "region": "spikething",
             "offsetX": 8,
             "sizeFrom": 25,
             "sizeTo": 1,
@@ -223,7 +223,7 @@
       "status": "blasted"
     },
     "metaglass": {
-      "sprite": "exogenesisOld-gauss-bullet",
+      "sprite": "guass-bullet",
       "speed": 8,
       "height": 42,
       "width": 25,
@@ -247,7 +247,7 @@
             "length": 0,
             "lifetime": 15,
             "interp": "swingIn",
-            "region": "exogenesisOld-spikething",
+            "region": "spikething",
             "offsetX": 8,
             "sizeFrom": 25,
             "sizeTo": 1,
@@ -403,7 +403,7 @@
       }
     },
     "surge-alloy": {
-      "sprite": "exogenesisOld-gauss-bullet",
+      "sprite": "guass-bullet",
       "status": "surge-charge",
       "statusDuration": "100",
       "speed": 8,
@@ -428,7 +428,7 @@
             "length": 0,
             "lifetime": 15,
             "interp": "swingIn",
-            "region": "exogenesisOld-spikething",
+            "region": "spikething",
             "offsetX": 8,
             "sizeFrom": 25,
             "sizeTo": 1,
@@ -640,7 +640,7 @@
       "lightningColor": "F3E979FF"
     },
     "voltirium-alloy": {
-      "sprite": "exogenesisOld-gauss-bullet",
+      "sprite": "guass-bullet",
       "speed": 8,
       "height": 42,
       "width": 25,
@@ -662,7 +662,7 @@
             "length": 0,
             "lifetime": 15,
             "interp": "swingIn",
-            "region": "exogenesisOld-spikething",
+            "region": "spikething",
             "offsetX": 8,
             "sizeFrom": 25,
             "sizeTo": 1,

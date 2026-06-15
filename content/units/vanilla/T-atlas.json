@@ -810,7 +810,7 @@
 "interp": "swing",
 "lightColor": "8ca9e8",
 "lifetime": 30,
-"region": "exogenesisOld-tall",
+"region": "tall",
 "colorFrom": "aec6ff",
 "colorTo": "8ca9e8"
 }

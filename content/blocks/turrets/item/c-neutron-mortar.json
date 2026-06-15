@@ -64,7 +64,7 @@
             "lightColor": "73FFAEFF",
             "lifetime": 30,
             "layer": 109,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
           },
@@ -92,7 +92,7 @@
             "spin": 3,
             "interp": "swing",
             "lifetime": 60,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "lightColor": "A9D8FFFF",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
@@ -119,7 +119,7 @@
             "baseLength": 10,
             "lifetime": 60,
             "spin": 5,
-            "region": "exogenesisOld-star",
+            "region": "star",
             "interp": "circleOut",
             "layer": 106,
             "sizeFrom": 8,
@@ -170,7 +170,7 @@
       "fragAngle": 35,
       "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesisOld-star-bullet",
+        "sprite": "star-bullet",
         "absorbable": true,
         "shootEffect": {
           "type": "ParticleEffect",
@@ -214,7 +214,7 @@
               "spin": 3,
               "interp": "swing",
               "lifetime": 60,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "lightColor": "A9D8FFFF",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
@@ -244,7 +244,7 @@
               "spin": 3,
               "interp": "swing",
               "lifetime": 60,
-              "region": "exogenesisOld-star",
+              "region": "star",
               "lightColor": "A9D8FFFF",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"

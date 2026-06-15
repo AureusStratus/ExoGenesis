@@ -106,7 +106,7 @@
               "length": 0,
               "lifetime": 25,
               "layer": 109,
-              "region": "exogenesisOld-tall",
+              "region": "tall",
               "colorFrom": "ffcea0",
               "colorTo": "ff7048"
             },
