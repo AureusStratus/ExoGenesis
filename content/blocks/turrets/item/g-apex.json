@@ -179,7 +179,7 @@
         "effects": [
           {
             "type": "ParticleEffect",
-            "region": "exogenesisOld-raysingle",
+            "region": "exogenesisold-raysingle",
             "lightOpacity": 0.5,
             "particles": 1,
             "length": 0,
@@ -205,7 +205,7 @@
             "interp": "circleOut",
             "sizeInterp": "pow5In",
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas1",
+            "region": "exogenesisold-plasma-gas1",
             "colorFrom": "BCFF73FF",
             "colorTo": "BCFF73FF"
           },
@@ -219,7 +219,7 @@
             "sizeInterp": "pow5In",
             "spin": 2,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas2",
+            "region": "exogenesisold-plasma-gas2",
             "colorFrom": "BCFF73AA",
             "colorTo": "BCFF73AA"
           },
@@ -233,7 +233,7 @@
             "sizeInterp": "pow5In",
             "spin": 3,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas3",
+            "region": "exogenesisold-plasma-gas3",
             "colorFrom": "BCFF7390",
             "colorTo": "BCFF7390"
           },

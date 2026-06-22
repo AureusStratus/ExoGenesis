@@ -39,7 +39,7 @@
             "offsetX": -48,
             "layer": 109,
             "lifetime": 130,
-            "region": "exogenesisOld-hypernova-light-rune8",
+            "region": "exogenesisold-hypernova-light-rune8",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -52,7 +52,7 @@
             "offsetX": -48,
             "layer": 109,
             "lifetime": 130,
-            "region": "exogenesisOld-hypernova-light-rune7",
+            "region": "exogenesisold-hypernova-light-rune7",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -65,7 +65,7 @@
             "offsetX": -48,
             "layer": 109,
             "lifetime": 140,
-            "region": "exogenesisOld-hypernova-light-rune6",
+            "region": "exogenesisold-hypernova-light-rune6",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -78,7 +78,7 @@
             "offsetX": -47.7,
             "layer": 109,
             "lifetime": 150,
-            "region": "exogenesisOld-hypernova-light-rune5",
+            "region": "exogenesisold-hypernova-light-rune5",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -91,7 +91,7 @@
             "offsetX": -47.7,
             "layer": 109,
             "lifetime": 160,
-            "region": "exogenesisOld-hypernova-light-rune4",
+            "region": "exogenesisold-hypernova-light-rune4",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -104,7 +104,7 @@
             "offsetX": -47.7,
             "layer": 109,
             "lifetime": 170,
-            "region": "exogenesisOld-hypernova-light-rune3",
+            "region": "exogenesisold-hypernova-light-rune3",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -117,7 +117,7 @@
             "offsetX": -47.7,
             "layer": 109,
             "lifetime": 180,
-            "region": "exogenesisOld-hypernova-light-rune2",
+            "region": "exogenesisold-hypernova-light-rune2",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -130,7 +130,7 @@
             "offsetX": -47.7,
             "layer": 109,
             "lifetime": 200,
-            "region": "exogenesisOld-hypernova-light-rune1",
+            "region": "exogenesisold-hypernova-light-rune1",
             "colorFrom": "303136FF",
             "colorTo": "66B1FFFF"
           },
@@ -367,7 +367,7 @@
             "lifetime": 200,
             "layer": 106,
             "spin": -3.3,
-            "region": "exogenesisOld-blackhole-pulse",
+            "region": "exogenesisold-blackhole-pulse",
             "interp": "pow3Out",
             "sizeFrom": 200,
             "sizeTo": 0,
@@ -381,7 +381,7 @@
             "lifetime": 200,
             "layer": 106,
             "spin": -6.3,
-            "region": "exogenesisOld-blackhole-pulse",
+            "region": "exogenesisold-blackhole-pulse",
             "interp": "pow3Out",
             "sizeFrom": 165,
             "sizeTo": 0,
@@ -580,7 +580,7 @@
                 "lifetime": 200,
                 "layer": 106,
                 "spin": -6.3,
-                "region": "exogenesisOld-blackhole-pulse",
+                "region": "exogenesisold-blackhole-pulse",
                 "interp": "pow3Out",
                 "sizeFrom": 165,
                 "sizeTo": 0,

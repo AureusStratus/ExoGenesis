@@ -309,7 +309,7 @@
       "shootSound": "plasmaboom",
       "bullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesisOld-star-core-bullet",
+        "sprite": "exogenesisold-star-core-bullet",
         "status": {
           "name": "solar1-flare",
           "reloadMultiplier": 0.5,
@@ -423,7 +423,7 @@
               "sizeTo": 0,
               "length": 0,
               "spin": 7,
-              "region": "exogenesisOld-raydouble",
+              "region": "exogenesisold-raydouble",
               "layer": 108,
               "lifetime": 56,
               "colorFrom": "FF5845FF",
@@ -555,7 +555,7 @@
               "sizeTo": 0,
               "length": 0,
               "spin": 7,
-              "region": "exogenesisOld-raydouble",
+              "region": "exogenesisold-raydouble",
               "layer": 108,
               "lifetime": 56,
               "colorFrom": "FF5845FF",
@@ -845,7 +845,7 @@
             "sizeTo": 30,
             "spin": 12,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas1",
+            "region": "exogenesisold-plasma-gas1",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           },
@@ -857,7 +857,7 @@
             "sizeTo": 25,
             "spin": 14,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas2",
+            "region": "exogenesisold-plasma-gas2",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           },
@@ -869,7 +869,7 @@
             "sizeTo": 20,
             "spin": 16,
             "particles": 1,
-            "region": "exogenesisOld-plasma-gas3",
+            "region": "exogenesisold-plasma-gas3",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"
           }
@@ -913,7 +913,7 @@
         "sizeTo": 0,
         "length": 0,
         "spin": 7,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "layer": 108,
         "lifetime": 56,
         "colorFrom": "FF5845FF",
@@ -927,7 +927,7 @@
         "sizeTo": 0,
         "length": 0,
         "spin": -7,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "layer": 108,
         "lifetime": 56,
         "colorFrom": "FF5845FF",

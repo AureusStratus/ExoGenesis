@@ -26,7 +26,7 @@
   "ammoTypes": {
     "graphite": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-impactor",
+      "sprite": "exogenesisold-impactor",
       "speed": 7,
       "spin": 0.6,
       "damage": 10000,
@@ -367,7 +367,7 @@
     },
     "volcanite": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-impactor",
+      "sprite": "exogenesisold-impactor",
       "speed": 7,
       "spin": 0.6,
       "height": 45,
@@ -707,7 +707,7 @@
     },
     "tungsten": {
       "type": "BasicBulletType",
-      "sprite": "exogenesisOld-impactor",
+      "sprite": "exogenesisold-impactor",
       "speed": 7,
       "spin": 0.6,
       "height": 45,

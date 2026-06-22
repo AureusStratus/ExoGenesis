@@ -2,7 +2,7 @@
 
 My discord aureusaltirius#0000
 
-Official exogenesisOld youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
+Official exogenesisold youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
 
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.

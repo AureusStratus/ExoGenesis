@@ -92,7 +92,7 @@
         "interp": "swingIn",
         "lifetime": 125,
         "layer": 109,
-        "region": "exogenesisOld-runic-circle",
+        "region": "exogenesisold-runic-circle",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F4F00",
         "cone": 360
@@ -108,7 +108,7 @@
         "spin": -11,
         "lifetime": 125,
         "layer": 109,
-        "region": "exogenesisOld-runic-circle",
+        "region": "exogenesisold-runic-circle",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F4F00",
         "cone": 360
@@ -122,7 +122,7 @@
         "offsetX": 2.5,
         "spin": 1,
         "lifetime": 120,
-        "region": "exogenesisOld-rune1",
+        "region": "exogenesisold-rune1",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -135,7 +135,7 @@
         "length": 80,
         "spin": 1,
         "lifetime": 110,
-        "region": "exogenesisOld-rune2",
+        "region": "exogenesisold-rune2",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -148,7 +148,7 @@
         "length": 85,
         "spin": 1,
         "lifetime": 100,
-        "region": "exogenesisOld-rune3",
+        "region": "exogenesisold-rune3",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -160,7 +160,7 @@
         "length": 90,
         "spin": -1,
         "lifetime": 90,
-        "region": "exogenesisOld-rune4",
+        "region": "exogenesisold-rune4",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -172,7 +172,7 @@
         "length": 95,
         "spin": -1,
         "lifetime": 80,
-        "region": "exogenesisOld-rune5",
+        "region": "exogenesisold-rune5",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       },
@@ -184,7 +184,7 @@
         "length": 100,
         "spin": -1,
         "lifetime": 70,
-        "region": "exogenesisOld-rune6",
+        "region": "exogenesisold-rune6",
         "colorFrom": "774ACFFF",
         "colorTo": "A170F400"
       }
@@ -206,7 +206,7 @@
   },
   "hasPower": true,
   "shootType": {
-    "sprite": "exogenesisOld-wavee",
+    "sprite": "exogenesisold-wavee",
     "collidesTiles": true,
     "reflectable": false,
     "hittable": false,
@@ -240,7 +240,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesisOld-rune2",
+          "region": "exogenesisold-rune2",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -253,7 +253,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesisOld-rune3",
+          "region": "exogenesisold-rune3",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -265,7 +265,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesisOld-rune4",
+          "region": "exogenesisold-rune4",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -277,7 +277,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesisOld-rune5",
+          "region": "exogenesisold-rune5",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"
@@ -289,7 +289,7 @@
           "length": 18,
           "baseLength": 18,
           "lifetime": 30,
-          "region": "exogenesisOld-rune6",
+          "region": "exogenesisold-rune6",
           "lightColor": "A170F4FF",
           "colorFrom": "A170F4FF",
           "colorTo": "A170F400"

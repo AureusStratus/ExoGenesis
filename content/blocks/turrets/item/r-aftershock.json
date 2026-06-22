@@ -302,7 +302,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "region": "star",
+            "region": "exogenesisold-star",
             "lightColor": "FF5845FF",
             "colorFrom": "FF5845FF",
             "colorTo": "FF5845FF"

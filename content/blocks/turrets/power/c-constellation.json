@@ -23,7 +23,7 @@
   },
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "exogenesisOld-starenergy-bullet",
+    "sprite": "exogenesisold-starenergy-bullet",
     "chargeEffect": {
       "type": "MultiEffect",
       "lifetime": 80,

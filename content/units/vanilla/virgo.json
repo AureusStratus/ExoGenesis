@@ -297,7 +297,7 @@
         "lifetime": 20,
         "sizeFrom": 20,
         "sizeTo": 0,
-        "region": "exogenesisOld-heal",
+        "region": "exogenesisold-heal",
         "colorFrom": "84F491FF",
         "colorTo": "84F491FF"
       },

@@ -29,7 +29,7 @@
       {
         "type": "ParticleEffect",
         "particles": 1,
-        "region": "exogenesisOld-shape2",
+        "region": "exogenesisold-shape2",
         "interp": "swing",
         "lifetime": 14,
         "length": 0,

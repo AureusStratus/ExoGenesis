@@ -16,24 +16,24 @@
       "unit": "radiative",
       "requirements": [
         "tungsten-wall-large/13",
-        "exogenesisOld-sol/6"
+        "exogenesisold-sol/6"
       ],
       "time": 3600
     },
     {
       "unit": "core",
       "requirements": [
-        "exogenesisOld-o-large-primal-wall/20",
-        "exogenesisOld-corona/6"
+        "exogenesisold-o-large-primal-wall/20",
+        "exogenesisold-corona/6"
       ],
       "time": 10800
     },
     {
       "unit": "Fusion",
       "requirements": [
-        "exogenesisOld-o-large-primal-wall/24",
+        "exogenesisold-o-large-primal-wall/24",
         "tungsten-wall-large/8",
-        "exogenesisOld-photosphere/3"
+        "exogenesisold-photosphere/3"
       ],
       "time": 12600
     }

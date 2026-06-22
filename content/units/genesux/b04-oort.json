@@ -301,7 +301,7 @@
           ]
         },
         "spin": 3,
-        "sprite": "exogenesisOld-asteroid-bullet",
+        "sprite": "exogenesisold-asteroid-bullet",
         "trailColor": "66B1FFFF",
         "trailEffect": "none",
         "trailLength": 16,

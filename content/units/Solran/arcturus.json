@@ -743,7 +743,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": -5,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -757,7 +757,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": -5,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -771,7 +771,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": 5,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -785,7 +785,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "spin": 5,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -799,7 +799,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "baseRotation": 45,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
@@ -813,7 +813,7 @@
         "lightColor": "FF5845FF",
         "interp": "swingIn",
         "baseRotation": 45,
-        "region": "exogenesisOld-raydouble",
+        "region": "exogenesisold-raydouble",
         "lifetime": 200,
         "colorFrom": "FF5845FF",
         "colorTo": "FF5845FF"
