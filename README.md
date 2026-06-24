@@ -21,7 +21,7 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific
 planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold
 energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made
-out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like
+out of metal material formed from various metals and cold energy. Little is understood of their goal, but it seems like
 nothing is gonna stop them from achieving it.
 
 `Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have
